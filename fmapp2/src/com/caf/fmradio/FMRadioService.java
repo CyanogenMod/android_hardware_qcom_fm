@@ -34,6 +34,7 @@ import java.io.IOException;
 import java.lang.ref.WeakReference;
 
 import android.app.AlarmManager;
+import android.app.Notification.Builder;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -177,6 +178,10 @@ public class FMRadioService extends Service
    static final int RECORD_START = 1;
    static final int RECORD_STOP = 0;
    private Thread mRecordServiceCheckThread = null;
+
+   private Notification.Builder mRadioNotification;
+   private Notification mNotificationInstance;
+   private NotificationManager mNotificationManager;
 
    public FMRadioService() {
    }
@@ -1282,27 +1287,28 @@ public class FMRadioService extends Service
 
    /* Show the FM Notification */
    public void startNotification() {
-      RemoteViews views = new RemoteViews(getPackageName(), R.layout.statusbar);
-      views.setImageViewResource(R.id.icon, R.drawable.stat_notify_fm);
-      if (isFmOn())
-      {
-         views.setTextViewText(R.id.frequency, getTunedFrequencyString());
-      } else
-      {
-         views.setTextViewText(R.id.frequency, "");
-      }
+      mRadioNotification = new Notification.Builder(this)
+              .setSmallIcon(R.drawable.stat_notify_fm)
+              .setOngoing(true)
+              .setWhen(0);
 
-      Notification status = new Notification();
-      status.contentView = views;
-      status.flags |= Notification.FLAG_ONGOING_EVENT;
-      status.icon = R.drawable.stat_notify_fm;
-      status.contentIntent = PendingIntent.getActivity(this, 0,
-                                                       new Intent("com.caf.fmradio.FMRADIO_ACTIVITY"), 0);
-      startForeground(FMRADIOSERVICE_STATUS, status);
-      //NotificationManager nm = (NotificationManager)
-      //                         getSystemService(Context.NOTIFICATION_SERVICE);
-      //nm.notify(FMRADIOSERVICE_STATUS, status);
-      //setForeground(true);
+      PendingIntent resultIntent = PendingIntent.getActivity(this, 0,
+              new Intent("com.caf.fmradio.FMRADIO_ACTIVITY"), 0);
+      mRadioNotification.setContentIntent(resultIntent);
+
+      mNotificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+      if (isFmOn()) {
+          mRadioNotification.setContentTitle(getString(R.string.app_name))
+                  .setContentText(getTunedFrequencyString());
+      } else {
+          mRadioNotification.setContentTitle("")
+                  .setContentText("");
+      }
+      mNotificationInstance = mRadioNotification.getNotification();
+      mNotificationManager.notify(FMRADIOSERVICE_STATUS, mNotificationInstance);
+
+      startForeground(FMRADIOSERVICE_STATUS, mNotificationInstance);
+
       mFMOn = true;
    }
 
