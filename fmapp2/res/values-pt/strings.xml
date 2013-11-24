@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Rádio FM</string>
+    <string name="tx_app_name">FM Tx</string>
+
+    <string name="default_sleep"></string>
+    <string name="menu_add_to_preset">Memorizar</string>
+    <string name="menu_settings">Definições</string>
+    <string name="menu_record_start">Iniciar Gravação</string>
+    <string name="menu_record_stop">Parar Gravação</string>
+    <string name="menu_all_channels">Todos os Canais</string>
+    <string name="app_label_all_channels">Todos os Canais</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_delete">Apagar</string>
+    <string name="error_sdcard_access">Impossível Aceder ao cartão SD</string>
+    <string name="fm_service_started">Serviço FM</string>
+    <string name="menu_sleep">Desligar Automaticamente</string>
+    <string name="menu_sleep_cancel">Cancelar Desligar Automático</string>
+    <string name="menu_wired_headset">Auricular com fios</string>
+    <string name="menu_speaker_on">Ativar Altifalante</string>
+    <string name="menu_display_tags">Mostrar Etiquetas</string>
+    <string name="menu_speaker_off">Desativar Altifalante</string>
+    <string name="menu_scan_start">Iniciar Pesquisa</string>
+    <string name="menu_scan_stop">Parar Pesquisa</string>
+    <string name="menu_stats">Estatísticas FM RF</string>
+    <string name="button_text_stop">Parar</string>
+    <string name="msg_seeking">Pesquisando estação FM</string>
+    <string name="msg_scanning">Pesquisando todas as estações FM</string>
+    <string name="msg_scanning_pty">Pesquisando por "<xliff:g id="pty_name">%1$s</xliff:g>"</string>
+    <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+    <string name="msg_searching">Pesquisando estações fortes para criar uma lista automática </string>
+    <string name="msg_searching_title">Memorização Automática</string>
+    <string name="msg_weak_searching">Procurando frequências para transmissão</string>
+
+    <string name="msg_noantenna">Por favor ligue os auriculares com fio para usar o rádio FM</string>
+    <string name="msg_headsetpluggedin">Desligue todos os auriculares para usar FM Tx</string>
+    <string name="msg_callactive">FM Tx não é suportado durante chamadas de voz</string>
+    <string name="dialog_sleep_title">Selecionar Tempo para Desligar Automaticamente</string>
+    <string name="preset_select_name">Selecionar "<xliff:g id="preset_name">%1$s</xliff:g>"</string>
+    <string name="presetlist_select_name">Selecionar "<xliff:g id="presetlist_name">%1$s</xliff:g>"</string>
+    <string name="presetlist_add_new">Criar Nova Lista</string>
+    <string name="dialog_presetlist_title">Listas de Estações</string>
+    <string name="presetlist_prefix_name">FM - </string>
+    <string name="dialog_presetlist_rename_title">Introduza um nome </string>
+    <string name="dialog_preset_rename_title">Introduza um nome </string>
+    <string name="presetlist_delete_name">Apagar "<xliff:g id="presetlist_name">%1$s</xliff:g>" e as suas estações?</string>
+    <string name="presetlist_autoselect_title">Confirmar Escolha Automática</string>
+    <string name="presetlist_autoselect_name">A Escolha Automática irá apagar todas as estações da lista  "<xliff:g id="presetlist_name">%1$s</xliff:g>", Continuar?</string>
+    <string name="fmtx_autoselect_name">Auto-Select will delete all the Presets, Continue?</string>
+
+    <string name="enter_frequency">Sintonizar Estação</string>
+    <string name="enter_new_frequency_title">Introduza a frequência </string>
+
+    <string name="preset_now_playing">Tocando </string>
+    <string name="preset_pref_title">"<xliff:g id="preset_name">%1$s</xliff:g>"
+        (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
+    <string name="preset_delete_title">Apagar Memória</string>
+
+    <string name="preset_delete_name">Apagar "<xliff:g id="preset_name">%1$s</xliff:g>" de "<xliff:g id="presetlist_name">%2$s</xliff:g>"</string>
+
+    <string name="preset_confirm_delete_name">Apagar "<xliff:g id="preset_name">%1$s</xliff:g>" de "<xliff:g id="presetlist_name">%2$s</xliff:g>" ?</string>
+
+    <string name="preset_name_dialog_title">Enter a name </string>
+    <string name="preset_name_summary">"<xliff:g id="preset_name">%1$s</xliff:g>" </string>
+    <string name="preset_name_title">Renomear</string>
+
+    <string name="preset_search_title">Pesquisar</string>
+    <string name="preset_search_name">Pesquisar por "<xliff:g id="preset_name">%1$s</xliff:g>"</string>
+
+    <string name="preset_preference_title">Estações FM em "<xliff:g id="preset_name">%1$s</xliff:g>" </string>
+
+    <string name="preset_empty_title">Lista de Estações vazia</string>
+    <string name="preset_empty_add_summary">Adicionar Estações</string>
+
+    <string name="preset_add">Adicionar</string>
+    <string name="preset_replace">Substituir</string>
+    <string name="preset_tune">Sintonizar</string>
+    <string name="preset_rename">Renomear</string>
+    <string name="preset_delete">Apagar</string>
+    <string name="preset_search">Pesquisar por "<xliff:g id="preset_pi">%1$s</xliff:g>"</string>
+
+    <string name="stat_notif_frequency">"<xliff:g id="frequency">%1$s</xliff:g>" MHz</string>
+    <string name="stat_notif_tx_frequency">Transmitindo em: "<xliff:g id="frequency">%1$s</xliff:g>"</string>
+
+
+    <string name="sel_band_menu">Select Regional Band</string>
+    <string name="test_menu">Select Test</string>
+
+    <string name="settings_menu">Definições</string>
+    <string name="regional_band">Regional Band</string>
+
+    <string name="aud_output_mode">Modo de Saída Audio</string>
+    <string name="sel_audio_output">Escolher Saída Audio</string>
+
+    <string name="record_dur">Duração da Gravação</string>
+    <string name="sel_rec_dur">Escolher Duração da Gravação</string>
+
+    <string name="auto_select_af">Frequência Alternativa</string>
+    <string name="auto_select_af_enabled">Seleção Automática Ligada</string>
+    <string name="auto_select_af_disabled">Seleção Automática Desligada</string>
+
+    <string name="fac_defaults">Repor Definições de Fábrica</string>
+    <string name="revert_to_fac">Repor Definições de Fábrica</string>
+    <string name="settings_back">Regressar</string>
+
+    <string name="settings_revert_confirm_title">Confirmar Reposição das Definições</string>
+    <string name="settings_revert_confirm_msg">Todas as definições serão repostas, assim como as estações memorizadas</string>
+
+    <string name="settings_back_summary">Regressar à vista anterior</string>
+    <string name="settings_revert_defaults_title">Repor Definições de Fábrica</string>
+    <string name="settings_revert_defaults_summary">Repor todas as Definições</string>
+
+    <string name="audio_type_stereo">Estéreo</string>
+    <string name="audio_type_mono">Mono</string>
+
+    <string name="default_band">United States</string>
+    <string name="default_audio">Estéreo</string>
+    <string name="default_record_duration">5 minutos</string>
+    <string name="factory_reset_dialog_title">Confirmar Reposição</string>
+    <string name="factory_reset_dialog_message">Todas as definições serão repostas, assim como as estações memorizadas</string>
+    <string name="station_move">Mover</string>
+    <string name="station_edit">Editar</string>
+    <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+    <string name="no_storage">Monte o cartão SD antes de iniciar a gravação.</string>
+    <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+    <string name="preparing_sd">Preparando o cartão SD</string>
+    <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+    <string name="access_sd_fail">Não foi possível aceder ao cartão SD.</string>
+    <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+    <string name="spaceIsLow_content">Your SD card storage is running out of space. Change the quality setting or delete some images or other files.</string>
+    <!-- The messsage shown when FM record reaches size limit. -->
+    <string name="FMRecording_reach_size_limit">Size limit reached.</string>
+
+    <string name="delete_station_title">Apagar</string>
+    <string name="find_af_station">Procurar</string>
+    <string name="menu_add_list">Adicionar Lista</string>
+    <string name="menu_rename_list">Renomear Lista</string>
+    <string name="menu_reorder_list">Reordenar Lista</string>
+    <string name="menu_scan_for_preset">Procurar Memórias</string>
+    <string name="menu_delete_list">Apagar Lista</string>
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+
+    <string name="search_dialog_title">Procurar Estações</string>
+
+    <string name="search_category_key">search_category_type</string>
+    <string name="search_category">Selecione Tipo de Pesquisa</string>
+    <string name="search_category_title">Tipo de Pesquisa</string>
+    <string name="default_search_category">Procura</string>
+    <string name="search_category_tune">Sintonia</string>
+
+    <string name="search_category_type_key">search_category_value_type</string>
+    <string name="search_category_type">Select Search by Program Type</string>
+    <string name="search_category_type_title">Search by Program Type</string>
+    <string name="default_search_category_type">All Stations</string>
+
+    <string name="presets_back">Back</string>
+    <string name="presets_back_summary">Return to previous view</string>
+
+    <string name="nav_mode_presets">Presets</string>
+    <string name="nav_mode_stations">Stations</string>
+
+    <string name="prog_service_string"></string>
+    <string name="radio_text_string">This is the long Radio Text String Message that needs to scroll</string>
+    <string name="eradio_text_string">Extended Radio Text Message</string>
+    <string name="pty_string"></string>
+    <string name="frequency_string"></string>
+    <string name="station_id_string"></string>
+
+    <string name="fm_command_timeout_title">Timeout</string>
+    <string name="fm_tune_timeout_msg">Problemas na sintonização da estação. Se o problema persistir, por favor desligue e volte a ligar o rádio.</string>
+
+    <string name="fm_command_failed_title">Operação FM falhada.</string>
+    <string name="fm_cmd_failed_msg">A operação FM falhou. Se o problema persistir, por favor desligue e volte a ligar o rádio.</string>
+    <string name="fm_cmd_failed_msg_hdmi">Operação FM falhada. FM e HDMI não podem ser usados simultaneamente.</string>
+    <string name="fm_cmd_failed_call_on">Operação FM falhada. O audio FM não é permitido durante uma chamada. </string>
+
+    <!-- Do not translate. Duration format. -->
+    <string name="durationformat"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+
+    <string name="default_record"></string>
+    <string name="default_preset_list_name"> Lista FM </string>
+    <string name="default_station"> FM </string>
+    <string name="default_blank"> </string>
+    <string name="add_station">+</string>
+    <string name="stop_scanning">Parar Pesquisa</string>
+    <string name="transmit_msg_string">Transmitindo em:</string>
+    <!-- the name under which recordings will be visible in the media database is formatted like this -->
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">As minhas gravações FM</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">Gravações FM</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">Gravações FM</string>
+    <string name="test_prompt">Choose a test</string>
+    <string name="test_run">Run Test</string>
+    <string name="set_rmmsi_delta">Configure RMSSI Delta</string>
+    <string name="set_sigth">Configure Signal Th</string>
+    <string name="type_rd"></string>
+    <string name="srch_params">Configure RMSSI Delta</string>
+    <string name="srch_params_1">Configure Signal Th </string>
+    <string name="enter_rssi">Enter RMSSI Delta</string>
+    <string name="enter_sigth">Enter Signal Th</string>
+    <string name="enter_SinrSmplsCnt">Enter SINR Samples Count</string>
+    <string name="set_SinrSmplsCnt">Configure SINR Samples</string>
+    <string name="enter_SinrTh">Enter SINR Threshold</string>
+    <string name="set_SinrTh">Configure SINR Threshold</string>
+    <string name="enter_IntfLowTh">Enter Intf Det Low Threshold</string>
+    <string name="set_IntfLowTh">Config Intf Det Low Threshold</string>
+    <string name="enter_IntfHighTh">Enter Intf Det High Threshold</string>
+    <string name="set_IntfHighTh">Config Intf Det High Threshold</string>
+
+    <string name="station_name">Estação:</string>
+    <string name="station_exists">Esta frequência já existe!</string>
+    <string name="station_list_delete_station">Apagar:<xliff:g id="name">%s</xliff:g></string>
+    <string name="station_list_delete_station_prompt">Tem a certeza que quer apagar <xliff:g id="name">%s</xliff:g> .</string>
+    <string name="station_name_empty">Nome de estação vazio, introduza de novo.</string>
+    <string name="station_name_exist">Já existe uma estação chamada \"<xliff:g id="name">%s</xliff:g>\". Por favor use um nome diferente.</string>
+
+    <string name="rt_plus_tags">Etiquetas</string>
+
+</resources>
