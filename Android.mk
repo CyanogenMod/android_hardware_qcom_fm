@@ -1,4 +1,4 @@
-ifeq ($(call is-vendor-board-platform,QCOM),true)
+ifneq (,$(filter $(QCOM_BOARD_PLATFORMS),$(TARGET_BOARD_PLATFORM)))
 LOCAL_PATH:= $(call my-dir)
 LOCAL_DIR_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
@@ -13,8 +13,6 @@ LOCAL_MODULE:= qcom.fmradio
 include $(BUILD_JAVA_LIBRARY)
 
 include $(LOCAL_PATH)/jni/Android.mk
-LOCAL_PATH := $(LOCAL_DIR_PATH)
-include $(LOCAL_PATH)/fmapp/Android.mk
 LOCAL_PATH := $(LOCAL_DIR_PATH)
 include $(LOCAL_PATH)/fmapp2/Android.mk
 LOCAL_PATH := $(LOCAL_DIR_PATH)
