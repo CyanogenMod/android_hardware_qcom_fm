@@ -51,6 +51,10 @@
         android:allowTaskReparenting="true"
         android:taskAffinity="com.caf.task.fmradio"
         android:name=".FMAdapterApp">
+
+        <uses-library android:name="qcom.fmradio"
+            android:required="true" />
+
         <activity android:icon="@drawable/ic_launcher_fmradio"
             android:name=".FMRadio"
             android:label="@string/app_name"
