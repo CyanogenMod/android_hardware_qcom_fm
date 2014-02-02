@@ -1,4 +1,4 @@
-ifeq ($(BOARD_HAVE_QCOM_FM),true)
+ifeq ($(QCOM_FM_ENABLED),true)
 
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
