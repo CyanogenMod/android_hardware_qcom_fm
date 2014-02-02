@@ -53,7 +53,7 @@ public class FMTransmitterConfigReceiver extends BroadcastReceiver {
         Log.d(TAG, "Received intent: " + action);
         if((action != null) && action.equals("android.intent.action.BOOT_COMPLETED")) {
             Log.d(TAG, "boot complete intent received");
-            boolean isFmTransmitterSupported = SystemProperties.getBoolean("ro.fm.transmitter",true);
+            boolean isFmTransmitterSupported = SystemProperties.getBoolean("ro.fm.transmitter", false);
 
             if ("msm7630_surf".equals(SystemProperties.get("ro.board.platform"))) {
                 Log.d(TAG,"this is msm7630_surf");
