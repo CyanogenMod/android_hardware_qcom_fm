@@ -91,7 +91,7 @@
 
         </activity>
 
-        <!--activity android:icon="@drawable/ic_launcher_fm_tx"
+        <activity android:icon="@drawable/ic_launcher_fm_tx"
             android:name=".FMTransmitterActivity"
             android:label="@string/tx_app_name"
             android:clearTaskOnLaunch="true"
@@ -108,7 +108,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 
-        </activity-->
+        </activity>
 
         <receiver android:name="FMTransmitterConfigReceiver">
 
