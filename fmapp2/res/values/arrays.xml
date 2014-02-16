@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
  * Copyright (c) 2009, 2011-2013 The Linux Foundation. All rights reserved.
+ * Copyright (C) 2014 The CyanogenMod Project
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -26,14 +27,13 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
-<resources>
-
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="ster_mon_entries">
     <item>Stereo</item>
     <item>Mono</item>
   </string-array>
 
-  <string-array name="ster_mon_values">
+  <string-array name="ster_mon_values" translatable="false">
     <item>0</item>
     <item>1</item>
   </string-array>
@@ -45,8 +45,7 @@
     <item>Until stopped</item>
   </string-array>
 
-
-  <string-array name="record_duration_values">
+  <string-array name="record_duration_values" translatable="false">
     <item>5</item>
     <item>15</item>
     <item>30</item>
@@ -60,8 +59,8 @@
     <item>1 Hour</item>
   </string-array>
 
-    <!-- This array should be in seconds and should match the values above -->
-  <string-array name="sleep_duration_values_seconds">
+  <!-- This array should be in seconds and should match the values above -->
+  <string-array name="sleep_duration_values_seconds" translatable="false">
     <item>900</item>
     <item>1800</item>
     <item>2700</item>
@@ -98,7 +97,7 @@
     <item>Weather</item>
   </string-array>
 
-  <string-array name="search_category_rbds_values">
+  <string-array name="search_category_rbds_values" translatable="false">
     <item>0</item>
     <item>7</item>
     <item>15</item>
@@ -127,7 +126,6 @@
     <item>9</item>
     <item>29</item>
   </string-array>
-
 
   <string-array name="search_category_rds_entries">
     <item>All Stations</item>
@@ -164,7 +162,7 @@
     <item>Weather</item>
   </string-array>
 
-  <string-array name="search_category_rds_values">
+  <string-array name="search_category_rds_values" translatable="false">
     <item>0</item>
     <item>7</item>
     <item>2</item>
@@ -204,7 +202,6 @@
     <item>Auto-Select</item>
     <item>Delete</item>
   </string-array>
-
 
   <string-array name="regional_band_entries">
     <item>North America</item>
@@ -246,7 +243,7 @@
     <item>User Defined Band</item>
   </string-array>
 
-  <string-array name="regional_band_values">
+  <string-array name="regional_band_values" translatable="false">
     <item>0</item>
     <item>1</item>
     <item>2</item>
@@ -327,65 +324,64 @@
   </string-array>
 
   <string-array name="rf_cfg">
-      <item> Get Current Station Parameters</item>
-      <item> Get Station Parameters Repeat 20 times</item>
-      <item> Get Search  station parameters</item>
-      <item> Get FM Band sweep parameters</item>
-      <item> Configure Performance Parameters</item>
+    <item>Get Current Station Parameters</item>
+    <item>Get Station Parameters Repeat 20 times</item>
+    <item>Get Search  station parameters</item>
+    <item>Get FM Band sweep parameters</item>
+    <item>Configure Performance Parameters</item>
   </string-array>
 
   <string-array name="cfg_rf1">
-      <item> Set FM RSSI Delta</item>
-      <item> Set Signal Threshold</item>
-      <item> RF Statistics</item>
+    <item>Set FM RSSI Delta</item>
+    <item>Set Signal Threshold</item>
+    <item>RF Statistics</item>
   </string-array>
 
   <string-array name="cfg_rf2">
-      <item> Set SINR Samples Count</item>
-      <item> Set SINR Threshold</item>
-      <item> Set IntfDetoutLow Threshold</item>
-      <item> Set IntfDetoutHigh Threshold</item>
-      <item> Set SinrFirstStage</item>
-      <item> Set RmssiFirstStage</item>
-      <item> Set CF0Th12</item>
-      <item> Set SearchAlgo Type</item>
-      <item> Get SINR Samples Count</item>
-      <item> Get SINR Threshold</item>
-      <item> Get SinrFirstStage</item>
-      <item> Get RmssiFirstStage</item>
-      <item> Get CF0Th12</item>
-      <item> Get Search Algo Type</item>
-      <item> Set AfJmpRmssi Threshold</item>
-      <item> Set GoodChRmssi Threshold</item>
-      <item> Set AfJmpRmssi Samples count</item>
-      <item> Get AfJmpRmssi Threshold</item>
-      <item> Get GoodChRmssi Threshold</item>
-      <item> Get AfJmpRmssi Samples count</item>
-      <item> RF Statistics</item>
-      <item> Set RXREPEAT Count</item>
+    <item>Set SINR Samples Count</item>
+    <item>Set SINR Threshold</item>
+    <item>Set IntfDetoutLow Threshold</item>
+    <item>Set IntfDetoutHigh Threshold</item>
+    <item>Set SinrFirstStage</item>
+    <item>Set RmssiFirstStage</item>
+    <item>Set CF0Th12</item>
+    <item>Set SearchAlgo Type</item>
+    <item>Get SINR Samples Count</item>
+    <item>Get SINR Threshold</item>
+    <item>Get SinrFirstStage</item>
+    <item>Get RmssiFirstStage</item>
+    <item>Get CF0Th12</item>
+    <item>Get Search Algo Type</item>
+    <item>Set AfJmpRmssi Threshold</item>
+    <item>Set GoodChRmssi Threshold</item>
+    <item>Set AfJmpRmssi Samples count</item>
+    <item>Get AfJmpRmssi Threshold</item>
+    <item>Get GoodChRmssi Threshold</item>
+    <item>Get AfJmpRmssi Samples count</item>
+    <item>RF Statistics</item>
+    <item>Set RXREPEAT Count</item>
   </string-array>
 
   <string-array name="stats_options">
-      <item> Select the option</item>
-      <item> Configure Performance parameters</item>
-      <item> RF Statistics</item>
+    <item>Select the option</item>
+    <item>Configure Performance parameters</item>
+    <item>RF Statistics</item>
   </string-array>
 
-  <string-array name="channel_spacing_val">
-      <item>2</item>
-      <item>1</item>
-      <item>0</item>
+  <string-array name="channel_spacing_val" translatable="false">
+    <item>2</item>
+    <item>1</item>
+    <item>0</item>
   </string-array>
 
   <string-array name="channel_spacing_entries">
-      <item>50 Khz</item>
-      <item>100 Khz</item>
-      <item>200 Khz</item>
+    <item>50 Khz</item>
+    <item>100 Khz</item>
+    <item>200 Khz</item>
   </string-array>
 
   <string-array name="band_sweep_methods">
-      <item>Manual</item>
-      <item>From File</item>
+    <item>Manual</item>
+    <item>From File</item>
   </string-array>
-
 </resources>
