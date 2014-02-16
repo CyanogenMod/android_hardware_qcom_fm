@@ -50,8 +50,6 @@
     <string name="msg_scanning">搜索所有 FM 电台</string>
     <string name="msg_scanning_pty">搜索 "<xliff:g id="pty_name">%1$s</xliff:g>"</string>
     <string name="msg_noantenna">请插入耳机</string>
-    <!-- The messsage shown when FM radio was turned on, headset was plugged out -->
-    <string name="msg_headset_plug_out">收音机播放中拔出了耳机，收音机已经自动关闭。</string>
     <string name="dialog_sleep_title">收音机自动关闭</string>
     <string name="preset_name_dialog_title">输入名称 </string>
     <string name="preset_name_title">重命名</string>
@@ -97,12 +95,8 @@
     <string name="station_name">电台:</string>
     <string name="station_exists">此频率已存在!</string>
     <string name="stat_notif_frequency">FM 收音机 "<xliff:g id="frequency">%1$s</xliff:g>" MHz</string>
-    <string name="cannot_startup_during_call">通话中不能启动FM！</string>
-    <string name="cannot_startup_during_airplane">"飞行模式中不能启动FM！"</string>
     <string name="station_list_delete_station">删除:<xliff:g id="name">%s</xliff:g></string>
     <string name="station_list_delete_station_prompt">要删除 <xliff:g id="name">%s</xliff:g> 吗？</string>
-    <string name="sdcard_no_space_cannot_recording">SD卡空间不足,不能录音</string>
-    <string name="recording_stop_no_space">SD卡空间不足，录音停止</string>
     <string name="station_name_empty">电台名字不能为空，请新重输入</string>
     <string name="station_name_exist">已存在名为\"<xliff:g id="name">%s</xliff:g>\"的电台，请输入其他名称。</string>
     <!-- the title of rename dialog lack of translation -->

@@ -85,12 +85,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <string name="station_name">電台:</string>
     <string name="station_exists">此頻率已存在!</string>
     <string name="stat_notif_frequency">FM 收音機 "<xliff:g id="frequency">%1$s</xliff:g>" MHz</string>
-    <string name="cannot_startup_during_call">通话中不能启动FM！</string>
-    <string name="cannot_startup_during_airplane">"通話中不能啟動FM！"</string>
     <string name="station_list_delete_station">删除:<xliff:g id="name">%s</xliff:g></string>
     <string name="station_list_delete_station_prompt">要删除 <xliff:g id="name">%s</xliff:g> 吗？</string>
-    <string name="sdcard_no_space_cannot_recording">SD卡空間不足，不能錄音</string>
-    <string name="recording_stop_no_space">SD卡空間不足，錄音停止</string>
     <string name="station_name_empty">電台名字不能為空，請新重輸入</string>
     <string name="station_name_exist">已存在名為\"<xliff:g id="name">%s</xliff:g>\"的電台，請輸入其他名稱。</string>
     <string name="dialog_presetlist_rename_title">請輸入名字</string>

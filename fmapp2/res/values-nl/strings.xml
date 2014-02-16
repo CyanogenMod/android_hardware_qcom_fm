@@ -97,7 +97,6 @@
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="stat_notif_tx_frequency">Uitzenden op: \'<xliff:g id="frequency">%1$s</xliff:g>\'</string>
   <string name="sel_band_menu">Regionale band selecteren</string>
-  <string name="test_menu">Testen</string>
   <string name="settings_menu">Instellingen</string>
   <string name="regional_band">Regionale band</string>
   <string name="aud_output_mode">Audio-uitvoer modus</string>
@@ -117,9 +116,7 @@
   <string name="settings_revert_defaults_summary">Alles opnieuw instellen</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
-  <string name="default_band">Verenigde Staten</string>
   <string name="default_audio">Stereo</string>
-  <string name="default_record_duration">5 minuten</string>
   <string name="factory_reset_dialog_title">Opnieuw instellen bevestigen</string>
   <string name="factory_reset_dialog_message">Dit zal alle instellingen verwijderen inclusief favorieten</string>
   <string name="station_move">Verplaatsen</string>
@@ -142,11 +139,9 @@
   <string name="search_dialog_title">Zenders zoeken</string>
   <string name="search_category">Zoekcategorie selecteren</string>
   <string name="search_category_title">Zoekcategorie</string>
-  <string name="default_search_category">Zoeken</string>
   <string name="search_category_tune">Afstemmen</string>
   <string name="search_category_type">Zoeken op type programma</string>
   <string name="search_category_type_title">Zoeken op type programma</string>
-  <string name="default_search_category_type">Alle zenders</string>
   <string name="presets_back">Terug</string>
   <string name="presets_back_summary">Terug naar vorige weergave</string>
   <string name="nav_mode_presets">Favorieten</string>
@@ -160,61 +155,21 @@
   <string name="fm_cmd_failed_msg_hdmi">FM-bewerking mislukt. FM en HDMI tegelijk wordt niet ondersteund.</string>
   <string name="fm_cmd_failed_call_on">FM-bewerking mislukt. FM audio niet toegestaan tijdens een telefoongesprek.</string>
   <string name="default_preset_list_name">FM-lijst</string>
-  <string name="default_station">FM</string>
   <string name="stop_scanning">Zoeken annuleren</string>
   <string name="transmit_msg_string">Uitzenden op:</string>
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">Mijn FM-opnames</string>
   <string name="audio_db_album_name">FM-opnames</string>
   <string name="audio_db_playlist_name">FM-opnames</string>
-  <string name="test_prompt">Test selecteren</string>
-  <string name="test_run">Test starten</string>
-  <string name="set_rmmsi_delta">RMSSI delta configureren</string>
-  <string name="set_sigth">Th signaal configureren</string>
-  <string name="srch_params">RMSSI delta configureren</string>
-  <string name="srch_params_1">Th signaal configureren</string>
-  <string name="enter_rssi">RMSSI delta invoeren</string>
-  <string name="enter_sigth">Th signaal invoeren</string>
-  <string name="enter_SinrSmplsCnt">SINR samples-teller invoeren</string>
-  <string name="set_SinrSmplsCnt">SINR samples configureren</string>
-  <string name="enter_SinrTh">SINR drempelwaarde invoeren</string>
-  <string name="set_SinrTh">SINR drempelwaarde configureren</string>
-  <string name="enter_IntfLowTh">Intf Det Low drempelwaarde invoeren</string>
-  <string name="set_IntfLowTh">Intf Det Low drempelwaarde configureren</string>
-  <string name="enter_IntfHighTh">Intf Det High drempelwaarde invoeren</string>
-  <string name="set_IntfHighTh">Intf Det High drempelwaarde configureren</string>
   <string name="station_name">Zender:</string>
   <string name="station_exists">Deze frequentie bestaat al</string>
   <string name="station_list_delete_station">Verwijderen: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Weet u zeker dat u <xliff:g id="name">%s</xliff:g> wilt verwijderen?</string>
   <string name="station_name_empty">Zendernaam is leeg, opnieuw invoeren.</string>
   <string name="station_name_exist">Zendernaam \'<xliff:g id="name">%s</xliff:g>\' bestaat al. Vul een andere naam in.</string>
-  <string name="enter_SinrFirstStage">Sinr eerste stadium invoeren</string>
-  <string name="set_SinrFirstStage">Sinr eerste stadium configureren</string>
-  <string name="enter_RmssiFirstStage">Rmssi eerste stadium invoeren</string>
-  <string name="set_RmssiFirstStage">Rmssi eerste stadium configureren</string>
-  <string name="enter_CF0Th12">CF0 drempelwaarde invoeren</string>
-  <string name="set_CF0Th12">CF0 drempelwaarde configureren</string>
-  <string name="search_algo_mpx">MPX_DCC Algo</string>
-  <string name="search_algo_sinrint">SINR_INTF Algo</string>
-  <string name="enter_AfJmpRmssiTh">AF Jump Rmssi drempelwaarde invoeren</string>
-  <string name="set_AfJmpRmssiTh">AF Jump Rmssi drempelwaarde configureren</string>
-  <string name="enter_GdChRmssiTh">Goed Kanaal Rmssi drempelwaarde invoeren</string>
-  <string name="set_GdChRmssiTh">Goed Kanaal Rmssi drempelwaarde configureren</string>
-  <string name="enter_AfJmpRmssiSmplsCnt">AF Jump Rmssi samples-teller invoeren</string>
-  <string name="set_AfJmpRmssiSmplsCnt">AF Jump Rmssi samples-teller configureren</string>
   <string name="rt_plus_tags">Labels</string>
-  <string name="enter_RxRePeatCount">RxRePeat-teller invoeren </string>
-  <string name="set_RxRePeatCount">RxRePeat-teller configureren</string>
   <string name="usr_def_band_min">Lage frequentie limiet (in MHz)</string>
   <string name="usr_def_band_max">Hoge frequentie limiet (in MHz)</string>
   <string name="sel_chanl_spacing">Kanaalafstand selecteren</string>
   <string name="chanl_spacing">Kanaalafstand</string>
-  <string name="band_method_prompt">Methode selecteren</string>
-  <string name="enter_start_delay_time">Vertragingstijd</string>
-  <string name="enter_dwell_time">Verblijftijd</string>
-  <string name="band_sweep_setting">Instelling afzoeken</string>
-  <string name="band_sweep_setting_set">Ingesteld</string>
-  <string name="band_sweep_setting_cancel">Annuleren</string>
-  <string name="band_sweep_choose">Band-afzoekmethode selecteren</string>
 </resources>

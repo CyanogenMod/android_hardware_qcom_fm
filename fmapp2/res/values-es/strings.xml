@@ -97,7 +97,6 @@
     <string name="stat_notif_frequency">\u00AB<xliff:g id="frequency">%1$s</xliff:g>\u00BB MHz</string>
     <string name="stat_notif_tx_frequency">Transmitiendo en: \u00AB<xliff:g id="frequency">%1$s</xliff:g>\u00BB</string>
     <string name="sel_band_menu">Selecciona banda regional</string>
-    <string name="test_menu">Seleccionar prueba</string>
     <string name="settings_menu">Ajustes</string>
     <string name="regional_band">Banda regional</string>
     <string name="aud_output_mode">Modo de salida de audio</string>
@@ -117,9 +116,7 @@
     <string name="settings_revert_defaults_summary">Restablece todos los ajustes</string>
     <string name="audio_type_stereo">Estéreo</string>
     <string name="audio_type_mono">Mono</string>
-    <string name="default_band">Estados Unidos</string>
     <string name="default_audio">Estéreo</string>
-    <string name="default_record_duration">5 minutos</string>
     <string name="factory_reset_dialog_title">Confirmar restablecimiento</string>
     <string name="factory_reset_dialog_message">Esto eliminará todos los ajustes incluyendo las emisoras almacenadas</string>
     <string name="station_move">Mover</string>
@@ -142,11 +139,9 @@
     <string name="search_dialog_title">Buscar emisoras</string>
     <string name="search_category">Seleccionar Modo de Búsqueda</string>
     <string name="search_category_title">Tipo de búsqueda</string>
-    <string name="default_search_category">Buscar</string>
     <string name="search_category_tune">Sintonizar</string>
     <string name="search_category_type">Seleccionar búsqueda por tipo de programa</string>
     <string name="search_category_type_title">Buscar por tipo de programa</string>
-    <string name="default_search_category_type">Todas Las Emisoras</string>
     <string name="presets_back">Atrás</string>
     <string name="presets_back_summary">Volver a la vista anterior</string>
     <string name="nav_mode_presets">Preseleccionadas</string>
@@ -160,61 +155,21 @@
     <string name="fm_cmd_failed_msg_hdmi">Falló la operación FM. Utilizar la radio y el HDMI simultáneamente no está soportado.</string>
     <string name="fm_cmd_failed_call_on">Falló la operación FM. El audio FM no está permitido durante una llamada.</string>
     <string name="default_preset_list_name">Lista FM</string>
-    <string name="default_station">FM</string>
     <string name="stop_scanning">Detener búsqueda</string>
     <string name="transmit_msg_string">Transmitiendo a:</string>
     <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
     <string name="audio_db_artist_name">Mis grabaciones FM</string>
     <string name="audio_db_album_name">Grabaciones FM</string>
     <string name="audio_db_playlist_name">Grabaciones FM</string>
-    <string name="test_prompt">Elige una prueba</string>
-    <string name="test_run">Iniciar prueba</string>
-    <string name="set_rmmsi_delta">Configurar RMSSI Delta</string>
-    <string name="set_sigth"> Configurar señal Th</string>
-    <string name="srch_params">Configurar RMSSI Delta</string>
-    <string name="srch_params_1">Configurar señal Th</string>
-    <string name="enter_rssi">introducir RMSSI Delta</string>
-    <string name="enter_sigth">introducir señal Th</string>
-    <string name="enter_SinrSmplsCnt">Introducir contadores de muestras SINR</string>
-    <string name="set_SinrSmplsCnt">Configurar muestras SINR</string>
-    <string name="enter_SinrTh">Introducir umbral SINR</string>
-    <string name="set_SinrTh">Configurar umbral SINR</string>
-    <string name="enter_IntfLowTh">Introducir umbral Intf Det Low</string>
-    <string name="set_IntfLowTh">Configurar umbral Intf Det Low</string>
-    <string name="enter_IntfHighTh">Introducir umbral Intf Det High</string>
-    <string name="set_IntfHighTh">Configurar umbral Intf Det High</string>
     <string name="station_name">Emisora:</string>
     <string name="station_exists">¡Esta frecuencia ya existe!</string>
     <string name="station_list_delete_station">Eliminar:<xliff:g id="name">%s</xliff:g></string>
     <string name="station_list_delete_station_prompt">¿Estás seguro de que quieres eliminar <xliff:g id="name">%s</xliff:g>.</string>
     <string name="station_name_empty">Nombre de emisora vacío. Por favor, escribe uno.</string>
     <string name="station_name_exist">Ya hay una emisora llamada \u00AB<xliff:g id="name">%s</xliff:g>\u00BB. Por favor, escribe otro nombre.</string>
-    <string name="enter_SinrFirstStage">Introducir Sinr First Stage</string>
-    <string name="set_SinrFirstStage">Configurar Sinr First Stage</string>
-    <string name="enter_RmssiFirstStage">Introducir Rmssi First Stage</string>
-    <string name="set_RmssiFirstStage">Configurar Rmssi First Stage</string>
-    <string name="enter_CF0Th12">Introducir umbral CF0</string>
-    <string name="set_CF0Th12">Configurar umbral CF0</string>
-    <string name="search_algo_mpx">Algoritmo MPX_DCC</string>
-    <string name="search_algo_sinrint">Algoritmo SINR_INTF</string>
-    <string name="enter_AfJmpRmssiTh">Introducir umbral Af Jump Rmssi</string>
-    <string name="set_AfJmpRmssiTh">Configurar umbral Af Jump Rmssi</string>
-    <string name="enter_GdChRmssiTh">Introducir umbral Good Channel Rmssi</string>
-    <string name="set_GdChRmssiTh">Configurar umbral Good Channel Rmssi</string>
-    <string name="enter_AfJmpRmssiSmplsCnt">Introducir contador de muestras Af Jump Rmssi</string>
-    <string name="set_AfJmpRmssiSmplsCnt">Configurar contador de muestras Af Jump Rmssi</string>
     <string name="rt_plus_tags">Etiquetas</string>
-    <string name="enter_RxRePeatCount">Introducir contador RxRePeat</string>
-    <string name="set_RxRePeatCount">Configurar contador RxRePeat</string>
     <string name="usr_def_band_min">Límite frecuencia inferior (en MHz)</string>
     <string name="usr_def_band_max">Límite frecuencia superior (en MHz)</string>
     <string name="sel_chanl_spacing">Seleccionar espaciado entre canales</string>
     <string name="chanl_spacing">Espaciado de canales</string>
-    <string name="band_method_prompt">Seleccionar método</string>
-    <string name="enter_start_delay_time">Retardo en el inicio</string>
-    <string name="enter_dwell_time">Tiempo de permanencia</string>
-    <string name="band_sweep_setting">Ajustes del barrido</string>
-    <string name="band_sweep_setting_set">Establecer</string>
-    <string name="band_sweep_setting_cancel">Cancelar</string>
-    <string name="band_sweep_choose">Elegir método de barrido de banda</string>
 </resources>

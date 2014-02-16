@@ -2,7 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">FM Radio</string>
     <string name="tx_app_name">FM Tx Nuut</string>
-    <string name="default_sleep"></string>
     <string name="menu_add_to_preset">Voeg by Vooraf ingestelde</string>
     <string name="menu_settings">Instellings</string>
     <string name="menu_record_start">Begin Opname</string>
@@ -70,7 +69,6 @@
     <string name="stat_notif_frequency">"<xliff:g id="frequency">%1$s</xliff:g>" MHz</string>
     <string name="stat_notif_tx_frequency">Stuur teen: "<xliff:g id="frequency">%1$s</xliff:g>"</string>
     <string name="sel_band_menu">Kies Streek Band</string>
-    <string name="test_menu">Kies Toets</string>
     <string name="settings_menu">Instellings</string>
     <string name="regional_band">Streek Band</string>
     <string name="aud_output_mode">Klank uitvoer Modus</string>
@@ -90,9 +88,7 @@
     <string name="settings_revert_defaults_summary">Herstel alle instellings</string>
     <string name="audio_type_stereo">Stereo</string>
     <string name="audio_type_mono">Mono</string>
-    <string name="default_band">Verenigde State van Amerika</string>
     <string name="default_audio">Stereo</string>
-    <string name="default_record_duration">5 minute</string>
     <string name="factory_reset_dialog_title">Bevestig Herstel</string>
     <string name="factory_reset_dialog_message">Dit sal al die instellings verwyder, insluitend voorafingestelde lys</string>
     <string name="station_move">Skuif</string>
@@ -112,93 +108,39 @@
     <string name="alert_dialog_ok">Ok</string>
     <string name="alert_dialog_cancel">Kanselleer</string>
     <string name="search_dialog_title">Skandeer stasies</string>
-    <string name="search_category_key">search_category_type</string>
     <string name="search_category">Kies Soek Tipe</string>
     <string name="search_category_title">Soek Tipe</string>
-    <string name="default_search_category">Soek</string>
     <string name="search_category_tune">Tune</string>
-    <string name="search_category_type_key">search_category_value_type</string>
     <string name="search_category_type">Kies Soek tipe deur Program Tipe</string>
     <string name="search_category_type_title">Soek deur Program Tipe</string>
-    <string name="default_search_category_type">Al die stasies</string>
     <string name="presets_back">Terug</string>
     <string name="presets_back_summary">Terug na vorige weergawe</string>
     <string name="nav_mode_presets">Voorafingestelde</string>
     <string name="nav_mode_stations">Stasies</string>
-    <string name="prog_service_string"></string>
     <string name="radio_text_string">Hierdie is \'n lang Radio teks boodskap wat moet skuif</string>
     <string name="eradio_text_string">Uitgebreide Radio teks boodskap</string>
-    <string name="pty_string"></string>
-    <string name="frequency_string"></string>
-    <string name="station_id_string"></string>
     <string name="fm_command_timeout_title">Tyd verstreke</string>
     <string name="fm_tune_timeout_msg">Geen reaksie ontvang van FM Stasie. As die probleem voortduur, Skakel FM Radio af en aan.</string>
     <string name="fm_command_failed_title">FM werking het misluk</string>
     <string name="fm_cmd_failed_msg">FM werking het misluk. As die probleem voortduur, Skakel FM Radio af en aan.</string>
     <string name="fm_cmd_failed_msg_hdmi">FM werking het misluk. FM en HDMI geluiktydige werking word nie ondersteun nie.</string>
     <string name="fm_cmd_failed_call_on">FM klank word nie toegelaat tydens \'n oproep.</string>
-    <string name="default_record"></string>
-    <string name="default_preset_list_name"> FM Lys </string>
-    <string name="default_station"> FM </string>
-    <string name="default_blank"> </string>
-    <string name="add_station">+</string>
     <string name="stop_scanning">Stop Skandering</string>
     <string name="transmit_msg_string">Stuur teen:</string>
     <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
     <string name="audio_db_artist_name">My FM opnames</string>
     <string name="audio_db_album_name">FM opnames</string>
     <string name="audio_db_playlist_name">FM opnames</string>
-    <string name="test_prompt">Kies \'n toets</string>
-    <string name="test_run">Begin Toets</string>
-    <string name="set_rmmsi_delta">Konfigureer RMSSI Delta</string>
-    <string name="set_sigth">Konfigureer sein Th</string>
-    <string name="type_rd"></string>
-    <string name="srch_params">Konfigureer RMSSI Delta</string>
-    <string name="srch_params_1">Konfigureer sein Th </string>
-    <string name="enter_rssi">Tik RMSSI Delta</string>
-    <string name="enter_sigth">Tik sein Th</string>
-    <string name="enter_SinrSmplsCnt">Tik SINR toets telling</string>
-    <string name="set_SinrSmplsCnt">Konfigureer SINR Toetse</string>
-    <string name="enter_SinrTh">Tik SINR drumpel</string>
-    <string name="set_SinrTh">Konfigureer SINR drempelvlak</string>
-    <string name="enter_IntfLowTh">Tik Intf Det lae drempelvlak</string>
-    <string name="set_IntfLowTh">Konfig Intf Det lae drempelvlak</string>
-    <string name="enter_IntfHighTh">Tik Intf Det hoë drempelvlak</string>
-    <string name="set_IntfHighTh">Konfig Intf Det hoë drempelvlak</string>
     <string name="station_name">Stasie:</string>
     <string name="station_exists">Hierdie frekwensie bestaan ​​reeds!</string>
     <string name="station_list_delete_station">Verwyder:<xliff:g id="name">%s</xliff:g></string>
     <string name="station_list_delete_station_prompt">Is jy seker jy will <xliff:g id="name">%s</xliff:g> verwyder.</string>
     <string name="station_name_empty">Stasie se naam is leeg, probeer asseblief weer.</string>
     <string name="station_name_exist">Daar is reeds \'n stasie met die naam \"<xliff:g id="name">%s</xliff:g>\". Gebruik asseblief \'n ander naam.</string>
-    <string name="enter_SinrFirstStage">Tik Sinr eerste stadium</string>
-    <string name="set_SinrFirstStage">Konfig Sinr eerste stadium</string>
-    <string name="enter_RmssiFirstStage">Enter Rmssi eerste stadium</string>
-    <string name="set_RmssiFirstStage">Konfig Rmssi eerste stadium</string>
-    <string name="enter_CF0Th12">Tik CF0 drempelvlak</string>
-    <string name="set_CF0Th12">Konfig CF0 drempelvlak</string>
-    <string name="search_algo_mpx">MPX_DCC Algo</string>
-    <string name="search_algo_sinrint">SINR_INTF Algo</string>
-    <string name="enter_AfJmpRmssiTh">Tik AF spring Rmssi drempelvlak</string>
-    <string name="set_AfJmpRmssiTh">Konfig AF spring Rmssi drempelvlak</string>
-    <string name="enter_GdChRmssiTh">Tik goeie kanaal Rmssi drempelvlak</string>
-    <string name="set_GdChRmssiTh">Konfig goeie kanaal Rmssi drempelvlak</string>
-    <string name="enter_AfJmpRmssiSmplsCnt">Tik AF Jump Rmssi Toets telling</string>
-    <string name="set_AfJmpRmssiSmplsCnt">Konfig AF Jump Rmssi Toets telling</string>
     <string name="rt_plus_tags">Etikette</string>
-    <string name="enter_RxRePeatCount">Tik RxRePeat telling</string>
-    <string name="set_RxRePeatCount">Konfig RxRePeat telling</string>
     <string name="usr_def_band_min">Laer Freq Limiet(In Mhz)</string>
     <string name="usr_def_band_max">Hoër Freq Limiet(In Mhz)</string>
     <string name="sel_chanl_spacing">Kies kanaal spasie</string>
     <string name="chanl_spacing">Kanaal spasie</string>
-    <string name="band_method_prompt">Kies Metode</string>
-    <string name="enter_start_delay_time">Begin wag tyd</string>
-    <string name="enter_dwell_time">Dell tyd</string>
-    <string name="band_sweep_setting">Vee instelling</string>
-    <string name="band_sweep_setting_set">Stel</string>
-    <string name="band_sweep_setting_cancel">Kanselleer</string>
-    <string name="band_sweep_choose">Kies Band Vee Metode</string>
     <string name="alert_dialog_hint">Tik \'n naam</string>
-    <string name="durationformat"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
 </resources>
