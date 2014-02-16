@@ -652,7 +652,7 @@ public class FMTransmitterActivity extends Activity {
                                 R.string.presetlist_autoselect_title);
       dlgBuilder.setMessage(getString(R.string.fmtx_autoselect_name));
 
-      dlgBuilder.setPositiveButton(R.string.alert_dialog_ok,
+      dlgBuilder.setPositiveButton(android.R.string.ok,
                 new DialogInterface.OnClickListener() {
                    public void onClick(DialogInterface dialog, int whichButton) {
                       /*
@@ -666,7 +666,7 @@ public class FMTransmitterActivity extends Activity {
                    }
                 });
 
-                dlgBuilder.setNegativeButton(R.string.alert_dialog_cancel,
+                dlgBuilder.setNegativeButton(android.R.string.cancel,
                    new DialogInterface.OnClickListener() {
                       public void onClick(DialogInterface dialog, int whichButton) {
                          removeDialog(DIALOG_PRESET_LIST_AUTO_SET);

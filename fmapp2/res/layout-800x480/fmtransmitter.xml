@@ -87,7 +87,7 @@
                 android:layout_centerInParent="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/frequency_string"
+                android:text="@string/default_blank"
                 android:textColor="@android:color/white"/>
 
             <ImageView android:id="@+id/btn_forward"
@@ -122,7 +122,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"
                 android:layout_centerInParent="true"
-                android:text="@string/radio_text_string"/>
+                android:text="@string/default_blank"/>
 
         </RelativeLayout>
 

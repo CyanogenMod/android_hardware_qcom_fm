@@ -631,14 +631,12 @@ public class FMRadio extends Activity
           item = menu.add(0, MENU_RECORD_START, 0, R.string.menu_record_start)
                               .setIcon(R.drawable.ic_menu_record);
           if (item != null) {
-             item.setVisible(true);
-             item.setEnabled((!recording) && radioOn);
+             item.setVisible((!recording) && radioOn);
           }
           item = menu.add(0, MENU_RECORD_STOP, 0, R.string.menu_record_stop)
                               .setIcon(R.drawable.ic_menu_record);
           if (item != null) {
-             item.setVisible(true);
-             item.setEnabled(recording && radioOn);
+             item.setVisible(recording && radioOn);
           }
       }
       /* Settings can be active */
@@ -1312,7 +1310,7 @@ public class FMRadio extends Activity
                                                 R.layout.alert_dialog_text_entry, null);
       dlgBuilder.setTitle(R.string.dialog_presetlist_rename_title);
       dlgBuilder.setView(textEntryView);
-      dlgBuilder.setPositiveButton(R.string.alert_dialog_ok,
+      dlgBuilder.setPositiveButton(android.R.string.ok,
                                    new DialogInterface.OnClickListener() {
                                       public void onClick(DialogInterface dialog, int whichButton) {
                                          //int curList = FmSharedPreferences.getCurrentListIndex();
@@ -1331,7 +1329,7 @@ public class FMRadio extends Activity
                                          removeDialog(DIALOG_PRESET_RENAME);
                                       }
                                    });
-      dlgBuilder.setNegativeButton(R.string.alert_dialog_cancel,
+      dlgBuilder.setNegativeButton(android.R.string.cancel,
                                    new DialogInterface.OnClickListener() {
                                       public void onClick(DialogInterface dialog, int whichButton) {
                                          removeDialog(DIALOG_PRESET_RENAME);
@@ -1345,7 +1343,7 @@ public class FMRadio extends Activity
          dlgBuilder.setIcon(R.drawable.alert_dialog_icon)
                    .setTitle(R.string.fm_command_timeout_title);
          dlgBuilder.setMessage(R.string.fm_tune_timeout_msg);
-         dlgBuilder.setPositiveButton(R.string.alert_dialog_ok,
+         dlgBuilder.setPositiveButton(android.R.string.ok,
                                       new DialogInterface.OnClickListener() {
                                          public void onClick(DialogInterface dialog,
                                                              int whichButton) {
@@ -1364,7 +1362,7 @@ public class FMRadio extends Activity
                 .setTitle(R.string.fm_command_failed_title);
       dlgBuilder.setMessage(R.string.fm_cmd_failed_msg);
 
-      dlgBuilder.setPositiveButton(R.string.alert_dialog_ok,
+      dlgBuilder.setPositiveButton(android.R.string.ok,
                                    new DialogInterface.OnClickListener() {
                                       public void onClick(DialogInterface dialog,
                                                           int whichButton) {
@@ -1382,7 +1380,7 @@ public class FMRadio extends Activity
                 .setTitle(R.string.fm_command_failed_title);
       dlgBuilder.setMessage(R.string.fm_cmd_failed_msg_hdmi);
 
-      dlgBuilder.setPositiveButton(R.string.alert_dialog_ok,
+      dlgBuilder.setPositiveButton(android.R.string.ok,
                                    new DialogInterface.OnClickListener() {
                                       public void onClick(DialogInterface dialog,
                                                           int whichButton) {
@@ -1400,7 +1398,7 @@ public class FMRadio extends Activity
                  .setTitle(R.string.fm_command_failed_title);
        dlgBuilder.setMessage(R.string.fm_cmd_failed_call_on);
 
-       dlgBuilder.setPositiveButton(R.string.alert_dialog_ok,
+       dlgBuilder.setPositiveButton(android.R.string.ok,
                                     new DialogInterface.OnClickListener() {
                                        public void onClick(DialogInterface dialog,
                                                            int whichButton) {
