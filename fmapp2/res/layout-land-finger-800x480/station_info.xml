@@ -56,7 +56,7 @@
                 android:layout_marginLeft="25dp"
                 android:textStyle="bold"
                 android:visibility="invisible"
-                android:text="@string/default_sleep" />
+                android:text="@string/default_blank" />
 
             <TextView android:id="@+id/eradio_text_tv"
                 android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
                 android:layout_toLeftOf="@+id/sleep_msg_tv"
                 android:layout_toRightOf="@+id/stereo_text_tv"
                 android:layout_centerInParent="true"
-                android:text="@string/eradio_text_string"/>
+                android:text="@string/default_blank"/>
 
             <TextView android:id="@+id/stereo_text_tv"
                 android:textAppearance="?android:attr/textAppearanceSmall"
@@ -83,7 +83,7 @@
                 android:layout_alignBaseline="@id/signal_level"
                 android:textSize="13sp"
                 android:textColor="@android:color/white"
-                android:text="@string/default_audio"/>
+                android:text="@string/default_blank"/>
 
         </RelativeLayout>
 
@@ -104,7 +104,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:paddingLeft="16dp"
-                android:text="@string/station_id_string" />
+                android:text="@string/default_blank" />
 
             <TextView android:id="@+id/radio_text_tv"
                 android:layout_width="wrap_content"
@@ -115,7 +115,7 @@
                 android:singleLine="true"
                 android:textStyle="bold"
                 android:layout_centerInParent="true"
-                android:text="@string/radio_text_string"/>
+                android:text="@string/default_blank"/>
 
             <TextView android:id="@+id/pty_tv"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -126,7 +126,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:paddingRight="16dp"
-                android:text="@string/pty_string" />
+                android:text="@string/default_blank" />
 
         </RelativeLayout>
 
@@ -150,7 +150,7 @@
                      android:focusable="true"
                      android:layout_toLeftOf="@+id/btn_forward"
                      android:layout_toRightOf="@+id/btn_back"
-                     android:text="@string/frequency_string"/>
+                     android:text="@string/default_blank"/>
 
                 <ImageView android:id="@+id/btn_back"
                      android:clickable="true"

@@ -45,6 +45,7 @@
         android:maxLength="16">
      <requestFocus />
      </EditText>
+
      <RelativeLayout
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
@@ -53,13 +54,13 @@
          <Button android:id="@+id/save"
              android:layout_width="120dp"
              android:layout_height="wrap_content"
-             android:text="@string/button_ok"
+             android:text="@android:string/ok"
              android:layout_alignParentLeft="true" />
 
          <Button android:id="@+id/cancel"
              android:layout_width="120dp"
              android:layout_height="wrap_content"
-             android:text="@string/button_cancel"
+             android:text="@android:string/cancel"
              android:layout_alignParentRight="true" />
 
     </RelativeLayout>

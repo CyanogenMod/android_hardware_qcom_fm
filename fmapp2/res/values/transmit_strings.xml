@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (c) 2009, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2009, 2011-2013 The Linux Foundation. All rights reserved.
+ * Copyright (C) 2014-2015 The CyanogenMod Project
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -25,9 +27,14 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <stroke android:width="1dp" android:color="#FFFFFFFF" />
-    <padding android:left="1dp" android:top="1dp"
-            android:right="1dp" android:bottom="1dp" />
-    <corners android:radius="1dp" />
-</shape>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="msg_weak_searching">Searching for weakest frequencies to transmit\u2026</string>
+
+    <string name="msg_headsetpluggedin">Disconnect all headsets to use FM transmitter</string>
+    <string name="msg_callactive">FM transmit is not supported when there is an active voice call</string>
+    <string name="fmtx_autoselect_name">Auto-select will delete all the presets, continue?</string>
+
+    <string name="stat_notif_tx_frequency">Transmitting at: \'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
+
+    <string name="transmit_msg_string">Transmitting at:</string>
+</resources>

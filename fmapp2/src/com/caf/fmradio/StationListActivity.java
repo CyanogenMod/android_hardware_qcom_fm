@@ -158,7 +158,7 @@ public class StationListActivity extends Activity implements
         menu.add(0, CONTEXT_MENU_RENAME, 0, getString(R.string.preset_rename));
         menu.add(0, CONTEXT_MENU_DELETE, 0, getString(R.string.preset_delete));
         mItemId = mi.position;
-        menu.setHeaderTitle(getString(R.string.station_name)+getNameFromId(mItemId));
+        menu.setHeaderTitle(getString(R.string.station_name, getNameFromId(mItemId)));
     }
 
     @Override
@@ -186,7 +186,7 @@ public class StationListActivity extends Activity implements
         load();
         switch (id) {
         case DIALOG_RENAME_ID:
-            mRenameDialog.setTitle(getString(R.string.station_name)+getNameFromId(mItemId));
+            mRenameDialog.setTitle(getString(R.string.station_name, getNameFromId(mItemId)));
             final EditText editText = (EditText) mRenameDialog
                     .findViewById(R.id.name);
             editText.setText(getNameFromId(mItemId));
