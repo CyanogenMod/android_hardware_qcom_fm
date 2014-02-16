@@ -62,7 +62,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignBaseline="@id/signal_level"
                 android:textSize="13sp"
-                android:text="@string/default_audio"/>
+                android:text="@string/default_blank"/>
 
         </RelativeLayout>
 
@@ -83,7 +83,7 @@
                  android:gravity="center"
                  android:clickable="true"
                  android:focusable="true"
-                 android:text="@string/frequency_string"/>
+                 android:text="@string/default_blank"/>
 
             <ImageView android:id="@+id/btn_back"
                  android:clickable="true"
@@ -124,7 +124,7 @@
                 android:alpha="0.5"
                 android:paddingRight="2dp"
                 android:paddingLeft="2dp"
-                android:text="@string/station_id_string" />
+                android:text="@string/default_blank" />
 
             <TextView android:id="@+id/pty_tv"
                 android:textColor="@android:color/white"
@@ -134,7 +134,7 @@
                 android:textAllCaps="true"
                 android:paddingRight="2dp"
                 android:paddingLeft="2dp"
-                android:text="@string/pty_string" />
+                android:text="@string/default_blank" />
 
         </LinearLayout>
 
@@ -150,7 +150,7 @@
             android:paddingRight="10dp"
             android:paddingTop="10dp"
             android:layout_gravity="center_horizontal"
-            android:text="@string/radio_text_string"/>
+            android:text="@string/default_blank"/>
 
         <TextView android:id="@+id/eradio_text_tv"
             android:textColor="@android:color/white"
@@ -162,7 +162,7 @@
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
             android:gravity="center_horizontal"
-            android:text="@string/eradio_text_string"/>
+            android:text="@string/default_blank"/>
 
         <TextView android:id="@+id/prog_service_tv"
             android:textColor="@android:color/white"
@@ -172,7 +172,7 @@
             android:textSize="16sp"
             android:singleLine="true"
             android:textStyle="bold"
-            android:text="@string/prog_service_string"/>
+            android:text="@string/default_blank"/>
 
         <TextView android:id="@+id/sleep_msg_tv"
             android:textColor="@android:color/white"
@@ -187,7 +187,7 @@
             android:textStyle="bold"
             android:visibility="invisible"
             android:layout_gravity="center_horizontal"
-            android:text="@string/default_sleep" />
+            android:text="@string/default_blank" />
 
         <TextView android:id="@+id/record_msg_tv"
             android:textColor="@android:color/white"
@@ -201,7 +201,7 @@
             android:paddingBottom="5dp"
             android:drawablePadding="5dip"
             android:layout_gravity="center_horizontal"
-            android:text="@string/eradio_text_string"/>
+            android:text="@string/default_blank"/>
 
     </LinearLayout>
 

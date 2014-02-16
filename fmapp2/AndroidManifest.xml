@@ -85,7 +85,7 @@
         </receiver>
 
         <activity android:name=".Settings"
-            android:label="@string/settings_menu">
+            android:label="@string/menu_settings">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -142,7 +142,7 @@
         </activity>
 
        <activity android:name=".StationListActivity"
-            android:label="@string/app_label_all_channels"
+            android:label="@string/menu_all_channels"
             android:configChanges="orientation|keyboardHidden|screenSize|fontScale">
 
             <intent-filter>
