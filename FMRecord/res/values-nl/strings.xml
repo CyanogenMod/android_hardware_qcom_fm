@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
  * Copyright (c) 2009-2013, The Linux Foundation. All rights reserved.
+ * Copyright (C) 2014 The CyanogenMod Project
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -36,6 +37,6 @@
    <string name="audio_db_artist_name">Mijn FM-opnamen</string>
    <string name="audio_db_album_name">FM-opnamen</string>
    <string name="audio_db_playlist_name">FM-opnamen</string>
-   <string name="save_record_file">FM-opname opgeslagen in \"<xliff:g id="record_file">%1$s</xliff:g>\"</string>
+   <string name="save_record_file">FM-opname opgeslagen in \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
    <string name="fm_record_progress">Opnemen\u2026</string>
 </resources>
