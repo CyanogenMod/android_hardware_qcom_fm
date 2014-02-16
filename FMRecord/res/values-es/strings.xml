@@ -37,6 +37,6 @@
     <string name="audio_db_artist_name">Mis grabaciones FM</string>
     <string name="audio_db_album_name">Grabaciones FM</string>
     <string name="audio_db_playlist_name">Grabaciones FM</string>
-    <string name="save_record_file">Archivo de grabación de FM guardado en \u00AB<xliff:g id="record_file">%1$s</xliff:g>\u00BB</string>
+    <string name="save_record_file">Archivo de grabación de FM guardado en \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
     <string name="fm_record_progress">Grabación de FM en curso</string>
 </resources>

@@ -27,7 +27,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
   <string-array name="ster_mon_entries">
     <item>Stereo</item>
     <item>Mono</item>
@@ -190,54 +190,9 @@
     <item>Verenigde Staten (88,1 MHz tot 107,9 MHz in stappen van 200 kHz)</item>
     <item>Aangepast</item>
   </string-array>
-  <string-array name="rf_cfg">
-    <item>Huidige zenderparameters verkrijgen</item>
-    <item>Zenderparameters verkrijgen, 20 keer herhalen</item>
-    <item>Zoekzenderparameters verkrijgen</item>
-    <item>FM-band afzoekparameters verkrijgen</item>
-    <item>Prestaties beheren</item>
-  </string-array>
-  <string-array name="cfg_rf1">
-    <item>FM RSSI delta instellen</item>
-    <item>Signaal drempelwaarde instellen</item>
-    <item>RF statistieken</item>
-  </string-array>
-  <string-array name="cfg_rf2">
-    <item>SINR samples-teller instellen</item>
-    <item>SINR drempelwaarde instellen</item>
-    <item>IntfDetoutLow drempelwaarde instellen</item>
-    <item>IntfDetoutHigh drempelwaarde instellen</item>
-    <item>SinrFirstStage instellen</item>
-    <item>RmssiFirstStage instellen</item>
-    <item>CF0Th12 instellen</item>
-    <item>SearchAlgo type instellen</item>
-    <item>SINR samples-teller instellen</item>
-    <item>SINR drempelwaarde verkrijgen</item>
-    <item>SinrFirstStage verkrijgen</item>
-    <item>RmssiFirstStage verkrijgen</item>
-    <item>CF0Th12 verkrijgen</item>
-    <item>Search Algo type verkrijgen</item>
-    <item>AFJmpRmssi drempelwaarde instellen</item>
-    <item>GoodChRmssi drempelwaarde instellen</item>
-    <item>AFJmpRmssi samples-teller instellen</item>
-    <item>AFJmpRmssi drempelwaarde verkrijgen</item>
-    <item>GoodChRmssi drempelwaarde verkrijgen</item>
-    <item>AFJmpRmssi samples-teller verkrijgen</item>
-    <item>RF statistieken</item>
-    <item>RXREPEAT teller instellen</item>
-  </string-array>
-  <string-array name="stats_options">
-    <item>Keuze selecteren</item>
-    <item>Prestaties beheren</item>
-    <item>RF statistieken</item>
-  </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 kHz</item>
     <item>100 kHz</item>
     <item>200 kHz</item>
-  </string-array>
-  <string-array name="band_sweep_methods">
-    <item>Handmatig</item>
-    <item>Uit bestand</item>
   </string-array>
 </resources>
