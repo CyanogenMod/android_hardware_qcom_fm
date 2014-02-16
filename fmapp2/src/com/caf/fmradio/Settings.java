@@ -119,7 +119,7 @@ public class Settings extends PreferenceActivity implements
            mBandPreference = new ListPreference(this);
            mBandPreference.setEntries(R.array.regional_band_entries);
            mBandPreference.setEntryValues(R.array.regional_band_values);
-           mBandPreference.setDialogTitle(R.string.sel_band_menu);
+           mBandPreference.setDialogTitle(R.string.regional_band);
            mBandPreference.setKey(REGIONAL_BAND_KEY);
            mBandPreference.setTitle(R.string.regional_band);
            index = FmSharedPreferences.getCountry();
@@ -134,7 +134,7 @@ public class Settings extends PreferenceActivity implements
            mChannelSpacingPref = new ListPreference(this);
            mChannelSpacingPref.setEntries(R.array.channel_spacing_entries);
            mChannelSpacingPref.setEntryValues(R.array.channel_spacing_val);
-           mChannelSpacingPref.setDialogTitle(R.string.sel_chanl_spacing);
+           mChannelSpacingPref.setDialogTitle(R.string.chanl_spacing);
            mChannelSpacingPref.setTitle(R.string.chanl_spacing);
            mChannelSpacingPref.setKey(CHAN_SPACING_KEY);
 
@@ -165,7 +165,7 @@ public class Settings extends PreferenceActivity implements
                mAudioPreference = new ListPreference(this);
                mAudioPreference.setEntries(R.array.ster_mon_entries);
                mAudioPreference.setEntryValues(R.array.ster_mon_values);
-               mAudioPreference.setDialogTitle(R.string.sel_audio_output);
+               mAudioPreference.setDialogTitle(R.string.aud_output_mode);
                mAudioPreference.setKey(AUDIO_OUTPUT_KEY);
                mAudioPreference.setTitle(R.string.aud_output_mode);
                boolean audiomode = FmSharedPreferences.getAudioOutputMode();
@@ -183,8 +183,6 @@ public class Settings extends PreferenceActivity implements
                mAfPref = new CheckBoxPreference(this);
                mAfPref.setKey(AUTO_AF);
                mAfPref.setTitle(R.string.auto_select_af);
-               mAfPref.setSummaryOn(R.string.auto_select_af_enabled);
-               mAfPref.setSummaryOff(R.string.auto_select_af_disabled);
                boolean bAFAutoSwitch = FmSharedPreferences.getAutoAFSwitch();
                Log.d(LOGTAG, "createPreferenceHierarchy: bAFAutoSwitch: "
                               + bAFAutoSwitch);
@@ -198,7 +196,7 @@ public class Settings extends PreferenceActivity implements
                 mRecordDurPreference = new ListPreference(this);
                 mRecordDurPreference.setEntries(R.array.record_durations_entries);
                 mRecordDurPreference.setEntryValues(R.array.record_duration_values);
-                mRecordDurPreference.setDialogTitle(R.string.sel_rec_dur);
+                mRecordDurPreference.setDialogTitle(R.string.record_dur);
                 mRecordDurPreference.setKey(RECORD_DURATION_KEY);
                 mRecordDurPreference.setTitle(R.string.record_dur);
                 nRecordDuration = FmSharedPreferences.getRecordDuration();
@@ -453,7 +451,7 @@ public class Settings extends PreferenceActivity implements
                       R.drawable.alert_dialog_icon).setTitle(
                       R.string.settings_revert_confirm_title).setMessage(
                       R.string.settings_revert_confirm_msg).setPositiveButton(
-                      R.string.alert_dialog_ok,
+                      android.R.string.ok,
                       new DialogInterface.OnClickListener() {
                            public void onClick(DialogInterface dialog,
                               int whichButton) {
@@ -463,7 +461,7 @@ public class Settings extends PreferenceActivity implements
                               restoreSettingsDefault();
                               finish();
                            }
-                      }).setNegativeButton(R.string.alert_dialog_cancel,
+                      }).setNegativeButton(android.R.string.cancel,
                               new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog,
                                                        int whichButton) {
