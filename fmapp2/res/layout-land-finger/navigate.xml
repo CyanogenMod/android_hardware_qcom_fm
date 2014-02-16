@@ -56,7 +56,7 @@
                     android:layout_alignParentLeft="true"
                     android:textSize="14dip"
                     android:textStyle="bold"
-                    android:text="@string/default_record"
+                    android:text="@string/default_blank"
                     />
 
                 <Button android:id="@+id/btn_presets_list"
@@ -79,7 +79,7 @@
                     android:layout_gravity="center_vertical"
                     android:textSize="14dip"
                     android:textStyle="bold"
-                    android:text="@string/default_sleep"
+                    android:text="@string/default_blank"
                     />
             </RelativeLayout>
          </LinearLayout>
@@ -93,17 +93,17 @@
             android:gravity="center_horizontal">
 
             <Button android:id="@+id/presets_button_1"
-                android:text="@string/default_station"
+                android:text="@string/default_blank"
                 android:layout_width="80dip"
                 android:layout_height="50dip" />
 
             <Button android:id="@+id/presets_button_2"
-                android:text="@string/default_station"
+                android:text="@string/default_blank"
                 android:layout_width="80dp"
                 android:layout_height="50dp" />
 
             <Button android:id="@+id/presets_button_3"
-                android:text="@string/default_station"
+                android:text="@string/default_blank"
                 android:layout_width="80dip"
                 android:layout_height="50dip"
                 android:visibility="visible" />

@@ -100,7 +100,7 @@ OnFrequencyChangedListener {
         mCallBack = callback;
 
         setButton(context.getString(R.string.set), this);
-        setButton2(context.getString(R.string.cancel),  (OnClickListener) null);
+        setButton2(context.getString(android.R.string.cancel),  (OnClickListener) null);
         setIcon(R.drawable.alert_dialog_icon);
 
         LayoutInflater inflater =
