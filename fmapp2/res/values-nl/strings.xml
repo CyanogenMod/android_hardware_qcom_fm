@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (c) 2009, 2011-2013 The Linux Foundation. All rights reserved.
+ * Copyright (C) 2014 The CyanogenMod Project
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *    * Redistributions of source code must retain the above copyright
+ *      notice, this list of conditions and the following disclaimer.
+ *    * Redistributions in binary form must reproduce the above copyright
+ *      notice, this list of conditions and the following disclaimer in the
+ *      documentation and/or other materials provided with the distribution.
+ *    * Neither the name of The Linux Foundation nor
+ *      the names of its contributors may be used to endorse or promote
+ *      products derived from this software without specific prior written
+ *      permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NON-INFRINGEMENT ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">FM-radio</string>
+  <string name="tx_app_name">FM-zender</string>
+  <string name="menu_add_to_preset">Toevoegen aan favorieten</string>
+  <string name="menu_settings">Instellingen</string>
+  <string name="menu_record_start">Opnemen starten</string>
+  <string name="menu_record_stop">Opnemen stoppen</string>
+  <string name="menu_all_channels">Alle kanalen</string>
+  <string name="app_label_all_channels">Alle kanalen</string>
+  <string name="button_ok">OK</string>
+  <string name="button_cancel">Annuleren</string>
+  <string name="button_delete">Verwijderen</string>
+  <string name="error_sdcard_access">Geen toegang tot SD-kaart</string>
+  <string name="fm_service_started">FM-service</string>
+  <string name="menu_sleep">Slaapstand</string>
+  <string name="menu_sleep_cancel">Slaapstand annuleren</string>
+  <string name="menu_wired_headset">Bedrade oortelefoon</string>
+  <string name="menu_speaker_on">Luidspreker inschakelen</string>
+  <string name="menu_display_tags">Labels tonen</string>
+  <string name="menu_speaker_off">Luidspreker uitschakelen</string>
+  <string name="menu_scan_start">Zoeken</string>
+  <string name="menu_scan_stop">Zoeken annuleren</string>
+  <string name="menu_stats">FM-RF-statistieken</string>
+  <string name="button_text_stop">Stoppen</string>
+  <string name="msg_seeking">FM-zender zoeken</string>
+  <string name="msg_scanning">Alle FM-zenders zoeken</string>
+  <string name="msg_scanning_pty">Zoeken naar \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
+  <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+  <string name="msg_searching">Zoeken naar goed bereikbare zenders voor favorietenlijst</string>
+  <string name="msg_searching_title">Automatisch favorieten zoeken</string>
+  <string name="msg_weak_searching">Frequenties zoeken om te zenden</string>
+  <string name="msg_noantenna">Sluit een oortelefoon aan om de FM-radio te gebruiken</string>
+  <string name="msg_headsetpluggedin">Koppel alle oortelefoons af om FM-zender te gebruiken</string>
+  <string name="msg_callactive">FM-zender wordt niet ondersteund tijdens een actief gesprek</string>
+  <string name="dialog_sleep_title">Slaaptijd selecteren</string>
+  <string name="preset_select_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' selecteren</string>
+  <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' selecteren</string>
+  <string name="presetlist_add_new">Nieuwe lijst toevoegen</string>
+  <string name="dialog_presetlist_title">Favorietenlijst</string>
+  <string name="presetlist_prefix_name">FM - </string>
+  <string name="dialog_presetlist_rename_title">Naam invoeren </string>
+  <string name="dialog_preset_rename_title">Naam invoeren</string>
+  <string name="presetlist_delete_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' en bijbehorende zenders verwijderen?</string>
+  <string name="presetlist_autoselect_title">Automatisch selecteren bevestigen</string>
+  <string name="presetlist_autoselect_name">Automatisch selecteren zal alle favorieten in lijst \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' verwijderen. Doorgaan?</string>
+  <string name="fmtx_autoselect_name">Automatisch selecteren zal alle favorieten verwijderen. Doorgaan?</string>
+  <string name="enter_frequency">Afstemmen op zender</string>
+  <string name="enter_new_frequency_title">Frequentie invoeren</string>
+  <string name="preset_now_playing">Nu afspelen</string>
+  <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
+  <string name="preset_delete_title">Favoriet verwijderen</string>
+  <string name="preset_delete_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' verwijderen uit \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'</string>
+  <string name="preset_confirm_delete_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' verwijderen uit \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'?</string>
+  <string name="preset_name_dialog_title">Naam invoeren</string>
+  <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_name_title">Naam wijzigen</string>
+  <string name="preset_search_title">Zoeken</string>
+  <string name="preset_search_name">Zoeken naar \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_preference_title">FM-zenders in \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_empty_title">Geen zenders in de lijst</string>
+  <string name="preset_empty_add_summary">Zenders toevoegen</string>
+  <string name="preset_add">Toevoegen</string>
+  <string name="preset_replace">Vervangen</string>
+  <string name="preset_tune">Afstemmen</string>
+  <string name="preset_rename">Naam wijzigen</string>
+  <string name="preset_delete">Verwijderen</string>
+  <string name="preset_search">Zoeken naar \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
+  <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
+  <string name="stat_notif_tx_frequency">Uitzenden op: \'<xliff:g id="frequency">%1$s</xliff:g>\'</string>
+  <string name="sel_band_menu">Regionale band selecteren</string>
+  <string name="test_menu">Testen</string>
+  <string name="settings_menu">Instellingen</string>
+  <string name="regional_band">Regionale band</string>
+  <string name="aud_output_mode">Audio-uitvoer modus</string>
+  <string name="sel_audio_output">Audio-uitvoer selecteren</string>
+  <string name="record_dur">Opnameduur</string>
+  <string name="sel_rec_dur">Opnameduur selecteren</string>
+  <string name="auto_select_af">Alternatieve frequentie</string>
+  <string name="auto_select_af_enabled">Automatisch selecteren ingeschakeld</string>
+  <string name="auto_select_af_disabled">Automatisch selecteren uitgeschakeld</string>
+  <string name="fac_defaults">Fabrieksinstellingen herstellen</string>
+  <string name="revert_to_fac">Fabrieksinstellingen herstellen</string>
+  <string name="settings_back">Terug</string>
+  <string name="settings_revert_confirm_title">Opnieuw instellen bevestigen</string>
+  <string name="settings_revert_confirm_msg">Dit zal alle instellingen verwijderen inclusief favorieten</string>
+  <string name="settings_back_summary">Terug naar vorige weergave</string>
+  <string name="settings_revert_defaults_title">Fabrieksinstellingen herstellen</string>
+  <string name="settings_revert_defaults_summary">Alles opnieuw instellen</string>
+  <string name="audio_type_stereo">Stereo</string>
+  <string name="audio_type_mono">Mono</string>
+  <string name="default_band">Verenigde Staten</string>
+  <string name="default_audio">Stereo</string>
+  <string name="default_record_duration">5 minuten</string>
+  <string name="factory_reset_dialog_title">Opnieuw instellen bevestigen</string>
+  <string name="factory_reset_dialog_message">Dit zal alle instellingen verwijderen inclusief favorieten</string>
+  <string name="station_move">Verplaatsen</string>
+  <string name="station_edit">Wijzigen</string>
+  <string name="no_storage">Plaats SD-kaart om op te nemen.</string>
+  <string name="preparing_sd">SD-kaart voorbereiden</string>
+  <string name="access_sd_fail">Geen toegang tot SD-kaart</string>
+  <string name="spaceIsLow_content">Uw SD-kaart heeft bijna geen ruimte meer. Verminder de opnamekwaliteit of verwijder bestanden.</string>
+  <string name="FMRecording_reach_size_limit">Opnamelimiet bereikt</string>
+  <string name="delete_station_title">Verwijderen</string>
+  <string name="find_af_station">Zoeken</string>
+  <string name="menu_add_list">Lijst toevoegen</string>
+  <string name="menu_rename_list">Lijstnaam aanpassen</string>
+  <string name="menu_reorder_list">Lijst sorteren</string>
+  <string name="menu_scan_for_preset">Favorieten zoeken</string>
+  <string name="menu_delete_list">Lijst verwijderen</string>
+  <string name="alert_dialog_ok">OK</string>
+  <string name="alert_dialog_cancel">Annuleren</string>
+  <string name="alert_dialog_hint">Naam invoeren</string>
+  <string name="search_dialog_title">Zenders zoeken</string>
+  <string name="search_category">Zoekcategorie selecteren</string>
+  <string name="search_category_title">Zoekcategorie</string>
+  <string name="default_search_category">Zoeken</string>
+  <string name="search_category_tune">Afstemmen</string>
+  <string name="search_category_type">Zoeken op type programma</string>
+  <string name="search_category_type_title">Zoeken op type programma</string>
+  <string name="default_search_category_type">Alle zenders</string>
+  <string name="presets_back">Terug</string>
+  <string name="presets_back_summary">Terug naar vorige weergave</string>
+  <string name="nav_mode_presets">Favorieten</string>
+  <string name="nav_mode_stations">Zenders</string>
+  <string name="radio_text_string">Dit is de lange Radio Text die kan scrollen</string>
+  <string name="eradio_text_string">Uitgebreide Radio Text</string>
+  <string name="fm_command_timeout_title">Time-out</string>
+  <string name="fm_tune_timeout_msg">Geen FM-zenders ontvangen. Als het probleem blijft bestaan schakel FM-radio uit en aan.</string>
+  <string name="fm_command_failed_title">FM-bewerking mislukt</string>
+  <string name="fm_cmd_failed_msg">FM-bewerking mislukt. Als het probleem blijft bestaan schakel FM-radio uit en aan.</string>
+  <string name="fm_cmd_failed_msg_hdmi">FM-bewerking mislukt. FM en HDMI tegelijk wordt niet ondersteund.</string>
+  <string name="fm_cmd_failed_call_on">FM-bewerking mislukt. FM audio niet toegestaan tijdens een telefoongesprek.</string>
+  <string name="default_preset_list_name">FM-lijst</string>
+  <string name="default_station">FM</string>
+  <string name="stop_scanning">Zoeken annuleren</string>
+  <string name="transmit_msg_string">Uitzenden op:</string>
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
+  <string name="audio_db_artist_name">Mijn FM-opnames</string>
+  <string name="audio_db_album_name">FM-opnames</string>
+  <string name="audio_db_playlist_name">FM-opnames</string>
+  <string name="test_prompt">Test selecteren</string>
+  <string name="test_run">Test starten</string>
+  <string name="set_rmmsi_delta">RMSSI delta configureren</string>
+  <string name="set_sigth">Th signaal configureren</string>
+  <string name="srch_params">RMSSI delta configureren</string>
+  <string name="srch_params_1">Th signaal configureren</string>
+  <string name="enter_rssi">RMSSI delta invoeren</string>
+  <string name="enter_sigth">Th signaal invoeren</string>
+  <string name="enter_SinrSmplsCnt">SINR samples-teller invoeren</string>
+  <string name="set_SinrSmplsCnt">SINR samples configureren</string>
+  <string name="enter_SinrTh">SINR drempelwaarde invoeren</string>
+  <string name="set_SinrTh">SINR drempelwaarde configureren</string>
+  <string name="enter_IntfLowTh">Intf Det Low drempelwaarde invoeren</string>
+  <string name="set_IntfLowTh">Intf Det Low drempelwaarde configureren</string>
+  <string name="enter_IntfHighTh">Intf Det High drempelwaarde invoeren</string>
+  <string name="set_IntfHighTh">Intf Det High drempelwaarde configureren</string>
+  <string name="station_name">Zender:</string>
+  <string name="station_exists">Deze frequentie bestaat al</string>
+  <string name="station_list_delete_station">Verwijderen: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">Weet u zeker dat u <xliff:g id="name">%s</xliff:g> wilt verwijderen?</string>
+  <string name="station_name_empty">Zendernaam is leeg, opnieuw invoeren.</string>
+  <string name="station_name_exist">Zendernaam \'<xliff:g id="name">%s</xliff:g>\' bestaat al. Vul een andere naam in.</string>
+  <string name="enter_SinrFirstStage">Sinr eerste stadium invoeren</string>
+  <string name="set_SinrFirstStage">Sinr eerste stadium configureren</string>
+  <string name="enter_RmssiFirstStage">Rmssi eerste stadium invoeren</string>
+  <string name="set_RmssiFirstStage">Rmssi eerste stadium configureren</string>
+  <string name="enter_CF0Th12">CF0 drempelwaarde invoeren</string>
+  <string name="set_CF0Th12">CF0 drempelwaarde configureren</string>
+  <string name="search_algo_mpx">MPX_DCC Algo</string>
+  <string name="search_algo_sinrint">SINR_INTF Algo</string>
+  <string name="enter_AfJmpRmssiTh">AF Jump Rmssi drempelwaarde invoeren</string>
+  <string name="set_AfJmpRmssiTh">AF Jump Rmssi drempelwaarde configureren</string>
+  <string name="enter_GdChRmssiTh">Goed Kanaal Rmssi drempelwaarde invoeren</string>
+  <string name="set_GdChRmssiTh">Goed Kanaal Rmssi drempelwaarde configureren</string>
+  <string name="enter_AfJmpRmssiSmplsCnt">AF Jump Rmssi samples-teller invoeren</string>
+  <string name="set_AfJmpRmssiSmplsCnt">AF Jump Rmssi samples-teller configureren</string>
+  <string name="rt_plus_tags">Labels</string>
+  <string name="enter_RxRePeatCount">RxRePeat-teller invoeren </string>
+  <string name="set_RxRePeatCount">RxRePeat-teller configureren</string>
+  <string name="usr_def_band_min">Lage frequentie limiet (in MHz)</string>
+  <string name="usr_def_band_max">Hoge frequentie limiet (in MHz)</string>
+  <string name="sel_chanl_spacing">Kanaalafstand selecteren</string>
+  <string name="chanl_spacing">Kanaalafstand</string>
+  <string name="band_method_prompt">Methode selecteren</string>
+  <string name="enter_start_delay_time">Vertragingstijd</string>
+  <string name="enter_dwell_time">Verblijftijd</string>
+  <string name="band_sweep_setting">Instelling afzoeken</string>
+  <string name="band_sweep_setting_set">Ingesteld</string>
+  <string name="band_sweep_setting_cancel">Annuleren</string>
+  <string name="band_sweep_choose">Band-afzoekmethode selecteren</string>
+</resources>
