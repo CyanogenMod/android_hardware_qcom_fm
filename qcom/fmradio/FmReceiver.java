@@ -1458,7 +1458,7 @@ public class FmReceiver extends FmTransceiver
       mRdsData.setPrgmType ( (int)( buff[1] & 0x1F));
       try
       {
-         rdsStr = rdsStr.substring(5, (int) buff[0]+ 5);
+         rdsStr = rdsStr.substring(5, (int) buff[0]+ 4);
          mRdsData.setRadioText (rdsStr);
 
       } catch (StringIndexOutOfBoundsException x)
