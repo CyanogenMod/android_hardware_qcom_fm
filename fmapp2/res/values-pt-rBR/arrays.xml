@@ -30,49 +30,49 @@
 -->
 <resources>
   <string-array name="ster_mon_entries">
-    <item>Stereo</item>
+    <item>Estéreo</item>
     <item>Mono</item>
   </string-array>
   <string-array name="record_durations_entries">
-    <item>5 minutes</item>
-    <item>15 minutes</item>
-    <item>30 minutes</item>
-    <item>Until stopped</item>
+    <item>5 minutos</item>
+    <item>15 minutos</item>
+    <item>30 minutos</item>
+    <item>Até parar</item>
   </string-array>
   <string-array name="sleep_duration_values">
-    <item>15 minutes</item>
-    <item>30 minutes</item>
-    <item>45 minutes</item>
+    <item>15 minutos</item>
+    <item>30 minutos</item>
+    <item>45 minutos</item>
     <item>1 hour</item>
   </string-array>
   <string-array name="search_category_rbds_entries">
     <item>All stations</item>
     <item>Adult hits</item>
-    <item>Classical</item>
-    <item>Classic Rock</item>
-    <item>College</item>
+    <item>Clássica</item>
+    <item>Rock Clássico</item>
+    <item>Colegial</item>
     <item>Country</item>
-    <item>Emergency</item>
+    <item>Emergência</item>
     <item>Emergency test</item>
     <item>Foreign language</item>
-    <item>Information</item>
+    <item>Informações</item>
     <item>Jazz</item>
-    <item>News</item>
+    <item>Notícias</item>
     <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
+    <item>Velhos</item>
+    <item>Personalidade</item>
+    <item>Pública</item>
     <item>Religious music</item>
     <item>Religious talk</item>
     <item>Rhythm and Blues</item>
     <item>Rock</item>
-    <item>Soft</item>
+    <item>Suave</item>
     <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
-    <item>Talk</item>
+    <item>Rhythm and Blues Suave</item>
+    <item>Esportes</item>
+    <item>Discussão</item>
     <item>Top 40</item>
-    <item>Weather</item>
+    <item>Tempo</item>
   </string-array>
   <string-array name="search_category_rds_entries">
     <item>All stations</item>
@@ -84,15 +84,15 @@
     <item>Drama</item>
     <item>Easy listening music</item>
     <item>Education</item>
-    <item>Emergency</item>
+    <item>Emergência</item>
     <item>Emergency test</item>
     <item>Finance</item>
     <item>Folk music</item>
-    <item>Information</item>
+    <item>Informações</item>
     <item>Jazz music</item>
     <item>Light classical</item>
     <item>Leisure</item>
-    <item>News</item>
+    <item>Notícias</item>
     <item>National music</item>
     <item>Other music</item>
     <item>Oldies music</item>
@@ -106,50 +106,50 @@
     <item>Sport</item>
     <item>Travel</item>
     <item>Varied</item>
-    <item>Weather</item>
+    <item>Tempo</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>Renomear</item>
     <item>Auto-select</item>
-    <item>Delete</item>
+    <item>Apagar</item>
   </string-array>
   <string-array name="regional_band_entries">
-    <item>North America</item>
-    <item>Europe</item>
-    <item>Japan</item>
+    <item>América do Norte</item>
+    <item>Europa</item>
+    <item>Japão</item>
     <item>Japan (wide)</item>
-    <item>Australia</item>
-    <item>Austria</item>
-    <item>Belgium</item>
-    <item>Brazil</item>
+    <item>Austrália</item>
+    <item>Áustria</item>
+    <item>Bélgica</item>
+    <item>Brasil</item>
     <item>China</item>
-    <item>Czech</item>
-    <item>Denmark</item>
-    <item>Finland</item>
-    <item>France</item>
-    <item>Germany</item>
-    <item>Greece</item>
+    <item>Repúlblica Tcheca</item>
+    <item>Dinamarca</item>
+    <item>Finlândia</item>
+    <item>França</item>
+    <item>Alemanha</item>
+    <item>Grécia</item>
     <item>Hong Kong</item>
-    <item>India</item>
-    <item>Ireland</item>
-    <item>Italy</item>
-    <item>Korea</item>
-    <item>Mexico</item>
-    <item>Netherlands</item>
-    <item>New Zealand</item>
-    <item>Norway</item>
-    <item>Poland</item>
+    <item>Índia</item>
+    <item>Irlanda</item>
+    <item>Itália</item>
+    <item>Coréia</item>
+    <item>México</item>
+    <item>Holanda</item>
+    <item>Nova Zelândia</item>
+    <item>Noruega</item>
+    <item>Polônia</item>
     <item>Portugal</item>
-    <item>Russia</item>
-    <item>Singapore</item>
-    <item>Slovakia</item>
-    <item>Spain</item>
-    <item>Switzerland</item>
-    <item>Sweden</item>
+    <item>Rússia</item>
+    <item>Cingapura</item>
+    <item>Eslováquia</item>
+    <item>Espanha</item>
+    <item>Suíça</item>
+    <item>Suécia</item>
     <item>Taiwan</item>
-    <item>Turkey</item>
-    <item>United Kingdom </item>
-    <item>United States</item>
+    <item>Turquia</item>
+    <item>Reino Unido</item>
+    <item>Estados Unidos</item>
     <item>User defined band</item>
   </string-array>
   <string-array name="regional_band_summary">

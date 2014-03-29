@@ -30,19 +30,19 @@
 -->
 <resources>
   <string-array name="ster_mon_entries">
-    <item>Stereo</item>
-    <item>Mono</item>
+    <item>Стерео</item>
+    <item>Моно</item>
   </string-array>
   <string-array name="record_durations_entries">
-    <item>5 minutes</item>
-    <item>15 minutes</item>
-    <item>30 minutes</item>
-    <item>Until stopped</item>
+    <item>5 минут</item>
+    <item>15 минут</item>
+    <item>30 минут</item>
+    <item>До остановки</item>
   </string-array>
   <string-array name="sleep_duration_values">
-    <item>15 minutes</item>
-    <item>30 minutes</item>
-    <item>45 minutes</item>
+    <item>15 минут</item>
+    <item>30 минут</item>
+    <item>45 минут</item>
     <item>1 hour</item>
   </string-array>
   <string-array name="search_category_rbds_entries">
@@ -109,47 +109,47 @@
     <item>Weather</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>Переименовать</item>
     <item>Auto-select</item>
-    <item>Delete</item>
+    <item>Удалить</item>
   </string-array>
   <string-array name="regional_band_entries">
-    <item>North America</item>
-    <item>Europe</item>
-    <item>Japan</item>
+    <item>Северная Америка</item>
+    <item>Европа</item>
+    <item>Япония</item>
     <item>Japan (wide)</item>
-    <item>Australia</item>
-    <item>Austria</item>
-    <item>Belgium</item>
-    <item>Brazil</item>
-    <item>China</item>
-    <item>Czech</item>
-    <item>Denmark</item>
-    <item>Finland</item>
-    <item>France</item>
-    <item>Germany</item>
-    <item>Greece</item>
-    <item>Hong Kong</item>
-    <item>India</item>
-    <item>Ireland</item>
-    <item>Italy</item>
-    <item>Korea</item>
-    <item>Mexico</item>
-    <item>Netherlands</item>
-    <item>New Zealand</item>
-    <item>Norway</item>
-    <item>Poland</item>
-    <item>Portugal</item>
-    <item>Russia</item>
-    <item>Singapore</item>
-    <item>Slovakia</item>
-    <item>Spain</item>
-    <item>Switzerland</item>
-    <item>Sweden</item>
-    <item>Taiwan</item>
-    <item>Turkey</item>
-    <item>United Kingdom </item>
-    <item>United States</item>
+    <item>Австралия</item>
+    <item>Австрия</item>
+    <item>Бельгия</item>
+    <item>Бразилия</item>
+    <item>Китай</item>
+    <item>Чехия</item>
+    <item>Дания</item>
+    <item>Финляндия</item>
+    <item>Франция</item>
+    <item>Германия</item>
+    <item>Греция</item>
+    <item>Гонконг</item>
+    <item>Индия</item>
+    <item>Ирландия</item>
+    <item>Италия</item>
+    <item>Республика Корея</item>
+    <item>Мексика</item>
+    <item>Нидерланды</item>
+    <item>Новая Зеландия</item>
+    <item>Норвегия</item>
+    <item>Польша</item>
+    <item>Португалия</item>
+    <item>Россия</item>
+    <item>Сингапур</item>
+    <item>Словакия</item>
+    <item>Испания</item>
+    <item>Швейцария</item>
+    <item>Швеция</item>
+    <item>Тайвань</item>
+    <item>Турция</item>
+    <item>Великобритания  </item>
+    <item>США</item>
     <item>User defined band</item>
   </string-array>
   <string-array name="regional_band_summary">

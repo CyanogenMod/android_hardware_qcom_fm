@@ -29,15 +29,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Plaats SD-kaart om te kunnen opnemen.</string>
-  <string name="preparing_sd">SD-kaart voorbereiden\u2026</string>
-  <string name="access_sd_fail">Geen toegang tot SD-kaart.</string>
-  <string name="spaceIsLow_content">SD-kaart bijna vol. Verminder de opnamekwaliteit of verwijder bestanden.</string>
-  <string name="FMRecording_reach_size_limit">Opnamelimiet bereikt.</string>
-  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">Mijn FM-opnamen</string>
-  <string name="audio_db_album_name">FM-opnamen</string>
-  <string name="audio_db_playlist_name">FM-opnamen</string>
-  <string name="save_record_file">FM-opname opgeslagen in \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Opnemen\u2026</string>
+  <string name="no_storage">Munta la targeta SD abans de començar a gravar.</string>
+  <string name="preparing_sd">Preparant targeta SD</string>
+  <string name="access_sd_fail">No s\'ha pogut accedir a la targeta SD.</string>
+  <string name="spaceIsLow_content">L\'emmagatzematge USB s\'està quedant sense espai. Canvia la configuració de qualitat o esborra algunes imatges o altres fitxers.</string>
+  <string name="FMRecording_reach_size_limit">S\'ha assolit la mida límit.</string>
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <string name="audio_db_artist_name">Les meves gravacions FM</string>
+  <string name="audio_db_album_name">Gravacions FM</string>
+  <string name="audio_db_playlist_name">Gravacions FM</string>
+  <string name="save_record_file">Arxiu FM gravat desat a \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">Gravació FM en curs</string>
 </resources>

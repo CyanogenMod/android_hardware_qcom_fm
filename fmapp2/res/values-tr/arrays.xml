@@ -34,122 +34,122 @@
     <item>Mono</item>
   </string-array>
   <string-array name="record_durations_entries">
-    <item>5 minutes</item>
-    <item>15 minutes</item>
-    <item>30 minutes</item>
-    <item>Until stopped</item>
+    <item>5 dakika</item>
+    <item>15 dakika</item>
+    <item>30 dakika</item>
+    <item>Durana kadar</item>
   </string-array>
   <string-array name="sleep_duration_values">
-    <item>15 minutes</item>
-    <item>30 minutes</item>
-    <item>45 minutes</item>
+    <item>15 dakika</item>
+    <item>30 dakika</item>
+    <item>45 dakika</item>
     <item>1 hour</item>
   </string-array>
   <string-array name="search_category_rbds_entries">
     <item>All stations</item>
     <item>Adult hits</item>
-    <item>Classical</item>
-    <item>Classic Rock</item>
-    <item>College</item>
-    <item>Country</item>
-    <item>Emergency</item>
+    <item>Klasik</item>
+    <item>Klasik Rock</item>
+    <item>Kolej</item>
+    <item>Bölgesel</item>
+    <item>Acil</item>
     <item>Emergency test</item>
     <item>Foreign language</item>
-    <item>Information</item>
+    <item>Bilgi</item>
     <item>Jazz</item>
-    <item>News</item>
-    <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
+    <item>Haberler</item>
+    <item>Nostaljik</item>
+    <item>Yetişkin</item>
+    <item>Kişisel</item>
+    <item>Halka açık</item>
     <item>Religious music</item>
     <item>Religious talk</item>
-    <item>Rhythm and Blues</item>
+    <item>Rhythm ve Blues</item>
     <item>Rock</item>
     <item>Soft</item>
     <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
-    <item>Talk</item>
+    <item>Soft Rhythm ve Blues</item>
+    <item>Spor</item>
+    <item>Sohbet</item>
     <item>Top 40</item>
-    <item>Weather</item>
+    <item>Hava Durumu</item>
   </string-array>
   <string-array name="search_category_rds_entries">
     <item>All stations</item>
-    <item>Culture</item>
+    <item>Yetişkin Hit</item>
     <item>Current affairs</item>
-    <item>Children programs</item>
+    <item>Klasik Rock</item>
     <item>Country music</item>
-    <item>Documentary</item>
-    <item>Drama</item>
+    <item>Bölgesel</item>
+    <item>Acil</item>
     <item>Easy listening music</item>
-    <item>Education</item>
-    <item>Emergency</item>
+    <item>Yabancı Dil</item>
+    <item>Bilgi</item>
     <item>Emergency test</item>
-    <item>Finance</item>
+    <item>Haberler</item>
     <item>Folk music</item>
-    <item>Information</item>
+    <item>Yetişkin</item>
     <item>Jazz music</item>
-    <item>Light classical</item>
-    <item>Leisure</item>
-    <item>News</item>
+    <item>Halka açık</item>
+    <item>Bölgesel Music</item>
+    <item>Bölgesel Konuşma</item>
     <item>National music</item>
     <item>Other music</item>
     <item>Oldies music</item>
     <item>Phone in</item>
     <item>Pop music</item>
-    <item>Religion</item>
+    <item>Spor</item>
     <item>Rock music</item>
-    <item>Science</item>
-    <item>Serious classical</item>
+    <item>Top 40</item>
+    <item>Hava Durumu</item>
     <item>Social affairs</item>
     <item>Sport</item>
     <item>Travel</item>
     <item>Varied</item>
-    <item>Weather</item>
+    <item>Hava Durumu</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>Yeniden Adlandır</item>
     <item>Auto-select</item>
-    <item>Delete</item>
+    <item>Sil</item>
   </string-array>
   <string-array name="regional_band_entries">
-    <item>North America</item>
-    <item>Europe</item>
-    <item>Japan</item>
+    <item>Kuzey Amerika</item>
+    <item>Avrupa</item>
+    <item>Japonya</item>
     <item>Japan (wide)</item>
-    <item>Australia</item>
-    <item>Austria</item>
-    <item>Belgium</item>
-    <item>Brazil</item>
-    <item>China</item>
-    <item>Czech</item>
-    <item>Denmark</item>
-    <item>Finland</item>
-    <item>France</item>
-    <item>Germany</item>
-    <item>Greece</item>
+    <item>Avustralya</item>
+    <item>Avusturya</item>
+    <item>Belçika</item>
+    <item>Brazilya</item>
+    <item>Çin</item>
+    <item>Çek C.</item>
+    <item>Danimarka</item>
+    <item>Finlandiya</item>
+    <item>Fransa</item>
+    <item>Almanya</item>
+    <item>Yunanistan</item>
     <item>Hong Kong</item>
-    <item>India</item>
-    <item>Ireland</item>
-    <item>Italy</item>
-    <item>Korea</item>
-    <item>Mexico</item>
-    <item>Netherlands</item>
-    <item>New Zealand</item>
-    <item>Norway</item>
-    <item>Poland</item>
-    <item>Portugal</item>
-    <item>Russia</item>
-    <item>Singapore</item>
-    <item>Slovakia</item>
-    <item>Spain</item>
-    <item>Switzerland</item>
-    <item>Sweden</item>
-    <item>Taiwan</item>
-    <item>Turkey</item>
-    <item>United Kingdom </item>
-    <item>United States</item>
+    <item>Hindistan</item>
+    <item>İrlanda</item>
+    <item>İtalya</item>
+    <item>Kore</item>
+    <item>Meksika</item>
+    <item>Hollanda</item>
+    <item>Yeni Zelanda</item>
+    <item>Norveç</item>
+    <item>Polonya</item>
+    <item>Portekiz</item>
+    <item>Rusya</item>
+    <item>Singapur</item>
+    <item>Slovakya</item>
+    <item>İspanya</item>
+    <item>İsviçre</item>
+    <item>İsveç</item>
+    <item>Tayvan</item>
+    <item>Türkiye</item>
+    <item>Birleşik Krallık </item>
+    <item>Birleşik Devletler</item>
     <item>User defined band</item>
   </string-array>
   <string-array name="regional_band_summary">

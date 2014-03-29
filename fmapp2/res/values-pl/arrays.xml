@@ -51,7 +51,7 @@
     <item>Classical</item>
     <item>Classic Rock</item>
     <item>College</item>
-    <item>Country</item>
+    <item>Kraj</item>
     <item>Emergency</item>
     <item>Emergency test</item>
     <item>Foreign language</item>
@@ -109,7 +109,7 @@
     <item>Weather</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>Zmień nazwę</item>
     <item>Auto-select</item>
     <item>Delete</item>
   </string-array>

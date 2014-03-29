@@ -35,12 +35,12 @@
   </string-array>
   <string-array name="record_durations_entries">
     <item>5 minutes</item>
-    <item>15 minutes</item>
+    <item>15 minutter</item>
     <item>30 minutes</item>
     <item>Until stopped</item>
   </string-array>
   <string-array name="sleep_duration_values">
-    <item>15 minutes</item>
+    <item>15 minutter</item>
     <item>30 minutes</item>
     <item>45 minutes</item>
     <item>1 hour</item>
@@ -48,7 +48,7 @@
   <string-array name="search_category_rbds_entries">
     <item>All stations</item>
     <item>Adult hits</item>
-    <item>Classical</item>
+    <item>Klassisk</item>
     <item>Classic Rock</item>
     <item>College</item>
     <item>Country</item>

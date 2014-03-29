@@ -34,21 +34,21 @@
     <item>Mono</item>
   </string-array>
   <string-array name="record_durations_entries">
-    <item>5 minutes</item>
+    <item>5 minutos</item>
     <item>15 minutes</item>
-    <item>30 minutes</item>
+    <item>30 minutos</item>
     <item>Until stopped</item>
   </string-array>
   <string-array name="sleep_duration_values">
     <item>15 minutes</item>
-    <item>30 minutes</item>
+    <item>30 minutos</item>
     <item>45 minutes</item>
     <item>1 hour</item>
   </string-array>
   <string-array name="search_category_rbds_entries">
     <item>All stations</item>
     <item>Adult hits</item>
-    <item>Classical</item>
+    <item>Clásica</item>
     <item>Classic Rock</item>
     <item>College</item>
     <item>Country</item>
@@ -69,7 +69,7 @@
     <item>Soft</item>
     <item>Soft Rock</item>
     <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
+    <item>Deportes</item>
     <item>Talk</item>
     <item>Top 40</item>
     <item>Weather</item>
@@ -109,31 +109,31 @@
     <item>Weather</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>Renomar</item>
     <item>Auto-select</item>
-    <item>Delete</item>
+    <item>Desaniciar</item>
   </string-array>
   <string-array name="regional_band_entries">
     <item>North America</item>
-    <item>Europe</item>
+    <item>Europa</item>
     <item>Japan</item>
     <item>Japan (wide)</item>
     <item>Australia</item>
     <item>Austria</item>
     <item>Belgium</item>
-    <item>Brazil</item>
+    <item>Brasil</item>
     <item>China</item>
     <item>Czech</item>
     <item>Denmark</item>
     <item>Finland</item>
     <item>France</item>
-    <item>Germany</item>
+    <item>Alemaña</item>
     <item>Greece</item>
     <item>Hong Kong</item>
     <item>India</item>
     <item>Ireland</item>
     <item>Italy</item>
-    <item>Korea</item>
+    <item>Corea</item>
     <item>Mexico</item>
     <item>Netherlands</item>
     <item>New Zealand</item>
@@ -141,15 +141,15 @@
     <item>Poland</item>
     <item>Portugal</item>
     <item>Russia</item>
-    <item>Singapore</item>
+    <item>Singapur</item>
     <item>Slovakia</item>
     <item>Spain</item>
     <item>Switzerland</item>
     <item>Sweden</item>
     <item>Taiwan</item>
-    <item>Turkey</item>
+    <item>Turquía</item>
     <item>United Kingdom </item>
-    <item>United States</item>
+    <item>Estaos Xuníos</item>
     <item>User defined band</item>
   </string-array>
   <string-array name="regional_band_summary">
