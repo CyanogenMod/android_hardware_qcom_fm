@@ -29,15 +29,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Plaats SD-kaart om te kunnen opnemen.</string>
-  <string name="preparing_sd">SD-kaart voorbereiden\u2026</string>
-  <string name="access_sd_fail">Geen toegang tot SD-kaart.</string>
-  <string name="spaceIsLow_content">SD-kaart bijna vol. Verminder de opnamekwaliteit of verwijder bestanden.</string>
-  <string name="FMRecording_reach_size_limit">Opnamelimiet bereikt.</string>
-  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">Mijn FM-opnamen</string>
-  <string name="audio_db_album_name">FM-opnamen</string>
-  <string name="audio_db_playlist_name">FM-opnamen</string>
-  <string name="save_record_file">FM-opname opgeslagen in \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Opnemen\u2026</string>
+  <string name="no_storage">Pripojte kartu SD pred spustením nahrávania.</string>
+  <string name="preparing_sd">Karta SD sa pripravuje</string>
+  <string name="access_sd_fail">Nemožno získať prístup ku karte SD.</string>
+  <string name="spaceIsLow_content">Na Vašej karte SD nie je dostatok voľného miesta. Zmeňte nastavenie kvality alebo vymažte niektoré obrázky alebo iné súbory.</string>
+  <string name="FMRecording_reach_size_limit">Bol dosiahnutý veľkostný limit.</string>
+  <string name="audio_db_title_format">&lt;xliff:g id=\"format\"&gt;yyyy-MM-dd HH:mm:ss&lt;/xliff:g&gt;</string>
+  <string name="audio_db_artist_name">Moje nahrávky FM</string>
+  <string name="audio_db_album_name">Nahrávky FM</string>
+  <string name="audio_db_playlist_name">Nahrávky FM</string>
+  <string name="save_record_file">Nahraný súbor FM bol uložený do \"&lt;xliff:g id=\"record_file\"&gt;%1$s&lt;/xliff:g&gt;\"</string>
+  <string name="fm_record_progress">Prebieha nahrávanie FM</string>
 </resources>
