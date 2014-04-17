@@ -37,7 +37,7 @@
   <string name="menu_record_stop">Διακοπή ηχογράφησης</string>
   <string name="menu_all_channels">Όλα τα κανάλια</string>
   <string name="app_label_all_channels">Όλα τα κανάλια</string>
-  <string name="button_ok">OK</string>
+  <string name="button_ok">ΟΚ</string>
   <string name="button_cancel">Ακύρωση</string>
   <string name="button_delete">Διαγραφή</string>
   <string name="error_sdcard_access">Δεν είναι δυνατή η πρόσβαση στην κάρτα SD</string>
@@ -149,7 +149,7 @@
   <string name="nav_mode_stations">Σταθμοί</string>
   <string name="radio_text_string">Αυτό είναι το μεγάλο μήνυμα κειμένου του ραδιοφώνου που πρέπει να μετακινείται</string>
   <string name="eradio_text_string">Εκτεταμένο μήνυμα κειμένου ραδιοφώνου</string>
-  <string name="fm_command_timeout_title">Χρ. όριο οθόνης</string>
+  <string name="fm_command_timeout_title">Χρονικό όριο</string>
   <string name="fm_tune_timeout_msg">Δεν ελήφθη καμία απάντηση για τον συντονισμό του σταθμού FM. Εάν το πρόβλημα παραμένει, παρακαλούμε απενεργοποιήστε το FM και ενεργοποιήστε το ξανά.</string>
   <string name="fm_command_failed_title">Η λειτουργία FM απέτυχε</string>
   <string name="fm_cmd_failed_msg">Η λειτουργία FM απέτυχε. Εάν το πρόβλημα παραμένει, παρακαλούμε απενεργοποιήστε το FM και ενεργοποιήστε το ξανά.</string>
