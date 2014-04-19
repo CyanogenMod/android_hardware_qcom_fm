@@ -31,7 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM Радио</string>
   <string name="tx_app_name">FM Преносник</string>
-  <string name="menu_add_to_preset">Додај у поставкама</string>
+  <string name="menu_add_to_preset">Додајте у поставкама</string>
   <string name="menu_settings">Подешавања</string>
   <string name="menu_record_start">Почните снимање</string>
   <string name="menu_record_stop">Зауставите снимање</string>
@@ -43,7 +43,7 @@
   <string name="error_sdcard_access">Немогуће је приступити SD картици</string>
   <string name="fm_service_started">FM услуга</string>
   <string name="menu_sleep">Спавање</string>
-  <string name="menu_sleep_cancel">Откажи спавање</string>
+  <string name="menu_sleep_cancel">Откажите спавање</string>
   <string name="menu_wired_headset">Слушалице са каблом</string>
   <string name="menu_speaker_on">Омогућите звучник</string>
   <string name="menu_display_tags">Прикажи ознаке</string>
