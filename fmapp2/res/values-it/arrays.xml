@@ -189,7 +189,7 @@
     <item>Turchia (da 87.5MHz a 108.0MHz in passi di 100KHz)</item>
     <item>Regno Unito (da 87.5MHz a 108.0MHz in passi di 100KHz)</item>
     <item>Stati Uniti (da 88.1MHz a 107.9MHz in passi di 200KHz)</item>
-    <item>User defined band</item>
+    <item>Banda definita dall\'utente</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>
