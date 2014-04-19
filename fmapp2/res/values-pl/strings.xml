@@ -35,6 +35,8 @@
   <string name="menu_record_start">Rozpocznij nagrywanie</string>
   <string name="menu_record_stop">Zatrzymaj nagrywanie</string>
   <string name="menu_all_channels">Wszystkie kanały</string>
+  <string name="app_label_all_channels">Wszystkie kanały</string>
+  <string name="button_ok">OK</string>
   <string name="button_cancel">Anuluj</string>
   <string name="button_delete">Usuń</string>
   <string name="error_sdcard_access">Brak dostępu do karty SD</string>
@@ -100,13 +102,16 @@
   <string name="auto_select_af_enabled">Automatyczny wybór aktywny</string>
   <string name="auto_select_af_disabled">Automatyczny wybór nieaktywny</string>
   <string name="fac_defaults">Przywróć ustawienia fabryczne</string>
+  <string name="revert_to_fac">Przywróć ustawienia fabryczne</string>
   <string name="settings_back">Cofnij</string>
   <string name="settings_revert_confirm_title">Potwierdzenie przywrócenia ustawień fabrycznych</string>
   <string name="settings_revert_confirm_msg">Opcja ta usunie konfigurację oraz wszystkie ustawienia</string>
   <string name="settings_back_summary">Wróć do poprzedniego ekranu</string>
+  <string name="settings_revert_defaults_title">Przywróć ustawienia fabryczne</string>
   <string name="settings_revert_defaults_summary">Zresetuj wszystkie ustawienia</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
+  <string name="default_audio">Stereo</string>
   <string name="factory_reset_dialog_title">Potwierdź reset</string>
   <string name="station_move">Przenieś</string>
   <string name="station_edit">Edytuj</string>

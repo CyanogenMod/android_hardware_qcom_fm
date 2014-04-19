@@ -31,11 +31,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM Rádió</string>
   <string name="tx_app_name">FM Transzmitter</string>
+  <string name="menu_settings">Beállítások</string>
   <string name="menu_record_start">Felvétel indítása</string>
   <string name="menu_record_stop">Felvétel leállítása</string>
   <string name="menu_all_channels">Minden csatorna</string>
   <string name="app_label_all_channels">Minden csatorna</string>
   <string name="button_ok">Rendben</string>
+  <string name="button_cancel">Mégsem</string>
+  <string name="button_delete">Törlés</string>
   <string name="error_sdcard_access">Nem lehet hozzáférni az SD kártyához</string>
   <string name="fm_service_started">FM szolgáltatás</string>
   <string name="menu_sleep">Alvás</string>
@@ -50,6 +53,7 @@
   <string name="button_text_stop">Leállítás</string>
   <string name="msg_seeking">FM állomás keresése</string>
   <string name="msg_scanning">Összes FM állomás keresése</string>
+  <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
   <string name="dialog_sleep_title">Válassza ki az automatikus kikapcsolás idejét</string>
   <string name="preset_select_name">Válassza ki \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_select_name">Válassza ki \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
