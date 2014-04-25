@@ -34,100 +34,100 @@
     <item>Monó</item>
   </string-array>
   <string-array name="record_durations_entries">
-    <item>5 minutes</item>
+    <item>5 perc</item>
     <item>15 perc</item>
     <item>30 perc</item>
     <item>Leállításig</item>
   </string-array>
   <string-array name="sleep_duration_values">
-    <item>15 minutes</item>
+    <item>15 perc</item>
     <item>30 perc</item>
     <item>45 perc</item>
     <item>1 óra</item>
   </string-array>
   <string-array name="search_category_rbds_entries">
     <item>Minden állomás</item>
-    <item>Adult hits</item>
-    <item>Classical</item>
+    <item>Felnőtt találatok</item>
+    <item>Klasszikus</item>
     <item>Klasszikus Rock</item>
-    <item>College</item>
-    <item>Country</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
-    <item>Foreign language</item>
-    <item>Information</item>
+    <item>Főiskola</item>
+    <item>Ország</item>
+    <item>Vészhelyzeti</item>
+    <item>Vészhelyzeti teszt</item>
+    <item>Idegen nyelvű</item>
+    <item>Információ</item>
     <item>Jazz</item>
     <item>Hírek</item>
     <item>Nosztalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
+    <item>Örökzöld</item>
+    <item>Személyiség</item>
     <item>Publikus</item>
-    <item>Religious music</item>
-    <item>Religious talk</item>
-    <item>Rhythm and Blues</item>
+    <item>Vallásos zene</item>
+    <item>Vallási beszéd</item>
+    <item>Rhythm és Blues</item>
     <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
+    <item>Lágy</item>
+    <item>Lágy Rock</item>
+    <item>Lágy Rhythm és Blues</item>
     <item>Sport események</item>
-    <item>Talk</item>
+    <item>Beszélgetés</item>
     <item>Top 40</item>
     <item>Időjárás</item>
   </string-array>
   <string-array name="search_category_rds_entries">
-    <item>All stations</item>
+    <item>Minden állomás</item>
     <item>Kultúra</item>
     <item>Aktuális ügyek</item>
     <item>Gyerekprogramok</item>
     <item>Country zene</item>
-    <item>Documentary</item>
-    <item>Drama</item>
-    <item>Easy listening music</item>
-    <item>Education</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
-    <item>Finance</item>
-    <item>Folk music</item>
-    <item>Information</item>
-    <item>Jazz music</item>
-    <item>Light classical</item>
-    <item>Leisure</item>
-    <item>News</item>
-    <item>National music</item>
-    <item>Other music</item>
-    <item>Oldies music</item>
-    <item>Phone in</item>
-    <item>Pop music</item>
-    <item>Religion</item>
-    <item>Rock music</item>
-    <item>Science</item>
-    <item>Serious classical</item>
-    <item>Social affairs</item>
+    <item>Dokumentumfilm</item>
+    <item>Dráma</item>
+    <item>Könnyed zenehallgatás</item>
+    <item>Oktatás</item>
+    <item>Sürgősségi</item>
+    <item>Vészhelyzeti teszt</item>
+    <item>Pénzügy</item>
+    <item>Népzene</item>
+    <item>Információ</item>
+    <item>Jazz zene</item>
+    <item>Könnyű klasszikus</item>
+    <item>Szabadidő</item>
+    <item>Hírek</item>
+    <item>Nemzeti zene</item>
+    <item>Egyéb zene</item>
+    <item>Örökzöld slágerek</item>
+    <item>Telefonban</item>
+    <item>Popzene</item>
+    <item>Vallás</item>
+    <item>Rock zene</item>
+    <item>Tudomány</item>
+    <item>Komoly klasszikus</item>
+    <item>Szociális ügyek</item>
     <item>Sport</item>
-    <item>Travel</item>
-    <item>Varied</item>
-    <item>Weather</item>
+    <item>Utazás</item>
+    <item>Változatos</item>
+    <item>Időjárás</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>Átnevezés</item>
     <item>Automatikus választás</item>
-    <item>Delete</item>
+    <item>Törlés</item>
   </string-array>
   <string-array name="regional_band_entries">
     <item>Észak-Amerika</item>
-    <item>Europe</item>
+    <item>Európa</item>
     <item>Japán</item>
-    <item>Japan (wide)</item>
-    <item>Australia</item>
+    <item>Japán (széles)</item>
+    <item>Ausztrália</item>
     <item>Ausztria</item>
     <item>Belgium</item>
-    <item>Brazil</item>
-    <item>China</item>
+    <item>Brazília</item>
+    <item>Kína</item>
     <item>Csehország</item>
     <item>Dánia</item>
     <item>Finnország</item>
     <item>Franciaország</item>
-    <item>Germany</item>
+    <item>Németország</item>
     <item>Görögország</item>
     <item>Hong Kong</item>
     <item>India</item>
@@ -141,22 +141,22 @@
     <item>Lengyelország</item>
     <item>Portugália</item>
     <item>Oroszország</item>
-    <item>Singapore</item>
+    <item>Szingapúr</item>
     <item>Szlovákia</item>
     <item>Spanyolország</item>
     <item>Svájc</item>
     <item>Svédország</item>
     <item>Tajvan</item>
-    <item>Turkey</item>
+    <item>Törökország</item>
     <item>Egyesült Királyság </item>
-    <item>United States</item>
-    <item>User defined band</item>
+    <item>Egyesült Államok</item>
+    <item>Felhasználó által meghatározott sáv</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Észak-Amerika (87,5 MHz-tól 108.0 MHz-ig 200 KHz-es lépésekben)</item>
     <item>Európa (87,5 MHz-tól 108.0 MHz-ig 100 KHz-es lépésekben)</item>
     <item>Japán (76.0MHz-től 90.0MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Japan (wide) (90.0MHz to 108.0MHz in 50 KHz steps)</item>
+    <item>Japán (széles) (90.0MHz-től 108.0MHz-ig 50 KHz-es lépésekben)</item>
     <item>Ausztrália (87.7MHz-től 108.0MHz-ig 100 KHz-es lépésekben)</item>
     <item>Ausztria (87,5 MHz-től 108.0 MHz-ig 50 KHz-es lépésekben)</item>
     <item>Belgium (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
@@ -189,7 +189,7 @@
     <item>Törökország (87,5 MHz-tól 108.0 MHz-ig 100 KHz-es lépésekben)</item>
     <item>Egyesült Királyság (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
     <item>Egyesült Államok (88.1 MHz-től 107.9 MHz-ig 200 KHz-es lépésekben)</item>
-    <item>User defined band</item>
+    <item>Felhasználó által meghatározott sáv</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

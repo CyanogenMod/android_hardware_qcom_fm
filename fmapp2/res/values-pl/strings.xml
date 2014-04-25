@@ -31,10 +31,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Radio FM</string>
   <string name="tx_app_name">Nadajnik FM</string>
+  <string name="menu_add_to_preset">Dodaj do ustawień</string>
   <string name="menu_settings">Ustawienia</string>
   <string name="menu_record_start">Rozpocznij nagrywanie</string>
   <string name="menu_record_stop">Zatrzymaj nagrywanie</string>
   <string name="menu_all_channels">Wszystkie kanały</string>
+  <string name="app_label_all_channels">Wszystkie kanały</string>
+  <string name="button_ok">OK</string>
   <string name="button_cancel">Anuluj</string>
   <string name="button_delete">Usuń</string>
   <string name="error_sdcard_access">Brak dostępu do karty SD</string>
@@ -100,14 +103,18 @@
   <string name="auto_select_af_enabled">Automatyczny wybór aktywny</string>
   <string name="auto_select_af_disabled">Automatyczny wybór nieaktywny</string>
   <string name="fac_defaults">Przywróć ustawienia fabryczne</string>
+  <string name="revert_to_fac">Przywróć ustawienia fabryczne</string>
   <string name="settings_back">Cofnij</string>
   <string name="settings_revert_confirm_title">Potwierdzenie przywrócenia ustawień fabrycznych</string>
   <string name="settings_revert_confirm_msg">Opcja ta usunie konfigurację oraz wszystkie ustawienia</string>
   <string name="settings_back_summary">Wróć do poprzedniego ekranu</string>
+  <string name="settings_revert_defaults_title">Przywróć ustawienia fabryczne</string>
   <string name="settings_revert_defaults_summary">Zresetuj wszystkie ustawienia</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
+  <string name="default_audio">Stereo</string>
   <string name="factory_reset_dialog_title">Potwierdź reset</string>
+  <string name="factory_reset_dialog_message">Opcja ta usunie wszystkie ustawienia oraz szablony</string>
   <string name="station_move">Przenieś</string>
   <string name="station_edit">Edytuj</string>
   <string name="no_storage">Włóż kartę SD przed rozpoczęciem nagrywania.</string>
@@ -128,9 +135,11 @@
   <string name="search_dialog_title">Skanuj stacje</string>
   <string name="search_category">Wybierz typ wyszukiwania</string>
   <string name="search_category_title">Typ wyszukiwania</string>
+  <string name="search_category_tune">Dzwonek</string>
   <string name="search_category_type">Wybierz wyszukiwanie wg typu programu</string>
   <string name="search_category_type_title">Wyszukiwanie wg typu programu</string>
   <string name="presets_back">Cofnij</string>
+  <string name="presets_back_summary">Wróć do poprzedniego ekranu</string>
   <string name="nav_mode_presets">Ustawienia</string>
   <string name="nav_mode_stations">Stacje</string>
   <string name="radio_text_string">To jest długa wiadomość radiowa, która wymaga przewijania</string>
@@ -139,12 +148,17 @@
   <string name="fm_command_failed_title">Operacja FM zakończona niepowodzeniem</string>
   <string name="default_preset_list_name">Lista FM</string>
   <string name="stop_scanning">Zatrzymaj skanowanie</string>
+  <string name="transmit_msg_string">Nadawanie na:</string>
   <string name="audio_db_title_format"><xliff:g id="format">rrrr-MM-dd HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">Moje nagrania</string>
   <string name="audio_db_album_name">Nagrania FM</string>
   <string name="audio_db_playlist_name">Nagrania FM</string>
   <string name="station_name">Stacja:</string>
   <string name="station_exists">Ta częstotliwość już istnieje!</string>
+  <string name="station_list_delete_station">Usuń: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">Czy na pewno chcesz usunąć \'<xliff:g id="name">%s</xliff:g>\' ?</string>
+  <string name="station_name_empty">Nie wprowadzono nazwy stacji, spróbuj ponownie.</string>
+  <string name="station_name_exist">Stacja o nazwie \'<xliff:g id="name">%s</xliff:g>\' już istnieje. Podaj inną nazwę.</string>
   <string name="rt_plus_tags">Tagi</string>
   <string name="usr_def_band_min">Najniższa częstotliwość (w MHz)</string>
   <string name="usr_def_band_max">Najwyższa częstotliwość (w MHz)</string>

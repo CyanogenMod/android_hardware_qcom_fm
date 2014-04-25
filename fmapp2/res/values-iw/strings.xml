@@ -31,10 +31,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">רדיו FM</string>
   <string name="tx_app_name">משדר FM</string>
+  <string name="menu_settings">הגדרות</string>
   <string name="menu_record_start">התחל הקלטה</string>
   <string name="menu_record_stop">עצור הקלטה</string>
   <string name="menu_all_channels">כל הערוצים</string>
+  <string name="app_label_all_channels">כל הערוצים</string>
   <string name="button_ok">אישור</string>
+  <string name="button_cancel">ביטול</string>
+  <string name="button_delete">מחק</string>
   <string name="error_sdcard_access">אין אפשרות לגשת לכרטיס SD</string>
   <string name="fm_service_started">שירות FM</string>
   <string name="menu_wired_headset">אוזניות</string>
@@ -59,50 +63,74 @@
   <string name="dialog_preset_rename_title">הזן שם</string>
   <string name="presetlist_delete_name">מחק \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' ואת כל התחנות הקשורות?</string>
   <string name="presetlist_autoselect_title">אשר בחירה אוטומטית</string>
+  <string name="enter_frequency">כוון לתחנה</string>
   <string name="enter_new_frequency_title">הזן תדירות</string>
   <string name="preset_now_playing">מנגן כעט </string>
   <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
+  <string name="preset_delete_title">מחק קבוע מראש</string>
   <string name="preset_delete_name">מחק \'<xliff:g id="preset_name">%1$s</xliff:g>\' מ-\'<xliff:g id="presetlist_name">%2$s</xliff:g>\'</string>
   <string name="preset_confirm_delete_name">מחק \'<xliff:g id="preset_name">%1$s</xliff:g>\' מ-\'<xliff:g id="presetlist_name">%2$s</xliff:g>\' ?</string>
   <string name="preset_name_dialog_title">הזן שם</string>
   <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_name_title">שינוי שם</string>
+  <string name="preset_search_title">חיפוש</string>
   <string name="preset_search_name">סרוק עבור \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_preference_title">תחנות FM ב-\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_empty_title">אין תחנות ברשימה</string>
   <string name="preset_empty_add_summary">הוסף תחנות</string>
+  <string name="preset_add">הוסף</string>
   <string name="preset_replace">החלף</string>
   <string name="preset_tune">המנגינה</string>
+  <string name="preset_rename">שנה שם</string>
+  <string name="preset_delete">מחק</string>
   <string name="preset_search">סרוק עבור \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="stat_notif_tx_frequency">משדר ב: \'<xliff:g id="frequency">%1$s</xliff:g>\'</string>
+  <string name="settings_menu">הגדרות</string>
+  <string name="regional_band">להקה אזורית</string>
+  <string name="aud_output_mode">מצב פלט קולי</string>
   <string name="record_dur">משך הקלטה</string>
   <string name="sel_rec_dur">בחר משך הקלטה</string>
   <string name="auto_select_af">תדירות חלופית</string>
   <string name="auto_select_af_enabled">בחירה אוטומטית מופעלת</string>
   <string name="auto_select_af_disabled">בחירה אוטומטית מושבתת</string>
   <string name="fac_defaults">שחזר להגדרות ברירת מחדל</string>
+  <string name="revert_to_fac">שחזר להגדרות ברירת מחדל</string>
+  <string name="settings_back">חזור</string>
   <string name="settings_revert_confirm_title">אשר איפוס הגדרות</string>
+  <string name="settings_revert_confirm_msg">פעולה זו תגרום למחיקת כל הגדרות כולל קביעות מוגדרות מראש</string>
+  <string name="settings_back_summary">חזור לתצוגה קודמת</string>
+  <string name="settings_revert_defaults_title">שחזר להגדרות ברירת מחדל</string>
   <string name="settings_revert_defaults_summary">אפס כל ההגדרות</string>
   <string name="audio_type_stereo">סטריאו</string>
   <string name="audio_type_mono">מונו</string>
+  <string name="default_audio">סטריאו</string>
   <string name="factory_reset_dialog_title">אשר איפוס</string>
+  <string name="factory_reset_dialog_message">פעולה זו תגרום למחיקת כל הגדרות כולל קביעות מוגדרות מראש</string>
   <string name="station_move">העבר</string>
+  <string name="station_edit">ערוך</string>
+  <string name="no_storage">טען כרטיס SD לפי תחילת ההקלטה.</string>
   <string name="preparing_sd">מכין כרטיס SD</string>
   <string name="access_sd_fail">אין אפשרות לגשת לכרטיס SD.</string>
+  <string name="spaceIsLow_content">שטח אחסון כרטיס ה-SD שלך אוזל. שנה את ההגדרה של האיכות או מחק קבצים מסוימים אחרים כדי לפנות אזור.</string>
   <string name="FMRecording_reach_size_limit">הגעת למגבלת הגודל.</string>
+  <string name="delete_station_title">מחק</string>
   <string name="find_af_station">מצא</string>
   <string name="menu_add_list">הוסף רשימה</string>
   <string name="menu_rename_list">שינוי שם רשימה</string>
   <string name="menu_reorder_list">סדר מחדש רשימה</string>
   <string name="menu_delete_list">מחק רשימה</string>
   <string name="alert_dialog_ok">אישור</string>
+  <string name="alert_dialog_cancel">בטל</string>
   <string name="alert_dialog_hint">הזן שם</string>
   <string name="search_dialog_title">סריקת תחנות</string>
   <string name="search_category">בחר סוג חיפוש</string>
   <string name="search_category_title">סוג החיפוש</string>
   <string name="search_category_type">בחר חיפוש לפי סוג תוכנית</string>
   <string name="search_category_type_title">חפש לפי סוג תוכנית</string>
+  <string name="presets_back">חזור</string>
   <string name="nav_mode_stations">תחנות</string>
+  <string name="fm_command_timeout_title">זמן קצוב לתפוגה</string>
   <string name="fm_command_failed_title">פעולת FM נכשלה</string>
   <string name="fm_cmd_failed_msg">פעולת FM נכשלה. אם הבעיה נמשכת, בטל FM והפעל מחדש.</string>
   <string name="fm_cmd_failed_msg_hdmi">פעולת FM נכשלה. הקבלת FM ו-HDMI אינה נתמכת.</string>
@@ -112,8 +140,13 @@
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">הקלטות ה-FM שלי</string>
   <string name="audio_db_album_name">הקלטות FM</string>
+  <string name="audio_db_playlist_name">הקלטות FM</string>
   <string name="station_name">תחנה:</string>
+  <string name="station_exists">תדירות זו כבר קיימת!</string>
   <string name="station_list_delete_station">מחק: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">האם אתה בטוח שברצונך למחוק את  \'<xliff:g id="name">%s</xliff:g>\' ?</string>
+  <string name="station_name_empty">שם התחנה ריק, הקלד שוב.</string>
+  <string name="station_name_exist">יש כבר תחנה בשם \'<xliff:g id="name">%s</xliff:g>\'. הקלד שם אחר.</string>
   <string name="rt_plus_tags">תגיות</string>
   <string name="usr_def_band_min">מגבלת תדירות מינימום (ב-MHz)</string>
   <string name="usr_def_band_max">מגבלת תדירות מקסימום (ב-MHz)</string>

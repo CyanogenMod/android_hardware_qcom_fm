@@ -32,10 +32,14 @@
   <string name="app_name">Radio FM</string>
   <string name="tx_app_name">Tresmisor FM</string>
   <string name="menu_add_to_preset">Amestar a les presintoníes</string>
+  <string name="menu_settings">Axustes</string>
   <string name="menu_record_start">Entamar a grabar</string>
   <string name="menu_record_stop">Parar de grabar</string>
   <string name="menu_all_channels">Toles canales</string>
   <string name="app_label_all_channels">Toles canales</string>
+  <string name="button_ok">Aceutar</string>
+  <string name="button_cancel">Encaboxar</string>
+  <string name="button_delete">Desaniciar</string>
   <string name="error_sdcard_access">Nun se pudo acceder a la tarxeta SD</string>
   <string name="fm_service_started">Serviciu FM</string>
   <string name="menu_sleep">Dormir</string>
@@ -64,6 +68,8 @@
   <string name="presetlist_add_new">Amestar llista nueva</string>
   <string name="dialog_presetlist_title">Llista de Presintoníes</string>
   <string name="presetlist_prefix_name">FM - </string>
+  <string name="dialog_presetlist_rename_title">Escribi un nome</string>
+  <string name="dialog_preset_rename_title">Escribi un nome</string>
   <string name="presetlist_delete_name">¿Esborrar \u00AB<xliff:g id="presetlist_name">%1$s</xliff:g>\u00BB y les sos emisores?</string>
   <string name="presetlist_autoselect_title">Confirmar auto-seleición</string>
   <string name="presetlist_autoselect_name">L\'auto-seleición va esborrar toles preseleiciones de la llista \u00AB<xliff:g id="presetlist_name">%1$s</xliff:g>\u00BB. ¿Siguir?</string>
@@ -75,17 +81,24 @@
   <string name="preset_delete_title">Desaniciar presintonía</string>
   <string name="preset_delete_name">Desaniciar \'<xliff:g id="preset_name">%1$s</xliff:g>\' de \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'</string>
   <string name="preset_confirm_delete_name">Desaniciar \'<xliff:g id="preset_name">%1$s</xliff:g>\' from \'<xliff:g id="presetlist_name">%2$s</xliff:g>\' ?</string>
+  <string name="preset_name_dialog_title">Escribi un nome</string>
   <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_name_title">Renomar</string>
+  <string name="preset_search_title">Guetar</string>
   <string name="preset_search_name">Guetar \u00AB<xliff:g id="preset_name">%1$s</xliff:g>\u00BB</string>
   <string name="preset_preference_title">Emisores FM en \u00AB<xliff:g id="preset_name">%1$s</xliff:g>\u00BB</string>
   <string name="preset_empty_title">Nun hai Emisores na Llista</string>
   <string name="preset_empty_add_summary">Amestar Emisores</string>
+  <string name="preset_add">Amestar</string>
   <string name="preset_replace">Trocar</string>
   <string name="preset_tune">Sintonizar</string>
+  <string name="preset_rename">Renomar</string>
+  <string name="preset_delete">Desaniciar</string>
   <string name="preset_search">Guetar \u00AB<xliff:g id="preset_pi">%1$s</xliff:g>\u00BB</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="stat_notif_tx_frequency">Tresmitiendo en: \u00AB<xliff:g id="frequency">%1$s</xliff:g>\u00BB</string>
   <string name="sel_band_menu">Seleiciona banda rexonal</string>
+  <string name="settings_menu">Axustes</string>
   <string name="regional_band">Banda rexonal</string>
   <string name="aud_output_mode">Mou de salida de soníu</string>
   <string name="sel_audio_output">Seleicionar Salida d\'Audiu</string>
@@ -98,7 +111,7 @@
   <string name="revert_to_fac">Volver a los valores de fábrica</string>
   <string name="settings_back">Atrás</string>
   <string name="settings_revert_confirm_title">Confirmar el reainiciu de la configuración</string>
-  <string name="settings_revert_confirm_msg">Esto desaniciará tolos axustes incluyendo les presintoníes</string>
+  <string name="settings_revert_confirm_msg">Esto va desaniciar tolos axustes incluyendo les presintoníes</string>
   <string name="settings_back_summary">Volver a la vista anterior</string>
   <string name="settings_revert_defaults_title">Tornar a los valores predeterminaos de fábrica</string>
   <string name="settings_revert_defaults_summary">Reaniciar tolos axustes</string>
@@ -106,13 +119,15 @@
   <string name="audio_type_mono">Mono</string>
   <string name="default_audio">Estéreo</string>
   <string name="factory_reset_dialog_title">Confirmar el reaniciu</string>
-  <string name="factory_reset_dialog_message">Esto desaniciará tolos axustes incluyendo les pre-sintoníes</string>
+  <string name="factory_reset_dialog_message">Esto va desaniciar tolos axustes incluyendo les pre-sintoníes</string>
   <string name="station_move">Mover</string>
+  <string name="station_edit">Editar</string>
   <string name="no_storage">Montar la tarxeta SD enantes d\'entamar a grabar.</string>
   <string name="preparing_sd">Preparando la tarxeta SD</string>
   <string name="access_sd_fail">Nun se pudo acceder a la tarxeta SD.</string>
   <string name="spaceIsLow_content">La tarxeta SD ta quedando ensin espaciu. Cambie la configuración de calidá o desanicie otros ficheros pa lliberar espaciu.</string>
   <string name="FMRecording_reach_size_limit">Llende de tamañu alcanzada.</string>
+  <string name="delete_station_title">Desaniciar</string>
   <string name="find_af_station">Alcontrar</string>
   <string name="menu_add_list">Amestar llista</string>
   <string name="menu_rename_list">Renomar llista</string>
@@ -120,6 +135,7 @@
   <string name="menu_scan_for_preset">Buscar pre-sintoníes</string>
   <string name="menu_delete_list">Desaniciar llista</string>
   <string name="alert_dialog_ok">Aceutar</string>
+  <string name="alert_dialog_cancel">Encaboxar</string>
   <string name="alert_dialog_hint">Escribi un nome</string>
   <string name="search_dialog_title">Buscar emisores</string>
   <string name="search_category">Seleicionar el tipu de gueta</string>
