@@ -34,14 +34,14 @@
     <item>Mono</item>
   </string-array>
   <string-array name="record_durations_entries">
-    <item>5 minutes</item>
+    <item>5 minutos</item>
     <item>15 minutos</item>
-    <item>30 minutes</item>
+    <item>30 minutos</item>
     <item>Hasta qu\'apare</item>
   </string-array>
   <string-array name="sleep_duration_values">
     <item>15 minutos</item>
-    <item>30 minutes</item>
+    <item>30 minutos</item>
     <item>45 minutos</item>
     <item>1 hora</item>
   </string-array>
@@ -69,7 +69,7 @@
     <item>Suave</item>
     <item>Rock suave</item>
     <item>Rhythm and Blues suave</item>
-    <item>Sports</item>
+    <item>Deportes</item>
     <item>Alderiques</item>
     <item>Top 40</item>
     <item>Meteoroloxía</item>
@@ -92,7 +92,7 @@
     <item>Música Jazz</item>
     <item>Clásica llixera</item>
     <item>Ociu</item>
-    <item>News</item>
+    <item>Anuncies</item>
     <item>Música Nacional</item>
     <item>Otres músiques</item>
     <item>Música Oldies</item>
@@ -109,31 +109,31 @@
     <item>Meteoroloxía</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>Renomar</item>
     <item>Auto-seleicionar</item>
-    <item>Delete</item>
+    <item>Desaniciar</item>
   </string-array>
   <string-array name="regional_band_entries">
     <item>Norteamérica</item>
-    <item>Europe</item>
+    <item>Europa</item>
     <item>Xapón</item>
     <item>Xapón (Amplia)</item>
     <item>Australia</item>
     <item>Austria</item>
     <item>Bélxica</item>
-    <item>Brazil</item>
+    <item>Brasil</item>
     <item>China</item>
     <item>Chequia</item>
     <item>Dinamarca</item>
     <item>Finlandia</item>
     <item>Francia</item>
-    <item>Germany</item>
+    <item>Alemaña</item>
     <item>Grecia</item>
     <item>Ḥong Kong</item>
     <item>India</item>
     <item>Irlanda</item>
     <item>Italia</item>
-    <item>Korea</item>
+    <item>Corea</item>
     <item>Méxicu</item>
     <item>Holanda</item>
     <item>Nueva Zelanda</item>
@@ -141,13 +141,13 @@
     <item>Polonia</item>
     <item>Portugal</item>
     <item>Rusia</item>
-    <item>Singapore</item>
+    <item>Singapur</item>
     <item>Eslovaquia</item>
     <item>España</item>
     <item>Suiza</item>
     <item>Suecia</item>
     <item>Taiwán</item>
-    <item>Turkey</item>
+    <item>Turquía</item>
     <item>Reinu Xuníu </item>
     <item>Estaos Xuníos</item>
     <item>Banda Definida pol usuariu</item>
@@ -189,7 +189,7 @@
     <item>Turquía (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Reinu Xuníu (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Estaos Xuníos (88,1MHz a 107,9MHz en pasos de 200KHz)</item>
-    <item>User defined band</item>
+    <item>Banda Definida pol usuariu</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

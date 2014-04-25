@@ -29,15 +29,19 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources>
+  <string-array name="ster_mon_entries">
+    <item>סטריאו</item>
+    <item>מונו</item>
+  </string-array>
   <string-array name="record_durations_entries">
-    <item>5 minutes</item>
+    <item>5 דקות</item>
     <item>15 דקות</item>
-    <item>30 minutes</item>
+    <item>30 דקות</item>
     <item>עד לעצירה</item>
   </string-array>
   <string-array name="sleep_duration_values">
-    <item>15 minutes</item>
-    <item>30 minutes</item>
+    <item>15 דקות</item>
+    <item>30 דקות</item>
     <item>45 דקות</item>
     <item>1 שעה</item>
   </string-array>
@@ -47,7 +51,7 @@
     <item>קלאסי</item>
     <item>רוק קלאסי</item>
     <item>המכללה</item>
-    <item>Country</item>
+    <item>קאנטרי</item>
     <item>מקרה חירום</item>
     <item>בדיקת חירום</item>
     <item>שפה זרה</item>
@@ -71,7 +75,7 @@
     <item>מזג אוויר</item>
   </string-array>
   <string-array name="search_category_rds_entries">
-    <item>All stations</item>
+    <item>כל התחנות</item>
     <item>תרבות</item>
     <item>Current affairs</item>
     <item>תוכניות ילדים</item>
@@ -80,15 +84,15 @@
     <item>דרמה</item>
     <item>האזנה נעימה למוזיקה</item>
     <item>חינוך</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
+    <item>מקרה חירום</item>
+    <item>בדיקת חירום</item>
     <item>כלכלה</item>
     <item>מוזיקה עממית</item>
-    <item>Information</item>
+    <item>מידע</item>
     <item>מוזיקת ג\'אז</item>
     <item>קלאסית קלה</item>
     <item>פנאי</item>
-    <item>News</item>
+    <item>חדשות</item>
     <item>מוזיקה לאומית</item>
     <item>מוזיקה אחרת</item>
     <item>Oldies music</item>
@@ -98,38 +102,38 @@
     <item>מוזיקת רוק</item>
     <item>מדע</item>
     <item>קלאסית רצינית</item>
-    <item>Social affairs</item>
+    <item>רווחה</item>
     <item>ספורט</item>
     <item>תירות</item>
     <item>מגוון</item>
-    <item>Weather</item>
+    <item>מזג אוויר</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>שנה שם</item>
     <item>בחירה אוטומטית</item>
-    <item>Delete</item>
+    <item>מחק</item>
   </string-array>
   <string-array name="regional_band_entries">
     <item>צפון אמריקה</item>
-    <item>Europe</item>
+    <item>אירופה</item>
     <item>יפן</item>
     <item>יפן (רחב)</item>
-    <item>Australia</item>
+    <item>אוסטרליה</item>
     <item>אוסטריה</item>
     <item>בלגיה</item>
-    <item>Brazil</item>
-    <item>China</item>
+    <item>ברזיל</item>
+    <item>סין</item>
     <item>צ\'כיה</item>
     <item>דנמרק</item>
     <item>פינלנד</item>
     <item>צרפת</item>
-    <item>Germany</item>
+    <item>גרמניה</item>
     <item>יוון</item>
     <item>הונג קונג</item>
     <item>הודו</item>
     <item>אירלנד</item>
     <item>איטליה</item>
-    <item>Korea</item>
+    <item>קוריאה</item>
     <item>מקסיקו</item>
     <item>הולנד</item>
     <item>ניו זילנד</item>
@@ -137,16 +141,55 @@
     <item>פולין</item>
     <item>פורטוגל</item>
     <item>רוסיה</item>
-    <item>Singapore</item>
+    <item>סינגפור</item>
     <item>סלובקיה</item>
     <item>ספרד</item>
     <item>שוויץ</item>
     <item>שוודיה</item>
     <item>טיוואן</item>
-    <item>Turkey</item>
+    <item>טורקיה</item>
     <item>בריטניה </item>
-    <item>United States</item>
-    <item>User defined band</item>
+    <item>ארצות הברית</item>
+    <item>להקה מותאמת אישית</item>
+  </string-array>
+  <string-array name="regional_band_summary">
+    <item>צפון אמריקה (87.5MHz ל-108.0MHz ב-200 KHz צעדים)</item>
+    <item>אירופה (87.5MHz ל-108.0MHz ב-100 KHz צעדים)</item>
+    <item>יפן (76.0MHz ל-90.0MHz ב-100 KHz צעדים)</item>
+    <item>יפן (רחב) (90.0MHz ל-108.0MHz ב-50 KHz צעדים)</item>
+    <item>אוסטרליה (87.7MHz ל-108.0MHz ב-100 KHz צעדים)</item>
+    <item>Austria (87.5MHz to 108.0MHz in  50 KHz steps)</item>
+    <item>Belgium (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Brazil (87.5MHz to 108.0MHz in 200 KHz steps)</item>
+    <item>China (87.0MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Czech (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Denmark (87.5MHz to 108.0MHz in 50 KHz steps)</item>
+    <item>Finland (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>France (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Germany (87.5MHz to 108.0MHz in 50 KHz steps)</item>
+    <item>Greece (87.5MHz to 108.0MHz in 50 KHz steps)</item>
+    <item>Hong Kong (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>India (91.0MHz to 106.4MHz in 100 KHz steps)</item>
+    <item>Ireland (87.5MHz to 108.0MHz in 50 KHz steps)</item>
+    <item>Italy (87.5MHz to 108.0MHz in 50 KHz steps)</item>
+    <item>Korea (87.5MHz to 108.0MHz in 200 KHz steps)</item>
+    <item>Mexico (88.1MHz to 107.9MHz in 200 KHz steps)</item>
+    <item>Netherlands (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>New Zealand (88.0MHz to 107.0MHz in 100 KHz steps)</item>
+    <item>Norway (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Poland (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Portugal (87.5MHz to 108.0MHz in 50 KHz steps)</item>
+    <item>Russia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Singapore (88.0MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Slovakia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Spain (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Switzerland (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Sweden (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Taiwan (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Turkey (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>United Kingdom (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>United States (88.1MHz to 107.9MHz in 200 KHz steps)</item>
+    <item>להקה מותאמת אישית</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

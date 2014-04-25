@@ -31,11 +31,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM-Radio</string>
   <string name="tx_app_name">FM-Sender</string>
+  <string name="menu_settings">Einstellungen</string>
   <string name="menu_record_start">Aufnahme starten</string>
   <string name="menu_record_stop">Aufnahme beenden</string>
   <string name="menu_all_channels">Alle Kanäle</string>
   <string name="app_label_all_channels">Alle Kanäle</string>
+  <string name="button_ok">OK</string>
+  <string name="button_cancel">Abbrechen</string>
+  <string name="button_delete">Löschen</string>
   <string name="error_sdcard_access">Kein Zugriff auf die SD-Karte möglich</string>
+  <string name="menu_wired_headset">Kabelgebundenes Headset</string>
   <string name="menu_speaker_on">Lautsprecher aktivieren</string>
   <string name="menu_speaker_off">Lautsprecher deaktivieren</string>
   <string name="button_text_stop">Stop</string>
@@ -51,25 +56,44 @@
   <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
   <string name="preset_name_dialog_title">Geben Sie einen Namen ein</string>
   <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_name_title">Umbenennen</string>
   <string name="preset_search_name">Suche nach \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_empty_title">Keine Sender in der Liste</string>
   <string name="preset_empty_add_summary">Sender hinzufügen</string>
+  <string name="preset_add">Hinzufügen</string>
   <string name="preset_replace">Ersetzen</string>
+  <string name="preset_rename">Umbenennen</string>
+  <string name="preset_delete">Löschen</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
+  <string name="settings_menu">Einstellungen</string>
+  <string name="record_dur">Aufnahmedauer</string>
   <string name="auto_select_af">Alternative Frequenz</string>
   <string name="auto_select_af_enabled">Automatische Auswahl aktiviert</string>
   <string name="auto_select_af_disabled">Automatische Auswahl deaktiviert</string>
   <string name="fac_defaults">Auf Werkseinstellungen zurücksetzen</string>
+  <string name="revert_to_fac">Auf Werkseinstellungen zurücksetzen</string>
+  <string name="settings_back">Zurück</string>
   <string name="settings_back_summary">Zu vorheriger Ansicht zurückkehren</string>
   <string name="settings_revert_defaults_title">Auf Werkseinstellungen zurücksetzen</string>
   <string name="settings_revert_defaults_summary">Alle Einstellungen zurücksetzen</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
+  <string name="default_audio">Stereo</string>
   <string name="station_move">Verschieben</string>
   <string name="preparing_sd">SD-Karte wird vorbereitet</string>
   <string name="access_sd_fail">Kein Zugriff auf SD-Karte möglich.</string>
+  <string name="delete_station_title">Löschen</string>
+  <string name="menu_add_list">Liste hinzufügen</string>
   <string name="menu_rename_list">Liste umbenennen</string>
   <string name="menu_reorder_list">Liste neu anordnen</string>
+  <string name="menu_delete_list">Liste löschen</string>
+  <string name="alert_dialog_ok">Ok</string>
+  <string name="alert_dialog_cancel">Abbrechen</string>
   <string name="alert_dialog_hint">Geben Sie einen Namen ein</string>
+  <string name="presets_back">Zurück</string>
+  <string name="presets_back_summary">Zu vorheriger Ansicht zurückkehren</string>
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
+  <string name="audio_db_playlist_name">Radio-Aufnahmen</string>
+  <string name="station_exists">Diese Frequenz ist bereits vorhanden!</string>
+  <string name="station_list_delete_station_prompt">Sind Sie sicher, dass Sie \'<xliff:g id="name">%s</xliff:g>\'  löschen wollen?</string>
 </resources>

@@ -32,9 +32,14 @@
   <string name="app_name">Radio FM</string>
   <string name="tx_app_name">Émetteur FM</string>
   <string name="menu_add_to_preset">Ajouter aux présélections</string>
+  <string name="menu_settings">Paramètres</string>
   <string name="menu_record_start">Commencer l\'enregistrement</string>
   <string name="menu_record_stop">Arrêter l\'enregistrement</string>
   <string name="menu_all_channels">Tous les canaux</string>
+  <string name="app_label_all_channels">Tous les canaux</string>
+  <string name="button_ok">Ok</string>
+  <string name="button_cancel">Annuler</string>
+  <string name="button_delete">Supprimer</string>
   <string name="error_sdcard_access">Impossible d\'accéder à la carte SD</string>
   <string name="fm_service_started">Service FM</string>
   <string name="menu_sleep">Veille</string>
@@ -76,17 +81,24 @@
   <string name="preset_delete_title">Supprimer la présélection</string>
   <string name="preset_delete_name">Supprimer \'<xliff:g id="preset_name">%1$s</xliff:g>\' de \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'</string>
   <string name="preset_confirm_delete_name">Supprimer \'<xliff:g id="preset_name">%1$s</xliff:g>\' de \'<xliff:g id="presetlist_name">%2$s</xliff:g>\' ?</string>
+  <string name="preset_name_dialog_title">Entrer un nom</string>
   <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_name_title">Renommer</string>
+  <string name="preset_search_title">Rechercher</string>
   <string name="preset_search_name">Recherche de \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_preference_title">Stations FM dans \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_empty_title">Aucune station dans la liste</string>
   <string name="preset_empty_add_summary">Ajouter des stations</string>
+  <string name="preset_add">Ajouter</string>
   <string name="preset_replace">Remplacer</string>
   <string name="preset_tune">Ajuster</string>
+  <string name="preset_rename">Renommer</string>
+  <string name="preset_delete">Supprimer</string>
   <string name="preset_search">Recherche de \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="stat_notif_tx_frequency">Transmission à : \'<xliff:g id="frequency">%1$s</xliff:g>\'</string>
   <string name="sel_band_menu">Sélectionnez la bande régionale</string>
+  <string name="settings_menu">Paramètres</string>
   <string name="regional_band">Bande régionale</string>
   <string name="aud_output_mode">Mode de sortie audio</string>
   <string name="sel_audio_output">Sélectionnez une sortie audio</string>
@@ -96,19 +108,26 @@
   <string name="auto_select_af_enabled">Sélection automatique activée</string>
   <string name="auto_select_af_disabled">Sélection automatique desactivée</string>
   <string name="fac_defaults">Revenir aux paramètres par défaut</string>
+  <string name="revert_to_fac">Revenir aux paramètres par défaut</string>
+  <string name="settings_back">Précédent</string>
   <string name="settings_revert_confirm_title">Confirmer la réinitialisation des paramètres</string>
   <string name="settings_revert_confirm_msg">Cela va supprimer tous les paramètres, y compris les paramètres prédéfinis</string>
   <string name="settings_back_summary">Revenir à l\'affichage précédent</string>
+  <string name="settings_revert_defaults_title">Revenir aux paramètres par défaut</string>
   <string name="settings_revert_defaults_summary">Réinitialiser tous les paramètres</string>
   <string name="audio_type_stereo">Stéréo</string>
   <string name="audio_type_mono">Mono</string>
+  <string name="default_audio">Stéréo</string>
   <string name="factory_reset_dialog_title">Confirmez la réinitialisation</string>
+  <string name="factory_reset_dialog_message">Cela va supprimer tous les paramètres, y compris les paramètres prédéfinis</string>
   <string name="station_move">Déplacer</string>
+  <string name="station_edit">Éditer</string>
   <string name="no_storage">Monter la carte SD avant de commencer les enregistrements.</string>
   <string name="preparing_sd">Préparation de la carte SD</string>
   <string name="access_sd_fail">Impossible d\'accéder à la carte SD.</string>
   <string name="spaceIsLow_content">Votre carte SD est à court d\'espace. Modifiez le paramètre de qualité ou supprimer des fichiers pour libérer de l\'espace.</string>
   <string name="FMRecording_reach_size_limit">Taille maximale atteinte.</string>
+  <string name="delete_station_title">Supprimer</string>
   <string name="find_af_station">Trouver</string>
   <string name="menu_add_list">Ajouter une liste</string>
   <string name="menu_rename_list">Renommer la liste</string>
@@ -116,6 +135,7 @@
   <string name="menu_scan_for_preset">Recherche de présélections</string>
   <string name="menu_delete_list">Supprimer la liste</string>
   <string name="alert_dialog_ok">Ok</string>
+  <string name="alert_dialog_cancel">Annuler</string>
   <string name="alert_dialog_hint">Entrez un nom</string>
   <string name="search_dialog_title">Recherche des Stations</string>
   <string name="search_category">Sélectionnez le type de recherche</string>
@@ -123,11 +143,13 @@
   <string name="search_category_tune">Ajuster</string>
   <string name="search_category_type">Sélectionnez la recherche par type de programme</string>
   <string name="search_category_type_title">Recherche par type de programme</string>
+  <string name="presets_back">Précédent</string>
   <string name="presets_back_summary">Revenir à l\'affichage précédent</string>
   <string name="nav_mode_presets">Préréglages</string>
   <string name="nav_mode_stations">Stations</string>
   <string name="radio_text_string">C\'est le long message de texte de la radio qu\'il faut faire défiler</string>
   <string name="eradio_text_string">Long message texte de la radio</string>
+  <string name="fm_command_timeout_title">Temps expiré</string>
   <string name="fm_tune_timeout_msg">Aucune réponse reçue pour régler la station FM. Si le problème persiste, veuillez éteindre la radio FM et la rallumer.</string>
   <string name="fm_command_failed_title">Échec de l\'opération FM</string>
   <string name="fm_cmd_failed_msg">Échec de l\'opération radio FM. Si le problème persiste, veuillez éteindre la radio FM et la rallumer.</string>
@@ -139,6 +161,7 @@
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">Mes enregistrements FM</string>
   <string name="audio_db_album_name">Enregistrements FM</string>
+  <string name="audio_db_playlist_name">Enregistrements FM</string>
   <string name="station_name">Station :</string>
   <string name="station_exists">Cette fréquence existe déjà !</string>
   <string name="station_list_delete_station">Supprimer : <xliff:g id="name">%s</xliff:g></string>

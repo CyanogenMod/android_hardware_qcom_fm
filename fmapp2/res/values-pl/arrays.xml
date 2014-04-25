@@ -48,7 +48,7 @@
   <string-array name="search_category_rbds_entries">
     <item>Wszystkie stacje</item>
     <item>Starsze hity</item>
-    <item>Classical</item>
+    <item>Klasyczna</item>
     <item>Klasyczny Rock</item>
     <item>Muzyka studencka</item>
     <item>Country</item>
@@ -68,14 +68,14 @@
     <item>Rock</item>
     <item>Łagodna</item>
     <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
+    <item>Łagodny R\u0026B</item>
+    <item>Sport</item>
     <item>Rozmowa</item>
     <item>Top 40</item>
     <item>Pogoda</item>
   </string-array>
   <string-array name="search_category_rds_entries">
-    <item>All stations</item>
+    <item>Wszystkie stacje</item>
     <item>Kultura</item>
     <item>Sprawy bieżące</item>
     <item>Programy dla dzieci</item>
@@ -111,23 +111,23 @@
   <string-array name="presetlist_edit_category">
     <item>Rename</item>
     <item>Auto wybór</item>
-    <item>Delete</item>
+    <item>Usuń</item>
   </string-array>
   <string-array name="regional_band_entries">
     <item>Ameryka Północna</item>
-    <item>Europe</item>
+    <item>Europa</item>
     <item>Japonia</item>
     <item>Japonia (cała)</item>
     <item>Australia</item>
     <item>Austria</item>
     <item>Belgia</item>
-    <item>Brazil</item>
-    <item>China</item>
+    <item>Brazylia</item>
+    <item>Chiny</item>
     <item>Czechy</item>
     <item>Dania</item>
     <item>Finlandia</item>
     <item>Francja</item>
-    <item>Germany</item>
+    <item>Niemcy</item>
     <item>Grecja</item>
     <item>Hongkong</item>
     <item>Indie</item>
@@ -141,15 +141,15 @@
     <item>Polska</item>
     <item>Portugalia</item>
     <item>Rosja</item>
-    <item>Singapore</item>
+    <item>Singapur</item>
     <item>Słowacja</item>
     <item>Hiszpania</item>
     <item>Szwajcaria</item>
     <item>Szwecja</item>
     <item>Tajwan</item>
-    <item>Turkey</item>
+    <item>Turcja</item>
     <item>Wielka Brytania </item>
-    <item>United States</item>
+    <item>Stany Zjednoczone</item>
     <item>Zespół zdefiniowany przez użytkownika</item>
   </string-array>
   <string-array name="regional_band_summary">

@@ -29,15 +29,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Inserisci la scheda SD prima di iniziare a registrare.</string>
-  <string name="preparing_sd">Preparazione scheda SD</string>
-  <string name="access_sd_fail">Impossibile accedere alla scheda SD.</string>
-  <string name="spaceIsLow_content">Lo spazio sulla tua scheda SD si sta esaurendo. Modifica l\'impostazione per la qualità o eliminare alcune immagini o altri file.</string>
-  <string name="FMRecording_reach_size_limit">Limite dimensione raggiunto.</string>
+  <string name="no_storage">Montar tarxeta SD antes de iniciar gravación.</string>
+  <string name="preparing_sd">Preparando tarxeta SD</string>
+  <string name="access_sd_fail">Imposíbel acceder á tarxeta SD.</string>
+  <string name="spaceIsLow_content">A tarxeta SD está a quedar sen espazo. Cambia o axuste de calidade ou elimina imaxes ou outros ficheiros.</string>
+  <string name="FMRecording_reach_size_limit">Límite de tamaño alcanzado.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">Le mie registrazioni FM</string>
-  <string name="audio_db_album_name">Registrazioni FM</string>
-  <string name="audio_db_playlist_name">Registrazioni FM</string>
-  <string name="save_record_file">Registrazione FM salvata su \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Registrazione FM in corso</string>
+  <string name="audio_db_artist_name">As miñas gravacións de radio</string>
+  <string name="audio_db_album_name">Gravacións de radio</string>
+  <string name="audio_db_playlist_name">Gravacións de radio</string>
+  <string name="save_record_file">Gravación de radio gardada en \"<xliff:g id="record_file">%1$s</xliff:g>\"</string>
+  <string name="fm_record_progress">Gravación de radio en curso</string>
 </resources>
