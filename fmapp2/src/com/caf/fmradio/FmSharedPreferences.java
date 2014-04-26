@@ -60,26 +60,27 @@ public class FmSharedPreferences
    public static final int REGIONAL_BAND_GREECE          = 14;
    public static final int REGIONAL_BAND_HONGKONG        = 15;
    public static final int REGIONAL_BAND_INDIA           = 16;
-   public static final int REGIONAL_BAND_IRELAND         = 17;
-   public static final int REGIONAL_BAND_ITALY           = 18;
-   public static final int REGIONAL_BAND_KOREA           = 19;
-   public static final int REGIONAL_BAND_MEXICO          = 20;
-   public static final int REGIONAL_BAND_NETHERLANDS     = 21;
-   public static final int REGIONAL_BAND_NEWZEALAND      = 22;
-   public static final int REGIONAL_BAND_NORWAY          = 23;
-   public static final int REGIONAL_BAND_POLAND          = 24;
-   public static final int REGIONAL_BAND_PORTUGAL        = 25;
-   public static final int REGIONAL_BAND_RUSSIA          = 26;
-   public static final int REGIONAL_BAND_SINGAPORE       = 27;
-   public static final int REGIONAL_BAND_SLOVAKIA        = 28;
-   public static final int REGIONAL_BAND_SPAIN           = 29;
-   public static final int REGIONAL_BAND_SWITZERLAND     = 30;
-   public static final int REGIONAL_BAND_SWEDEN          = 31;
-   public static final int REGIONAL_BAND_TAIWAN          = 32;
-   public static final int REGIONAL_BAND_TURKEY          = 33;
-   public static final int REGIONAL_BAND_UNITEDKINGDOM   = 34;
-   public static final int REGIONAL_BAND_UNITED_STATES   = 35;
-   public static final int REGIONAL_BAND_USER_DEFINED    = 36;
+   public static final int REGIONAL_BAND_INDONESIA       = 17;
+   public static final int REGIONAL_BAND_IRELAND         = 18;
+   public static final int REGIONAL_BAND_ITALY           = 19;
+   public static final int REGIONAL_BAND_KOREA           = 20;
+   public static final int REGIONAL_BAND_MEXICO          = 21;
+   public static final int REGIONAL_BAND_NETHERLANDS     = 22;
+   public static final int REGIONAL_BAND_NEWZEALAND      = 23;
+   public static final int REGIONAL_BAND_NORWAY          = 24;
+   public static final int REGIONAL_BAND_POLAND          = 25;
+   public static final int REGIONAL_BAND_PORTUGAL        = 26;
+   public static final int REGIONAL_BAND_RUSSIA          = 27;
+   public static final int REGIONAL_BAND_SINGAPORE       = 28;
+   public static final int REGIONAL_BAND_SLOVAKIA        = 29;
+   public static final int REGIONAL_BAND_SPAIN           = 30;
+   public static final int REGIONAL_BAND_SWITZERLAND     = 31;
+   public static final int REGIONAL_BAND_SWEDEN          = 32;
+   public static final int REGIONAL_BAND_TAIWAN          = 33;
+   public static final int REGIONAL_BAND_TURKEY          = 34;
+   public static final int REGIONAL_BAND_UNITEDKINGDOM   = 35;
+   public static final int REGIONAL_BAND_UNITED_STATES   = 36;
+   public static final int REGIONAL_BAND_USER_DEFINED    = 37;
 
    public static final int RECORD_DUR_INDEX_0_VAL        = 5;
    public static final int RECORD_DUR_INDEX_1_VAL       = 15;
@@ -932,6 +933,12 @@ public class FmSharedPreferences
           /*INDIA : 91000 TO 106400 IN 100 KHZ STEPS*/
           mFMConfiguration.setLowerLimit(91000);
           mFMConfiguration.setUpperLimit(106400);
+          mFrequencyBand_Stepsize = 100;
+          break;
+        }
+        case REGIONAL_BAND_INDONESIA:
+        {
+          /*INDONESIA : 87500 TO 108000 IN 100 KHZ STEPS*/
           mFrequencyBand_Stepsize = 100;
           break;
         }
