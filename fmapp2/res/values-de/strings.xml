@@ -57,6 +57,7 @@
   <string name="preset_name_dialog_title">Geben Sie einen Namen ein</string>
   <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_name_title">Umbenennen</string>
+  <string name="preset_search_title">Suche</string>
   <string name="preset_search_name">Suche nach \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_empty_title">Keine Sender in der Liste</string>
   <string name="preset_empty_add_summary">Sender hinzufügen</string>
@@ -79,7 +80,9 @@
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="default_audio">Stereo</string>
+  <string name="factory_reset_dialog_title">Zurücksetzen bestätigen</string>
   <string name="station_move">Verschieben</string>
+  <string name="station_edit">Bearbeiten</string>
   <string name="preparing_sd">SD-Karte wird vorbereitet</string>
   <string name="access_sd_fail">Kein Zugriff auf SD-Karte möglich.</string>
   <string name="delete_station_title">Löschen</string>

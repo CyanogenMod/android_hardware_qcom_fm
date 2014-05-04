@@ -109,9 +109,9 @@
     <item>Wetter</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>Umbenennen</item>
     <item>Automatische Auswahl</item>
-    <item>Delete</item>
+    <item>Löschen</item>
   </string-array>
   <string-array name="regional_band_entries">
     <item>Nordamerika</item>
