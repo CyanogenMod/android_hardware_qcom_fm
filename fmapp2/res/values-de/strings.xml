@@ -44,6 +44,8 @@
   <string name="menu_speaker_on">Lautsprecher aktivieren</string>
   <string name="menu_speaker_off">Lautsprecher deaktivieren</string>
   <string name="button_text_stop">Stop</string>
+  <string name="msg_scanning_pty">Suchen nach \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
+  <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
   <string name="preset_select_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' auswählen</string>
   <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' auswählen</string>
   <string name="presetlist_add_new">Neue Liste hinzufügen</string>
@@ -57,6 +59,7 @@
   <string name="preset_name_dialog_title">Geben Sie einen Namen ein</string>
   <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_name_title">Umbenennen</string>
+  <string name="preset_search_title">Suche</string>
   <string name="preset_search_name">Suche nach \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_empty_title">Keine Sender in der Liste</string>
   <string name="preset_empty_add_summary">Sender hinzufügen</string>
@@ -64,9 +67,12 @@
   <string name="preset_replace">Ersetzen</string>
   <string name="preset_rename">Umbenennen</string>
   <string name="preset_delete">Löschen</string>
+  <string name="preset_search">Suche nach \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
+  <string name="stat_notif_tx_frequency">Sendet auf : \'<xliff:g id="frequency">%1$s</xliff:g>\'</string>
   <string name="settings_menu">Einstellungen</string>
   <string name="record_dur">Aufnahmedauer</string>
+  <string name="sel_rec_dur">Aufnahmedauer auswählen</string>
   <string name="auto_select_af">Alternative Frequenz</string>
   <string name="auto_select_af_enabled">Automatische Auswahl aktiviert</string>
   <string name="auto_select_af_disabled">Automatische Auswahl deaktiviert</string>
@@ -79,9 +85,12 @@
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="default_audio">Stereo</string>
+  <string name="factory_reset_dialog_title">Zurücksetzen bestätigen</string>
   <string name="station_move">Verschieben</string>
+  <string name="station_edit">Bearbeiten</string>
   <string name="preparing_sd">SD-Karte wird vorbereitet</string>
   <string name="access_sd_fail">Kein Zugriff auf SD-Karte möglich.</string>
+  <string name="spaceIsLow_content">Der SD-Kartenspeicher hat zu wenig Speicherplatz. Bitte reduzieren Sie die Aufnahmequalität oder löschen Sie einige Daten, um Speicher frei zu machen.</string>
   <string name="delete_station_title">Löschen</string>
   <string name="menu_add_list">Liste hinzufügen</string>
   <string name="menu_rename_list">Liste umbenennen</string>

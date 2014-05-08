@@ -106,10 +106,10 @@
     <item>Sport</item>
     <item>Podróź</item>
     <item>Różne</item>
-    <item>Weather</item>
+    <item>Pogoda</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>Zmień nazwę</item>
     <item>Auto wybór</item>
     <item>Usuń</item>
   </string-array>

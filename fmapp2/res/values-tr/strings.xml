@@ -53,8 +53,8 @@
   <string name="menu_stats">FM RF istatistikleri</string>
   <string name="button_text_stop">Durdur</string>
   <string name="msg_seeking">FM istasyonu aranıyor</string>
-  <string name="msg_scanning">Tüm FM istasyonları aranıyor</string>
-  <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>\' aranıyor</string>
+  <string name="msg_scanning">Tüm FM istasyonları taranıyor</string>
+  <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>\' taranıyor</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
   <string name="msg_searching">Tanımlı liste oluşturmak için güçlü istasyonlar aranıyor</string>
   <string name="msg_searching_title">Listeleri otomatik seç</string>
