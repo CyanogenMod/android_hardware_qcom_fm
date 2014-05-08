@@ -37,7 +37,7 @@
     <item>5 Minuten</item>
     <item>15 Minuten</item>
     <item>30 Minuten</item>
-    <item>Until stopped</item>
+    <item>Bis gestoppt wird</item>
   </string-array>
   <string-array name="sleep_duration_values">
     <item>15 Minuten</item>
@@ -48,7 +48,7 @@
   <string-array name="search_category_rbds_entries">
     <item>Alle Sender</item>
     <item>Adult hits</item>
-    <item>Classical</item>
+    <item>Klassik</item>
     <item>Classic Rock</item>
     <item>College</item>
     <item>Countrymusik</item>
@@ -62,7 +62,7 @@
     <item>Oldies</item>
     <item>Personality</item>
     <item>Public</item>
-    <item>Religious music</item>
+    <item>Geistliche Musik</item>
     <item>Religious talk</item>
     <item>Rhythm and Blues</item>
     <item>Rock</item>
@@ -75,7 +75,7 @@
     <item>Wetter</item>
   </string-array>
   <string-array name="search_category_rds_entries">
-    <item>All stations</item>
+    <item>Alle Sender</item>
     <item>Kultur</item>
     <item>Aktuelle Ereignisse</item>
     <item>Kinder Programme</item>
@@ -84,8 +84,8 @@
     <item>Drama</item>
     <item>Easy listening music</item>
     <item>Bildung</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
+    <item>Notfall</item>
+    <item>Notfall (Test)</item>
     <item>Finanzen</item>
     <item>Volksmusik</item>
     <item>Informationen</item>
@@ -105,13 +105,13 @@
     <item>Social affairs</item>
     <item>Sport</item>
     <item>Reisen</item>
-    <item>Varied</item>
+    <item>Verschiedenes</item>
     <item>Wetter</item>
   </string-array>
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
+    <item>Umbenennen</item>
     <item>Automatische Auswahl</item>
-    <item>Delete</item>
+    <item>Löschen</item>
   </string-array>
   <string-array name="regional_band_entries">
     <item>Nordamerika</item>
