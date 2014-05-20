@@ -57,6 +57,7 @@
   <string name="msg_scanning_pty">Wyszukiwanie \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
   <string name="msg_searching">Szukanie silnych stacji aby stworzyć liste</string>
+  <string name="msg_searching_title">Auto-wybór zapisanych</string>
   <string name="msg_weak_searching">Wyszukiwanie częstotliwości przekazywania</string>
   <string name="msg_noantenna">Proszę podłączyć słuchawki aby użyć radia FM</string>
   <string name="msg_headsetpluggedin">Odłącz wszystkie zestawy słuchawkowe aby użyć nadajnika FM</string>
@@ -71,6 +72,9 @@
   <string name="dialog_preset_rename_title">Wpisz nazwę</string>
   <string name="presetlist_delete_name">Usunąć \"<xliff:g id="presetlist_name">%1$s</xliff:g>\" oraz powiązane stacje?</string>
   <string name="presetlist_autoselect_title">Potwierdź wybór automatyczny</string>
+  <string name="presetlist_autoselect_name">Opcja auto wybór usunie wszystkie ustawienia zapisane z listy \'<xliff:g id="presetlist_name">%1$s</xliff:g>\', kontynuować?</string>
+  <string name="fmtx_autoselect_name">Opcja auto-wybór usunie wszystkie ustawienia, kontynuować?</string>
+  <string name="enter_frequency">Dostrajanie</string>
   <string name="enter_new_frequency_title">Wprowadź częstotliwość</string>
   <string name="preset_now_playing">Teraz odtwarzane </string>
   <string name="preset_pref_title">\"<xliff:g id="preset_name">%1$s</xliff:g>" (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
@@ -81,6 +85,7 @@
   <string name="preset_name_summary">\"<xliff:g id="preset_name">%1$s</xliff:g>\"</string>
   <string name="preset_name_title">Zmień nazwę</string>
   <string name="preset_search_title">Szukaj</string>
+  <string name="preset_search_name">Szukanie \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_preference_title">Stacje FM w \"<xliff:g id="preset_name">%1$s</xliff:g>\"</string>
   <string name="preset_empty_title">Nie ma stacji na liście</string>
   <string name="preset_empty_add_summary">Dodaj stacje</string>
@@ -145,7 +150,11 @@
   <string name="radio_text_string">To jest długa wiadomość radiowa, która wymaga przewijania</string>
   <string name="eradio_text_string">Rozszerz treść wiadomości radiowej</string>
   <string name="fm_command_timeout_title">Limit czasu</string>
+  <string name="fm_tune_timeout_msg">Brak odpowiedzi dla dostrajanej stacji FM. Jeżeli problem będzie się powtarzał, wyłącz odbiornik i uruchom go ponownie.</string>
   <string name="fm_command_failed_title">Operacja FM zakończona niepowodzeniem</string>
+  <string name="fm_cmd_failed_msg">Uruchomienie radia FM nie powiodło się. Jeżeli problem będzie się powtarzał, wyłącz odbiornik i uruchom go ponownie.</string>
+  <string name="fm_cmd_failed_msg_hdmi">Uruchomienie radia nie powiodło się. Współdziałanie odbiornika FM i HDMI nie jest wspierane.</string>
+  <string name="fm_cmd_failed_call_on">Uruchomienie radia nie powiodło się. Uruchamianie radia jest zablokowane podczas rozmowy.</string>
   <string name="default_preset_list_name">Lista FM</string>
   <string name="stop_scanning">Zatrzymaj skanowanie</string>
   <string name="transmit_msg_string">Nadawanie na:</string>

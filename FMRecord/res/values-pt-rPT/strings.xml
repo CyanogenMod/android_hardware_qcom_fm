@@ -32,7 +32,7 @@
   <string name="no_storage">Montar o cartão SD antes de iniciar a gravação.</string>
   <string name="preparing_sd">A preparar o cartão SD</string>
   <string name="access_sd_fail">Não consegui aceder as cartão SD.</string>
-  <string name="spaceIsLow_content">O seu cartão SD está a ficar sem espaço. Altere a configuração de qualidade ou apague algumas imagens ou outros ficheiros para libertar espaço.</string>
+  <string name="spaceIsLow_content">O seu cartão SD está a ficar sem espaço. Altere a definição de qualidade ou elimine algumas imagens ou outros ficheiros para libertar espaço.</string>
   <string name="FMRecording_reach_size_limit">Atingido o limite máximo.</string>
   <string name="audio_db_title_format"><xliff:g id="format">aaaa-MM-dd HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">As minhas gravações de rádio</string>

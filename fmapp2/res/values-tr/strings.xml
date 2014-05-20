@@ -124,11 +124,11 @@
   <string name="station_edit">Düzenle</string>
   <string name="no_storage">Kayda başlamadan önce SD kartı yerleştirin.</string>
   <string name="preparing_sd">SD kart hazırlanıyor</string>
-  <string name="access_sd_fail">SD karta erişilemiyor.</string>
+  <string name="access_sd_fail">SD karta erişilemedi.</string>
   <string name="spaceIsLow_content">SD kart depolama alanınız doluyor. Kalite ayarını değiştirin ya da yer açmak için birkaç dosya silin.</string>
   <string name="FMRecording_reach_size_limit">Boyut limitine ulaşıldı.</string>
   <string name="delete_station_title">Sil</string>
-  <string name="find_af_station">Ara</string>
+  <string name="find_af_station">Bul</string>
   <string name="menu_add_list">Liste ekle</string>
   <string name="menu_rename_list">Listeyi adlandır</string>
   <string name="menu_reorder_list">Listeyi sırala</string>
@@ -158,7 +158,7 @@
   <string name="default_preset_list_name">FM listesi</string>
   <string name="stop_scanning">Taramayı durdur</string>
   <string name="transmit_msg_string">Yayın yapılıyor:</string>
-  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">FM kayıtlarım</string>
   <string name="audio_db_album_name">FM kayıtları</string>
   <string name="audio_db_playlist_name">FM kayıtları</string>

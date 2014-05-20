@@ -29,15 +29,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">在開始錄音之前掛載 SD 卡。</string>
-  <string name="preparing_sd">正在準備 SD 卡</string>
-  <string name="access_sd_fail">無法存取 SD 卡。</string>
-  <string name="spaceIsLow_content">USB 儲存設備空間不足，請更改錄音時長設置，或刪除某些錄音或者其他檔案。</string>
-  <string name="FMRecording_reach_size_limit">已達到大小限制。</string>
+  <string name="no_storage">Monter SDkortet før du starter opptak.</string>
+  <string name="preparing_sd">Forbereder SDkort</string>
+  <string name="access_sd_fail">Kinne ikke få tilgang til SDkort.</string>
+  <string name="spaceIsLow_content">SDkortet er i ferd med å gå tomt for ledig plass. Sjekk kvalitetsinnstillinger eller slett noen bilder eller filer.</string>
+  <string name="FMRecording_reach_size_limit">Størrelse nådd.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">我的 FM 錄音</string>
-  <string name="audio_db_album_name">FM 錄音</string>
-  <string name="audio_db_playlist_name">FM 錄音</string>
-  <string name="save_record_file">FM 錄音檔已儲存至「<xliff:g id="record_file">%1$s</xliff:g>」</string>
-  <string name="fm_record_progress">正在進行 FM 錄音</string>
+  <string name="audio_db_artist_name">Mine FM opptak</string>
+  <string name="audio_db_album_name">FM opptak</string>
+  <string name="audio_db_playlist_name">FM opptak</string>
+  <string name="save_record_file">FM opptaksfil lagret til \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">Fm opptak pågår</string>
 </resources>

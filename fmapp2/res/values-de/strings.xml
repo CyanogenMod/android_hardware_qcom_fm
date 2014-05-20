@@ -40,12 +40,16 @@
   <string name="button_cancel">Abbrechen</string>
   <string name="button_delete">Löschen</string>
   <string name="error_sdcard_access">Kein Zugriff auf die SD-Karte möglich</string>
+  <string name="fm_service_started">FM-Service</string>
   <string name="menu_wired_headset">Kabelgebundenes Headset</string>
   <string name="menu_speaker_on">Lautsprecher aktivieren</string>
   <string name="menu_speaker_off">Lautsprecher deaktivieren</string>
   <string name="button_text_stop">Stop</string>
   <string name="msg_scanning_pty">Suchen nach \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+  <string name="msg_noantenna">Bitte stecken Sie ein Headset ein, um das FM-Radio nutzen zu können</string>
+  <string name="msg_headsetpluggedin">Trennen Sie alle Headsets, um den FM-Sender zu verwenden</string>
+  <string name="msg_callactive">Während eines Sprachanrufs kann der FM-Sender nicht aktiviert werden</string>
   <string name="preset_select_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' auswählen</string>
   <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' auswählen</string>
   <string name="presetlist_add_new">Neue Liste hinzufügen</string>
@@ -101,8 +105,16 @@
   <string name="alert_dialog_hint">Geben Sie einen Namen ein</string>
   <string name="presets_back">Zurück</string>
   <string name="presets_back_summary">Zu vorheriger Ansicht zurückkehren</string>
+  <string name="eradio_text_string">Erweiterter Radiotext</string>
+  <string name="fm_command_timeout_title">Zeitüberschreitung</string>
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <string name="audio_db_playlist_name">Radio-Aufnahmen</string>
+  <string name="station_name">Sender:</string>
   <string name="station_exists">Diese Frequenz ist bereits vorhanden!</string>
+  <string name="station_list_delete_station">Löschen: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Sind Sie sicher, dass Sie \'<xliff:g id="name">%s</xliff:g>\'  löschen wollen?</string>
+  <string name="station_name_empty">Sendername ist leer, bitte geben Sie einen Namen ein.</string>
+  <string name="station_name_exist">Es ist bereits ein Radiosender mit dem Name \'<xliff:g id="name">%s</xliff:g>\' gespeichert. Bitte einen anderen Namen wählen.</string>
+  <string name="sel_chanl_spacing">Kanalabstand wählen</string>
+  <string name="chanl_spacing">Kanalabstand</string>
 </resources>

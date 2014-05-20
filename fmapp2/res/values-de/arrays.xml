@@ -47,10 +47,10 @@
   </string-array>
   <string-array name="search_category_rbds_entries">
     <item>Alle Sender</item>
-    <item>Adult hits</item>
+    <item>Für Erwachsene</item>
     <item>Klassik</item>
     <item>Classic Rock</item>
-    <item>College</item>
+    <item>Campusradio</item>
     <item>Countrymusik</item>
     <item>Katastrophenalarm</item>
     <item>Katastrophenalarm (Test)</item>
@@ -58,19 +58,19 @@
     <item>Informationen</item>
     <item>Jazz</item>
     <item>Nachrichten</item>
-    <item>Nostalgia</item>
+    <item>Nostalgie</item>
     <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
+    <item>Persönlich</item>
+    <item>Öffentlich</item>
     <item>Geistliche Musik</item>
-    <item>Religious talk</item>
-    <item>Rhythm and Blues</item>
+    <item>Religions-Gespräche</item>
+    <item>Rhythm und Blues</item>
     <item>Rock</item>
     <item>Leichte Musik</item>
     <item>Softrock</item>
-    <item>Soft Rhythm and Blues</item>
+    <item>Soft Rhythm und Blues</item>
     <item>Sport</item>
-    <item>Talk</item>
+    <item>Gespräche</item>
     <item>Top 40</item>
     <item>Wetter</item>
   </string-array>
@@ -82,7 +82,7 @@
     <item>Country-Musik</item>
     <item>Dokumentation</item>
     <item>Drama</item>
-    <item>Easy listening music</item>
+    <item>Easy Listening Musik</item>
     <item>Bildung</item>
     <item>Notfall</item>
     <item>Notfall (Test)</item>
@@ -90,19 +90,19 @@
     <item>Volksmusik</item>
     <item>Informationen</item>
     <item>Jazzmusik</item>
-    <item>Light classical</item>
-    <item>Leisure</item>
+    <item>Klassik leicht</item>
+    <item>Freizeit</item>
     <item>Nachrichten</item>
-    <item>National music</item>
+    <item>Nationale Musik</item>
     <item>Andere Musik</item>
-    <item>Oldies music</item>
+    <item>Oldie-Musik</item>
     <item>Phone in</item>
     <item>Popmusik</item>
     <item>Religion</item>
     <item>Rockmusik</item>
     <item>Wissenschaft</item>
-    <item>Serious classical</item>
-    <item>Social affairs</item>
+    <item>Klassik</item>
+    <item>Soziales</item>
     <item>Sport</item>
     <item>Reisen</item>
     <item>Verschiedenes</item>

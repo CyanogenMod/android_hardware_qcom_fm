@@ -32,7 +32,7 @@
   <string name="no_storage">Kayda başlamadan önce SD kartı yerleştirin.</string>
   <string name="preparing_sd">SD kart hazırlanıyor</string>
   <string name="access_sd_fail">SD karta erişilemedi.</string>
-  <string name="spaceIsLow_content">SD kartının depolama alanı azalıyor. Kalite ayarlarını değiştirin veya bazı resimleri, diğer dosyaları silin.</string>
+  <string name="spaceIsLow_content">SD kartının depolama alanı azalıyor. Kalite ayarlarını değiştirin veya bazı resimleri ya da diğer dosyaları silin.</string>
   <string name="FMRecording_reach_size_limit">Boyut sınırına ulaşıldı.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-AA-gg SS:dd:ss</xliff:g></string>
   <string name="audio_db_artist_name">FM kayıtlarım</string>

@@ -60,8 +60,8 @@
     <item>Wiadomości</item>
     <item>Nostalgia</item>
     <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
+    <item>Osobowość</item>
+    <item>Publiczne</item>
     <item>Muzyka religijna</item>
     <item>Religijna rozmowa</item>
     <item>R\u0026B</item>
@@ -82,13 +82,13 @@
     <item>Muzyka country</item>
     <item>Dokument</item>
     <item>Dramat</item>
-    <item>Easy listening music</item>
+    <item>Easy listening</item>
     <item>Edukacja</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
+    <item>Awaryjne</item>
+    <item>Test awaryjny</item>
     <item>Finanse</item>
     <item>Muzyka folkowa</item>
-    <item>Information</item>
+    <item>Informacje</item>
     <item>Jazz</item>
     <item>Lekka klasyka</item>
     <item>Wypoczynek</item>
@@ -102,7 +102,7 @@
     <item>Muzyka rockowa</item>
     <item>Nauka</item>
     <item>Poważna muzyka klasyczna</item>
-    <item>Social affairs</item>
+    <item>Sprawy społeczne</item>
     <item>Sport</item>
     <item>Podróź</item>
     <item>Różne</item>
@@ -189,7 +189,7 @@
     <item>Turcja (87,5 MHz - 108.0 MHz co 100 KHz)</item>
     <item>Wielka Brytania (87,5 MHz - 108.0 MHz co 100 KHz)</item>
     <item>Stany Zjednoczone (88.1 MHz - 107,9 MHz co 200 KHz)</item>
-    <item>User defined band</item>
+    <item>Częstotliwość zdefiniowana przez użytkownika</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 Khz</item>

@@ -32,14 +32,14 @@
   <string name="app_name">Rádio FM</string>
   <string name="tx_app_name">Transmissor de FM</string>
   <string name="menu_add_to_preset">Memorizar</string>
-  <string name="menu_settings">Configurações</string>
+  <string name="menu_settings">Definições</string>
   <string name="menu_record_start">Começar a gravar</string>
   <string name="menu_record_stop">Parar de gravar</string>
   <string name="menu_all_channels">Todos os canais</string>
   <string name="app_label_all_channels">Todos os canais</string>
   <string name="button_ok">OK</string>
   <string name="button_cancel">Cancelar</string>
-  <string name="button_delete">Remover</string>
+  <string name="button_delete">Eliminar</string>
   <string name="error_sdcard_access">Incapaz de aceder ao cartão SD</string>
   <string name="fm_service_started">Serviço de FM</string>
   <string name="menu_sleep">Modo de espera</string>
@@ -70,17 +70,17 @@
   <string name="presetlist_prefix_name">FM - </string>
   <string name="dialog_presetlist_rename_title">Insira um nome</string>
   <string name="dialog_preset_rename_title">Insira um nome</string>
-  <string name="presetlist_delete_name">Apagar \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' e as suas emissoras?</string>
+  <string name="presetlist_delete_name">Eliminar \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' e as suas emissoras?</string>
   <string name="presetlist_autoselect_title">Confirmar memorização automática</string>
-  <string name="presetlist_autoselect_name">Memorização automática vai apagar todas as predefinições da lista \'<xliff:g id="presetlist_name">%1$s</xliff:g>\', continuar?</string>
-  <string name="fmtx_autoselect_name">Memorização automática vai apagar todas as predefinições, quer continuar?</string>
+  <string name="presetlist_autoselect_name">Memorização automática vai eliminar todas as predefinições da lista \'<xliff:g id="presetlist_name">%1$s</xliff:g>\', continuar?</string>
+  <string name="fmtx_autoselect_name">Memorização automática vai eliminar todas as predefinições, quer continuar?</string>
   <string name="enter_frequency">Sintonizar emissora</string>
   <string name="enter_new_frequency_title">Introduzir a frequência</string>
   <string name="preset_now_playing">A tocar agora </string>
   <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
-  <string name="preset_delete_title">Apagar predefinição</string>
-  <string name="preset_delete_name">Apagar \'<xliff:g id="preset_name">%1$s</xliff:g>\' de \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'</string>
-  <string name="preset_confirm_delete_name">Apagar \'<xliff:g id="preset_name">%1$s</xliff:g>\' de \'<xliff:g id="presetlist_name">%2$s</xliff:g>\' ?</string>
+  <string name="preset_delete_title">Eliminar predefinição</string>
+  <string name="preset_delete_name">Eliminar \'<xliff:g id="preset_name">%1$s</xliff:g>\' de \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'</string>
+  <string name="preset_confirm_delete_name">Eliminar \'<xliff:g id="preset_name">%1$s</xliff:g>\' de \'<xliff:g id="presetlist_name">%2$s</xliff:g>\' ?</string>
   <string name="preset_name_dialog_title">Introduzir um nome</string>
   <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_name_title">Renomear</string>
@@ -93,12 +93,12 @@
   <string name="preset_replace">Substituir</string>
   <string name="preset_tune">Sintonizar</string>
   <string name="preset_rename">Renomear</string>
-  <string name="preset_delete">Remover</string>
+  <string name="preset_delete">Eliminar</string>
   <string name="preset_search">A procurar \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="stat_notif_tx_frequency">A transmitir em: \'<xliff:g id="frequency">%1$s</xliff:g>\'</string>
   <string name="sel_band_menu">Selecione a banda regional</string>
-  <string name="settings_menu">Configurações</string>
+  <string name="settings_menu">Definições</string>
   <string name="regional_band">Banda regional</string>
   <string name="aud_output_mode">Modo de saída de áudio</string>
   <string name="sel_audio_output">Selecionar a saída de áudio</string>
@@ -110,30 +110,30 @@
   <string name="fac_defaults">Reverter para as predefinicões de fábrica</string>
   <string name="revert_to_fac">Reverter para as predefinicões de fábrica</string>
   <string name="settings_back">Voltar</string>
-  <string name="settings_revert_confirm_title">Confirmar o restauro das configurações</string>
-  <string name="settings_revert_confirm_msg">Esta ação vai apagar todas as configurações , incluindo as emissoras memorizadas</string>
+  <string name="settings_revert_confirm_title">Confirmar o restauro das definições</string>
+  <string name="settings_revert_confirm_msg">Esta ação vai eliminar todas as definições , incluindo as emissoras memorizadas</string>
   <string name="settings_back_summary">Voltar à posição anterior</string>
   <string name="settings_revert_defaults_title">Reverter para as predefinicões de fábrica</string>
-  <string name="settings_revert_defaults_summary">Restaurar todas as configurações</string>
+  <string name="settings_revert_defaults_summary">Restaurar todas as definições</string>
   <string name="audio_type_stereo">Estéreo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="default_audio">Estéreo</string>
   <string name="factory_reset_dialog_title">Confirme o restauro</string>
-  <string name="factory_reset_dialog_message">Esta ação vai apagar todas as configurações , incluindo as emissoras memorizadas</string>
+  <string name="factory_reset_dialog_message">Esta ação vai eliminar todas as definições , incluindo as emissoras memorizadas</string>
   <string name="station_move">Mover</string>
   <string name="station_edit">Editar</string>
   <string name="no_storage">Montar o cartão SD antes de iniciar a gravação.</string>
   <string name="preparing_sd">A preparar o cartão SD</string>
   <string name="access_sd_fail">Não consegui aceder as cartão SD.</string>
-  <string name="spaceIsLow_content">O seu cartão SD está a ficar sem espaço. Altere a configuração de qualidade ou exclua alguns ficheiros para libertar espaço.</string>
+  <string name="spaceIsLow_content">O seu cartão SD está a ficar sem espaço. Altere a definição de qualidade ou elimine alguns ficheiros para libertar espaço.</string>
   <string name="FMRecording_reach_size_limit">Atingido o limite máximo.</string>
-  <string name="delete_station_title">Remover</string>
+  <string name="delete_station_title">Eliminar</string>
   <string name="find_af_station">Procurar</string>
   <string name="menu_add_list">Adicionar a lista</string>
   <string name="menu_rename_list">Mudar o nome da lista</string>
   <string name="menu_reorder_list">Reordenar a lista</string>
   <string name="menu_scan_for_preset">Procurar emissoras memorizadas</string>
-  <string name="menu_delete_list">Apagar lista</string>
+  <string name="menu_delete_list">Eliminar lista</string>
   <string name="alert_dialog_ok">Ok</string>
   <string name="alert_dialog_cancel">Cancelar</string>
   <string name="alert_dialog_hint">Insira um nome</string>
