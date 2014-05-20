@@ -59,7 +59,7 @@
     <item>Jazz</item>
     <item>Haberler</item>
     <item>Nostaljik</item>
-    <item>Yetişkin</item>
+    <item>Eskiler</item>
     <item>Kişisel</item>
     <item>Halka açık</item>
     <item>Dini müzik</item>
@@ -76,32 +76,32 @@
   </string-array>
   <string-array name="search_category_rds_entries">
     <item>Tüm istasyonlar</item>
-    <item>Yetişkin Hit</item>
+    <item>Kültür</item>
     <item>Güncel olaylar</item>
-    <item>Klasik Rock</item>
+    <item>Çocuk programları</item>
     <item>Country müzik</item>
-    <item>Bölgesel</item>
-    <item>Acil</item>
+    <item>Belgesel</item>
+    <item>Drama</item>
     <item>Kolay dinlenen müzik</item>
-    <item>Yabancı Dil</item>
-    <item>Bilgi</item>
+    <item>Eğitim</item>
+    <item>Acil</item>
     <item>Acil test</item>
-    <item>Haberler</item>
+    <item>Finans</item>
     <item>Halk müziği</item>
-    <item>Yetişkin</item>
+    <item>Bilgilendirme</item>
     <item>Jazz müziği</item>
-    <item>Halka açık</item>
-    <item>Bölgesel Music</item>
-    <item>Bölgesel Konuşma</item>
+    <item>Hafif klasik</item>
+    <item>Boş zaman</item>
+    <item>Haberler</item>
     <item>Ulusal müzik</item>
     <item>Diğer müzik</item>
     <item>Eskilerin müziği</item>
     <item>Telefondan</item>
     <item>Pop müzik</item>
-    <item>Spor</item>
+    <item>Dini</item>
     <item>Rock müzik</item>
-    <item>Top 40</item>
-    <item>Hava Durumu</item>
+    <item>Bilim</item>
+    <item>Ciddi klasik</item>
     <item>Sosyal olaylar</item>
     <item>Spor</item>
     <item>Seyahat</item>

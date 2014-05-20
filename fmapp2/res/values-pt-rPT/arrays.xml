@@ -111,7 +111,7 @@
   <string-array name="presetlist_edit_category">
     <item>Mudar o nome</item>
     <item>Seleção automática</item>
-    <item>Apagar</item>
+    <item>Eliminar</item>
   </string-array>
   <string-array name="regional_band_entries">
     <item>América do Norte</item>

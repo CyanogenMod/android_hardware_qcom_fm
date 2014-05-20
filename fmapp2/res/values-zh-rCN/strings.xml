@@ -30,6 +30,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM 收音机</string>
+  <string name="tx_app_name">FM 发射机</string>
   <string name="menu_add_to_preset">添加到预设</string>
   <string name="menu_settings">设置</string>
   <string name="menu_record_start">开始录制</string>
@@ -49,11 +50,17 @@
   <string name="menu_speaker_off">禁用扬声器</string>
   <string name="menu_scan_start">搜索</string>
   <string name="menu_scan_stop">停止搜索</string>
+  <string name="menu_stats">FM 射频统计信息</string>
   <string name="button_text_stop">停止</string>
   <string name="msg_seeking">搜索 FM 电台</string>
   <string name="msg_scanning">搜索所有 FM 电台</string>
+  <string name="msg_scanning_pty">正在搜索“<xliff:g id="pty_name">%1$s</xliff:g>”</string>
+  <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
   <string name="msg_searching">寻找信号强的电台以创建预设列表</string>
   <string name="msg_searching_title">自动选择预设</string>
+  <string name="msg_weak_searching">搜索频率以传输</string>
+  <string name="msg_noantenna">请插上耳机来使用 FM 收音机</string>
+  <string name="msg_headsetpluggedin">断开所有耳机以使用 FM 发射机</string>
   <string name="msg_callactive">语音通话进行时不支持 FM 发射</string>
   <string name="dialog_sleep_title">选择自动关闭睡眠时间</string>
   <string name="preset_select_name">选择“<xliff:g id="preset_name">%1$s</xliff:g>”</string>
@@ -65,14 +72,17 @@
   <string name="dialog_preset_rename_title">输入名称 </string>
   <string name="presetlist_delete_name">删除“<xliff:g id="presetlist_name">%1$s</xliff:g>”及其电台？</string>
   <string name="presetlist_autoselect_title">确认自动选择</string>
+  <string name="presetlist_autoselect_name">自动选择将删除“<xliff:g id="presetlist_name">”列表中的所有预设，是否继续？</string>
   <string name="fmtx_autoselect_name">自动选择将删除所有的预设，是否继续？</string>
   <string name="enter_frequency">调到电台</string>
   <string name="enter_new_frequency_title">输入频率</string>
   <string name="preset_now_playing">正在播放 </string>
+  <string name="preset_pref_title">“<xliff:g id="preset_name">%1$s</xliff:g>” (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
   <string name="preset_delete_title">删除预设​​​​​​​​​</string>
   <string name="preset_delete_name">在 \'<xliff:g id="presetlist_name">%2$s</xliff:g>\' 中删除 \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_confirm_delete_name">是否删除 \'<xliff:g id="presetlist_name">%2$s</xliff:g>\' 中的 \'<xliff:g id="preset_name">%1$s</xliff:g>\' ?</string>
   <string name="preset_name_dialog_title">输入名称 </string>
+  <string name="preset_name_summary">“<xliff:g id="preset_name">%1$s</xliff:g>”</string>
   <string name="preset_name_title">重命名</string>
   <string name="preset_search_title">搜索</string>
   <string name="preset_search_name">搜索 \"<xliff:g id="preset_name">%1$s</xliff:g>\"</string>
@@ -86,6 +96,7 @@
   <string name="preset_delete">删除</string>
   <string name="preset_search">搜索 \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
+  <string name="stat_notif_tx_frequency">传输在：“<xliff:g id="frequency">%1$s</xliff:g>”</string>
   <string name="sel_band_menu">选择区域波段</string>
   <string name="settings_menu">设置</string>
   <string name="regional_band">区域波段</string>
@@ -114,6 +125,7 @@
   <string name="no_storage">在开始录制之前挂载 SD 卡。</string>
   <string name="preparing_sd">正在准备 SD 卡</string>
   <string name="access_sd_fail">无法读取 SD 卡。</string>
+  <string name="spaceIsLow_content">您的 SD 存储卡空间不足。更改质量设置或删除一些其他文件以释放空间。</string>
   <string name="FMRecording_reach_size_limit">已达到大小限制。</string>
   <string name="delete_station_title">删除</string>
   <string name="find_af_station">查找</string>
@@ -128,18 +140,25 @@
   <string name="search_dialog_title">搜索电台</string>
   <string name="search_category">选择搜索类型</string>
   <string name="search_category_title">搜索类型</string>
+  <string name="search_category_tune">设定频率</string>
   <string name="search_category_type">按节目类型选择搜索</string>
   <string name="search_category_type_title">按节目类型搜索</string>
   <string name="presets_back">返回</string>
   <string name="presets_back_summary">返回到上一个视图</string>
   <string name="nav_mode_presets">预设</string>
   <string name="nav_mode_stations">电台</string>
+  <string name="radio_text_string">这是需要滚动的无线电长文本消息</string>
+  <string name="eradio_text_string">扩展的收音机文本消息</string>
   <string name="fm_command_timeout_title">超时</string>
+  <string name="fm_tune_timeout_msg">未收到回应以调谐 FM 电台。如果问题仍然存在，请关闭 FM，并重新打开。</string>
   <string name="fm_command_failed_title">FM 操作失败</string>
   <string name="fm_cmd_failed_msg">FM 操作失败。如果问题仍然存在，请关闭 FM，并将其重新打开。</string>
+  <string name="fm_cmd_failed_msg_hdmi">FM 操作失败。不支持 FM 和 HDMI 并发。
+        </string>
   <string name="fm_cmd_failed_call_on">FM 操作失败。通话期间禁止 FM 音频。</string>
   <string name="default_preset_list_name">FM 列表</string>
   <string name="stop_scanning">停止扫描</string>
+  <string name="transmit_msg_string">传输在：</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">我的 FM 录音</string>
   <string name="audio_db_album_name">FM 录音</string>

@@ -29,15 +29,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Mount SD kaart voor opname begin.</string>
-  <string name="preparing_sd">Voorbereiding van SD kaart</string>
-  <string name="access_sd_fail">Kon nie toegang verkry tot SD kaart.</string>
-  <string name="spaceIsLow_content">Jou SD kaart is besig om uit spasie te hardloop. Verander die kwaliteits instelling of verwyder \'n paar foto of ander lêers.</string>
-  <string name="FMRecording_reach_size_limit">Grootte limiet bereik.</string>
+  <string name="no_storage">Laai SD kaart voor opname begin.</string>
+  <string name="preparing_sd">SD kaart word voorberei</string>
+  <string name="access_sd_fail">Kon nie toegang tot SD kaart kry nie.</string>
+  <string name="spaceIsLow_content">Jou SD kaart spasie word min. Verander die kwaliteits-instelling of verwyder \'n paar foto\'s of ander lêers.</string>
+  <string name="FMRecording_reach_size_limit">Grootte-limiet bereik.</string>
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">My FM opnames</string>
   <string name="audio_db_album_name">FM opnames</string>
   <string name="audio_db_playlist_name">FM opnames</string>
-  <string name="save_record_file">FM opgeneemde lêer gestoor na \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">FM opname aan die gang</string>
+  <string name="save_record_file">FM opname lêer gestoor na \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">FM opname tans besig</string>
 </resources>
