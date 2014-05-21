@@ -72,7 +72,7 @@
   <string name="dialog_preset_rename_title">输入名称 </string>
   <string name="presetlist_delete_name">删除“<xliff:g id="presetlist_name">%1$s</xliff:g>”及其电台？</string>
   <string name="presetlist_autoselect_title">确认自动选择</string>
-  <string name="presetlist_autoselect_name">自动选择将删除“<xliff:g id="presetlist_name">”列表中的所有预设，是否继续？</string>
+  <string name="presetlist_autoselect_name">自动选择将删除“<xliff:g id="presetlist_name">%1$s</xliff:g>”列表中的所有预设，是否继续？</string>
   <string name="fmtx_autoselect_name">自动选择将删除所有的预设，是否继续？</string>
   <string name="enter_frequency">调到电台</string>
   <string name="enter_new_frequency_title">输入频率</string>
@@ -153,8 +153,7 @@
   <string name="fm_tune_timeout_msg">未收到回应以调谐 FM 电台。如果问题仍然存在，请关闭 FM，并重新打开。</string>
   <string name="fm_command_failed_title">FM 操作失败</string>
   <string name="fm_cmd_failed_msg">FM 操作失败。如果问题仍然存在，请关闭 FM，并将其重新打开。</string>
-  <string name="fm_cmd_failed_msg_hdmi">FM 操作失败。不支持 FM 和 HDMI 并发。
-        </string>
+  <string name="fm_cmd_failed_msg_hdmi">FM 操作失败。不支持 FM 和 HDMI 并发。</string>
   <string name="fm_cmd_failed_call_on">FM 操作失败。通话期间禁止 FM 音频。</string>
   <string name="default_preset_list_name">FM 列表</string>
   <string name="stop_scanning">停止扫描</string>
