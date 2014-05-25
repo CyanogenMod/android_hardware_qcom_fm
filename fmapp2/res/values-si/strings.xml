@@ -72,8 +72,8 @@
   <string name="dialog_preset_rename_title">නමක් ඇතුල් කරන්න</string>
   <string name="presetlist_delete_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' සහ එහි සේවා ස්ථාන මකන්නද?</string>
   <string name="presetlist_autoselect_title">ස්වයං-තේරීම තහවුරු කරන්න</string>
-  <string name="presetlist_autoselect_name">ස්වයං-තේරීම \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' ලයිස්තුවේ ඇති පෙරසැකසුම් සියල්ල මකාදමනු ඇත, කරගෙන යන්නද?</string>
-  <string name="fmtx_autoselect_name">ස්වයං-තේරීම පෙරසැකසුම් සියල්ල මකාදමනු ඇත, කරගෙන යන්නද?</string>
+  <string name="presetlist_autoselect_name">ස්වයං-තේරීම \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' ලයිස්තුවේ ඇති පෙරසැකසුම් සියල්ල මකාදමනු ඇත, ඉදිරියට යන්නද?</string>
+  <string name="fmtx_autoselect_name">ස්වයං-තේරීම පෙරසැකසුම් සියල්ල මකාදමනු ඇත, ඉදිරියට යන්නද?</string>
   <string name="enter_frequency">සේවා ස්ථානයට සුසර කරන්න</string>
   <string name="enter_new_frequency_title">සංඛ්‍යාතය ඇතුල් කරන්න</string>
   <string name="preset_now_playing">දැන් ධාවනය කරමින් </string>
