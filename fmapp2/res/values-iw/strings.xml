@@ -45,7 +45,7 @@
   <string name="menu_sleep">שינה</string>
   <string name="menu_sleep_cancel">ביטול שינה</string>
   <string name="menu_wired_headset">אוזניות</string>
-  <string name="menu_speaker_on">הפעל רמקוך</string>
+  <string name="menu_speaker_on">הפעל רמקול</string>
   <string name="menu_display_tags">הצג תגיות</string>
   <string name="menu_speaker_off">בטל רמקול</string>
   <string name="menu_scan_start">סרוק</string>
@@ -53,7 +53,7 @@
   <string name="menu_stats">סטטיסטיקת רדיו FM</string>
   <string name="button_text_stop">עצור</string>
   <string name="msg_seeking">מחפש תחנת FM</string>
-  <string name="msg_scanning">מחפש לכל תחנות FM</string>
+  <string name="msg_scanning">סריקת כל תחנות FM</string>
   <string name="msg_scanning_pty">סורק עבור \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
   <string name="msg_searching">מחפש תחנות בקליטה חזקה כדי ליצור רשימות תחנות עדכנית</string>
@@ -61,7 +61,7 @@
   <string name="msg_weak_searching">מחפש תדרים לשידור</string>
   <string name="msg_noantenna">אנא חבר אוזניה לשימוש ברדיו FM</string>
   <string name="msg_headsetpluggedin">נתק את כל האוזניות כדי להשתמש במשדר FM</string>
-  <string name="msg_callactive">משדר FM לא נתמך כאשר יש שיחה קולית</string>
+  <string name="msg_callactive">משדר FM לא נתמך במהלך שיחה קולית</string>
   <string name="dialog_sleep_title">בחר זמן שינה לפני כיבוי אוטומטי</string>
   <string name="preset_select_name">בחר \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_select_name">בחר \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>

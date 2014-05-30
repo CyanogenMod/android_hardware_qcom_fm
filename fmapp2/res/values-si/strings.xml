@@ -72,8 +72,8 @@
   <string name="dialog_preset_rename_title">නමක් ඇතුල් කරන්න</string>
   <string name="presetlist_delete_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' සහ එහි සේවා ස්ථාන මකන්නද?</string>
   <string name="presetlist_autoselect_title">ස්වයං-තේරීම තහවුරු කරන්න</string>
-  <string name="presetlist_autoselect_name">ස්වයං-තේරීම \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' ලයිස්තුවේ ඇති පෙරසැකසුම් සියල්ල මකාදමනු ඇත, කරගෙන යන්නද?</string>
-  <string name="fmtx_autoselect_name">ස්වයං-තේරීම පෙරසැකසුම් සියල්ල මකාදමනු ඇත, කරගෙන යන්නද?</string>
+  <string name="presetlist_autoselect_name">ස්වයං-තේරීම \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' ලයිස්තුවේ ඇති පෙරසැකසුම් සියල්ල මකාදමනු ඇත, ඉදිරියට යන්නද?</string>
+  <string name="fmtx_autoselect_name">ස්වයං-තේරීම පෙරසැකසුම් සියල්ල මකාදමනු ඇත, ඉදිරියට යන්නද?</string>
   <string name="enter_frequency">සේවා ස්ථානයට සුසර කරන්න</string>
   <string name="enter_new_frequency_title">සංඛ්‍යාතය ඇතුල් කරන්න</string>
   <string name="preset_now_playing">දැන් ධාවනය කරමින් </string>
@@ -110,7 +110,7 @@
   <string name="fac_defaults">කර්මාන්තශාලා පෙරනිමි යලි පිහිටුවන්න</string>
   <string name="revert_to_fac">කර්මාන්තශාලා පෙරනිමි යලි පිහිටුවන්න</string>
   <string name="settings_back">ආපසු</string>
-  <string name="settings_revert_confirm_title">සැකසීම් ප්‍රත්‍යාරම්භනය තහවුරු කරන්න</string>
+  <string name="settings_revert_confirm_title">සැකසීම් යලි පිහිටුවීම තහවුරු කරන්න</string>
   <string name="settings_revert_confirm_msg">මෙමගින් පෙරසැකසීම්ද ඇතුලත්ව සියලුම සැකසීම් මකාදැමෙනු ඇත</string>
   <string name="settings_back_summary">පෙර දැක්මට ආපසු යන්න</string>
   <string name="settings_revert_defaults_title">කර්මාන්තශාලා පෙරනිමි යලි පිහිටුවන්න</string>
@@ -118,7 +118,7 @@
   <string name="audio_type_stereo">ත්‍රිමාන</string>
   <string name="audio_type_mono">ඒකීය</string>
   <string name="default_audio">ත්‍රිමාන</string>
-  <string name="factory_reset_dialog_title">ප්‍රත්‍යාරම්භය තහවුරු කරන්න</string>
+  <string name="factory_reset_dialog_title">යලි පිහිටුවීම තහවුරු කරන්න</string>
   <string name="factory_reset_dialog_message">මෙමගින් පෙරසැකසීම්ද ඇතුලත්ව සියලුම සැකසීම් මකාදැමෙනු ඇත</string>
   <string name="station_move">ගෙනයන්න</string>
   <string name="station_edit">සංස්කරණය</string>

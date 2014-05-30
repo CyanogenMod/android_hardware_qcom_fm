@@ -43,7 +43,7 @@
   <string name="error_sdcard_access">No s\'ha pogut accedir a la targeta SD</string>
   <string name="fm_service_started">Servei FM</string>
   <string name="menu_sleep">Dorm</string>
-  <string name="menu_sleep_cancel">Cancel·la Dormir</string>
+  <string name="menu_sleep_cancel">Cancel·la el mode repòs</string>
   <string name="menu_wired_headset">Auriculars amb cables</string>
   <string name="menu_speaker_on">Activa l\'altaveu</string>
   <string name="menu_display_tags">Mostra les etiquetes</string>
@@ -62,7 +62,7 @@
   <string name="msg_noantenna">Si us plau connecta els auriculars\nper utilitzar la Radio FM</string>
   <string name="msg_headsetpluggedin">Desconnecta tots el auriculars per utilitzar FM Tx</string>
   <string name="msg_callactive">FM Tx no està suportada quan hi ha una trucada de veu activa</string>
-  <string name="dialog_sleep_title">Selecciona el temps d\'Auto-apagat per dormir</string>
+  <string name="dialog_sleep_title">Selecciona el temps d\'auto-apagat per posar en repòs</string>
   <string name="preset_select_name">Selecciona \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_select_name">Selecciona \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_add_new">Afegeix Nova Llista</string>
@@ -110,16 +110,16 @@
   <string name="fac_defaults">Torna als valors predefinits de fàbrica</string>
   <string name="revert_to_fac">Torna als valors predefinits de fàbrica</string>
   <string name="settings_back">Enrere</string>
-  <string name="settings_revert_confirm_title">Confirma el reinici del ajustaments</string>
-  <string name="settings_revert_confirm_msg">Això esborrarà tots els ajustaments incloent les presintonies</string>
+  <string name="settings_revert_confirm_title">Confirma el restabliment de les configuracions</string>
+  <string name="settings_revert_confirm_msg">Això esborrarà totes les configuracions incloent les presintonies</string>
   <string name="settings_back_summary">Torna a la vista anterior</string>
   <string name="settings_revert_defaults_title">Torna als valors predefinits de fàbrica</string>
-  <string name="settings_revert_defaults_summary">Reinicia tots els ajustaments</string>
+  <string name="settings_revert_defaults_summary">Restableix totes les configuracions</string>
   <string name="audio_type_stereo">Estèreo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="default_audio">Estèreo</string>
-  <string name="factory_reset_dialog_title">Confirma Reinici</string>
-  <string name="factory_reset_dialog_message">Això esborrarà tots els ajustaments incloent les presintonies</string>
+  <string name="factory_reset_dialog_title">Confirma el restabliment</string>
+  <string name="factory_reset_dialog_message">Això esborrarà totes les configuracions incloent les presintonies</string>
   <string name="station_move">Mou</string>
   <string name="station_edit">Edita</string>
   <string name="no_storage">Munta la targeta SD abans de començar a enregistrar.</string>

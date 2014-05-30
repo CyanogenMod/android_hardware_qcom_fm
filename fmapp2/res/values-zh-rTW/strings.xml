@@ -29,5 +29,46 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">FM 收音機</string>
+  <string name="menu_add_to_preset">新增到預設</string>
+  <string name="menu_settings">設定</string>
+  <string name="app_label_all_channels">所有頻道</string>
+  <string name="button_ok">確定</string>
+  <string name="button_cancel">取消</string>
+  <string name="button_delete">刪除</string>
+  <string name="error_sdcard_access">無法存取 SD 卡</string>
+  <string name="fm_service_started">FM 服務</string>
+  <string name="menu_sleep">休眠</string>
+  <string name="menu_sleep_cancel">取消休眠</string>
+  <string name="menu_speaker_on">開啟擴音器</string>
+  <string name="menu_display_tags">顯示標籤</string>
+  <string name="menu_speaker_off">停用擴音器</string>
+  <string name="menu_scan_start">掃描</string>
+  <string name="button_text_stop">停止</string>
+  <string name="msg_scanning">掃描所有 FM 電台</string>
+  <string name="msg_scanning_pty">正在掃描「<xliff:g id="pty_name">%1$s</xliff:g>」</string>
+  <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+  <string name="preset_select_name">選擇「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
+  <string name="presetlist_select_name">選擇「<xliff:g id="presetlist_name">%1$s</xliff:g>」</string>
+  <string name="presetlist_prefix_name">FM -</string>
+  <string name="dialog_presetlist_rename_title">輸入名稱 </string>
+  <string name="dialog_preset_rename_title">輸入名稱 </string>
+  <string name="preset_delete_title">刪除預設</string>
+  <string name="preset_name_summary">「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
   <string name="preset_search_title">搜尋</string>
+  <string name="preset_search_name">搜尋「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
+  <string name="preset_add">新增</string>
+  <string name="preset_delete">刪除</string>
+  <string name="preset_search">搜尋「<xliff:g id="preset_pi">%1$s</xliff:g>」</string>
+  <string name="settings_menu">設定</string>
+  <string name="auto_select_af_enabled">自動選擇啟用</string>
+  <string name="auto_select_af_disabled">自動選擇停用</string>
+  <string name="settings_back">返回</string>
+  <string name="station_edit">編輯</string>
+  <string name="delete_station_title">刪除</string>
+  <string name="alert_dialog_ok">確定</string>
+  <string name="alert_dialog_cancel">取消</string>
+  <string name="alert_dialog_hint">輸入名稱 </string>
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <string name="audio_db_playlist_name">FM 錄音</string>
 </resources>
