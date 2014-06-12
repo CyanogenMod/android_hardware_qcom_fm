@@ -43,7 +43,7 @@
     <item>15 分鐘</item>
     <item>30 分鐘</item>
     <item>45 分鐘</item>
-    <item>1 hour</item>
+    <item>1 小時</item>
   </string-array>
   <string-array name="search_category_rbds_entries">
     <item>All stations</item>
@@ -107,6 +107,11 @@
     <item>Travel</item>
     <item>Varied</item>
     <item>Weather</item>
+  </string-array>
+  <string-array name="presetlist_edit_category">
+    <item>Rename</item>
+    <item>Auto-select</item>
+    <item>刪除</item>
   </string-array>
   <string-array name="regional_band_entries">
     <item>北美</item>

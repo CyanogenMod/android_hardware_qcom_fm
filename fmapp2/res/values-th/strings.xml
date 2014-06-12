@@ -169,7 +169,7 @@
   <string name="station_list_delete_station">ลบ: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">คุณแน่ใจที่ขะลบ <xliff:g id="name">%s</xliff:g> ?</string>
   <string name="station_name_empty">ชื่อสถานีเว้นว่างกรุณากรอกใหม่</string>
-  <string name="station_name_exist">มีชื่อสถานี \"<xliff:g id="name">%s</xliff:g>\" อยู่แล้ว กรุณาใช้ชื่ออื่น</string>
+  <string name="station_name_exist">มีชื่อสถานี \"&lt;xliff:g id=\"name\"&gt;%s&lt;/xliff:g&gt;\" อยู่แล้ว กรุณาใช้ชื่ออื่น</string>
   <string name="rt_plus_tags">แท็ก</string>
   <string name="usr_def_band_min">ความถี่ตำสุ่ด (ในหน่วย Mhz)</string>
   <string name="usr_def_band_max">ความถี่สูงสุด (ในหน่วย Mhz)</string>

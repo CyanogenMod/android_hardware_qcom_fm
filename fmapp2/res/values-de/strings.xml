@@ -44,6 +44,7 @@
   <string name="menu_wired_headset">Kabelgebundenes Headset</string>
   <string name="menu_speaker_on">Lautsprecher aktivieren</string>
   <string name="menu_speaker_off">Lautsprecher deaktivieren</string>
+  <string name="menu_scan_stop">Suche anhalten</string>
   <string name="button_text_stop">Stop</string>
   <string name="msg_scanning_pty">Suchen nach \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
@@ -103,11 +104,17 @@
   <string name="alert_dialog_ok">Ok</string>
   <string name="alert_dialog_cancel">Abbrechen</string>
   <string name="alert_dialog_hint">Geben Sie einen Namen ein</string>
+  <string name="search_dialog_title">Sendersuche</string>
   <string name="presets_back">Zurück</string>
   <string name="presets_back_summary">Zu vorheriger Ansicht zurückkehren</string>
+  <string name="nav_mode_stations">Sender</string>
   <string name="eradio_text_string">Erweiterter Radiotext</string>
   <string name="fm_command_timeout_title">Zeitüberschreitung</string>
+  <string name="stop_scanning">Suche beenden</string>
+  <string name="transmit_msg_string">Sende auf:</string>
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
+  <string name="audio_db_artist_name">Meine Radio-Aufnahmen</string>
+  <string name="audio_db_album_name">Radio-Aufnahmen</string>
   <string name="audio_db_playlist_name">Radio-Aufnahmen</string>
   <string name="station_name">Sender:</string>
   <string name="station_exists">Diese Frequenz ist bereits vorhanden!</string>
