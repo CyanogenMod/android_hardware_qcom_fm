@@ -31,10 +31,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM Радио</string>
   <string name="tx_app_name">FM Преносник</string>
-  <string name="menu_add_to_preset">Додајте у поставкама</string>
+  <string name="menu_add_to_preset">Додај у поставкама</string>
   <string name="menu_settings">Подешавања</string>
-  <string name="menu_record_start">Почните снимање</string>
-  <string name="menu_record_stop">Зауставите снимање</string>
+  <string name="menu_record_start">Почни снимање</string>
+  <string name="menu_record_stop">Заустави снимање</string>
   <string name="menu_all_channels">Сви канали</string>
   <string name="app_label_all_channels">Сви канали</string>
   <string name="button_ok">OK</string>
@@ -43,13 +43,13 @@
   <string name="error_sdcard_access">Немогуће је приступити SD картици</string>
   <string name="fm_service_started">FM услуга</string>
   <string name="menu_sleep">Спавање</string>
-  <string name="menu_sleep_cancel">Откажите спавање</string>
+  <string name="menu_sleep_cancel">Откажи спавање</string>
   <string name="menu_wired_headset">Слушалице са каблом</string>
-  <string name="menu_speaker_on">Омогућите звучник</string>
+  <string name="menu_speaker_on">Омогући звучник</string>
   <string name="menu_display_tags">Прикажи ознаке</string>
-  <string name="menu_speaker_off">Онемогућите звучник</string>
+  <string name="menu_speaker_off">Онемогући звучник</string>
   <string name="menu_scan_start">Скенирај</string>
-  <string name="menu_scan_stop">Заутавите претрагу</string>
+  <string name="menu_scan_stop">Заустави претрагу</string>
   <string name="menu_stats">FM RF статистика</string>
   <string name="button_text_stop">Заустави</string>
   <string name="msg_seeking">Претраживање FM станица</string>
@@ -62,23 +62,23 @@
   <string name="msg_noantenna">Молимо прикључите слушалице за коришћење FM радија</string>
   <string name="msg_headsetpluggedin">Искључите све слушалице за коришћење FM предајника</string>
   <string name="msg_callactive">FM пренос није подржан када је активан говорни позив</string>
-  <string name="dialog_sleep_title">Изаберите ауто-искључивање време спавања</string>
-  <string name="preset_select_name">Изаберите \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
-  <string name="presetlist_select_name">Изаберите \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
-  <string name="presetlist_add_new">Додајте нову листу</string>
+  <string name="dialog_sleep_title">Изабери ауто-искључивање време спавања</string>
+  <string name="preset_select_name">Изабери \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="presetlist_select_name">Изабери \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
+  <string name="presetlist_add_new">Додај нову листу</string>
   <string name="dialog_presetlist_title">Постављене листе</string>
   <string name="presetlist_prefix_name">FM - </string>
-  <string name="dialog_presetlist_rename_title">Унестите име</string>
-  <string name="dialog_preset_rename_title">Унестите име</string>
-  <string name="presetlist_delete_name">Обриши \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' и његове станице?</string>
+  <string name="dialog_presetlist_rename_title">Унеси име</string>
+  <string name="dialog_preset_rename_title">Унеси име</string>
+  <string name="presetlist_delete_name">Избриши \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' и његове станице?</string>
   <string name="presetlist_autoselect_title">Потрвдите ауто-бирање</string>
-  <string name="presetlist_autoselect_name">Ауто избор ће обрисати све предефинисане на листи \'<xliff:g id="presetlist_name">%1$s</xliff:g>\', наставите?</string>
+  <string name="presetlist_autoselect_name">Ауто избор ће избрисати сва постављања на листи \'<xliff:g id="presetlist_name">%1$s</xliff:g>\', наставите?</string>
   <string name="fmtx_autoselect_name">Ауто избор ће избрисати сва постављања, наставити?</string>
   <string name="enter_frequency">Подешавање на станици</string>
-  <string name="enter_new_frequency_title">Унесите фреквенцију</string>
-  <string name="preset_now_playing">Тренутно слушано </string>
+  <string name="enter_new_frequency_title">Унеси фреквенцију</string>
+  <string name="preset_now_playing">Тренутно се слуша </string>
   <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
-  <string name="preset_delete_title">Обришите постављено</string>
+  <string name="preset_delete_title">Избриши постављено</string>
   <string name="preset_delete_name">Обриши \'<xliff:g id="preset_name">%1$s</xliff:g>\' from \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'</string>
   <string name="preset_confirm_delete_name">Обриши \'<xliff:g id="preset_name">%1$s</xliff:g>\' from \'<xliff:g id="presetlist_name">%2$s</xliff:g>\' ?</string>
   <string name="preset_name_dialog_title">Унестите име</string>

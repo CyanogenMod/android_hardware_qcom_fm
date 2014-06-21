@@ -41,9 +41,12 @@
   <string name="button_delete">Löschen</string>
   <string name="error_sdcard_access">Kein Zugriff auf die SD-Karte möglich</string>
   <string name="fm_service_started">FM-Service</string>
+  <string name="menu_sleep">Ruhezustand</string>
   <string name="menu_wired_headset">Kabelgebundenes Headset</string>
   <string name="menu_speaker_on">Lautsprecher aktivieren</string>
+  <string name="menu_display_tags">Schlagworte anzeigen</string>
   <string name="menu_speaker_off">Lautsprecher deaktivieren</string>
+  <string name="menu_scan_stop">Suche anhalten</string>
   <string name="button_text_stop">Stop</string>
   <string name="msg_scanning_pty">Suchen nach \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
@@ -83,6 +86,7 @@
   <string name="fac_defaults">Auf Werkseinstellungen zurücksetzen</string>
   <string name="revert_to_fac">Auf Werkseinstellungen zurücksetzen</string>
   <string name="settings_back">Zurück</string>
+  <string name="settings_revert_confirm_msg">Dies löscht alle Einstellungen einschließlich der Senderlisten</string>
   <string name="settings_back_summary">Zu vorheriger Ansicht zurückkehren</string>
   <string name="settings_revert_defaults_title">Auf Werkseinstellungen zurücksetzen</string>
   <string name="settings_revert_defaults_summary">Alle Einstellungen zurücksetzen</string>
@@ -90,11 +94,14 @@
   <string name="audio_type_mono">Mono</string>
   <string name="default_audio">Stereo</string>
   <string name="factory_reset_dialog_title">Zurücksetzen bestätigen</string>
+  <string name="factory_reset_dialog_message">Dies löscht alle Einstellungen einschließlich der Senderlisten</string>
   <string name="station_move">Verschieben</string>
   <string name="station_edit">Bearbeiten</string>
+  <string name="no_storage">SD-Karte vor Beginn der Aufnahme einbinden.</string>
   <string name="preparing_sd">SD-Karte wird vorbereitet</string>
   <string name="access_sd_fail">Kein Zugriff auf SD-Karte möglich.</string>
   <string name="spaceIsLow_content">Der SD-Kartenspeicher hat zu wenig Speicherplatz. Bitte reduzieren Sie die Aufnahmequalität oder löschen Sie einige Daten, um Speicher frei zu machen.</string>
+  <string name="FMRecording_reach_size_limit">Größenbeschränkung erreicht.</string>
   <string name="delete_station_title">Löschen</string>
   <string name="menu_add_list">Liste hinzufügen</string>
   <string name="menu_rename_list">Liste umbenennen</string>
@@ -103,11 +110,19 @@
   <string name="alert_dialog_ok">Ok</string>
   <string name="alert_dialog_cancel">Abbrechen</string>
   <string name="alert_dialog_hint">Geben Sie einen Namen ein</string>
+  <string name="search_dialog_title">Sendersuche</string>
+  <string name="search_category">Suchmodus auswählen</string>
   <string name="presets_back">Zurück</string>
   <string name="presets_back_summary">Zu vorheriger Ansicht zurückkehren</string>
+  <string name="nav_mode_stations">Sender</string>
   <string name="eradio_text_string">Erweiterter Radiotext</string>
   <string name="fm_command_timeout_title">Zeitüberschreitung</string>
+  <string name="default_preset_list_name">Senderliste</string>
+  <string name="stop_scanning">Suche beenden</string>
+  <string name="transmit_msg_string">Sende auf:</string>
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
+  <string name="audio_db_artist_name">Meine Radio-Aufnahmen</string>
+  <string name="audio_db_album_name">Radio-Aufnahmen</string>
   <string name="audio_db_playlist_name">Radio-Aufnahmen</string>
   <string name="station_name">Sender:</string>
   <string name="station_exists">Diese Frequenz ist bereits vorhanden!</string>
@@ -115,6 +130,9 @@
   <string name="station_list_delete_station_prompt">Sind Sie sicher, dass Sie \'<xliff:g id="name">%s</xliff:g>\'  löschen wollen?</string>
   <string name="station_name_empty">Sendername ist leer, bitte geben Sie einen Namen ein.</string>
   <string name="station_name_exist">Es ist bereits ein Radiosender mit dem Name \'<xliff:g id="name">%s</xliff:g>\' gespeichert. Bitte einen anderen Namen wählen.</string>
+  <string name="rt_plus_tags">Schlagworte</string>
+  <string name="usr_def_band_min">Mindest-Frequenz (in MHz)</string>
+  <string name="usr_def_band_max">Höchstfrequenz (in MHz)</string>
   <string name="sel_chanl_spacing">Kanalabstand wählen</string>
   <string name="chanl_spacing">Kanalabstand</string>
 </resources>
