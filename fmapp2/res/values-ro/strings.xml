@@ -75,7 +75,7 @@
   <string name="presetlist_autoselect_name">Auto-selectarea va șterge toate presetările din lista \'<xliff:g id="presetlist_name">%1$s</xliff:g>\', continuați?</string>
   <string name="fmtx_autoselect_name">Auto-selectarea va șterge toate presetările, continuați?</string>
   <string name="enter_frequency">Reglează la stația</string>
-  <string name="enter_new_frequency_title">Introduceţi frecvența</string>
+  <string name="enter_new_frequency_title">Introduceți frecvența</string>
   <string name="preset_now_playing">Acum se redă </string>
   <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
   <string name="preset_delete_title">Șterge presetarea</string>
@@ -103,7 +103,7 @@
   <string name="aud_output_mode">Modul de ieșire audio</string>
   <string name="sel_audio_output">Selectați ieșirea audio</string>
   <string name="record_dur">Durata înregistrării</string>
-  <string name="sel_rec_dur">Selectaţi durata de înregistrare</string>
+  <string name="sel_rec_dur">Selectați durata de înregistrare</string>
   <string name="auto_select_af">Frecvențe alternative</string>
   <string name="auto_select_af_enabled">Auto selectare activată</string>
   <string name="auto_select_af_disabled">Auto selectare dezactivată</string>
