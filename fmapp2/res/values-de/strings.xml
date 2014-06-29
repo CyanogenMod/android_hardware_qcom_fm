@@ -46,6 +46,7 @@
   <string name="menu_speaker_on">Lautsprecher aktivieren</string>
   <string name="menu_display_tags">Schlagworte anzeigen</string>
   <string name="menu_speaker_off">Lautsprecher deaktivieren</string>
+  <string name="menu_scan_start">Scannen</string>
   <string name="menu_scan_stop">Suche anhalten</string>
   <string name="button_text_stop">Stop</string>
   <string name="msg_scanning_pty">Suchen nach \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
@@ -53,6 +54,7 @@
   <string name="msg_noantenna">Bitte stecken Sie ein Headset ein, um das FM-Radio nutzen zu können</string>
   <string name="msg_headsetpluggedin">Trennen Sie alle Headsets, um den FM-Sender zu verwenden</string>
   <string name="msg_callactive">Während eines Sprachanrufs kann der FM-Sender nicht aktiviert werden</string>
+  <string name="dialog_sleep_title">Automatische Ausschaltzeit definieren</string>
   <string name="preset_select_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' auswählen</string>
   <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' auswählen</string>
   <string name="presetlist_add_new">Neue Liste hinzufügen</string>
@@ -86,6 +88,7 @@
   <string name="fac_defaults">Auf Werkseinstellungen zurücksetzen</string>
   <string name="revert_to_fac">Auf Werkseinstellungen zurücksetzen</string>
   <string name="settings_back">Zurück</string>
+  <string name="settings_revert_confirm_title">Einstellungen zurücksetzen</string>
   <string name="settings_revert_confirm_msg">Dies löscht alle Einstellungen einschließlich der Senderlisten</string>
   <string name="settings_back_summary">Zu vorheriger Ansicht zurückkehren</string>
   <string name="settings_revert_defaults_title">Auf Werkseinstellungen zurücksetzen</string>
@@ -112,11 +115,15 @@
   <string name="alert_dialog_hint">Geben Sie einen Namen ein</string>
   <string name="search_dialog_title">Sendersuche</string>
   <string name="search_category">Suchmodus auswählen</string>
+  <string name="search_category_title">Suchmodus</string>
+  <string name="search_category_type">Wählen Sie die Sendersuche nach Programm-Typ</string>
+  <string name="search_category_type_title">Sendersuche nach Programm-Typ</string>
   <string name="presets_back">Zurück</string>
   <string name="presets_back_summary">Zu vorheriger Ansicht zurückkehren</string>
   <string name="nav_mode_stations">Sender</string>
   <string name="eradio_text_string">Erweiterter Radiotext</string>
   <string name="fm_command_timeout_title">Zeitüberschreitung</string>
+  <string name="fm_tune_timeout_msg">Kein Empfang des gewünschten FM-Senders. Wenn das Problem weiterhin besteht, bitte Radio aus- und einschalten.</string>
   <string name="default_preset_list_name">Senderliste</string>
   <string name="stop_scanning">Suche beenden</string>
   <string name="transmit_msg_string">Sende auf:</string>
