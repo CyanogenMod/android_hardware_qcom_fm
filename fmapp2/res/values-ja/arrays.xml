@@ -29,67 +29,171 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources>
+  <string-array name="ster_mon_entries">
+    <item>ステレオ</item>
+    <item>モノラル</item>
+  </string-array>
+  <string-array name="record_durations_entries">
+    <item>5分</item>
+    <item>15分</item>
+    <item>30分</item>
+    <item>停止するまで</item>
+  </string-array>
+  <string-array name="sleep_duration_values">
+    <item>15分</item>
+    <item>30分</item>
+    <item>45分</item>
+    <item>1時間</item>
+  </string-array>
   <string-array name="search_category_rbds_entries">
-    <item>All stations</item>
+    <item>すべての局</item>
     <item>アダルトヒット</item>
     <item>クラシック</item>
     <item>クラシックロック</item>
     <item>大学</item>
-    <item>Country</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
-    <item>Foreign language</item>
+    <item>国</item>
+    <item>緊急</item>
+    <item>緊急テスト</item>
+    <item>外国語</item>
     <item>情報</item>
-    <item>Jazz</item>
-    <item>News</item>
-    <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
-    <item>Religious music</item>
-    <item>Religious talk</item>
+    <item>ジャズ</item>
+    <item>ニュース</item>
+    <item>ノスタルジア</item>
+    <item>オールディーズ</item>
+    <item>パーソナリティ</item>
+    <item>パブリック</item>
+    <item>宗教音楽</item>
+    <item>宗教トーク</item>
     <item>リズムとブルース</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
+    <item>ロック</item>
+    <item>ソフト</item>
+    <item>ソフトロック</item>
     <item>ソフトリズムとブルース</item>
-    <item>Sports</item>
-    <item>Talk</item>
-    <item>Top 40</item>
-    <item>Weather</item>
+    <item>スポーツ</item>
+    <item>トーク</item>
+    <item>トップ40</item>
+    <item>天気</item>
   </string-array>
   <string-array name="search_category_rds_entries">
-    <item>All stations</item>
-    <item>Culture</item>
-    <item>Current affairs</item>
+    <item>すべての局</item>
+    <item>文化</item>
+    <item>時事問題</item>
     <item>子供向け番組</item>
-    <item>Country music</item>
-    <item>Documentary</item>
-    <item>Drama</item>
-    <item>Easy listening music</item>
-    <item>Education</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
-    <item>Finance</item>
-    <item>Folk music</item>
-    <item>Information</item>
-    <item>Jazz music</item>
-    <item>Light classical</item>
-    <item>Leisure</item>
-    <item>News</item>
-    <item>National music</item>
-    <item>Other music</item>
-    <item>Oldies music</item>
+    <item>カントリーミュージック</item>
+    <item>ドキュメンタリー</item>
+    <item>ドラマ</item>
+    <item>イージーリスニング音楽</item>
+    <item>教育</item>
+    <item>緊急</item>
+    <item>緊急テスト</item>
+    <item>ファイナンス</item>
+    <item>フォークミュージック</item>
+    <item>情報</item>
+    <item>ジャズ音楽</item>
+    <item>ライトクラシック</item>
+    <item>レジャー</item>
+    <item>ニュース</item>
+    <item>ナショナルミュージック</item>
+    <item>その他の音楽</item>
+    <item>オールディーズ音楽</item>
     <item>視聴者参加番組</item>
-    <item>Pop music</item>
-    <item>Religion</item>
-    <item>Rock music</item>
-    <item>Science</item>
-    <item>Serious classical</item>
-    <item>Social affairs</item>
-    <item>Sport</item>
-    <item>Travel</item>
-    <item>Varied</item>
-    <item>Weather</item>
+    <item>ポップミュージック</item>
+    <item>宗教</item>
+    <item>ロック音楽</item>
+    <item>科学</item>
+    <item>シリアスクラシック</item>
+    <item>社会問題</item>
+    <item>スポーツ</item>
+    <item>旅行</item>
+    <item>さまざまなカテゴリ</item>
+    <item>天気</item>
+  </string-array>
+  <string-array name="presetlist_edit_category">
+    <item>名前の変更</item>
+    <item>自動選択</item>
+    <item>削除</item>
+  </string-array>
+  <string-array name="regional_band_entries">
+    <item>北アメリカ</item>
+    <item>ヨーロッパ</item>
+    <item>日本</item>
+    <item>日本（ワイド）</item>
+    <item>オーストラリア</item>
+    <item>オーストリア</item>
+    <item>ベルギー</item>
+    <item>ブラジル</item>
+    <item>中国</item>
+    <item>チェコ</item>
+    <item>デンマーク</item>
+    <item>フィンランド</item>
+    <item>フランス</item>
+    <item>ドイツ</item>
+    <item>ギリシャ</item>
+    <item>香港</item>
+    <item>インド</item>
+    <item>アイルランド</item>
+    <item>イタリア</item>
+    <item>韓国</item>
+    <item>メキシコ</item>
+    <item>オランダ</item>
+    <item>ニュージーランド</item>
+    <item>ノルウェー</item>
+    <item>ポーランド</item>
+    <item>ポルトガル</item>
+    <item>ロシア</item>
+    <item>シンガポール</item>
+    <item>スロバキア</item>
+    <item>スペイン</item>
+    <item>スイス</item>
+    <item>スウェーデン</item>
+    <item>台湾</item>
+    <item>トルコ</item>
+    <item>イギリス</item>
+    <item>アメリカ合衆国</item>
+    <item>ユーザー定義バンド</item>
+  </string-array>
+  <string-array name="regional_band_summary">
+    <item>北アメリカ（87.5MHz～108.0MHz 200KHzステップ）</item>
+    <item>ヨーロッパ（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>日本（76.0MHz～90.0MHz 100KHzステップ）</item>
+    <item>日本（ワイド）（90.0MHz～108.0MHz 50KHzステップ）</item>
+    <item>オーストラリア（87.7MHz～108.0MHz 100KHzステップ）</item>
+    <item>オーストリア（87.5MHz～108.0MHz 50KHzステップ）</item>
+    <item>ベルギー（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>ブラジル（87.5MHz～108.0MHz 200KHzステップ）</item>
+    <item>中国（87.0MHz～108.0MHz 100KHzステップ）</item>
+    <item>チェコ（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>デンマーク（87.5MHz～108.0MHz 50KHzステップ）</item>
+    <item>フィンランド（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>フランス（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>ドイツ（87.5MHz～108.0MHz 50KHzステップ）</item>
+    <item>ギリシャ（87.5MHz～108.0MHz 50KHzステップ）</item>
+    <item>香港（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>インド（91.0MHz～106.4MHz 100KHzステップ）</item>
+    <item>アイルランド（87.5MHz～108.0MHz 50KHzステップ）</item>
+    <item>イタリア（87.5MHz～108.0MHz 50KHzステップ）</item>
+    <item>韓国（87.5MHz～108.0MHz 200KHzステップ）</item>
+    <item>メキシコ（88.1MHz～107.9MHz 200KHzステップ）</item>
+    <item>オランダ（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>ニュージーランド（88.0MHz～107.0MHz 100KHzステップ）</item>
+    <item>ノルウェー（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>ポーランド（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>ポルトガル（87.5MHz～108.0MHz 50KHzステップ）</item>
+    <item>ロシア（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>シンガポール（88.0MHz～108.0MHz 100KHzステップ）</item>
+    <item>スロバキア（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>スペイン（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>スイス（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>スウェーデン（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>台湾（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>トルコ（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>イギリス（87.5MHz～108.0MHz 100KHzステップ）</item>
+    <item>アメリカ合衆国（88.1MHz～107.9MHz 200KHzステップ）</item>
+    <item>ユーザー定義バンド</item>
+  </string-array>
+  <string-array name="channel_spacing_entries">
+    <item>50kHz</item>
+    <item>100kHz</item>
+    <item>200kHz</item>
   </string-array>
 </resources>
