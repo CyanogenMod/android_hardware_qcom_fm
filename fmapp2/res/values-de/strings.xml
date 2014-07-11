@@ -31,6 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM-Radio</string>
   <string name="tx_app_name">FM-Sender</string>
+  <string name="menu_add_to_preset">Zur Senderliste hinzufügen</string>
   <string name="menu_settings">Einstellungen</string>
   <string name="menu_record_start">Aufnahme starten</string>
   <string name="menu_record_stop">Aufnahme beenden</string>
@@ -42,15 +43,22 @@
   <string name="error_sdcard_access">Kein Zugriff auf die SD-Karte möglich</string>
   <string name="fm_service_started">FM-Service</string>
   <string name="menu_sleep">Ruhezustand</string>
+  <string name="menu_sleep_cancel">Aufwecken</string>
   <string name="menu_wired_headset">Kabelgebundenes Headset</string>
   <string name="menu_speaker_on">Lautsprecher aktivieren</string>
   <string name="menu_display_tags">Schlagworte anzeigen</string>
   <string name="menu_speaker_off">Lautsprecher deaktivieren</string>
   <string name="menu_scan_start">Scannen</string>
   <string name="menu_scan_stop">Suche anhalten</string>
+  <string name="menu_stats">FM RF-Statistik</string>
   <string name="button_text_stop">Stop</string>
+  <string name="msg_seeking">FM-Sender suchen</string>
+  <string name="msg_scanning">Nach allen FM-Sendern scannen</string>
   <string name="msg_scanning_pty">Suchen nach \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+  <string name="msg_searching">Suche nach starken Sendern, um eine Senderliste zu erstellen</string>
+  <string name="msg_searching_title">Senderliste automatisch erstellen</string>
+  <string name="msg_weak_searching">Suche nach Frequenzen für die Übermittlung</string>
   <string name="msg_noantenna">Bitte stecken Sie ein Headset ein, um das FM-Radio nutzen zu können</string>
   <string name="msg_headsetpluggedin">Trennen Sie alle Headsets, um den FM-Sender zu verwenden</string>
   <string name="msg_callactive">Während eines Sprachanrufs kann der FM-Sender nicht aktiviert werden</string>
@@ -58,18 +66,26 @@
   <string name="preset_select_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' auswählen</string>
   <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' auswählen</string>
   <string name="presetlist_add_new">Neue Liste hinzufügen</string>
+  <string name="dialog_presetlist_title">Senderliste</string>
   <string name="presetlist_prefix_name">FM - </string>
   <string name="dialog_presetlist_rename_title">Geben Sie einen Namen ein</string>
   <string name="dialog_preset_rename_title">Geben Sie einen Namen ein</string>
+  <string name="presetlist_delete_name"><xliff:g id="presetlist_name">%1$s</xliff:g> inklusive Sender löschen?</string>
   <string name="presetlist_autoselect_title">Automatische Auswahl bestätigen</string>
+  <string name="presetlist_autoselect_name">Automatische Auswahl löscht alle Sender in der Liste  \'<xliff:g id="presetlist_name">%1$s</xliff:g>\', fortfahren?</string>
+  <string name="fmtx_autoselect_name">Automatische Auswahl löscht alle Sender in der Liste, fortfahren?</string>
   <string name="enter_new_frequency_title">Geben Sie die Frequenz ein</string>
   <string name="preset_now_playing">Aktuelle Wiedergabe </string>
   <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
+  <string name="preset_delete_title">Sender aus Liste löschen</string>
+  <string name="preset_delete_name">Lösche \'<xliff:g id="preset_name">%1$s</xliff:g>\' aus \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'</string>
+  <string name="preset_confirm_delete_name">Lösche \'<xliff:g id="preset_name">%1$s</xliff:g>\' aus \'<xliff:g id="presetlist_name">%2$s</xliff:g>\' ?</string>
   <string name="preset_name_dialog_title">Geben Sie einen Namen ein</string>
   <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_name_title">Umbenennen</string>
   <string name="preset_search_title">Suche</string>
   <string name="preset_search_name">Suche nach \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_preference_title">FM-Radiosender in \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="preset_empty_title">Keine Sender in der Liste</string>
   <string name="preset_empty_add_summary">Sender hinzufügen</string>
   <string name="preset_add">Hinzufügen</string>
@@ -79,7 +95,11 @@
   <string name="preset_search">Suche nach \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="stat_notif_tx_frequency">Sendet auf : \'<xliff:g id="frequency">%1$s</xliff:g>\'</string>
+  <string name="sel_band_menu">Lokales Frequenzband auswählen</string>
   <string name="settings_menu">Einstellungen</string>
+  <string name="regional_band">Frequenzband</string>
+  <string name="aud_output_mode">Audio-Ausgabe-Modus</string>
+  <string name="sel_audio_output">Audio-Ausgabe wählen</string>
   <string name="record_dur">Aufnahmedauer</string>
   <string name="sel_rec_dur">Aufnahmedauer auswählen</string>
   <string name="auto_select_af">Alternative Frequenz</string>
@@ -106,9 +126,11 @@
   <string name="spaceIsLow_content">Der SD-Kartenspeicher hat zu wenig Speicherplatz. Bitte reduzieren Sie die Aufnahmequalität oder löschen Sie einige Daten, um Speicher frei zu machen.</string>
   <string name="FMRecording_reach_size_limit">Größenbeschränkung erreicht.</string>
   <string name="delete_station_title">Löschen</string>
+  <string name="find_af_station">Finden</string>
   <string name="menu_add_list">Liste hinzufügen</string>
   <string name="menu_rename_list">Liste umbenennen</string>
   <string name="menu_reorder_list">Liste neu anordnen</string>
+  <string name="menu_scan_for_preset">Nach Senderlisten suchen</string>
   <string name="menu_delete_list">Liste löschen</string>
   <string name="alert_dialog_ok">Ok</string>
   <string name="alert_dialog_cancel">Abbrechen</string>
@@ -120,10 +142,16 @@
   <string name="search_category_type_title">Sendersuche nach Programm-Typ</string>
   <string name="presets_back">Zurück</string>
   <string name="presets_back_summary">Zu vorheriger Ansicht zurückkehren</string>
+  <string name="nav_mode_presets">Senderlisten</string>
   <string name="nav_mode_stations">Sender</string>
+  <string name="radio_text_string">Das ist die lange Radiotext-Benachrichtigung, die gescrollt werden muss</string>
   <string name="eradio_text_string">Erweiterter Radiotext</string>
   <string name="fm_command_timeout_title">Zeitüberschreitung</string>
   <string name="fm_tune_timeout_msg">Kein Empfang des gewünschten FM-Senders. Wenn das Problem weiterhin besteht, bitte Radio aus- und einschalten.</string>
+  <string name="fm_command_failed_title">Vorgang fehlgeschlagen</string>
+  <string name="fm_cmd_failed_msg">Vorgang fehlgeschlagen. Wenn das Problem weiterhin besteht, bitte FM aus- und einschalten.</string>
+  <string name="fm_cmd_failed_msg_hdmi">Vorgang fehlgeschlagen. FM und HDMI parallel wird nicht unterstützt.</string>
+  <string name="fm_cmd_failed_call_on">Vorgang fehlgeschlagen. FM ist während eines Anrufes nicht möglich.</string>
   <string name="default_preset_list_name">Senderliste</string>
   <string name="stop_scanning">Suche beenden</string>
   <string name="transmit_msg_string">Sende auf:</string>
