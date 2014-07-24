@@ -122,10 +122,10 @@
   <string name="factory_reset_dialog_message">ئه‌مه‌ هه‌موو ڕێکخستنه‌ ئاماده‌کراوه‌کانت ده‌سڕێته‌وه‌</string>
   <string name="station_move">جوڵان</string>
   <string name="station_edit">دەستکاری</string>
-  <string name="no_storage">دڵنیابە لە میمۆری دەرەکی پێش تۆمار کردن.</string>
-  <string name="preparing_sd">ئامادەکاری میمۆری دەرەکی</string>
-  <string name="access_sd_fail">نەتوانرا پەیوەندی نێوان ئامێر و میمۆری دەرەکی دروست بکرێت.</string>
-  <string name="spaceIsLow_content">میمۆری ده‌ره‌کیت پڕبووه‌،جۆرایه‌تی ڕێکخستن بگۆڕه‌ یاخود چه‌ند په‌ڕگه‌یه‌ک بسڕه‌وه‌ بۆ زیادکردنی قه‌باره‌که‌ی.</string>
+  <string name="no_storage">دڵنیابە لە بیرگەی دەرەکی پێش تۆمار کردن.</string>
+  <string name="preparing_sd">ئامادەکاری بیرگەی دەرەکی</string>
+  <string name="access_sd_fail">نەتوانرا پەیوەندی نێوان ئامێر و بیرگەی دەرەکی دروست بکرێت.</string>
+  <string name="spaceIsLow_content">بیرگەی ده‌ره‌کیت پڕبووه‌،جۆرایه‌تی ڕێکخستن بگۆڕه‌ یاخود چه‌ند په‌ڕگه‌یه‌ک بسڕه‌وه‌ بۆ زیادکردنی قه‌باره‌که‌ی.</string>
   <string name="FMRecording_reach_size_limit">قەبارەی دیاری کراو تێپەڕیوە.</string>
   <string name="delete_station_title">سڕینه‌وه‌</string>
   <string name="find_af_station">دۆزینه‌وه‌</string>

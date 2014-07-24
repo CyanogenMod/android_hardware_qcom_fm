@@ -38,7 +38,7 @@
   <string name="menu_all_channels">සියලුම නාලිකා</string>
   <string name="app_label_all_channels">සියලුම නාලිකා</string>
   <string name="button_ok">හරි</string>
-  <string name="button_cancel">අවලංගුයි</string>
+  <string name="button_cancel">එපා</string>
   <string name="button_delete">මකන්න</string>
   <string name="error_sdcard_access">SD කාඩ්පත ප්‍රවේශනය කලනොහැක</string>
   <string name="fm_service_started">FM සේවාව</string>
@@ -135,7 +135,7 @@
   <string name="menu_scan_for_preset">පෙරසැකසීම් සඳහා සුපිරික්සන්න</string>
   <string name="menu_delete_list">ලැයිස්තුව මකන්න</string>
   <string name="alert_dialog_ok">හරි</string>
-  <string name="alert_dialog_cancel">අවලංගුයි</string>
+  <string name="alert_dialog_cancel">එපා</string>
   <string name="alert_dialog_hint">නමක් ඇතුල් කරන්න</string>
   <string name="search_dialog_title">සේවා ස්ථාන සුපිරික්සන්න</string>
   <string name="search_category">සොයන විධිය තෝරන්න</string>

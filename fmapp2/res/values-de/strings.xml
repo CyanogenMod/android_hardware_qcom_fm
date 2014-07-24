@@ -74,6 +74,7 @@
   <string name="presetlist_autoselect_title">Automatische Auswahl bestätigen</string>
   <string name="presetlist_autoselect_name">Automatische Auswahl löscht alle Sender in der Liste  \'<xliff:g id="presetlist_name">%1$s</xliff:g>\', fortfahren?</string>
   <string name="fmtx_autoselect_name">Automatische Auswahl löscht alle Sender in der Liste, fortfahren?</string>
+  <string name="enter_frequency">Frequenz eingeben</string>
   <string name="enter_new_frequency_title">Geben Sie die Frequenz ein</string>
   <string name="preset_now_playing">Aktuelle Wiedergabe </string>
   <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
@@ -90,6 +91,7 @@
   <string name="preset_empty_add_summary">Sender hinzufügen</string>
   <string name="preset_add">Hinzufügen</string>
   <string name="preset_replace">Ersetzen</string>
+  <string name="preset_tune">Sendersuchlauf</string>
   <string name="preset_rename">Umbenennen</string>
   <string name="preset_delete">Löschen</string>
   <string name="preset_search">Suche nach \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
@@ -138,6 +140,7 @@
   <string name="search_dialog_title">Sendersuche</string>
   <string name="search_category">Suchmodus auswählen</string>
   <string name="search_category_title">Suchmodus</string>
+  <string name="search_category_tune">Sendersuchlauf</string>
   <string name="search_category_type">Wählen Sie die Sendersuche nach Programm-Typ</string>
   <string name="search_category_type_title">Sendersuche nach Programm-Typ</string>
   <string name="presets_back">Zurück</string>

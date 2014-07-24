@@ -30,8 +30,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM 收音機</string>
+  <string name="tx_app_name">FM 發射器</string>
   <string name="menu_add_to_preset">新增到預設</string>
   <string name="menu_settings">設定</string>
+  <string name="menu_record_start">開始錄製</string>
+  <string name="menu_record_stop">停止錄製</string>
+  <string name="menu_all_channels">所有頻道</string>
   <string name="app_label_all_channels">所有頻道</string>
   <string name="button_ok">確定</string>
   <string name="button_cancel">取消</string>
@@ -40,20 +44,27 @@
   <string name="fm_service_started">FM 服務</string>
   <string name="menu_sleep">休眠</string>
   <string name="menu_sleep_cancel">取消休眠</string>
+  <string name="menu_wired_headset">有線耳機</string>
   <string name="menu_speaker_on">開啟擴音器</string>
   <string name="menu_display_tags">顯示標籤</string>
   <string name="menu_speaker_off">停用擴音器</string>
   <string name="menu_scan_start">掃描</string>
+  <string name="menu_stats">FM 射頻數據</string>
   <string name="button_text_stop">停止</string>
+  <string name="msg_seeking">正在搜索 FM 電台</string>
   <string name="msg_scanning">掃描所有 FM 電台</string>
   <string name="msg_scanning_pty">正在掃描「<xliff:g id="pty_name">%1$s</xliff:g>」</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+  <string name="msg_searching">正在搜索訊號較強的電台以建立預設電台清單</string>
+  <string name="msg_searching_title">自動選擇預設</string>
   <string name="preset_select_name">選擇「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
   <string name="presetlist_select_name">選擇「<xliff:g id="presetlist_name">%1$s</xliff:g>」</string>
   <string name="presetlist_prefix_name">FM -</string>
   <string name="dialog_presetlist_rename_title">輸入名稱 </string>
   <string name="dialog_preset_rename_title">輸入名稱 </string>
+  <string name="preset_now_playing">現正播放</string>
   <string name="preset_delete_title">刪除預設</string>
+  <string name="preset_delete_name">在「<xliff:g id="presetlist_name">%2$s</xliff:g>」中刪除「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
   <string name="preset_name_summary">「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
   <string name="preset_search_title">搜尋</string>
   <string name="preset_search_name">搜尋「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
@@ -64,6 +75,10 @@
   <string name="auto_select_af_enabled">自動選擇啟用</string>
   <string name="auto_select_af_disabled">自動選擇停用</string>
   <string name="settings_back">返回</string>
+  <string name="audio_type_stereo">立體聲</string>
+  <string name="audio_type_mono">單聲道</string>
+  <string name="default_audio">立體聲</string>
+  <string name="station_move">移動</string>
   <string name="station_edit">編輯</string>
   <string name="delete_station_title">刪除</string>
   <string name="alert_dialog_ok">確定</string>

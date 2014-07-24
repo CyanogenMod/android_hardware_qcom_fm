@@ -29,16 +29,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">دڵنیابە لە بیرگەی دەرەکی پێش تۆمار کردن</string>
-  <string name="preparing_sd">ئامادەکاری بیرگەی دەرەکی</string>
-  <string name="access_sd_fail">نەتوانرا پەیوەندی نێوان ئامێر و بیرگەی دەرەکی دروست بکرێت </string>
-  <string name="spaceIsLow_content">بیرگەیەکەت پڕ بوە تکایە لەپێشدا کەمێك زانیاری بسڕەوە و پاشان هەوڵ بدەرەوە
-</string>
-  <string name="FMRecording_reach_size_limit">قەبارەی دیاری کراو تێپەڕیوە</string>
+  <string name="no_storage">Grabazioa hasi baino lehen SD txartela muntatu.</string>
+  <string name="preparing_sd">SD txartela prestatzen</string>
+  <string name="access_sd_fail">Ezinezkoa SD txartelera sartzea.</string>
+  <string name="spaceIsLow_content">SD biltegiratze txartela lekurik gabe geratzen ari da. Aldatu kalitate ezarpenak edo fitxategiren bat ezabatu.</string>
+  <string name="FMRecording_reach_size_limit">Tamaina mugara heldu da.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">تۆمارکراوەکانم</string>
-  <string name="audio_db_album_name">تۆمارکراوەکان</string>
-  <string name="audio_db_playlist_name">تۆمارکراوەکان</string>
-  <string name="save_record_file">تۆمارکراوی پاشەکەوت کراو \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">خەریکی تۆمار کردن</string>
+  <string name="audio_db_artist_name">Nire FM grabazioak</string>
+  <string name="audio_db_album_name">FM grabazioak</string>
+  <string name="audio_db_playlist_name">FM grabazioak</string>
+  <string name="save_record_file">FM grabazioaren fitxategia <xliff:g id="record_file">%1$s</xliff:g> -n gorde da</string>
+  <string name="fm_record_progress">FM grabazioa martxan</string>
 </resources>
