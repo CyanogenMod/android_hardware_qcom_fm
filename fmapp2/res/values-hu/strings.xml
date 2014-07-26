@@ -61,7 +61,7 @@
   <string name="msg_weak_searching">Frekvenciák keresése az adáshoz</string>
   <string name="msg_noantenna">Kérjük csatlakoztasson fülhallgatót az FM-rádió használatához</string>
   <string name="msg_headsetpluggedin">Csatlakoztassa le a fejhallgatót az FM adó használatához</string>
-  <string name="msg_callactive">FM-adó nem használható, amíg hanghívás van folyamatban</string>
+  <string name="msg_callactive">FM adó nem használható, amíg hanghívás van folyamatban</string>
   <string name="dialog_sleep_title">Válassza ki az automatikus kikapcsolás idejét</string>
   <string name="preset_select_name">Válassza ki \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_select_name">Válassza ki \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
@@ -72,8 +72,8 @@
   <string name="dialog_preset_rename_title">Adjon meg egy nevet</string>
   <string name="presetlist_delete_name">Törli a(z) \"<xliff:g id="presetlist_name">%1$s</xliff:g>\"-t és az állomásokat?</string>
   <string name="presetlist_autoselect_title">Automatikus hangolás megerősítése</string>
-  <string name="presetlist_autoselect_name">Az automatikus hangolás törölni fogja az összes állomást a következő listáról:\"<xliff:g id="presetlist_name">%1$s</xliff:g>\". Folytatja?</string>
-  <string name="fmtx_autoselect_name">Az automatikus kiválasztás törölni fogja az összes hangzást. Folytatja?</string>
+  <string name="presetlist_autoselect_name">Az automatikus hangolás törölni fogja az összes állomást a következő listáról: <xliff:g id="presetlist_name">%1$s</xliff:g>. Folytatja?</string>
+  <string name="fmtx_autoselect_name">Az automatikus kiválasztás törölni fogja az összes beállított csatornát. Folytatja?</string>
   <string name="enter_frequency">Csatorna hangolása</string>
   <string name="enter_new_frequency_title">Adja meg a frekvenciát</string>
   <string name="preset_now_playing">Most hallható </string>
@@ -164,7 +164,7 @@
   <string name="audio_db_playlist_name">FM felvételek</string>
   <string name="station_name">Állomás:</string>
   <string name="station_exists">Ez a frekvencia már létezik!</string>
-  <string name="station_list_delete_station">Törlés: <xliff:g id="name"> %s </xliff:g></string>
+  <string name="station_list_delete_station">Törlés: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Biztos benne, hogy törli a következőt: \"<xliff:g id="name"> %s </xliff:g>\"?</string>
   <string name="station_name_empty">Az állomás neve üres, írja be újra.</string>
   <string name="station_name_exist">Van már egy állomás ezen a néven: \"<xliff:g id="name"> %s </xliff:g>\". Adjon meg egy másik nevet.</string>

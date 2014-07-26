@@ -153,7 +153,7 @@
     <item>Felhasználó által meghatározott sáv</item>
   </string-array>
   <string-array name="regional_band_summary">
-    <item>Észak-Amerika (87,5 MHz-tól 108.0 MHz-ig 200 KHz-es lépésekben)</item>
+    <item>Észak-Amerika (87,5 MHz-től 108,0 MHz-ig 200 KHz-es lépésekben)</item>
     <item>Európa (87,5 MHz-tól 108.0 MHz-ig 100 KHz-es lépésekben)</item>
     <item>Japán (76.0MHz-től 90.0MHz-ig 100 KHz-es lépésekben)</item>
     <item>Japán (széles) (90.0MHz-től 108.0MHz-ig 50 KHz-es lépésekben)</item>
