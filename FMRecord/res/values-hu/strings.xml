@@ -38,6 +38,6 @@
   <string name="audio_db_artist_name">Saját FM felvételek</string>
   <string name="audio_db_album_name">FM felvételek</string>
   <string name="audio_db_playlist_name">FM felvételek</string>
-  <string name="save_record_file">\'<xliff:g id="record_file">%1$s</xliff:g>\' FM felvétel elmentve</string>
+  <string name="save_record_file">\"<xliff:g id="record_file">%1$s</xliff:g>\" FM felvétel elmentve</string>
   <string name="fm_record_progress">FM felvétel folyamatban</string>
 </resources>

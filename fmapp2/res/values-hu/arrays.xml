@@ -153,42 +153,42 @@
     <item>Felhasználó által meghatározott sáv</item>
   </string-array>
   <string-array name="regional_band_summary">
-    <item>Észak-Amerika (87,5 MHz-tól 108.0 MHz-ig 200 KHz-es lépésekben)</item>
-    <item>Európa (87,5 MHz-tól 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Japán (76.0MHz-től 90.0MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Japán (széles) (90.0MHz-től 108.0MHz-ig 50 KHz-es lépésekben)</item>
-    <item>Ausztrália (87.7MHz-től 108.0MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Ausztria (87,5 MHz-től 108.0 MHz-ig 50 KHz-es lépésekben)</item>
-    <item>Belgium (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Brazília (87,5 MHz-től 108.0 MHz-ig 200 KHz-es lépésekben)</item>
-    <item>Kína (87.0 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Csehország (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Dánia (87,5 MHz-től 108.0 MHz-ig 50 KHz-es lépésekben)</item>
-    <item>Finnország (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Franciaország (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Németország (87,5 MHz-től 108.0 MHz-ig 50 KHz-es lépésekben)</item>
-    <item>Görögország (87,5 MHz-tő 108.0 MHz-ig 50 KHz-es lépésekben)</item>
-    <item>Hong Kong (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>India (91,0 MHz-től 106.4 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Írország (87,5 MHz-től 108.0 MHz-ig 50 KHz-es lépésekben)</item>
-    <item>Olaszország (87,5 MHz-től 108.0 MHz-ig 50 KHz-es lépésekben)</item>
-    <item>Korea (87,5 MHz-től 108.0 MHz-ig 200 KHz-es lépésekben)</item>
-    <item>Mexikó (88.1 MHz-től 107.9 MHz-ig 200 KHz-es lépésekben)</item>
-    <item>Hollandia (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Új-Zéland (88,0 MHz-től 107.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Norvégia (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Lengyelország (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Portugália (87,5 MHz-től 108.0 MHz-ig 50 KHz-es lépésekben)</item>
-    <item>Oroszország (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Szingapúr (88,0 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Szlovákia (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Spanyolország (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Svájc (87,5 MHz-től és 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Svédország (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Tajvan (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Törökország (87,5 MHz-tól 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Egyesült Királyság (87,5 MHz-től 108.0 MHz-ig 100 KHz-es lépésekben)</item>
-    <item>Egyesült Államok (88.1 MHz-től 107.9 MHz-ig 200 KHz-es lépésekben)</item>
+    <item>Észak-Amerika (87,5 MHz-től 108,0 MHz-ig 200 KHz-es lépésekben)</item>
+    <item>Európa (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Japán (76,0 MHz-től 90,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Japán (széles) (90,0 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
+    <item>Ausztrália (87,7 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Ausztria (87,5 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
+    <item>Belgium (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Brazília (87,5 MHz-től 108,0 MHz-ig 200 KHz-es lépésekben)</item>
+    <item>Kína (87,0 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Csehország (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Dánia (87,5 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
+    <item>Finnország (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Franciaország (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Németország (87,5 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
+    <item>Görögország (87,5 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
+    <item>Hong Kong (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>India (91,0 MHz-től 106,4 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Írország (87,5 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
+    <item>Olaszország (87,5 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
+    <item>Korea (87,5 MHz-től 108,0 MHz-ig 200 KHz-es lépésekben)</item>
+    <item>Mexikó (88,1 MHz-től 107,9 MHz-ig 200 KHz-es lépésekben)</item>
+    <item>Hollandia (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Új-Zéland (88,0 MHz-től 107,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Norvégia (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Lengyelország (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Portugália (87,5 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
+    <item>Oroszország (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Szingapúr (88,0 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Szlovákia (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Spanyolország (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Svájc (87,5 MHz-től és 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Svédország (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Tajvan (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Törökország (87,5 MHz-tól 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Egyesült Királyság (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
+    <item>Egyesült Államok (88,1 MHz-től 107,9 MHz-ig 200 KHz-es lépésekben)</item>
     <item>Felhasználó által meghatározott sáv</item>
   </string-array>
   <string-array name="channel_spacing_entries">
