@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">Записи з FM</string>
   <string name="audio_db_playlist_name">Записи з FM</string>
   <string name="save_record_file">Записаний з FM файл збережено до \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Триває запис з FM</string>
 </resources>

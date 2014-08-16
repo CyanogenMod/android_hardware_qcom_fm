@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">הקלטות FM</string>
   <string name="audio_db_playlist_name">הקלטות FM</string>
   <string name="save_record_file">קובץ הקלטת FM תישמר ל-\'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">הקלטת FM בתהליך</string>
 </resources>

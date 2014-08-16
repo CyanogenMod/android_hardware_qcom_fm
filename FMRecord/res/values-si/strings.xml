@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">FM රෙකෝඩන</string>
   <string name="audio_db_playlist_name">FM රෙකෝඩන</string>
   <string name="save_record_file">FM රෙකෝඩිත ගොනුව \'<xliff:g id="record_file">%1$s</xliff:g>\' ට සුරැකිනි</string>
-  <string name="fm_record_progress">FM රෙකෝඩනය කරමින්</string>
 </resources>

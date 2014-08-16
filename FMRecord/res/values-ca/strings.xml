@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">Gravacions FM</string>
   <string name="audio_db_playlist_name">Gravacions FM</string>
   <string name="save_record_file">El fitxer enregistrat FM s\'ha desat a \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Enregistrament FM en curs</string>
 </resources>

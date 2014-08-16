@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">Rekaman FM</string>
   <string name="audio_db_playlist_name">Rekaman FM</string>
   <string name="save_record_file">File rekaman FM disimpan ke \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Rekaman FM dalam proses</string>
 </resources>

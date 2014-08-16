@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">FM-opnamen</string>
   <string name="audio_db_playlist_name">FM-opnamen</string>
   <string name="save_record_file">FM-opname opgeslagen in \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Opnemen\u2026</string>
 </resources>

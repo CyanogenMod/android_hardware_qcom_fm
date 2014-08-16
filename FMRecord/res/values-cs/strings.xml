@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">Nahrávky FM</string>
   <string name="audio_db_playlist_name">Nahrávky FM</string>
   <string name="save_record_file">Záznam FM uložen do souboru \u201a<xliff:g id="record_file">%1$s</xliff:g>\u2018</string>
-  <string name="fm_record_progress">Nahrávání FM rádia\u2026</string>
 </resources>

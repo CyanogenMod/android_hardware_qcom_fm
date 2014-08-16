@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">تسجيل FM</string>
   <string name="audio_db_playlist_name">تسجيل FM</string>
   <string name="save_record_file">تسجيل FMمحفوظ إلى \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">FM تسجيل في متقدم</string>
 </resources>

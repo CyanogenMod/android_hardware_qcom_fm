@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">Nahrávky FM</string>
   <string name="audio_db_playlist_name">Nahrávky FM</string>
   <string name="save_record_file">Nahraný súbor bol uložený do \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Prebieha nahrávanie FM</string>
 </resources>

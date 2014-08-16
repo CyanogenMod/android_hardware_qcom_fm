@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">FM 录音</string>
   <string name="audio_db_playlist_name">FM 录音</string>
   <string name="save_record_file">FM 录音文件已保存至 \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">正在进行 FM 录音</string>
 </resources>

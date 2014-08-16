@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">Радиозаписи</string>
   <string name="audio_db_playlist_name">Радиозаписи</string>
   <string name="save_record_file">Файл радиозаписи сохранён в «<xliff:g id="record_file">%1$s</xliff:g>»</string>
-  <string name="fm_record_progress">Выполняется запись с FM-эфира</string>
 </resources>

@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">Radio-Aufnahmen</string>
   <string name="audio_db_playlist_name">Radio-Aufnahmen</string>
   <string name="save_record_file">Radio-Aufnahme unter \'<xliff:g id="record_file">%1$s</xliff:g>\' gespeichert</string>
-  <string name="fm_record_progress">Radio wird aufgenommen</string>
 </resources>

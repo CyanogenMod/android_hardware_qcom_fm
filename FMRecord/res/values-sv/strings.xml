@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">FM-inspelningar</string>
   <string name="audio_db_playlist_name">FM-inspelningar</string>
   <string name="save_record_file">FM-inspelningen sparades till \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">FM-inspelning pågår</string>
 </resources>

@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">FM 녹음</string>
   <string name="audio_db_playlist_name">FM 녹음</string>
   <string name="save_record_file"> \'<xliff:g id="record_file">%1$s</xliff:g>\'에 FM 녹음 파일 저장</string>
-  <string name="fm_record_progress">FM 녹음 중</string>
 </resources>

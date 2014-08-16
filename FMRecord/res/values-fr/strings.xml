@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">Enregistrements FM</string>
   <string name="audio_db_playlist_name">Enregistrements FM</string>
   <string name="save_record_file">Enregistrement FM sauvé dans \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Enregistrement FM en cours</string>
 </resources>

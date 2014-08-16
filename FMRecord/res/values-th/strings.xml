@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">กำลังบันทึก FM</string>
   <string name="audio_db_playlist_name">กำลังบันทึก FM</string>
   <string name="save_record_file">ไฟล์ FM บันทึกไปยัง  \"<xliff:g id="record_file">%1$s</xliff:g>\"</string>
-  <string name="fm_record_progress">FM Recording กำลังทำงาน</string>
 </resources>

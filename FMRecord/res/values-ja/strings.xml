@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">FM録音</string>
   <string name="audio_db_playlist_name">FM録音</string>
   <string name="save_record_file">FM録音は｢<xliff:g id="record_file">%1$s</xliff:g>｣に保存されました。</string>
-  <string name="fm_record_progress">FM録音中</string>
 </resources>

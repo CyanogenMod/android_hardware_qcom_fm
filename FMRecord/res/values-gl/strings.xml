@@ -39,5 +39,4 @@
   <string name="audio_db_album_name">Gravacións de radio</string>
   <string name="audio_db_playlist_name">Gravacións de radio</string>
   <string name="save_record_file">Gravación de radio gardada en \"<xliff:g id="record_file">%1$s</xliff:g>\"</string>
-  <string name="fm_record_progress">Gravación de radio en curso</string>
 </resources>
