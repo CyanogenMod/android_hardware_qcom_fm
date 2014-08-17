@@ -57,6 +57,7 @@ import android.os.UserHandle;
 import android.net.Uri;
 import android.content.res.Resources;
 import android.os.StatFs;
+import android.app.Notification.Builder;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.widget.RemoteViews;
@@ -95,6 +96,10 @@ public class FMRecordingService extends Service {
     private String mAudioType = "audio/*";
     private long startTimerMs = 0;
     private long stopTimerMs = 0;
+
+    private Notification.Builder mRecordingNotification;
+    private Notification mNotificationInstance;
+    private NotificationManager mNotificationManager;
 
     public void onCreate() {
 
@@ -312,12 +317,16 @@ public class FMRecordingService extends Service {
     }
 
     private void startNotification() {
-        RemoteViews views = new RemoteViews(getPackageName(), R.layout.record_status_bar);
-        Notification status = new Notification();
-        status.contentView = views;
-        status.flags |= Notification.FLAG_ONGOING_EVENT;
-        status.icon = R.drawable.ic_menu_record;
-        startForeground(102, status);
+        mRecordingNotification = new Notification.Builder(this)
+                .setContentTitle(getString(R.string.fm_record_progress))
+                .setSmallIcon(R.drawable.ic_menu_record)
+                .setOngoing(true)
+                .setWhen(0);
+
+        mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        mNotificationInstance = mRecordingNotification.getNotification();
+        mNotificationManager.notify(102, mNotificationInstance);
+        startForeground(102, mNotificationInstance);
     }
 
     private void stopRecord() {
