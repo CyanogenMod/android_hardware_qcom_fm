@@ -30,8 +30,8 @@
 -->
 <resources>
   <string-array name="ster_mon_entries">
-    <item>Stereo</item>
-    <item>Mono</item>
+    <item>Çift Kanal</item>
+    <item>Tek Kanal</item>
   </string-array>
   <string-array name="record_durations_entries">
     <item>5 dakika</item>
@@ -51,7 +51,7 @@
     <item>Klasik</item>
     <item>Klasik Rock</item>
     <item>Kolej</item>
-    <item>Bölgesel</item>
+    <item>Country</item>
     <item>Acil</item>
     <item>Acil test</item>
     <item>Yabancı dil</item>
@@ -60,7 +60,7 @@
     <item>Haberler</item>
     <item>Nostaljik</item>
     <item>Eskiler</item>
-    <item>Kişisel</item>
+    <item>Kişilik</item>
     <item>Halka açık</item>
     <item>Dini müzik</item>
     <item>Dini sohbet</item>
@@ -71,7 +71,7 @@
     <item>Soft Rhythm ve Blues</item>
     <item>Spor</item>
     <item>Sohbet</item>
-    <item>Top 40</item>
+    <item>En iyi 40</item>
     <item>Hava Durumu</item>
   </string-array>
   <string-array name="search_category_rds_entries">
@@ -123,7 +123,7 @@
     <item>Belçika</item>
     <item>Brazilya</item>
     <item>Çin</item>
-    <item>Çek C.</item>
+    <item>Çek Cumhuriyeti</item>
     <item>Danimarka</item>
     <item>Finlandiya</item>
     <item>Fransa</item>
