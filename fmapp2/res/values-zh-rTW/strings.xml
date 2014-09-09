@@ -57,6 +57,8 @@
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
   <string name="msg_searching">正在搜索訊號較強的電台以建立預設電台清單</string>
   <string name="msg_searching_title">自動選擇預設</string>
+  <string name="msg_weak_searching">搜尋傳輸頻率</string>
+  <string name="msg_noantenna">請插入耳機以使用 FM 收音機</string>
   <string name="preset_select_name">選擇「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
   <string name="presetlist_select_name">選擇「<xliff:g id="presetlist_name">%1$s</xliff:g>」</string>
   <string name="presetlist_prefix_name">FM -</string>
@@ -66,9 +68,11 @@
   <string name="preset_delete_title">刪除預設</string>
   <string name="preset_delete_name">在「<xliff:g id="presetlist_name">%2$s</xliff:g>」中刪除「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
   <string name="preset_name_summary">「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
+  <string name="preset_name_title">重新命名</string>
   <string name="preset_search_title">搜尋</string>
   <string name="preset_search_name">搜尋「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
   <string name="preset_add">新增</string>
+  <string name="preset_rename">重新命名</string>
   <string name="preset_delete">刪除</string>
   <string name="preset_search">搜尋「<xliff:g id="preset_pi">%1$s</xliff:g>」</string>
   <string name="settings_menu">設定</string>
@@ -86,4 +90,5 @@
   <string name="alert_dialog_hint">輸入名稱 </string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <string name="audio_db_playlist_name">FM 錄音</string>
+  <string name="rt_plus_tags">標籤</string>
 </resources>

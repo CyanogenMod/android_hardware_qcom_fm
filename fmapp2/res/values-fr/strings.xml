@@ -37,7 +37,7 @@
   <string name="menu_record_stop">Arrêter l\'enregistrement</string>
   <string name="menu_all_channels">Tous les canaux</string>
   <string name="app_label_all_channels">Tous les canaux</string>
-  <string name="button_ok">Ok</string>
+  <string name="button_ok">OK</string>
   <string name="button_cancel">Annuler</string>
   <string name="button_delete">Supprimer</string>
   <string name="error_sdcard_access">Impossible d\'accéder à la carte SD</string>
@@ -134,7 +134,7 @@
   <string name="menu_reorder_list">Réorganiser la liste</string>
   <string name="menu_scan_for_preset">Recherche de présélections</string>
   <string name="menu_delete_list">Supprimer la liste</string>
-  <string name="alert_dialog_ok">Ok</string>
+  <string name="alert_dialog_ok">OK</string>
   <string name="alert_dialog_cancel">Annuler</string>
   <string name="alert_dialog_hint">Entrez un nom</string>
   <string name="search_dialog_title">Recherche des Stations</string>
