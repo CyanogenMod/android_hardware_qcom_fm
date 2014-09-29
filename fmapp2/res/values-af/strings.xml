@@ -122,8 +122,8 @@
   <string name="factory_reset_dialog_message">Dit sal al die instellings verwyder, insluitend voorafingestelde lys</string>
   <string name="station_move">Skuif</string>
   <string name="station_edit">Wysig</string>
-  <string name="no_storage">Mount SD kaart voor opname begin.</string>
-  <string name="preparing_sd">Voorbereiding van SD kaart</string>
+  <string name="no_storage">Laai SD kaart voor opname begin.</string>
+  <string name="preparing_sd">SD kaart word voorberei</string>
   <string name="access_sd_fail">Kon nie toegang verkry tot SD kaart.</string>
   <string name="spaceIsLow_content">Jou SD kaart is besig om uit spasie te hardloop. Verander die kwaliteits instelling of verwyder \'n paar foto of ander lêers.</string>
   <string name="FMRecording_reach_size_limit">Grootte limiet bereik.</string>

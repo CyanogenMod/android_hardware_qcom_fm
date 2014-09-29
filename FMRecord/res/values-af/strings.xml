@@ -32,7 +32,7 @@
   <string name="no_storage">Laai SD kaart voor opname begin.</string>
   <string name="preparing_sd">SD kaart word voorberei</string>
   <string name="access_sd_fail">Kon nie toegang tot SD kaart kry nie.</string>
-  <string name="spaceIsLow_content">Jou SD kaart spasie word min. Verander die kwaliteits-instelling of verwyder \'n paar foto\'s of ander lêers.</string>
+  <string name="spaceIsLow_content">Jou SD kaart spasie word min. Verander die kwaliteit-instelling of verwyder \'n paar foto\'s of ander lêers.</string>
   <string name="FMRecording_reach_size_limit">Grootte-limiet bereik.</string>
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">My FM opnames</string>

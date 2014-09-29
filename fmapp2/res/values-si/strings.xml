@@ -122,7 +122,7 @@
   <string name="factory_reset_dialog_message">මෙමගින් පෙරසැකසීම්ද ඇතුලත්ව සියලුම සැකසීම් මකාදැමෙනු ඇත</string>
   <string name="station_move">ගෙනයන්න</string>
   <string name="station_edit">සංස්කරණය</string>
-  <string name="no_storage">රෙකෝඩනය ඇරඹීමට පෙර SD කාඩ්පත අමුණන්න.</string>
+  <string name="no_storage">රෙකෝඩනය ඇරඹීමට පෙර SD කාඩ්පත ආරූඩ කරන්න.</string>
   <string name="preparing_sd">SD කාඩ්පත සූදානම් කරමින්</string>
   <string name="access_sd_fail">SD කාඩ්පතට ප්‍රවේශ විය නොහැක.</string>
   <string name="spaceIsLow_content">ඔබගේ SD කාඩ්පතෙහි ආචයනයේ ඉඩ අඩුවෙමින් පවතී. ඉඩ වැඩි කර ගැනීමට ගුණාත්මක සැකසීම වෙනස් කරන්න නැතිනම් අනෙක් ගොනු කිහිපයක් මකන්න.</string>

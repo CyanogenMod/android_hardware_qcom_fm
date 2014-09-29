@@ -44,7 +44,7 @@
   <string name="fm_service_started">FM-service</string>
   <string name="menu_sleep">Slaapstand</string>
   <string name="menu_sleep_cancel">Slaapstand annuleren</string>
-  <string name="menu_wired_headset">Bedrade oortelefoon</string>
+  <string name="menu_wired_headset">Bedrade koptelefoon</string>
   <string name="menu_speaker_on">Luidspreker inschakelen</string>
   <string name="menu_display_tags">Labels tonen</string>
   <string name="menu_speaker_off">Luidspreker uitschakelen</string>
@@ -59,8 +59,8 @@
   <string name="msg_searching">Zoeken naar goed bereikbare zenders voor favorietenlijst</string>
   <string name="msg_searching_title">Automatisch favorieten zoeken</string>
   <string name="msg_weak_searching">Frequenties zoeken om te zenden</string>
-  <string name="msg_noantenna">Sluit een oortelefoon aan om de FM-radio te gebruiken</string>
-  <string name="msg_headsetpluggedin">Koppel alle oortelefoons af om FM-zender te gebruiken</string>
+  <string name="msg_noantenna">Sluit een koptelefoon aan om de FM-radio te gebruiken</string>
+  <string name="msg_headsetpluggedin">Koppel alle koptelefoons af om FM-zender te gebruiken</string>
   <string name="msg_callactive">FM-zender wordt niet ondersteund tijdens een actief gesprek</string>
   <string name="dialog_sleep_title">Slaaptijd selecteren</string>
   <string name="preset_select_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' selecteren</string>
