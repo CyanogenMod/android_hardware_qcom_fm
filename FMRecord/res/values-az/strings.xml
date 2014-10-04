@@ -29,8 +29,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="no_storage">Səsyazmaya başlamamışdan əvvəl SD kartı taxın.</string>
   <string name="preparing_sd">SD kart hazırlanır</string>
-  <string name="access_sd_fail">SD kartı açmaq mümkün olmadı.</string>
-  <string name="spaceIsLow_content">Sizin SD kart yaddaşı dolmuşdur. Yazılma keyfiyyətini dəyişin, bəzi şəkil və digər faylları silin.</string>
+  <string name="access_sd_fail">SD karta giriş baş tutmadı.</string>
+  <string name="spaceIsLow_content">SD kartınızın yaddaşı dolmaq üzrədir. Keyfiyyət tənzimləmələrini dəyişin və ya bəzi şəkilləri, ya da digər faylları silin.</string>
   <string name="FMRecording_reach_size_limit">Yazma limitini keçdiniz.</string>
+  <string name="audio_db_title_format"><xliff:g id="format">iiii-AA-gg SS:dd:ss</xliff:g></string>
+  <string name="audio_db_artist_name">FM səsyazmalarım</string>
+  <string name="audio_db_album_name">FM səsyazmaları</string>
+  <string name="audio_db_playlist_name">FM səsyazmaları</string>
+  <string name="save_record_file">FM səsyazma faylı burada saxlanıldı: \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">FM səsyazması davam edir</string>
 </resources>

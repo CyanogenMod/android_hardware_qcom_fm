@@ -47,65 +47,153 @@
   </string-array>
   <string-array name="search_category_rbds_entries">
     <item>Bütün kanallar</item>
-    <item>Adult hits</item>
-    <item>Classical</item>
-    <item>Classic Rock</item>
-    <item>College</item>
+    <item>Yetkin hit</item>
+    <item>Klassik</item>
+    <item>Klassik Rok</item>
+    <item>Kollec</item>
     <item>Country</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
-    <item>Foreign language</item>
-    <item>Information</item>
-    <item>Jazz</item>
-    <item>News</item>
-    <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
-    <item>Religious music</item>
-    <item>Religious talk</item>
-    <item>Rhythm and Blues</item>
+    <item>Təcili</item>
+    <item>Təcili test</item>
+    <item>Xarici dil</item>
+    <item>İnformasiya</item>
+    <item>Caz</item>
+    <item>Xəbərlər</item>
+    <item>Nostalji</item>
+    <item>Köhnələr</item>
+    <item>Şəxsiyyət</item>
+    <item>İctimai</item>
+    <item>Dini musiqi</item>
+    <item>Dini söhbət</item>
+    <item>Rhythm və Blues</item>
     <item>Rock</item>
     <item>Soft</item>
     <item>Soft Rock</item>
     <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
-    <item>Talk</item>
+    <item>İdman</item>
+    <item>Söhbət</item>
     <item>Top 40</item>
-    <item>Weather</item>
+    <item>Hava</item>
   </string-array>
   <string-array name="search_category_rds_entries">
     <item>Bütün kanallar</item>
-    <item>Culture</item>
-    <item>Current affairs</item>
-    <item>Children programs</item>
-    <item>Country music</item>
-    <item>Documentary</item>
-    <item>Drama</item>
-    <item>Easy listening music</item>
-    <item>Education</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
-    <item>Finance</item>
-    <item>Folk music</item>
-    <item>Information</item>
-    <item>Jazz music</item>
-    <item>Light classical</item>
+    <item>Mədəniyyət</item>
+    <item>Hazırki hadisələr</item>
+    <item>Uşaq proqramları</item>
+    <item>Country musiqi</item>
+    <item>Sənədli</item>
+    <item>Dram</item>
+    <item>Asan dinlənən musiqi</item>
+    <item>Təhsil</item>
+    <item>Təcili</item>
+    <item>Təcili test</item>
+    <item>Maliyyə</item>
+    <item>Xalq musiqisi</item>
+    <item>İnformasiya</item>
+    <item>Jazz musiqisi</item>
+    <item>Light klassik</item>
     <item>Leisure</item>
-    <item>News</item>
-    <item>National music</item>
-    <item>Other music</item>
-    <item>Oldies music</item>
-    <item>Phone in</item>
-    <item>Pop music</item>
-    <item>Religion</item>
-    <item>Rock music</item>
-    <item>Science</item>
-    <item>Serious classical</item>
-    <item>Social affairs</item>
-    <item>Sport</item>
-    <item>Travel</item>
-    <item>Varied</item>
-    <item>Weather</item>
+    <item>Xəbərlər</item>
+    <item>Milli musiqi</item>
+    <item>Digər musiqi</item>
+    <item>Köhnə musiqi</item>
+    <item>Telefondan</item>
+    <item>Pop musiqi</item>
+    <item>Dini</item>
+    <item>Rock musiqi</item>
+    <item>Elm</item>
+    <item>Ciddi klassik</item>
+    <item>Sosial işlər</item>
+    <item>İdman</item>
+    <item>Səyahət</item>
+    <item>Müxtəlif</item>
+    <item>Hava</item>
+  </string-array>
+  <string-array name="presetlist_edit_category">
+    <item>Yenidən adlandırın</item>
+    <item>Avtomatik seç</item>
+    <item>Sil</item>
+  </string-array>
+  <string-array name="regional_band_entries">
+    <item>Şimali Amerika</item>
+    <item>Avropa</item>
+    <item>Yaponiya</item>
+    <item>Yaponiya (geniş)</item>
+    <item>Avstraliya</item>
+    <item>Avstriya</item>
+    <item>Belçika</item>
+    <item>Braziliya</item>
+    <item>Çin</item>
+    <item>Çexiya</item>
+    <item>Danimarka</item>
+    <item>Finlandiya</item>
+    <item>Fransa</item>
+    <item>Almaniya</item>
+    <item>Yunanıstan</item>
+    <item>Honq Konq</item>
+    <item>Hindistan</item>
+    <item>İrlandiya</item>
+    <item>İtaliya</item>
+    <item>Koreya</item>
+    <item>Meksika</item>
+    <item>Hollandiya</item>
+    <item>Yeni Zenlandiya</item>
+    <item>Norveç</item>
+    <item>Polşa</item>
+    <item>Portuqaliya</item>
+    <item>Rusiya</item>
+    <item>Sinqapur</item>
+    <item>Slovakiya</item>
+    <item>İspaniya</item>
+    <item>İsveçrə</item>
+    <item>İsveç</item>
+    <item>Tayvan</item>
+    <item>Türkiyə</item>
+    <item>Birləşmiş Krallıq</item>
+    <item>ABŞ</item>
+    <item>İstifadəçi təyin edən zolaq</item>
+  </string-array>
+  <string-array name="regional_band_summary">
+    <item>Şimali Amerika (87.5MHz - 108.0MHz arası 200 KHz dalğasında)</item>
+    <item>Avropa (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Yaponiya (76.0MHz - 90.0MHz arası 100 KHz dalğasında)</item>
+    <item>Yaponiya (geniş) (90.0MHz - 108.0MHz arası 50 KHz dalğasında)</item>
+    <item>Avstraliya (87.7MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Avstriya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
+    <item>Belçika (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Braziliya (87.5MHz - 108.0MHz arası 200 KHz dalğasında)</item>
+    <item>Çin (87.0MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Çexiya (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Danimarka (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
+    <item>Finlandiya (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Fransa (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Almaniya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
+    <item>Yunanıstan (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
+    <item>Honq Konq (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Hindistan (91.0MHz - 106.4MHz arası 100 KHz dalğasında)</item>
+    <item>İrlandiya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
+    <item>İtaliya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
+    <item>Koreya (87.5MHz = 108.0MHz arası 200 KHz dalğasında)</item>
+    <item>Meksika (88.1MHz - 107.9MHz arası 200 KHz dalğasında)</item>
+    <item>Hollandiya (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Yeni Zenlandiya (88.0MHz - 107.0MHz arası 100 KHz dalğasında)</item>
+    <item>Norveç (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Polşa (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Portuqaliya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
+    <item>Rusiya (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Sinqapur (88.0MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Slovakiya (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>İspaniya (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>İsveçrə (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>İsveç (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Tayvan (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Türkiyə (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>Birləşmiş Krallıq (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>ABŞ (88.1MHz - 107.9MHz arası 200 KHz dalğasında)</item>
+    <item>İstifadəçi təyin edən zolaq</item>
+  </string-array>
+  <string-array name="channel_spacing_entries">
+    <item>50 KHz</item>
+    <item>100 KHz</item>
+    <item>200 KHz</item>
   </string-array>
 </resources>
