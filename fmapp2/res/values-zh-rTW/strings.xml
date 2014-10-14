@@ -31,10 +31,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM 收音機</string>
   <string name="tx_app_name">FM 發射器</string>
-  <string name="menu_add_to_preset">新增到預設</string>
+  <string name="menu_add_to_preset">新增至預設</string>
   <string name="menu_settings">設定</string>
   <string name="menu_record_start">開始錄製</string>
-  <string name="menu_record_stop">停止錄製</string>
+  <string name="menu_record_stop">停止錄音</string>
   <string name="menu_all_channels">所有頻道</string>
   <string name="app_label_all_channels">所有頻道</string>
   <string name="button_ok">確定</string>
@@ -51,7 +51,7 @@
   <string name="menu_scan_start">掃描</string>
   <string name="menu_stats">FM 射頻數據</string>
   <string name="button_text_stop">停止</string>
-  <string name="msg_seeking">正在搜索 FM 電台</string>
+  <string name="msg_seeking">正在掃描 FM 電台</string>
   <string name="msg_scanning">掃描所有 FM 電台</string>
   <string name="msg_scanning_pty">正在掃描「<xliff:g id="pty_name">%1$s</xliff:g>」</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
@@ -62,8 +62,8 @@
   <string name="preset_select_name">選擇「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
   <string name="presetlist_select_name">選擇「<xliff:g id="presetlist_name">%1$s</xliff:g>」</string>
   <string name="presetlist_prefix_name">FM -</string>
-  <string name="dialog_presetlist_rename_title">輸入名稱 </string>
-  <string name="dialog_preset_rename_title">輸入名稱 </string>
+  <string name="dialog_presetlist_rename_title">輸入名稱</string>
+  <string name="dialog_preset_rename_title">輸入名稱</string>
   <string name="preset_now_playing">現正播放</string>
   <string name="preset_delete_title">刪除預設</string>
   <string name="preset_delete_name">在「<xliff:g id="presetlist_name">%2$s</xliff:g>」中刪除「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
@@ -76,8 +76,8 @@
   <string name="preset_delete">刪除</string>
   <string name="preset_search">搜尋「<xliff:g id="preset_pi">%1$s</xliff:g>」</string>
   <string name="settings_menu">設定</string>
-  <string name="auto_select_af_enabled">自動選擇啟用</string>
-  <string name="auto_select_af_disabled">自動選擇停用</string>
+  <string name="auto_select_af_enabled">自動選擇已啟用</string>
+  <string name="auto_select_af_disabled">自動選擇已停用</string>
   <string name="settings_back">返回</string>
   <string name="audio_type_stereo">立體聲</string>
   <string name="audio_type_mono">單聲道</string>

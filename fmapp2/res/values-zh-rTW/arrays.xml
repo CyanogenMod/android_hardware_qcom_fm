@@ -46,7 +46,7 @@
     <item>1 小時</item>
   </string-array>
   <string-array name="search_category_rbds_entries">
-    <item>所有地點</item>
+    <item>所有電台</item>
     <item>成人點播</item>
     <item>古典</item>
     <item>經典搖滾</item>
@@ -69,9 +69,9 @@
     <item>柔和</item>
     <item>軟搖滾</item>
     <item>柔和節奏及藍調</item>
-    <item>運動</item>
+    <item>體育</item>
     <item>談話</item>
-    <item>最高 40</item>
+    <item>前 40</item>
     <item>天氣</item>
   </string-array>
   <string-array name="search_category_rds_entries">
@@ -92,7 +92,7 @@
     <item>爵士音樂</item>
     <item>輕古典</item>
     <item>休閒</item>
-    <item>新聞 </item>
+    <item>新聞</item>
     <item>民族音樂</item>
     <item>其他音樂</item>
     <item>懷舊音樂</item>
@@ -153,47 +153,47 @@
     <item>使用者定義的頻段</item>
   </string-array>
   <string-array name="regional_band_summary">
-    <item>北美（87.5 Mhz - 108.0 MHz 內 200 KHz 頻道距離）</item>
-    <item>歐洲（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>日本（76.0 Mhz - 90.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>日本（廣泛）（90.0 Mhz - 108.0 MHz 內 50 KHz 頻道距離）</item>
-    <item>澳洲（87.7 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>奧地利（87.5 Mhz - 108.0 MHz 內 50 KHz 頻道距離）</item>
-    <item>比利時（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>巴西（87.5 Mhz - 108.0 MHz 內 200 KHz 頻道距離）</item>
-    <item>中國（87.0 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>捷克（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>丹麥（87.5 Mhz - 108.0 MHz 內 50 KHz 頻道距離）</item>
-    <item>芬蘭（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>法國（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>德國（87.5 Mhz - 108.0 MHz 內 50 KHz 頻道距離）</item>
-    <item>希臘（87.5 Mhz - 108.0 MHz 內 50 KHz 頻道距離）</item>
-    <item>香港（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>印度（91.0 Mhz - 106.4 MHz 內 100 KHz 頻道距離）</item>
-    <item>愛爾蘭（87.5 Mhz - 108.0 MHz 內 50 KHz 頻道距離）</item>
-    <item>意大利（87.5 Mhz - 108.0 MHz 內 50 KHz 頻道距離）</item>
-    <item>韓國（87.5 Mhz - 108.0 MHz 內 200 KHz 頻道距離）</item>
-    <item>墨西哥（88.1 Mhz - 107.9 MHz 內 200 KHz 頻道距離）</item>
-    <item>荷蘭（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>紐西蘭（88.0 Mhz - 107.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>挪威（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>波蘭（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>葡萄牙（87.5 Mhz - 108.0 MHz 內 50 KHz 頻道距離）</item>
-    <item>俄羅斯（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>新加坡（88.0 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>斯洛伐克（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>西班牙（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>瑞士（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>瑞典（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>台灣（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>土耳其（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>英國（87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離）</item>
-    <item>美國（88.1 Mhz - 107.9 MHz 內 200 KHz 頻道距離）</item>
+    <item>北美（87.5 Mhz - 108.0 MHz 內 200 kHz 頻道距離）</item>
+    <item>歐洲（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>日本（76.0 Mhz - 90.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>日本（廣泛）（90.0 Mhz - 108.0 MHz 內 50 kHz 頻道距離）</item>
+    <item>澳洲（87.7 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>奧地利（87.5 Mhz - 108.0 MHz 內 50 kHz 頻道距離）</item>
+    <item>比利時（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>巴西（87.5 Mhz - 108.0 MHz 內 200 kHz 頻道距離）</item>
+    <item>中國（87.0 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>捷克（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>丹麥（87.5 Mhz - 108.0 MHz 內 50 kHz 頻道距離）</item>
+    <item>芬蘭（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>法國（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>德國（87.5 Mhz - 108.0 MHz 內 50 kHz 頻道距離）</item>
+    <item>希臘（87.5 Mhz - 108.0 MHz 內 50 kHz 頻道距離）</item>
+    <item>香港（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>印度（91.0 Mhz - 106.4 MHz 內 100 kHz 頻道距離）</item>
+    <item>愛爾蘭（87.5 Mhz - 108.0 MHz 內 50 kHz 頻道距離）</item>
+    <item>意大利（87.5 Mhz - 108.0 MHz 內 50 kHz 頻道距離）</item>
+    <item>韓國（87.5 Mhz - 108.0 MHz 內 200 kHz 頻道距離）</item>
+    <item>墨西哥（88.1 Mhz - 107.9 MHz 內 200 kHz 頻道距離）</item>
+    <item>荷蘭（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>紐西蘭（88.0 Mhz - 107.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>挪威（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>波蘭（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>葡萄牙（87.5 Mhz - 108.0 MHz 內 50 kHz 頻道距離）</item>
+    <item>俄羅斯（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>新加坡（88.0 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>斯洛伐克（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>西班牙（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>瑞士（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>瑞典（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>台灣（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>土耳其（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>英國（87.5 Mhz - 108.0 MHz 內 100 kHz 頻道距離）</item>
+    <item>美國（88.1 Mhz - 107.9 MHz 內 200 kHz 頻道距離）</item>
     <item>使用者定義的頻道區段</item>
   </string-array>
   <string-array name="channel_spacing_entries">
-    <item>50 KHz</item>
-    <item>100 KHz</item>
-    <item>200 KHz</item>
+    <item>50 kHz</item>
+    <item>100 kHz</item>
+    <item>200 kHz</item>
   </string-array>
 </resources>
