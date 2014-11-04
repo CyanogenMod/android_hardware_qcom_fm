@@ -19,5 +19,9 @@ LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 LOCAL_MODULE := libqcomfm_jni
 LOCAL_MODULE_TAGS := optional
 
+ifeq ($(TARGET_QCOM_NO_FM_FIRMWARE),true)
+    LOCAL_CFLAGS += -DQCOM_NO_FM_FIRMWARE
+endif
+
 include $(BUILD_SHARED_LIBRARY)
 endif # is-vendor-board-platform
