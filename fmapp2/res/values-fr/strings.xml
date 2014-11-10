@@ -51,7 +51,7 @@
   <string name="menu_scan_start">Rechercher</string>
   <string name="menu_scan_stop">Arrêter la recherche</string>
   <string name="menu_stats">Statistiques FM RF</string>
-  <string name="button_text_stop">Arrêt</string>
+  <string name="button_text_stop">Arrêter</string>
   <string name="msg_seeking">Recherche de station FM</string>
   <string name="msg_scanning">Recherche de toutes les stations FM</string>
   <string name="msg_scanning_pty">Recherche pour \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
@@ -106,7 +106,7 @@
   <string name="sel_rec_dur">Sélectionnez la durée d\'enregistrement</string>
   <string name="auto_select_af">Fréquence alternative</string>
   <string name="auto_select_af_enabled">Sélection automatique activée</string>
-  <string name="auto_select_af_disabled">Sélection automatique desactivée</string>
+  <string name="auto_select_af_disabled">Sélection automatique désactivée</string>
   <string name="fac_defaults">Revenir aux paramètres par défaut</string>
   <string name="revert_to_fac">Revenir aux paramètres par défaut</string>
   <string name="settings_back">Précédent</string>
