@@ -44,7 +44,7 @@
   <string name="fm_service_started">FM 服務</string>
   <string name="menu_sleep">休眠</string>
   <string name="menu_sleep_cancel">取消休眠</string>
-  <string name="menu_wired_headset">有線耳機</string>
+  <string name="menu_wired_headset">有綫耳機</string>
   <string name="menu_speaker_on">啟用喇叭</string>
   <string name="menu_display_tags">顯示標籤</string>
   <string name="menu_speaker_off">停用喇叭</string>
@@ -148,7 +148,7 @@
   <string name="nav_mode_presets">預設</string>
   <string name="nav_mode_stations">電台</string>
   <string name="radio_text_string">這是一篇長電台文字訊息需要滾動</string>
-  <string name="eradio_text_string">擴充無線電文字訊息</string>
+  <string name="eradio_text_string">擴充無綫電文字訊息</string>
   <string name="fm_command_timeout_title">逾時</string>
   <string name="fm_tune_timeout_msg">沒有收到要 FM 電台的回應。如果問題仍然存在，請關閉 FM，並將其重新開啟。</string>
   <string name="fm_command_failed_title">FM 操作失敗</string>
