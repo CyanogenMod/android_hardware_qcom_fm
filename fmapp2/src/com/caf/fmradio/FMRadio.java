@@ -28,6 +28,7 @@
 
 package com.caf.fmradio;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -85,9 +86,9 @@ import java.util.ArrayList;
 
 import com.caf.utils.FrequencyPicker;
 import com.caf.utils.FrequencyPickerDialog;
+
 import android.content.ServiceConnection;
 import android.media.MediaRecorder;
-
 import qcom.fmradio.FmConfig;
 import android.os.ServiceManager;
 
@@ -96,6 +97,7 @@ import com.caf.fmradio.HorizontalNumberPicker.OnValueChangeListener;
 import com.caf.fmradio.HorizontalNumberPicker.Scale;
 
 import android.content.SharedPreferences;
+import android.graphics.drawable.ColorDrawable;
 
 public class FMRadio extends Activity
 {
@@ -283,6 +285,17 @@ public class FMRadio extends Activity
       mPrefs = new FmSharedPreferences(this);
       mCommandActive = CMD_NONE;
       mCommandFailed = CMD_NONE;
+
+      getWindow().setBackgroundDrawableResource(R.color.background_color);
+
+      // Set up your ActionBar
+      final ActionBar actionBar = getActionBar();
+      actionBar.setDisplayShowHomeEnabled(false);
+      actionBar.setDisplayShowTitleEnabled(false);
+      actionBar.setDisplayShowCustomEnabled(true);
+      actionBar.setCustomView(R.layout.action_bar);
+
+      ((TextView) findViewById(R.id.title)).setText(R.string.app_name);
 
       Log.d(LOGTAG, "onCreate - Height : "+ getWindowManager().getDefaultDisplay().getHeight()
             + " - Width  : "+ getWindowManager().getDefaultDisplay().getWidth());
@@ -1481,7 +1494,7 @@ public class FMRadio extends Activity
                showDialog(DIALOG_PRESET_OPTIONS);
            }else {
                addToPresets();
-               view.startAnimation(mAnimation);
+               //view.startAnimation(mAnimation);
            }
          return true;
       }
@@ -1780,7 +1793,7 @@ public class FMRadio extends Activity
       int durationInMins = FmSharedPreferences.getRecordDuration();
       Log.e(LOGTAG, " Fected duration:" + durationInMins );
       initiateRecordDurationTimer( durationInMins );
-      setRecordingStopImage();
+      //setRecordingStopImage();
       invalidateOptionsMenu();
    }
 
@@ -1792,7 +1805,7 @@ public class FMRadio extends Activity
        }
        if(null != mRecordingMsgTV) {
           mRecordingMsgTV.setText("");
-          setRecordingStartImage();
+          //setRecordingStartImage();
        }
        if (mService != null) {
            try {
@@ -1876,9 +1889,9 @@ public class FMRadio extends Activity
              mRecordingMsgTV.setText("");
          }
          if(isRecording()) {
-            setRecordingStopImage();
+            //setRecordingStopImage();
          }else {
-            setRecordingStartImage();
+            //setRecordingStartImage();
          }
       }else {
          if (mRadioTextScroller != null) {
@@ -1889,12 +1902,12 @@ public class FMRadio extends Activity
          }
       }
       if (mForwardButton != null) {
-          mForwardButton.setVisibility(((bEnable == true) ? View.VISIBLE
-                                        : View.INVISIBLE));
+          //mForwardButton.setVisibility(((bEnable == true) ? View.VISIBLE
+            //                            : View.INVISIBLE));
       }
       if (mBackButton != null) {
-         mBackButton.setVisibility(((bEnable == true) ? View.VISIBLE
-                                        : View.INVISIBLE));
+         //mBackButton.setVisibility(((bEnable == true) ? View.VISIBLE
+           //                             : View.INVISIBLE));
       }
       if (mTuneStationFrequencyTV != null) {
          mTuneStationFrequencyTV.setVisibility(((bEnable == true) ? View.VISIBLE
@@ -1926,11 +1939,11 @@ public class FMRadio extends Activity
       }
       if(mERadioTextTV != null) {
          mERadioTextTV.setVisibility(((bEnable == true) ? View.VISIBLE
-                                  : View.INVISIBLE));
+                                  : View.GONE));
       }
       if (mProgramServiceTV != null) {
-         mProgramServiceTV.setVisibility(((bEnable == true) ? View.VISIBLE
-                                  : View.INVISIBLE));
+//         mProgramServiceTV.setVisibility(((bEnable == true) ? View.VISIBLE
+//                                  : View.INVISIBLE));
       }
 
       if (!isAntennaAvailable()) {
@@ -1969,8 +1982,8 @@ public class FMRadio extends Activity
       }
 
       if (mStereoTV != null) {
-          mStereoTV.setVisibility(((bEnable == true) ? View.VISIBLE
-                                   : View.INVISIBLE));
+          //mStereoTV.setVisibility(((bEnable == true) ? View.VISIBLE
+            //                       : View.INVISIBLE));
       }
       for (int nButton = 0; nButton < MAX_PRESETS_PER_PAGE; nButton++) {
          if (mPresetButtons[nButton] != null) {
@@ -2059,7 +2072,7 @@ public class FMRadio extends Activity
 
    private void updateStationInfoToUI() {
       double frequency = mTunedStation.getFrequency() / 1000.0;
-      mTuneStationFrequencyTV.setText("" + frequency + "MHz");
+      mTuneStationFrequencyTV.setText("" + frequency);
       if ((mPicker != null) && mUpdatePickerValue) {
           mPicker.setValue(((mTunedStation.getFrequency() - mPrefs.getLowerLimit())
                               / mPrefs.getFrequencyStepSize()));
