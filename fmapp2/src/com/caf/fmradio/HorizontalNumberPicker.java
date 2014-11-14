@@ -30,6 +30,7 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Typeface;
 import android.graphics.Paint.Align;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
@@ -92,7 +93,7 @@ public class HorizontalNumberPicker extends LinearLayout {
     /**
      * The coefficient by which to adjust (divide) the max fling velocity.
      */
-    private static final int SELECTOR_MAX_FLING_VELOCITY_ADJUSTMENT = 8;
+    private static final int SELECTOR_MAX_FLING_VELOCITY_ADJUSTMENT = 4;
 
     /**
      * The the duration for adjusting the selector wheel.
@@ -247,7 +248,7 @@ public class HorizontalNumberPicker extends LinearLayout {
     /**
      * The height of the text.
      */
-    private int mTextSize = 20;
+    private int mTextSize = 60;
     /**
      * The height of the gap between text elements if the selector wheel.
      */
@@ -346,7 +347,7 @@ public class HorizontalNumberPicker extends LinearLayout {
     /**
      * The colors alpha of selector text.
      */
-    private static final int SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE = 255;
+    private static final int SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE = 76;
 
     private static float mDensity = 1.0f;
     private static final float LDPI = 0.75f;
@@ -354,9 +355,9 @@ public class HorizontalNumberPicker extends LinearLayout {
     private static final float HDPI = 1.5f;
     private static final float XHDPI = 2.0f;
 
-    private float mScaleWidth = 2;
+    private float mScaleWidth = 5;
     private float mScaleLengthShort = 10;
-    private float mScaleLengthLong = 20;
+    private float mScaleLengthLong = 40;
     private float mGapBetweenNumAndScale = 18;
     private float mHdpiPositionAdjust = 18;
 
@@ -899,19 +900,19 @@ public class HorizontalNumberPicker extends LinearLayout {
                 setSelectorWheelState(SELECTOR_WHEEL_STATE_SMALL);
                 return true;
             }
-//            VelocityTracker velocityTracker = mVelocityTracker;
-//            velocityTracker.computeCurrentVelocity(1000, mMaximumFlingVelocity);
-//            int initialVelocity=0;
-//            if(!mHorizontal){
-//                initialVelocity = (int) velocityTracker.getYVelocity();
-//            }else{
-//              initialVelocity = (int)velocityTracker.getXVelocity();
-//            }
-//            if (Math.abs(initialVelocity) > mMinimumFlingVelocity) {
-//                // fling after up
-//                fling(initialVelocity);
-//                onScrollStateChange(OnScrollListener.SCROLL_STATE_FLING);
-//            } else {
+            VelocityTracker velocityTracker = mVelocityTracker;
+            velocityTracker.computeCurrentVelocity(1000, mMaximumFlingVelocity);
+            int initialVelocity=0;
+            if(!mHorizontal){
+                initialVelocity = (int) velocityTracker.getYVelocity();
+            }else{
+              initialVelocity = (int)velocityTracker.getXVelocity();
+            }
+            if (Math.abs(initialVelocity) > mMinimumFlingVelocity) {
+                // fling after up
+                fling(initialVelocity);
+                onScrollStateChange(OnScrollListener.SCROLL_STATE_FLING);
+            } else {
                 if (mAdjustScrollerOnUpEvent) {
                     if (mFlingScroller.isFinished()
                             && mAdjustScroller.isFinished()) {
@@ -920,7 +921,7 @@ public class HorizontalNumberPicker extends LinearLayout {
                 } else {
                     postAdjustScrollerCommand(SHOW_INPUT_CONTROLS_DELAY_MILLIS);
                 }
-//            }
+            }
             mVelocityTracker.recycle();
             mVelocityTracker = null;
             break;
@@ -1492,13 +1493,13 @@ public class HorizontalNumberPicker extends LinearLayout {
                     .get(selectorIndex);
                 if(i - mSelectorMiddleItemIndex > 0 ){
                     mSelectorWheelPaint.setColor(Color.WHITE);
-                    mSelectorWheelPaint.setAlpha((2*mSelectorMiddleItemIndex - i) * SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE / mSelectorMiddleItemIndex);
+                    mSelectorWheelPaint.setAlpha(SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE);
                 }else if(i - mSelectorMiddleItemIndex < 0 ){
                     mSelectorWheelPaint.setColor(Color.WHITE);
-                    mSelectorWheelPaint.setAlpha(i * SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE / mSelectorMiddleItemIndex);
-                }else{
-                    mSelectorWheelPaint.setColor(Color.RED);
                     mSelectorWheelPaint.setAlpha(SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE);
+                }else{
+                    mSelectorWheelPaint.setColor(Color.WHITE);
+                    mSelectorWheelPaint.setAlpha(0);
                 }
                 try {
                     fNumber = Float.valueOf(scrollSelectorValue).floatValue();
@@ -1516,13 +1517,27 @@ public class HorizontalNumberPicker extends LinearLayout {
                         bShowNumber = true;
                         fScaleLength = mScaleLengthLong * mDensity;
                     }
+                } else {
+                    fWidthOfScale-=2;
                 }
                 if(bShowNumber){
-                    canvas.drawText(scrollSelectorValue, x, y, mSelectorWheelPaint);
+                    float originalWidth = mSelectorWheelPaint.getStrokeWidth();
+                    int originalAlpha = mSelectorWheelPaint.getAlpha();
+                    mSelectorWheelPaint.setTypeface(Typeface.DEFAULT_BOLD);
+                    mSelectorWheelPaint.setStrokeWidth(2);
+                    mSelectorWheelPaint.setStyle(Paint.Style.FILL_AND_STROKE);
+                    mSelectorWheelPaint.setAlpha(SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE);
+                    canvas.drawText(scrollSelectorValue, x, mTextSize * 2, mSelectorWheelPaint);
+                    mSelectorWheelPaint.setStyle(Paint.Style.FILL);
+                    mSelectorWheelPaint.setStrokeWidth(originalWidth);
+                    mSelectorWheelPaint.setAlpha(originalAlpha);
                 }
-                canvas.drawRect(x, y+fGapBetweenNumAndScale, x+fWidthOfScale, y + fGapBetweenNumAndScale + fScaleLength , mSelectorWheelPaint);
 
-//            }
+                float left = x;
+                float top = (mBottom - mTop) - fGapBetweenNumAndScale - fScaleLength;
+                float right = x+fWidthOfScale;
+                float bottom = (mBottom - mTop);
+                canvas.drawRect(left, top, right, bottom, mSelectorWheelPaint);
             if (mHorizontal) {
                 x += mSelectorElementWidth;
             } else {
