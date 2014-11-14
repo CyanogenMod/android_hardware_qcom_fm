@@ -34,20 +34,21 @@
     android:orientation="vertical">
 
     <RelativeLayout android:id="@+id/layout_on_off"
+        android:visibility="gone"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="3dp"
         android:layout_alignParentTop="true">
 
-        <ImageView android:id="@+id/btn_onoff"
+<!--        <ImageView android:id="@+id/btn_onoff"
             android:src="@drawable/btn_onoff"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="15dp"
             android:clickable="true"
             android:focusable="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content" /> -->
 
         <TextView android:id="@+id/sleep_msg_tv"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -75,7 +76,7 @@
             android:textStyle="bold"
             android:text="@string/prog_service_string"/>
 
-        <ImageView android:id="@+id/btn_silent"
+<!--        <ImageView android:id="@+id/btn_silent"
             android:src="@drawable/ic_silent_mode_off"
             android:layout_toLeftOf="@+id/btn_speaker_earphone"
             android:layout_width="wrap_content"
@@ -91,7 +92,7 @@
             android:clickable="true"
             android:focusable="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content" /> -->
 
     </RelativeLayout>
 
@@ -100,6 +101,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/fm_picker"
         android:layout_below="@+id/layout_on_off">
 
         <!-- This included layout contains Station Information to display -->
@@ -110,9 +113,9 @@
     <com.caf.fmradio.HorizontalNumberPicker
         android:id="@+id/fm_picker"
         android:layout_width="fill_parent"
-        android:layout_height="200dp"
-        android:layout_marginBottom="50dp"
-        android:layout_below="@+id/stationinfo_layout"/>
+        android:layout_alignParentBottom="true"
+        android:layout_height="155dp"
+        android:layout_marginBottom="50dp"/>
 
     <HorizontalScrollView
         android:layout_width="fill_parent"
@@ -126,74 +129,25 @@
             android:orientation="horizontal">
 
             <Button android:id="@+id/presets_button_1"
-                style="@style/ButtonStripLeft"
-                android:text="@string/add_station"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textSize="15sp"
-                android:singleLine="true"
-                android:layout_width="80dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"/>
+                style="@style/ButtonStripButtons"/>
 
             <Button android:id="@+id/presets_button_2"
-                style="@style/ButtonStripMiddle"
-                android:text="@string/add_station"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textSize="15sp"
-                android:singleLine="true"
-                android:layout_width="80dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"/>
+                style="@style/ButtonStripButtons"/>
 
             <Button android:id="@+id/presets_button_3"
-                style="@style/ButtonStripMiddle"
-                android:text="@string/add_station"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textSize="15sp"
-                android:singleLine="true"
-                android:layout_width="80dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"/>
+                style="@style/ButtonStripButtons"/>
 
             <Button android:id="@+id/presets_button_4"
-                style="@style/ButtonStripMiddle"
-                android:text="@string/add_station"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textSize="15sp"
-                android:singleLine="true"
-                android:layout_width="80dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"/>
+                style="@style/ButtonStripButtons"/>
 
             <Button android:id="@+id/presets_button_5"
-                style="@style/ButtonStripMiddle"
-                android:text="@string/add_station"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textSize="15sp"
-                android:singleLine="true"
-                android:layout_width="80dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"/>
+                style="@style/ButtonStripButtons"/>
 
             <Button android:id="@+id/presets_button_6"
-                style="@style/ButtonStripMiddle"
-                android:text="@string/add_station"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textSize="15sp"
-                android:singleLine="true"
-                android:layout_width="80dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"/>
+                style="@style/ButtonStripButtons"/>
 
             <Button android:id="@+id/presets_button_7"
-                style="@style/ButtonStripRight"
-                android:text="@string/add_station"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textSize="15sp"
-                android:singleLine="true"
-                android:layout_width="80dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"/>
+                style="@style/ButtonStripButtons"/>
 
         </LinearLayout>
 

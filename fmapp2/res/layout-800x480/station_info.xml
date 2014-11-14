@@ -66,6 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="16dp"
+                android:visibility="invisible"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignBaseline="@id/signal_level"
@@ -73,6 +74,51 @@
                 android:text="@string/default_audio"/>
 
         </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/second_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp">
+
+                <TextView android:id="@+id/prog_frequency_tv"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="50sp"
+                     android:textStyle="bold"
+                     android:gravity="center"
+                     android:clickable="true"
+                     android:focusable="true"
+                     android:layout_toLeftOf="@+id/btn_forward"
+                     android:layout_toRightOf="@+id/btn_back"
+                     android:text="@string/frequency_string"/>
+
+                <ImageView android:id="@+id/btn_back"
+                     android:clickable="true"
+                     android:focusable="true"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingLeft="15dp"
+                     android:layout_alignParentLeft="true"
+                     android:visibility="invisible"
+                     android:layout_alignWithParentIfMissing="true"
+                     android:src="@drawable/btn_arrow_left"/>
+
+                <ImageView android:id="@+id/btn_forward"
+                     android:clickable="true"
+                     android:focusable="true"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingRight="15dp"
+                     android:layout_alignParentRight="true"
+                     android:visibility="invisible"
+                     android:layout_alignWithParentIfMissing="true"
+                     android:src="@drawable/btn_arrow_right"/>
+
+         </RelativeLayout>
 
         <LinearLayout android:id="@+id/station_frequency_row"
             android:layout_width="fill_parent"
@@ -87,7 +133,9 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textSize="34sp"
+                android:alpha="0.5"
                 android:paddingTop="2dp"
                 android:paddingRight="2dp"
                 android:paddingBottom="2dp"
@@ -106,51 +154,6 @@
                 android:text="@string/pty_string" />
 
         </LinearLayout>
-
-        <RelativeLayout android:id="@+id/second_layout"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="1dp"
-                android:layout_marginBottom="1dp"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="2dp">
-
-                <TextView android:id="@+id/prog_frequency_tv"
-                     android:textAppearance="?android:attr/textAppearanceLarge"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:textSize="25dp"
-                     android:gravity="center"
-                     android:clickable="true"
-                     android:focusable="true"
-                     android:layout_toLeftOf="@+id/btn_forward"
-                     android:layout_toRightOf="@+id/btn_back"
-                     android:text="@string/frequency_string"/>
-
-                <ImageView android:id="@+id/btn_back"
-                     android:clickable="true"
-                     android:focusable="true"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:paddingLeft="15dp"
-                     android:layout_alignParentLeft="true"
-                     android:visibility="visible"
-                     android:layout_alignWithParentIfMissing="true"
-                     android:src="@drawable/btn_arrow_left"/>
-
-                <ImageView android:id="@+id/btn_forward"
-                     android:clickable="true"
-                     android:focusable="true"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:paddingRight="15dp"
-                     android:layout_alignParentRight="true"
-                     android:visibility="visible"
-                     android:layout_alignWithParentIfMissing="true"
-                     android:src="@drawable/btn_arrow_right"/>
-
-         </RelativeLayout>
-
 
         <!-- Station Radio Text information display -->
         <TextView android:id="@+id/radio_text_tv"
