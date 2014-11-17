@@ -39,12 +39,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <bool name="def_fm_country_location_enabled">false</bool>
 
     <!--
-        customize the the special carrier for fm,
-        default value is false,true is for Micromax
-    -->
-    <bool name="def_fm_special_carrier_enabled">false</bool>
-
-    <!--
         customize the output list,true is stereo only, false is stereo and mono,
             default value is false
     -->

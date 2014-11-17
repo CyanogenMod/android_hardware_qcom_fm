@@ -171,7 +171,6 @@ public class FmSharedPreferences
    private static boolean mAFAutoSwitch = true;
    private static int mRecordDuration = 0;
    private static int mLastAudioMode = -1;
-   private static boolean mSpecialCarrierFlag = false;
 
    public static int mDefaultCountryIndex = REGIONAL_BAND_NORTH_AMERICA;
 
@@ -453,8 +452,6 @@ public class FmSharedPreferences
       {
          return;
       }
-      mSpecialCarrierFlag = mContext.getResources().getBoolean(
-              R.bool.def_fm_special_carrier_enabled);
       SharedPreferences sp = mContext.getSharedPreferences(SHARED_PREFS, Context.MODE_PRIVATE);
       mTunedFrequency = sp.getInt(PREF_LAST_TUNED_FREQUENCY, DEFAULT_NO_FREQUENCY);
       mRecordDuration = sp.getInt(LAST_RECORD_DURATION, RECORD_DUR_INDEX_0_VAL);
@@ -942,15 +939,9 @@ public class FmSharedPreferences
         }
         case REGIONAL_BAND_INDIA:
         {
-          if (mSpecialCarrierFlag) {
-              /*87500 TO 108000 IN 100 KHZ STEPS*/
-              mFMConfiguration.setLowerLimit(87500);
-              mFMConfiguration.setUpperLimit(108000);
-          } else {
-              /*91000 TO 106400 IN 100 KHZ STEPS*/
-              mFMConfiguration.setLowerLimit(91000);
-              mFMConfiguration.setUpperLimit(106400);
-          }
+          /*87500 TO 108000 IN 100 KHZ STEPS*/
+          mFMConfiguration.setLowerLimit(87500);
+          mFMConfiguration.setUpperLimit(108000);
           mFrequencyBand_Stepsize = 100;
           break;
         }
