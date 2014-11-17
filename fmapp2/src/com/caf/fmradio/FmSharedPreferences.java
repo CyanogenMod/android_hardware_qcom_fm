@@ -930,8 +930,8 @@ public class FmSharedPreferences
         case REGIONAL_BAND_INDIA:
         {
           /*INDIA : 91000 TO 106400 IN 100 KHZ STEPS*/
-          mFMConfiguration.setLowerLimit(91000);
-          mFMConfiguration.setUpperLimit(106400);
+          mFMConfiguration.setLowerLimit(87500);
+          mFMConfiguration.setUpperLimit(108000);
           mFrequencyBand_Stepsize = 100;
           break;
         }
