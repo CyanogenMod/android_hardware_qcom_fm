@@ -499,7 +499,8 @@ public class FmSharedPreferences
       if (Locale.getDefault().equals(Locale.CHINA)) {
           setCountry(sp.getInt(FMCONFIG_COUNTRY, REGIONAL_BAND_CHINA));
       } else {
-          setCountry(sp.getInt(FMCONFIG_COUNTRY, REGIONAL_BAND_NORTH_AMERICA));
+          int defaultIndex = mContext.getResources().getInteger(R.integer.default_country_index);
+          setCountry(sp.getInt(FMCONFIG_COUNTRY, defaultIndex));
       }
       /* Last list the user was navigating */
       mListIndex = sp.getInt(LAST_LIST_INDEX, 0);
