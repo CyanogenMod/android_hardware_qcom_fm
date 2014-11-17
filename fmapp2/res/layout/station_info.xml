@@ -90,8 +90,8 @@
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:paddingLeft="15dp"
+                 android:layout_centerVertical="true"
                  android:layout_alignParentLeft="true"
-                 android:visibility="gone"
                  android:layout_alignWithParentIfMissing="true"
                  android:src="@drawable/btn_arrow_left"/>
 
@@ -101,8 +101,8 @@
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:paddingRight="15dp"
+                 android:layout_centerVertical="true"
                  android:layout_alignParentRight="true"
-                 android:visibility="gone"
                  android:layout_alignWithParentIfMissing="true"
                  android:src="@drawable/btn_arrow_right"/>
 
