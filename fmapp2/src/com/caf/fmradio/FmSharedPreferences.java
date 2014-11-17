@@ -506,7 +506,8 @@ public class FmSharedPreferences
                 .getBoolean(R.bool.def_fm_country_location_enabled)) {
             setCountry(sp.getInt(FMCONFIG_COUNTRY, REGIONAL_BAND_INDIA));
       } else {
-          setCountry(sp.getInt(FMCONFIG_COUNTRY, REGIONAL_BAND_NORTH_AMERICA));
+          int defaultIndex = mContext.getResources().getInteger(R.integer.default_country_index);
+          setCountry(sp.getInt(FMCONFIG_COUNTRY, defaultIndex));
       }
       /* Last list the user was navigating */
       mListIndex = sp.getInt(LAST_LIST_INDEX, 0);
