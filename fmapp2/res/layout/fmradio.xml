@@ -33,41 +33,6 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
 
-    <RelativeLayout android:id="@+id/layout_on_off"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="3dp">
-
-        <TextView android:id="@+id/sleep_msg_tv"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/count_down"
-            android:layout_toRightOf="@+id/btn_onoff"
-            android:textSize="14sp"
-            android:layout_marginLeft="5dp"
-            android:textStyle="bold"
-            android:visibility="invisible"
-            android:text="@string/default_sleep" />
-
-        <TextView android:id="@+id/prog_service_tv"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:visibility="gone"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_toLeftOf="@+id/btn_silent"
-            android:layout_toRightOf="@+id/sleep_msg_tv"
-            android:textSize="16sp"
-            android:singleLine="true"
-            android:textStyle="bold"
-            android:text="@string/prog_service_string"/>
-
-    </RelativeLayout>
-
     <LinearLayout android:id="@+id/stationinfo_layout"
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
