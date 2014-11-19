@@ -1761,8 +1761,7 @@ public class FMRadio extends Activity
 
    private void setRecordingStartImage() {
        if(null != mRecordingMsgTV) {
-          mRecordingMsgTV.setCompoundDrawablesWithIntrinsicBounds
-                           (R.drawable.recorder_start, 0, 0, 0);
+          mRecordingMsgTV.setCompoundDrawables(null,  null,  null,  null);
        }
    }
 
@@ -1771,7 +1770,7 @@ public class FMRadio extends Activity
       int durationInMins = FmSharedPreferences.getRecordDuration();
       Log.e(LOGTAG, " Fected duration:" + durationInMins );
       initiateRecordDurationTimer( durationInMins );
-      //setRecordingStopImage();
+      setRecordingStopImage();
       invalidateOptionsMenu();
    }
 
@@ -1783,7 +1782,7 @@ public class FMRadio extends Activity
        }
        if(null != mRecordingMsgTV) {
           mRecordingMsgTV.setText("");
-          //setRecordingStartImage();
+          setRecordingStartImage();
        }
        if (mService != null) {
            try {
@@ -1867,9 +1866,9 @@ public class FMRadio extends Activity
              mRecordingMsgTV.setText("");
          }
          if(isRecording()) {
-            //setRecordingStopImage();
+            setRecordingStopImage();
          }else {
-            //setRecordingStartImage();
+            setRecordingStartImage();
          }
       }else {
          if (mRadioTextScroller != null) {
@@ -1905,23 +1904,23 @@ public class FMRadio extends Activity
       }
       if (mSleepMsgTV != null) {
          mSleepMsgTV.setVisibility(((bEnable && isSleepTimerActive()) ? View.VISIBLE
-                                 : View.INVISIBLE));
+                                 : View.GONE));
       }
       if (mRecordingMsgTV != null) {
          mRecordingMsgTV.setVisibility(((bEnable == true) ? View.VISIBLE
-                                     : View.INVISIBLE));
+                                     : View.GONE));
       }
       if (mRadioTextTV != null) {
          mRadioTextTV.setVisibility(((bEnable == true) ? View.VISIBLE
-                                  : View.INVISIBLE));
+                                  : View.GONE));
       }
       if(mERadioTextTV != null) {
          mERadioTextTV.setVisibility(((bEnable == true) ? View.VISIBLE
                                   : View.GONE));
       }
       if (mProgramServiceTV != null) {
-//         mProgramServiceTV.setVisibility(((bEnable == true) ? View.VISIBLE
-//                                  : View.INVISIBLE));
+         mProgramServiceTV.setVisibility(((bEnable == true) ? View.VISIBLE
+                                  : View.GONE));
       }
 
       if (!isAntennaAvailable()) {
@@ -1940,6 +1939,7 @@ public class FMRadio extends Activity
          }
          if (mERadioTextTV != null) {
              mERadioTextTV.setText("");
+             mERadioTextTV.setVisibility(View.GONE);
              mERadioTextScroller.mOriginalString = "";
          }
          if (mOnOffButton != null) {
@@ -1952,6 +1952,7 @@ public class FMRadio extends Activity
          }
          if (mERadioTextTV != null) {
              mERadioTextTV.setText("");
+             mERadioTextTV.setVisibility(View.GONE);
              mERadioTextScroller.mOriginalString = "";
          }
          if (mOnOffButton != null) {
@@ -2059,6 +2060,8 @@ public class FMRadio extends Activity
       mProgramTypeTV.setText(mTunedStation.getPtyString());
       mRadioTextTV.setText("");
       mERadioTextTV.setText("");
+      mERadioTextTV.setVisibility(View.GONE);
+      mRadioTextTV.setVisibility(View.GONE);
       mRadioTextScroller.mOriginalString = "";
       mRadioTextScroller.mStringlength = 0;
       mRadioTextScroller.mIteration = 0;
@@ -2332,7 +2335,7 @@ public class FMRadio extends Activity
          mSleepUpdateHandlerThread.interrupt();
       }
       if(null != mSleepMsgTV) {
-         mSleepMsgTV.setVisibility(View.INVISIBLE);
+         mSleepMsgTV.setVisibility(View.GONE);
       }
    }
 
@@ -2364,7 +2367,7 @@ public class FMRadio extends Activity
    }
 
    private void updateExpiredSleepTime() {
-      int vis = View.INVISIBLE;
+      int vis = View.GONE;
       if (isSleepTimerActive()) {
          long timeNow = ((SystemClock.elapsedRealtime()));
          if (mSleepAtPhoneTime >= timeNow) {
@@ -2373,8 +2376,8 @@ public class FMRadio extends Activity
             mSleepMsgTV.setText(sleepMsg);
             if (seconds < SLEEP_TOGGLE_SECONDS) {
                int nowVis = mSleepMsgTV.getVisibility();
-               vis = (nowVis == View.INVISIBLE) ? View.VISIBLE
-                     : View.INVISIBLE;
+               vis = (nowVis == View.GONE) ? View.VISIBLE
+                     : View.GONE;
             }else {
                vis = View.VISIBLE;
             }
@@ -2697,6 +2700,7 @@ public class FMRadio extends Activity
                    mERadioTextTV.setText("");
                    mERadioTextScroller.mOriginalString = "";
                }else {
+                   mERadioTextTV.setVisibility(View.GONE);
                    mERadioTextTV.setText(str);
                    mERadioTextScroller.mOriginalString = str;
                }
