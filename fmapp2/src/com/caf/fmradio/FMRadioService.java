@@ -182,6 +182,8 @@ public class FMRadioService extends Service
    private boolean mUnMuteOnFocusLoss = false;
    private boolean mSpeakerOnFocusLoss = false;
    private MediaSession mSession;
+   private boolean mIsSSRInProgress = false;
+   private boolean mIsSSRInProgressFromActivity = false;
 
    private Notification.Builder mRadioNotification;
    private Notification mNotificationInstance;
@@ -850,6 +852,14 @@ public class FMRadioService extends Service
        mResumeAfterCall = false;
        if ( true == mPlaybackInProgress ) // no need to resend event
            return;
+
+       /* If audio focus lost while SSR in progress, don't request for Audio focus */
+       if ( (true == mIsSSRInProgress || true == mIsSSRInProgressFromActivity) &&
+             true == mStoppedOnFocusLoss) {
+           Log.d(LOGTAG, "Audio focus lost while SSR in progress, returning");
+           return;
+       }
+
        AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
        int granted = audioManager.requestAudioFocus(mAudioFocusListener, AudioManager.STREAM_MUSIC,
               AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
@@ -1724,6 +1734,11 @@ public class FMRadioService extends Service
       {
            return (mService.get().isSleepTimerActive());
       }
+
+      public boolean isSSRInProgress()
+      {
+         return(mService.get().isSSRInProgress());
+      }
    }
    private final IBinder mBinder = new ServiceStub(this);
 
@@ -1851,6 +1866,9 @@ public class FMRadioService extends Service
                               // we disable
             stop();
          }
+
+         /* reset SSR flag */
+         mIsSSRInProgressFromActivity = false;
       }
       return(bStatus);
    }
@@ -1895,12 +1913,6 @@ public class FMRadioService extends Service
    * Reset (OFF) FM Operations: This resets all the current FM operations             .
    */
    private void fmOperationsReset() {
-      if ( mSpeakerPhoneOn)
-      {
-          mSpeakerPhoneOn = false;
-          AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_NONE);
-      }
-
       if (isFmRecordingOn())
       {
           stopRecording();
@@ -1910,7 +1922,6 @@ public class FMRadioService extends Service
       if(audioManager != null)
       {
          Log.d(LOGTAG, "audioManager.setFmRadioOn = false \n" );
-         unMute();
          resetFM();
          //audioManager.setParameters("FMRadioOn=false");
          Log.d(LOGTAG, "audioManager.setFmRadioOn false done \n" );
@@ -1962,6 +1973,10 @@ public class FMRadioService extends Service
       }
       stop();
       return(bStatus);
+   }
+
+   public boolean isSSRInProgress() {
+      return mIsSSRInProgress;
    }
 
    /* Returns whether FM hardware is ON.
@@ -2684,6 +2699,7 @@ public class FMRadioService extends Service
       }
       public void FmRxEvRadioReset()
       {
+         boolean bStatus;
          Log.d(LOGTAG, "FmRxEvRadioReset");
          if(isFmOn()) {
              // Received radio reset event while FM is ON
@@ -2696,7 +2712,24 @@ public class FMRadioService extends Service
                 */
                 if((mServiceInUse) && (mCallbacks != null) )
                 {
+                    mIsSSRInProgressFromActivity = true;
                     mCallbacks.onRadioReset();
+                } else {
+                    Log.d(LOGTAG, "Activity is not in foreground, turning on from service");
+                    if (isAntennaAvailable())
+                    {
+                        mIsSSRInProgress = true;
+                        bStatus = fmOn();
+                        if(bStatus)
+                        {
+                             bStatus = tune(FmSharedPreferences.getTunedFrequency());
+                             if(!bStatus)
+                               Log.e(LOGTAG, "Tuning after SSR from service failed");
+                        } else {
+                           Log.e(LOGTAG, "Turning on after SSR from service failed");
+                        }
+                        mIsSSRInProgress = false;
+                    }
                 }
              }
              catch (RemoteException e)
