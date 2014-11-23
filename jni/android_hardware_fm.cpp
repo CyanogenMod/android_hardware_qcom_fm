@@ -134,10 +134,10 @@ static jint android_hardware_fmradio_FmReceiverJNI_acquireFdNative
          close(fd);
          return FM_JNI_FAILURE;
        }
-    }
 #else
     usleep(WAIT_TIMEOUT);
 #endif
+    }
     return fd;
 }
 
