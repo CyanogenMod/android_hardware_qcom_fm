@@ -259,10 +259,11 @@ public class FMRecordingService extends Service {
 
         }
         mSampleFile = null;
-        File sampleDir = Environment.getExternalStorageDirectory();
+        File sampleDir = getExternalCacheDir();
 
         try {
-             mSampleFile = File.createTempFile("FMRecording", ".3gpp", sampleDir);
+             mSampleFile = new File(sampleDir, "FMRecording.3gpp");
+             mSampleFile.createNewFile();
         } catch (IOException e) {
              Log.e(TAG, "Not able to access SD Card");
              Toast.makeText(this, "Not able to access SD Card", Toast.LENGTH_SHORT).show();
@@ -370,6 +371,17 @@ public class FMRecordingService extends Service {
         Log.d(TAG, "storage state is " + state);
 
         if (Environment.MEDIA_MOUNTED.equals(state)) {
+            File finalFile;
+            try {
+                finalFile = File.createTempFile("FMRecording", ".3gpp", Environment.getExternalStorageDirectory());
+                mSampleFile.renameTo(finalFile);
+                mSampleFile = finalFile;
+            } catch (IOException e) {
+                Log.e(TAG, "Not able to access SD Card");
+                Toast.makeText(this, "Not able to access SD Card", Toast.LENGTH_SHORT).show();
+                e.printStackTrace();
+            }
+
             try {
                  this.addToMediaDB(mSampleFile);
                  Toast.makeText(this,getString(R.string.save_record_file,
