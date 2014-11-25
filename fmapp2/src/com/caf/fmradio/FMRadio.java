@@ -245,6 +245,9 @@ public class FMRadio extends Activity
    private ScrollerText mRadioTextScroller = null;
    private ScrollerText mERadioTextScroller = null;
 
+   /* Scanning frequencies */
+   ArrayList<Integer> mScannedFrequencies;
+
    private PresetStation mTunedStation = new PresetStation("", 102100);
    private PresetStation mPresetButtonStation = null;
 
@@ -2040,6 +2043,23 @@ public class FMRadio extends Activity
       }
    }
 
+   private void saveStations() {
+       if (mScannedFrequencies != null && mScannedFrequencies.size() > 0) {
+           Collections.sort(mScannedFrequencies);
+           SharedPreferences sp = getSharedPreferences(SCAN_STATION_PREFS_NAME, 0);
+           SharedPreferences.Editor editor = sp.edit();
+
+           int index = 0;
+           for (Integer freq : mScannedFrequencies) {
+               index++;
+               editor.putString(STATION_NAME + index, index + "");
+               editor.putInt(STATION_FREQUENCY + index, freq);
+           }
+           editor.putInt(NUM_OF_STATIONS, index);
+           editor.commit();
+       }
+   }
+
    private void setupPresetLayout() {
       int numStations = FmSharedPreferences.getListStationCount();
       int addedStations = 0;
@@ -2648,6 +2668,7 @@ public class FMRadio extends Activity
          updateSearchProgress();
          resetFMStationInfoUI();
          invalidateOptionsMenu();
+         saveStations();
       }
    };
 
@@ -3031,15 +3052,11 @@ public class FMRadio extends Activity
          Log.d(LOGTAG, "mServiceCallbacks.onTuneStatusChanged: ");
          if (mIsScaning) {
              Log.d(LOGTAG, "isScanning....................");
-             SharedPreferences sp = getSharedPreferences(SCAN_STATION_PREFS_NAME, 0);
-             SharedPreferences.Editor editor = sp.edit();
-             int station_number = sp.getInt(NUM_OF_STATIONS, 0);
-             station_number++;
-             editor.putInt(NUM_OF_STATIONS, station_number);
-             editor.putString(STATION_NAME + station_number, station_number + "");
-             editor.putInt(STATION_FREQUENCY + station_number,
-                                   FmSharedPreferences.getTunedFrequency());
-             editor.commit();
+             if (mScannedFrequencies == null) {
+                 mScannedFrequencies = new ArrayList<Integer>();
+             }
+
+             mScannedFrequencies.add(FmSharedPreferences.getTunedFrequency());
          }
          cleanupTimeoutHandler();
          mHandler.post(mUpdateStationInfo);
