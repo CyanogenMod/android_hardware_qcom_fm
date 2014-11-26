@@ -469,9 +469,41 @@ public class FMRadio extends Activity
    }
 
    @Override
-   public void onStart() {
-      super.onStart();
-      Log.d(LOGTAG, "FMRadio: onStart");
+   protected void onPause() {
+      Log.d(LOGTAG, "FMRadio: onPause");
+      super.onPause();
+      mRadioTextScroller.stopScroll();
+      mERadioTextScroller.stopScroll();
+      FmSharedPreferences.setTunedFrequency(mTunedStation.getFrequency());
+      mPrefs.Save();
+
+      mHandler.removeCallbacksAndMessages(null);
+      cleanupTimeoutHandler();
+      if(mProgressDialog != null) {
+         mProgressDialog.dismiss();
+      }
+      if(mSearchProgressHandler != null) {
+         mSearchProgressHandler.removeCallbacksAndMessages(null);
+      }
+      removeDialog(DIALOG_PRESET_OPTIONS);
+      unRegisterReceiver();
+      if (mService != null) {
+          try {
+               if(!mService.isFmOn()) {
+                  endSleepTimer();
+               }
+          }catch (RemoteException e) {
+               e.printStackTrace();
+          }
+      }
+      unbindFromService(this);
+      mService = null;
+   }
+
+   @Override
+   public void onResume() {
+      super.onResume();
+
       if (isHdmiOn()) {
           showDialog(DIALOG_CMD_FAILED_HDMI_ON);
       }
@@ -493,21 +525,6 @@ public class FMRadio extends Activity
           mTunedStation.Copy(station);
       }
 
-   }
-
-   @Override
-   protected void onPause() {
-      Log.d(LOGTAG, "FMRadio: onPause");
-      super.onPause();
-      mRadioTextScroller.stopScroll();
-      mERadioTextScroller.stopScroll();
-      FmSharedPreferences.setTunedFrequency(mTunedStation.getFrequency());
-      mPrefs.Save();
-   }
-
-   @Override
-   public void onResume() {
-      super.onResume();
       try {
          if(mService != null) {
             mService.registerCallbacks(mServiceCallbacks);
@@ -569,34 +586,6 @@ public class FMRadio extends Activity
          data.onOrOff = false;
       }
       return data;
-   }
-
-   @Override
-   public void onDestroy() {
-      super.onDestroy();
-      Log.d(LOGTAG, "FMRadio: onDestroy");
-      mHandler.removeCallbacksAndMessages(null);
-      cleanupTimeoutHandler();
-      if(mProgressDialog != null) {
-         mProgressDialog.dismiss();
-      }
-      if(mSearchProgressHandler != null) {
-         mSearchProgressHandler.removeCallbacksAndMessages(null);
-      }
-      removeDialog(DIALOG_PRESET_OPTIONS);
-      unRegisterReceiver(mFmSettingReceiver);
-      if (mService != null) {
-          try {
-               if(!mService.isFmOn()) {
-                  endSleepTimer();
-               }
-          }catch (RemoteException e) {
-               e.printStackTrace();
-          }
-      }
-      unbindFromService(this);
-      mService = null;
-      Log.d(LOGTAG, "onDestroy: unbindFromService completed");
    }
 
    @Override
@@ -3126,10 +3115,10 @@ public class FMRadio extends Activity
         }
     }
 
-    private void unRegisterReceiver(BroadcastReceiver myReceiver) {
-        if(myReceiver != null) {
-           unregisterReceiver(myReceiver);
-           myReceiver = null;
+    private void unRegisterReceiver() {
+        if(mFmSettingReceiver != null) {
+           unregisterReceiver(mFmSettingReceiver);
+           mFmSettingReceiver = null;
         }
     }
 }
