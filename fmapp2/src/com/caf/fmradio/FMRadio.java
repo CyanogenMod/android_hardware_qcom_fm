@@ -501,6 +501,13 @@ public class FMRadio extends Activity
       mERadioTextScroller.stopScroll();
       FmSharedPreferences.setTunedFrequency(mTunedStation.getFrequency());
       mPrefs.Save();
+      if (mService != null) {
+          try {
+            mService.unregisterCallbacks();
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+      }
    }
 
    @Override
