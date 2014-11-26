@@ -627,7 +627,7 @@ public class FMRadioService extends Service
                   and if Callbacks are registered)
                  */
                 if ((!isFmOn()) && (mServiceInUse)
-                        && (mCallbacks != null))
+                        && (mCallbacks != null) && mReceiver != null)
                 {
                     if( true != fmOn() ) {
                         return;
