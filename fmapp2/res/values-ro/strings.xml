@@ -150,7 +150,7 @@
   <string name="radio_text_string">Acesta este șirul lung de text al mesajului radio ce va defila</string>
   <string name="eradio_text_string">Text mesaj radio extins</string>
   <string name="fm_command_timeout_title">Timeout</string>
-  <string name="fm_tune_timeout_msg">Nu am recepționat nici un răspuns pentru a regla stația FM. Dacă problema persistă, vă rugăm să opriți și să reporniți FM-ul.</string>
+  <string name="fm_tune_timeout_msg">Nu am recepționat niciun răspuns pentru a regla stația FM. Dacă problema persistă, vă rugăm să opriți și să reporniți FM-ul.</string>
   <string name="fm_command_failed_title">Operația FM a eșuat</string>
   <string name="fm_cmd_failed_msg">Operația FM a eșuat. Dacă problema persistă, vă rugăm să opriți și să reporniți FM-ul.</string>
   <string name="fm_cmd_failed_msg_hdmi">Operația FM a eșuat. Concurența dintre FM și HDMI nu este acceptată.</string>

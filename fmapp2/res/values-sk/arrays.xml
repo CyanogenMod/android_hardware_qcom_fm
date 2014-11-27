@@ -155,7 +155,7 @@
   <string-array name="regional_band_summary">
     <item>Severná Amerika (87.5MHz až 108.0MHz v 200 KHz krokoch)</item>
     <item>Európa (87.5MHz až 108.0MHz v 100 KHz krokoch)</item>
-    <item>Japonsko (76.0MHz až  90.0MHz v 100 KHz krokoch)</item>
+    <item>Japonsko (76.0MHz až 90.0MHz v 100 KHz krokoch)</item>
     <item>Japonsko (rozšírené) (90.0MHz až 108.0MHz v 50 KHz krokoch)</item>
     <item>Austrália (87.7 MHz až 108.0 MHz v 100 KHz krokoch)</item>
     <item>Rakúsko (87,5 MHz až 108.0 MHz v 50 KHz krokoch)</item>
@@ -169,7 +169,7 @@
     <item>Nemecko (87,5 MHz až 108.0 MHz v 50 KHz krokoch)</item>
     <item>Grécko (87,5 MHz až 108.0 MHz v 50 KHz krokoch)</item>
     <item>Hong Kong (87,5 MHz až 108.0 MHz v 100 KHz krokoch)</item>
-    <item>India (87.5 MHz až 108.0 MHz v 100 KHz krokoch)</item>
+    <item>India (87,5 MHz až 108.0 MHz v 100 KHz krokoch)</item>
     <item>Írsko (87,5 MHz až 108.0 MHz v 50 KHz krokoch)</item>
     <item>Taliansko (87,5 MHz až 108.0 MHz v 50 KHz krokoch)</item>
     <item>Kórea (87,5 MHz až 108.0 MHz v 200 KHz krokoch)</item>
