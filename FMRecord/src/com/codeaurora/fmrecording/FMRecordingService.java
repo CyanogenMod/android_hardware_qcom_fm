@@ -246,10 +246,10 @@ public class FMRecordingService extends Service {
             return false;
 
         try {
-             mSampleFile = File.createTempFile("FMRecording", ".3gpp", sampleDir);
+             mSampleFile = File.createTempFile("FMRecording", ".aac", sampleDir);
             if (getResources().getBoolean(R.bool.def_save_name_format_enabled)) {
                 String suffix = getResources().getString(R.string.def_save_name_suffix);
-                suffix = "".equals(suffix) ? ".3gpp" : suffix;
+                suffix = "".equals(suffix) ? ".aac" : suffix;
                 mSampleFile = createTempFile("FMRecording", suffix, sampleDir);
             }
         } catch (IOException e) {
@@ -261,7 +261,7 @@ public class FMRecordingService extends Service {
              mRecorder.setAudioSource(MediaRecorder.AudioSource.FM_RX);
              mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
              mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
-             mAudioType = "audio/3gpp";
+             mAudioType = "audio/aac";
         } catch (RuntimeException exception) {
              Log.d(TAG, "RuntimeException while settings");
              mRecorder.reset();
