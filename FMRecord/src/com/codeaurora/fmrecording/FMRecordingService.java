@@ -239,7 +239,7 @@ public class FMRecordingService extends Service {
         File sampleDir = getExternalCacheDir();
 
         try {
-             mSampleFile = new File(sampleDir, "FMRecording.3gpp");
+             mSampleFile = new File(sampleDir, "FMRecording.aac");
              mSampleFile.createNewFile();
         } catch (IOException e) {
              Log.e(TAG, "Not able to access SD Card");
@@ -250,7 +250,7 @@ public class FMRecordingService extends Service {
              mRecorder.setAudioSource(MediaRecorder.AudioSource.FM_RX);
              mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
              mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
-             mAudioType = "audio/3gpp";
+             mAudioType = "audio/aac";
         } catch (RuntimeException exception) {
              Log.d(TAG, "RuntimeException while settings");
              mRecorder.reset();
@@ -359,7 +359,7 @@ public class FMRecordingService extends Service {
         if (Environment.MEDIA_MOUNTED.equals(state)) {
             File finalFile;
             try {
-                finalFile = File.createTempFile("FMRecording", ".3gpp",
+                finalFile = File.createTempFile("FMRecording", ".aac",
                     Environment.getExternalStorageDirectory());
                 mSampleFile.renameTo(finalFile);
                 mSampleFile = finalFile;
