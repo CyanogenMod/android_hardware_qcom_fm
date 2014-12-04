@@ -1129,7 +1129,7 @@ public class FMRadioService extends Service
             return false;
         try {
             mSampleFile = File
-                    .createTempFile("FMRecording", ".3gpp", sampleDir);
+                    .createTempFile("FMRecording", ".aac", sampleDir);
         } catch (IOException e) {
             Log.e(LOGTAG, "Not able to access SD Card");
             Toast.makeText(this, "Not able to access SD Card", Toast.LENGTH_SHORT).show();
