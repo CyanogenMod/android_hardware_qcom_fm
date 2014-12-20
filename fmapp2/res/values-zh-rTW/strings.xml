@@ -64,6 +64,7 @@
   <string name="presetlist_prefix_name">FM -</string>
   <string name="dialog_presetlist_rename_title">輸入名稱</string>
   <string name="dialog_preset_rename_title">輸入名稱</string>
+  <string name="enter_new_frequency_title">輸入頻率</string>
   <string name="preset_now_playing">現正播放</string>
   <string name="preset_delete_title">刪除預設</string>
   <string name="preset_delete_name">在「<xliff:g id="presetlist_name">%2$s</xliff:g>」中刪除「<xliff:g id="preset_name">%1$s</xliff:g>」</string>
@@ -84,7 +85,10 @@
   <string name="default_audio">立體聲</string>
   <string name="station_move">移動</string>
   <string name="station_edit">編輯</string>
+  <string name="preparing_sd">正在準備 SD 卡</string>
+  <string name="access_sd_fail">無法存取 SD 卡。</string>
   <string name="delete_station_title">刪除</string>
+  <string name="menu_delete_list">刪除清單</string>
   <string name="alert_dialog_ok">確定</string>
   <string name="alert_dialog_cancel">取消</string>
   <string name="alert_dialog_hint">輸入名稱 </string>

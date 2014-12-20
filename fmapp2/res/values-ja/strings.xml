@@ -126,7 +126,7 @@
   <string name="preparing_sd">SDカードを準備中</string>
   <string name="access_sd_fail">SDカードにアクセスできませんでした。</string>
   <string name="spaceIsLow_content">SDカードのストレージの容量が不足しています。音質の設定を変更するか、スペースを空けるために他のファイルを削除してください。</string>
-  <string name="FMRecording_reach_size_limit">サイズの制限に達しました。</string>
+  <string name="FMRecording_reach_size_limit">サイズの上限に達しました。</string>
   <string name="delete_station_title">削除</string>
   <string name="find_af_station">探す</string>
   <string name="menu_add_list">リストを追加</string>
