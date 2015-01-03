@@ -56,6 +56,13 @@
   <string name="msg_scanning">All FM-Statioune gi gesicht</string>
   <string name="msg_scanning_pty">Sichen \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+  <string name="msg_searching">Sichen no staarke Sendere fir eng Senderlëscht z\'erstellen</string>
+  <string name="msg_searching_title">Statiounen automatesch sichen</string>
+  <string name="msg_weak_searching">Sichen no Frequenze fir d\'Iwwerdroung</string>
+  <string name="msg_noantenna">Schléiss w.e.g. Kopfhörer u fir FM-Radio ze lauschteren</string>
+  <string name="msg_headsetpluggedin">Trenn all d\'Kopfhörer, fir den FM-Sender ze benotzen</string>
+  <string name="msg_callactive">Den FM-Sender kann net während engem Telefonsuruff aktivéiert ginn</string>
+  <string name="dialog_sleep_title">Automatesch Ausschaltzäit definéieren</string>
   <string name="preset_select_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' auswielen</string>
   <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' auswielen</string>
   <string name="presetlist_add_new">Nei Lëscht dobäisetzen</string>
@@ -64,10 +71,14 @@
   <string name="dialog_presetlist_rename_title">Numm aginn</string>
   <string name="dialog_preset_rename_title">Numm aginn</string>
   <string name="presetlist_delete_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' an all seng Statioune läschen?</string>
+  <string name="presetlist_autoselect_title">Automatesch Auswiel bestätegen</string>
+  <string name="presetlist_autoselect_name">Déi automatesch Auswiel läscht all d\'Senderen an der Lëscht \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'. Weidermaachen?</string>
+  <string name="fmtx_autoselect_name">Déi automatesch Auswiel läscht all d\'Senderen. Weidermaachen?</string>
   <string name="enter_frequency">Statioun astellen</string>
   <string name="enter_new_frequency_title">Frequenz aginn</string>
   <string name="preset_now_playing">Gëtt ofgespillt </string>
   <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
+  <string name="preset_delete_title">Aus der Virauswiel läschen</string>
   <string name="preset_delete_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' vu(n) \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'  läschen</string>
   <string name="preset_confirm_delete_name">\'<xliff:g id="preset_name">%1$s</xliff:g>\' vu(n) \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'  läschen?</string>
   <string name="preset_name_dialog_title">En Numm aginn</string>
@@ -75,6 +86,8 @@
   <string name="preset_name_title">Ëmbenennen</string>
   <string name="preset_search_title">Sichen</string>
   <string name="preset_search_name">No \'<xliff:g id="preset_name">%1$s</xliff:g>\' sichen</string>
+  <string name="preset_preference_title">FM-Radiosender a(n) \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_empty_title">Keng Statiounen an der Lëscht</string>
   <string name="preset_empty_add_summary">Statiounen dobäisetzen</string>
   <string name="preset_add">Dobäisetzen</string>
   <string name="preset_replace">Ersetzen</string>
@@ -84,29 +97,42 @@
   <string name="preset_search">No \'<xliff:g id="preset_pi">%1$s</xliff:g>\' sichen</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="stat_notif_tx_frequency">Iwwerdroen op: \'<xliff:g id="frequency">%1$s</xliff:g>\'</string>
+  <string name="sel_band_menu">Regional Frequenz auswielen</string>
   <string name="settings_menu">Astellungen</string>
+  <string name="regional_band">Regional Frequenz</string>
+  <string name="aud_output_mode">Toun-Ausganks-Modus</string>
+  <string name="sel_audio_output">Toun-Ausgab wielen</string>
+  <string name="record_dur">Dauer vu der Opnahm</string>
+  <string name="sel_rec_dur">Dauer vun der Opnahm auswielen</string>
   <string name="auto_select_af">Alternativ Frequenz</string>
   <string name="auto_select_af_enabled">Automatesch Auswiel aktivéiert</string>
-  <string name="auto_select_af_disabled">Automatesch Auswiel deaktivéiert</string>
+  <string name="auto_select_af_disabled">Automatesch Auswiel desaktivéiert</string>
+  <string name="fac_defaults">Op d\'Wierksastellungen zrécksetzen</string>
   <string name="revert_to_fac">Op d\'Wierksastellungen zrécksetzen</string>
   <string name="settings_back">Zréck</string>
-  <string name="settings_back_summary">Op de Usiicht virdrun zréckgoen</string>
+  <string name="settings_revert_confirm_title">Zrécksetze vun den Astellunge bestätegen</string>
+  <string name="settings_revert_confirm_msg">Doduerch ginn all d\'Astellungen inklusiv Senderlëschte geläscht</string>
+  <string name="settings_back_summary">Op déi Usiicht virdrun zréckgoen</string>
   <string name="settings_revert_defaults_title">Op d\'Wierksastellungen zrécksetzen</string>
   <string name="settings_revert_defaults_summary">All d\'Astellungen zrécksetzen</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="default_audio">Stereo</string>
-  <string name="factory_reset_dialog_title">Zerécksetze bestätegen</string>
+  <string name="factory_reset_dialog_title">Zrécksetze bestätegen</string>
+  <string name="factory_reset_dialog_message">Doduerch ginn all d\'Astellungen inklusiv Senderlëschte geläscht</string>
   <string name="station_move">Réckelen</string>
   <string name="station_edit">Änneren</string>
   <string name="no_storage">Bann d\'SD-Kaart an ier s de d\'Opnam starts.</string>
   <string name="preparing_sd">SD-Kaart gëtt preparéiert</string>
   <string name="access_sd_fail">Konnt net op d\'SD-Kaart zougräifen.</string>
+  <string name="spaceIsLow_content">Deng SD-Kaart huet geschwë kee fräie Späicher méi. Änner d\'Qualitéitsastellung oder läsch e puer Fichiere fir Plaz fräizemaachen.</string>
+  <string name="FMRecording_reach_size_limit">Gréisstelimitt ass erreecht.</string>
   <string name="delete_station_title">Läschen</string>
   <string name="find_af_station">Fannen</string>
   <string name="menu_add_list">Lëscht dobäisetzen</string>
   <string name="menu_rename_list">Lëscht ëmbenennen</string>
   <string name="menu_reorder_list">Lëscht nei zortéieren</string>
+  <string name="menu_scan_for_preset">No Sendere sichen</string>
   <string name="menu_delete_list">Lëscht läschen</string>
   <string name="alert_dialog_ok">Ok</string>
   <string name="alert_dialog_cancel">Ofbriechen</string>
@@ -115,12 +141,16 @@
   <string name="search_category">Sichmodus auswielen</string>
   <string name="search_category_title">Sichmodus</string>
   <string name="search_category_tune">Sendersich</string>
+  <string name="search_category_type">Sendersich no Programm-Typ</string>
   <string name="search_category_type_title">No Programmtyp sichen</string>
   <string name="presets_back">Zréck</string>
+  <string name="presets_back_summary">Op déi Usiicht virdrun zréckgoen</string>
   <string name="nav_mode_presets">Virastellungen</string>
   <string name="nav_mode_stations">Statiounen</string>
+  <string name="radio_text_string">Dëst ass déi laang Radiotext-Notifikatioun déi gescrollt muss ginn</string>
   <string name="eradio_text_string">Erweiderte Radiotext</string>
   <string name="fm_command_timeout_title">Timeout</string>
+  <string name="fm_tune_timeout_msg">Keen Empfang um gewënschten FM-Sender. Probéier de Radio aus- an nees unzeschalten, wann de Probleem weierhi besteet.</string>
   <string name="fm_command_failed_title">Radio-Operatioun feelgeschloen</string>
   <string name="fm_cmd_failed_msg">Radio-Operatioun feelgeschloen. Falls de Problem bestoe bleift, schalt de Radio aus an nees un.</string>
   <string name="fm_cmd_failed_msg_hdmi">Radio-Operatioun feelgeschloen. Radio an HDMI funktionnéieren net gläichzäiteg.</string>
