@@ -102,8 +102,8 @@
   <string name="regional_band">Regional Frequenz</string>
   <string name="aud_output_mode">Toun-Ausganks-Modus</string>
   <string name="sel_audio_output">Toun-Ausgab wielen</string>
-  <string name="record_dur">Dauer vu der Opnahm</string>
-  <string name="sel_rec_dur">Dauer vun der Opnahm auswielen</string>
+  <string name="record_dur">Dauer vu der Opnam</string>
+  <string name="sel_rec_dur">Dauer vun der Opnam auswielen</string>
   <string name="auto_select_af">Alternativ Frequenz</string>
   <string name="auto_select_af_enabled">Automatesch Auswiel aktivéiert</string>
   <string name="auto_select_af_disabled">Automatesch Auswiel desaktivéiert</string>
