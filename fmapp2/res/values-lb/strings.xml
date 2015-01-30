@@ -124,7 +124,7 @@
   <string name="station_edit">Änneren</string>
   <string name="no_storage">Bann d\'SD-Kaart an ier s de d\'Opnam starts.</string>
   <string name="preparing_sd">SD-Kaart gëtt preparéiert</string>
-  <string name="access_sd_fail">Konnt net op d\'SD-Kaart zougräifen.</string>
+  <string name="access_sd_fail">Keen Zougrëff op d\'SD-Kaart méiglech.</string>
   <string name="spaceIsLow_content">Deng SD-Kaart huet geschwë kee fräie Späicher méi. Änner d\'Qualitéitsastellung oder läsch e puer Fichiere fir Plaz fräizemaachen.</string>
   <string name="FMRecording_reach_size_limit">Gréisstelimitt ass erreecht.</string>
   <string name="delete_station_title">Läschen</string>
