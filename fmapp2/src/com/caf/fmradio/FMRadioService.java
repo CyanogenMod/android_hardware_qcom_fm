@@ -1849,7 +1849,7 @@ public class FMRadioService extends Service
             Log.d(LOGTAG, "enableAutoAF done, Status :" +  bStatus);
 
             /* There is no internal Antenna*/
-            bStatus = mReceiver.setInternalAntenna(false);
+            bStatus = mReceiver.setInternalAntenna(true);
             Log.d(LOGTAG, "setInternalAntenna done, Status :" +  bStatus);
 
             /* Read back to verify the internal Antenna mode*/
