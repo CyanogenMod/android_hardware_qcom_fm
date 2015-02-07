@@ -28,6 +28,7 @@
 
 
 package qcom.fmradio;
+import android.os.SystemProperties;
 import android.util.Log;
 
 /** <code>FmTransceiver</code> is the superclass of classes
@@ -554,13 +555,9 @@ public class FmTransceiver
    */
    public boolean getInternalAntenna()
    {
-
-       int re = FmReceiverJNI.getControlNative (sFd, V4L2_CID_PRIVATE_TAVARUA_ANTENNA);
-
-       if (re == 1)
-         return true;
-
-       return false;
+       return ((FmReceiverJNI.getControlNative(sFd,
+                       V4L2_CID_PRIVATE_TAVARUA_ANTENNA) == 1) ||
+               SystemProperties.getBoolean("hw.fm.internal_antenna", false));
    }
 
    /*==============================================================
