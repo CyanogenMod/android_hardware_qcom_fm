@@ -1632,7 +1632,11 @@ public class FMRadioService extends Service
             Log.d(LOGTAG, "enableAutoAF done, Status :" +  bStatus);
 
             /* There is no internal Antenna*/
+            if ("true".equals(SystemProperties.get("hw.fm.internal_antenna"))) {
+            bStatus = mReceiver.setInternalAntenna(true);
+            } else {
             bStatus = mReceiver.setInternalAntenna(false);
+            }
             Log.d(LOGTAG, "setInternalAntenna done, Status :" +  bStatus);
 
             /* Read back to verify the internal Antenna mode*/
