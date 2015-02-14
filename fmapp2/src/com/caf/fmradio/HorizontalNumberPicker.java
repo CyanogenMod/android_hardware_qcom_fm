@@ -138,35 +138,6 @@ public class HorizontalNumberPicker extends LinearLayout {
      */
     private static final int SELECTOR_WHEEL_STATE_LARGE = 2;
 
-    /**
-     * The alpha of the selector wheel when it is bright.
-     */
-    private static final int SELECTOR_WHEEL_BRIGHT_ALPHA = 255;
-
-    /**
-     * The alpha of the selector wheel when it is dimmed.
-     */
-    private static final int SELECTOR_WHEEL_DIM_ALPHA = 60;
-
-    /**
-     * The alpha for the increment/decrement button when it is transparent.
-     */
-    private static final int BUTTON_ALPHA_TRANSPARENT = 0;
-
-    /**
-     * The alpha for the increment/decrement button when it is opaque.
-     */
-    private static final int BUTTON_ALPHA_OPAQUE = 1;
-
-    /**
-     * The property for setting the selector paint.
-     */
-    private static final String PROPERTY_SELECTOR_PAINT_ALPHA = "selectorPaintAlpha";
-
-    /**
-     * The property for setting the increment/decrement button alpha.
-     */
-    private static final String PROPERTY_BUTTON_ALPHA = "alpha";
 
     /**
      * The numbers accepted by the input text's {@link Filter}
@@ -344,10 +315,6 @@ public class HorizontalNumberPicker extends LinearLayout {
      * The offset to middle of selector.
      */
     private static final int SELECTOR_OFFSET_ZERO = 0;
-    /**
-     * The colors alpha of selector text.
-     */
-    private static final int SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE = 76;
 
     private static float mDensity = 1.0f;
     private static final float LDPI = 0.75f;
@@ -810,7 +777,6 @@ public class HorizontalNumberPicker extends LinearLayout {
             mBeginEditOnUpEvent = false;
             mAdjustScrollerOnUpEvent = true;
             if (mSelectorWheelState == SELECTOR_WHEEL_STATE_LARGE) {
-                mSelectorWheelPaint.setAlpha(SELECTOR_WHEEL_BRIGHT_ALPHA);
                 boolean scrollersFinished = mFlingScroller.isFinished()
                         && mAdjustScroller.isFinished();
                 if (!scrollersFinished) {
@@ -1493,13 +1459,10 @@ public class HorizontalNumberPicker extends LinearLayout {
                     .get(selectorIndex);
                 if(i - mSelectorMiddleItemIndex > 0 ){
                     mSelectorWheelPaint.setColor(Color.WHITE);
-                    mSelectorWheelPaint.setAlpha(SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE);
                 }else if(i - mSelectorMiddleItemIndex < 0 ){
                     mSelectorWheelPaint.setColor(Color.WHITE);
-                    mSelectorWheelPaint.setAlpha(SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE);
                 }else{
                     mSelectorWheelPaint.setColor(Color.WHITE);
-                    mSelectorWheelPaint.setAlpha(0);
                 }
                 try {
                     fNumber = Float.valueOf(scrollSelectorValue).floatValue();
@@ -1522,15 +1485,12 @@ public class HorizontalNumberPicker extends LinearLayout {
                 }
                 if(bShowNumber){
                     float originalWidth = mSelectorWheelPaint.getStrokeWidth();
-                    int originalAlpha = mSelectorWheelPaint.getAlpha();
                     mSelectorWheelPaint.setTypeface(Typeface.DEFAULT_BOLD);
                     mSelectorWheelPaint.setStrokeWidth(2);
                     mSelectorWheelPaint.setStyle(Paint.Style.FILL_AND_STROKE);
-                    mSelectorWheelPaint.setAlpha(SELECTOR_TEXT_ALPHA_TRANSPARENT_NONE);
                     canvas.drawText(scrollSelectorValue, x, mTextSize * 2, mSelectorWheelPaint);
                     mSelectorWheelPaint.setStyle(Paint.Style.FILL);
                     mSelectorWheelPaint.setStrokeWidth(originalWidth);
-                    mSelectorWheelPaint.setAlpha(originalAlpha);
                 }
 
                 float left = x;
@@ -1661,7 +1621,6 @@ public class HorizontalNumberPicker extends LinearLayout {
      */
     private void changeCurrentByOne(boolean increment) {
         if (mFlingable) {
-            mSelectorWheelPaint.setAlpha(SELECTOR_WHEEL_BRIGHT_ALPHA);
             mPreviousScrollerY = 0;
             mPreviousScrollerX = 0;
             forceCompleteChangeCurrentByOneViaScroll();
@@ -1717,16 +1676,6 @@ public class HorizontalNumberPicker extends LinearLayout {
         }
     }
 
-    /**
-     * Sets the <code>alpha</code> of the {@link Paint} for drawing the selector
-     * wheel.
-     */
-    @SuppressWarnings("unused")
-    // Called via reflection
-    private void setSelectorPaintAlpha(int alpha) {
-        mSelectorWheelPaint.setAlpha(alpha);
-        invalidate();
-    }
 
     /**
      * @return If the <code>event</code> is in the visible <code>view</code>.
@@ -1745,7 +1694,6 @@ public class HorizontalNumberPicker extends LinearLayout {
     private void setSelectorWheelState(int selectorWheelState) {
         mSelectorWheelState = selectorWheelState;
         if (selectorWheelState == SELECTOR_WHEEL_STATE_LARGE) {
-            mSelectorWheelPaint.setAlpha(SELECTOR_WHEEL_BRIGHT_ALPHA);
         }
 
         if (mFlingable && selectorWheelState == SELECTOR_WHEEL_STATE_LARGE
