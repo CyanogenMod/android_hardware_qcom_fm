@@ -231,9 +231,9 @@ public class FMTransmitterActivity extends Activity {
        }
        mRadioTextTV = (TextView)findViewById(R.id.radio_text_tv);
 
-       if((mRadioTextScroller == null) && (mRadioTextTV != null)) {
-          mRadioTextScroller = new ScrollerText(mRadioTextTV);
-       }
+       //if((mRadioTextScroller == null) && (mRadioTextTV != null)) {
+         // mRadioTextScroller = new ScrollerText(mRadioTextTV);
+       //}
 
        enableRadioOnOffUI(false);
 
@@ -937,10 +937,6 @@ public class FMTransmitterActivity extends Activity {
          mTuneStationFrequencyTV.setVisibility(((bEnable == true) ? View.VISIBLE
                                 : View.INVISIBLE));
       }
-      if(mRadioTextTV != null) {
-         mRadioTextTV.setVisibility(((bEnable == true) ? View.VISIBLE
-                                : View.INVISIBLE));
-      }
       if(mPicker != null) {
          mPicker.setVisibility(
          bEnable ? View.VISIBLE : View.INVISIBLE );
@@ -960,7 +956,7 @@ public class FMTransmitterActivity extends Activity {
                  Log.d(LOGTAG,"call active");
                  if(mRadioTextTV != null) {
                     mRadioTextTV.setVisibility(View.VISIBLE);
-                    mRadioTextTV.setText(getString(R.string.msg_callactive));
+                    mRadioTextTV.setText(getString(R.string.fm_call));
                  }
                  if(mOnOffButton != null) {
                     mOnOffButton.setEnabled(false);
@@ -976,7 +972,8 @@ public class FMTransmitterActivity extends Activity {
            }else {
               Log.d(LOGTAG,"Service null");
               if(mRadioTextTV != null) {
-                 mRadioTextTV.setText("");
+                  mRadioTextTV.setVisibility(View.VISIBLE);
+                 mRadioTextTV.setText(getString(R.string.fm_off));
               }
               if(mOnOffButton != null) {
                  mOnOffButton.setEnabled(true);
