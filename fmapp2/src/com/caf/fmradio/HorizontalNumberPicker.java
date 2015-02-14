@@ -148,10 +148,6 @@ public class HorizontalNumberPicker extends LinearLayout {
      */
     private static final int SELECTOR_WHEEL_DIM_ALPHA = 60;
 
-    /**
-     * The alpha for the increment/decrement button when it is transparent.
-     */
-    private static final int BUTTON_ALPHA_TRANSPARENT = 0;
 
     /**
      * The alpha for the increment/decrement button when it is opaque.
