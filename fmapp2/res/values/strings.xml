@@ -90,6 +90,8 @@
     <string name="spaceIsLow_content">Your SD card storage is running out of space. Change the quality setting or delete some other files to free up space.</string>
 
     <string name="menu_scan_for_preset">Scan for presets</string>
+    <string name="fm_off">FM is turned off.</string>
+
 
     <!-- The messsage shown when long pressed on a station. -->
     <string name="alert_dialog_hint">Enter a name</string>

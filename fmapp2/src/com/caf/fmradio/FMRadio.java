@@ -1907,7 +1907,7 @@ public class FMRadio extends Activity
          }
          for (int nButton = 0; nButton < MAX_PRESETS_PER_PAGE; nButton++) {
              if (mPresetButtons[nButton] != null) {
-                  mPresetButtons[nButton].setTextColor(Color.BLACK);
+                  mPresetButtons[nButton].setTextColor(Color.WHITE);
              }
          }
       }
@@ -2112,10 +2112,10 @@ public class FMRadio extends Activity
       }
       mStationCallSignTV.setText(mTunedStation.getPIString());
       mProgramTypeTV.setText(mTunedStation.getPtyString());
-      mRadioTextTV.setText("");
+      mRadioTextTV.setText(getString(R.string.fm_off));
       mERadioTextTV.setText("");
       mERadioTextTV.setVisibility(View.GONE);
-      mRadioTextTV.setVisibility(View.GONE);
+      //mRadioTextTV.setVisibility(View.GONE);
       mRadioTextScroller.mOriginalString = "";
       mRadioTextScroller.mStringlength = 0;
       mRadioTextScroller.mIteration = 0;
