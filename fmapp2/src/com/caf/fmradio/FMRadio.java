@@ -1947,7 +1947,7 @@ public class FMRadio extends Activity
          }
          for (int nButton = 0; nButton < MAX_PRESETS_PER_PAGE; nButton++) {
              if (mPresetButtons[nButton] != null) {
-                  mPresetButtons[nButton].setTextColor(Color.BLACK);
+                  mPresetButtons[nButton].setTextColor(Color.WHITE);
              }
          }
       }
@@ -1983,10 +1983,6 @@ public class FMRadio extends Activity
          mRecordingMsgTV.setVisibility(((bEnable == true) ? View.VISIBLE
                                      : View.GONE));
       }
-      if (mRadioTextTV != null) {
-         mRadioTextTV.setVisibility(((bEnable == true) ? View.VISIBLE
-                                  : View.GONE));
-      }
       if(mERadioTextTV != null) {
          mERadioTextTV.setVisibility(((bEnable == true) ? View.VISIBLE
                                   : View.GONE));
@@ -2007,8 +2003,8 @@ public class FMRadio extends Activity
          }
       }else if (isCallActive()) {
          if (mRadioTextTV != null) {
-            mRadioTextTV.setText("");
-            mRadioTextScroller.mOriginalString = "";
+            mRadioTextTV.setText(getString(R.string.fm_call));
+            mRadioTextScroller.mOriginalString = getString(R.string.fm_call);
          }
          if (mERadioTextTV != null) {
              mERadioTextTV.setText("");
@@ -2020,7 +2016,7 @@ public class FMRadio extends Activity
          }
       }else {
          if (mRadioTextTV != null) {
-             mRadioTextTV.setText("");
+             mRadioTextTV.setText(getString(R.string.fm_off));
              mRadioTextScroller.mOriginalString = "";
          }
          if (mERadioTextTV != null) {
@@ -2159,7 +2155,6 @@ public class FMRadio extends Activity
       mRadioTextTV.setText("");
       mERadioTextTV.setText("");
       mERadioTextTV.setVisibility(View.GONE);
-      mRadioTextTV.setVisibility(View.GONE);
       mRadioTextScroller.mOriginalString = "";
       mRadioTextScroller.mStringlength = 0;
       mRadioTextScroller.mIteration = 0;
@@ -2665,7 +2660,7 @@ public class FMRadio extends Activity
       mTunedStation.setPI(0);
       mTunedStation.setRDSSupported(false);
       mTunedStation.setPty(0);
-      mRadioTextTV.setText("");
+      mRadioTextTV.setText(getString(R.string.fm_off));
       mERadioTextTV.setText("");
       mRadioTextScroller.mOriginalString = "";
       mProgramServiceTV.setText("");
@@ -2771,7 +2766,7 @@ public class FMRadio extends Activity
                   mRadioTextScroller.mOriginalString = str;
                }else if(TextUtils.isEmpty(str)) { /* Rest the string to empty*/
                   mRadioTextTV.setText("");
-                  mRadioTextScroller.mOriginalString = "";
+                  mRadioTextScroller.mOriginalString = getString(R.string.fm_off);
                }else {
                   //Log.d(LOGTAG, "mUpdateRadioText: Leaving old string " + mRadioTextTV.getText());
                }
