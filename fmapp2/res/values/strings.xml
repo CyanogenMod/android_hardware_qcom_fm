@@ -92,6 +92,11 @@
     <string name="FMRecording_reach_size_limit">Size limit reached.</string>
     <string name="menu_scan_for_preset">Scan for presets</string>
 
+    <!-- Off messages -->
+    <string name="fm_off">FM is turned off.</string>
+    <string name="fm_call">FM can\'t be used while calling.</string>
+
+
     <!-- The messsage shown when long pressed on a station. -->
     <string name="alert_dialog_hint">Enter a name</string>
 
