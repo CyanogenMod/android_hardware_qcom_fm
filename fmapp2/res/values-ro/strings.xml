@@ -104,7 +104,7 @@
   <string name="sel_audio_output">Selectați ieșirea audio</string>
   <string name="record_dur">Durata înregistrării</string>
   <string name="sel_rec_dur">Selectați durata de înregistrare</string>
-  <string name="auto_select_af">Frecvențe alternative</string>
+  <string name="auto_select_af">Frecvență alternativă</string>
   <string name="auto_select_af_enabled">Auto selectare activată</string>
   <string name="auto_select_af_disabled">Auto selectare dezactivată</string>
   <string name="fac_defaults">Revenire la setările de fabrică</string>

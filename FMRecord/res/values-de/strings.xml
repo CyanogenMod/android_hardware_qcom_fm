@@ -29,7 +29,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Binden Sie die SD-Karte vor Aufnahmebeginn ein.</string>
+  <string name="no_storage">Mounten Sie die SD-Karte vor Aufnahmebeginn.</string>
   <string name="preparing_sd">SD-Karte wird vorbereitet</string>
   <string name="access_sd_fail">Kein Zugriff auf SD-Karte möglich.</string>
   <string name="spaceIsLow_content">Auf Ihrer SD-Karte ist nicht mehr genügend Speicherplatz vorhanden. Ändern Sie die Qualitätseinstellung oder löschen Sie Bilder oder andere Dateien.</string>
@@ -38,6 +38,6 @@
   <string name="audio_db_artist_name">Meine Radio-Aufnahmen</string>
   <string name="audio_db_album_name">Radio-Aufnahmen</string>
   <string name="audio_db_playlist_name">Radio-Aufnahmen</string>
-  <string name="save_record_file">Radio-Aufnahme unter \'<xliff:g id="record_file">%1$s</xliff:g>\' gespeichert</string>
+  <string name="save_record_file">Radio-Aufnahme unter \"<xliff:g id="record_file">%1$s</xliff:g>\" gespeichert</string>
   <string name="fm_record_progress">Radio wird aufgenommen</string>
 </resources>
