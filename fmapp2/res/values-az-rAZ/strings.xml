@@ -33,6 +33,7 @@
   <string name="tx_app_name">FM Ötürücü</string>
   <string name="menu_scan_start">Axtar</string>
   <string name="menu_scan_stop">Axtarışı dayandır</string>
+  <string name="menu_record_start">Səsyazma</string>
   <string name="menu_record_stop">Yazmağı dayandır</string>
   <string name="menu_settings">Tənzimləmələr</string>
   <string name="menu_sleep">Yuxu</string>
@@ -40,25 +41,39 @@
   <string name="menu_all_channels">Bütün kanallar</string>
   <string name="menu_display_tags">işarələri göstər</string>
   <string name="button_text_stop">Dayandır</string>
+  <string name="msg_seeking">FM stansiya axtarılır\u2026</string>
+  <string name="msg_scanning">Bütün FM stansiyalar skan edilir\u2026</string>
+  <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>\' üçün skan edilir\u2026</string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
+  <string name="msg_searching_title">Siyahıları avtomatik seç</string>
   <string name="msg_noantenna">FM radiodan istifadə etmək üçün zəhmət olmasa qulaqlığı taxın</string>
+  <string name="dialog_sleep_title">Avtomatik sönmə yuxu müddəti</string>
   <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' seçin</string>
   <string name="presetlist_add_new">Yeni siyahı əlavə et</string>
+  <string name="dialog_presetlist_rename_title">Ad daxil edin</string>
+  <string name="presetlist_autoselect_title">Avtomatik seçimi təsdiqlə</string>
   <string name="preset_replace">Dəyişdir</string>
   <string name="preset_tune">Köklən</string>
   <string name="preset_rename">Yenidən adlandır</string>
   <string name="preset_delete">Sil</string>
   <string name="preset_search">\'<xliff:g id="preset_name">%1$s</xliff:g>\' üçün axtar</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
+  <string name="regional_band">Regional zolaq</string>
   <string name="aud_output_mode">Səs çıxışı rejimi</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="record_dur">Səsyazma müddəti</string>
+  <string name="auto_select_af">Alternativ tezlik</string>
+  <string name="settings_revert_defaults_title">Zavod tənzimləmələrinə qayıt</string>
   <string name="settings_revert_defaults_summary">Bütün tənzimləmələri sıfırla</string>
+  <string name="settings_revert_confirm_title">Sıfırlamanı təsdiqlə</string>
+  <string name="settings_revert_confirm_msg">Bütün tətbiqetmə tənzimləmələri, saxlanılan siyahılar silinəcək. Davam edilsin?</string>
   <string name="no_storage">Səsyazmaya başlamamışdan əvvəl SD kartı taxın.</string>
+  <string name="preparing_sd">SD kart hazırlanır\u2026</string>
   <string name="access_sd_fail">SD karta daxil ola bilmədi.</string>
   <string name="spaceIsLow_content">SD kart saxlama sahəsində yer azalır. Keyfiyyət tənzimləmələrini dəyişin və ya yer eləmək üçün bəzi faylları silin.</string>
   <string name="alert_dialog_hint">Ad daxil edin</string>
-  <string name="fm_command_timeout_title">Zaman aşımı</string>
+  <string name="fm_command_timeout_title">Qoyulan vaxt</string>
   <string name="station_exists">Bu tezlik artıq mövcuddur!</string>
   <string name="station_list_delete_station">Sil: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_name_empty">Stansiya adı boşdur, zəhmət olmasa yenidən daxil edin.</string>

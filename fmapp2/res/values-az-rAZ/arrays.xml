@@ -99,7 +99,7 @@
     <item>Telefondan</item>
     <item>Pop musiqi</item>
     <item>Dini</item>
-    <item>Rock musiqi</item>
+    <item>Rok musiqi</item>
     <item>Elm</item>
     <item>Ciddi klassik</item>
     <item>Sosial işlər</item>
@@ -131,7 +131,7 @@
     <item>Koreya</item>
     <item>Meksika</item>
     <item>Hollandiya</item>
-    <item>Yeni Zenlandiya</item>
+    <item>Yeni Zelandiya</item>
     <item>Norveç</item>
     <item>Polşa</item>
     <item>Portuqaliya</item>
@@ -164,13 +164,13 @@
     <item>Almaniya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
     <item>Yunanıstan (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
     <item>Honq Konq (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
-    <item>India (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Hindistan (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
     <item>İrlandiya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
     <item>İtaliya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
     <item>Koreya (87.5MHz = 108.0MHz arası 200 KHz dalğasında)</item>
     <item>Meksika (88.1MHz - 107.9MHz arası 200 KHz dalğasında)</item>
     <item>Hollandiya (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
-    <item>Yeni Zenlandiya (88.0MHz - 107.0MHz arası 100 KHz dalğasında)</item>
+    <item>Yeni Zelandiya (88.0MHz - 107.0MHz arası 100 KHz dalğasında)</item>
     <item>Norveç (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
     <item>Polşa (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
     <item>Portuqaliya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>

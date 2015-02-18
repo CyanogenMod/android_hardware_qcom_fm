@@ -45,12 +45,14 @@
   <string name="msg_scanning">Scanne alle FM-Radiosender\u2026</string>
   <string name="msg_scanning_pty">Scanne nach \"<xliff:g id="pty_name">%1$s</xliff:g>\"\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
+  <string name="msg_searching_title">Senderliste automatisch erstellen</string>
   <string name="msg_searching">Suche nach Radiosendern mit starkem Signal, um eine Senderliste zu erstellen\u2026</string>
   <string name="msg_noantenna">Bitte stecken Sie ein Headset ein, um das FM-Radio nutzen zu können</string>
   <string name="dialog_sleep_title">Auto-Ausschaltzeit</string>
   <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' auswählen</string>
   <string name="presetlist_add_new">Neue Liste hinzufügen</string>
   <string name="dialog_presetlist_rename_title">Name eingeben</string>
+  <string name="presetlist_autoselect_title">Auto-Auswahl bestätigen</string>
   <string name="preset_replace">Ersetzen</string>
   <string name="preset_tune">Sendersuchlauf</string>
   <string name="preset_rename">Umbenennen</string>
@@ -66,6 +68,7 @@
   <string name="settings_revert_defaults_title">Auf Werkseinstellungen zurücksetzen</string>
   <string name="settings_revert_defaults_summary">Alle Einstellungen zurücksetzen</string>
   <string name="settings_revert_confirm_title">Zurücksetzen bestätigen</string>
+  <string name="settings_revert_confirm_msg">Dies wird alle App-Einstellungen sowie die Senderlisten löschen. Fortfahren?</string>
   <string name="no_storage">SD-Karte vor Beginn der Aufnahme mounten.</string>
   <string name="preparing_sd">SD-Karte wird vorbereitet\u2026</string>
   <string name="access_sd_fail">Kein Zugriff auf SD-Karte möglich.</string>
@@ -90,4 +93,5 @@
   <string name="usr_def_band_max">Höchste Frequenz (MHz)</string>
   <string name="chanl_spacing">Kanalabstand</string>
   <string name="set">Übernehmen</string>
+  <string name="user_defind_band_msg">Frequenz von 76,0 bis 108,0 MHz mit mindestens einem Kanal Abstand eingeben</string>
 </resources>

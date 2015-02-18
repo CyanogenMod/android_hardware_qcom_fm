@@ -29,8 +29,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Montar tarjeta SD antes de iniciar grabación.</string>
-  <string name="preparing_sd">Preparando tarjeta SD</string>
+  <string name="no_storage">Montar la tarjeta SD antes de iniciar la grabación.</string>
+  <string name="preparing_sd">Preparando la tarjeta SD</string>
   <string name="access_sd_fail">Imposible acceder a la tarjeta SD.</string>
   <string name="spaceIsLow_content">La tarjeta SD se está quedando sin espacio. Cambia el ajuste de calidad o elimina algunas imágenes o archivos.</string>
   <string name="FMRecording_reach_size_limit">Límite de tamaño alcanzado.</string>
@@ -40,4 +40,5 @@
   <string name="audio_db_playlist_name">Grabaciones FM</string>
   <string name="save_record_file">Archivo de grabación de FM guardado en \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_record_progress">Grabación de FM en curso</string>
+  <string name="unable_to_store">Imposible guardar el sonido grabado</string>
 </resources>
