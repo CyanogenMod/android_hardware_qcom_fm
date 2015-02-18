@@ -43,7 +43,10 @@
   <string name="button_text_stop">עצור</string>
   <string name="msg_seeking">מחפש תחנת FM\u2026</string>
   <string name="msg_scanning">סורק את כל תחנות FM\u2026</string>
+  <string name="msg_scanning_pty">מחפש את \"<xliff:g id="pty_name">%1$s</xliff:g>\"\u2026</string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
   <string name="msg_noantenna">אנא חבר אוזניה לשימוש ברדיו FM</string>
+  <string name="dialog_sleep_title">זמן לכיבוי אוטומטי</string>
   <string name="presetlist_select_name">בחר \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_add_new">הוסף רשימה חדשה</string>
   <string name="dialog_presetlist_rename_title">הזן שם</string>
@@ -59,6 +62,7 @@
   <string name="audio_type_stereo">סטריאו</string>
   <string name="audio_type_mono">מונו</string>
   <string name="record_dur">משך הקלטה</string>
+  <string name="auto_select_af">תדר חלופי</string>
   <string name="settings_revert_defaults_title">שחזר להגדרות ברירת מחדל</string>
   <string name="settings_revert_defaults_summary">אפס כל ההגדרות</string>
   <string name="settings_revert_confirm_title">אשר איפוס</string>
@@ -81,6 +85,8 @@
   <string name="station_list_delete_station_prompt">האם אתה בטוח שברצונך למחוק את \"<xliff:g id="name">%s</xliff:g>\"?</string>
   <string name="station_name_empty">שם התחנה ריק, הקלד שוב.</string>
   <string name="rt_plus_tags">תגיות</string>
+  <string name="usr_def_band_min">התדר הנמוך ביותר (MHz)</string>
+  <string name="usr_def_band_max">התדר הגבוה ביותר (MHz)</string>
   <string name="chanl_spacing">מרווח ערוץ</string>
   <string name="set">הגדר</string>
   <string name="user_defind_band_msg">הזן תדרים מ-76.0MHz עד 108.0MHz עם רווח של לפחות ערוץ אחד ביניהם</string>
