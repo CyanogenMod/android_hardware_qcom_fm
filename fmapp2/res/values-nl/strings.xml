@@ -33,6 +33,7 @@
   <string name="tx_app_name">FM-zender</string>
   <string name="menu_scan_start">Zoeken</string>
   <string name="menu_scan_stop">Zoeken annuleren</string>
+  <string name="menu_record_start">Opnemen</string>
   <string name="menu_record_stop">Opnemen stoppen</string>
   <string name="menu_settings">Instellingen</string>
   <string name="menu_sleep">Slaapstand</string>
@@ -40,9 +41,18 @@
   <string name="menu_all_channels">Alle kanalen</string>
   <string name="menu_display_tags">Labels tonen</string>
   <string name="button_text_stop">Stoppen</string>
+  <string name="msg_seeking">FM-zender zoeken\u2026</string>
+  <string name="msg_scanning">Alle FM-zenders zoeken\u2026</string>
+  <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>\' zoeken\u2026</string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
+  <string name="msg_searching_title">Automatisch favorieten selecteren</string>
+  <string name="msg_searching">Zoeken naar goed bereikbare zenders voor favorietenlijst\u2026</string>
   <string name="msg_noantenna">Sluit een koptelefoon aan om de FM-radio te gebruiken</string>
+  <string name="dialog_sleep_title">Slaaptijd</string>
   <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' selecteren</string>
   <string name="presetlist_add_new">Nieuwe lijst toevoegen</string>
+  <string name="dialog_presetlist_rename_title">Naam invoeren</string>
+  <string name="presetlist_autoselect_title">Automatische selectie bevestigen</string>
   <string name="preset_replace">Vervangen</string>
   <string name="preset_tune">Afstemmen</string>
   <string name="preset_rename">Naam wijzigen</string>
@@ -54,9 +64,13 @@
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="record_dur">Opnameduur</string>
+  <string name="auto_select_af">Alternatieve frequentie</string>
   <string name="settings_revert_defaults_title">Fabrieksinstellingen herstellen</string>
   <string name="settings_revert_defaults_summary">Alles opnieuw instellen</string>
+  <string name="settings_revert_confirm_title">Opnieuw instellen bevestigen</string>
+  <string name="settings_revert_confirm_msg">Hiermee worden alle instellingen, inclusief opgeslagen favorieten, gewist. Doorgaan?</string>
   <string name="no_storage">Plaats SD-kaart om op te nemen.</string>
+  <string name="preparing_sd">SD-kaart voorbereiden\u2026</string>
   <string name="access_sd_fail">Geen toegang tot SD-kaart</string>
   <string name="spaceIsLow_content">Uw SD-kaart heeft bijna geen ruimte meer. Verminder de opnamekwaliteit of verwijder bestanden.</string>
   <string name="menu_scan_for_preset">Favorieten zoeken</string>
@@ -68,9 +82,16 @@
   <string name="fm_cmd_failed_msg">FM-bewerking mislukt. Als het probleem blijft bestaan schakel FM-radio uit en aan.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-bewerking mislukt. FM en HDMI tegelijk wordt niet ondersteund.</string>
   <string name="fm_cmd_failed_call_on">FM-bewerking mislukt. FM audio niet toegestaan tijdens een telefoongesprek.</string>
+  <string name="station_name">Station: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Deze frequentie bestaat al</string>
   <string name="station_list_delete_station">Verwijderen: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">Weet u zeker dat u \'<xliff:g id="name">%s</xliff:g>\' wilt verwijderen?</string>
   <string name="station_name_empty">Zendernaam is leeg, opnieuw invoeren.</string>
+  <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' is al in gebruik, voer een andere naam in.</string>
   <string name="rt_plus_tags">Labels</string>
+  <string name="usr_def_band_min">Laagste frequentie (MHz)</string>
+  <string name="usr_def_band_max">Hoogste frequentie (MHz)</string>
   <string name="chanl_spacing">Kanaalafstand</string>
+  <string name="set">Instellen</string>
+  <string name="user_defind_band_msg">Voer een frequentie in tussen 76.0 en 108.0 MHz met een tussenruimte van een kanaal</string>
 </resources>

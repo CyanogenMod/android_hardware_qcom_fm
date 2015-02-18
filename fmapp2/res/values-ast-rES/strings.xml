@@ -33,6 +33,7 @@
   <string name="tx_app_name">Tresmisor FM</string>
   <string name="menu_scan_start">Guetar</string>
   <string name="menu_scan_stop">Parar la gueta</string>
+  <string name="menu_record_start">Grabar</string>
   <string name="menu_record_stop">Parar de grabar</string>
   <string name="menu_settings">Axustes</string>
   <string name="menu_sleep">Dormir</string>
@@ -40,9 +41,18 @@
   <string name="menu_all_channels">Toles canales</string>
   <string name="menu_display_tags">Amosar les etiquetes</string>
   <string name="button_text_stop">Parar</string>
+  <string name="msg_seeking">Guetando emisora FM\u2026</string>
+  <string name="msg_scanning">Guetando por emisores FM\u2026</string>
+  <string name="msg_scanning_pty">Guetando por \u00AB<xliff:g id="pty_name">%1$s</xliff:g>\u00BB\u2026</string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
+  <string name="msg_searching_title">Seleición automática d\'emisores</string>
+  <string name="msg_searching">Guetando poles emisores con meyor señal pa facer una llista\u2026</string>
   <string name="msg_noantenna">Por favor coneuta unos auriculares pa usar la radio FM</string>
+  <string name="dialog_sleep_title">Tiempu d\'apagáu automáticu</string>
   <string name="presetlist_select_name">Seleicionar \u00AB<xliff:g id="presetlist_name">%1$s</xliff:g>\u00BB</string>
   <string name="presetlist_add_new">Amestar llista nueva</string>
+  <string name="dialog_presetlist_rename_title">Introducir nome</string>
+  <string name="presetlist_autoselect_title">Confirmar seleición automática</string>
   <string name="preset_replace">Trocar</string>
   <string name="preset_tune">Sintonizar</string>
   <string name="preset_rename">Renomar</string>
@@ -54,9 +64,13 @@
   <string name="audio_type_stereo">Estéreo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="record_dur">Duración de grabación</string>
+  <string name="auto_select_af">Frecuencia alternativa</string>
   <string name="settings_revert_defaults_title">Tornar a los valores predeterminaos de fábrica</string>
   <string name="settings_revert_defaults_summary">Reaniciar tolos axustes</string>
+  <string name="settings_revert_confirm_title">Confirmar restablecimientu</string>
+  <string name="settings_revert_confirm_msg">Esta aición va desaniciar tolos axustes de l\'aplicación, incluyendo les emisores almacenaes. ¿Siguir?</string>
   <string name="no_storage">Montar la tarxeta SD enantes d\'entamar a grabar.</string>
+  <string name="preparing_sd">Preparando la tarxeta SD\u2026</string>
   <string name="access_sd_fail">Nun se pudo acceder a la tarxeta SD.</string>
   <string name="spaceIsLow_content">La tarxeta SD ta quedando ensin espaciu. Cambie la configuración de calidá o desanicie otros ficheros pa lliberar espaciu.</string>
   <string name="menu_scan_for_preset">Buscar pre-sintoníes</string>
@@ -68,9 +82,16 @@
   <string name="fm_cmd_failed_msg">Falló la operación FM. Si\'l problema persiste, apaga la radio y vuelvi a prendela.</string>
   <string name="fm_cmd_failed_msg_hdmi">Falló la operación FM. Usar la radio y el HDMI al empar nun ta sofitao téunicamente.</string>
   <string name="fm_cmd_failed_call_on">Falló la operación FM. L\'audiu FM nun ta permitíu mientres una llamada.</string>
+  <string name="station_name">Emisora: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">¡Esta frecuencia yá esiste!</string>
   <string name="station_list_delete_station">Desaniciar:<xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">¿Daveres que quies desaniciar \u00AB<xliff:g id="name">%s</xliff:g>\u00BB?</string>
   <string name="station_name_empty">Nome de emisora baleru. Por favor, escribi ún.</string>
+  <string name="station_name_exist">\u00AB<xliff:g id="name">%s</xliff:g>\u00BB yá ta n\'usu. Por favor, escribi un nome nuevu.</string>
   <string name="rt_plus_tags">Etiquetes</string>
+  <string name="usr_def_band_min">Frecuencia más baxa (MHz)</string>
+  <string name="usr_def_band_max">Frecuencia más alta (MHz)</string>
   <string name="chanl_spacing">Espaciáu de canales</string>
+  <string name="set">Afitar</string>
+  <string name="user_defind_band_msg">Seleiciona una frecuencia ente 76.0 a 108.0 MHz con al menos espaciu pa una canal</string>
 </resources>
