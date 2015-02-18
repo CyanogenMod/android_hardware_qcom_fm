@@ -40,4 +40,5 @@
   <string name="audio_db_playlist_name">FM opnames</string>
   <string name="save_record_file">FM opname lêer gestoor na \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_record_progress">FM opname tans besig</string>
+  <string name="unable_to_store">Kon nie opgeneemde audio stoor nie</string>
 </resources>

@@ -40,4 +40,5 @@
   <string name="audio_db_playlist_name">Grabaciones FM</string>
   <string name="save_record_file">Ficheru de grabación FM guardáu en \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_record_progress">Grabación FM en progresu</string>
+  <string name="unable_to_store">Imposible guardar el soníu grabáu</string>
 </resources>
