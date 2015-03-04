@@ -141,6 +141,7 @@
   <string name="nav_mode_stations">Stansiyalar</string>
   <string name="eradio_text_string">Genişləndirilmiş radio mətin mesajı</string>
   <string name="fm_command_timeout_title">Zaman aşımı</string>
+  <string name="fm_tune_timeout_msg">FM stansiyasını kökləmək üçün cavab alınmadı. Əgər problem davam etsə, zəhmət olmasa FM\'i bağlayıb təkrar açın.</string>
   <string name="default_preset_list_name">FM siyahısı</string>
   <string name="audio_db_title_format"><xliff:g id="format">iiii-AA-gg SS:dd:ss</xliff:g></string>
   <string name="audio_db_artist_name">FM səsyazmalarım</string>
