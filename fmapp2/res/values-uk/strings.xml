@@ -41,9 +41,18 @@
   <string name="menu_all_channels">Всі канали</string>
   <string name="menu_display_tags">Показати мітки</string>
   <string name="button_text_stop">Зупинити</string>
+  <string name="msg_seeking">Пошук ФМ станцій</string>
+  <string name="msg_scanning">Сканування всіх ФМ станцій</string>
+  <string name="msg_scanning_pty">Сканування <xliff:g id="pty_name">%1$s</xliff:g>\'\u2026</string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
+  <string name="msg_searching_title">Автопошук станцій</string>
+  <string name="msg_searching">Сканування радіостанцій з потужним сигналом та створення їх каталогу\u2026</string>
   <string name="msg_noantenna">Підключіть будь-ласка навушники аби користуватись FM-радіо</string>
+  <string name="dialog_sleep_title">Час автовідключення</string>
   <string name="presetlist_select_name">Вибір \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_add_new">Додати новий список</string>
+  <string name="dialog_presetlist_rename_title">Введіть ім\'я</string>
+  <string name="presetlist_autoselect_title">Підтвердіть автоматичний вибір</string>
   <string name="preset_replace">Замінити</string>
   <string name="preset_tune">Налаштувати</string>
   <string name="preset_rename">Перейменувати</string>
@@ -55,9 +64,13 @@
   <string name="audio_type_stereo">Стерео</string>
   <string name="audio_type_mono">Монохром</string>
   <string name="record_dur">Тривалість запису</string>
+  <string name="auto_select_af">Альтернативна частота</string>
   <string name="settings_revert_defaults_title">Повернути типові налаштування</string>
   <string name="settings_revert_defaults_summary">Скинути всі налаштування</string>
+  <string name="settings_revert_confirm_title">Підтвердіть скидання</string>
+  <string name="settings_revert_confirm_msg">Це видалить всі налаштування додатку, включно із збереженими радіостанціями. Продовжити?</string>
   <string name="no_storage">Змонтувати SD-карту перед початком запису.</string>
+  <string name="preparing_sd">Підготовка  SD-карти\u2026</string>
   <string name="access_sd_fail">Невдалось отримати доступ до SD-карти.</string>
   <string name="spaceIsLow_content">Закінчується місце на вашій SD-карті. Змініть якість в налаштуваннях або ж видаліть зображення чи інші файли.</string>
   <string name="menu_scan_for_preset">Сканувати за попередніми налаштуваннями</string>
@@ -69,9 +82,16 @@
   <string name="fm_cmd_failed_msg">Операція неможлива. Якщо проблема не зникне, вимкніть FM-радіо і увімкніть його знову.</string>
   <string name="fm_cmd_failed_msg_hdmi">Одночасне використання FM-радіо і HDMI неможливо.</string>
   <string name="fm_cmd_failed_call_on">Використання FM-радіо під час телефонного дзвінка неможливо.</string>
+  <string name="station_name">Станція: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Ця частота вже існує!</string>
   <string name="station_list_delete_station">Вилучити:<xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">Ви дійсно бажаєте видалити \'<xliff:g id="name">%s</xliff:g>\'?</string>
   <string name="station_name_empty">Порожня назва станції, будь ласка, введіть ще раз.</string>
+  <string name="station_name_exist">\' <xliff:g id="name">%s\' </xliff:g> вже використовується, будь ласка, введіть інше ім\'я.</string>
   <string name="rt_plus_tags">Мітки</string>
+  <string name="usr_def_band_min">Найнижчі частоти (МГц)</string>
+  <string name="usr_def_band_max">Найвищі частоти (МГц)</string>
   <string name="chanl_spacing">Крок каналів</string>
+  <string name="set">Встановити</string>
+  <string name="user_defind_band_msg">Додайте частоту від 76.0 до 108.0 МГц з мінімальним інтервалом у 1 канал</string>
 </resources>

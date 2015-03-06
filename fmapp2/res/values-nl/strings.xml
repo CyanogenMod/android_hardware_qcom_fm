@@ -68,7 +68,7 @@
   <string name="settings_revert_defaults_title">Fabrieksinstellingen herstellen</string>
   <string name="settings_revert_defaults_summary">Alles opnieuw instellen</string>
   <string name="settings_revert_confirm_title">Opnieuw instellen bevestigen</string>
-  <string name="settings_revert_confirm_msg">Hiermee worden alle instellingen, inclusief opgeslagen favorieten, gewist. Doorgaan?</string>
+  <string name="settings_revert_confirm_msg">Dit zal alle instellingen verwijderen inclusief opgeslagen favorieten. Doorgaan?</string>
   <string name="no_storage">Plaats SD-kaart om op te nemen.</string>
   <string name="preparing_sd">SD-kaart voorbereiden\u2026</string>
   <string name="access_sd_fail">Geen toegang tot SD-kaart</string>

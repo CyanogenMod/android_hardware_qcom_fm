@@ -84,6 +84,7 @@
   <string name="station_list_delete_station">מחק: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">האם אתה בטוח שברצונך למחוק את \"<xliff:g id="name">%s</xliff:g>\"?</string>
   <string name="station_name_empty">שם התחנה ריק, הקלד שוב.</string>
+  <string name="station_name_exist">\"<xliff:g id="name">%s</xliff:g>\" כבר נמצא בשימוש, אנא הכנס שם אחר.</string>
   <string name="rt_plus_tags">תגיות</string>
   <string name="usr_def_band_min">התדר הנמוך ביותר (MHz)</string>
   <string name="usr_def_band_max">התדר הגבוה ביותר (MHz)</string>
