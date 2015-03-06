@@ -40,4 +40,5 @@
   <string name="audio_db_playlist_name">Nagrania FM</string>
   <string name="save_record_file">Nagranie zostało zapisane w \"<xliff:g id="record_file">%1$s</xliff:g>\"</string>
   <string name="fm_record_progress">Nagrywanie z radia FM w toku</string>
+  <string name="unable_to_store">Nie można zapisać nagranego dźwięku</string>
 </resources>
