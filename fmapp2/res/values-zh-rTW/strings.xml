@@ -67,7 +67,7 @@
   <string name="auto_select_af">備用頻率</string>
   <string name="settings_revert_defaults_title">恢復原廠設定</string>
   <string name="settings_revert_defaults_summary">清除所有設定</string>
-  <string name="settings_revert_confirm_title">確認重設</string>
+  <string name="settings_revert_confirm_title">確定重設</string>
   <string name="settings_revert_confirm_msg">將會清除所有應用程式設定，包括已儲存的預設值。繼續？</string>
   <string name="no_storage">開始錄製前請先掛載 SD 卡。</string>
   <string name="preparing_sd">正在準備 SD 卡\u2026</string>
@@ -77,7 +77,7 @@
   <string name="alert_dialog_hint">輸入名稱 </string>
   <string name="search_dialog_title">掃描電台</string>
   <string name="fm_command_timeout_title">超時</string>
-  <string name="fm_tune_timeout_msg">未收到回應來調整 FM 電臺。如果問題仍然持續，請關閉 FM，並將其重新打開。</string>
+  <string name="fm_tune_timeout_msg">未收到回應來調整 FM 電台。如果問題仍然持續，請關閉 FM，並將其重新打開。</string>
   <string name="fm_command_failed_title">FM 操作失敗</string>
   <string name="fm_cmd_failed_msg">FM 操作失敗。如果問題仍然持續，請關閉 FM，並將其重新打開。</string>
   <string name="fm_cmd_failed_msg_hdmi">FM 操作失敗。不支援 FM和 HDMI 併頻 。 </string>
@@ -86,7 +86,7 @@
   <string name="station_exists">此頻率已存在！</string>
   <string name="station_list_delete_station">刪除：<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">您確定要刪除「<xliff:g id="name">%s</xliff:g>」？</string>
-  <string name="station_name_empty">電臺名字不能為空，請重新輸入。</string>
+  <string name="station_name_empty">電台名字不能為空，請重新輸入。</string>
   <string name="station_name_exist">「<xliff:g id="name">%s</xliff:g>」已被使用，請輸入其他名稱。</string>
   <string name="rt_plus_tags">標籤</string>
   <string name="usr_def_band_min">最低頻率 (MHz)</string>

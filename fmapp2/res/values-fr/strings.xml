@@ -51,7 +51,7 @@
   <string name="dialog_sleep_title">Durée arrêt automatique</string>
   <string name="presetlist_select_name">Sélectionner \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_add_new">Ajouter une nouvelle liste</string>
-  <string name="dialog_presetlist_rename_title">Entrer le nom</string>
+  <string name="dialog_presetlist_rename_title">Entrez un nom</string>
   <string name="presetlist_autoselect_title">Confirmer l\'auto-sélection</string>
   <string name="preset_replace">Remplacer</string>
   <string name="preset_tune">Ajuster</string>
@@ -87,7 +87,7 @@
   <string name="station_list_delete_station">Supprimer : <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Êtes-vous sûr de vouloir supprimer \'<xliff:g id="name">%s</xliff:g>\' ?</string>
   <string name="station_name_empty">Le nom de la station est vide, veuillez réessayer.</string>
-  <string name="station_name_exist">\'<xliff:g id="name">%s\'</xliff:g> est déjà utilisé, veuillez saisir un nom différent.</string>
+  <string name="station_name_exist">« <xliff:g id="name">%s</xliff:g> » est déjà utilisé, veuillez entrer un nom différent.</string>
   <string name="rt_plus_tags">Tags</string>
   <string name="usr_def_band_min">Fréquence minimale (MHz)</string>
   <string name="usr_def_band_max">Fréquence maximale (MHz)</string>
