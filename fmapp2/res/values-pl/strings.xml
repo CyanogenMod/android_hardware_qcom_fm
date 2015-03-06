@@ -33,6 +33,7 @@
   <string name="tx_app_name">Nadajnik FM</string>
   <string name="menu_scan_start">Skanuj</string>
   <string name="menu_scan_stop">Przestań szukać</string>
+  <string name="menu_record_start">Nagraj</string>
   <string name="menu_record_stop">Zatrzymaj nagrywanie</string>
   <string name="menu_settings">Ustawienia</string>
   <string name="menu_sleep">Uśpienie</string>
@@ -40,9 +41,18 @@
   <string name="menu_all_channels">Wszystkie kanały</string>
   <string name="menu_display_tags">Pokaż Tagi</string>
   <string name="button_text_stop">Zatrzymaj</string>
+  <string name="msg_seeking">Wyszukiwanie stacji FM\u2026</string>
+  <string name="msg_scanning">Skanowanie w poszukiwaniu wszystkich stacji FM\u2026</string>
+  <string name="msg_scanning_pty">Skanowanie \'<xliff:g id="pty_name">%1$s</xliff:g>\'\u2026</string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
+  <string name="msg_searching_title">Auto wybór ustawień</string>
+  <string name="msg_searching">Wyszukiwanie silnych sygnałów stacji, aby utworzyć listę\u2026</string>
   <string name="msg_noantenna">Proszę podłączyć słuchawki aby użyć radia FM</string>
+  <string name="dialog_sleep_title">Czas automatycznego wyłączenia uśpienia</string>
   <string name="presetlist_select_name">Wybierz \"<xliff:g id="presetlist_name">%1$s</xliff:g>\"</string>
   <string name="presetlist_add_new">Dodaj nową listę</string>
+  <string name="dialog_presetlist_rename_title">Wprowadź nazwę</string>
+  <string name="presetlist_autoselect_title">Potwierdź auto wybór</string>
   <string name="preset_replace">Zastąp</string>
   <string name="preset_tune">Dostrajanie</string>
   <string name="preset_rename">Zmień nazwę</string>
@@ -54,9 +64,13 @@
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="record_dur">Czas nagrywania</string>
+  <string name="auto_select_af">Alternatywne częstotliwości</string>
   <string name="settings_revert_defaults_title">Przywróć ustawienia fabryczne</string>
   <string name="settings_revert_defaults_summary">Zresetuj wszystkie ustawienia</string>
+  <string name="settings_revert_confirm_title">Potwierdź reset</string>
+  <string name="settings_revert_confirm_msg">Spowoduje to usunięcie wszystkich ustawień aplikacji, w tym zapisane ustawienia predefiniowane. Kontynuować?</string>
   <string name="no_storage">Włóż kartę SD przed rozpoczęciem nagrywania.</string>
+  <string name="preparing_sd">Przygotowywanie karty pamięci\u2026</string>
   <string name="access_sd_fail">Brak dostępu do karty SD.</string>
   <string name="spaceIsLow_content">Brak miejsca na karcie SD. Zmniejsz jakość nagrywania, albo zwolnij miejsce przez usunięcie starych plików.</string>
   <string name="menu_scan_for_preset">Skanuj w poszukiwaniu ustawień</string>
@@ -68,9 +82,16 @@
   <string name="fm_cmd_failed_msg">Uruchomienie radia FM nie powiodło się. Jeżeli problem będzie się powtarzał, wyłącz odbiornik i uruchom go ponownie.</string>
   <string name="fm_cmd_failed_msg_hdmi">Uruchomienie radia nie powiodło się. Współdziałanie odbiornika FM i HDMI nie jest wspierane.</string>
   <string name="fm_cmd_failed_call_on">Uruchomienie radia nie powiodło się. Uruchamianie radia jest zablokowane podczas rozmowy.</string>
+  <string name="station_name">Stacja: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Ta częstotliwość już istnieje!</string>
   <string name="station_list_delete_station">Usuń: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">Jesteś pewny, że chcesz usunąć \'<xliff:g id="name">%s</xliff:g>\'?</string>
   <string name="station_name_empty">Nie wprowadzono nazwy stacji, spróbuj ponownie.</string>
+  <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' jest w użyciu, wpisz inną nazwę.</string>
   <string name="rt_plus_tags">Tagi</string>
+  <string name="usr_def_band_min">Najniższe częstotliwości (MHz)</string>
+  <string name="usr_def_band_max">Najwyższe częstotliwości (MHz)</string>
   <string name="chanl_spacing">Odstępy kanałów</string>
+  <string name="set">Ustaw</string>
+  <string name="user_defind_band_msg">Wprowadź częstotliwość od 76.0 do 108.0 MHz z minimalnym odstępem jednego kanału</string>
 </resources>

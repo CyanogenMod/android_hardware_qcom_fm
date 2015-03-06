@@ -29,7 +29,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">įdėkite SD kortelę prieš pradedant įrašymą.</string>
+  <string name="no_storage">Prijunkite SD kortelę prieš pradedant įrašymą.</string>
   <string name="preparing_sd">SD kortelė ruošiama</string>
   <string name="access_sd_fail">Nepavyko pasiekti SD kortelės.</string>
   <string name="spaceIsLow_content">Jūsų SD kortelėje liko mažai laisvos vietos. Pakeiskite kokybės nustatymus arba ištrinkite kai kuriuos atvaizdus ar kitus failus.</string>
