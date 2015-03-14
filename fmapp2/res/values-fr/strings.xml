@@ -93,5 +93,5 @@
   <string name="usr_def_band_max">Fréquence maximale (MHz)</string>
   <string name="chanl_spacing">Espacement entre les canaux</string>
   <string name="set">Définir</string>
-  <string name="user_defind_band_msg">Entrer une fréquence entre 76,0 et 108,0 MHz avec un pas minimum de 1</string>
+  <string name="user_defind_band_msg">Entrez une fréquence entre 76,0 et 108,0 MHz avec un pas minimum de 1</string>
 </resources>
