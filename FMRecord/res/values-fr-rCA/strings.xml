@@ -30,14 +30,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="no_storage">Monter la carte SD avant de commencer les enregistrements.</string>
-  <string name="preparing_sd">Préparation de la carte SD</string>
+  <string name="preparing_sd">Préparation de la carte SD en cours</string>
   <string name="access_sd_fail">Impossible d\'accéder à la carte SD.</string>
-  <string name="spaceIsLow_content">Votre carte SD est saturée. Modifiez la qualité vers une valeur plus basse ou supprimez des images ou d\'autres types de fichiers.</string>
+  <string name="spaceIsLow_content">Votre carte SD est à court d\'espace. Modifiez le paramètre de qualité ou supprimez des images ou d\'autres types de fichiers.</string>
   <string name="FMRecording_reach_size_limit">Taille maximale atteinte.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">Mes enregistrements FM</string>
   <string name="audio_db_album_name">Enregistrements FM</string>
   <string name="audio_db_playlist_name">Enregistrements FM</string>
-  <string name="save_record_file">Enregistrement FM sauvé dans \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="save_record_file">Enregistrement FM sauvegardé dans \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_record_progress">Enregistrement FM en cours</string>
 </resources>
