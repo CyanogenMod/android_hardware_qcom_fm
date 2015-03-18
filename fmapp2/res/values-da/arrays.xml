@@ -146,6 +146,7 @@
     <item>Storbritannien </item>
     <item>USA</item>
     <item>Brugerdefineret bånd</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Nordamerika (87.5MHz til 108.0MHz i 200 KHz-trin)</item>
@@ -185,6 +186,7 @@
     <item>Storbritannien (87,5 til 108,0 MHz i 100 KHz-trin)</item>
     <item>USA (88.1 til 107,9 MHz i 200 KHz-trin)</item>
     <item>Brugerdefineret bånd</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

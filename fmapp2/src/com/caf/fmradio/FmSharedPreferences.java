@@ -81,6 +81,7 @@ public class FmSharedPreferences
    public static final int REGIONAL_BAND_UNITEDKINGDOM   = 34;
    public static final int REGIONAL_BAND_UNITED_STATES   = 35;
    public static final int REGIONAL_BAND_USER_DEFINED    = 36;
+   public static final int REGIONAL_BAND_INDONESIA       = 37;
 
    public static final int RECORD_DUR_INDEX_0_VAL        = 5;
    public static final int RECORD_DUR_INDEX_1_VAL       = 15;
@@ -1089,6 +1090,14 @@ public class FmSharedPreferences
           mFMConfiguration.setUpperLimit(107900);
           mFrequencyBand_Stepsize = 200;
           break;
+        }
+        case REGIONAL_BAND_INDONESIA:
+        {
+            /*INDONESIA : 87500 TO 108000 IN 100 KHZ STEPS*/
+            mFMConfiguration.setLowerLimit(87500);
+            mFMConfiguration.setUpperLimit(108000);
+            mFrequencyBand_Stepsize = 100;
+            break;
         }
         case REGIONAL_BAND_USER_DEFINED:
         {

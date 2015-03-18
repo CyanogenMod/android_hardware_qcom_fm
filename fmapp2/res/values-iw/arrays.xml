@@ -146,6 +146,7 @@
     <item>בריטניה </item>
     <item>ארצות הברית</item>
     <item>להקה מותאמת אישית</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>צפון אמריקה (87.5MHz ל-108.0MHz ב-200 KHz צעדים)</item>
@@ -185,6 +186,7 @@
     <item>בריטניה (87.5 MHz עד 108.0 MHz בקפיצות של 100 KHz)</item>
     <item>ארצות הברית (88.1 MHz עד 107.9 MHz בקפיצות של 200 KHz)</item>
     <item>להקה מותאמת אישית</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

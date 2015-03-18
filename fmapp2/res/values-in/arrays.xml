@@ -146,6 +146,7 @@
     <item>Inggris </item>
     <item>Amerika Serikat</item>
     <item>Pita disesuikan pengguna</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Amerika Utara (87.5MHz sampai 108.0MHz dalam langkah 200 KHz)</item>
@@ -185,6 +186,7 @@
     <item>Inggris (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>Amerika Serikat (88,1MHz sampai 107,9MHz dalam langkah 200 KHz)</item>
     <item>Pita disesuikan pengguna</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

@@ -146,6 +146,7 @@
     <item>Suurbritannia </item>
     <item>Ameerika Ühendriigid</item>
     <item>Kasutaja määratud sagedusala</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Põhja-Ameerikas (200 KHz samm 87,5 MHz-108.0 MHz)</item>
@@ -185,6 +186,7 @@
     <item>Ameerika Ühendriigid (87.5MHz-108.0MHz 100 KHz astmetega)</item>
     <item>Ameerika Ühendriikides ( 88.1 MHz-107.9 MHz 200 Hz sammudega)</item>
     <item>Kasutaja määratud sagedusala</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 kHz</item>

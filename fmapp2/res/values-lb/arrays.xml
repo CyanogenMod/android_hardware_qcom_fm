@@ -146,6 +146,7 @@
     <item>Groussbritannien </item>
     <item>USA</item>
     <item>Benotzerdefinéiert Frequenzband</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Nordamerika (87.5MHz bis 108.0MHz an 200-KHz-Schrëtter)</item>
@@ -185,6 +186,7 @@
     <item>Groussbritannien (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</item>
     <item>USA (88,1 MHz bis 107,9 MHz an 200-kHz-Schrëtter)</item>
     <item>Benotzerdefinéiert Frequenzband</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>
