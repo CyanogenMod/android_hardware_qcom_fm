@@ -146,6 +146,7 @@
     <item>Jungtinė Karalystė </item>
     <item>Jungtinės Amerikos Valstijos</item>
     <item>Vartotojo apibrėžta grupė</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Šiaurės Amerika (87,5 MHz iki 108.0 MHz, 200 KHz žingsniai)</item>
@@ -185,6 +186,7 @@
     <item>Didžioji Britanija (87,5 MHz iki 108.0 MHz, 100 KHz žingsniai)</item>
     <item>Jungtinės Amerikos Valstijos (88.1 MHz iki 107.9 MHz, 200 KHz žingsniai)</item>
     <item>Vartotojo apibrėžtas diapazonas</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>
