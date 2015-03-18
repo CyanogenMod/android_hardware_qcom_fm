@@ -146,6 +146,7 @@
     <item>Marea Britanie </item>
     <item>Statele Unite</item>
     <item>Bandă definită de utilizator</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>America de Nord (87.5MHz la 108.0MHz în pași de 200 KHz)</item>
@@ -185,6 +186,7 @@
     <item>Marea Britanie (87.5MHz la 108.0MHz în pași de 100 KHz)</item>
     <item>Statele Unite (88.1MHz la 107.9MHz în pași de 200 KHz)</item>
     <item>Bandă definită de utilizator</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

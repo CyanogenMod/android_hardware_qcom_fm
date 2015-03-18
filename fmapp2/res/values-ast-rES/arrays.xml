@@ -146,6 +146,7 @@
     <item>Reinu Xuníu </item>
     <item>Estaos Xuníos</item>
     <item>Banda Definida pol usuariu</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Norteamérica (87,5MHz a 108,0MHz en pasos de 200KHz)</item>
@@ -185,6 +186,7 @@
     <item>Reinu Xuníu (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Estaos Xuníos (88,1MHz a 107,9MHz en pasos de 200KHz)</item>
     <item>Banda Definida pol usuariu</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

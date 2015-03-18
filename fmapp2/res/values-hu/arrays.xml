@@ -146,6 +146,7 @@
     <item>Egyesült Királyság </item>
     <item>Egyesült Államok</item>
     <item>Felhasználó által meghatározott sáv</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Észak-Amerika (87,5 MHz-től 108,0 MHz-ig 200 KHz-es lépésekben)</item>
@@ -185,6 +186,7 @@
     <item>Egyesült Királyság (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
     <item>Egyesült Államok (88,1 MHz-től 107,9 MHz-ig 200 KHz-es lépésekben)</item>
     <item>Felhasználó által meghatározott sáv</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

@@ -146,6 +146,7 @@
     <item>Spojené kráľovstvo</item>
     <item>Spojené štáty</item>
     <item>Používateľom určené pásmo</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Severná Amerika (87.5MHz až 108.0MHz v 200 KHz krokoch)</item>
@@ -185,6 +186,7 @@
     <item>Spojené kráľovstvo (87,5 MHz až 108.0 MHz v 100 KHz krokoch)</item>
     <item>Spojené štáty (88.1 MHz až 107,9 MHz v 200 KHz krokoch)</item>
     <item>Užívateľom definované pásmo</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 Khz</item>

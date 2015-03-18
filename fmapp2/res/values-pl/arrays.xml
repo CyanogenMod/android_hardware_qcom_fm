@@ -146,6 +146,7 @@
     <item>Wielka Brytania </item>
     <item>Stany Zjednoczone</item>
     <item>Zespół zdefiniowany przez użytkownika</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Ameryka Północna (87,5 MHz - 108.0 MHz co 200 KHz)</item>
@@ -185,6 +186,7 @@
     <item>Wielka Brytania (87,5 MHz - 108.0 MHz co 100 KHz)</item>
     <item>Stany Zjednoczone (88.1 MHz - 107,9 MHz co 200 KHz)</item>
     <item>Częstotliwość zdefiniowana przez użytkownika</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 Khz</item>
