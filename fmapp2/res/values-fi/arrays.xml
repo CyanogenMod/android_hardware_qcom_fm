@@ -146,6 +146,7 @@
     <item>Iso-Britannia </item>
     <item>Yhdysvallat</item>
     <item>Käyttäjän määrittämä taajuusalue</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Pohjois-Amerikka (87.5MHz - 108.0MHz, 200KHz välein)</item>
@@ -185,6 +186,7 @@
     <item>Iso-Britannia (87.5MHz - 108.0MHz, 100KHz välein)</item>
     <item>Yhdysvallat (88.1MHz - 107.9MHz, 200KHz välein)</item>
     <item>Käyttäjän määrittämä taajuusalue</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

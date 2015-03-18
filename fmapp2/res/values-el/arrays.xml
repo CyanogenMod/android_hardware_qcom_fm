@@ -146,6 +146,7 @@
     <item>Ηνωμένο Βασίλειο </item>
     <item>Ηνωμένες Πολιτείες</item>
     <item>Προσαρμοσμένη μπάντα</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Βόρεια Αμερική (87.5 MHz έως 108.0 MHz με βήματα 200 KHz)</item>
@@ -185,6 +186,7 @@
     <item>Ηνωμένο Βασίλειο (87.5 MHz έως 108.0 MHz με βήματα 100 KHz)</item>
     <item>Ηνωμένες Πολιτείες (88.1 MHz έως 107.9 MHz με βήματα 200 KHz)</item>
     <item>Προσαρμοσμένη μπάντα</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

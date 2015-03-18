@@ -146,6 +146,7 @@
     <item>Lielbritānija </item>
     <item>Amerikas Savienotās Valstis</item>
     <item>Lietotāja definētā grupa</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Ziemeļamerika (87.5 MHz līdz 108.0 MHz soļiem 200 KHz)</item>
@@ -185,6 +186,7 @@
     <item>Apvienotā Karaliste (87.5 MHz līdz 108.0 MHz ar 100 KHz soli)</item>
     <item>Amerikas Savienotās valstis (88,1 MHz līdz 107,9 MHz ar 200 KHz soli)</item>
     <item>Lietotāja definētā josla</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 kHz</item>

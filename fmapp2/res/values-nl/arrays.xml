@@ -146,6 +146,7 @@
     <item>Verenigd Koninkrijk</item>
     <item>Verenigde Staten</item>
     <item>Aangepast</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Noord-Amerika (87,5 MHz tot 108,0 MHz in stappen van 200 kHz)</item>
@@ -185,6 +186,7 @@
     <item>Verenigd Koninkrijk (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</item>
     <item>Verenigde Staten (88,1 MHz tot 107,9 MHz in stappen van 200 kHz)</item>
     <item>Aangepast</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 kHz</item>

@@ -265,7 +265,7 @@ public class Settings extends PreferenceActivity implements
               if((index < 0) || (index >= summaryBandItems.length)) {
                   index = 0;
                   mBandPreference.setValueIndex(0);
-              }else if((index + 1) == summaryBandItems.length) {
+              }else if(index == FmSharedPreferences.REGIONAL_BAND_USER_DEFINED) {
                    mChannelSpacingPref.setEnabled(true);
               }else {
                    mChannelSpacingPref.setEnabled(false);
@@ -528,7 +528,7 @@ public class Settings extends PreferenceActivity implements
           }
         }
         private void setBandSummary(int index) {
-           if((index + 1) == summaryBandItems.length) {
+           if(index == FmSharedPreferences.REGIONAL_BAND_USER_DEFINED) {
               min_freq = FmSharedPreferences.getLowerLimit();
               max_freq = FmSharedPreferences.getUpperLimit();
               chan_spacing = FmSharedPreferences.getChSpacing();

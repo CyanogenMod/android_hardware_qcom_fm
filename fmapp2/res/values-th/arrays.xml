@@ -146,6 +146,7 @@
     <item>สหราชอาณาจักร</item>
     <item>สหรัฐอเมริกา</item>
     <item>ผู้ใช้กำหนดเอง</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>อเมริกาเหนือ (87.5MHz ถึง 108.0MHz ขั้นละ 200 Khz)</item>
@@ -185,6 +186,7 @@
     <item>สหราชอาณาจักร (87.5MHz To 108.0MHz ขั้นละ 100 Khz)</item>
     <item>สหรัฐอเมริกา (88.1MHz To 107.9MHz ขั้นละ 200 Khz)</item>
     <item>ผู้ใช้กำหนดเอง</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 Khz</item>

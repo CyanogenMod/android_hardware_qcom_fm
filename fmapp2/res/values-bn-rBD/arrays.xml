@@ -146,6 +146,7 @@
     <item>যুক্তরাজ্য </item>
     <item>মার্কিন যুক্তরাষ্ট্র</item>
     <item>ব্যবহারকারী নির্ধারিত ব্যান্ড</item>
+    <item>@string/indonesia_title</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>উত্তর আমেরিকা (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ২০০ কিলোহার্টজ)</item>
@@ -185,6 +186,7 @@
     <item>যুক্তরাজ্য (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ১০০ কিলোহার্টজ)</item>
     <item>মার্কিন যুক্তরাষ্ট্র (৮৮.১মেগাহার্টজ হতে ১০৭.৯মেগাহার্টজ এর মধ্যে ২০০ কিলোহার্টজ)</item>
     <item>ব্যবহারকারী নির্ধারিত ব্যান্ড</item>
+    <item>@string/indonesia_summary</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>৫০ কিলোহার্টজ</item>
