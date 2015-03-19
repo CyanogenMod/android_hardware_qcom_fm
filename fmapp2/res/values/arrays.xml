@@ -228,7 +228,7 @@
     <item>United Kingdom </item>
     <item>United States</item>
     <item>User defined band</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonesia</item>
   </string-array>
 
   <string-array name="regional_band_values" translatable="false">
@@ -310,7 +310,7 @@
     <item>United Kingdom (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>United States (88.1MHz to 107.9MHz in 200 KHz steps)</item>
     <item>User defined band</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
 
   <string-array name="channel_spacing_val" translatable="false">
