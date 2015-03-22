@@ -146,7 +146,7 @@
     <item>Reino Unido</item>
     <item>Estados Unidos</item>
     <item>Faixa definida pelo usuário</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonésia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>América do Norte (87.5MHz a 108.0MHz em espaços de 200 KHz)</item>
@@ -186,7 +186,7 @@
     <item>Reino Unido (87.5MHz a 108.0MHz em passos de 100 KHz)</item>
     <item>Estados Unidos (88.1MHz a 107.9MHz em passos de 200 KHz)</item>
     <item>Faixa definida pelo usuário</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonésia (87,5 MHz a 108,0 MHz em intervalos de 100 KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>
