@@ -146,7 +146,7 @@
     <item>Verenigde Koninkryk</item>
     <item>Verenigde State van Amerika</item>
     <item>Gebruiker gedefinieerde Band</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Noord Amerika (87.5MHz Tot 108.0MHz In 200 Khz Stappe)</item>
@@ -186,7 +186,7 @@
     <item>Verenigde Koninkryk (87.5MHz Tot 108.0MHz In 100 Khz Stappe)</item>
     <item>Verenigde State van Amerika (88.1MHz Tot 107.9MHz In 200 Khz Stappe)</item>
     <item>Gebruiker gedefinieerde Band</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonesia (87.5MHz Tot 108.0MHz In 100 Khz Stappe)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 Khz</item>

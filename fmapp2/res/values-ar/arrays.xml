@@ -146,7 +146,7 @@
     <item>المملكة المتحدة </item>
     <item>الولايات المتحدة</item>
     <item>الفرقة المعرفة من قبل المستخدم</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>أمريكا الشمالية (87.5 MHz إلى ميغاهرتز 108.0 في 200 كيلوهرتز الخطوات)</item>
@@ -186,7 +186,7 @@
     <item>المملكة المتحدة (87.5 MHz إلى ميغاهرتز 108.0 في 100 كيلو هرتز الخطوات)</item>
     <item>الولايات المتحدة (88.1 MHz إلى 107.9 ميغاهرتز في 200 كيلوهرتز الخطوات)</item>
     <item>الفرقة المعرفة من قبل المستخدم</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 كيلو هرتز</item>

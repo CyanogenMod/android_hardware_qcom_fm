@@ -146,7 +146,7 @@
     <item>එක්සත් රාජධානිය</item>
     <item>එක්සත් ජනපදය</item>
     <item>පරිශීලක නිශ්චිත කලාපය</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>උතුරු අමෙරිකාව (87.5MHz සිට 108.0MHz දක්වා 200 KHz පරාස තුල)</item>
@@ -186,7 +186,7 @@
     <item>එක්සත් රාජධානිය (87.5MHz සිට 108.0MHz දක්වා 100 KHz පරාස තුල)</item>
     <item>එක්සත් ජනපදය (88.1MHz සිට 107.9MHz දක්වා 200 KHz පරාස තුල)</item>
     <item>පරිශීලක නිශ්චිත කලාපය</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

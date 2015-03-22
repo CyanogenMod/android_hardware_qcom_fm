@@ -146,7 +146,7 @@
     <item>Birləşmiş Krallıq</item>
     <item>ABŞ</item>
     <item>İstifadəçi təyin edən zolaq</item>
-    <item>@string/indonesia_title</item>
+    <item>İndoneziya</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Şimali Amerika (87.5MHz - 108.0MHz arası 200 KHz dalğasında)</item>
@@ -186,7 +186,7 @@
     <item>Birləşmiş Krallıq (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
     <item>ABŞ (88.1MHz - 107.9MHz arası 200 KHz dalğasında)</item>
     <item>İstifadəçi təyin edən zolaq</item>
-    <item>@string/indonesia_summary</item>
+    <item>İndoneziya (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

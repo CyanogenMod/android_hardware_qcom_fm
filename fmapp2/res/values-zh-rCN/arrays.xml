@@ -146,7 +146,7 @@
     <item>英国</item>
     <item>美国</item>
     <item>用户定义的频段</item>
-    <item>@string/indonesia_title</item>
+    <item>印尼</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>北美 (87.5MHz - 108.0MHz ，步长 200 KHz)</item>
@@ -186,7 +186,7 @@
     <item>英国 (87.5MHz - 108.0MHz ，步长 100 KHz)</item>
     <item>美国 (88.1MHz - 107.9MHz ，步长 200 KHz)</item>
     <item>用户定义的频段</item>
-    <item>@string/indonesia_summary</item>
+    <item>印尼 ( 由 87.5MHz 至 108.0MHz 在每 100 KHz )</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

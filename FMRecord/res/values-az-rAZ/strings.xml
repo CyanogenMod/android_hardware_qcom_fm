@@ -34,10 +34,11 @@
   <string name="access_sd_fail">SD karta giriş baş tutmadı.</string>
   <string name="spaceIsLow_content">SD kartınızın saxlama sahəsi azalır. Keyfiyyət tənzimləmələrini dəyişin və ya bəzi şəkilləri, ya da digər faylları silin.</string>
   <string name="FMRecording_reach_size_limit">Ölçü limitinə çatdınız.</string>
-  <string name="audio_db_title_format"><xliff:g id="format">iiii-AA-gg SS:dd:ss</xliff:g></string>
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">FM səsyazmalarım</string>
   <string name="audio_db_album_name">FM səsyazmaları</string>
   <string name="audio_db_playlist_name">FM səsyazmaları</string>
   <string name="save_record_file">FM səsyazma faylı burada saxlanıldı: \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_record_progress">FM səsyazması davam edir</string>
+  <string name="unable_to_store">Yazılan səs saxlanıla bilmir</string>
 </resources>

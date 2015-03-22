@@ -146,7 +146,7 @@
     <item>英國</item>
     <item>美國</item>
     <item>使用者定義的頻段</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>北美 (87.5 Mhz - 108.0 MHz 內 200 KHz 頻道距離)</item>
@@ -186,7 +186,7 @@
     <item>英國 (87.5 Mhz - 108.0 MHz 內 100 KHz 頻道距離)</item>
     <item>美國 (88.1 Mhz - 107.9 MHz 內 200 KHz 頻道距離)</item>
     <item>使用者定義的頻段</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

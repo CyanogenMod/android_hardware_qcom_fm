@@ -146,7 +146,7 @@
     <item>شانشینی به‌ریتانیا </item>
     <item>ئه‌مریکا</item>
     <item>به‌کارهێنه‌ر پێناسه‌ی باندێکی کرد</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>باکوری ئه‌مریکا 87.5MHz to 108.0MHz in 200 KHz</item>
@@ -186,7 +186,7 @@
     <item>United Kingdom (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>United States (88.1MHz to 107.9MHz in 200 KHz steps)</item>
     <item>به‌کارهێنه‌ر پێناسه‌ی ده‌سته‌یه‌کی کرد</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

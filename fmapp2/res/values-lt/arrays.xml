@@ -146,7 +146,7 @@
     <item>Jungtinė Karalystė </item>
     <item>Jungtinės Amerikos Valstijos</item>
     <item>Vartotojo apibrėžta grupė</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonezija</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Šiaurės Amerika (87,5 MHz iki 108.0 MHz, 200 KHz žingsniai)</item>
@@ -165,7 +165,7 @@
     <item>Vokietija (87,5 MHz iki 108.0 MHz, 50 KHz žingsniai)</item>
     <item>Graikija (87,5 MHz iki 108.0 MHz, 50 KHz žingsniai)</item>
     <item>Honkongas (87,5 MHz iki 108.0 MHz, 100 KHz žingsniai)</item>
-    <item>Indija (87,5 MHz iki 108.0 MHz 100 KHz žingsniai)</item>
+    <item>Indija (87,5 MHz iki 108.0 MHz, 100 KHz žingsniai)</item>
     <item>Airija (87,5 MHz iki 108.0 MHz, 50 KHz žingsniai)</item>
     <item>Italija (87,5 MHz iki 108.0 MHz, 50 KHz žingsniai)</item>
     <item>Korėja (87,5 MHz iki 108.0 MHz, 200 KHz žingsniai)</item>
@@ -186,7 +186,7 @@
     <item>Didžioji Britanija (87,5 MHz iki 108.0 MHz, 100 KHz žingsniai)</item>
     <item>Jungtinės Amerikos Valstijos (88.1 MHz iki 107.9 MHz, 200 KHz žingsniai)</item>
     <item>Vartotojo apibrėžtas diapazonas</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonezija (87,5 MHz iki 108.0 MHz, 100 KHz žingsniai)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>
