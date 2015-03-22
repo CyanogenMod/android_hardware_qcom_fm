@@ -31,32 +31,32 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM Radio</string>
   <string name="tx_app_name">FM Ötürücü</string>
-  <string name="menu_add_to_preset">Siyahılara əlavə et</string>
+  <string name="menu_add_to_preset">Öntərtibli siyahılara əlavə et</string>
   <string name="menu_settings">Tənzimləmələr</string>
-  <string name="menu_record_start">Yazmağa başla</string>
-  <string name="menu_record_stop">Yazmağı dayandır</string>
+  <string name="menu_record_start">Səsyazmağa başla</string>
+  <string name="menu_record_stop">Səsyazmanı dayandır</string>
   <string name="menu_all_channels">Bütün kanallar</string>
   <string name="app_label_all_channels">Bütün kanallar</string>
-  <string name="button_ok">OK</string>
+  <string name="button_ok">Oldu</string>
   <string name="button_cancel">İmtina</string>
   <string name="button_delete">Sil</string>
-  <string name="error_sdcard_access">SD karta daxil ola bilmir</string>
+  <string name="error_sdcard_access">SD karta giriş edə bilmir</string>
   <string name="fm_service_started">FM xidməti</string>
   <string name="menu_sleep">Yuxu</string>
   <string name="menu_sleep_cancel">Yuxudan çıx</string>
   <string name="menu_wired_headset">Simli qulaqlıq</string>
-  <string name="menu_speaker_on">Dinamiki aç</string>
-  <string name="menu_display_tags">işarələri göstər</string>
-  <string name="menu_speaker_off">Dinamiki bağla</string>
-  <string name="menu_scan_start">Axtar</string>
+  <string name="menu_speaker_on">Səsucaldanı fəallaşdır</string>
+  <string name="menu_display_tags">Etiketləri göstər</string>
+  <string name="menu_speaker_off">Səsucaldanı ləğv et</string>
+  <string name="menu_scan_start">Tədqiq et</string>
   <string name="menu_scan_stop">Axtarışı dayandır</string>
   <string name="menu_stats">FM RF statistikaları</string>
   <string name="button_text_stop">Dayandır</string>
   <string name="msg_seeking">FM stansiyası axtarılır</string>
-  <string name="msg_scanning">Bütün FM stansiyaları axtarılır</string>
-  <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>\' axtarılır</string>
+  <string name="msg_scanning">Bütün FM stansiyaları tədqiq edilir</string>
+  <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>\' tədqiq edilir</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
-  <string name="msg_searching">Təyin olunmuş siyahını yaratmaq üçün güclü stansiyalar axtarılır</string>
+  <string name="msg_searching">Öntərtibli siyahı yaratmaq üçün güclü stansiyalar axtarılır</string>
   <string name="msg_searching_title">Siyahıları avtomatik seç</string>
   <string name="msg_weak_searching">Yayımlanacaq tezliklər axtarılır</string>
   <string name="msg_noantenna">FM radiodan istifadə etmək üçün zəhmət olmasa qulaqlığı taxın</string>
@@ -73,7 +73,7 @@
   <string name="presetlist_delete_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' və bütün stansiyalar silinsin?</string>
   <string name="presetlist_autoselect_title">Avtomatik seçimi təsdiqlə</string>
   <string name="presetlist_autoselect_name">Avtomatik Seç \'<xliff:g id="presetlist_name">%1$s</xliff:g>\' siyahısındakı bütün tərtib olunmuş siyahıları siləcək, davam edilsin?</string>
-  <string name="fmtx_autoselect_name">Avtomatik Seç bütün tərtib olunmuş siyahıları siləcək, davam edilsin?</string>
+  <string name="fmtx_autoselect_name">Avtomatik seçim bütün öntərtibli siyahıları siləcək, davam edilsin?</string>
   <string name="enter_frequency">Stansiyaya kökləyin</string>
   <string name="enter_new_frequency_title">Tezlik daxil edin</string>
   <string name="preset_now_playing">İndi səslənir </string>
@@ -91,7 +91,7 @@
   <string name="preset_empty_add_summary">Stansiya əlavə et</string>
   <string name="preset_add">Əlavə et</string>
   <string name="preset_replace">Dəyişdir</string>
-  <string name="preset_tune">Köklən</string>
+  <string name="preset_tune">Köklə</string>
   <string name="preset_rename">Yenidən adlandır</string>
   <string name="preset_delete">Sil</string>
   <string name="preset_search">\'<xliff:g id="preset_name">%1$s</xliff:g>\' üçün axtar</string>
@@ -99,6 +99,7 @@
   <string name="stat_notif_tx_frequency">Yayımlanır: \'<xliff:g id="frequency">%1$s</xliff:g>\'</string>
   <string name="sel_band_menu">Regional diapazonu seçin</string>
   <string name="settings_menu">Tənzimləmələr</string>
+  <string name="regional_band">Regional zolaq</string>
   <string name="aud_output_mode">Səs çıxışı rejimi</string>
   <string name="sel_audio_output">Səs çıxışı seçin</string>
   <string name="record_dur">Səsyazma müddəti</string>
@@ -110,12 +111,15 @@
   <string name="revert_to_fac">Zavod tənzimləmələrinə geri dön</string>
   <string name="settings_back">Geri</string>
   <string name="settings_revert_confirm_title">Tənzimləmələri sıfırlamağı təsdiq edin</string>
-  <string name="settings_back_summary">Əvvəlki görünüşə geri dön</string>
+  <string name="settings_revert_confirm_msg">Bu öntərtibli siyahılar da daxil olmaqla bütün tənzimləmələri siləcək</string>
+  <string name="settings_back_summary">Əvvəlki görünüşünə qayıt</string>
+  <string name="settings_revert_defaults_title">Zavod tənzimləmələrinə qayıt</string>
   <string name="settings_revert_defaults_summary">Bütün tənzimləmələri sıfırla</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="default_audio">Stereo</string>
   <string name="factory_reset_dialog_title">Sıfırlamanı təsdiqlə</string>
+  <string name="factory_reset_dialog_message">Bu öntərtibli siyahılar da daxil olmaqla bütün tənzimləmələri siləcək</string>
   <string name="station_move">Köçür</string>
   <string name="station_edit">Düzəliş et</string>
   <string name="no_storage">Səsyazmaya başlamamışdan əvvəl SD kartı taxın.</string>
@@ -127,23 +131,34 @@
   <string name="find_af_station">Tap</string>
   <string name="menu_add_list">Siyahı əlavə et</string>
   <string name="menu_rename_list">Siyahını adlandır</string>
+  <string name="menu_reorder_list">Siyahısını sırala</string>
+  <string name="menu_scan_for_preset">Öntərtibli siyahıları tədqiq et</string>
   <string name="menu_delete_list">Siyahını sil</string>
   <string name="alert_dialog_ok">Oldu</string>
   <string name="alert_dialog_cancel">İmtina</string>
   <string name="alert_dialog_hint">Ad daxil edin</string>
+  <string name="search_dialog_title">Stansiyaları tədqiq et</string>
   <string name="search_category">Axtarış növünü seçin</string>
   <string name="search_category_title">Axtarış növü</string>
-  <string name="search_category_tune">Köklən</string>
+  <string name="search_category_tune">Köklə</string>
   <string name="search_category_type">Proqram növünə görə axtarışı seç</string>
   <string name="search_category_type_title">Proqram növünə görə axtar</string>
   <string name="presets_back">Geri</string>
-  <string name="nav_mode_presets">Tərtib olunmuş siyahılar</string>
+  <string name="presets_back_summary">Əvvəlki görünüşünə qayıt</string>
+  <string name="nav_mode_presets">Öncədən tərtib olunmuş siyahılar</string>
   <string name="nav_mode_stations">Stansiyalar</string>
+  <string name="radio_text_string">Bu sürüşməsi lazım olan uzun bir radio silsilə mətn mesajıdır</string>
   <string name="eradio_text_string">Genişləndirilmiş radio mətin mesajı</string>
-  <string name="fm_command_timeout_title">Zaman aşımı</string>
+  <string name="fm_command_timeout_title">Qoyulan vaxt</string>
   <string name="fm_tune_timeout_msg">FM stansiyasını kökləmək üçün cavab alınmadı. Əgər problem davam etsə, zəhmət olmasa FM\'i bağlayıb təkrar açın.</string>
+  <string name="fm_command_failed_title">FM əməliyyatı baş tutmadı</string>
+  <string name="fm_cmd_failed_msg">FM əməliyyatı baş tutmadı. Əgər problem davam edərsə, zəhmət olmasa FM\'i bağlayıb yenidən açın.</string>
+  <string name="fm_cmd_failed_msg_hdmi">FM əməliyyatı baş tutmadı. FM və HDMI\'ın eyni vaxtda işləməsi dəstəklənmir.</string>
+  <string name="fm_cmd_failed_call_on">FM əməliyyatı baş tutmadı. FM səsinə zəng vaxtı icazə verilmir.</string>
   <string name="default_preset_list_name">FM siyahısı</string>
-  <string name="audio_db_title_format"><xliff:g id="format">iiii-AA-gg SS:dd:ss</xliff:g></string>
+  <string name="stop_scanning">Tədqiqatı dayandır</string>
+  <string name="transmit_msg_string">Yayım edilir:</string>
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">FM səsyazmalarım</string>
   <string name="audio_db_album_name">FM səsyazmaları</string>
   <string name="audio_db_playlist_name">FM səsyazmaları</string>
@@ -152,6 +167,10 @@
   <string name="station_list_delete_station">Sil: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">\'<xliff:g id="name">%s</xliff:g>\' silmək istədiyinizə əminsiniz?</string>
   <string name="station_name_empty">Stansiya adı boşdur, zəhmət olmasa yenidən daxil edin.</string>
+  <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' adlı stansiya artıq mövcuddur. Zəhmət olmasa başqa ad daxil edin.</string>
+  <string name="rt_plus_tags">Etiketlər</string>
   <string name="usr_def_band_min">Ən aşağı tezlik həddi (MHz)</string>
   <string name="usr_def_band_max">Ən yuxarı tezlik həddi (MHz)</string>
+  <string name="sel_chanl_spacing">Kanal aralığı seçin</string>
+  <string name="chanl_spacing">Kanal aralığı</string>
 </resources>

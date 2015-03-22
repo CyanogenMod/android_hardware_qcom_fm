@@ -42,7 +42,7 @@
   <string name="button_delete">Läschen</string>
   <string name="error_sdcard_access">Keen Zougrëff op d\'SD-Kaart méiglech</string>
   <string name="fm_service_started">FM-Service</string>
-  <string name="menu_sleep">Rouezoustand</string>
+  <string name="menu_sleep">Rouzoustand</string>
   <string name="menu_sleep_cancel">Schlof ofbriechen</string>
   <string name="menu_wired_headset">Verkaabelte Kopfhörer</string>
   <string name="menu_speaker_on">Lautsprecher aktivéieren</string>
