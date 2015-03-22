@@ -146,7 +146,7 @@
     <item>영국</item>
     <item>미국</item>
     <item>사용자 정의 밴드</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>북미 지역 (87.5MHz ~ 108.0MHz, 200KHz 단위)</item>
@@ -186,7 +186,7 @@
     <item>영국 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
     <item>미국 (88.1MHz ~ 107.9MHz, 200KHz 단위)</item>
     <item>사용자 정의 밴드</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

@@ -146,7 +146,7 @@
     <item>Regne Unit</item>
     <item>Estats Units</item>
     <item>Banda Definida per l\'Usuari</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonèsia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Nord Amèrica (87.5MHz a 108.0MHz en passos de 200 Khz)</item>
@@ -186,7 +186,7 @@
     <item>Regne Unit (87.5MHz a 108.0MHz en passos de 100 Khz)</item>
     <item>Estats Units (88.1MHz a 107.9MHz en passos de 200 Khz)</item>
     <item>Banda Definida per l\'Usuari</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonèsia (87.5MHz a 108.0MHz en passos de 100 KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 Khz</item>

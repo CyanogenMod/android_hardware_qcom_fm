@@ -146,7 +146,7 @@
     <item>Erresuma Batua </item>
     <item>Estatu Batuak</item>
     <item>Pertsonalizatua</item>
-    <item>@string/indonesia_title</item>
+    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Ipar Amerika (87,5MHz-tik 108,0MHz-ra 200KHz-tako pausuetan)</item>
@@ -186,7 +186,7 @@
     <item>Erresuma Batua (87,5MHz-tik 108,0MHz-ra 100KHz-tako pausuetan)</item>
     <item>Estatu Batuak (88,1MHz-tik 107,9MHz-ra 200KHz-tako pausuetan)</item>
     <item>Banda pertsonalizatua</item>
-    <item>@string/indonesia_summary</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50KHz</item>
