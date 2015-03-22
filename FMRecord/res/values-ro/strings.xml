@@ -40,4 +40,5 @@
   <string name="audio_db_playlist_name">Înregistrări FM</string>
   <string name="save_record_file">Fișierul cu înregistrarea FM s-a salvat la \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_record_progress">Înregistrare FM în curs</string>
+  <string name="unable_to_store">Imposibil de salvat înregistrarea audio</string>
 </resources>

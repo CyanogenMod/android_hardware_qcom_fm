@@ -146,7 +146,7 @@
     <item>Birleşik Krallık </item>
     <item>Birleşik Devletler</item>
     <item>Kullanıcı tanımlı bant</item>
-    <item>@string/indonesia_title</item>
+    <item>Endonezya</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Kuzey Amerika (87.5MHz - 108.0MHz arası 200 Khz aralıklarla)</item>
@@ -186,7 +186,7 @@
     <item>Birleşik Krallık (87.5MHz - 108.0MHz arası 100 Khz aralıklarla)</item>
     <item>Birleşik Devletler (88.1MHz - 107.9MHz arası 200 Khz aralıklarla)</item>
     <item>Kullanıcı tanımlı bant</item>
-    <item>@string/indonesia_summary</item>
+    <item>Endonezya (87.5MHz - 108.0MHz arası 100 Khz aralıklarla)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

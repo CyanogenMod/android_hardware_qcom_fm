@@ -146,7 +146,7 @@
     <item>Великобритания  </item>
     <item>США</item>
     <item>Пользовательская полоса частот</item>
-    <item>@string/indonesia_title</item>
+    <item>Индонезия</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Северная Америка (от 87.5 МГц до 108.0 МГц с шагом 200 кГц)</item>
@@ -186,7 +186,7 @@
     <item>Великобритания  (от 87.5 МГц до 108.0 МГц с шагом 100 кГц)</item>
     <item>США (от 88.1 МГц до 107.9 МГц с шагом 200 кГц)</item>
     <item>Пользовательская полоса частот</item>
-    <item>@string/indonesia_summary</item>
+    <item>Индонезия (от 87.5 МГц до 108.0 МГц с шагом 100 кГц)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 кГц</item>
