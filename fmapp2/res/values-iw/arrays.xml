@@ -104,7 +104,7 @@
     <item>קלאסית רצינית</item>
     <item>רווחה</item>
     <item>ספורט</item>
-    <item>תירות</item>
+    <item>תיירות</item>
     <item>מגוון</item>
     <item>מזג אוויר</item>
   </string-array>
@@ -145,7 +145,7 @@
     <item>טורקיה</item>
     <item>בריטניה </item>
     <item>ארצות הברית</item>
-    <item>להקה מותאמת אישית</item>
+    <item>טווח מותאמת אישית</item>
     <item>אינדונזיה</item>
   </string-array>
   <string-array name="regional_band_summary">
