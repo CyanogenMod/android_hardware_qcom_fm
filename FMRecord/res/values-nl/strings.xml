@@ -30,7 +30,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="no_storage">Plaats SD-kaart om te kunnen opnemen.</string>
-  <string name="preparing_sd">SD-kaart voorbereiden\u2026</string>
+  <string name="preparing_sd">SD-kaart voorbereiden</string>
   <string name="access_sd_fail">Geen toegang tot SD-kaart.</string>
   <string name="spaceIsLow_content">SD-kaart bijna vol. Verminder de opnamekwaliteit of verwijder bestanden.</string>
   <string name="FMRecording_reach_size_limit">Opnamelimiet bereikt.</string>

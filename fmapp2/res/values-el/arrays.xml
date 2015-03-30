@@ -186,7 +186,7 @@
     <item>Ηνωμένο Βασίλειο (87.5 MHz έως 108.0 MHz με βήματα 100 KHz)</item>
     <item>Ηνωμένες Πολιτείες (88.1 MHz έως 107.9 MHz με βήματα 200 KHz)</item>
     <item>Προσαρμοσμένη μπάντα</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Ινδονησία (87.5 MHz έως 108.0 MHz με βήματα 100 KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

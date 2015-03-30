@@ -29,16 +29,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Səsyazmaya başlamamışdan əvvəl SD kartı taxın.</string>
-  <string name="preparing_sd">SD kart hazırlanır</string>
-  <string name="access_sd_fail">SD karta müraciət edə bilmədi.</string>
-  <string name="spaceIsLow_content">SD kartınızın saxlama sahəsi azalır. Keyfiyyət tənzimləmələrini dəyişin və ya bəzi şəkilləri, ya da digər faylları silin.</string>
-  <string name="FMRecording_reach_size_limit">Ölçü limitinə çatdınız.</string>
-  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">FM səsyazmalarım</string>
-  <string name="audio_db_album_name">FM səsyazmaları</string>
-  <string name="audio_db_playlist_name">FM səsyazmaları</string>
-  <string name="save_record_file">FM səsyazma faylı burada saxlanıldı: \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">FM səsyazması davam edir</string>
-  <string name="unable_to_store">Yazılan səs saxlanıla bilmir</string>
+  <string name="no_storage">ئۈنگە ئېلىشتىن ئىلگىرى SD كارتىنى ئېگەرلەڭ.</string>
+  <string name="preparing_sd">SD كارتا تەييارلاۋاتىدۇ</string>
+  <string name="access_sd_fail">SD كارتىنى زىيارەت قىلالمايدۇ.</string>
+  <string name="spaceIsLow_content">USB ساقلىغۇچ بوشلۇقىڭىز توشاي دېدى. سۈپەت تەڭشەكنى ئۆزگەرتىڭ ياكى بەزى سۈرەتلەرنى ياكى باشقا ھۆججەتلەرنى ئۆچۈرۈڭ.</string>
+  <string name="FMRecording_reach_size_limit">چوڭلۇق چېكىگە يەتتى.</string>
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <string name="audio_db_artist_name">مېنىڭ FM ئۈن خاتىرەم</string>
+  <string name="audio_db_album_name">FM ئۈن خاتىرىلەر</string>
+  <string name="audio_db_playlist_name">FM ئۈن خاتىرىلەر</string>
+  <string name="save_record_file">FM ئۈن خاتىرە ھۆججىتى <xliff:g id="record_file">%1$s</xliff:g> غا ساقلاندى</string>
+  <string name="fm_record_progress">FM ئۈنىنى خاتىرىلەۋاتىدۇ</string>
+  <string name="unable_to_store">ئۈنگە ئالغان ئاۋازنى ساقلىيالمىدى</string>
 </resources>
