@@ -31,7 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="no_storage">Səsyazmaya başlamamışdan əvvəl SD kartı taxın.</string>
   <string name="preparing_sd">SD kart hazırlanır</string>
-  <string name="access_sd_fail">SD karta giriş baş tutmadı.</string>
+  <string name="access_sd_fail">SD karta müraciət edə bilmədi.</string>
   <string name="spaceIsLow_content">SD kartınızın yaddaşı dolmaq üzrədir. Keyfiyyət tənzimləmələrini dəyişin və ya bəzi şəkilləri, ya da digər faylları silin.</string>
   <string name="FMRecording_reach_size_limit">Ölçü limitinə çatdınız.</string>
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>

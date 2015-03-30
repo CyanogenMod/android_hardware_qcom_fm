@@ -40,7 +40,7 @@
   <string name="button_ok">Oldu</string>
   <string name="button_cancel">İmtina</string>
   <string name="button_delete">Sil</string>
-  <string name="error_sdcard_access">SD karta giriş edə bilmir</string>
+  <string name="error_sdcard_access">SD karta müraciət edə bilmir</string>
   <string name="fm_service_started">FM xidməti</string>
   <string name="menu_sleep">Yuxu</string>
   <string name="menu_sleep_cancel">Yuxudan çıx</string>
@@ -124,7 +124,7 @@
   <string name="station_edit">Düzəliş et</string>
   <string name="no_storage">Səsyazmaya başlamamışdan əvvəl SD kartı taxın.</string>
   <string name="preparing_sd">SD kart hazırlanır</string>
-  <string name="access_sd_fail">SD karta daxil ola bilmədi.</string>
+  <string name="access_sd_fail">SD karta müraciət edə bilmədi.</string>
   <string name="spaceIsLow_content">SD kart saxlama sahəsində yer azalır. Keyfiyyət tənzimləmələrini dəyişin və ya yer eləmək üçün bəzi faylları silin.</string>
   <string name="FMRecording_reach_size_limit">Ölçü limitinə çatdı.</string>
   <string name="delete_station_title">Sil</string>
