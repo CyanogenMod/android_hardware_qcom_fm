@@ -146,7 +146,7 @@
     <item>Великобританія </item>
     <item>Великобританія</item>
     <item>Користувацька смуга частот</item>
-    <item>Indonesia</item>
+    <item>Індонезія</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Північна Америка (87.5 МГц до 108.0 МГц з кроком у 200 кГц)</item>
@@ -186,7 +186,7 @@
     <item>Велика Британія (87.5 МГц до 108.0 МГц з кроком у 100 кГц)</item>
     <item>США (88,1 МГц 107,9 МГц з кроком у 200 кГц)</item>
     <item>Користувацька смуга частот</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Індонезія (87.5 МГц до 108.0 МГц з кроком у 100 кГц)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 кГц</item>
