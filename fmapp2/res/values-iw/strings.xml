@@ -42,14 +42,14 @@
   <string name="menu_display_tags">הצג תגיות</string>
   <string name="button_text_stop">עצור</string>
   <string name="msg_seeking">מחפש תחנת FM\u2026</string>
-  <string name="msg_scanning">סורק את כל תחנות FM\u2026</string>
+  <string name="msg_scanning">סורק את כל תחנות ה-FM\u2026</string>
   <string name="msg_scanning_pty">מחפש את \"<xliff:g id="pty_name">%1$s</xliff:g>\"\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
-  <string name="msg_searching_title">בוחר ערכים אוטומטית</string>
+  <string name="msg_searching_title">בוחר תחנות אוטומטית</string>
   <string name="msg_searching">מחפש תחנות בעלות קליטה טובה על מנת לבנות רשימת תחנות\u2026</string>
-  <string name="msg_noantenna">אנא חבר אוזניה לשימוש ברדיו FM</string>
-  <string name="dialog_sleep_title">זמן לכיבוי אוטומטי</string>
-  <string name="presetlist_select_name">בחר \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
+  <string name="msg_noantenna">אנא חבר אוזנייה בשביל להשתמש ברדיו FM</string>
+  <string name="dialog_sleep_title">זמן לשינה אוטומטית</string>
+  <string name="presetlist_select_name">בחר \"<xliff:g id="presetlist_name">%1$s</xliff:g>\"</string>
   <string name="presetlist_add_new">הוסף רשימה חדשה</string>
   <string name="dialog_presetlist_rename_title">הזן שם</string>
   <string name="presetlist_autoselect_title">אשר בחירה אוטומטית</string>
@@ -57,33 +57,33 @@
   <string name="preset_tune">המנגינה</string>
   <string name="preset_rename">שנה שם</string>
   <string name="preset_delete">מחק</string>
-  <string name="preset_search">סרוק עבור \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
-  <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
-  <string name="regional_band">להקה אזורית</string>
+  <string name="preset_search">חפש עבור \"<xliff:g id="preset_name">%1$s</xliff:g>\"</string>
+  <string name="stat_notif_frequency">\"<xliff:g id="frequency">%1$s</xliff:g>\" MHz</string>
+  <string name="regional_band">טווח אזורי</string>
   <string name="aud_output_mode">מצב פלט קולי</string>
   <string name="audio_type_stereo">סטריאו</string>
   <string name="audio_type_mono">מונו</string>
   <string name="record_dur">משך הקלטה</string>
   <string name="auto_select_af">תדר חלופי</string>
   <string name="settings_revert_defaults_title">שחזר להגדרות ברירת מחדל</string>
-  <string name="settings_revert_defaults_summary">אפס כל ההגדרות</string>
+  <string name="settings_revert_defaults_summary">איפוס כל ההגדרות</string>
   <string name="settings_revert_confirm_title">אשר איפוס</string>
   <string name="settings_revert_confirm_msg">פעולה זו תמחק את כל הגדרות היישום, כולל קביעות שנשמרו. האם להמשיך?</string>
   <string name="no_storage">טען כרטיס SD לפי תחילת ההקלטה.</string>
   <string name="preparing_sd">מכין כרטיס SD\u2026</string>
   <string name="access_sd_fail">אין אפשרות לגשת לכרטיס SD.</string>
-  <string name="spaceIsLow_content">שטח אחסון כרטיס ה-SD שלך אוזל. שנה את ההגדרה של האיכות או מחק קבצים מסוימים אחרים כדי לפנות אזור.</string>
-  <string name="menu_scan_for_preset">סרוק תחנות</string>
+  <string name="spaceIsLow_content">שטח האחסון בכרטיס ה-SD שלך אוזל. שנה את הגדרות האיכות או מחק קבצים אחרים כדי לפנות מקום.</string>
+  <string name="menu_scan_for_preset">סרוק למציאת תחנות</string>
   <string name="alert_dialog_hint">הזן שם</string>
   <string name="search_dialog_title">סריקת תחנות</string>
   <string name="fm_command_timeout_title">זמן קצוב לתפוגה</string>
-  <string name="fm_tune_timeout_msg">אין קליטה מהתחנה הנבחרת, במידה והבעיה חוזרת על עצמה כבה בבקשה את מקלט ה FM והפעל אותו שוב.</string>
+  <string name="fm_tune_timeout_msg">אין קליטה מהתחנה הנבחרת, במידה והבעיה חוזרת על עצמה כבה בבקשה את מקלט ה-FM והפעל אותו שוב.</string>
   <string name="fm_command_failed_title">פעולת FM נכשלה</string>
   <string name="fm_cmd_failed_msg">פעולת FM נכשלה. אם הבעיה נמשכת, בטל FM והפעל מחדש.</string>
   <string name="fm_cmd_failed_msg_hdmi">פעולת FM נכשלה. הקבלת FM ו-HDMI אינה נתמכת.</string>
   <string name="fm_cmd_failed_call_on">כשל בהפעלת רדיו FM. רדיו FM אין מאופשר במהלך שיחה.</string>
   <string name="station_name">תחנה: <xliff:g id="name">%s </xliff:g></string>
-  <string name="station_exists">תדירות זו כבר קיימת!</string>
+  <string name="station_exists">תדר זה כבר קיים!</string>
   <string name="station_list_delete_station">מחק: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">האם אתה בטוח שברצונך למחוק את \"<xliff:g id="name">%s</xliff:g>\"?</string>
   <string name="station_name_empty">שם התחנה ריק, הקלד שוב.</string>
