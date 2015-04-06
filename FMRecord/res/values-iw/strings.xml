@@ -32,13 +32,13 @@
   <string name="no_storage">טען כרטיס SD לפי תחילת ההקלטה.</string>
   <string name="preparing_sd">מכין כרטיס SD</string>
   <string name="access_sd_fail">אין אפשרות לגשת לכרטיס SD.</string>
-  <string name="spaceIsLow_content">השטח בכרטיס SD אוזל. שנה את הגדרת האיכות או מחק חלק מהתמונות או קבצים אחרים.</string>
+  <string name="spaceIsLow_content">השטח בכרטיס ה-SD אוזל. שנה את הגדרת האיכות או מחק כמה תמונות או קבצים אחרים.</string>
   <string name="FMRecording_reach_size_limit">הגעת למגבלת הגודל.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">הקלטות ה-FM שלי</string>
   <string name="audio_db_album_name">הקלטות FM</string>
   <string name="audio_db_playlist_name">הקלטות FM</string>
-  <string name="save_record_file">קובץ ההקלטה יישמר ל-\'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="save_record_file">קובץ ההקלטה נשמר ל-\"<xliff:g id="record_file">%1$s</xliff:g>\"</string>
   <string name="fm_record_progress">הקלטת FM בתהליך</string>
-  <string name="unable_to_store">אין אפשרות לשמור את מה שהוקלט</string>
+  <string name="unable_to_store">אין אפשרות לשמור את ההקלטה</string>
 </resources>
