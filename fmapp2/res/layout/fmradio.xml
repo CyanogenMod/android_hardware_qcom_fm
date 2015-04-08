@@ -55,6 +55,7 @@
             android:background="@color/picker_background_color"/>
 
         <ImageView
+            android:id="@+id/fm_seeker"
             android:src="@drawable/seeker"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
