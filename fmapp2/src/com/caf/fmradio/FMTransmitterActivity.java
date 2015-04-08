@@ -231,10 +231,6 @@ public class FMTransmitterActivity extends Activity {
        }
        mRadioTextTV = (TextView)findViewById(R.id.radio_text_tv);
 
-       //if((mRadioTextScroller == null) && (mRadioTextTV != null)) {
-         // mRadioTextScroller = new ScrollerText(mRadioTextTV);
-       //}
-
        enableRadioOnOffUI(false);
 
        if(false == bindToService(this, osc)) {
