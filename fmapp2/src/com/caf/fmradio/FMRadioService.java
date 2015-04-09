@@ -189,6 +189,8 @@ public class FMRadioService extends Service
    private Notification mNotificationInstance;
    private NotificationManager mNotificationManager;
 
+   private boolean mPendingEnable = false;
+
    public FMRadioService() {
    }
 
@@ -198,6 +200,7 @@ public class FMRadioService extends Service
 
       mPrefs = new FmSharedPreferences(this);
       mCallbacks = null;
+      mPendingEnable = false;
       TelephonyManager tmgr = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
       tmgr.listen(mPhoneStateListener, PhoneStateListener.LISTEN_CALL_STATE |
                                        PhoneStateListener.LISTEN_DATA_ACTIVITY);
@@ -481,6 +484,9 @@ public class FMRadioService extends Service
                                            */
                                           if (mCallbacks != null ) {
                                                mCallbacks.onEnabled();
+                                               mPendingEnable = false;
+                                          } else {
+                                              mPendingEnable = true;
                                           }
                                      } catch (RemoteException e) {
                                           e.printStackTrace();
@@ -653,18 +659,22 @@ public class FMRadioService extends Service
                  (the service is "bound" by an activity
                   and if Callbacks are registered)
                  */
-                if ((!isFmOn()) && (mServiceInUse)
-                        && (mCallbacks != null))
+                if ((!isFmOn()) && (mServiceInUse))
                 {
-                    if( true != fmOn() ) {
-                        return;
-                    }
-                    try
-                    {
-                        mCallbacks.onEnabled();
-                    } catch (RemoteException e)
-                    {
-                        e.printStackTrace();
+                    if (mCallbacks != null) {
+                        if( true != fmOn() ) {
+                            return;
+                        }
+                        try
+                        {
+                            mCallbacks.onEnabled();
+                            mPendingEnable = false;
+                        } catch (RemoteException e)
+                        {
+                            e.printStackTrace();
+                        }
+                    } else {
+                        mPendingEnable = true;
                     }
                 }
             }
@@ -784,6 +794,9 @@ public class FMRadioService extends Service
            try {
                 if (mCallbacks != null ) {
                     mCallbacks.onEnabled();
+                    mPendingEnable = false;
+                } else {
+                    mPendingEnable = true;
                 }
            } catch (RemoteException e) {
                 e.printStackTrace();
@@ -811,6 +824,9 @@ public class FMRadioService extends Service
                     try {
                         if (mCallbacks != null ) {
                             mCallbacks.onEnabled();
+                            mPendingEnable = false;
+                        } else {
+                            mPendingEnable = true;
                         }
                     } catch (RemoteException e) {
                         e.printStackTrace();
@@ -1172,9 +1188,12 @@ public class FMRadioService extends Service
                    if(mCallbacks != null) {
                       try {
                            mCallbacks.onEnabled();
+                           mPendingEnable = false;
                       } catch (RemoteException e) {
                            e.printStackTrace();
                       }
+                   } else {
+                      mPendingEnable = true;
                    }
               }
           }
@@ -1950,6 +1969,7 @@ public class FMRadioService extends Service
          mReceiver = null;
       }
       stop();
+      mPendingEnable = false;
       return(bStatus);
    }
 
@@ -2100,7 +2120,16 @@ public class FMRadioService extends Service
     */
    public void registerCallbacks(IFMRadioServiceCallbacks cb)
    {
-      mCallbacks = cb;
+        mCallbacks = cb;
+        if ((mCallbacks != null) && mPendingEnable) {
+           try {
+                Log.d(LOGTAG, "retry pending enable");
+                mCallbacks.onEnabled();
+                mPendingEnable = false;
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
+        }
    }
 
    /*
