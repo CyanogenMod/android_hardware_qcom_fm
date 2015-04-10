@@ -169,6 +169,8 @@ public class FmSharedPreferences
    private static int mRecordDuration = 0;
    private static int mLastAudioMode = -1;
 
+   public static int mDefCountryIndex = REGIONAL_BAND_NORTH_AMERICA;
+
    FmSharedPreferences(Context context){
       mContext = context.getApplicationContext();
       mFMConfiguration = new FmConfig();
@@ -500,8 +502,8 @@ public class FmSharedPreferences
       if (Locale.getDefault().equals(Locale.CHINA)) {
           setCountry(sp.getInt(FMCONFIG_COUNTRY, REGIONAL_BAND_CHINA));
       } else {
-          int defaultIndex = mContext.getResources().getInteger(R.integer.default_country_index);
-          setCountry(sp.getInt(FMCONFIG_COUNTRY, defaultIndex));
+          mDefCountryIndex = mContext.getResources().getInteger(R.integer.default_country_index);
+          setCountry(sp.getInt(FMCONFIG_COUNTRY, mDefCountryIndex));
       }
       /* Last list the user was navigating */
       mListIndex = sp.getInt(LAST_LIST_INDEX, 0);
@@ -575,7 +577,7 @@ public class FmSharedPreferences
           setCountry(REGIONAL_BAND_CHINA);
           //Others set north America.
       } else {
-          setCountry(REGIONAL_BAND_NORTH_AMERICA);
+          setCountry(mDefCountryIndex);
       }
    }
 
