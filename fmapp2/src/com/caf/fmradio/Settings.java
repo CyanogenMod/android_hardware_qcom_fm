@@ -494,8 +494,7 @@ public class Settings extends PreferenceActivity implements
                  mBandPreference
                         .setValueIndex(FmSharedPreferences.REGIONAL_BAND_CHINA);
              }else {
-                 mBandPreference
-                        .setValueIndex(FmSharedPreferences.REGIONAL_BAND_NORTH_AMERICA);
+                 mBandPreference.setValueIndex(FmSharedPreferences.mDefaultCountryIndex);
              }
              if (mRxMode) {
                 mAudioPreference.setValueIndex(0);
@@ -509,8 +508,7 @@ public class Settings extends PreferenceActivity implements
                     FmSharedPreferences
                     .setCountry(FmSharedPreferences.REGIONAL_BAND_CHINA);
                 }else{
-                    FmSharedPreferences
-                    .setCountry(FmSharedPreferences.REGIONAL_BAND_NORTH_AMERICA);
+                    FmSharedPreferences.setCountry(FmSharedPreferences.mDefaultCountryIndex);
                 }
              }
              mPrefs.Save();
