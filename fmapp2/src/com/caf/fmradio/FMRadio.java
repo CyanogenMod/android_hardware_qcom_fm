@@ -2548,6 +2548,7 @@ public class FMRadio extends Activity
              mTunedStation.setPI(0);
              mTunedStation.setPty(0);
              updateStationInfoToUI();
+             enableRadioOnOffUI();
          }catch (RemoteException e) {
             e.printStackTrace();
          }
@@ -2621,6 +2622,7 @@ public class FMRadio extends Activity
       mERadioTextScroller.stopScroll();
       mUpdatePickerValue = true;
       updateStationInfoToUI();
+      enableRadioOnOffUI();
    }
 
    Runnable mRadioEnabled = new Runnable() {
