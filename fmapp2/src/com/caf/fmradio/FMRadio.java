@@ -1721,6 +1721,9 @@ public class FMRadio extends Activity
       SharedPreferences.Editor editor = sp.edit();
       editor.clear();
       editor.commit();
+      if (mScannedFrequencies != null) {
+         mScannedFrequencies.clear();
+      }
    }
    public boolean fmConfigure() {
       boolean bStatus = true;
@@ -3089,6 +3092,20 @@ public class FMRadio extends Activity
       }
       public void onSearchComplete() {
          Log.d(LOGTAG, "mServiceCallbacks.onSearchComplete :");
+         if (mIsScaning) {
+             if (mScannedFrequencies != null && mScannedFrequencies.size() > 0) {
+                 Intent stationListIntent = new Intent(FMRadio.this, StationListActivity.class);
+                 startActivity(stationListIntent);
+             } else {
+                 mHandler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast t = Toast.makeText(FMRadio.this, getString(R.string.fm_search_no_results), Toast.LENGTH_SHORT);
+                        t.show();
+                    }
+                 });
+             }
+         }
          mScanPty = 0;
          mScanPtyIndex = 0;
          mIsScaning = false;
