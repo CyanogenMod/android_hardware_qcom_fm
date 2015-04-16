@@ -125,7 +125,7 @@
     <string name="default_blank" translatable="false"></string>
     <string name="add_station" translatable="false">+</string>
 
-    <string name="station_name">Station: <xliff:g id="name">%s</xliff:g></string>
+    <string name="station_name">Station:</string>
     <string name="station_exists">This frequency already exists!</string>
     <string name="station_list_delete_station">Delete: <xliff:g id="name">%s</xliff:g></string>
     <string name="station_list_delete_station_prompt">Are you sure you want to delete \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -141,4 +141,5 @@
     <string name="set">Set</string>
     <string name="user_defind_band_msg">Enter frequency from 76.0 - 108.0, with minimum 1 channel spacing and 100KHz space between max and min freq</string>
     <string name="save_record_file">Recorded FM file saved to "<xliff:g id="record_file">%1$s</xliff:g>"</string>
+    <string name="fm_search_no_results">No compatible stations found</string>
 </resources>
