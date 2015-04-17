@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Не може се приступити SD картици.</string>
   <string name="spaceIsLow_content">Вашој SD картици понестаје простора. Промените поставку квалитета или избришите неке друге датотеке да бисте ослободили простор.</string>
   <string name="menu_scan_for_preset">Скенирајте за подешавања</string>
+  <string name="fm_off">FM је угашен.</string>
+  <string name="fm_call">FM се не може користити током позива.</string>
   <string name="alert_dialog_hint">Унестите име</string>
   <string name="search_dialog_title">Скенирај станице</string>
   <string name="fm_command_timeout_title">Време је истекло</string>

@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Geen toegang tot SD-kaart</string>
   <string name="spaceIsLow_content">Uw SD-kaart heeft bijna geen ruimte meer. Verminder de opnamekwaliteit of verwijder bestanden.</string>
   <string name="menu_scan_for_preset">Favorieten zoeken</string>
+  <string name="fm_off">FM is uitgeschakeld.</string>
+  <string name="fm_call">FM kan niet worden gebruikt tijdens het bellen.</string>
   <string name="alert_dialog_hint">Naam invoeren</string>
   <string name="search_dialog_title">Zenders zoeken</string>
   <string name="fm_command_timeout_title">Time-out</string>

@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Nepavyko pasiekti SD kortelės.</string>
   <string name="spaceIsLow_content">Jūsų SD kortelėje liko mažai laisvos vietos. Pakeiskite kokybės nustatymus arba ištrinkite kai kuriuos atvaizdus ar kitus failus.</string>
   <string name="menu_scan_for_preset">Nuskaityti išankstinius sąrašus</string>
+  <string name="fm_off">FM yra išjungtas.</string>
+  <string name="fm_call">FM negali būti naudojamas skambinant.</string>
   <string name="alert_dialog_hint">Įveskite pavadinimą</string>
   <string name="search_dialog_title">Nuskaityti stotis</string>
   <string name="fm_command_timeout_title">Skirtasis laikas</string>

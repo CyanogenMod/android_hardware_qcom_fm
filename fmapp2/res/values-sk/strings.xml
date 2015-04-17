@@ -29,7 +29,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Rádio FM</string>
+  <string name="app_name">FM rádio</string>
   <string name="tx_app_name">FM vysielač</string>
   <string name="menu_scan_start">Skenovať</string>
   <string name="menu_scan_stop">Zastaviť vyhľadávanie</string>
@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Nemožno získať prístup ku karte SD.</string>
   <string name="spaceIsLow_content">Na Vašej karte SD nie je dostatok voľného miesta. Zmeňte nastavenie kvality alebo zmažte niektoré obrázky alebo iné súbory.</string>
   <string name="menu_scan_for_preset">Skenovať predvoľby</string>
+  <string name="fm_off">FM rádio je vypnuté.</string>
+  <string name="fm_call">FM rádio nie je možné používať počas volania.</string>
   <string name="alert_dialog_hint">Zadajte názov</string>
   <string name="search_dialog_title">Skenovať stanice</string>
   <string name="fm_command_timeout_title">Časový limit</string>

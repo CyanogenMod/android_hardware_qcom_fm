@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Ei pääsenud SD-kaardile ligi.</string>
   <string name="spaceIsLow_content">Teie SD-kaardi vaba ruum on otsakorral. Muutke kvaliteediseadeid või kustutage mõni fail ruumi vabastamiseks.</string>
   <string name="menu_scan_for_preset">Näita eelmääratuid</string>
+  <string name="fm_off">FM on välja lülitatud.</string>
+  <string name="fm_call">FM ei saa kasutada helistades.</string>
   <string name="alert_dialog_hint">Sisestage nimi</string>
   <string name="search_dialog_title">Otsi jaamu</string>
   <string name="fm_command_timeout_title">Ajalõpp</string>

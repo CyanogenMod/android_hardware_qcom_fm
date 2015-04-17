@@ -74,6 +74,8 @@
   <string name="access_sd_fail">No s\'ha pogut accedir a la targeta SD.</string>
   <string name="spaceIsLow_content">S\'està acabant l\'espai a la teva targeta SD. Canvia l\'ajustament de qualitat o esborra algunes imatges o altres fitxers.</string>
   <string name="menu_scan_for_preset">Cerca les Presintonies</string>
+  <string name="fm_off">La FM està apagada.</string>
+  <string name="fm_call">La FM no es pot utilitzar durant una trucada.</string>
   <string name="alert_dialog_hint">Introdueix un nom</string>
   <string name="search_dialog_title">Cerca Emissores</string>
   <string name="fm_command_timeout_title">Compte enrera</string>

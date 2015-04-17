@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Não consegui aceder as cartão SD.</string>
   <string name="spaceIsLow_content">O seu cartão SD está a ficar sem espaço. Altere a definição de qualidade ou elimine alguns ficheiros para libertar espaço.</string>
   <string name="menu_scan_for_preset">Procurar emissoras memorizadas</string>
+  <string name="fm_off">O rádio FM está desligado.</string>
+  <string name="fm_call">O rádio FM não pode ser utilizado durante uma chamada.</string>
   <string name="alert_dialog_hint">Insira um nome</string>
   <string name="search_dialog_title">Procurar emissoras</string>
   <string name="fm_command_timeout_title">Tempo para suspensão</string>
