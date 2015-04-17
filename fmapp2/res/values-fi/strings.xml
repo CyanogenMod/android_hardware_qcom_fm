@@ -74,6 +74,8 @@
   <string name="access_sd_fail">SD-kortin käyttö epäonnistui.</string>
   <string name="spaceIsLow_content">Tallennustila on loppumassa SD-kortilta. Vaihda laatu-asetus tai poista tiedostoja vapauttaaksesi tilaa.</string>
   <string name="menu_scan_for_preset">Skannaa kanavia</string>
+  <string name="fm_off">FM on poistettu käytöstä.</string>
+  <string name="fm_call">FM:ää ei voi käyttää puhelun aikana.</string>
   <string name="alert_dialog_hint">Anna nimi</string>
   <string name="search_dialog_title">Skannaa asemat</string>
   <string name="fm_command_timeout_title">Aikakatkaisu</string>

@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Kein Zugriff auf SD-Karte möglich.</string>
   <string name="spaceIsLow_content">Der SD-Kartenspeicher hat zu wenig Speicherplatz. Bitte reduzieren Sie die Aufnahmequalität oder löschen Sie einige Daten, um Speicher frei zu machen.</string>
   <string name="menu_scan_for_preset">Nach Senderlisten suchen</string>
+  <string name="fm_off">FM ist ausgeschaltet.</string>
+  <string name="fm_call">FM kann nicht während eines Anrufs verwendet werden.</string>
   <string name="alert_dialog_hint">Geben Sie einen Namen ein</string>
   <string name="search_dialog_title">Sendersuche</string>
   <string name="fm_command_timeout_title">Zeitüberschreitung</string>

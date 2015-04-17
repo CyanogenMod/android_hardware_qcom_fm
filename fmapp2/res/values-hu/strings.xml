@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Nem lehet hozzáférni az SD kártyához.</string>
   <string name="spaceIsLow_content">Az SD kártyán kevés a hely. Változtassa meg a felvétel minőségét vagy töröljön néhány fájlt, hogy helyet szabadítson fel.</string>
   <string name="menu_scan_for_preset">Állomások keresése</string>
+  <string name="fm_off">FM kikapcsolva.</string>
+  <string name="fm_call">FM hívás közben nem használható.</string>
   <string name="alert_dialog_hint">Adjon meg egy nevet</string>
   <string name="search_dialog_title">Állomások keresése</string>
   <string name="fm_command_timeout_title">Időtúllépés</string>

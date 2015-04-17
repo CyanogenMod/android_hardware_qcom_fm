@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Δεν ήταν δυνατή η πρόσβαση στην κάρτα SD.</string>
   <string name="spaceIsLow_content">Ο αποθηκευτικός χώρος της κάρτας SD σας εξαντλείται. Αλλάξτε τη ρύθμιση ποιότητας ή διαγράψτε κάποια άλλα αρχεία για να ελευθερώσετε χώρο.</string>
   <string name="menu_scan_for_preset">Σάρωση για προκαθορισμένα</string>
+  <string name="fm_off">Το FM είναι απενεργοποιημένο.</string>
+  <string name="fm_call">Το FM δεν μπορεί να χρησιμοποιηθεί κατά τη διάρκεια μιας κλήσης.</string>
   <string name="alert_dialog_hint">Πληκτρολογήστε ένα όνομα</string>
   <string name="search_dialog_title">Σάρωση σταθμών</string>
   <string name="fm_command_timeout_title">Χρονικό όριο</string>

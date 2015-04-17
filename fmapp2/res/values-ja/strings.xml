@@ -74,6 +74,8 @@
   <string name="access_sd_fail">SDカードにアクセスできませんでした。</string>
   <string name="spaceIsLow_content">SDカードのストレージの容量が不足しています。音質の設定を変更するか、スペースを空けるために他のファイルを削除してください。</string>
   <string name="menu_scan_for_preset">プリセットをスキャン</string>
+  <string name="fm_off">FMはOFFになっています。</string>
+  <string name="fm_call">通話中にFMは使用できません。</string>
   <string name="alert_dialog_hint">名前を入力</string>
   <string name="search_dialog_title">局をスキャン</string>
   <string name="fm_command_timeout_title">タイムアウト</string>
