@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Kon nie toegang verkry tot SD kaart.</string>
   <string name="spaceIsLow_content">Jou SD kaart is besig om uit spasie te hardloop. Verander die kwaliteits instelling of verwyder \'n paar foto of ander lêers.</string>
   <string name="menu_scan_for_preset">Skandeer vir voorafingestelde stasies</string>
+  <string name="fm_off">FM is afgeskakel.</string>
+  <string name="fm_call">FM kan nie gebruik word wanneer jy bel nie.</string>
   <string name="alert_dialog_hint">Tik \'n naam</string>
   <string name="search_dialog_title">Skandeer stasies</string>
   <string name="fm_command_timeout_title">Tyd verstreke</string>

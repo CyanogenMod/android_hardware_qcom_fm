@@ -74,6 +74,8 @@
   <string name="access_sd_fail">SD karta erişilemedi.</string>
   <string name="spaceIsLow_content">SD kart depolama alanınız doluyor. Kalite ayarını değiştirin ya da yer açmak için birkaç dosya silin.</string>
   <string name="menu_scan_for_preset">Tanımlı listeleri tara</string>
+  <string name="fm_off">FM kapatıldı.</string>
+  <string name="fm_call">FM arama sırasında kullanılamaz.</string>
   <string name="alert_dialog_hint">Bir isim girin</string>
   <string name="search_dialog_title">Kanalları tara</string>
   <string name="fm_command_timeout_title">Zaman aşımı</string>

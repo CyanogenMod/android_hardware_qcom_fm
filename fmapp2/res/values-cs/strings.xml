@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Nelze přistupovat k SD kartě.</string>
   <string name="spaceIsLow_content">Na SD kartě dochází místo. Změňte nastavení kvality nebo smažte některé soubory.</string>
   <string name="menu_scan_for_preset">Vyhledat předvolby</string>
+  <string name="fm_off">FM je vypnuto.</string>
+  <string name="fm_call">FM nelze použít při volání.</string>
   <string name="alert_dialog_hint">Zadejte název</string>
   <string name="search_dialog_title">Vyhledat stanice</string>
   <string name="fm_command_timeout_title">Časový limit</string>

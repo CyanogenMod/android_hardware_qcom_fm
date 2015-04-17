@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Impossible d\'accéder à la carte SD.</string>
   <string name="spaceIsLow_content">Votre carte SD est à court d\'espace. Modifiez le paramètre de qualité ou supprimer des fichiers pour libérer de l\'espace.</string>
   <string name="menu_scan_for_preset">Recherche de présélections</string>
+  <string name="fm_off">La radio FM est éteinte.</string>
+  <string name="fm_call">La radio FM ne peut pas être utilisée pendant un appel.</string>
   <string name="alert_dialog_hint">Entrez un nom</string>
   <string name="search_dialog_title">Recherche des Stations</string>
   <string name="fm_command_timeout_title">Temps expiré</string>
