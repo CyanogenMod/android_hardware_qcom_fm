@@ -74,7 +74,9 @@
   <string name="access_sd_fail">אין אפשרות לגשת לכרטיס SD.</string>
   <string name="spaceIsLow_content">שטח האחסון בכרטיס ה-SD שלך אוזל. שנה את הגדרות האיכות או מחק קבצים אחרים כדי לפנות מקום.</string>
   <string name="menu_scan_for_preset">סרוק למציאת תחנות</string>
-  <string name="alert_dialog_hint">הזן שם</string>
+  <string name="fm_off">FM כבוי.</string>
+  <string name="fm_call">לא ניתן להשתמש ב-FM במהלך ביצוע שיחה.</string>
+  <string name="alert_dialog_hint">הכנס שם</string>
   <string name="search_dialog_title">סריקת תחנות</string>
   <string name="fm_command_timeout_title">זמן קצוב לתפוגה</string>
   <string name="fm_tune_timeout_msg">אין קליטה מהתחנה הנבחרת, במידה והבעיה חוזרת על עצמה כבה בבקשה את מקלט ה-FM והפעל אותו שוב.</string>

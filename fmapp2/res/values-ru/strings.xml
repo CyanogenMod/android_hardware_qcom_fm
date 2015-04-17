@@ -75,6 +75,8 @@
   <string name="access_sd_fail">Нет доступа к SD-карте.</string>
   <string name="spaceIsLow_content">На SD-карте недостаточно места. Измените настройки качества или удалите несколько изображений или других файлов.</string>
   <string name="menu_scan_for_preset">Сканировать сохраненные станции</string>
+  <string name="fm_off">FM отключено.</string>
+  <string name="fm_call">FM не может использоваться во время вызова.</string>
   <string name="alert_dialog_hint">Введите название</string>
   <string name="search_dialog_title">Искать станции</string>
   <string name="fm_command_timeout_title">Тайм-аут</string>

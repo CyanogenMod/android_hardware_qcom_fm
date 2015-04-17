@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Brak dostępu do karty SD.</string>
   <string name="spaceIsLow_content">Brak miejsca na karcie SD. Zmniejsz jakość nagrywania, albo zwolnij miejsce przez usunięcie starych plików.</string>
   <string name="menu_scan_for_preset">Skanuj w poszukiwaniu ustawień</string>
+  <string name="fm_off">FM jest wyłączone.</string>
+  <string name="fm_call">FM nie można używać podczas połączenia.</string>
   <string name="alert_dialog_hint">Wpisz nazwę</string>
   <string name="search_dialog_title">Skanuj stacje</string>
   <string name="fm_command_timeout_title">Limit czasu</string>

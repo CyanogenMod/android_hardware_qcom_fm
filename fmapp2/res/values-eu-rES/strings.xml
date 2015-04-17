@@ -32,13 +32,11 @@
   <string name="app_name">FM irratia</string>
   <string name="tx_app_name">FM Tx</string>
   <string name="menu_scan_start">Bilatu</string>
-  <string name="menu_scan_stop">Bilaketa eten</string>
-  <string name="menu_record_stop">Grabatzen gelditu</string>
   <string name="menu_settings">Ezarpenak</string>
   <string name="menu_sleep">Lokartu</string>
   <string name="menu_sleep_cancel">Lokartzea eten</string>
   <string name="menu_all_channels">Kanal guztiak</string>
-  <string name="menu_display_tags">Etiketak erakutsi</string>
+  <string name="menu_display_tags">Erakutsi etiketak</string>
   <string name="button_text_stop">Gelditu</string>
   <string name="msg_noantenna">FM irratia erabili ahal izateko aurikularrak konektatu, mesedez</string>
   <string name="presetlist_select_name">Aukeratu <xliff:g id="preset_name">%1$s</xliff:g></string>
@@ -67,7 +65,6 @@
   <string name="fm_command_failed_title">FM komandoak huts egin du</string>
   <string name="fm_cmd_failed_msg">FM operazioak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operazioak huts egin du. Irratia ezin da HDMI-arekin batera erabili.</string>
-  <string name="fm_cmd_failed_call_on">FM operazioak huts egin du. FM audioa ez dago onartuta dei batean zehar.</string>
   <string name="station_exists">Maiztasun hau jada existitzen da!</string>
   <string name="station_list_delete_station"><xliff:g id="name">%s</xliff:g> ezabatu</string>
   <string name="station_name_empty">Igorlearen izena hutsik dago. Idatz ezazu bat, mesedez.</string>
