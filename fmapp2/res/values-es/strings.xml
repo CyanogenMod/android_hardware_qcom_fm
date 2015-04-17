@@ -30,7 +30,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Radio FM</string>
-  <string name="tx_app_name">FM Tx</string>
+  <string name="tx_app_name">Transmisor FM</string>
   <string name="menu_scan_start">Buscar</string>
   <string name="menu_scan_stop">Detener búsqueda</string>
   <string name="menu_record_start">Grabar</string>
@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Imposible acceder a la tarjeta SD.</string>
   <string name="spaceIsLow_content">La tarjeta SD se está quedando sin espacio. Cambia el ajuste de calidad o elimina algunas imágenes o archivos.</string>
   <string name="menu_scan_for_preset">Buscar preseleccionadas</string>
+  <string name="fm_off">La radio FM está apagada.</string>
+  <string name="fm_call">La radio FM no se puede utilizar durante una llamada.</string>
   <string name="alert_dialog_hint">Introducir un nombre</string>
   <string name="search_dialog_title">Buscar emisoras</string>
   <string name="fm_command_timeout_title">Tiempo de espera</string>

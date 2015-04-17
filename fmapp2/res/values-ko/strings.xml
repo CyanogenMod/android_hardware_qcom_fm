@@ -74,6 +74,8 @@
   <string name="access_sd_fail">SD 카드에 접근할 수 없습니다.</string>
   <string name="spaceIsLow_content">SD 카드에 여유 공간이 부족합니다. 음질 설정을 변경하거나 파일을 지워 여유 공간을 만들어주십시오.</string>
   <string name="menu_scan_for_preset">프리셋 검색</string>
+  <string name="fm_off">FM이 꺼져 있습니다.</string>
+  <string name="fm_call">FM은 전화하는 동안 사용할 수 없습니다.</string>
   <string name="alert_dialog_hint">이름을 입력합니다</string>
   <string name="search_dialog_title">방송국 탐색</string>
   <string name="fm_command_timeout_title">시간 제한</string>

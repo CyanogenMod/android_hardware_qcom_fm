@@ -118,7 +118,7 @@
     <item>Bélxica</item>
     <item>Brasil</item>
     <item>China</item>
-    <item>Czech Republic</item>
+    <item>República Checa</item>
     <item>Dinamarca</item>
     <item>Finlandia</item>
     <item>Francia</item>
@@ -143,7 +143,7 @@
     <item>Suecia</item>
     <item>Taiwán</item>
     <item>Turquía</item>
-    <item>United Kingdom</item>
+    <item>Reinu Xuníu</item>
     <item>Estaos Xuníos</item>
     <item>Banda Definida pol usuariu</item>
     <item>Indonesia</item>
@@ -158,7 +158,7 @@
     <item>Bélxica (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Brasil (87,8MHz a 108,0MHz en pasos de 200KHz)</item>
     <item>China (87,0MHz a 108,0MHz en pasos de 100KHz)</item>
-    <item>Czech Republic (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>República Checa (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Dinamarca (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Finlandia (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Francia (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
@@ -186,7 +186,7 @@
     <item>Reinu Xuníu (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Estaos Xuníos (88,1MHz a 107,9MHz en pasos de 200KHz)</item>
     <item>Banda Definida pol usuariu</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Indonesia (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

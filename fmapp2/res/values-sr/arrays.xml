@@ -118,7 +118,7 @@
     <item>Белгија</item>
     <item>Бразил</item>
     <item>Кина</item>
-    <item>Czech Republic</item>
+    <item>Република Чешка</item>
     <item>Данска</item>
     <item>Финска</item>
     <item>Француска</item>
@@ -143,10 +143,10 @@
     <item>Шведска</item>
     <item>Тајван</item>
     <item>Турска</item>
-    <item>United Kingdom</item>
+    <item>Велика Британија</item>
     <item>Сједињене Државе</item>
     <item>Корисник дефинише бенд</item>
-    <item>Indonesia</item>
+    <item>Индонезија</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Северна Америка (87.5MHz to 108.0MHz in 200 KHz steps)</item>
@@ -158,7 +158,7 @@
     <item>Белгија (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>Бразил (87.5MHz to 108.0MHz in 200 KHz steps)</item>
     <item>Кина (87.0MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Czech Republic (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Република Чешка (87.5MHz до 108.0MHz у 100 KHz корацима)</item>
     <item>Данска (87.5MHz to 108.0MHz in 50 KHz steps)</item>
     <item>Финска (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>Француска (87.5MHz to 108.0MHz in 100 KHz steps)</item>
@@ -186,7 +186,7 @@
     <item>Велика Британија (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>Сједињене државе (88.1MHz to 107.9MHz in 200 KHz steps)</item>
     <item>Корисник дефинише бенд</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Индонезија (87.5MHz до 108.0MHz у 100 KHz корацима)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Impossibile accedere alla scheda SD.</string>
   <string name="spaceIsLow_content">Lo spazio sulla scheda SD si sta esaurendo. Cambia il settaggio della qualità o elimina alcune immagini o altri file.</string>
   <string name="menu_scan_for_preset">Scansione per predefiniti</string>
+  <string name="fm_off">FM spenta.</string>
+  <string name="fm_call">FM non può essere utilizzata durante una chiamata.</string>
   <string name="alert_dialog_hint">Immettere un nome</string>
   <string name="search_dialog_title">Ricerca stazioni</string>
   <string name="fm_command_timeout_title">Timeout</string>
@@ -85,7 +87,7 @@
   <string name="station_name">Stazione: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Questa frequenza esiste già!</string>
   <string name="station_list_delete_station">Elimina: <xliff:g id="name">%s</xliff:g></string>
-  <string name="station_list_delete_station_prompt">Sicuro di voler cancellare \'<xliff:g id="name">%s</xliff:g>\'?</string>
+  <string name="station_list_delete_station_prompt">Sicuro di voler eliminare \'<xliff:g id="name">%s</xliff:g>\'?</string>
   <string name="station_name_empty">Il nome della stazione è vuoto, immettere nuovamente.</string>
   <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' è già in uso, immettere un nome diverso.</string>
   <string name="rt_plus_tags">Tag</string>

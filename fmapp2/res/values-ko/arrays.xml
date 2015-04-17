@@ -118,7 +118,7 @@
     <item>벨기에</item>
     <item>브라질</item>
     <item>중국</item>
-    <item>Czech Republic</item>
+    <item>체코 공화국</item>
     <item>덴마크</item>
     <item>핀란드</item>
     <item>프랑스</item>
@@ -143,10 +143,10 @@
     <item>스웨덴</item>
     <item>대만</item>
     <item>터키</item>
-    <item>United Kingdom</item>
+    <item>영국</item>
     <item>미국</item>
     <item>사용자 정의 밴드</item>
-    <item>Indonesia</item>
+    <item>인도네시아</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>북미 지역 (87.5MHz ~ 108.0MHz, 200KHz 단위)</item>
@@ -158,7 +158,7 @@
     <item>벨기에 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
     <item>브라질 (87.5MHz ~ 108.0MHz, 200KHz 단위)</item>
     <item>중국 (87.0MHz ~ 108.0MHz, 100KHz 단위)</item>
-    <item>Czech Republic (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>체코 공화국 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
     <item>덴마크 (87.5MHz ~ 108.0MHz, 50KHz 단위)</item>
     <item>핀란드 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
     <item>프랑스 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
@@ -186,7 +186,7 @@
     <item>영국 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
     <item>미국 (88.1MHz ~ 107.9MHz, 200KHz 단위)</item>
     <item>사용자 정의 밴드</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>인도 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

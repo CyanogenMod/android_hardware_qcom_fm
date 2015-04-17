@@ -118,7 +118,7 @@
     <item>Belgia</item>
     <item>Brasiilia</item>
     <item>Hiina</item>
-    <item>Czech Republic</item>
+    <item>Tšehhi Vabariik</item>
     <item>Taani</item>
     <item>Soome</item>
     <item>Prantsusmaa</item>
@@ -143,10 +143,10 @@
     <item>Rootsi</item>
     <item>Taiwan</item>
     <item>Türgi</item>
-    <item>United Kingdom</item>
+    <item>Suurbritannia</item>
     <item>Ameerika Ühendriigid</item>
     <item>Kasutaja määratud sagedusala</item>
-    <item>Indonesia</item>
+    <item>Indoneesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Põhja-Ameerikas (200 KHz samm 87,5 MHz-108.0 MHz)</item>
