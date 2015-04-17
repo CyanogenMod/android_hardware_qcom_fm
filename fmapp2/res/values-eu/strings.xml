@@ -56,7 +56,6 @@
   <string name="msg_scanning">FM igorle guztiak bilatzen</string>
   <string name="msg_scanning_pty"><xliff:g id="pty_name">%1$s</xliff:g> -ren bila</string>
   <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
-  <string name="msg_searching">Lehenetsitakoen zerrenda prestatzeko lekuko igorleak bilatzen</string>
   <string name="msg_searching_title">Automatikoki aukeraturiko igorleak</string>
   <string name="msg_weak_searching">Igortzeko frekuentzien bila</string>
   <string name="msg_noantenna">FM irratia erabili ahal izateko aurikularrak konektatu, mesedez</string>
@@ -66,7 +65,6 @@
   <string name="preset_select_name">Aukeratu <xliff:g id="preset_name">%1$s</xliff:g></string>
   <string name="presetlist_select_name">Aukeratu <xliff:g id="preset_name">%1$s</xliff:g></string>
   <string name="presetlist_add_new">Zerrenda berria gehitu</string>
-  <string name="dialog_presetlist_title">Lehenetsitakoen zerrenda</string>
   <string name="presetlist_prefix_name">FM - </string>
   <string name="dialog_presetlist_rename_title">Izendatu</string>
   <string name="dialog_preset_rename_title">Izendatu</string>
@@ -154,7 +152,6 @@
   <string name="fm_command_failed_title">FM komandoak huts egin du</string>
   <string name="fm_cmd_failed_msg">FM operazioak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operazioak huts egin du. Irratia ezin da HDMI-arekin batera erabili.</string>
-  <string name="fm_cmd_failed_call_on">FM operazioak huts egin du. FM audioa ez dago onartuta dei batean zehar.</string>
   <string name="default_preset_list_name">FM zerrenda</string>
   <string name="stop_scanning">Bilaketa eten</string>
   <string name="transmit_msg_string">Hona igortzen:</string>

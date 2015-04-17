@@ -29,14 +29,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="preparing_sd">SD txartela prestatzen</string>
-  <string name="access_sd_fail">Ezin izan da SD txartela atzitu.</string>
-  <string name="spaceIsLow_content">SD biltegiratze txartela lekurik gabe geratzen ari da. Aldatu kalitate ezarpenak edo fitxategiren bat ezabatu.</string>
-  <string name="FMRecording_reach_size_limit">Tamaina mugara heldu da.</string>
+  <string name="no_storage">Montar tarjeta SD antes de iniciar grabación.</string>
+  <string name="preparing_sd">Preparando tarjeta SD</string>
+  <string name="access_sd_fail">Imposible acceder a la tarjeta SD.</string>
+  <string name="spaceIsLow_content">La tarjeta SD se está quedando sin espacio. Cambia el ajuste de calidad o elimina algunas imágenes o archivos.</string>
+  <string name="FMRecording_reach_size_limit">Límite de tamaño alcanzado.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">Nire FM grabazioak</string>
-  <string name="audio_db_album_name">FM grabazioak</string>
-  <string name="audio_db_playlist_name">FM grabazioak</string>
-  <string name="save_record_file">FM grabazioaren fitxategia <xliff:g id="record_file">%1$s</xliff:g> -n gorde da</string>
-  <string name="fm_record_progress">FM grabazioa martxan</string>
+  <string name="audio_db_artist_name">Mis grabaciones FM</string>
+  <string name="audio_db_album_name">Grabaciones FM</string>
+  <string name="audio_db_playlist_name">Grabaciones FM</string>
+  <string name="save_record_file">Archivo de grabación de FM guardado en \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">Grabación de FM en curso</string>
 </resources>
