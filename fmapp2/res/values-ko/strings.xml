@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">FM 실행이 실패했습니다. 문제가 지속되면 FM을 껐다 다시 켜 보십시오.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM 실행이 실패했습니다. FM과 HDMI는 동시에 사용할 수 없습니다.</string>
   <string name="fm_cmd_failed_call_on">FM 실행이 실패했습니다. 전화 통화 중에는 FM 오디오를 사용할 수 없습니다.</string>
-  <string name="station_name">방송국: <xliff:g id="name">%s </xliff:g></string>
+  <string name="station_name">방송국:</string>
   <string name="station_exists">이 주파수는 이미 존재합니다!</string>
   <string name="station_list_delete_station">삭제: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">\'<xliff:g id="name">%s</xliff:g>\'을(를) 삭제하시겠습니까?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">채널 간격</string>
   <string name="set">설정</string>
   <string name="user_defind_band_msg">최소 1 채널 간격을 두고 76.0Mhz부터 108.0Mhz 사이의 주파수 입력</string>
+  <string name="fm_search_no_results">호환되는 방송국 없음</string>
 </resources>

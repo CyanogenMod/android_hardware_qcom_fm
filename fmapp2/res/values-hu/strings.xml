@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">FM-művelet sikertelen. Ha a probléma továbbra is fennáll, kapcsolja ki az FM rádiót majd vissza.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-művelet sikertelen. Az FM-rádió és a HDMI egyszerre nem támogatott.</string>
   <string name="fm_cmd_failed_call_on">FM-művelet sikertelen. Az FM rádió telefonhívás közben nem megengedett.</string>
-  <string name="station_name">Állomás: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Állomás:</string>
   <string name="station_exists">Ez a frekvencia már létezik!</string>
   <string name="station_list_delete_station">Törlés: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Biztos benne, hogy törli a következőt: \"<xliff:g id="name">%s</xliff:g>\"?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Csatornatérközök</string>
   <string name="set">Beállítás</string>
   <string name="user_defind_band_msg">Adjon meg egy frekvenciát 76,0 és 108.0 MHz között, minimum 1 csatornatávolsággal</string>
+  <string name="fm_search_no_results">Nem található kompatibilis állomás</string>
 </resources>

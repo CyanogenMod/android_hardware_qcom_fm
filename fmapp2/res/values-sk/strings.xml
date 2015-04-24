@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">FM operácia zlyhala. Ak problém pretrváva, vypnite FM rádio a opätovne ho zapnite.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operácia zlyhala. Používanie FM rádia a HDMI nie je podporované.</string>
   <string name="fm_cmd_failed_call_on">FM operácia zlyhala. Zvuk z FM rádia počas prebiehajúceho hovoru nie je povolený.</string>
-  <string name="station_name">Stanica: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Stanica:</string>
   <string name="station_exists">Táto frekvencia už existuje!</string>
   <string name="station_list_delete_station">Odstrániť: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Chcete vymazať \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Oddeľovač kanálov</string>
   <string name="set">Nastaviť</string>
   <string name="user_defind_band_msg">Zadajte frekvenciu od 76.0 do 108.0 MHz s minimálnym odstupom 1 kanálu</string>
+  <string name="fm_search_no_results">Nenašli sa žiadne kompatibilné stanice</string>
 </resources>

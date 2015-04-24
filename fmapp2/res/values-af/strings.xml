@@ -84,7 +84,6 @@
   <string name="fm_cmd_failed_msg">FM werking het misluk. As die probleem voortduur, Skakel FM Radio af en aan.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM werking het misluk. FM en HDMI geluiktydige werking word nie ondersteun nie.</string>
   <string name="fm_cmd_failed_call_on">FM klank word nie toegelaat tydens \'n oproep.</string>
-  <string name="station_name">Stasie:</string>
   <string name="station_exists">Hierdie frekwensie bestaan ​​reeds!</string>
   <string name="station_list_delete_station">Verwyder:<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Is jy seker jy will <xliff:g id="name">%s</xliff:g> verwyder.</string>

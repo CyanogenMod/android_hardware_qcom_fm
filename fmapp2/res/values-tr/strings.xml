@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">FM işlemi başarısız oldu. Sorun devam ederse, lütfen FM\'i kapatın ve tekrar açın.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM işlemi başarısız oldu. FM ve HDMI eşzamanlılığı desteklenmiyor.</string>
   <string name="fm_cmd_failed_call_on">FM işlemi başarısız oldu. FM sesine telefon konuşması sırasında izin verilmiyor.</string>
-  <string name="station_name">Kanal: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Kanal:</string>
   <string name="station_exists">Bu frekans zaten mevcut!</string>
   <string name="station_list_delete_station">Sil:<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">\'<xliff:g id="name">%s</xliff:g>\' kanalını silmek istediğinize emin misiniz?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Kanal aralığı</string>
   <string name="set">Ayarla</string>
   <string name="user_defind_band_msg">En az 1 kanal aralığı ile 76.0 ile 108.0 MHz arasında frekans girin</string>
+  <string name="fm_search_no_results">Uyumlu kanal bulunmadı</string>
 </resources>

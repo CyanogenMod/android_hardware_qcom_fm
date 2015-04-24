@@ -84,7 +84,6 @@
   <string name="fm_cmd_failed_msg">FM toiming nurjus. Probleemi jätkumisel lülitage FM-raadio välja ja uuesti sisse.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM toiming nurjus. FM ja HDMI ühilduvus ei ole toetatud.</string>
   <string name="fm_cmd_failed_call_on">FM toiming nurjus. FM audio pole saadaval kõne ajal.</string>
-  <string name="station_name">Jaam: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">See sagedus on juba olemas!</string>
   <string name="station_list_delete_station">Kustuta: <xliff:g id="name"> %s </xliff:g></string>
   <string name="station_list_delete_station_prompt">Kas soovite kindlasti kustutada \'<xliff:g id="name">%s</xliff:g>\'?</string>
