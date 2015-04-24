@@ -82,7 +82,6 @@
   <string name="fm_cmd_failed_msg">Операція неможлива. Якщо проблема не зникне, вимкніть FM-радіо і увімкніть його знову.</string>
   <string name="fm_cmd_failed_msg_hdmi">Одночасне використання FM-радіо і HDMI неможливо.</string>
   <string name="fm_cmd_failed_call_on">Використання FM-радіо під час телефонного дзвінка неможливо.</string>
-  <string name="station_name">Станція: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Ця частота вже існує!</string>
   <string name="station_list_delete_station">Вилучити:<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Ви дійсно бажаєте видалити \'<xliff:g id="name">%s</xliff:g>\'?</string>

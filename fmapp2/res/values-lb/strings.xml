@@ -82,7 +82,6 @@
   <string name="fm_cmd_failed_msg">Radio-Operatioun feelgeschloen. Falls de Problem bestoe bleift, schalt de Radio aus an nees un.</string>
   <string name="fm_cmd_failed_msg_hdmi">Radio-Operatioun feelgeschloen. Radio an HDMI funktionnéieren net gläichzäiteg.</string>
   <string name="fm_cmd_failed_call_on">Radio-Operatioun feelgeschloen. Während engem Uruff ka kee Radio gelauschtert ginn.</string>
-  <string name="station_name">Statioun: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Dës Frequenz existéiert schon!</string>
   <string name="station_list_delete_station">Läschen: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Wëlls du \'<xliff:g id="name">%s</xliff:g>\' sécher läschen?</string>

@@ -82,7 +82,6 @@
   <string name="fm_cmd_failed_msg">Pengoperasian FM gagal. Jika masalah berlanjut, harap matikan FM dan menghidupkannya kembali.</string>
   <string name="fm_cmd_failed_msg_hdmi">Pengoperasian FM gagal. Pengoperasian FM dan HDMI secara bersamaan tidak didukung.</string>
   <string name="fm_cmd_failed_call_on">Pengoperasian FM gagal. Audio FM tidak diizinkan selama panggilan.</string>
-  <string name="station_name">Stasiun: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Frekuensi ini sudah ada!</string>
   <string name="station_list_delete_station">Hapus: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Apakah anda yakin akan menghapus \'<xliff:g id="name">%s</xliff:g>\'?</string>

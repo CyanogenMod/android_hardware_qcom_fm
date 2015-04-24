@@ -82,7 +82,6 @@
   <string name="fm_cmd_failed_msg">FM-operasjonen mislyktes. Hvis problemet vedvarer, kan du slå av FM og slå den på igjen.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-operasjonen mislyktes. FM og HDMI samtidighet støttes ikke.</string>
   <string name="fm_cmd_failed_call_on">FM-operasjonen mislyktes. FM lyd er ikke tillatt under samtale.</string>
-  <string name="station_name">Stasjon: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Denne frekvensen finnes allerede!</string>
   <string name="station_list_delete_station">Slett: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Er du sikker på at du vil slette \'<xliff:g id="name">%s</xliff:g>\'?</string>

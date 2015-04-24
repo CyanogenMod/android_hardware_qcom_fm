@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">FM operacija nepavyko. Jei problema kartojasi, prašome išjungti ir vėl įjungti FM.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operacija nepavyko. FM ir HDMI  vienu metu nepalaikomas.</string>
   <string name="fm_cmd_failed_call_on">FM operacija nepavyko. FM neleidžiama skambučio metu.</string>
-  <string name="station_name">Stotis: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Stotis:</string>
   <string name="station_exists">Šis dažnis jau yra!</string>
   <string name="station_list_delete_station">Ištrinti: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Ar tikrai norite ištrinti „<xliff:g id="name">%s</xliff:g>“?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Kanalų atskyrimai</string>
   <string name="set">Nustatyti</string>
   <string name="user_defind_band_msg">Įveskite dažnį nuo 76,0 iki 108,0 MHz su mažiausiai 1 kanalo atskyrimu</string>
+  <string name="fm_search_no_results">Nerasta suderinamų stočių</string>
 </resources>

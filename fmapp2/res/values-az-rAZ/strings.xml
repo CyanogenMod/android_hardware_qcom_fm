@@ -82,7 +82,6 @@
   <string name="fm_cmd_failed_msg">FM əməliyyatı baş tutmadı. Əgər problem davam edərsə, zəhmət olmasa FM\'i bağlayıb yenidən açın.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM əməliyyatı baş tutmadı. FM və HDMI\'ın eyni vaxtda işləməsi dəstəklənmir.</string>
   <string name="fm_cmd_failed_call_on">FM əməliyyatı baş tutmadı. FM səsinə zəng vaxtı icazə verilmir.</string>
-  <string name="station_name">Stansiya: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Bu tezlik artıq mövcuddur!</string>
   <string name="station_list_delete_station">Sil: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">\'<xliff:g id="name">%s</xliff:g>\' stansiyasını silmək istədiyinizə əminsiniz?</string>

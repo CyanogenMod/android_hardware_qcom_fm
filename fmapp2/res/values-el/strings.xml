@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">Η λειτουργία FM απέτυχε. Εάν το πρόβλημα παραμένει, παρακαλούμε απενεργοποιήστε το FM και ενεργοποιήστε το ξανά.</string>
   <string name="fm_cmd_failed_msg_hdmi">Η λειτουργία FM απέτυχε. Δεν υποστηρίζονται ταυτόχρονα FM και HDMI.</string>
   <string name="fm_cmd_failed_call_on">Η λειτουργία FM απέτυχε. Ο ήχος από FM δεν επιτρέπεται κατά τη διάρκεια κλήσης.</string>
-  <string name="station_name">Σταθμός: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Σταθμός:</string>
   <string name="station_exists">Αυτή η συχνότητα υπάρχει ήδη!</string>
   <string name="station_list_delete_station">Διαγραφή: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Είστε βέβαιοι ότι θέλετε να διαγράψετε το \'<xliff:g id="name">%s</xliff:g>\';</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Διάστημα καναλιών</string>
   <string name="set">Ορισμός</string>
   <string name="user_defind_band_msg">Εισαγάγετε συχνότητα από 76.0 έως 108.0 MHz με ελάχιστο 1 κανάλι απόσταση</string>
+  <string name="fm_search_no_results">Δε βρέθηκαν συμβατοί σταθμοί</string>
 </resources>

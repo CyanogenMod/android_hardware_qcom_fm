@@ -78,7 +78,6 @@
   <string name="fm_cmd_failed_msg">FM darbība neizdevās. Ja kļūda nepazūd, lūdzu, izslēdziet un atkal ieslēdziet FM.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM darbība neizdevās. FM un HDMI nav vienlaicīgi atbalstīti.</string>
   <string name="fm_cmd_failed_call_on">FM darbība neizdevās. Zvana laikā FM audio nav atļauts.</string>
-  <string name="station_name">Stacija: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Šī frekvence jau pastāv!</string>
   <string name="station_list_delete_station">Dzēst: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Vai tiešām vēlaties dzēst \'<xliff:g id="name">%s</xliff:g>\'?</string>
