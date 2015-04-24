@@ -82,7 +82,6 @@
   <string name="fm_cmd_failed_msg">Falló la operación FM. Si\'l problema persiste, apaga la radio y vuelvi a prendela.</string>
   <string name="fm_cmd_failed_msg_hdmi">Falló la operación FM. Usar la radio y el HDMI al empar nun ta sofitao téunicamente.</string>
   <string name="fm_cmd_failed_call_on">Falló la operación FM. L\'audiu FM nun ta permitíu mientres una llamada.</string>
-  <string name="station_name">Emisora: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">¡Esta frecuencia yá esiste!</string>
   <string name="station_list_delete_station">Desaniciar:<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">¿Daveres que quies desaniciar \u00AB<xliff:g id="name">%s</xliff:g>\u00BB?</string>

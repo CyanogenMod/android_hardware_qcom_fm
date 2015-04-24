@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">FM-toiminto epäonnistui. Jos ongelma jatkuu, poista FM käytöstä ja laita takaisin päälle.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-toiminto epäonnistui. FM ja HDMI ei voi olla samanaikaisesti päällä.</string>
   <string name="fm_cmd_failed_call_on">FM-toiminto epäonnistui. FM-ääni ei sallittu puhelun aikana.</string>
-  <string name="station_name">Asema: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Asema:</string>
   <string name="station_exists">Taajuus on jo käytössä!</string>
   <string name="station_list_delete_station">Poista :<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Haluatko varmasti poistaa aseman \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Taajuusväli</string>
   <string name="set">Aseta</string>
   <string name="user_defind_band_msg">Anna taajuus 76.0 - 108.0 MHz vähintään yhdellä kanavavälillä</string>
+  <string name="fm_search_no_results">Yhteensopivia asemia ei löytynyt</string>
 </resources>

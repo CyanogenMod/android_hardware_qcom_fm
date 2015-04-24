@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">L\'operació FM ha fallat. Si el problema continua, si us plau apaga la ràdio FM i torna-la a engegar.</string>
   <string name="fm_cmd_failed_msg_hdmi">L\'operació FM ha fallat. No ha esta suportada la simultaneïtat FM i HDMI.</string>
   <string name="fm_cmd_failed_call_on">L\'operació FM ha fallat. El so FM no està permès durant una trucada.</string>
-  <string name="station_name">Emissora: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Emissora:</string>
   <string name="station_exists">Aquesta freqüència ja existeix!</string>
   <string name="station_list_delete_station">Esborra:<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Estàs segur que vols esborrar \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Separació entre canals</string>
   <string name="set">Estableix</string>
   <string name="user_defind_band_msg">Introdueix una freqüència de 76.0 a 108.0 MHz amb almenys un espaiat d\'un canal</string>
+  <string name="fm_search_no_results">No s\'han trobat emissores compatibles</string>
 </resources>

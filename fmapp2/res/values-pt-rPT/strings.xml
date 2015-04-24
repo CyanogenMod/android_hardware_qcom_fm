@@ -84,7 +84,6 @@
   <string name="fm_cmd_failed_msg">Falha no funcionamento do rádio. Se o problema persistir, desligue e volte a liga-lo.</string>
   <string name="fm_cmd_failed_msg_hdmi">Falha no funcionamento do rádio. O rádio e HDMI não podem ser usados em simultâneo.</string>
   <string name="fm_cmd_failed_call_on">Falha no funcionamento do rádio. O rádio não pode ser usado durante uma chamada.</string>
-  <string name="station_name">Estação: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Esta frequência já existe!</string>
   <string name="station_list_delete_station">Eliminar: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Tem a certeza que quer eliminar \'<xliff:g id="name">%s</xliff:g>\'?</string>

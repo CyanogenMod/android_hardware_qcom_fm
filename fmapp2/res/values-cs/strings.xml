@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">Operace FM rádia selhala. Pokud problém přetrvává, vypněte a opět zapněte prosím FM rádio.</string>
   <string name="fm_cmd_failed_msg_hdmi">Operace FM rádia selhala. Nelze společně provozovat FM rádio a zároveň HDMI připojení.</string>
   <string name="fm_cmd_failed_call_on">Operace FM rádia selhala. Nelze současně mít zapnuté FM rádio a volat.</string>
-  <string name="station_name">Stanice: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Stanice:</string>
   <string name="station_exists">Tato frekvence již existuje!</string>
   <string name="station_list_delete_station">Smazat: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Opravdu chcete smazat „<xliff:g id="name">%s</xliff:g>“?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Odstup kanálů</string>
   <string name="set">Nastavit</string>
   <string name="user_defind_band_msg">Zadejte frekvenci od 76,0 do 108,0 MHz s minimálním odstupem 1 kanálu</string>
+  <string name="fm_search_no_results">Nebyly nalezeny žádné použitelné stanice</string>
 </resources>
