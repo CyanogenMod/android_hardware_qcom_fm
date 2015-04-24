@@ -29,16 +29,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Plaats SD-kaart om te kunnen opnemen.</string>
-  <string name="preparing_sd">SD-kaart voorbereiden</string>
-  <string name="access_sd_fail">Geen toegang tot SD-kaart.</string>
-  <string name="spaceIsLow_content">Uw SD-kaart is bijna vol. Verminder de opnamekwaliteit of verwijder bestanden.</string>
-  <string name="FMRecording_reach_size_limit">Opnamelimiet bereikt.</string>
-  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">Mijn FM-opnamen</string>
-  <string name="audio_db_album_name">FM-opnamen</string>
-  <string name="audio_db_playlist_name">FM-opnamen</string>
-  <string name="save_record_file">FM-opname opgeslagen in \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Opnemen\u2026</string>
-  <string name="unable_to_store">Kan geluidsopname niet opslaan</string>
+  <string name="no_storage">Kết nối thẻ nhớ trước khi bắt đầu ghi âm.</string>
+  <string name="preparing_sd">Đang chuẩn bị thẻ nhớ</string>
+  <string name="access_sd_fail">Không thể truy cập thẻ nhớ.</string>
+  <string name="spaceIsLow_content">Bộ nhớ thẻ sắp hết. Thay đổi cài đặt chất lượng hoặc xoá một vài hình ảnh hay tập tin khác.</string>
 </resources>

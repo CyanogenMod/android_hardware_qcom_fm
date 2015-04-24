@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">Vorgang fehlgeschlagen. Wenn das Problem weiterhin besteht, bitte FM aus- und einschalten.</string>
   <string name="fm_cmd_failed_msg_hdmi">Vorgang fehlgeschlagen. FM und HDMI parallel wird nicht unterstützt.</string>
   <string name="fm_cmd_failed_call_on">Vorgang fehlgeschlagen. FM ist während eines Anrufes nicht möglich.</string>
-  <string name="station_name">Sender: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Sender:</string>
   <string name="station_exists">Diese Frequenz ist bereits vorhanden!</string>
   <string name="station_list_delete_station">Löschen: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Sind Sie sicher, dass Sie \"<xliff:g id="name">%s</xliff:g>\"  löschen wollen?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Kanalabstand</string>
   <string name="set">Übernehmen</string>
   <string name="user_defind_band_msg">Frequenz von 76,0 bis 108,0 MHz mit mindestens einem Kanal Abstand eingeben</string>
+  <string name="fm_search_no_results">Keine kompatiblen Sender gefunden</string>
 </resources>

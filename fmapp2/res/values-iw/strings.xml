@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">פעולת FM נכשלה. אם הבעיה נמשכת, בטל FM והפעל מחדש.</string>
   <string name="fm_cmd_failed_msg_hdmi">פעולת FM נכשלה. הקבלת FM ו-HDMI אינה נתמכת.</string>
   <string name="fm_cmd_failed_call_on">כשל בהפעלת רדיו FM. רדיו FM אין מאופשר במהלך שיחה.</string>
-  <string name="station_name">תחנה: <xliff:g id="name">%s </xliff:g></string>
+  <string name="station_name">תחנה:</string>
   <string name="station_exists">תדר זה כבר קיים!</string>
   <string name="station_list_delete_station">מחק: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">האם אתה בטוח שברצונך למחוק את \"<xliff:g id="name">%s</xliff:g>\"?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">מרווח ערוץ</string>
   <string name="set">הגדר</string>
   <string name="user_defind_band_msg">הזן תדרים מ-76.0MHz עד 108.0MHz עם רווח של לפחות ערוץ אחד ביניהם</string>
+  <string name="fm_search_no_results">לא נמצאו תחנות תואמות</string>
 </resources>

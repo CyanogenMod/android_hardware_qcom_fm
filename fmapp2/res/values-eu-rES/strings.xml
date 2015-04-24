@@ -58,16 +58,10 @@
   <string name="access_sd_fail">Ezinezkoa SD txartelera sartzea.</string>
   <string name="spaceIsLow_content">SD biltegiratze txartela lekurik gabe gelditzen ari da. Aldatu kalitate ezarpenak edo ezabatu fitxategiren bat lekua egiteko.</string>
   <string name="menu_scan_for_preset">Lehenetsiak bilatu</string>
-  <string name="alert_dialog_hint">Izendatu</string>
-  <string name="search_dialog_title">Igorleak bilatu</string>
   <string name="fm_command_timeout_title">Itxarote denbora</string>
-  <string name="fm_tune_timeout_msg">FM igorletik ez da erantzunik jaso. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_command_failed_title">FM komandoak huts egin du</string>
   <string name="fm_cmd_failed_msg">FM operazioak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operazioak huts egin du. Irratia ezin da HDMI-arekin batera erabili.</string>
-  <string name="station_exists">Maiztasun hau jada existitzen da!</string>
-  <string name="station_list_delete_station"><xliff:g id="name">%s</xliff:g> ezabatu</string>
-  <string name="station_name_empty">Igorlearen izena hutsik dago. Idatz ezazu bat, mesedez.</string>
   <string name="rt_plus_tags">Etiketak</string>
   <string name="chanl_spacing">Kanalen zabalera</string>
 </resources>

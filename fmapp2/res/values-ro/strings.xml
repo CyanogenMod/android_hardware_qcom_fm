@@ -79,7 +79,6 @@
   <string name="fm_cmd_failed_msg">Operația FM a eșuat. Dacă problema persistă, vă rugăm să opriți și să reporniți FM-ul.</string>
   <string name="fm_cmd_failed_msg_hdmi">Operația FM a eșuat. Concurența dintre FM și HDMI nu este acceptată.</string>
   <string name="fm_cmd_failed_call_on">Operația FM a eșuat. În timpul unui apel, audio al FM nu este permis.</string>
-  <string name="station_name">Stație: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Această frecvență există deja!</string>
   <string name="station_list_delete_station">Șterg: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_name_empty">Numele stației este gol, vă rugăm să îl introduceți iar.</string>

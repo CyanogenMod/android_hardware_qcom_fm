@@ -85,7 +85,7 @@
   <string name="fm_cmd_failed_msg">Операция невозможна. Если проблема не исчезнет, выключите FM-радио и включите его снова.</string>
   <string name="fm_cmd_failed_msg_hdmi">Одновременное использование FM-радио и HDMI невозможно.</string>
   <string name="fm_cmd_failed_call_on">Использование FM-радио во время телефонного звонка невозможно.</string>
-  <string name="station_name">Станция: <xliff:g id="name">%s </xliff:g></string>
+  <string name="station_name">Станция:</string>
   <string name="station_exists">Эта частота уже существует!</string>
   <string name="station_list_delete_station">Удаление: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Вы уверены, что хотите удалить «<xliff:g id="name">%s</xliff:g>»?</string>
@@ -97,4 +97,5 @@
   <string name="chanl_spacing">Шаг каналов</string>
   <string name="set">Установить</string>
   <string name="user_defind_band_msg">Введите частоту с 76.0-108.0 МГц с минимум 1-канальным интервалом</string>
+  <string name="fm_search_no_results">Совместимых станций не найдено</string>
 </resources>

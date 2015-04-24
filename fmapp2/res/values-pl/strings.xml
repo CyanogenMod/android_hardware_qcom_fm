@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">Uruchomienie radia FM nie powiodło się. Jeżeli problem będzie się powtarzał, wyłącz odbiornik i uruchom go ponownie.</string>
   <string name="fm_cmd_failed_msg_hdmi">Uruchomienie radia nie powiodło się. Współdziałanie odbiornika FM i HDMI nie jest wspierane.</string>
   <string name="fm_cmd_failed_call_on">Uruchomienie radia nie powiodło się. Uruchamianie radia jest zablokowane podczas rozmowy.</string>
-  <string name="station_name">Stacja: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Stacja:</string>
   <string name="station_exists">Ta częstotliwość już istnieje!</string>
   <string name="station_list_delete_station">Usuń: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Jesteś pewny, że chcesz usunąć \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Odstępy kanałów</string>
   <string name="set">Ustaw</string>
   <string name="user_defind_band_msg">Wprowadź częstotliwość od 76.0 do 108.0 MHz z minimalnym odstępem jednego kanału</string>
+  <string name="fm_search_no_results">Nie znaleziono kompatybilnych stacji</string>
 </resources>
