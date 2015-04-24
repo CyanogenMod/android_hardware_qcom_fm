@@ -32,7 +32,7 @@
   <string name="no_storage">Prijunkite SD kortelę prieš pradedant įrašymą.</string>
   <string name="preparing_sd">SD kortelė ruošiama</string>
   <string name="access_sd_fail">Nepavyko pasiekti SD kortelės.</string>
-  <string name="spaceIsLow_content">Jūsų SD kortelėje liko mažai laisvos vietos. Pakeiskite kokybės nustatymus arba ištrinkite kai kuriuos atvaizdus ar kitus failus.</string>
+  <string name="spaceIsLow_content">Jūsų SD kortelėje liko mažai laisvos vietos. Pakeiskite kokybės nustatymus arba ištrinkite kai kuriuos vaizdus ar kitus failus.</string>
   <string name="FMRecording_reach_size_limit">Pasiekta dydžio riba.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">Mano FM įrašai</string>

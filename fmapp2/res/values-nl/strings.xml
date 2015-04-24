@@ -72,7 +72,7 @@
   <string name="no_storage">Plaats SD-kaart om op te nemen.</string>
   <string name="preparing_sd">SD-kaart voorbereiden\u2026</string>
   <string name="access_sd_fail">Geen toegang tot SD-kaart</string>
-  <string name="spaceIsLow_content">Uw SD-kaart heeft bijna geen ruimte meer. Verminder de opnamekwaliteit of verwijder bestanden.</string>
+  <string name="spaceIsLow_content">Uw SD-kaart is bijna vol. Verminder de opnamekwaliteit of verwijder bestanden.</string>
   <string name="menu_scan_for_preset">Favorieten zoeken</string>
   <string name="fm_off">FM is uitgeschakeld.</string>
   <string name="fm_call">FM kan niet worden gebruikt tijdens het bellen.</string>
@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">FM-bewerking mislukt. Als het probleem blijft bestaan schakel FM-radio uit en aan.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-bewerking mislukt. FM en HDMI tegelijk wordt niet ondersteund.</string>
   <string name="fm_cmd_failed_call_on">FM-bewerking mislukt. FM audio niet toegestaan tijdens een telefoongesprek.</string>
-  <string name="station_name">Station: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Zender:</string>
   <string name="station_exists">Deze frequentie bestaat al</string>
   <string name="station_list_delete_station">Verwijderen: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Weet u zeker dat u \'<xliff:g id="name">%s</xliff:g>\' wilt verwijderen?</string>

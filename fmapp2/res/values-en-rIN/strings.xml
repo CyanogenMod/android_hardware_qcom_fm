@@ -82,7 +82,6 @@
   <string name="fm_cmd_failed_msg">FM operation failed. If the problem persists, please turn off FM and turn it back on.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operation failed. FM and HDMI concurrency is not supported.</string>
   <string name="fm_cmd_failed_call_on">FM operation failed. FM audio is not allowed during call.</string>
-  <string name="station_name">Station: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">This frequency already exists!</string>
   <string name="station_list_delete_station">Delete: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Are you sure you want to delete \'<xliff:g id="name">%s</xliff:g>\'?</string>

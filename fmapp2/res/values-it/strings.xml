@@ -84,7 +84,7 @@
   <string name="fm_cmd_failed_msg">Operazione FM non riuscita. Se il problema persiste, si prega di spegnere e riaccendere FM.</string>
   <string name="fm_cmd_failed_msg_hdmi">Operazione FM non riuscita. La concorrenza di FM e HDMI non è supportata.</string>
   <string name="fm_cmd_failed_call_on">Operazione FM non riuscita. L\'audio FM non è consentito durante una chiamata.</string>
-  <string name="station_name">Stazione: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_name">Stazione:</string>
   <string name="station_exists">Questa frequenza esiste già!</string>
   <string name="station_list_delete_station">Elimina: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Sicuro di voler eliminare \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Spaziatura tra i canali</string>
   <string name="set">Imposta</string>
   <string name="user_defind_band_msg">Inserire la frequenza da 76,0 a 108,0 MHz con spaziatura minima di 1 canale</string>
+  <string name="fm_search_no_results">Nessuna stazione compatibile trovata</string>
 </resources>

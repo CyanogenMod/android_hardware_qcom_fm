@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Kunne ikke tilgå til SD-kort.</string>
   <string name="spaceIsLow_content">Dit SD-kort er ved at løbe før for plads. Skift kvalitet eller slet nogle andre filer for at frigøre plads.</string>
   <string name="menu_scan_for_preset">Scan efter gemte stationer</string>
+  <string name="fm_off">FM er slået fra.</string>
+  <string name="fm_call">FM kan ikke bruges under opkald.</string>
   <string name="alert_dialog_hint">Angiv et navn</string>
   <string name="search_dialog_title">Scan stationer</string>
   <string name="fm_command_timeout_title">Timeout</string>
@@ -82,7 +84,6 @@
   <string name="fm_cmd_failed_msg">FM-handling mislykkedes. Hvis problemet fortsætter, sluk og tænd for FM.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-handling mislykkedes. Brug af FM og HDMI samtidigt understøttes ikke.</string>
   <string name="fm_cmd_failed_call_on">FM-handling mislykkedes. Kan ikke bruge FM under et opkald.</string>
-  <string name="station_name">Station: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_exists">Denne frekvens findes allerede!</string>
   <string name="station_list_delete_station">Slet: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Er du sikker på, at du vil slette \'<xliff:g id="name">%s</xliff:g>\'?</string>
