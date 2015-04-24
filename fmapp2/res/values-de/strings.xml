@@ -165,7 +165,7 @@
   <string name="station_name">Sender:</string>
   <string name="station_exists">Diese Frequenz ist bereits vorhanden!</string>
   <string name="station_list_delete_station">Löschen: <xliff:g id="name">%s</xliff:g></string>
-  <string name="station_list_delete_station_prompt">Sind Sie sicher, dass Sie \'<xliff:g id="name">%s</xliff:g>\'  löschen wollen?</string>
+  <string name="station_list_delete_station_prompt">Sind Sie sicher, dass Sie \"<xliff:g id="name">%s</xliff:g>\"  löschen wollen?</string>
   <string name="station_name_empty">Sendername ist leer, bitte geben Sie einen Namen ein.</string>
   <string name="station_name_exist">Es ist bereits ein Radiosender mit dem Name \'<xliff:g id="name">%s</xliff:g>\' gespeichert. Bitte einen anderen Namen wählen.</string>
   <string name="rt_plus_tags">Schlagworte</string>
