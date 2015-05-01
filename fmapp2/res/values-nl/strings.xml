@@ -96,4 +96,5 @@
   <string name="chanl_spacing">Kanaalafstand</string>
   <string name="set">Instellen</string>
   <string name="user_defind_band_msg">Voer een frequentie in tussen 76.0 en 108.0 MHz met een tussenruimte van een kanaal</string>
+  <string name="fm_search_no_results">Geen zenders gevonden</string>
 </resources>
