@@ -84,6 +84,7 @@
   <string name="fm_cmd_failed_msg">FM операција неуспешна. Ако се проблем настави, молимо искључите FM и укључите га поново.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM операција неуспешна. FM и HDMI конкурентност није подржана.</string>
   <string name="fm_cmd_failed_call_on">FM операција неуспешна. FM аудио није дозвољен у току позива.</string>
+  <string name="station_name">Станица:</string>
   <string name="station_exists">Ова фреквенција већ постоји!</string>
   <string name="station_list_delete_station">Избриши:  <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Да ли сте сигурни да желите да избришете \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -95,4 +96,5 @@
   <string name="chanl_spacing">Размак канала</string>
   <string name="set">Постави</string>
   <string name="user_defind_band_msg">Унесите фреквенцију од 76,0 до 108,0 MHz са минималним размаком од 1 канала</string>
+  <string name="fm_search_no_results">Нема одговарајућих станица</string>
 </resources>
