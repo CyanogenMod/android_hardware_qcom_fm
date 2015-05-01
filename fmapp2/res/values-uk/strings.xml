@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Невдалось отримати доступ до SD-карти.</string>
   <string name="spaceIsLow_content">Закінчується місце на вашій SD-карті. Змініть якість в налаштуваннях або ж видаліть зображення чи інші файли.</string>
   <string name="menu_scan_for_preset">Сканувати за попередніми налаштуваннями</string>
+  <string name="fm_off">FM-радіо вимкнуто.</string>
+  <string name="fm_call">FM-радіо не може використовуватись при дзвінках.</string>
   <string name="alert_dialog_hint">Вкажіть назву</string>
   <string name="search_dialog_title">Сканувати станції</string>
   <string name="fm_command_timeout_title">Таймаут</string>
@@ -82,6 +84,7 @@
   <string name="fm_cmd_failed_msg">Операція неможлива. Якщо проблема не зникне, вимкніть FM-радіо і увімкніть його знову.</string>
   <string name="fm_cmd_failed_msg_hdmi">Одночасне використання FM-радіо і HDMI неможливо.</string>
   <string name="fm_cmd_failed_call_on">Використання FM-радіо під час телефонного дзвінка неможливо.</string>
+  <string name="station_name">Станція:</string>
   <string name="station_exists">Ця частота вже існує!</string>
   <string name="station_list_delete_station">Вилучити:<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Ви дійсно бажаєте видалити \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -93,4 +96,5 @@
   <string name="chanl_spacing">Крок каналів</string>
   <string name="set">Встановити</string>
   <string name="user_defind_band_msg">Додайте частоту від 76.0 до 108.0 МГц з мінімальним інтервалом у 1 канал</string>
+  <string name="fm_search_no_results">Не знайдено сумісних станцій</string>
 </resources>

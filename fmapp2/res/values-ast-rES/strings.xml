@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Nun se pudo acceder a la tarxeta SD.</string>
   <string name="spaceIsLow_content">La tarxeta SD ta quedando ensin espaciu. Cambie la configuración de calidá o desanicie otros ficheros pa lliberar espaciu.</string>
   <string name="menu_scan_for_preset">Buscar pre-sintoníes</string>
+  <string name="fm_off">La radio FM ta apagada.</string>
+  <string name="fm_call">La radio FM nun pue usase mientres les llamaes.</string>
   <string name="alert_dialog_hint">Escribi un nome</string>
   <string name="search_dialog_title">Buscar emisores</string>
   <string name="fm_command_timeout_title">Cuenta atrás</string>
@@ -82,6 +84,7 @@
   <string name="fm_cmd_failed_msg">Falló la operación FM. Si\'l problema persiste, apaga la radio y vuelvi a prendela.</string>
   <string name="fm_cmd_failed_msg_hdmi">Falló la operación FM. Usar la radio y el HDMI al empar nun ta sofitao téunicamente.</string>
   <string name="fm_cmd_failed_call_on">Falló la operación FM. L\'audiu FM nun ta permitíu mientres una llamada.</string>
+  <string name="station_name">Emisora:</string>
   <string name="station_exists">¡Esta frecuencia yá esiste!</string>
   <string name="station_list_delete_station">Desaniciar:<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">¿Daveres que quies desaniciar \u00AB<xliff:g id="name">%s</xliff:g>\u00BB?</string>
@@ -93,4 +96,5 @@
   <string name="chanl_spacing">Espaciáu de canales</string>
   <string name="set">Afitar</string>
   <string name="user_defind_band_msg">Seleiciona una frecuencia ente 76.0 a 108.0 MHz con al menos espaciu pa una canal</string>
+  <string name="fm_search_no_results">Nun s\'atoparon emisores compatibles</string>
 </resources>
