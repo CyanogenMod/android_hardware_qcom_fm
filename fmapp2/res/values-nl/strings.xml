@@ -125,7 +125,7 @@
   <string name="no_storage">Plaats SD-kaart om op te nemen.</string>
   <string name="preparing_sd">SD-kaart voorbereiden</string>
   <string name="access_sd_fail">Geen toegang tot SD-kaart</string>
-  <string name="spaceIsLow_content">Uw SD-kaart heeft bijna geen ruimte meer. Verminder de opnamekwaliteit of verwijder bestanden.</string>
+  <string name="spaceIsLow_content">Uw SD-kaart is bijna vol. Verminder de opnamekwaliteit of verwijder bestanden.</string>
   <string name="FMRecording_reach_size_limit">Opnamelimiet bereikt</string>
   <string name="delete_station_title">Verwijderen</string>
   <string name="find_af_station">Zoeken</string>
