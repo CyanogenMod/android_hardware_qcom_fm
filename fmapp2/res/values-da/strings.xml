@@ -84,6 +84,7 @@
   <string name="fm_cmd_failed_msg">FM-handling mislykkedes. Hvis problemet fortsætter, sluk og tænd for FM.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-handling mislykkedes. Brug af FM og HDMI samtidigt understøttes ikke.</string>
   <string name="fm_cmd_failed_call_on">FM-handling mislykkedes. Kan ikke bruge FM under et opkald.</string>
+  <string name="station_name">Station:</string>
   <string name="station_exists">Denne frekvens findes allerede!</string>
   <string name="station_list_delete_station">Slet: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Er du sikker på, at du vil slette \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -95,4 +96,5 @@
   <string name="chanl_spacing">Kanalafstand</string>
   <string name="set">Angiv</string>
   <string name="user_defind_band_msg">Angiv frekvens fra 76,0 til 108,0 MHz med minimum 1 kanal afstand</string>
+  <string name="fm_search_no_results">Ingen kompatible stationer fundet</string>
 </resources>

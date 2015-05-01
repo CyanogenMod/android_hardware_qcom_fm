@@ -45,10 +45,14 @@
   <string name="msg_scanning">Se caută toate stațiile FM\u2026</string>
   <string name="msg_scanning_pty">Se caută \'<xliff:g id="pty_name">%1$s</xliff:g>\'\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
+  <string name="msg_searching_title">Auto-selectare presetări</string>
+  <string name="msg_searching">Se caută staţiile puternice pentru a crea o listă de presetări\u2026</string>
   <string name="msg_noantenna">Vă rugăm conectați o cască audio pentru a folosi radio FM</string>
+  <string name="dialog_sleep_title">Timpul de oprire automată</string>
   <string name="presetlist_select_name">Selectați \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_add_new">Adaugă o listă nouă</string>
   <string name="dialog_presetlist_rename_title">Introduceţi numele</string>
+  <string name="presetlist_autoselect_title">Confirmă auto-selecţia</string>
   <string name="preset_replace">Înlocuire</string>
   <string name="preset_tune">Reglaj</string>
   <string name="preset_rename">Redenumire</string>
@@ -64,6 +68,7 @@
   <string name="settings_revert_defaults_title">Revenire la setările de fabrică</string>
   <string name="settings_revert_defaults_summary">Reinițializați toate setările</string>
   <string name="settings_revert_confirm_title">Confirmați reinițializarea</string>
+  <string name="settings_revert_confirm_msg">Aceasta va şterge toate setările aplicaţiei, inclusiv presetările salvate. Continuați?</string>
   <string name="no_storage">Introduceți cardul SD înainte de a începe înregistrarea.</string>
   <string name="preparing_sd">Se pregătește cardul SD\u2026</string>
   <string name="access_sd_fail">Nu s-a putut accesa cardul SD.</string>
@@ -79,13 +84,17 @@
   <string name="fm_cmd_failed_msg">Operația FM a eșuat. Dacă problema persistă, vă rugăm să opriți și să reporniți FM-ul.</string>
   <string name="fm_cmd_failed_msg_hdmi">Operația FM a eșuat. Concurența dintre FM și HDMI nu este acceptată.</string>
   <string name="fm_cmd_failed_call_on">Operația FM a eșuat. În timpul unui apel, audio al FM nu este permis.</string>
+  <string name="station_name">Postul:</string>
   <string name="station_exists">Această frecvență există deja!</string>
   <string name="station_list_delete_station">Șterg: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">Sigur vrei să ștergi \'<xliff:g id="name">%s</xliff:g>\'?</string>
   <string name="station_name_empty">Numele stației este gol, vă rugăm să îl introduceți iar.</string>
   <string name="station_name_exist">\' <xliff:g id="name">%s\' </xliff:g> este deja în uz, vă rugăm să introduceţi un nume diferit.</string>
   <string name="rt_plus_tags">Etichete</string>
   <string name="usr_def_band_min">Frecvența minimă (MHz)</string>
   <string name="usr_def_band_max">Frecvența maximă (MHz)</string>
   <string name="chanl_spacing">Spațiere pentru canal</string>
+  <string name="set">Setaţi</string>
   <string name="user_defind_band_msg">Introduceţi o frecvenţă între 76.0 si 108.0 MHz, cu o spaţiere de minim 1 canal</string>
+  <string name="fm_search_no_results">Nu s-au găsit posturi compatibile</string>
 </resources>
