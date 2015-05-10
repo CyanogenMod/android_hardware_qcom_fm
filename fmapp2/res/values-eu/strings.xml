@@ -76,9 +76,9 @@
   <string name="enter_new_frequency_title">Maiztasuna sartu</string>
   <string name="preset_now_playing">Orain entzuten </string>
   <string name="preset_pref_title">\u00AB<xliff:g id="preset_name">%1$s</xliff:g>\u00BB (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
-  <string name="preset_delete_title">Lehenetsia ezabatu</string>
-  <string name="preset_delete_name"><xliff:g id="preset_name">%1$s</xliff:g>  <xliff:g id="presetlist_name">%2$s</xliff:g>-tik ezabatu</string>
-  <string name="preset_confirm_delete_name"><xliff:g id="preset_name">%1$s</xliff:g>  <xliff:g id="presetlist_name">%2$s</xliff:g> -tik ezabatu?</string>
+  <string name="preset_delete_title">Ezabatu irratia</string>
+  <string name="preset_delete_name">Ezabatu \'<xliff:g id="preset_name">%1$s</xliff:g>\' \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'tik</string>
+  <string name="preset_confirm_delete_name">Ezabatu \'<xliff:g id="preset_name">%1$s</xliff:g>\' \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'tik?</string>
   <string name="preset_name_dialog_title">Izendatu</string>
   <string name="preset_name_summary">\u00AB<xliff:g id="preset_name">%1$s</xliff:g>\u00BB</string>
   <string name="preset_name_title">Berrizendatu</string>
@@ -131,7 +131,7 @@
   <string name="menu_rename_list">Zerrenda berrizendatu</string>
   <string name="menu_reorder_list">Zerrenda berrordenatu</string>
   <string name="menu_scan_for_preset">Lehenetsiak bilatu</string>
-  <string name="menu_delete_list">Zerrenda ezabatu</string>
+  <string name="menu_delete_list">Ezabatu zerrenda</string>
   <string name="alert_dialog_ok">Ondo da</string>
   <string name="alert_dialog_cancel">Ezeztatu</string>
   <string name="alert_dialog_hint">Izendatu</string>
@@ -161,8 +161,8 @@
   <string name="audio_db_playlist_name">FM grabazioak</string>
   <string name="station_name">Igorlea:</string>
   <string name="station_exists">Maiztasun hau jada existitzen da!</string>
-  <string name="station_list_delete_station"><xliff:g id="name">%s</xliff:g> ezabatu</string>
-  <string name="station_list_delete_station_prompt">Ziur <xliff:g id="name">%s</xliff:g> ezabatu nahi duzula?</string>
+  <string name="station_list_delete_station">Ezabatu: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">Ziur \'<xliff:g id="name">%s</xliff:g>\' ezabatu nahi duzula?</string>
   <string name="station_name_empty">Igorlearen izena hutsik dago. Idatz ezazu bat, mesedez.</string>
   <string name="station_name_exist">Badago <xliff:g id="name">%s</xliff:g> izena duen igorle bat. Idatz ezazu izen ezberdin bat, mesedez.</string>
   <string name="rt_plus_tags">Etiketak</string>
