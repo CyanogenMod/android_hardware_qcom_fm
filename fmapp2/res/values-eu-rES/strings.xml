@@ -62,6 +62,8 @@
   <string name="fm_command_failed_title">FM komandoak huts egin du</string>
   <string name="fm_cmd_failed_msg">FM operazioak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operazioak huts egin du. Irratia ezin da HDMI-arekin batera erabili.</string>
+  <string name="station_list_delete_station">Ezabatu: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">Ziur \'<xliff:g id="name">%s</xliff:g>\' ezabatu nahi duzula?</string>
   <string name="rt_plus_tags">Etiketak</string>
   <string name="chanl_spacing">Kanalen zabalera</string>
 </resources>
