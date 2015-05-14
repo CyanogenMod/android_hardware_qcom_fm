@@ -82,6 +82,7 @@ import android.content.ComponentName;
 import android.os.StatFs;
 import android.os.SystemClock;
 import android.os.Process;
+import android.os.SystemProperties;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningAppProcessInfo;
 import android.media.session.MediaSession;
@@ -1851,8 +1852,9 @@ public class FMRadioService extends Service
             bStatus = enableAutoAF(FmSharedPreferences.getAutoAFSwitch());
             Log.d(LOGTAG, "enableAutoAF done, Status :" +  bStatus);
 
-            /* There is no internal Antenna*/
-            bStatus = mReceiver.setInternalAntenna(false);
+            /* Generally there is no internal Antenna but we have to respect prop */
+            bStatus = mReceiver.setInternalAntenna(SystemProperties.getBoolean(
+                                                "hw.fm.internal_antenna", false));
             Log.d(LOGTAG, "setInternalAntenna done, Status :" +  bStatus);
 
             /* Read back to verify the internal Antenna mode*/
