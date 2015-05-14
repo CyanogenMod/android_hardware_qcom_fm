@@ -1851,12 +1851,10 @@ public class FMRadioService extends Service
             bStatus = enableAutoAF(FmSharedPreferences.getAutoAFSwitch());
             Log.d(LOGTAG, "enableAutoAF done, Status :" +  bStatus);
 
-            /* There is no internal Antenna*/
-            bStatus = mReceiver.setInternalAntenna(false);
-            Log.d(LOGTAG, "setInternalAntenna done, Status :" +  bStatus);
-
-            /* Read back to verify the internal Antenna mode*/
             readInternalAntennaAvailable();
+
+            bStatus = mReceiver.setInternalAntenna(mInternalAntennaAvailable);
+            Log.d(LOGTAG, "setInternalAntenna done, Status :" +  bStatus);
 
             startNotification();
             bStatus = true;
