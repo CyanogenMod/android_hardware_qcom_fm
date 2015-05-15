@@ -151,14 +151,14 @@
   <string-array name="regional_band_summary">
     <item>Põhja-Ameerikas (200 KHz samm 87,5 MHz-108.0 MHz)</item>
     <item>Euroopa (100 KHz samm 87,5 MHz-108.0 MHz)</item>
-    <item>Jaapan (76,0 MHz - 90.0 MHz kuni 100 KHz sammu)</item>
+    <item>Jaapan (100 KHz samm, 76,0 MHz -90.0 MHz)</item>
     <item>Jaapan (Lai) (50 KHz samm, 90,0 MHz-108.0 MHz)</item>
     <item>Austraalia (100 KHz samm, 87,7 MHz-108.0 MHz)</item>
     <item>Austria (50 KHz samm, 87,5 MHz-108.0 MHz)</item>
     <item>Belgia (100 KHz samm, 87,5 MHz-108.0 MHz)</item>
     <item>Brasiilia (87.5MHz-108.0MHz 200 KHz astmetega)</item>
     <item>Hiina (87.0MHz-108.0MHz 100 KHz astmetega)</item>
-    <item>Czech Republic (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Tšehhi vabariik (100 KHz samm, 87.5MHz-108.0MHz)</item>
     <item>Taani (87.5MHz-108.0MHz 50 KHz astmetega)</item>
     <item>Soome (87.5MHz-108.0MHz 100 KHz astmetega)</item>
     <item>Prantsusmaa (87.5MHz-108.0MHz 100 KHz astmetega)</item>
@@ -186,7 +186,7 @@
     <item>Ameerika Ühendriigid (87.5MHz-108.0MHz 100 KHz astmetega)</item>
     <item>Ameerika Ühendriikides ( 88.1 MHz-107.9 MHz 200 Hz sammudega)</item>
     <item>Kasutaja määratud sagedusala</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Indoneesia (100 KHz samm, 87.5MHz-108.0MHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 kHz</item>
