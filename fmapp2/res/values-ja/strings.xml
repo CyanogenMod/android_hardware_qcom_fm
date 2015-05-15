@@ -84,7 +84,6 @@
   <string name="fm_cmd_failed_msg">FMを操作できませんでした。問題が解決しなければFMをOFFにして、ONに戻してみてください。</string>
   <string name="fm_cmd_failed_msg_hdmi">FMを操作できませんでした。FMとHDMIの同時実行はサポートされていません。</string>
   <string name="fm_cmd_failed_call_on">FMを操作できませんでした。通話中のFMオーディオは許可されていません。</string>
-  <string name="station_name">局:</string>
   <string name="station_exists">この周波数は既に存在しています。</string>
   <string name="station_list_delete_station">削除: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">「<xliff:g id="name">%s</xliff:g>」を削除してもよろしいですか？</string>
@@ -96,5 +95,4 @@
   <string name="chanl_spacing">チャネル間隔</string>
   <string name="set">設定</string>
   <string name="user_defind_band_msg">最低1チャネルの間隔で76.0 MHzから108.0 MHzまでの周波数を入力してください</string>
-  <string name="fm_search_no_results">互換性のある局が見つかりませんでした</string>
 </resources>

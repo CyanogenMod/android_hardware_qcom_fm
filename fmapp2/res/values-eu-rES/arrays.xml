@@ -118,7 +118,7 @@
     <item>Belgika</item>
     <item>Brasil</item>
     <item>Txina</item>
-    <item>Czech Republic</item>
+    <item>Txekia</item>
     <item>Danimarka</item>
     <item>Finlandia</item>
     <item>Frantzia</item>
@@ -143,7 +143,7 @@
     <item>Suedia</item>
     <item>Taiwan</item>
     <item>Turkia</item>
-    <item>United Kingdom</item>
+    <item>Erresuma Batua</item>
     <item>Estatu Batuak</item>
     <item>Pertsonalizatua</item>
     <item>Indonesia</item>
@@ -158,7 +158,7 @@
     <item>Belgika (87,5MHz-tik 108,0MHz-ra 100KHz-tako pausuetan)</item>
     <item>Brasil (87,5MHz-tik 108,0MHz-ra 200KHz-tako pausuetan)</item>
     <item>Txina (87,0MHz-tik 108,0MHz-ra 100KHz-tako pausuetan)</item>
-    <item>Czech Republic (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Txekia (87.5MHz-tik 108.0MHz-tara in 100 KHz-ko jauzietan)</item>
     <item>Danimarka (87,5MHz-tik 108,0MHz-ra 50KHz-tako pausuetan)</item>
     <item>Finlandia (87,5MHz-tik 108,0MHz-ra 100KHz-tako pausuetan)</item>
     <item>Frantzia (87,5MHz-tik 108,0MHz-ra 100KHz-tako pausuetan)</item>
@@ -186,7 +186,7 @@
     <item>Erresuma Batua (87,5MHz-tik 108,0MHz-ra 100KHz-tako pausuetan)</item>
     <item>Estatu Batuak (88,1MHz-tik 107,9MHz-ra 200KHz-tako pausuetan)</item>
     <item>Banda pertsonalizatua</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Indonesia (87,5MHz-tik 108,0MHz-ra 100KHz-tako pausuetan)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50KHz</item>

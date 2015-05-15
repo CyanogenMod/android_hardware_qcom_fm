@@ -77,18 +77,18 @@
   <string name="fm_off">O rádio FM está desligado.</string>
   <string name="fm_call">O rádio FM não pode ser utilizado durante uma chamada.</string>
   <string name="alert_dialog_hint">Insira um nome</string>
-  <string name="search_dialog_title">Procurar emissoras</string>
+  <string name="search_dialog_title">Procurar estações</string>
   <string name="fm_command_timeout_title">Tempo para suspensão</string>
-  <string name="fm_tune_timeout_msg">Não foi possível sintonizar a emissora FM. Se o problema persistir, desligue e volte a ligar o rádio.</string>
+  <string name="fm_tune_timeout_msg">Não foi possível sintonizar a estação FM. Se o problema persistir, desligue e volte a ligar o rádio.</string>
   <string name="fm_command_failed_title">Falha no funcionamento do rádio</string>
   <string name="fm_cmd_failed_msg">Falha no funcionamento do rádio. Se o problema persistir, desligue e volte a liga-lo.</string>
   <string name="fm_cmd_failed_msg_hdmi">Falha no funcionamento do rádio. O rádio e HDMI não podem ser usados em simultâneo.</string>
   <string name="fm_cmd_failed_call_on">Falha no funcionamento do rádio. O rádio não pode ser usado durante uma chamada.</string>
-  <string name="station_name">Emissora:</string>
+  <string name="station_name">Estação:</string>
   <string name="station_exists">Esta frequência já existe!</string>
   <string name="station_list_delete_station">Eliminar: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Tem a certeza que quer eliminar \'<xliff:g id="name">%s</xliff:g>\'?</string>
-  <string name="station_name_empty">O nome da emissora está vazio, por favor, insira novamente.</string>
+  <string name="station_name_empty">O nome da estação está vazio, por favor, insira novamente.</string>
   <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' já está em utilização, por favor, digite um nome diferente.</string>
   <string name="rt_plus_tags">Etiquetas</string>
   <string name="usr_def_band_min">Frequência mínima (MHz)</string>
@@ -96,5 +96,5 @@
   <string name="chanl_spacing">Espaçamento entre canais</string>
   <string name="set">Definir</string>
   <string name="user_defind_band_msg">Introduza a frequência de 76.0 a 108,0 MHz com 1 canal de espaçamento no mínimo</string>
-  <string name="fm_search_no_results">Não encontrou emissoras compatíveis</string>
+  <string name="fm_search_no_results">Não encontrou estações compatíveis</string>
 </resources>
