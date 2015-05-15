@@ -32,6 +32,8 @@
   <string name="app_name">FM irratia</string>
   <string name="tx_app_name">FM Tx</string>
   <string name="menu_scan_start">Bilatu</string>
+  <string name="menu_record_start">Grabatu</string>
+  <string name="menu_record_stop">Gelditu grabaketa</string>
   <string name="menu_settings">Ezarpenak</string>
   <string name="menu_sleep">Lokartu</string>
   <string name="menu_sleep_cancel">Lokartzea eten</string>
@@ -39,8 +41,10 @@
   <string name="menu_display_tags">Erakutsi etiketak</string>
   <string name="button_text_stop">Gelditu</string>
   <string name="msg_noantenna">FM irratia erabili ahal izateko aurikularrak konektatu, mesedez</string>
-  <string name="presetlist_select_name">Aukeratu <xliff:g id="preset_name">%1$s</xliff:g></string>
-  <string name="presetlist_add_new">Zerrenda berria gehitu</string>
+  <string name="presetlist_select_name">Hautatu <xliff:g id="preset_name">%1$s</xliff:g></string>
+  <string name="presetlist_add_new">Gehitu zerrenda berria</string>
+  <string name="dialog_presetlist_rename_title">Sartu izena</string>
+  <string name="presetlist_autoselect_title">Berretsi hautapen automatikoa</string>
   <string name="preset_replace">Ordeztu</string>
   <string name="preset_tune">Sintonizatu</string>
   <string name="preset_rename">Berrizendatu</string>
@@ -58,10 +62,14 @@
   <string name="access_sd_fail">Ezinezkoa SD txartelera sartzea.</string>
   <string name="spaceIsLow_content">SD biltegiratze txartela lekurik gabe gelditzen ari da. Aldatu kalitate ezarpenak edo ezabatu fitxategiren bat lekua egiteko.</string>
   <string name="menu_scan_for_preset">Lehenetsiak bilatu</string>
+  <string name="alert_dialog_hint">Sartu izen bat</string>
   <string name="fm_command_timeout_title">Itxarote denbora</string>
   <string name="fm_command_failed_title">FM komandoak huts egin du</string>
   <string name="fm_cmd_failed_msg">FM operazioak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operazioak huts egin du. Irratia ezin da HDMI-arekin batera erabili.</string>
+  <string name="station_list_delete_station">Ezabatu: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">Ziur \'<xliff:g id="name">%s</xliff:g>\' ezabatu nahi duzula?</string>
+  <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' erabiltzen ari zara jada, sartu beste izen bat.</string>
   <string name="rt_plus_tags">Etiketak</string>
   <string name="chanl_spacing">Kanalen zabalera</string>
 </resources>
