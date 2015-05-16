@@ -231,6 +231,10 @@ public class FMTransmitterActivity extends Activity {
        }
        mRadioTextTV = (TextView)findViewById(R.id.radio_text_tv);
 
+       if ((mRadioTextScroller == null) && (mRadioTextTV != null)) {
+           mRadioTextScroller = new ScrollerText(mRadioTextTV);
+       }
+
        enableRadioOnOffUI(false);
 
        if(false == bindToService(this, osc)) {
@@ -270,7 +274,9 @@ public class FMTransmitterActivity extends Activity {
    @Override
    protected void onPause() {
       super.onPause();
-      mRadioTextScroller.stopScroll();
+      if (mRadioTextScroller != null) {
+        mRadioTextScroller.stopScroll();
+      }
       SavePreferences();
    }
 
@@ -944,6 +950,8 @@ public class FMTransmitterActivity extends Activity {
                  if(mRadioTextTV != null) {
                     mRadioTextTV.setVisibility(View.VISIBLE);
                      mRadioTextTV.setText(getString(R.string.msg_headsetpluggedin));
+                     mRadioTextScroller.mOriginalString =
+                                            getString(R.string.msg_headsetpluggedin);
                  }
                  if(mOnOffButton != null) {
                     mOnOffButton.setEnabled(false);
@@ -953,6 +961,7 @@ public class FMTransmitterActivity extends Activity {
                  if(mRadioTextTV != null) {
                     mRadioTextTV.setVisibility(View.VISIBLE);
                     mRadioTextTV.setText(getString(R.string.fm_call));
+                    mRadioTextScroller.mOriginalString = getString(R.string.fm_call);
                  }
                  if(mOnOffButton != null) {
                     mOnOffButton.setEnabled(false);
@@ -960,6 +969,7 @@ public class FMTransmitterActivity extends Activity {
               }else {
                  if(mRadioTextTV != null) {
                     mRadioTextTV.setText("");
+                    mRadioTextScroller.mOriginalString = "";
                  }
                  if(mOnOffButton != null) {
                     mOnOffButton.setEnabled(true);
@@ -970,6 +980,7 @@ public class FMTransmitterActivity extends Activity {
               if(mRadioTextTV != null) {
                   mRadioTextTV.setVisibility(View.VISIBLE);
                  mRadioTextTV.setText(getString(R.string.fm_off));
+                 mRadioTextScroller.mOriginalString = getString(R.string.fm_off);
               }
               if(mOnOffButton != null) {
                  mOnOffButton.setEnabled(true);
@@ -1034,6 +1045,9 @@ public class FMTransmitterActivity extends Activity {
                               / mPrefs.getFrequencyStepSize()));
       }
       mRadioTextTV.setText("");
+      mRadioTextScroller.mOriginalString = "";
+      mRadioTextScroller.mStringlength = 0;
+      mRadioTextScroller.mIteration = 0;
       setupPresetLayout();
    }
 
@@ -1144,6 +1158,10 @@ public class FMTransmitterActivity extends Activity {
 
   private void resetFMStationInfoUI() {
      mRadioTextTV.setText("");
+     if (mRadioTextScroller != null) {
+         mRadioTextScroller.stopScroll();
+     }
+     mRadioTextScroller.mOriginalString = "";
      mRadioTextScroller.stopScroll();
      mUpdatePickerValue = true;
      updateStationInfoToUI();
@@ -1216,14 +1234,19 @@ public class FMTransmitterActivity extends Activity {
                     Log.d(LOGTAG, "mUpdateRadioText: Updatable string: ["
                               + str + "]");
                     mRadioTextTV.setText(str);
+                    mRadioTextScroller.mOriginalString = str;
                  }else if (TextUtils.isEmpty(str)) {
                     mRadioTextTV.setText("");
+                    mRadioTextScroller.mOriginalString = "";
                  }else {
                     Log.d(LOGTAG, "RDS has non printable stuff");
                     mRadioTextTV.setText("");
+                    mRadioTextScroller.mOriginalString = "";
                  }
 
-                 mRadioTextScroller.startScroll();
+                 if (mRadioTextScroller != null) {
+                    mRadioTextScroller.startScroll();
+                 }
                  String szRTStr = getString(R.string.transmit_msg_string);
                  mPSData = mService.getPSData();
                  if(null != mPSData ) {
