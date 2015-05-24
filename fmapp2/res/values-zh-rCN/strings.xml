@@ -84,6 +84,7 @@
   <string name="fm_cmd_failed_msg">FM 操作失败。如果问题仍然存在，请关闭 FM，并将其重新打开。</string>
   <string name="fm_cmd_failed_msg_hdmi">FM 操作失败。不支持 FM 和 HDMI 并发。</string>
   <string name="fm_cmd_failed_call_on">FM 操作失败。通话期间禁止 FM 音频。</string>
+  <string name="station_name">电台:</string>
   <string name="station_exists">此频率已存在!</string>
   <string name="station_list_delete_station">删除：<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">您确定要删除“<xliff:g id="name">%s</xliff:g>”？</string>
@@ -95,4 +96,5 @@
   <string name="chanl_spacing">频道间隔</string>
   <string name="set">设置</string>
   <string name="user_defind_band_msg">输入从 760 至 108.0 兆赫频率，最低包含 1 频道间隔</string>
+  <string name="fm_search_no_results">没有找到兼容的电台</string>
 </resources>

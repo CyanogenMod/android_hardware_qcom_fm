@@ -41,4 +41,5 @@
   <string name="audio_db_playlist_name">تۆمارکراوەکان</string>
   <string name="save_record_file">تۆمارکراوی پاشەکەوت کراو \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_record_progress">خەریکی تۆمار کردن</string>
+  <string name="unable_to_store">ناتوانرێت دەنگی تۆمارکراو پاشەکەوتبکرێت</string>
 </resources>
