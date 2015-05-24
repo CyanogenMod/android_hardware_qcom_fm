@@ -84,6 +84,7 @@
   <string name="fm_cmd_failed_msg">FM werking het misluk. As die probleem voortduur, Skakel FM Radio af en aan.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM werking het misluk. FM en HDMI geluiktydige werking word nie ondersteun nie.</string>
   <string name="fm_cmd_failed_call_on">FM klank word nie toegelaat tydens \'n oproep.</string>
+  <string name="station_name">Stasie:</string>
   <string name="station_exists">Hierdie frekwensie bestaan ​​reeds!</string>
   <string name="station_list_delete_station">Verwyder:<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Is jy seker jy will <xliff:g id="name">%s</xliff:g> verwyder.</string>
@@ -95,4 +96,5 @@
   <string name="chanl_spacing">Kanaal spasie</string>
   <string name="set">Stel</string>
   <string name="user_defind_band_msg">Tik frekwensie van 76.0 tot 108.0 MHz met \'n minimum 1 kanaal spasiëring</string>
+  <string name="fm_search_no_results">Geen versoenbare stasies was gevind</string>
 </resources>

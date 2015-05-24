@@ -158,39 +158,39 @@
     <item>به‌لجیکا 87.5MHz to 108.0MHz in 100 KHz</item>
     <item>به‌ڕازیل 87.5MHz to 108.0MHz in 200 KHz</item>
     <item>چین 87.0MHz to 108.0MHz in 100 KHz</item>
-    <item>Czech Republic (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Czech Republic (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
     <item>دانیمارک 87.5MHz to 108.0MHz in 50 KHz</item>
-    <item>Finland (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>France (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Germany (87.5MHz to 108.0MHz in 50 KHz steps)</item>
-    <item>Greece (87.5MHz to 108.0MHz in 50 KHz steps)</item>
-    <item>Hong Kong (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Finland (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>France (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Germany (٨٧.٥MHz to ١٠٨.٠MHz in ٥٠ KHz steps)</item>
+    <item>Greece (٨٧.٥MHz to ١٠٨.٠MHz in ٥٠ KHz steps)</item>
+    <item>Hong Kong (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
     <item>هندستان (87.5MHz بۆ 108.0MHz لە 100 KHz هەنگاودا)</item>
-    <item>Ireland (87.5MHz to 108.0MHz in 50 KHz steps)</item>
-    <item>Italy (87.5MHz to 108.0MHz in 50 KHz steps)</item>
-    <item>Korea (87.5MHz to 108.0MHz in 200 KHz steps)</item>
-    <item>Mexico (88.1MHz to 107.9MHz in 200 KHz steps)</item>
-    <item>Netherlands (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>New Zealand (88.0MHz to 107.0MHz in 100 KHz steps)</item>
-    <item>Norway (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Poland (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Portugal (87.5MHz to 108.0MHz in 50 KHz steps)</item>
-    <item>Russia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Singapore (88.0MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Slovakia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Spain (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Switzerland (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Sweden (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Taiwan (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>Turkey (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>United Kingdom (87.5MHz to 108.0MHz in 100 KHz steps)</item>
-    <item>United States (88.1MHz to 107.9MHz in 200 KHz steps)</item>
+    <item>Ireland (٨٧.٥MHz to ١٠٨.٠MHz in ٥٠ KHz steps)</item>
+    <item>Italy (٨٧.٥MHz to ١٠٨.٠MHz in ٥٠ KHz steps)</item>
+    <item>Korea (٨٧.٥MHz to ١٠٨.٠MHz in ٢٠٠ KHz steps)</item>
+    <item>Mexico (٨٨.١MHz to ١٠٧.٩MHz in ٢٠٠ KHz steps)</item>
+    <item>Netherlands (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>New Zealand (٨٨.٠MHz to ١٠٧.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Norway (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Poland (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Portugal (٨٧.٥MHz to ١٠٨.٠MHz in ٥٠ KHz steps)</item>
+    <item>Russia (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Singapore (٨٨.٠MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Slovakia (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Spain (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Switzerland (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Sweden (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Taiwan (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>Turkey (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>United Kingdom (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
+    <item>United States (٨٨.١MHz to ١٠٧.٩MHz in ٢٠٠ KHz steps)</item>
     <item>به‌کارهێنه‌ر پێناسه‌ی ده‌سته‌یه‌کی کرد</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Indonesia (٨٧.٥MHz to ١٠٨.٠MHz in ١٠٠ KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
-    <item>50 KHz</item>
-    <item>100 KHz</item>
-    <item>200 KHz</item>
+    <item>٥٠ KHz</item>
+    <item>١٠٠ KHz</item>
+    <item>٢٠٠ KHz</item>
   </string-array>
 </resources>
