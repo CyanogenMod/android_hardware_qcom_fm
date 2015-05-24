@@ -30,8 +30,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM irratia</string>
-  <string name="tx_app_name">FM Tx</string>
+  <string name="tx_app_name">FM Igorgailua</string>
   <string name="menu_scan_start">Bilatu</string>
+  <string name="menu_scan_stop">Eten bilaketa</string>
   <string name="menu_record_start">Grabatu</string>
   <string name="menu_record_stop">Gelditu grabaketa</string>
   <string name="menu_settings">Ezarpenak</string>
@@ -40,7 +41,14 @@
   <string name="menu_all_channels">Kanal guztiak</string>
   <string name="menu_display_tags">Erakutsi etiketak</string>
   <string name="button_text_stop">Gelditu</string>
+  <string name="msg_seeking">FM irratia bilatzen\u2026</string>
+  <string name="msg_scanning">FM irrati guztien bila\u2016</string>
+  <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>(r)en bila\'\u2026</string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
+  <string name="msg_searching_title">Automatikoki hautatzen irratiak</string>
+  <string name="msg_searching">Seinale ona duten irratiak bilatzen irratien zerrenda bat sortzeko\u2026</string>
   <string name="msg_noantenna">FM irratia erabili ahal izateko aurikularrak konektatu, mesedez</string>
+  <string name="dialog_sleep_title">Automatikoki amatatzeko denbora</string>
   <string name="presetlist_select_name">Hautatu <xliff:g id="preset_name">%1$s</xliff:g></string>
   <string name="presetlist_add_new">Gehitu zerrenda berria</string>
   <string name="dialog_presetlist_rename_title">Sartu izena</string>
@@ -49,27 +57,44 @@
   <string name="preset_tune">Sintonizatu</string>
   <string name="preset_rename">Berrizendatu</string>
   <string name="preset_delete">Ezabatu</string>
-  <string name="preset_search">\u00AB<xliff:g id="preset_pi">%1$s</xliff:g>\u00BB -rako bilatu</string>
-  <string name="stat_notif_frequency">\u00AB<xliff:g id="frequency">%1$s</xliff:g>\u00BB MHz</string>
+  <string name="preset_search">Bilatu \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
+  <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="regional_band">Lurralde banda</string>
   <string name="aud_output_mode">Audio irteera modua</string>
   <string name="audio_type_stereo">Estereo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="record_dur">Grabazio iraupena</string>
-  <string name="settings_revert_defaults_title">Ezarpenak berrezarri</string>
-  <string name="settings_revert_defaults_summary">Ezarpen guztiak berrezarri</string>
-  <string name="no_storage">Grabazioa hasi baino lehen SD txartela muntatu.</string>
-  <string name="access_sd_fail">Ezinezkoa SD txartelera sartzea.</string>
+  <string name="auto_select_af">Frekuentzia alternatiboa</string>
+  <string name="settings_revert_defaults_title">Bueltatu lantegiko balio lehenetsietara</string>
+  <string name="settings_revert_defaults_summary">Leheneratu ezarpen guztiak</string>
+  <string name="settings_revert_confirm_title">Berretsi leheneratzea</string>
+  <string name="settings_revert_confirm_msg">Honek aplikazioaren ezarpen guztiak garbituko ditu, gordetako irratiak barne. Jarraitu?</string>
+  <string name="no_storage">Muntatu SD txartela grabazioa hasi baino lehen.</string>
+  <string name="preparing_sd">SD txartela prestatzen\u2026</string>
+  <string name="access_sd_fail">Ezin izan da SD txartela atzitu.</string>
   <string name="spaceIsLow_content">SD biltegiratze txartela lekurik gabe gelditzen ari da. Aldatu kalitate ezarpenak edo ezabatu fitxategiren bat lekua egiteko.</string>
   <string name="menu_scan_for_preset">Lehenetsiak bilatu</string>
+  <string name="fm_off">FM itzalita dago.</string>
+  <string name="fm_call">Ezin da FM erabili dei baten bitartean.</string>
   <string name="alert_dialog_hint">Sartu izen bat</string>
+  <string name="search_dialog_title">Bilatu irratiak</string>
   <string name="fm_command_timeout_title">Itxarote denbora</string>
+  <string name="fm_tune_timeout_msg">Ez da erantzunik jaso FM igorletik. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_command_failed_title">FM komandoak huts egin du</string>
-  <string name="fm_cmd_failed_msg">FM operazioak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
-  <string name="fm_cmd_failed_msg_hdmi">FM operazioak huts egin du. Irratia ezin da HDMI-arekin batera erabili.</string>
+  <string name="fm_cmd_failed_msg">FM eragiketak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
+  <string name="fm_cmd_failed_msg_hdmi">FM eragiketak huts egin du. Irratia ezin da HDMI-arekin batera erabili.</string>
+  <string name="fm_cmd_failed_call_on">FM eragiketak huts egin du. FM audioa ez da onartzen dei batean zehar.</string>
+  <string name="station_name">Irratia:</string>
+  <string name="station_exists">Frekuentzia hau badago aurretik!</string>
   <string name="station_list_delete_station">Ezabatu: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Ziur \'<xliff:g id="name">%s</xliff:g>\' ezabatu nahi duzula?</string>
+  <string name="station_name_empty">Irrati izena hutsik dago. Idatzi ezazu bat mesedez.</string>
   <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' erabiltzen ari zara jada, sartu beste izen bat.</string>
   <string name="rt_plus_tags">Etiketak</string>
+  <string name="usr_def_band_min">Gutxieneko frekuentzia (MHz)</string>
+  <string name="usr_def_band_max">Gehieneko frekuentzia (MHz)</string>
   <string name="chanl_spacing">Kanalen zabalera</string>
+  <string name="set">Ezarri</string>
+  <string name="user_defind_band_msg">Sartu 76.0 108.0 MHz bitarteko frekuentzia bat, gutxienez kanal bateko espazioarekin</string>
+  <string name="fm_search_no_results">Ez da bateragarria den irratirik aurkitu</string>
 </resources>

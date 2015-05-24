@@ -84,6 +84,7 @@
   <string name="fm_cmd_failed_msg">Falló la operación FM. Si el problema persiste, apaga la radio y vuelve a encenderla.</string>
   <string name="fm_cmd_failed_msg_hdmi">Falló la operación FM. Utilizar la radio y el HDMI simultáneamente no está soportado.</string>
   <string name="fm_cmd_failed_call_on">Falló la operación FM. El audio FM no está permitido durante una llamada.</string>
+  <string name="station_name">Emisora:</string>
   <string name="station_exists">¡Esta frecuencia ya existe!</string>
   <string name="station_list_delete_station">Eliminar:<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">¿Estás seguro de que quieres eliminar \u00AB<xliff:g id="name">%s</xliff:g>\u00BB?</string>
@@ -95,4 +96,5 @@
   <string name="chanl_spacing">Espaciado de canales</string>
   <string name="set">Establecer</string>
   <string name="user_defind_band_msg">Selecciona una frecuencia entre 76.0 a 108.0 MHz con al menos el espacio para un canal</string>
+  <string name="fm_search_no_results">No se han encontrado emisoras compatibles</string>
 </resources>
