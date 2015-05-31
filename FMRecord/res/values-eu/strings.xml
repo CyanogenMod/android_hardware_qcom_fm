@@ -38,6 +38,6 @@
   <string name="audio_db_artist_name">Nire FM grabazioak</string>
   <string name="audio_db_album_name">FM grabazioak</string>
   <string name="audio_db_playlist_name">FM grabazioak</string>
-  <string name="save_record_file">FM grabazioaren fitxategia <xliff:g id="record_file">%1$s</xliff:g> -n gorde da</string>
+  <string name="save_record_file">FM grabazioaren fitxategia \'<xliff:g id="record_file">%1$s</xliff:g>\' helbidean gorde da</string>
   <string name="fm_record_progress">FM grabazioa martxan</string>
 </resources>

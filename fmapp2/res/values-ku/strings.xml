@@ -54,39 +54,39 @@
   <string name="button_text_stop">وه‌ستاندن</string>
   <string name="msg_seeking">گه‌ڕان به‌دوای وێستگه‌ی FM</string>
   <string name="msg_scanning">گه‌ڕان به‌دوای هه‌موو ویستگه‌کانی FM</string>
-  <string name="msg_scanning_pty">گه‌ڕان بۆ \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
-  <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+  <string name="msg_scanning_pty">گه‌ڕان بۆ \'<xliff:g id="pty_name">%١$s</xliff:g>\'</string>
+  <string name="msg_search_title">FM - <xliff:g id="frequency_string">%١$s</xliff:g></string>
   <string name="msg_searching">گه‌ڕان به‌دوای وێستگه‌ی به‌هێز بۆ دروستکردنی لیستی ئاماده‌کراو</string>
   <string name="msg_searching_title">خۆکارانه‌ ده‌ستنیشانکردنی ئاماده‌کراو</string>
-  <string name="msg_weak_searching">گه‌ڕان به‌دوای فریکوێنسی بۆ گواستنه‌وه‌</string>
+  <string name="msg_weak_searching">گه‌ڕان به‌دوای شه‌پۆل بۆ گواستنه‌وه‌</string>
   <string name="msg_noantenna">تکایه‌ هێدفۆنێکی پێوه‌بکه‌ بۆ به‌کارهێنانی FM</string>
   <string name="msg_headsetpluggedin">هێدفۆنه‌کان لاببه‌ بۆ ئه‌وه‌ی گوێزه‌ره‌وه‌ی FM به‌کاربهێنیت</string>
   <string name="msg_callactive">گوێزه‌ره‌وه‌ی  FM ناتوانرێت به‌کاربهێنرێت کاتێک په‌یوه‌ندییه‌ک له‌ ئارادایه‌</string>
   <string name="dialog_sleep_title">ده‌ستنیشانکردنی خۆکارانه‌ کوژانه‌وه‌ی کاتی نوستن</string>
-  <string name="preset_select_name">ده‌ستنیشانکردنی  \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
-  <string name="presetlist_select_name">ده‌ستنیشانکردنی  \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
+  <string name="preset_select_name">ده‌ستنیشانکردنی  \'<xliff:g id="preset_name">%١$s</xliff:g>\'</string>
+  <string name="presetlist_select_name">ده‌ستنیشانکردنی  \'<xliff:g id="presetlist_name">%١$s</xliff:g>\'</string>
   <string name="presetlist_add_new">زیادکردنی لیستێکی نوێ</string>
   <string name="dialog_presetlist_title">لیستی ئاماده‌کراوه‌کان</string>
   <string name="presetlist_prefix_name">FM - </string>
   <string name="dialog_presetlist_rename_title">ناوێک بنووسه‌</string>
   <string name="dialog_preset_rename_title">ناوێک بنووسه‌</string>
-  <string name="presetlist_delete_name"> \'<xliff:g id="presetlist_name">%1$s</xliff:g> ده‌سڕیته‌وه‌ و وێستگه‌شه‌؟</string>
+  <string name="presetlist_delete_name"> \'<xliff:g id="presetlist_name">%١$s</xliff:g> ده‌سڕیته‌وه‌ و وێستگه‌شه‌؟</string>
   <string name="presetlist_autoselect_title">ڕازیبوون له‌سه‌ر خۆکارانه‌ ده‌ستنیشانکردن</string>
-  <string name="presetlist_autoselect_name">خۆکارانه‌ ده‌ستنیشانکردن هه‌موو ئه‌و ئاماده‌کراوانه‌ ده‌سڕێته‌وه‌ له‌ لیسته‌که‌دان \'<xliff:g id="presetlist_name">%1$s</xliff:g>\',  ، به‌رده‌وام ده‌بیت؟</string>
+  <string name="presetlist_autoselect_name">خۆکارانه‌ ده‌ستنیشانکردن هه‌موو ئه‌و ئاماده‌کراوانه‌ ده‌سڕێته‌وه‌ له‌ لیسته‌که‌دان \'<xliff:g id="presetlist_name">%١$s</xliff:g>\',  ، به‌رده‌وام ده‌بیت؟</string>
   <string name="fmtx_autoselect_name">خۆکارانه‌ ده‌ستنیشانکردن هه‌موو ئه‌و ئاماده‌کراوانه‌ ده‌سڕێته‌وه‌ له‌ لیسته‌که‌دان ، به‌رده‌وام ده‌بیت؟</string>
   <string name="enter_frequency">بادان بۆ وێستگه‌</string>
-  <string name="enter_new_frequency_title">لێدانی فریکوێنسی</string>
+  <string name="enter_new_frequency_title">لێدانی شه‌پۆل</string>
   <string name="preset_now_playing">لێدانی ئێستا </string>
-  <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
+  <string name="preset_pref_title">\'<xliff:g id="preset_name">%١$s</xliff:g>\' (<xliff:g id="preset_freq">%٢$s</xliff:g>)</string>
   <string name="preset_delete_title">سڕینه‌وه‌ی ئاماده‌کراو</string>
-  <string name="preset_delete_name">سڕینه‌وه‌ی \'<xliff:g id="preset_name">%1$s</xliff:g>\' له‌  \'<xliff:g id="presetlist_name">%2$s</xliff:g>\' ـه‌وه‌</string>
-  <string name="preset_confirm_delete_name">ئایا  \'<xliff:g id="preset_name">%1$s</xliff:g>\' له‌  \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'  ده‌سڕیته‌وه‌ ؟</string>
+  <string name="preset_delete_name">سڕینه‌وه‌ی \'<xliff:g id="preset_name">%١$s</xliff:g>\' له‌  \'<xliff:g id="presetlist_name">%٢$s</xliff:g>\' ـه‌وه‌</string>
+  <string name="preset_confirm_delete_name">ئایا  \'<xliff:g id="preset_name">%١$s</xliff:g>\' له‌  \'<xliff:g id="presetlist_name">%٢$s</xliff:g>\'  ده‌سڕیته‌وه‌ ؟</string>
   <string name="preset_name_dialog_title">ناوێک بنووسه‌</string>
-  <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_name_summary">\'<xliff:g id="preset_name">%١$s</xliff:g>\'</string>
   <string name="preset_name_title">ناوگۆڕین</string>
   <string name="preset_search_title">گه‌ڕان</string>
-  <string name="preset_search_name">گه‌ڕان بۆ  \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
-  <string name="preset_preference_title">وێستگه‌ی FM له‌ \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_search_name">گه‌ڕان بۆ  \'<xliff:g id="preset_name">%١$s</xliff:g>\'</string>
+  <string name="preset_preference_title">وێستگه‌ی FM له‌ \'<xliff:g id="preset_name">%١$s</xliff:g>\'</string>
   <string name="preset_empty_title">هیچ وێستگه‌یه‌ک نییه‌ له‌ لیسته‌که‌</string>
   <string name="preset_empty_add_summary">زیادکردنی وێستگه‌</string>
   <string name="preset_add">زیادکردن</string>
@@ -94,9 +94,9 @@
   <string name="preset_tune">بادان</string>
   <string name="preset_rename">ناوگۆڕین</string>
   <string name="preset_delete">سڕینه‌وه‌</string>
-  <string name="preset_search">گه‌ڕان بۆ  \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
-  <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\'  مێگاهێرتز</string>
-  <string name="stat_notif_tx_frequency">گواستنه‌وه‌ له‌ \'<xliff:g id="frequency">%1$s</xliff:g>\'</string>
+  <string name="preset_search">گه‌ڕان بۆ  \'<xliff:g id="preset_pi">%١$s</xliff:g>\'</string>
+  <string name="stat_notif_frequency">\'<xliff:g id="frequency">%١$s</xliff:g>\'  مێگاهێرتز</string>
+  <string name="stat_notif_tx_frequency">گواستنه‌وه‌ له‌ \'<xliff:g id="frequency">%١$s</xliff:g>\'</string>
   <string name="sel_band_menu">ده‌ستنیشانکردنی ده‌سته‌ی هه‌رێمایه‌تی </string>
   <string name="settings_menu">ڕێکخستن</string>
   <string name="regional_band">ده‌سته‌ی هه‌رێمایه‌تی</string>
@@ -104,7 +104,7 @@
   <string name="sel_audio_output">ده‌ستنیشانکردنی ده‌نگی ده‌ره‌وه‌</string>
   <string name="record_dur">ماوه‌ی تۆمارکردن</string>
   <string name="sel_rec_dur">ده‌ستنیشانکردنی ماوه‌ی تۆمارکردن</string>
-  <string name="auto_select_af">فریکوێنسی جێگره‌وه‌</string>
+  <string name="auto_select_af">شه‌پۆل جێگره‌وه‌</string>
   <string name="auto_select_af_enabled">ده‌ستنیشانکردنی خۆکارانه‌ کارده‌کات</string>
   <string name="auto_select_af_disabled">ده‌ستنیشانکردنی خۆکارانه‌ کارناکات</string>
   <string name="fac_defaults">گه‌ڕانه‌وه‌ بۆ باری سه‌ره‌تایی</string>
@@ -122,10 +122,10 @@
   <string name="factory_reset_dialog_message">ئه‌مه‌ هه‌موو ڕێکخستنه‌ ئاماده‌کراوه‌کانت ده‌سڕێته‌وه‌</string>
   <string name="station_move">جوڵان</string>
   <string name="station_edit">دەستکاری</string>
-  <string name="no_storage">دڵنیابە لە بیرگەی دەرەکی پێش تۆمار کردن.</string>
-  <string name="preparing_sd">ئامادەکاری بیرگەی دەرەکی</string>
-  <string name="access_sd_fail">نەتوانرا پەیوەندی نێوان ئامێر و بیرگەی دەرەکی دروست بکرێت.</string>
-  <string name="spaceIsLow_content">بیرگەی ده‌ره‌کیت پڕبووه‌،جۆرایه‌تی ڕێکخستن بگۆڕه‌ یاخود چه‌ند په‌ڕگه‌یه‌ک بسڕه‌وه‌ بۆ زیادکردنی قه‌باره‌که‌ی.</string>
+  <string name="no_storage">دڵنیابە لە یادگەی دەرەکی پێش تۆمار کردن.</string>
+  <string name="preparing_sd">ئامادەکاری یادگەی دەرەکی</string>
+  <string name="access_sd_fail">نەتوانرا پەیوەندی نێوان ئامێر و یادگەی دەرەکی دروست بکرێت.</string>
+  <string name="spaceIsLow_content">یادگەی ده‌ره‌کیت پڕبووه‌،جۆرایه‌تی ڕێکخستن بگۆڕه‌ یاخود چه‌ند په‌ڕگه‌یه‌ک بسڕه‌وه‌ بۆ زیادکردنی قه‌باره‌که‌ی.</string>
   <string name="FMRecording_reach_size_limit">قەبارەی دیاری کراو تێپەڕیوە.</string>
   <string name="delete_station_title">سڕینه‌وه‌</string>
   <string name="find_af_station">دۆزینه‌وه‌</string>
@@ -169,8 +169,8 @@
   <string name="station_name_empty">ناوی وێستگه‌که‌ به‌تاڵه‌ ، تکایه‌ بینوسه‌ره‌وه‌.</string>
   <string name="station_name_exist">پێشتر وێستگه‌یه‌ک هه‌یه‌ به‌ناوی  \'<xliff:g id="name">%s</xliff:g>\'. تکایه‌ ناوێکی جیاواز بنووسه‌.</string>
   <string name="rt_plus_tags">پێشنیاره‌کان</string>
-  <string name="usr_def_band_min">نزمترین ئاستی فریکوێنسی دیاریکراو(بۆ مێگاهێرتز)</string>
-  <string name="usr_def_band_max">به‌رزترین ئاستی فریکوێنسی دیاری کراو (بۆ مێگاهێرتز)</string>
+  <string name="usr_def_band_min">نزمترین ئاستی شه‌پۆل دیاریکراو(بۆ مێگاهێرتز)</string>
+  <string name="usr_def_band_max">به‌رزترین ئاستی شه‌پۆل دیاری کراو (بۆ مێگاهێرتز)</string>
   <string name="sel_chanl_spacing">ده‌ستنیشانکردنی بۆشایی که‌ناڵ</string>
   <string name="chanl_spacing">بۆشایی که‌ناڵ</string>
 </resources>

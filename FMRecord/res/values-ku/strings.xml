@@ -29,16 +29,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">دڵنیابە لە بیرگەی دەرەکی پێش تۆمار کردن</string>
-  <string name="preparing_sd">ئامادەکاری بیرگەی دەرەکی</string>
-  <string name="access_sd_fail">نەتوانرا پەیوەندی نێوان ئامێر و بیرگەی دەرەکی دروست بکرێت </string>
-  <string name="spaceIsLow_content">بیرگەیەکەت پڕ بوە تکایە لەپێشدا کەمێك زانیاری بسڕەوە و پاشان هەوڵ بدەرەوە
+  <string name="no_storage">دڵنیابە لە یادگەی دەرەکی پێش تۆمار کردن</string>
+  <string name="preparing_sd">ئامادەکاری یادگەی دەرەکی</string>
+  <string name="access_sd_fail">نەتوانرا پەیوەندی نێوان ئامێر و یادگەی دەرەکی دروست بکرێت </string>
+  <string name="spaceIsLow_content">یادگەیەکەت پڕ بوە تکایە لەپێشدا کەمێك زانیاری بسڕەوە و پاشان هەوڵ بدەرەوە
 </string>
   <string name="FMRecording_reach_size_limit">قەبارەی دیاری کراو تێپەڕیوە</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">تۆمارکراوەکانم</string>
   <string name="audio_db_album_name">تۆمارکراوەکان</string>
   <string name="audio_db_playlist_name">تۆمارکراوەکان</string>
-  <string name="save_record_file">تۆمارکراوی پاشەکەوت کراو \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="save_record_file">تۆمارکراوی پاشەکەوت کراو \'<xliff:g id="record_file">%١$s</xliff:g>\'</string>
   <string name="fm_record_progress">خەریکی تۆمار کردن</string>
 </resources>
