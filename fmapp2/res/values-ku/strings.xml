@@ -55,7 +55,7 @@
   <string name="msg_seeking">گه‌ڕان به‌دوای وێستگه‌ی FM</string>
   <string name="msg_scanning">گه‌ڕان به‌دوای هه‌موو ویستگه‌کانی FM</string>
   <string name="msg_scanning_pty">گه‌ڕان بۆ \'<xliff:g id="pty_name">%1$s</xliff:g>\'</string>
-  <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
+  <string name="msg_search_title">FM - <xliff:g id="frequency_string">%١$s</xliff:g></string>
   <string name="msg_searching">گه‌ڕان به‌دوای وێستگه‌ی به‌هێز بۆ دروستکردنی لیستی ئاماده‌کراو</string>
   <string name="msg_searching_title">خۆکارانه‌ ده‌ستنیشانکردنی ئاماده‌کراو</string>
   <string name="msg_weak_searching">گه‌ڕان به‌دوای فریکوێنسی بۆ گواستنه‌وه‌</string>
@@ -77,12 +77,12 @@
   <string name="enter_frequency">بادان بۆ وێستگه‌</string>
   <string name="enter_new_frequency_title">لێدانی فریکوێنسی</string>
   <string name="preset_now_playing">لێدانی ئێستا </string>
-  <string name="preset_pref_title">\'<xliff:g id="preset_name">%1$s</xliff:g>\' (<xliff:g id="preset_freq">%2$s</xliff:g>)</string>
+  <string name="preset_pref_title">\'<xliff:g id="preset_name">%١$s</xliff:g>\' (<xliff:g id="preset_freq">%٢$s</xliff:g>)</string>
   <string name="preset_delete_title">سڕینه‌وه‌ی ئاماده‌کراو</string>
   <string name="preset_delete_name">سڕینه‌وه‌ی \'<xliff:g id="preset_name">%1$s</xliff:g>\' له‌  \'<xliff:g id="presetlist_name">%2$s</xliff:g>\' ـه‌وه‌</string>
   <string name="preset_confirm_delete_name">ئایا  \'<xliff:g id="preset_name">%1$s</xliff:g>\' له‌  \'<xliff:g id="presetlist_name">%2$s</xliff:g>\'  ده‌سڕیته‌وه‌ ؟</string>
   <string name="preset_name_dialog_title">ناوێک بنووسه‌</string>
-  <string name="preset_name_summary">\'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_name_summary">\'<xliff:g id="preset_name">%١$s</xliff:g>\'</string>
   <string name="preset_name_title">ناوگۆڕین</string>
   <string name="preset_search_title">گه‌ڕان</string>
   <string name="preset_search_name">گه‌ڕان بۆ  \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
