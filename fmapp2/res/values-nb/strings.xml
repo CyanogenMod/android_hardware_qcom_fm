@@ -74,6 +74,8 @@
   <string name="access_sd_fail">Kunne ikke tilgang til SD-kort.</string>
   <string name="spaceIsLow_content">SDkortet er i ferd med å bli fullt. Endre kvaliteten eller slett noen filer som opptar plass.</string>
   <string name="menu_scan_for_preset">Skanning for forhåndsinnstillinger</string>
+  <string name="fm_off">FM er deaktivert.</string>
+  <string name="fm_call">FM kan ikke brukes under samtaler.</string>
   <string name="alert_dialog_hint">Angi et navn</string>
   <string name="search_dialog_title">Skanne stasjoner</string>
   <string name="fm_command_timeout_title">Tidsavbrudd</string>
@@ -82,6 +84,7 @@
   <string name="fm_cmd_failed_msg">FM-operasjonen mislyktes. Hvis problemet vedvarer, kan du slå av FM og slå den på igjen.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-operasjonen mislyktes. FM og HDMI samtidighet støttes ikke.</string>
   <string name="fm_cmd_failed_call_on">FM-operasjonen mislyktes. FM lyd er ikke tillatt under samtale.</string>
+  <string name="station_name">Stasjon:</string>
   <string name="station_exists">Denne frekvensen finnes allerede!</string>
   <string name="station_list_delete_station">Slett: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Er du sikker på at du vil slette \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -93,4 +96,5 @@
   <string name="chanl_spacing">Kanal avstand</string>
   <string name="set">Sett</string>
   <string name="user_defind_band_msg">Angi frekvens fra 76.0 til 108.0 MHz med minst 1 kanal avstand</string>
+  <string name="fm_search_no_results">Finner ingen kompatible stasjoner</string>
 </resources>

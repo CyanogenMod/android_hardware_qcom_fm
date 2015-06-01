@@ -118,7 +118,7 @@
     <item>เบลเยี่ยม</item>
     <item>บราซิล</item>
     <item>จีน</item>
-    <item>Czech Republic</item>
+    <item>สาธารณรัฐเช็ก</item>
     <item>เดนมาร์ก</item>
     <item>ฟินแลนด์</item>
     <item>ฝรั่งเศส</item>
@@ -143,10 +143,10 @@
     <item>สวีเดน</item>
     <item>ไต้หวัน</item>
     <item>ตุรกี</item>
-    <item>United Kingdom</item>
+    <item>สหราชอาณาจักร</item>
     <item>สหรัฐอเมริกา</item>
     <item>ผู้ใช้กำหนดเอง</item>
-    <item>Indonesia</item>
+    <item>อินโดนีเซีย</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>อเมริกาเหนือ (87.5MHz ถึง 108.0MHz ขั้นละ 200 Khz)</item>
@@ -158,7 +158,7 @@
     <item>เบลเยี่ยม (87.5MHz ถึง 108.0MHz ขั้นละ 100 Khz)</item>
     <item>บราซิล (87.5MHz ถึง 108.0MHz ขั้นละ 200 Khz)</item>
     <item>จีน (87.0MHz ถึง 108.0MHz ขั้นละ 100 Khz)</item>
-    <item>Czech Republic (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>สาธารณรัฐเช็ก (87.5 MHz ถึง 108.0 MHz ขั้นละ100 KHz)</item>
     <item>เดนมาร์ก  (87.5MHz ถึง 108.0MHz ขั้นละ 50 Khz)</item>
     <item>ฟินแลนด์ (87.5MHz ถึง 108.0MHz ขั้นละ 100 Khz)</item>
     <item>ฝรั่งเศส (87.5MHz ถึง 108.0MHz ขั้นละ 100 Khz)</item>
@@ -186,7 +186,7 @@
     <item>สหราชอาณาจักร (87.5MHz To 108.0MHz ขั้นละ 100 Khz)</item>
     <item>สหรัฐอเมริกา (88.1MHz To 107.9MHz ขั้นละ 200 Khz)</item>
     <item>ผู้ใช้กำหนดเอง</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>อินโดนีเซีย (87.5MHz ถึง 108.0MHz ขั้นละ 100 KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 Khz</item>
