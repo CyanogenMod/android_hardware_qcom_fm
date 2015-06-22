@@ -82,7 +82,7 @@
   <string name="fm_tune_timeout_msg">Ez da erantzunik jaso FM igorletik. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_command_failed_title">FM komandoak huts egin du</string>
   <string name="fm_cmd_failed_msg">FM eragiketak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
-  <string name="fm_cmd_failed_msg_hdmi">FM eragiketak huts egin du. Irratia ezin da HDMI-arekin batera erabili.</string>
+  <string name="fm_cmd_failed_msg_hdmi">FM eragiketak huts egin du. Ezin dira FM eta HDMI batera erabili.</string>
   <string name="fm_cmd_failed_call_on">FM eragiketak huts egin du. FM audioa ez da onartzen dei batean zehar.</string>
   <string name="station_name">Irratia:</string>
   <string name="station_exists">Frekuentzia hau badago aurretik!</string>
