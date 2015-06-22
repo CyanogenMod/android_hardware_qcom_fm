@@ -30,8 +30,71 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">رادیو FM</string>
+  <string name="tx_app_name">فرستنده FM</string>
+  <string name="menu_scan_start">اسکن</string>
+  <string name="menu_scan_stop">توقف جستجو</string>
+  <string name="menu_record_start">ضبط</string>
+  <string name="menu_record_stop">توقف ضبط</string>
+  <string name="menu_settings">تنظیمات</string>
+  <string name="menu_sleep">خواب</string>
   <string name="menu_sleep_cancel">لغو خواب</string>
+  <string name="menu_all_channels">تمام کانال‌ها</string>
+  <string name="menu_display_tags">نمایش برچسب‌ها</string>
+  <string name="button_text_stop">توقف</string>
+  <string name="msg_seeking">جستجوی ایستگاه FM\u2026</string>
+  <string name="msg_scanning">جستجوی تمام ایستگاه‌های FM\u2026</string>
+  <string name="msg_scanning_pty">جستجو برای \u2026 \' <xliff:g id="pty_name">%1$s\' </xliff:g></string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s </xliff:g> مگاهرتز</string>
+  <string name="msg_searching_title">انتخاب خودکار پیش تنظیم</string>
+  <string name="msg_searching">جستجوی برای ایستگاه های قوی برای ایجاد لیست پیش تنظیم\u2026</string>
+  <string name="msg_noantenna">لطفا هدستی را برای استفاده از رایو FM متصل کنید</string>
+  <string name="dialog_sleep_title">زمان خواب خاموشی خودکار</string>
+  <string name="presetlist_select_name">انتخاب \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
+  <string name="presetlist_add_new">افزودن لیست جدید</string>
+  <string name="dialog_presetlist_rename_title">نام را وارد کنید</string>
+  <string name="presetlist_autoselect_title">تایید انتخاب خودکار</string>
+  <string name="preset_replace">جایگزین کردن</string>
+  <string name="preset_tune">تنظیم</string>
+  <string name="preset_rename">تغییرنام</string>
   <string name="preset_delete">حذف</string>
+  <string name="preset_search">جستجو برای \' <xliff:g id="preset_name">%1$s\' </xliff:g></string>
+  <string name="stat_notif_frequency">\' <xliff:g id="frequency">%1$s\' </xliff:g> مگاهرتز</string>
+  <string name="regional_band">باند منطقه‌ای</string>
+  <string name="aud_output_mode">حالت خروجی صدا</string>
+  <string name="audio_type_stereo">استریو</string>
+  <string name="audio_type_mono">مونو</string>
+  <string name="record_dur">مدت‌زمان ضبط</string>
+  <string name="auto_select_af">فرکانس‌های جایگزین</string>
+  <string name="settings_revert_defaults_title">بازنشانی به پیش‌فرض کارخانه</string>
+  <string name="settings_revert_defaults_summary">بازنشانی تمام تنظیمات</string>
+  <string name="settings_revert_confirm_title">تایید کردن بازنشانی</string>
+  <string name="settings_revert_confirm_msg">تمام تنظیمات برنامه از جمله پیش تنظیم‌های ذخیره شده حذف خواهد شد. ادامه می دهید؟</string>
   <string name="no_storage">قبل از شروع ضبط کارت حافظه را اضافه کنید.</string>
   <string name="preparing_sd">آماده‌سازی کارت حافظه\u2026</string>
+  <string name="access_sd_fail">قادر به دسترسی به کارت حافظه نیست.</string>
+  <string name="spaceIsLow_content">حافظه‌ی کارت حافظه شما در حال اتمام است. تنظیمات کیفیت را تغییر دهید یا تعدادی از تصاویر و اطلاعات را برای فضای بیشتر حذف کنید.</string>
+  <string name="menu_scan_for_preset">اسکن برای ایستگاه پیش تنظیم</string>
+  <string name="fm_off">FM خاموش است.</string>
+  <string name="fm_call">در طول تماس نمی‌توان از FM استفاده کرد.</string>
+  <string name="alert_dialog_hint">نام را وارد کنید</string>
+  <string name="search_dialog_title">اسکن ایستگاه‌ها</string>
+  <string name="fm_command_timeout_title">زمان پایان</string>
+  <string name="fm_tune_timeout_msg">هیچ پاسخی برای تنظیم ایستگاه FM دریافت نشد. اگر مشکل باقی ماند لطفا FM را خاموش و روشن کنید.</string>
+  <string name="fm_command_failed_title">عملیات FM ناموفق بود</string>
+  <string name="fm_cmd_failed_msg">عملیات FM ناموفق بود. در صورت ادامه مشکل لطفا FM را خاموش و روشن کنید.</string>
+  <string name="fm_cmd_failed_msg_hdmi">عملیات FM ناموفق بود. FM و HDMI همزمان پشتیبانی نمی‌شود.</string>
+  <string name="fm_cmd_failed_call_on">عملیات FM ناموفق بود. استفاده از FM در طول تماس مجاز نمی‌باشد.</string>
+  <string name="station_name">ایستگاه:</string>
+  <string name="station_exists">این فرکانس از قبل وجود دارد!</string>
+  <string name="station_list_delete_station">حذف: <xliff:g id="name">%s </xliff:g></string>
+  <string name="station_list_delete_station_prompt">آیا مطمئن هستید که می خواهید \' <xliff:g id="name">%s\' </xliff:g> را حذف کنید؟</string>
+  <string name="station_name_empty">نام ایستگاه خالی است، لطفا دوباره وارد کنید.</string>
+  <string name="station_name_exist">\' <xliff:g id="name">%s\' </xliff:g> از قبل در حال استفاده است، لطفا نام دیگری را وارد کنید.</string>
+  <string name="rt_plus_tags">برچسب‌ها</string>
+  <string name="usr_def_band_min">پایین‌ترین فرکانس (مگاهرتز)</string>
+  <string name="usr_def_band_max">بالاترین فرکانس (مگاهرتز)</string>
+  <string name="chanl_spacing">فاصله کانال</string>
+  <string name="set">تنظیم</string>
+  <string name="user_defind_band_msg">فرکانس را بین ۷۶.۰ تا ۱۰۸.۰ مگاهرتز با حداقل فاصله ۱ کانال وارد کنید</string>
+  <string name="fm_search_no_results">ایستگاه سازگاری پیدا نشد</string>
 </resources>
