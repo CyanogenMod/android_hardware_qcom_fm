@@ -37,7 +37,7 @@
   <string name="menu_record_stop">Gelditu grabaketa</string>
   <string name="menu_settings">Ezarpenak</string>
   <string name="menu_sleep">Lokartu</string>
-  <string name="menu_sleep_cancel">Lokartzea eten</string>
+  <string name="menu_sleep_cancel">Utzi lokartzea</string>
   <string name="menu_all_channels">Kanal guztiak</string>
   <string name="menu_display_tags">Erakutsi etiketak</string>
   <string name="button_text_stop">Gelditu</string>
@@ -49,7 +49,7 @@
   <string name="msg_searching">Seinale ona duten irratiak bilatzen irratien zerrenda bat sortzeko\u2026</string>
   <string name="msg_noantenna">FM irratia erabili ahal izateko aurikularrak konektatu, mesedez</string>
   <string name="dialog_sleep_title">Automatikoki amatatzeko denbora</string>
-  <string name="presetlist_select_name">Hautatu <xliff:g id="preset_name">%1$s</xliff:g></string>
+  <string name="presetlist_select_name">Hautatu \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_add_new">Gehitu zerrenda berria</string>
   <string name="dialog_presetlist_rename_title">Sartu izena</string>
   <string name="presetlist_autoselect_title">Berretsi hautapen automatikoa</string>
@@ -73,16 +73,16 @@
   <string name="preparing_sd">SD txartela prestatzen\u2026</string>
   <string name="access_sd_fail">Ezin izan da SD txartela atzitu.</string>
   <string name="spaceIsLow_content">SD biltegiratze txartela lekurik gabe gelditzen ari da. Aldatu kalitate ezarpenak edo ezabatu fitxategiren bat lekua egiteko.</string>
-  <string name="menu_scan_for_preset">Lehenetsiak bilatu</string>
+  <string name="menu_scan_for_preset">Bilatu irratiak</string>
   <string name="fm_off">FM itzalita dago.</string>
   <string name="fm_call">Ezin da FM erabili dei baten bitartean.</string>
   <string name="alert_dialog_hint">Sartu izen bat</string>
   <string name="search_dialog_title">Bilatu irratiak</string>
-  <string name="fm_command_timeout_title">Itxarote denbora</string>
+  <string name="fm_command_timeout_title">Denbora-muga</string>
   <string name="fm_tune_timeout_msg">Ez da erantzunik jaso FM igorletik. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_command_failed_title">FM komandoak huts egin du</string>
   <string name="fm_cmd_failed_msg">FM eragiketak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
-  <string name="fm_cmd_failed_msg_hdmi">FM eragiketak huts egin du. Irratia ezin da HDMI-arekin batera erabili.</string>
+  <string name="fm_cmd_failed_msg_hdmi">FM eragiketak huts egin du. Ezin dira FM eta HDMI batera erabili.</string>
   <string name="fm_cmd_failed_call_on">FM eragiketak huts egin du. FM audioa ez da onartzen dei batean zehar.</string>
   <string name="station_name">Irratia:</string>
   <string name="station_exists">Frekuentzia hau badago aurretik!</string>
