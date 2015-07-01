@@ -52,7 +52,7 @@
     <item>רוק קלאסי</item>
     <item>מכללות</item>
     <item>קאנטרי</item>
-    <item>מקרה חירום</item>
+    <item>חירום</item>
     <item>בדיקת חירום</item>
     <item>שפה זרה</item>
     <item>מידע</item>
@@ -63,11 +63,11 @@
     <item>אישיות</item>
     <item>ציבורי</item>
     <item>מוזיקה דתית</item>
-    <item>דיבור דתיים</item>
+    <item>דיבורי דת</item>
     <item>רית\'ם אנד בלוז</item>
     <item>רוק</item>
     <item>רך</item>
-    <item>רוק קל</item>
+    <item>רוק רך</item>
     <item>רית\'ם אנד בלוז רך</item>
     <item>ספורט</item>
     <item>דיבורים</item>
@@ -82,9 +82,9 @@
     <item>מוזיקת קאנטרי</item>
     <item>תיעודי</item>
     <item>דרמה</item>
-    <item>האזנה נעימה למוזיקה</item>
+    <item>מוזיקה קלה להאזנה</item>
     <item>חינוך</item>
-    <item>מקרה חירום</item>
+    <item>חירום</item>
     <item>בדיקת חירום</item>
     <item>כלכלה</item>
     <item>מוזיקה עממית</item>
@@ -132,7 +132,7 @@
     <item>מקסיקו</item>
     <item>הולנד</item>
     <item>ניו זילנד</item>
-    <item>נורווגיה</item>
+    <item>נורבגיה</item>
     <item>פולין</item>
     <item>פורטוגל</item>
     <item>רוסיה</item>
@@ -145,7 +145,7 @@
     <item>טורקיה</item>
     <item>בריטניה</item>
     <item>ארצות הברית</item>
-    <item>טווח מותאמת אישית</item>
+    <item>טווח מותאם אישית</item>
     <item>אינדונזיה</item>
   </string-array>
   <string-array name="regional_band_summary">
