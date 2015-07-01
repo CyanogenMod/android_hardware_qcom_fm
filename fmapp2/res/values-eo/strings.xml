@@ -68,11 +68,11 @@
   <string name="settings_revert_defaults_title">Reiri al la originalaj defaŭltoj</string>
   <string name="settings_revert_defaults_summary">Restarigi ĉiujn agordojn</string>
   <string name="settings_revert_confirm_title">Konfirmi restarigon</string>
-  <string name="settings_revert_confirm_msg">Tio forigos ĉiujn agordojn, inkluzive la registritajn antaŭagordojn. Ĉu vi deziras daŭrigi?</string>
+  <string name="settings_revert_confirm_msg">Tio forigos ĉiujn agordojn, inkluzive la konservitajn antaŭagordojn. Ĉu vi deziras daŭrigi?</string>
   <string name="no_storage">Muntu SD-karon antaŭ ol komenci registradon.</string>
   <string name="preparing_sd">Preparado de la SD-karto</string>
   <string name="access_sd_fail">Ne eblas aliri al SD-karto.</string>
-  <string name="spaceIsLow_content">Via SD karto preskaŭ ne plu havas disponeblan spacon. Ŝanĝu la agordojn pri kvaliteco aŭ forigu kelkajn aliajn dosierojn por liberigi spacon.</string>
+  <string name="spaceIsLow_content">Via SD-karto preskaŭ ne plu havas disponeblan spacon. Ŝanĝu la agordojn pri kvaliteco aŭ forigu kelkajn aliajn dosierojn por liberigi spacon.</string>
   <string name="menu_scan_for_preset">Esplorante por antaŭagordoj</string>
   <string name="fm_off">FM radio estas malŝaltita.</string>
   <string name="fm_call">FM ne povas esti uzata dum konversacio.</string>

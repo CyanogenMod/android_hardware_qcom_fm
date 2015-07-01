@@ -54,7 +54,7 @@
   <string name="dialog_presetlist_rename_title">הזן שם</string>
   <string name="presetlist_autoselect_title">אשר בחירה אוטומטית</string>
   <string name="preset_replace">החלף</string>
-  <string name="preset_tune">המנגינה</string>
+  <string name="preset_tune">כוון</string>
   <string name="preset_rename">שנה שם</string>
   <string name="preset_delete">מחק</string>
   <string name="preset_search">חפש עבור \"<xliff:g id="preset_name">%1$s</xliff:g>\"</string>
@@ -69,21 +69,21 @@
   <string name="settings_revert_defaults_summary">איפוס כל ההגדרות</string>
   <string name="settings_revert_confirm_title">אשר איפוס</string>
   <string name="settings_revert_confirm_msg">פעולה זו תמחק את כל הגדרות היישום, כולל קביעות שנשמרו. האם להמשיך?</string>
-  <string name="no_storage">טען כרטיס SD לפי תחילת ההקלטה.</string>
-  <string name="preparing_sd">מכין כרטיס SD\u2026</string>
-  <string name="access_sd_fail">אין אפשרות לגשת לכרטיס SD.</string>
-  <string name="spaceIsLow_content">שטח האחסון בכרטיס ה-SD שלך אוזל. שנה את הגדרות האיכות או מחק קבצים אחרים כדי לפנות מקום.</string>
+  <string name="no_storage">טען כרטיס זיכרון לפי תחילת ההקלטה.</string>
+  <string name="preparing_sd">מכין כרטיס זיכרון\u2026</string>
+  <string name="access_sd_fail">אין אפשרות לגשת לכרטיס הזיכרון.</string>
+  <string name="spaceIsLow_content">שטח האחסון בכרטיס הזיכרון שלך אוזל. שנה את הגדרות האיכות או מחק קבצים אחרים כדי לפנות מקום.</string>
   <string name="menu_scan_for_preset">סרוק למציאת תחנות</string>
   <string name="fm_off">FM כבוי.</string>
   <string name="fm_call">לא ניתן להשתמש ב-FM במהלך ביצוע שיחה.</string>
   <string name="alert_dialog_hint">הכנס שם</string>
   <string name="search_dialog_title">סריקת תחנות</string>
   <string name="fm_command_timeout_title">זמן קצוב לתפוגה</string>
-  <string name="fm_tune_timeout_msg">אין קליטה מהתחנה הנבחרת, במידה והבעיה חוזרת על עצמה כבה בבקשה את מקלט ה-FM והפעל אותו שוב.</string>
+  <string name="fm_tune_timeout_msg">אין קליטה מהתחנה הנבחרת. במידה והבעיה חוזרת על עצמה, כבה בבקשה את מקלט ה-FM והפעל אותו שנית.</string>
   <string name="fm_command_failed_title">פעולת FM נכשלה</string>
-  <string name="fm_cmd_failed_msg">פעולת FM נכשלה. אם הבעיה נמשכת, בטל FM והפעל מחדש.</string>
+  <string name="fm_cmd_failed_msg">פעולת FM נכשלה. במידה והבעיה חוזרת על עצמה, כבה בבקשה את מקלט ה-FM והפעל אותו שנית.</string>
   <string name="fm_cmd_failed_msg_hdmi">פעולת FM נכשלה. הקבלת FM ו-HDMI אינה נתמכת.</string>
-  <string name="fm_cmd_failed_call_on">כשל בהפעלת רדיו FM. רדיו FM אין מאופשר במהלך שיחה.</string>
+  <string name="fm_cmd_failed_call_on">כשל בהפעלת רדיו FM. רדיו FM אין מאושר לשימוש במהלך שיחה.</string>
   <string name="station_name">תחנה:</string>
   <string name="station_exists">תדר זה כבר קיים!</string>
   <string name="station_list_delete_station">מחק: <xliff:g id="name">%s</xliff:g></string>
