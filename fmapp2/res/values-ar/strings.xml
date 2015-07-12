@@ -56,7 +56,6 @@
   <string name="record_dur">مدة التسجيل</string>
   <string name="settings_revert_defaults_title">العودة إلى إعدادات المصنع الافتراضية</string>
   <string name="settings_revert_defaults_summary">إعادة تعيين كافة الإعدادات</string>
-  <string name="no_storage">عرض بطاقة SD قبل بدء التسجيل.</string>
   <string name="access_sd_fail">لم يستطع الوصول إلى بطاقة SD.</string>
   <string name="spaceIsLow_content">تخزين بطاقة SD  قد نفاذة مساحة. تغيير إعداد الجودة أو حذف بعض الملفات الأخرى  لتحرير مساحة.</string>
   <string name="menu_scan_for_preset">تفحص الإعدادات المسبقة</string>

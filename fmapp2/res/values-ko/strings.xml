@@ -69,7 +69,7 @@
   <string name="settings_revert_defaults_summary">모든 설정 초기화</string>
   <string name="settings_revert_confirm_title">초기화 확인</string>
   <string name="settings_revert_confirm_msg">저장된 프리셋을 포함한 모든 앱 설정이 삭제됩니다. 계속하시겠습니까?</string>
-  <string name="no_storage">녹음하기 전에 SD 카드를 삽입해주세요.</string>
+  <string name="no_storage">녹음하기 전에 SD 카드를 삽입해 주십시오.</string>
   <string name="preparing_sd">SD 카드 준비 중\u2026</string>
   <string name="access_sd_fail">SD 카드에 접근할 수 없습니다.</string>
   <string name="spaceIsLow_content">SD 카드에 여유 공간이 부족합니다. 음질 설정을 변경하거나 파일을 지워 여유 공간을 만들어주십시오.</string>
@@ -88,7 +88,7 @@
   <string name="station_exists">이 주파수는 이미 존재합니다!</string>
   <string name="station_list_delete_station">삭제: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">\'<xliff:g id="name">%s</xliff:g>\'을(를) 삭제하시겠습니까?</string>
-  <string name="station_name_empty">방송국 이름이 비어있습니다. 다시 입력해주세요.</string>
+  <string name="station_name_empty">방송국 이름이 비어있습니다. 다시 입력해 주십시오.</string>
   <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\'은(는) 이미 사용 중입니다. 다른 이름을 입력하십시오.</string>
   <string name="rt_plus_tags">태그</string>
   <string name="usr_def_band_min">가장 낮은 주파수 (MHz)</string>
