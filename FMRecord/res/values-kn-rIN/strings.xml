@@ -29,16 +29,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">تحميل بطاقة SD قبل بدء التسجيل.</string>
-  <string name="preparing_sd">إعداد بطاقة SD</string>
-  <string name="access_sd_fail">لم يستطع الوصول إلى بطاقة SD.</string>
-  <string name="spaceIsLow_content">تخزين بطاقة الذاكرة sd نفاذت مساحتع. تغيير إعداد الجودة أو حذف بعض الصور أو الملفات الأخرى.</string>
-  <string name="FMRecording_reach_size_limit">تم الوصول للحد الأقصى للحجم.</string>
+  <string name="no_storage">ರಿಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಬಿಸುವ ಮುನ್ನ SD ಕಾರ್ಡ್ ಮೌಂಟ್ ಮಾಡಿ.</string>
+  <string name="preparing_sd">SD ಕಾರ್ಡನ್ನು ಸಿದ್ಧಗೊಳಿಸುತ್ತಿದೆ</string>
+  <string name="access_sd_fail">SD ಕಾರ್ಡನ್ನು ಪ್ರವೇಶಿಸಲಾಗಲಿಲ್ಲ.</string>
+  <string name="spaceIsLow_content">ನಿಮ್ಮ SD ಕಾರ್ಡ್ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಹೆಚ್ಚು ಸ್ಥಳಾವಕಾಶವಿಲ್ಲ. ಗುಣಮಟ್ಟ ಸೆಟ್ಟಿಂಗ್ ಬದಲಾಯಿಸಿ ಅಥವ ಕೆಲವು ಫೋಟೋಗಳನ್ನು ಅಥವ ಇತರೆ ಕಡತಗಳನ್ನು ಅಳಿಸಿ.</string>
+  <string name="FMRecording_reach_size_limit">ಗಾತ್ರ ಮಿತಿಯನ್ನು ತಲುಪಿದೆ.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">تسجيلي FM</string>
-  <string name="audio_db_album_name">تسجيل FM</string>
-  <string name="audio_db_playlist_name">تسجيل FM</string>
-  <string name="save_record_file">تسجيل FMمحفوظ إلى \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">FM تسجيل في متقدم</string>
-  <string name="unable_to_store">تعذر حفظ الصوت المسجل</string>
+  <string name="audio_db_artist_name">ನನ್ನ ಎಫ್ಎಂ ರಿಕಾರ್ಡಿಂಗ್‍ಗಳು</string>
+  <string name="audio_db_album_name">ಎಫ್ಎಂ ರಿಕಾರ್ಡಿಂಗ್‍ಗಳು</string>
+  <string name="audio_db_playlist_name">ಎಫ್ಎಂ ರಿಕಾರ್ಡಿಂಗ್‍ಗಳು</string>
+  <string name="save_record_file">ಎಫ್ಎಂ ರಿಕಾರ್ಡಾಗಿರುವ ಕಡತವನ್ನು ಇಲ್ಲಿಗೆ \'<xliff:g id="record_file">%1$s</xliff:g>\' ಉಳಿಸಲಾಗಿದೆ</string>
+  <string name="fm_record_progress">ಎಫ್ಎಂ ರಿಕಾರ್ಡಿಂಗ್ ಪ್ರಗತಿಯಲ್ಲಿದೆ</string>
+  <string name="unable_to_store">ರಿಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಉಳಿಸಲಾಗಲಿಲ್ಲ</string>
 </resources>
