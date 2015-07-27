@@ -33,6 +33,7 @@
   <string name="tx_app_name">جهاز إرسال FM</string>
   <string name="menu_scan_start">فحص</string>
   <string name="menu_scan_stop">إيقاف البحث</string>
+  <string name="menu_record_start">تسجيل</string>
   <string name="menu_record_stop">إيقاف التسجيل</string>
   <string name="menu_settings">إعدادات</string>
   <string name="menu_sleep">النوم</string>
@@ -40,9 +41,18 @@
   <string name="menu_all_channels">جميع القنوات</string>
   <string name="menu_display_tags">إظهار العلامات</string>
   <string name="button_text_stop">إيقاف</string>
+  <string name="msg_seeking">جاري البحث عن محطة FM\u2026</string>
+  <string name="msg_scanning">جاري البحث عن كل محطات FM\u2026</string>
+  <string name="msg_scanning_pty">جاري البحث عن \'<xliff:g id="pty_name">%1$s</xliff:g>\'\u2026</string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> ميجا هرتز</string>
+  <string name="msg_searching_title">جاري تحديد الإعدادات المسبقة تلقائياً</string>
+  <string name="msg_searching">جاري البحث عن محطات قوية لإنشاء قائمة محددة مسبقاً\u2026</string>
   <string name="msg_noantenna">الرجاء قم بتوصيل سماعات رأس لي أستخدام راديو FM</string>
+  <string name="dialog_sleep_title">مهلة الإيقاف التلقائي</string>
   <string name="presetlist_select_name">إختار <xliff:g id="preset_name">%1$s</xliff:g></string>
   <string name="presetlist_add_new">إضافة قائمة جديدة</string>
+  <string name="dialog_presetlist_rename_title">أدخل اسم</string>
+  <string name="presetlist_autoselect_title">تأكيد التحديد التلقائي</string>
   <string name="preset_replace">استبدال</string>
   <string name="preset_tune">لحن</string>
   <string name="preset_rename">إعادة تسمية</string>
@@ -54,11 +64,18 @@
   <string name="audio_type_stereo">ستيريو</string>
   <string name="audio_type_mono">أُحادي</string>
   <string name="record_dur">مدة التسجيل</string>
+  <string name="auto_select_af">التردد البديل</string>
   <string name="settings_revert_defaults_title">العودة إلى إعدادات المصنع الافتراضية</string>
   <string name="settings_revert_defaults_summary">إعادة تعيين كافة الإعدادات</string>
+  <string name="settings_revert_confirm_title">تأكيد إعادة تعيين</string>
+  <string name="settings_revert_confirm_msg">سيترتب على ذلك مسح كل إعدادات التطبيقات، بما في ذلك الإعدادات المسبقة المحفوظة. هل تريد الاستمرار؟ </string>
+  <string name="no_storage">عرض بطاقة SD قبل بدء التسجيل.</string>
+  <string name="preparing_sd">جاري إعداد بطاقة الذاكرة\u2026</string>
   <string name="access_sd_fail">لم يستطع الوصول إلى بطاقة SD.</string>
   <string name="spaceIsLow_content">تخزين بطاقة SD  قد نفاذة مساحة. تغيير إعداد الجودة أو حذف بعض الملفات الأخرى  لتحرير مساحة.</string>
   <string name="menu_scan_for_preset">تفحص الإعدادات المسبقة</string>
+  <string name="fm_off">FM مغلق.</string>
+  <string name="fm_call">لا يمكن استخدام FM أثناء الاتصال.</string>
   <string name="alert_dialog_hint">قم بإدخال اسم</string>
   <string name="search_dialog_title">تفحص المحطات</string>
   <string name="fm_command_timeout_title">مهلة</string>
@@ -67,9 +84,17 @@
   <string name="fm_cmd_failed_msg">فشلت عملية FM. إذا استمرت المشكلة، الرجاء إيقاف تشغيل FM وتشغيله مرة أخرى.</string>
   <string name="fm_cmd_failed_msg_hdmi">فشلت عملية FM. التزامن FM و HDMI غير معتمد.</string>
   <string name="fm_cmd_failed_call_on">فشلت عملية FM. غير مسموح بالصوت FM أثناء المكالمة.</string>
+  <string name="station_name">محطة:</string>
   <string name="station_exists">هذا التردد موجود بالفعل!</string>
   <string name="station_list_delete_station">حذف: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">هل أنت متأكد من أنك تريد حذف \'<xliff:g id="name">%s</xliff:g>\' ؟</string>
   <string name="station_name_empty">اسم المحطة فارغ، الرجاء إدخال مرة أخرى.</string>
+  <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\'قيد الاستخدام بالفعل، يُرجى إدخال اسم مختلف.</string>
   <string name="rt_plus_tags">العلامات</string>
+  <string name="usr_def_band_min">أدنى تردد (ميجا هرتز)</string>
+  <string name="usr_def_band_max">أعلى تردد (ميجا هرتز)</string>
   <string name="chanl_spacing">قناة المباعدة بين الولادات</string>
+  <string name="set">تعيين</string>
+  <string name="user_defind_band_msg">أدخل تردداً من ٧٦,٠ إلى ١٠٨,٠ ميجا هرتز بفارق قناة واحدة على الأقل</string>
+  <string name="fm_search_no_results">لم يتم العثور على محطات متوافقة</string>
 </resources>
