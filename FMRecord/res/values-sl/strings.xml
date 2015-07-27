@@ -29,16 +29,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">تحميل بطاقة SD قبل بدء التسجيل.</string>
-  <string name="preparing_sd">إعداد بطاقة SD</string>
-  <string name="access_sd_fail">لم يستطع الوصول إلى بطاقة SD.</string>
-  <string name="spaceIsLow_content">تخزين بطاقة الذاكرة sd نفاذت مساحتع. تغيير إعداد الجودة أو حذف بعض الصور أو الملفات الأخرى.</string>
-  <string name="FMRecording_reach_size_limit">تم الوصول للحد الأقصى للحجم.</string>
+  <string name="no_storage">Pred začetkom snemanja priklopite kartico SD.</string>
+  <string name="preparing_sd">Pripravljanje kartice SD</string>
+  <string name="access_sd_fail">Dostop do kartice SD ni bil mogoč.</string>
+  <string name="spaceIsLow_content">Na kartici SD primanjkuje prostora. Spremenite nastavitve kakovosti ali izbrišite nekaj slik ali drugih datotek.</string>
+  <string name="FMRecording_reach_size_limit">Dosežena omejitev velikosti.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">تسجيلي FM</string>
-  <string name="audio_db_album_name">تسجيل FM</string>
-  <string name="audio_db_playlist_name">تسجيل FM</string>
-  <string name="save_record_file">تسجيل FMمحفوظ إلى \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">FM تسجيل في متقدم</string>
-  <string name="unable_to_store">تعذر حفظ الصوت المسجل</string>
+  <string name="audio_db_artist_name">Moji posnetki FM</string>
+  <string name="audio_db_album_name">Posnetki FM</string>
+  <string name="audio_db_playlist_name">Posnetki FM</string>
+  <string name="save_record_file">Posneta datoteka FM shranjena v \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">Snemanje FM v teku</string>
+  <string name="unable_to_store">Shranjevanje posnetega zvoka ni mogoče</string>
 </resources>
