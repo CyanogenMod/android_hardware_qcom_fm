@@ -158,7 +158,7 @@
     <item>Belgia (87.5MHz la 108.0MHz în pași de 100 KHz)</item>
     <item>Brazilia (87.5MHz la 108.0MHz în pași de 200 KHz)</item>
     <item>China (87.0MHz la 108.0MHz în pași de 100 KHz)</item>
-    <item>Cehia (87,5 MHz la 108.0 MHz în paşi de 100 KHz)</item>
+    <item>Cehia (87,5 MHz la 108.0 MHz în pași de 100 KHz)</item>
     <item>Denemarca (87.5MHz la 108.0MHz în pași de 50 KHz)</item>
     <item>Finlanda (87.5MHz la 108.0MHz în pași de 100 KHz)</item>
     <item>Franța (87.5MHz la 108.0MHz în pași de 100 KHz)</item>
@@ -186,7 +186,7 @@
     <item>Marea Britanie (87.5MHz la 108.0MHz în pași de 100 KHz)</item>
     <item>Statele Unite (88.1MHz la 107.9MHz în pași de 200 KHz)</item>
     <item>Bandă definită de utilizator</item>
-    <item>Indonezia (87,5 MHz 108.0 MHz în paşi de 100 KHz)</item>
+    <item>Indonezia (87,5 MHz 108.0 MHz în pași de 100 KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>
