@@ -68,7 +68,7 @@
   <string name="settings_revert_defaults_title">Povrni na tovarniške nastavitve</string>
   <string name="settings_revert_defaults_summary">Ponastavi vse nastavitve</string>
   <string name="settings_revert_confirm_title">Potrdi ponastavitev</string>
-  <string name="settings_revert_confirm_msg">To bo izbrisalo vse nastavitve aplikacije, vključno s shranjenimi prednastavitvami. Nadaljuj?</string>
+  <string name="settings_revert_confirm_msg">To bo izbrisalo vse nastavitve programa, vključno s shranjenimi prednastavitvami. Nadaljuj?</string>
   <string name="no_storage">Pred začetkom snemanja priklopite kartico SD.</string>
   <string name="preparing_sd">Pripravljanje kartice SD \u2026</string>
   <string name="access_sd_fail">Dostop do SD kartice ni bil mogoč.</string>
