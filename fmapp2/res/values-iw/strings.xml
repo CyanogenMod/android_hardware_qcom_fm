@@ -31,13 +31,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">רדיו FM</string>
   <string name="tx_app_name">משדר FM</string>
-  <string name="menu_scan_start">סרוק</string>
-  <string name="menu_scan_stop">הפסק סריקה</string>
-  <string name="menu_record_start">הקלט</string>
-  <string name="menu_record_stop">עצור הקלטה</string>
+  <string name="menu_scan_start">סריקה</string>
+  <string name="menu_scan_stop">הפסק חיפוש</string>
+  <string name="menu_record_start">הקלטה</string>
+  <string name="menu_record_stop">הפסק הקלטה</string>
   <string name="menu_settings">הגדרות</string>
   <string name="menu_sleep">שינה</string>
-  <string name="menu_sleep_cancel">ביטול שינה</string>
+  <string name="menu_sleep_cancel">בטל שינה</string>
   <string name="menu_all_channels">כל הערוצים</string>
   <string name="menu_display_tags">הצג תגיות</string>
   <string name="button_text_stop">עצור</string>
@@ -61,8 +61,8 @@
   <string name="stat_notif_frequency">\"<xliff:g id="frequency">%1$s</xliff:g>\" MHz</string>
   <string name="regional_band">טווח אזורי</string>
   <string name="aud_output_mode">מצב פלט קולי</string>
-  <string name="audio_type_stereo">סטריאו</string>
-  <string name="audio_type_mono">מונו</string>
+  <string name="audio_type_stereo">דו-ערוצי (סטריאו)</string>
+  <string name="audio_type_mono">חד-ערוצי (מונו)</string>
   <string name="record_dur">משך הקלטה</string>
   <string name="auto_select_af">תדר חלופי</string>
   <string name="settings_revert_defaults_title">שחזר להגדרות ברירת מחדל</string>
