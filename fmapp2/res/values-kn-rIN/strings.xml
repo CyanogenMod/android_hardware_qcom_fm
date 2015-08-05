@@ -29,7 +29,7 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">FM ರೇಡಿಯೋ</string>
+  <string name="app_name">ಎಫ್ಎಂ ರೇಡಿಯೋ</string>
   <string name="tx_app_name">ಎಫ್ಎಂ ಪ್ರಸಾರಕ</string>
   <string name="menu_scan_start">ಸ್ಕ್ಯಾನ್</string>
   <string name="menu_scan_stop">ಹುಡುಕುವುದನ್ನು ನಿಲ್ಲಿಸಿ</string>
