@@ -73,15 +73,20 @@ public class FMTransmitterConfigReceiver extends BroadcastReceiver {
                 build_id = new String(socinfo,17,1);
                 Log.d(TAG, "build_id=" +build_id);
             }
-            if ((!isFmTransmitterSupported) || (build_id.equals("0"))) {
+
             PackageManager pManager = context.getPackageManager();
-               if (pManager != null) {
-                   Log.d(TAG, "disableing the FM Transmitter");
-                   ComponentName fmTransmitter = new ComponentName("com.caf.fmradio", "com.caf.fmradio.FMTransmitterActivity");
-                   pManager.setComponentEnabledSetting(fmTransmitter, PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
-                                                    PackageManager.DONT_KILL_APP);
-               }
-           }
+            if (pManager != null) {
+                ComponentName fmTransmitter = new ComponentName("com.caf.fmradio", "com.caf.fmradio.FMTransmitterActivity");
+                if ((!isFmTransmitterSupported) || (build_id.equals("0"))) {
+                    Log.d(TAG, "disabling the FM Transmitter");
+                    pManager.setComponentEnabledSetting(fmTransmitter, PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+                                                        PackageManager.DONT_KILL_APP);
+                } else {
+                    Log.d(TAG, "enabling the FM Transmitter");
+                    pManager.setComponentEnabledSetting(fmTransmitter, PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+                                                        PackageManager.DONT_KILL_APP);
+                }
+            }
         }
    }
 }
