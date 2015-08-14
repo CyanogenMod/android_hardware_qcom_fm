@@ -1977,6 +1977,10 @@ public class FMRadioService extends Service
       {
          return(mService.get().isA2DPConnected());
       }
+      public boolean isSearchInProgress()
+      {
+         return(mService.get().isSearchInProgress());
+      }
    }
    private final IBinder mBinder = new ServiceStub(this);
 
@@ -2207,6 +2211,11 @@ public class FMRadioService extends Service
       }
       stop();
       return(bStatus);
+   }
+
+   public boolean isSearchInProgress() {
+      int state = mReceiver.getFMState();
+      return state == qcom.fmradio.FmTransceiver.FMState_Srch_InProg;
    }
 
    public boolean isSSRInProgress() {
