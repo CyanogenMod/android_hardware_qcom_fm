@@ -514,9 +514,23 @@ public class FMRadio extends Activity
       }
    }
 
+    private void syncScanState() {
+        if (!mIsScaning || mService == null) {
+            return;
+        }
+        try {
+            if (!mService.isSearchInProgress()) {
+                resetSearch();
+            }
+        }catch (RemoteException e) {
+            e.printStackTrace();
+        }
+    }
+
    @Override
    public void onResume() {
       super.onResume();
+      syncScanState();
       try {
          if(mService != null) {
             mService.registerCallbacks(mServiceCallbacks);
