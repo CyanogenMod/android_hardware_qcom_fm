@@ -1441,6 +1441,9 @@ public class FMRadioService extends Service
          mService = new WeakReference<FMRadioService>(service);
       }
 
+       public boolean isScanActive() throws RemoteException {
+           return(mService.get().isScanActive());
+       }
       public boolean fmOn() throws RemoteException
       {
          return(mService.get().fmOn());
@@ -1974,6 +1977,11 @@ public class FMRadioService extends Service
       }
       stop();
       return(bStatus);
+   }
+
+   public boolean isSearchInProgress() {
+      int state = mReceiver.getFMState();
+      return state == qcom.fmradio.FmTransceiver.FMState_Srch_InProg;
    }
 
    public boolean isSSRInProgress() {
