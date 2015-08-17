@@ -47,7 +47,7 @@
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> МГц</string>
   <string name="msg_searching_title">Автопоиск станций</string>
   <string name="msg_searching">Поиск станций с мощным сигналом для создания списка станций\u2026</string>
-  <string name="msg_noantenna">Пожалуйста, подключите гарнитуру для использования FM-радио</string>
+  <string name="msg_noantenna">Пожалуйста, вставьте гарнитуру</string>
   <string name="dialog_sleep_title">Время автовыключения</string>
   <string name="presetlist_select_name">Выбор «<xliff:g id="presetlist_name">%1$s</xliff:g>»</string>
   <string name="presetlist_add_new">Добавить новый список</string>
