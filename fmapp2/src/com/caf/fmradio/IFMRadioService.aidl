@@ -74,5 +74,6 @@ interface IFMRadioService
     boolean isSleepTimerActive();
     boolean isSSRInProgress();
     boolean isSearchInProgress();
+    List getScannedFrequencies();
 }
 
