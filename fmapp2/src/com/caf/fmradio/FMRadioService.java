@@ -134,6 +134,7 @@ public class FMRadioService extends Service
    private boolean misAnalogPathEnabled = false;
    private boolean mA2dpDisconnected = false;
    //PhoneStateListener instances corresponding to each
+   private ArrayList<Integer> mScannedFrequencies = new ArrayList<Integer>();
 
    private FmRxRdsData mFMRxRDSData=null;
    // interval after which we stop the service when idle
@@ -1745,6 +1746,9 @@ public class FMRadioService extends Service
       public boolean isSearchInProgress() {
          return(mService.get().isSearchInProgress());
       }
+      public List<Integer> getScannedFrequencies() {
+          return(mService.get().getScannedFrequencies());
+      }
    }
    private final IBinder mBinder = new ServiceStub(this);
 
@@ -1977,6 +1981,10 @@ public class FMRadioService extends Service
       }
       stop();
       return(bStatus);
+   }
+
+   public List<Integer> getScannedFrequencies() {
+       return mScannedFrequencies;
    }
 
    public boolean isSearchInProgress() {
@@ -2281,6 +2289,8 @@ public class FMRadioService extends Service
     */
    public boolean scan(int pty)
    {
+      // Clear previously scanned frequencies
+      mScannedFrequencies.clear();
       boolean bCommandSent=false;
       if (mReceiver != null)
       {
@@ -2772,7 +2782,6 @@ public class FMRadioService extends Service
       {
          Log.d(LOGTAG, "FmRxEvSetSignalThreshold");
       }
-
       public void FmRxEvRadioTuneStatus(int frequency)
       {
          Log.d(LOGTAG, "FmRxEvRadioTuneStatus: Tuned Frequency: " +frequency);
@@ -2784,6 +2793,9 @@ public class FMRadioService extends Service
             /* Since the Tuned Status changed, clear out the RDSData cached */
             if(mReceiver != null) {
                clearStationInfo();
+            }
+            if (isSearchInProgress()) {
+                mScannedFrequencies.add(frequency);
             }
             if(mCallbacks != null)
             {
