@@ -248,9 +248,6 @@ public class FMRadio extends Activity
    private ScrollerText mRadioTextScroller = null;
    private ScrollerText mERadioTextScroller = null;
 
-   /* Scanning frequencies */
-   ArrayList<Integer> mScannedFrequencies;
-
    private PresetStation mTunedStation = new PresetStation("", 102100);
    private PresetStation mPresetButtonStation = null;
 
@@ -522,7 +519,7 @@ public class FMRadio extends Activity
         }
         try {
             if (!mService.isSearchInProgress()) {
-                resetSearch();
+                mServiceCallbacks.onSearchComplete();
             }
         }catch (RemoteException e) {
             e.printStackTrace();
@@ -1741,9 +1738,6 @@ public class FMRadio extends Activity
       SharedPreferences.Editor editor = sp.edit();
       editor.clear();
       editor.commit();
-      if (mScannedFrequencies != null) {
-         mScannedFrequencies.clear();
-      }
    }
    public boolean fmConfigure() {
       boolean bStatus = true;
@@ -2116,13 +2110,19 @@ public class FMRadio extends Activity
    }
 
    private void saveStations() {
-       if (mScannedFrequencies != null && mScannedFrequencies.size() > 0) {
-           Collections.sort(mScannedFrequencies);
+       List<Integer> scannedFrequencies = null;
+       try {
+           scannedFrequencies = mService.getScannedFrequencies();
+       } catch (RemoteException e) {
+           e.printStackTrace();
+       }
+       if (scannedFrequencies != null && scannedFrequencies.size() > 0) {
+           Collections.sort(scannedFrequencies);
            SharedPreferences sp = getSharedPreferences(SCAN_STATION_PREFS_NAME, 0);
            SharedPreferences.Editor editor = sp.edit();
 
            int index = 0;
-           for (Integer freq : mScannedFrequencies) {
+           for (Integer freq : scannedFrequencies) {
                index++;
                editor.putString(STATION_NAME + index, index + "");
                editor.putInt(STATION_FREQUENCY + index, freq);
@@ -3149,11 +3149,6 @@ public class FMRadio extends Activity
          Log.d(LOGTAG, "mServiceCallbacks.onTuneStatusChanged: ");
          if (mIsScaning) {
              Log.d(LOGTAG, "isScanning....................");
-             if (mScannedFrequencies == null) {
-                 mScannedFrequencies = new ArrayList<Integer>();
-             }
-
-             mScannedFrequencies.add(FmSharedPreferences.getTunedFrequency());
          }
          cleanupTimeoutHandler();
          mHandler.post(mUpdateStationInfo);
@@ -3180,7 +3175,13 @@ public class FMRadio extends Activity
       public void onSearchComplete() {
          Log.d(LOGTAG, "mServiceCallbacks.onSearchComplete :");
          if (mIsScaning) {
-             if (mScannedFrequencies != null && mScannedFrequencies.size() > 0) {
+             List<Integer> scannedFrequencies = null;
+             try {
+                 scannedFrequencies = mService.getScannedFrequencies();
+             } catch (RemoteException e) {
+                 e.printStackTrace();
+             }
+             if (scannedFrequencies != null && !scannedFrequencies.isEmpty()) {
                  mShowStationList = true;
              } else {
                  mHandler.post(new Runnable() {
