@@ -29,16 +29,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">قبل از شروع ضبط کارت حافظه را اضافه کنید.</string>
-  <string name="preparing_sd">آماده‌سازی کارت حافظه</string>
-  <string name="access_sd_fail">قادر به دسترسی به SD کارت نیست.</string>
-  <string name="spaceIsLow_content">فضای SD کارت شما در حال تمام شدن است. تنظیمات کیفیت را تغییر دهید یا تعدادی از عکس ها و اطلاعات خود را خالی کنید.</string>
-  <string name="FMRecording_reach_size_limit">به حد نهایی اندازه فایل رسید.</string>
-  <string name="audio_db_title_format"><xliff:g id="format">سال-ماه-روز HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">FM های ضبط شده من</string>
-  <string name="audio_db_album_name">FM های ضبط شده</string>
-  <string name="audio_db_playlist_name">FM های ضبط شده</string>
-  <string name="save_record_file">فایل FM ضبط شده در اینجا ذخیره می شود \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">در حال ضبط FM</string>
-  <string name="unable_to_store">قادر به ذخیره صدای ضبط شده نیست</string>
+  <string name="no_storage">Muntu la SD-karton antaŭ ol komenci la registradon.</string>
+  <string name="preparing_sd">Pretigado de la SD-karto</string>
+  <string name="access_sd_fail">Ne sukcesis aliri al la SD-karto.</string>
+  <string name="spaceIsLow_content">Via SD-karto fariĝas plena. Malaltigu la kvaliton aŭ forigu kelkajn bildojn aŭ aliajn dosierojn.</string>
+  <string name="FMRecording_reach_size_limit">Grandeca limo atingita.</string>
+  <string name="audio_db_title_format"><xliff:g id="format">jjjj-MM-tt HH:mm:ss</xliff:g></string>
+  <string name="audio_db_artist_name">Miaj FM-registradoj</string>
+  <string name="audio_db_album_name">FM-registradoj</string>
+  <string name="audio_db_playlist_name">FM-registradoj</string>
+  <string name="save_record_file">FM-registrado konservita en  \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">Registrado de FM</string>
+  <string name="unable_to_store">Ne sukcesis konservi la registritan sonon</string>
 </resources>

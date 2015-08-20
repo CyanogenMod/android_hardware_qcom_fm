@@ -31,35 +31,166 @@
 <resources>
   <string-array name="ster_mon_entries">
     <item>استریو</item>
-    <item>Mono</item>
+    <item>مونو</item>
+  </string-array>
+  <string-array name="record_durations_entries">
+    <item>5 دقیقه</item>
+    <item>15 دقیقه</item>
+    <item>30 دقیقه</item>
+    <item>تا هنگامی که متوقف شود</item>
+  </string-array>
+  <string-array name="sleep_duration_values">
+    <item>۱۵ دقیقه</item>
+    <item>30 دقیقه</item>
+    <item>45 دقیقه</item>
+    <item>1 ساعت</item>
   </string-array>
   <string-array name="search_category_rbds_entries">
-    <item>All stations</item>
-    <item>Adult hits</item>
-    <item>Classical</item>
-    <item>Classic Rock</item>
-    <item>College</item>
-    <item>Country</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
-    <item>Foreign language</item>
-    <item>Information</item>
-    <item>Jazz</item>
-    <item>News</item>
-    <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
-    <item>Religious music</item>
-    <item>Religious talk</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
-    <item>Talk</item>
+    <item>تمام ایستگاه ها</item>
+    <item>بیشترین بازدید</item>
+    <item>کلاسیک</item>
+    <item>راک کلاسیک</item>
+    <item>کالج</item>
+    <item>کانتری</item>
+    <item>اضطراری</item>
+    <item>تست اضطراری</item>
+    <item>زبان خارجی</item>
+    <item>اطلاعات</item>
+    <item>جاز</item>
+    <item>خبر</item>
+    <item>نوستالژی</item>
+    <item>قدیمی</item>
+    <item>شخصیت</item>
+    <item>عمومی</item>
+    <item>موسیقی مذهبی</item>
+    <item>بحث های مذهبی</item>
+    <item>ریتم و بلوز</item>
+    <item>راک</item>
+    <item>سافت</item>
+    <item>سافت راک</item>
+    <item>سافت ریتم و بلوز</item>
+    <item>ورزشی</item>
+    <item>بحث</item>
     <item>۴۰ تای برتر</item>
-    <item>Weather</item>
+    <item>آب و هوا</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>تمام ایستگاه ها</item>
+    <item>فرهنگ</item>
+    <item>امور جاری</item>
+    <item>برنامه های کودکان</item>
+    <item>موسیقی کانتری</item>
+    <item>مستند</item>
+    <item>درام</item>
+    <item>موسیقی آرام</item>
+    <item>تحصیلات</item>
+    <item>اضطراری</item>
+    <item>تست اضطراری</item>
+    <item>امور مالی</item>
+    <item>موسیقی محلی</item>
+    <item>اطلاعات</item>
+    <item>موسیقی جاز</item>
+    <item>کلاسیک آرام</item>
+    <item>اوقات فراغت</item>
+    <item>خبر</item>
+    <item>موسیقی ملی</item>
+    <item>موسیقی های دیگر</item>
+    <item>موسیقی های قدیمی</item>
+    <item>در تلفن</item>
+    <item>موسیقی پاپ</item>
+    <item>دین</item>
+    <item>موسیقی راک</item>
+    <item>علم</item>
+    <item>کلاسیک قوی</item>
+    <item>امور اجتماعی</item>
+    <item>ورزشی</item>
+    <item>سفر</item>
+    <item>متنوع</item>
+    <item>آب و هوا</item>
+  </string-array>
+  <string-array name="regional_band_entries">
+    <item>آمریکای شمالی</item>
+    <item>اروپا</item>
+    <item>ژاپن</item>
+    <item>ژاپن (گسترده)</item>
+    <item>استرالیا</item>
+    <item>اتریش</item>
+    <item>بلژیک</item>
+    <item>برزیل</item>
+    <item>چین</item>
+    <item>جمهوری چک</item>
+    <item>دانمارک</item>
+    <item>فنلاند</item>
+    <item>فرانسه</item>
+    <item>آلمان</item>
+    <item>یونان</item>
+    <item>هنگ کنگ</item>
+    <item>هند</item>
+    <item>ایرلند</item>
+    <item>ایتالیا</item>
+    <item>کره جنوبی</item>
+    <item>مکزیک</item>
+    <item>هلند</item>
+    <item>نيوزلند</item>
+    <item>نروژ</item>
+    <item>لهستان</item>
+    <item>پرتغال</item>
+    <item>روسیه</item>
+    <item>سنگاپور</item>
+    <item>اسلواکی</item>
+    <item>اسپانیا</item>
+    <item>سوئیس</item>
+    <item>سوئد</item>
+    <item>تایوان</item>
+    <item>ترکیه</item>
+    <item>انگلستان</item>
+    <item>ایالات متحده</item>
+    <item>باند تعریف شده توسط کاربر</item>
+    <item>اندونزی</item>
+  </string-array>
+  <string-array name="regional_band_summary">
+    <item>آمریکای شمالی (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 200 KHz)</item>
+    <item>اروپا (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>ژاپن (76.0 مگاهرتز تا 90.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>ژاپن (گسترده) (90.0 مگاهرتز تا 108.0 مگاهرتز در مرحله 50 هرتز)</item>
+    <item>استرالیا (87.7 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>اتریش (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 50 هرتز)</item>
+    <item>بلژیک (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>برزیل (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 200 KHz)</item>
+    <item>چین (87.0 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>جمهوری چک (۸۷.۵ مگاهرتز تا ۱۰۸.۰ مگاهرتز در گام ۱۰۰ کیلوهرتز)</item>
+    <item>دانمارک (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 50 هرتز)</item>
+    <item>فنلاند (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>فرانسه (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>آلمان (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 50 هرتز)</item>
+    <item>یونان (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 50 هرتز)</item>
+    <item>هنگ کنگ (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>هند (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>ایرلند (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 50 هرتز)</item>
+    <item>ایتالیا (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 50 هرتز)</item>
+    <item>کره (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 200 KHz)</item>
+    <item>مکزیک (88.1 مگاهرتز تا 107.9 مگاهرتز در مرحله 200 KHz)</item>
+    <item>هلند (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>نیوزلند (88.0 مگاهرتز تا 107.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>نروژ (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>لهستان (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>پرتغال (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 50 هرتز)</item>
+    <item>روسیه (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>سنگاپور (88.0 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>اسلواکی (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>اسپانیا (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>سوئیس (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>سوئد (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>تایوان (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>ترکیه (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>انگلستان (87.5 مگاهرتز تا 108.0 مگاهرتز در مرحله 100 KHz)</item>
+    <item>ایالات متحده (88.1 مگاهرتز تا 107.9 مگاهرتز در مرحله 200 KHz)</item>
+    <item>باند تعریف شده توسط کاربر</item>
+    <item>اندونزی (۸۷.۵ مگاهرتز تا ۱۰۸.۰ مگاهرتز در گام ۱۰۰کیلوهرتز)</item>
+  </string-array>
+  <string-array name="channel_spacing_entries">
+    <item>50 کیلوهرتز</item>
+    <item>100 کیلوهرتز</item>
+    <item>200 کیلوهرتز</item>
   </string-array>
 </resources>

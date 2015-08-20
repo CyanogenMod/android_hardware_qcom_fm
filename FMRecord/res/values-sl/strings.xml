@@ -29,16 +29,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">قبل از شروع ضبط کارت حافظه را اضافه کنید.</string>
-  <string name="preparing_sd">آماده‌سازی کارت حافظه</string>
-  <string name="access_sd_fail">قادر به دسترسی به SD کارت نیست.</string>
-  <string name="spaceIsLow_content">فضای SD کارت شما در حال تمام شدن است. تنظیمات کیفیت را تغییر دهید یا تعدادی از عکس ها و اطلاعات خود را خالی کنید.</string>
-  <string name="FMRecording_reach_size_limit">به حد نهایی اندازه فایل رسید.</string>
-  <string name="audio_db_title_format"><xliff:g id="format">سال-ماه-روز HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">FM های ضبط شده من</string>
-  <string name="audio_db_album_name">FM های ضبط شده</string>
-  <string name="audio_db_playlist_name">FM های ضبط شده</string>
-  <string name="save_record_file">فایل FM ضبط شده در اینجا ذخیره می شود \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">در حال ضبط FM</string>
-  <string name="unable_to_store">قادر به ذخیره صدای ضبط شده نیست</string>
+  <string name="no_storage">Pred začetkom snemanja priklopite kartico SD.</string>
+  <string name="preparing_sd">Pripravljanje kartice SD</string>
+  <string name="access_sd_fail">Dostop do kartice SD ni mogoč.</string>
+  <string name="spaceIsLow_content">Vaši pomnilniški napravi kartice SD primanjkuje prostora. Spremenite nastavitve kakovosti ali izbrišite nekaj slik ali drugih datotek.</string>
+  <string name="FMRecording_reach_size_limit">Dosežena omejitev velikosti.</string>
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <string name="audio_db_artist_name">Moji posnetki FM</string>
+  <string name="audio_db_album_name">Posnetki FM</string>
+  <string name="audio_db_playlist_name">Posnetki FM</string>
+  <string name="save_record_file">Posneta datoteka FM shranjena v \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">Snemanje FM v teku</string>
+  <string name="unable_to_store">Shranjevanje posnetega zvoka ni mogoče</string>
 </resources>
