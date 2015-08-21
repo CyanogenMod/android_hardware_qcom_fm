@@ -37,7 +37,7 @@
     <item>۵ دقیقه</item>
     <item>۱۵ دقیقه</item>
     <item>۳۰ دقیقه</item>
-    <item>تا هنگامی که متوقف شود</item>
+    <item>تا زمانی که متوقف شود</item>
   </string-array>
   <string-array name="sleep_duration_values">
     <item>۱۵ دقیقه</item>
