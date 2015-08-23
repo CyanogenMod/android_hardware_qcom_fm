@@ -38,5 +38,6 @@
   <string name="no_storage">قبل از شروع ضبط کارت حافظه را اضافه کنید.</string>
   <string name="preparing_sd">آماده‌سازی کارت حافظه</string>
   <string name="delete_station_title">حذف</string>
+  <string name="alert_dialog_ok">بسیارخب</string>
   <string name="alert_dialog_cancel">لغو</string>
 </resources>
