@@ -106,7 +106,7 @@
   <string name="sel_rec_dur">Səsyazma müddətini seçin</string>
   <string name="auto_select_af">Alternativ tezlik</string>
   <string name="auto_select_af_enabled">Avtomatik seç aktivdir</string>
-  <string name="auto_select_af_disabled">Avtomatik seç bağlıdır</string>
+  <string name="auto_select_af_disabled">Avtomatik seçim ləğv edildi</string>
   <string name="fac_defaults">Zavod tənzimləmələrinə geri dön</string>
   <string name="revert_to_fac">Zavod tənzimləmələrinə geri dön</string>
   <string name="settings_back">Geri</string>

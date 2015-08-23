@@ -29,15 +29,15 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Montați cardul SD înainte de a începe înregistrarea.</string>
-  <string name="preparing_sd">Se pregătește cardul SD</string>
-  <string name="access_sd_fail">Nu s-a putut accesa cardul SD.</string>
-  <string name="spaceIsLow_content">Cardul dvs SD rămâne fără spațiu. Schimbați setarea de calitate sau ștergeți unele imagini sau alte fișiere.</string>
-  <string name="FMRecording_reach_size_limit">A fost atinsă limita de mărime.</string>
-  <string name="audio_db_title_format"><xliff:g id="format">aaaa-LL-zz HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">Înregistările mele FM</string>
-  <string name="audio_db_album_name">Înregistrări FM</string>
-  <string name="audio_db_playlist_name">Înregistrări FM</string>
-  <string name="save_record_file">Fișierul cu înregistrarea FM s-a salvat la \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
-  <string name="fm_record_progress">Înregistrare FM în curs</string>
+  <string name="no_storage">Pred začetkom snemanja priklopite kartico SD.</string>
+  <string name="preparing_sd">Pripravljanje SD kartice</string>
+  <string name="access_sd_fail">Dostop do SD kartice ni bil mogoč.</string>
+  <string name="spaceIsLow_content">Vaši pomnilniški napravi kartice SD primanjkuje prostora. Spremenite nastavitve kakovosti ali izbrišite nekaj slik ali drugih datotek.</string>
+  <string name="FMRecording_reach_size_limit">Dosežena omejitev velikosti.</string>
+  <string name="audio_db_title_format"><xliff:g id="format">dd.MM.yyyy HH:mm:ss</xliff:g></string>
+  <string name="audio_db_artist_name">Moji posnetki FM</string>
+  <string name="audio_db_album_name">Posnetki FM</string>
+  <string name="audio_db_playlist_name">Posnetki FM</string>
+  <string name="save_record_file">Posneta datoteka FM shranjena v \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">Snemanje FM v teku</string>
 </resources>
