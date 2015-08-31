@@ -89,7 +89,7 @@
   <string name="station_list_delete_station">Șterg: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Sigur vrei să ștergi \'<xliff:g id="name">%s</xliff:g>\'?</string>
   <string name="station_name_empty">Numele stației este gol, vă rugăm să îl introduceți iar.</string>
-  <string name="station_name_exist">\' <xliff:g id="name">%s\' </xliff:g> este deja în uz, vă rugăm să introduceţi un nume diferit.</string>
+  <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' este deja în uz, vă rugăm să introduceți un nume diferit.</string>
   <string name="rt_plus_tags">Etichete</string>
   <string name="usr_def_band_min">Frecvența minimă (MHz)</string>
   <string name="usr_def_band_max">Frecvența maximă (MHz)</string>
