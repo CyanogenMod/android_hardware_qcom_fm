@@ -40,4 +40,5 @@
   <string name="audio_db_playlist_name">FM 錄音</string>
   <string name="save_record_file">FM 錄音檔已儲存至「<xliff:g id="record_file">%1$s</xliff:g>」</string>
   <string name="fm_record_progress">正在進行 FM 錄音</string>
+  <string name="unable_to_store">無法儲存錄製的音訊</string>
 </resources>

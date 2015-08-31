@@ -63,17 +63,17 @@
   <string name="aud_output_mode">حالت خروجی صدا</string>
   <string name="audio_type_stereo">استریو</string>
   <string name="audio_type_mono">مونو</string>
-  <string name="record_dur">مدت‌زمان ضبط</string>
+  <string name="record_dur">مدت زمان ضبط</string>
   <string name="auto_select_af">فرکانس‌های جایگزین</string>
   <string name="settings_revert_defaults_title">بازنشانی به پیش‌فرض کارخانه</string>
-  <string name="settings_revert_defaults_summary">بازنشانی تمام تنظیمات</string>
-  <string name="settings_revert_confirm_title">تایید کردن بازنشانی</string>
-  <string name="settings_revert_confirm_msg">تمام تنظیمات برنامه از جمله پیش تنظیم‌های ذخیره شده حذف خواهد شد. ادامه می دهید؟</string>
+  <string name="settings_revert_defaults_summary">تنظیم مجدد تمام تنظیمات</string>
+  <string name="settings_revert_confirm_title">تایید تنظیم مجدد</string>
+  <string name="settings_revert_confirm_msg">تمام تنظیمات برنامه از جمله پیش تنظیم‌های ذخیره شده حذف خواهند شد. ادامه می دهید؟</string>
   <string name="no_storage">قبل از شروع ضبط کارت حافظه را اضافه کنید.</string>
-  <string name="preparing_sd">آماده‌سازی کارت حافظه\u2026</string>
-  <string name="access_sd_fail">قادر به دسترسی به کارت حافظه نیست.</string>
-  <string name="spaceIsLow_content">حافظه‌ی کارت حافظه شما در حال اتمام است. تنظیمات کیفیت را تغییر دهید یا تعدادی از تصاویر و اطلاعات را برای فضای بیشتر حذف کنید.</string>
-  <string name="menu_scan_for_preset">اسکن برای ایستگاه پیش تنظیم</string>
+  <string name="preparing_sd">آماده کردن کارت حافظه\u2026</string>
+  <string name="access_sd_fail">نمی‌توان به کارت حافظه دسترسی پیدا کرد.</string>
+  <string name="spaceIsLow_content">فضای کارت حافظه شما در حال اتمام است. تنظیمات کیفیت را تغییر دهید یا تعدادی از تصاویر و اطلاعات را برای فضای بیشتر حذف کنید.</string>
+  <string name="menu_scan_for_preset">اسکن برای ایستگاه تنظیم شده</string>
   <string name="fm_off">FM خاموش است.</string>
   <string name="fm_call">در طول تماس نمی‌توان از FM استفاده کرد.</string>
   <string name="alert_dialog_hint">نام را وارد کنید</string>
@@ -87,7 +87,7 @@
   <string name="station_name">ایستگاه:</string>
   <string name="station_exists">این فرکانس از قبل وجود دارد!</string>
   <string name="station_list_delete_station">حذف: <xliff:g id="name">%s </xliff:g></string>
-  <string name="station_list_delete_station_prompt">آیا مطمئن هستید که می خواهید \' <xliff:g id="name">%s\' </xliff:g> را حذف کنید؟</string>
+  <string name="station_list_delete_station_prompt">از حذف \'<xliff:g id="name">%s</xliff:g>\' اطمینان دارید؟</string>
   <string name="station_name_empty">نام ایستگاه خالی است، لطفا دوباره وارد کنید.</string>
   <string name="station_name_exist">\' <xliff:g id="name">%s\' </xliff:g> از قبل در حال استفاده است، لطفا نام دیگری را وارد کنید.</string>
   <string name="rt_plus_tags">برچسب‌ها</string>

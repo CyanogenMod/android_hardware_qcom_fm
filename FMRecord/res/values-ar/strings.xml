@@ -29,7 +29,6 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">تحميل بطاقة SD قبل بدء التسجيل.</string>
   <string name="preparing_sd">إعداد بطاقة SD</string>
   <string name="access_sd_fail">لم يستطع الوصول إلى بطاقة SD.</string>
   <string name="spaceIsLow_content">تخزين بطاقة الذاكرة sd نفاذت مساحتع. تغيير إعداد الجودة أو حذف بعض الصور أو الملفات الأخرى.</string>
