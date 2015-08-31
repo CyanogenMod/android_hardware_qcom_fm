@@ -40,9 +40,18 @@
   <string name="menu_all_channels">所有頻道</string>
   <string name="menu_display_tags">顯示標籤</string>
   <string name="button_text_stop">停止</string>
+  <string name="msg_seeking">正在搜尋 FM 電台\u2026</string>
+  <string name="msg_scanning">正在掃描以獲取所有 FM 電台\u2026</string>
+  <string name="msg_scanning_pty">正在掃描以獲取「<xliff:g id="pty_name">%1$s</xliff:g>」\u2026</string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
+  <string name="msg_searching_title">自動選擇預設值</string>
+  <string name="msg_searching">正在搜尋接收良好的電台來創建一個預設清單\u2026</string>
   <string name="msg_noantenna">請插上耳機來使用 FM 收音機</string>
+  <string name="dialog_sleep_title">自動關閉休眠時間</string>
   <string name="presetlist_select_name">選擇「<xliff:g id="presetlist_name">%1$s</xliff:g>」</string>
   <string name="presetlist_add_new">新增新清單</string>
+  <string name="dialog_presetlist_rename_title">輸入名稱</string>
+  <string name="presetlist_autoselect_title">確認自動選擇</string>
   <string name="preset_replace">取代</string>
   <string name="preset_tune">調整</string>
   <string name="preset_rename">重新命名</string>
@@ -54,12 +63,18 @@
   <string name="audio_type_stereo">立體聲</string>
   <string name="audio_type_mono">單聲道</string>
   <string name="record_dur">記錄時間</string>
+  <string name="auto_select_af">備用頻率</string>
   <string name="settings_revert_defaults_title">恢復到出廠預設</string>
   <string name="settings_revert_defaults_summary">清除所有設定</string>
+  <string name="settings_revert_confirm_title">確認重設</string>
+  <string name="settings_revert_confirm_msg">將會清除所有應用程式設定，包括已儲存的預設值。是否繼續？</string>
   <string name="no_storage">在開始錄製之前安裝 SD 卡。</string>
+  <string name="preparing_sd">正在準備 SD 卡\u2026</string>
   <string name="access_sd_fail">無法存取 SD 卡。</string>
   <string name="spaceIsLow_content">您的 SD 卡儲存空間用完，更改質量設定或刪除一些其他的檔案以釋放空間。</string>
   <string name="menu_scan_for_preset">掃描預設</string>
+  <string name="fm_off">FM 已關閉。</string>
+  <string name="fm_call">FM 不能在通話時使用。</string>
   <string name="alert_dialog_hint">輸入一個名稱</string>
   <string name="search_dialog_title">掃描電台</string>
   <string name="fm_command_timeout_title">逾時</string>
@@ -68,9 +83,17 @@
   <string name="fm_cmd_failed_msg">FM 操作失敗。如果問題仍然存在，請關閉 FM 及重新開啟。</string>
   <string name="fm_cmd_failed_msg_hdmi">FM 操作失敗。不支援 FM 和 HDMI 的並行。</string>
   <string name="fm_cmd_failed_call_on">FM 操作失敗。通話期間不允許 FM 音頻。</string>
+  <string name="station_name">電台：</string>
   <string name="station_exists">此頻率已存在!</string>
   <string name="station_list_delete_station">刪除：<xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">是否確定要刪除「<xliff:g id="name">%s</xliff:g>」？</string>
   <string name="station_name_empty">電台名字不能為空，請新重輸入</string>
+  <string name="station_name_exist">「<xliff:g id="name">%s</xliff:g>」已被使用，請輸入其他名稱。</string>
   <string name="rt_plus_tags">標籤</string>
+  <string name="usr_def_band_min">最低頻率 (MHz)</string>
+  <string name="usr_def_band_max">最高頻率 (MHz)</string>
   <string name="chanl_spacing">頻道距間</string>
+  <string name="set">設定</string>
+  <string name="user_defind_band_msg">輸入從 76.0 至 108.0 MHz 中最少有一個頻道為間隔的頻率</string>
+  <string name="fm_search_no_results">找不到相容的電台</string>
 </resources>
