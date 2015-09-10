@@ -509,7 +509,7 @@ public class FmSharedPreferences
                 .getBoolean(R.bool.def_fm_country_location_enabled)) {
             setCountry(sp.getInt(FMCONFIG_COUNTRY, REGIONAL_BAND_INDIA));
       } else {
-          mDefaultCountryIndex = mContext.getResources().getInteger(R.integer.default_country_index);
+          mDefaultCountryIndex = getBand(mContext.getResources().getInteger(R.integer.default_country_index));
           setCountry(sp.getInt(FMCONFIG_COUNTRY, mDefaultCountryIndex));
       }
       /* Last list the user was navigating */
@@ -1184,5 +1184,76 @@ public class FmSharedPreferences
 
    public static boolean getAutoAFSwitch() {
       return mAFAutoSwitch;
+   }
+
+   /**
+    * Map country code to radio band. If country code is not found
+    * in the list, takes the default from resources.
+    */
+   private static int getBand(int deflt) {
+      String country = Locale.getDefault().getCountry();
+      // The order of country codes in this list is very strict. The
+      // majority of region band codes are for a single country, but
+      // Europe (the second item) is an exception.
+      final String[] countries = {
+         "CA",    // REGIONAL_BAND_NORTH_AMERICA;
+         "--",    // REGIONAL_BAND_EUROPE;
+         "JP",    // REGIONAL_BAND_JAPAN;
+         "JP",    // REGIONAL_BAND_JAPAN_WIDE;
+         "AU",    // REGIONAL_BAND_AUSTRALIA;
+         "AT",    // REGIONAL_BAND_AUSTRIA;
+         "BE",    // REGIONAL_BAND_BELGIUM;
+         "BR",    // REGIONAL_BAND_BRAZIL;
+         "CN",    // REGIONAL_BAND_CHINA;
+         "CZ",    // REGIONAL_BAND_CZECH;
+         "DK",    // REGIONAL_BAND_DENMARK;
+         "FI",    // REGIONAL_BAND_FINLAND;
+         "FR",    // REGIONAL_BAND_FRANCE;
+         "DE",    // REGIONAL_BAND_GERMANY;
+         "GR",    // REGIONAL_BAND_GREECE;
+         "HK",    // REGIONAL_BAND_HONGKONG;
+         "IN",    // REGIONAL_BAND_INDIA;
+         "IE",    // REGIONAL_BAND_IRELAND;
+         "IT",    // REGIONAL_BAND_ITALY;
+         "KR",    // REGIONAL_BAND_KOREA;
+         "MX",    // REGIONAL_BAND_MEXICO;
+         "NL",    // REGIONAL_BAND_NETHERLANDS;
+         "NZ",    // REGIONAL_BAND_NEWZEALAND;
+         "NO",    // REGIONAL_BAND_NORWAY;
+         "PL",    // REGIONAL_BAND_POLAND;
+         "PT",    // REGIONAL_BAND_PORTUGAL;
+         "RU",    // REGIONAL_BAND_RUSSIA;
+         "SG",    // REGIONAL_BAND_SINGAPORE;
+         "SK",    // REGIONAL_BAND_SLOVAKIA;
+         "ES",    // REGIONAL_BAND_SPAIN;
+         "CH",    // REGIONAL_BAND_SWITZERLAND;
+         "SE",    // REGIONAL_BAND_SWEDEN;
+         "TW",    // REGIONAL_BAND_TAIWAN;
+         "TR",    // REGIONAL_BAND_TURKEY;
+         "GB",    // REGIONAL_BAND_UNITEDKINGDOM;
+         "US",    // REGIONAL_BAND_UNITED_STATES;
+         "--",    // REGIONAL_BAND_USER_DEFINED;
+         "ID",    // REGIONAL_BAND_INDONESIA;
+      };
+      final String[] europe = {
+         "AL", "AD", "AM", "AZ", "BY", "BA", "BG", "HR", "CY", "EE",
+         "GE", "HU", "IS", "KZ", "LV", "LI", "LT", "LU", "MK", "MT",
+         "MD", "MC", "ME", "RO", "SM", "RS", "SK", "SI", "UA", "VA"};
+      for (int band = 0; band < countries.length; ++band) {
+         if (countries[band].equals(country)) {
+            return band;
+         }
+      }
+      for (String cc : europe) {
+         if (cc.equals(country)) {
+            return REGIONAL_BAND_EUROPE;
+         }
+      }
+      // Special cases:
+      if (country.equals("GG")) return REGIONAL_BAND_UNITEDKINGDOM;
+      if (country.equals("IM")) return REGIONAL_BAND_UNITEDKINGDOM;
+      if (country.equals("JE")) return REGIONAL_BAND_UNITEDKINGDOM;
+      if (country.equals("IS")) return REGIONAL_BAND_NORWAY;
+      return deflt;
    }
 }
