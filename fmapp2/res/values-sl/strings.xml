@@ -97,4 +97,59 @@
   <string name="set">Nastavi</string>
   <string name="user_defind_band_msg">Vnesite frekvenco od 76,0 do 108,0 MHz z najmanj 1-im kanalom presledka</string>
   <string name="fm_search_no_results">Ni bilo najdenih združljivih postaj</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Uspešnice za odrasle</string>
+    <string name="typ_Classical">Klasična</string>
+    <string name="typ_Classic_Rock">Klasični rock</string>
+    <string name="typ_College">Študentska</string>
+    <string name="typ_Foreign_language">Tuj jezik</string>
+    <string name="typ_Nostalgia">Nostalgija</string>
+    <string name="typ_Personality">Osebnost</string>
+    <string name="typ_Public">Javno</string>
+    <string name="typ_Religious_music">Verska glasba</string>
+    <string name="typ_Religious_talk">Verski pogovor</string>
+    <string name="typ_Rhythm_and_Blues">Rstring name="typ_Rhythm_and_Blues" in blues</string>
+    <string name="typ_Soft">Mehka glasba</string>
+    <string name="typ_Soft_Rock">Mehki rock</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Mehki rstring name="typ_Soft_Rhythm_and_Blues" in blues</string>
+    <string name="typ_Sports">Šport</string>
+    <string name="typ_Talk">Pogovor</string>
+    <string name="typ_Top_40">Najboljših 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Vse postaje</string>
+    <string name="typ_Culture">Kultura</string>
+    <string name="typ_Current_affairs">Tekoče zadeve</string>
+    <string name="typ_Children">Programi za otroke</string>
+    <string name="typ_Country">Narodno zabavna glasba</string>
+    <string name="typ_Documentary">Dokumentarec</string>
+    <string name="typ_Drama">Drama</string>
+    <string name="typ_Easy_listening">Lahka glasba</string>
+    <string name="typ_Education">Izobraževanje</string>
+    <string name="typ_Emergency">V sili</string>
+    <string name="typ_Emergency_test">Preskus v sili</string>
+    <string name="typ_Finance">Finance</string>
+    <string name="typ_Folk">Ljudska glasba</string>
+    <string name="typ_Information">Informacije</string>
+    <string name="typ_Jazz">Jazz glasba</string>
+    <string name="typ_Light_classical">Lahka klasična</string>
+    <string name="typ_Leisure">Prosti čas</string>
+    <string name="typ_News">Novice</string>
+    <string name="typ_National">Narodna glasba</string>
+    <string name="typ_Other">Druga glasba</string>
+    <string name="typ_Oldies">Starodobna glasba</string>
+    <string name="typ_Phone_in">Klici</string>
+    <string name="typ_Pop">Pop glasba</string>
+    <string name="typ_Religion">Vera</string>
+    <string name="typ_Rock">Rock glasba</string>
+    <string name="typ_Science">Znanost</string>
+    <string name="typ_Serious_classical">Resna klasična</string>
+    <string name="typ_Social_affairs">Družbene zadeve</string>
+    <string name="typ_Sport">Šport</string>
+    <string name="typ_Travel">Potovanje</string>
+    <string name="typ_Varied">Raznolika</string>
+    <string name="typ_Weather">Vreme</string>
+
 </resources>

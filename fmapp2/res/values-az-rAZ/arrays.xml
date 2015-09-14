@@ -45,69 +45,6 @@
     <item>45 dəqiqə</item>
     <item>1 saat</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Bütün kanallar</item>
-    <item>Yetkin hit</item>
-    <item>Klassik</item>
-    <item>Klassik Rok</item>
-    <item>Kollec</item>
-    <item>Country</item>
-    <item>Təcili</item>
-    <item>Təcili test</item>
-    <item>Xarici dil</item>
-    <item>İnformasiya</item>
-    <item>Caz</item>
-    <item>Xəbərlər</item>
-    <item>Nostalji</item>
-    <item>Köhnələr</item>
-    <item>Şəxsiyyət</item>
-    <item>İctimai</item>
-    <item>Dini musiqi</item>
-    <item>Dini söhbət</item>
-    <item>Rhythm və Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>İdman</item>
-    <item>Söhbət</item>
-    <item>Top 40</item>
-    <item>Hava</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Bütün kanallar</item>
-    <item>Mədəniyyət</item>
-    <item>Hazırki hadisələr</item>
-    <item>Uşaq proqramları</item>
-    <item>Country musiqi</item>
-    <item>Sənədli</item>
-    <item>Dram</item>
-    <item>Asan dinlənən musiqi</item>
-    <item>Təhsil</item>
-    <item>Təcili</item>
-    <item>Təcili test</item>
-    <item>Maliyyə</item>
-    <item>Xalq musiqisi</item>
-    <item>İnformasiya</item>
-    <item>Jazz musiqisi</item>
-    <item>Light klassik</item>
-    <item>Leisure</item>
-    <item>Xəbərlər</item>
-    <item>Milli musiqi</item>
-    <item>Digər musiqi</item>
-    <item>Köhnə musiqi</item>
-    <item>Telefondan</item>
-    <item>Pop musiqi</item>
-    <item>Dini</item>
-    <item>Rok musiqi</item>
-    <item>Elm</item>
-    <item>Ciddi klassik</item>
-    <item>Sosial işlər</item>
-    <item>İdman</item>
-    <item>Səyahət</item>
-    <item>Müxtəlif</item>
-    <item>Hava</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Şimali Amerika</item>
     <item>Avropa</item>

@@ -97,4 +97,59 @@
   <string name="set">دیاریکردن</string>
   <string name="user_defind_band_msg">دانانی شەپۆل لە 76.0 to 108.0 MHz لەگەڵ کەمترین 1 بۆشای یەک کەناڵ</string>
   <string name="fm_search_no_results">هیچ وێستگەیەکی گونجاو نەدۆزرایەوە</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">لێدانی پێگه‌شتوو</string>
+    <string name="typ_Classical">كلاسیكی</string>
+    <string name="typ_Classic_Rock">كلاسیكی ڕۆك</string>
+    <string name="typ_College">كۆلێژ</string>
+    <string name="typ_Foreign_language">زمانی بیانی</string>
+    <string name="typ_Nostalgia">نیشتیمانی</string>
+    <string name="typ_Personality">تایبه‌تی</string>
+    <string name="typ_Public">گشتی</string>
+    <string name="typ_Religious_music">گۆرانی ئایینی</string>
+    <string name="typ_Religious_talk">وته‌ی ئایینی</string>
+    <string name="typ_Rhythm_and_Blues">ڕیتم و کێش</string>
+    <string name="typ_Soft">نه‌رم</string>
+    <string name="typ_Soft_Rock">ڕۆکێکی نه‌رم</string>
+    <string name="typ_Soft_Rhythm_and_Blues">کێش و ڕیتمێکی نه‌رم</string>
+    <string name="typ_Sports">وه‌رزشی</string>
+    <string name="typ_Talk">قسه‌کردن</string>
+    <string name="typ_Top_40">لوتکه‌ی 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">هه‌موو وێستگه‌کان</string>
+    <string name="typ_Culture">کلتوری</string>
+    <string name="typ_Current_affairs">کێشه‌ی ئێستا</string>
+    <string name="typ_Children">به‌رنامه‌ی منداڵان</string>
+    <string name="typ_Country">گۆرانی وڵات</string>
+    <string name="typ_Documentary">به‌ڵگه‌داری</string>
+    <string name="typ_Drama">شانۆگه‌ری</string>
+    <string name="typ_Easy_listening">گوێگرتن له‌ گۆرانی به‌ ئاسانی</string>
+    <string name="typ_Education">په‌روه‌رده‌</string>
+    <string name="typ_Emergency">باری له‌ناکاو</string>
+    <string name="typ_Emergency_test">تاقیکردنه‌وه‌ی باری له‌ناکاو</string>
+    <string name="typ_Finance">دارایی</string>
+    <string name="typ_Folk">گۆرانی گه‌ل</string>
+    <string name="typ_Information">زانیاری</string>
+    <string name="typ_Jazz">گۆرانی جاز</string>
+    <string name="typ_Light_classical">کلاسیکێکی سووک</string>
+    <string name="typ_Leisure">ته‌مبه‌ڵی</string>
+    <string name="typ_News">هه‌واڵه‌کان</string>
+    <string name="typ_National">گۆرانی نه‌ته‌وه‌یی</string>
+    <string name="typ_Other">گۆرانییه‌کانی تر</string>
+    <string name="typ_Oldies">کۆنترین گۆرانی</string>
+    <string name="typ_Phone_in">ئامێر چوون</string>
+    <string name="typ_Pop">گۆرانی پۆپ</string>
+    <string name="typ_Religion">ئایینی</string>
+    <string name="typ_Rock">گۆرانی ڕۆک</string>
+    <string name="typ_Science">زانستی</string>
+    <string name="typ_Serious_classical">کلاسیکی ڕاستی</string>
+    <string name="typ_Social_affairs">کێشه‌ی کۆمه‌ڵایه‌تی</string>
+    <string name="typ_Sport">وه‌رزشی</string>
+    <string name="typ_Travel">گه‌شت</string>
+    <string name="typ_Varied">هه‌مه‌جۆر</string>
+    <string name="typ_Weather">که‌ش و هه‌وا</string>
+
 </resources>

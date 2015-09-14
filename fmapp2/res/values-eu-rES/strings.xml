@@ -97,4 +97,59 @@
   <string name="set">Ezarri</string>
   <string name="user_defind_band_msg">Sartu 76.0 108.0 MHz bitarteko frekuentzia bat, gutxienez kanal bateko espazioarekin</string>
   <string name="fm_search_no_results">Ez da bateragarria den irratirik aurkitu</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Betiko arrakastak</string>
+    <string name="typ_Classical">Klasikoa</string>
+    <string name="typ_Classic_Rock">Rock klasikoa</string>
+    <string name="typ_College">Unibertsitarioa</string>
+    <string name="typ_Foreign_language">Atzerriko hizkuntza</string>
+    <string name="typ_Nostalgia">Nostalgia</string>
+    <string name="typ_Personality">Pertsona famatuak</string>
+    <string name="typ_Public">Publikoa</string>
+    <string name="typ_Religious_music">Erlijio musika</string>
+    <string name="typ_Religious_talk">Erlijio hitzaldiak</string>
+    <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
+    <string name="typ_Soft">Leuna</string>
+    <string name="typ_Soft_Rock">Rock leuna</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Rhythm and Blues leuna</string>
+    <string name="typ_Sports">Kirolak</string>
+    <string name="typ_Talk">Solasaldiak</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Irrati guztiak</string>
+    <string name="typ_Culture">Kultura</string>
+    <string name="typ_Current_affairs">Gaur egun</string>
+    <string name="typ_Children">Umeentzako</string>
+    <string name="typ_Country">Country musika</string>
+    <string name="typ_Documentary">Documentalak</string>
+    <string name="typ_Drama">Drama</string>
+    <string name="typ_Easy_listening">Erraz entzuteko musika</string>
+    <string name="typ_Education">Edukazioa</string>
+    <string name="typ_Emergency">Larrialdia</string>
+    <string name="typ_Emergency_test">Larrialdi froga</string>
+    <string name="typ_Finance">Finantzak</string>
+    <string name="typ_Folk">Folk musika</string>
+    <string name="typ_Information">Informazioa</string>
+    <string name="typ_Jazz">Jazz musika</string>
+    <string name="typ_Light_classical">Klasiko arina</string>
+    <string name="typ_Leisure">Aisia</string>
+    <string name="typ_News">Berriak</string>
+    <string name="typ_National">Musika nazionala</string>
+    <string name="typ_Other">Beste musikak</string>
+    <string name="typ_Oldies">Musika zaharra</string>
+    <string name="typ_Phone_in">Telefonotik</string>
+    <string name="typ_Pop">Pop musika</string>
+    <string name="typ_Religion">Erlijioa</string>
+    <string name="typ_Rock">Rock musika</string>
+    <string name="typ_Science">Zientzia</string>
+    <string name="typ_Serious_classical">Klasiko zorrotza</string>
+    <string name="typ_Social_affairs">Gai sozialak</string>
+    <string name="typ_Sport">Kirolak</string>
+    <string name="typ_Travel">Bidaiak</string>
+    <string name="typ_Varied">Askotarikoak</string>
+    <string name="typ_Weather">Eguraldia</string>
+
 </resources>

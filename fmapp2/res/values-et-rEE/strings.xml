@@ -97,4 +97,59 @@
   <string name="set">Määra</string>
   <string name="user_defind_band_msg">Sisestage sagedus 76.0-108.0 MHz vähemalt ühe kanali vahega</string>
   <string name="fm_search_no_results">Ei leitud ühtegi ühilduvat jaama</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Täiskasvanute hitid</string>
+    <string name="typ_Classical">Klassika</string>
+    <string name="typ_Classic_Rock">Klassikaline Rokk</string>
+    <string name="typ_College">Kolledž</string>
+    <string name="typ_Foreign_language">Võõrkeel</string>
+    <string name="typ_Nostalgia">Nostalgia</string>
+    <string name="typ_Personality">Isikupärane</string>
+    <string name="typ_Public">Avalik</string>
+    <string name="typ_Religious_music">Vaimulik muusika</string>
+    <string name="typ_Religious_talk">Religioosne arutelu</string>
+    <string name="typ_Rhythm_and_Blues">Rütm ja Bluus</string>
+    <string name="typ_Soft">Mahemuusika</string>
+    <string name="typ_Soft_Rock">Pehme Rokk</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Pehme Rütm ja Bluus</string>
+    <string name="typ_Sports">Sport</string>
+    <string name="typ_Talk">Jutt</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Kõik jaamad</string>
+    <string name="typ_Culture">Kultuur</string>
+    <string name="typ_Current_affairs">Päevakajaline</string>
+    <string name="typ_Children">Laste programmid</string>
+    <string name="typ_Country">Kantrimuusika</string>
+    <string name="typ_Documentary">Dokumentaal</string>
+    <string name="typ_Drama">Draama</string>
+    <string name="typ_Easy_listening">Rahulik muusika</string>
+    <string name="typ_Education">Haridus</string>
+    <string name="typ_Emergency">Hädaabi</string>
+    <string name="typ_Emergency_test">Hädaabi test</string>
+    <string name="typ_Finance">Rahandus</string>
+    <string name="typ_Folk">Rahvamuusika</string>
+    <string name="typ_Information">Teave</string>
+    <string name="typ_Jazz">Jazz muusika</string>
+    <string name="typ_Light_classical">Kerge klassika</string>
+    <string name="typ_Leisure">Vaba aeg</string>
+    <string name="typ_News">Uudised</string>
+    <string name="typ_National">Rahvusmuusika</string>
+    <string name="typ_Other">Muu muusika</string>
+    <string name="typ_Oldies">Vanamuusika</string>
+    <string name="typ_Phone_in">Telefon</string>
+    <string name="typ_Pop">Popmuusika</string>
+    <string name="typ_Religion">Religioon</string>
+    <string name="typ_Rock">Rockmuusika</string>
+    <string name="typ_Science">Teadus</string>
+    <string name="typ_Serious_classical">Tõsine klassikaline</string>
+    <string name="typ_Social_affairs">Sotsiaalküsimused</string>
+    <string name="typ_Sport">Sport</string>
+    <string name="typ_Travel">Reis</string>
+    <string name="typ_Varied">Mitmekesine</string>
+    <string name="typ_Weather">Ilm</string>
+
 </resources>

@@ -45,69 +45,6 @@
     <item>45 分钟之后</item>
     <item>1 小时</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>所有电台</item>
-    <item>成人金曲音乐</item>
-    <item>古典</item>
-    <item>经典摇滚</item>
-    <item>校园</item>
-    <item>乡村</item>
-    <item>紧急</item>
-    <item>紧急测试</item>
-    <item>外语频道</item>
-    <item>信息频道</item>
-    <item>爵士</item>
-    <item>新闻</item>
-    <item>怀旧</item>
-    <item>怀旧</item>
-    <item>个性</item>
-    <item>公共频道</item>
-    <item>宗教音乐</item>
-    <item>宗教谈话</item>
-    <item>节奏布鲁斯</item>
-    <item>摇滚</item>
-    <item>轻音乐</item>
-    <item>轻摇滚</item>
-    <item>轻节奏布鲁斯</item>
-    <item>体育</item>
-    <item>交流</item>
-    <item>前40</item>
-    <item>天气</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>所有电台</item>
-    <item>文化</item>
-    <item>时事</item>
-    <item>儿童节目</item>
-    <item>乡村音乐</item>
-    <item>记录</item>
-    <item>戏剧</item>
-    <item>休闲音乐</item>
-    <item>教育</item>
-    <item>紧急</item>
-    <item>紧急测试</item>
-    <item>经济</item>
-    <item>民间音乐</item>
-    <item>信息</item>
-    <item>爵士音乐</item>
-    <item>轻古典音乐</item>
-    <item>休闲</item>
-    <item>新闻</item>
-    <item>民族音乐</item>
-    <item>其他音乐</item>
-    <item>怀旧音乐</item>
-    <item>Phone In</item>
-    <item>流行音乐</item>
-    <item>宗教</item>
-    <item>摇滚音乐</item>
-    <item>科学</item>
-    <item>古典</item>
-    <item>社会事务</item>
-    <item>体育</item>
-    <item>旅行</item>
-    <item>变奏</item>
-    <item>天气</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>北美</item>
     <item>欧洲</item>

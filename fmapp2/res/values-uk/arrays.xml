@@ -45,69 +45,6 @@
     <item>45 хвилин</item>
     <item>1 година</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Всі станції</item>
-    <item>Поради для дорослих</item>
-    <item>Класична</item>
-    <item>Класичний рок</item>
-    <item>Коледж</item>
-    <item>Кантрі</item>
-    <item>Аварійний</item>
-    <item>Аварійний тест</item>
-    <item>Іноземна мова</item>
-    <item>Інформація</item>
-    <item>Джаз</item>
-    <item>Новини</item>
-    <item>Ностальгія</item>
-    <item>Старенькі</item>
-    <item>Особистість</item>
-    <item>Громадський</item>
-    <item>Релігійна музика</item>
-    <item>Релігійні теревені</item>
-    <item>Ритм і Блюз</item>
-    <item>Рок</item>
-    <item>М\'який</item>
-    <item>Легкий рок</item>
-    <item>Легкий Ритм і Блюз</item>
-    <item>Спорт</item>
-    <item>Розмови</item>
-    <item>Топ 40</item>
-    <item>Погода</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Всі станції</item>
-    <item>Культура</item>
-    <item>Поточні події</item>
-    <item>Дитячі програми</item>
-    <item>Кантрі музика</item>
-    <item>Документальний</item>
-    <item>Драма</item>
-    <item>Легка музика</item>
-    <item>Освіта</item>
-    <item>Аварійний</item>
-    <item>Аварійний тест</item>
-    <item>Фінанси</item>
-    <item>Народна музика</item>
-    <item>Інформація</item>
-    <item>Джазова музика</item>
-    <item>Легка класична</item>
-    <item>Дозвілля</item>
-    <item>Новини</item>
-    <item>Національна музика</item>
-    <item>Інша музика</item>
-    <item>Стара музика</item>
-    <item>Телефон в</item>
-    <item>Поп музика</item>
-    <item>Релігія</item>
-    <item>Рок музика</item>
-    <item>Наука</item>
-    <item>Серйозна класика</item>
-    <item>Соціальні питання</item>
-    <item>Спорт</item>
-    <item>Подорож</item>
-    <item>Різноманітний</item>
-    <item>Погода</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Північна Америка</item>
     <item>Європа</item>

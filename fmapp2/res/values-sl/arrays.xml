@@ -45,69 +45,6 @@
     <item>45 minut</item>
     <item>1 ura</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Vse postaje</item>
-    <item>Uspešnice za odrasle</item>
-    <item>Klasična</item>
-    <item>Klasični rock</item>
-    <item>Študentska</item>
-    <item>Narodno zabavna</item>
-    <item>V sili</item>
-    <item>Preskus v sili</item>
-    <item>Tuj jezik</item>
-    <item>Informacije</item>
-    <item>Jazz</item>
-    <item>Novice</item>
-    <item>Nostalgija</item>
-    <item>Starodobna</item>
-    <item>Osebnost</item>
-    <item>Javno</item>
-    <item>Verska glasba</item>
-    <item>Verski pogovor</item>
-    <item>Ritem in blues</item>
-    <item>Rock</item>
-    <item>Mehka glasba</item>
-    <item>Mehki rock</item>
-    <item>Mehki ritem in blues</item>
-    <item>Šport</item>
-    <item>Pogovor</item>
-    <item>Najboljših 40</item>
-    <item>Vreme</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Vse postaje</item>
-    <item>Kultura</item>
-    <item>Tekoče zadeve</item>
-    <item>Programi za otroke</item>
-    <item>Narodno zabavna glasba</item>
-    <item>Dokumentarec</item>
-    <item>Drama</item>
-    <item>Lahka glasba</item>
-    <item>Izobraževanje</item>
-    <item>V sili</item>
-    <item>Preskus v sili</item>
-    <item>Finance</item>
-    <item>Ljudska glasba</item>
-    <item>Informacije</item>
-    <item>Jazz glasba</item>
-    <item>Lahka klasična</item>
-    <item>Prosti čas</item>
-    <item>Novice</item>
-    <item>Narodna glasba</item>
-    <item>Druga glasba</item>
-    <item>Starodobna glasba</item>
-    <item>Klici</item>
-    <item>Pop glasba</item>
-    <item>Vera</item>
-    <item>Rock glasba</item>
-    <item>Znanost</item>
-    <item>Resna klasična</item>
-    <item>Družbene zadeve</item>
-    <item>Šport</item>
-    <item>Potovanje</item>
-    <item>Raznolika</item>
-    <item>Vreme</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Severna Amerika</item>
     <item>Evropa</item>

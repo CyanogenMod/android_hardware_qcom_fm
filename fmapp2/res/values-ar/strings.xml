@@ -97,4 +97,59 @@
   <string name="set">تعيين</string>
   <string name="user_defind_band_msg">أدخل تردداً من ٧٦,٠ إلى ١٠٨,٠ ميجا هرتز بفارق قناة واحدة على الأقل</string>
   <string name="fm_search_no_results">لم يتم العثور على محطات متوافقة</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Weather">طقس</string>
+    <string name="typ_Adult_hits">مشاهدة متنوعة</string>
+    <string name="typ_Classical">كلاسيكي</string>
+    <string name="typ_Classic_Rock">كلاسيك روك</string>
+    <string name="typ_College">كلية</string>
+    <string name="typ_Foreign_language">لغة أجنبية</string>
+    <string name="typ_Nostalgia">حنين</string>
+    <string name="typ_Personality">شخصية</string>
+    <string name="typ_Public">العام</string>
+    <string name="typ_Religious_music">الموسيقى الدينية</string>
+    <string name="typ_Religious_talk">حديث الديني</string>
+    <string name="typ_Rhythm_and_Blues">إيقاع و بلوز</string>
+    <string name="typ_Soft">ناعم</string>
+    <string name="typ_Soft_Rock">صاخب ناعم</string>
+    <string name="typ_Soft_Rhythm_and_Blues">ناعم وإيقاع البلوز</string>
+    <string name="typ_Sports">رياضات</string>
+    <string name="typ_Talk">الحديث</string>
+    <string name="typ_Top_40">أعلى 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">جميع المراكز</string>
+    <string name="typ_Culture">ثقافة</string>
+    <string name="typ_Current_affairs">الشؤون الراهنة</string>
+    <string name="typ_Children">برامج الأطفال</string>
+    <string name="typ_Country">موسيقى الريف</string>
+    <string name="typ_Documentary">فيلم وثائقي</string>
+    <string name="typ_Drama">دراما</string>
+    <string name="typ_Easy_listening">الاستماع السهل لي الموسيقى</string>
+    <string name="typ_Education">التعليم</string>
+    <string name="typ_Emergency">حالات الطوارئ</string>
+    <string name="typ_Emergency_test">اختبار حالات الطوارئ</string>
+    <string name="typ_Finance">الشؤون المالية</string>
+    <string name="typ_Folk">الموسيقى الشعبية</string>
+    <string name="typ_Information">معلومات</string>
+    <string name="typ_Jazz">موسيقى الجاز</string>
+    <string name="typ_Light_classical">الخفيفة الكلاسيكية</string>
+    <string name="typ_Leisure">أوقات الفراغ</string>
+    <string name="typ_News">اخبار</string>
+    <string name="typ_National">الموسيقى الوطني</string>
+    <string name="typ_Other">موسيقى أخرى</string>
+    <string name="typ_Oldies">موسيقى الأقدم</string>
+    <string name="typ_Phone_in">الهاتف في</string>
+    <string name="typ_Pop">موسيقى البوب</string>
+    <string name="typ_Religion">دين</string>
+    <string name="typ_Rock">موسيقى الروك</string>
+    <string name="typ_Science">علوم</string>
+    <string name="typ_Serious_classical">خطيرة كلاسيكية</string>
+    <string name="typ_Social_affairs">الشؤون الاجتماعية</string>
+    <string name="typ_Sport">رياضة</string>
+    <string name="typ_Travel">السفر</string>
+    <string name="typ_Varied">تفاوتت</string>
+
 </resources>

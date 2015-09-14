@@ -45,69 +45,6 @@
     <item>45 minutter</item>
     <item>1 time</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Alle stasjoner</item>
-    <item>Voksen treff</item>
-    <item>Klassisk</item>
-    <item>Classic Rock</item>
-    <item>College</item>
-    <item>Land</item>
-    <item>Nødsituasjon</item>
-    <item>Nødtest</item>
-    <item>Fremmedspråk</item>
-    <item>Informasjon</item>
-    <item>Jazz</item>
-    <item>Nyheter</item>
-    <item>Nostalgi</item>
-    <item>Oldies</item>
-    <item>Personlighet</item>
-    <item>Offentlig</item>
-    <item>Religiøs musikk</item>
-    <item>Religiøs snakk</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sport</item>
-    <item>Snakk</item>
-    <item>Topp 40</item>
-    <item>Vær</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Alle stasjoner</item>
-    <item>Kultur</item>
-    <item>Aktuelle saker</item>
-    <item>Barneprogrammer</item>
-    <item>Countrymusikk</item>
-    <item>Dokumentar</item>
-    <item>Drama</item>
-    <item>Lett musikk</item>
-    <item>Utdanning</item>
-    <item>Nødsituasjon</item>
-    <item>Nødtest</item>
-    <item>Økonomi</item>
-    <item>Folkemusikk</item>
-    <item>Informasjon</item>
-    <item>Jazzmusikk</item>
-    <item>Lett klassisk</item>
-    <item>Fritid</item>
-    <item>Nyheter</item>
-    <item>Nasjonal musikk</item>
-    <item>Annen musikk</item>
-    <item>Slagermusikk</item>
-    <item>Telefon inn</item>
-    <item>Popmusikk</item>
-    <item>Religion</item>
-    <item>Rockemusikk</item>
-    <item>Vitenskap</item>
-    <item>Alvorlig klassisk</item>
-    <item>Sosiale spørsmål</item>
-    <item>Sport</item>
-    <item>Reise</item>
-    <item>Variert</item>
-    <item>Vær</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Nord-Amerika</item>
     <item>Europa</item>

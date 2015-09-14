@@ -45,69 +45,6 @@
     <item>45 minutu</item>
     <item>Ordu 1</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Irrati guztiak</item>
-    <item>Betiko arrakastak</item>
-    <item>Klasikoa</item>
-    <item>Rock klasikoa</item>
-    <item>Unibertsitarioa</item>
-    <item>Country</item>
-    <item>Larrialdia</item>
-    <item>Larrialdi froga</item>
-    <item>Atzerriko hizkuntza</item>
-    <item>Informazioa</item>
-    <item>Jazz</item>
-    <item>Berriak</item>
-    <item>Nostalgia</item>
-    <item>Zaharrak</item>
-    <item>Pertsona famatuak</item>
-    <item>Publikoa</item>
-    <item>Erlijio musika</item>
-    <item>Erlijio hitzaldiak</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Leuna</item>
-    <item>Rock leuna</item>
-    <item>Rhythm and Blues leuna</item>
-    <item>Kirolak</item>
-    <item>Solasaldiak</item>
-    <item>Top 40</item>
-    <item>Eguraldia</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Irrati guztiak</item>
-    <item>Kultura</item>
-    <item>Gaur egun</item>
-    <item>Umeentzako</item>
-    <item>Country musika</item>
-    <item>Documentalak</item>
-    <item>Drama</item>
-    <item>Erraz entzuteko musika</item>
-    <item>Edukazioa</item>
-    <item>Larrialdia</item>
-    <item>Larrialdi froga</item>
-    <item>Finantzak</item>
-    <item>Folk musika</item>
-    <item>Informazioa</item>
-    <item>Jazz musika</item>
-    <item>Klasiko arina</item>
-    <item>Aisia</item>
-    <item>Berriak</item>
-    <item>Musika nazionala</item>
-    <item>Beste musikak</item>
-    <item>Musika zaharra</item>
-    <item>Telefonotik</item>
-    <item>Pop musika</item>
-    <item>Erlijioa</item>
-    <item>Rock musika</item>
-    <item>Zientzia</item>
-    <item>Klasiko zorrotza</item>
-    <item>Gai sozialak</item>
-    <item>Kirolak</item>
-    <item>Bidaiak</item>
-    <item>Askotarikoak</item>
-    <item>Eguraldia</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Ipar Amerika</item>
     <item>Europa</item>

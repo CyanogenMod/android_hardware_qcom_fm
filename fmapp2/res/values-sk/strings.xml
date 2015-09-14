@@ -97,4 +97,59 @@
   <string name="set">Nastaviť</string>
   <string name="user_defind_band_msg">Zadajte frekvenciu od 76.0 do 108.0 MHz s minimálnym odstupom 1 kanálu</string>
   <string name="fm_search_no_results">Nenašli sa žiadne kompatibilné stanice</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Hity pre dospelých</string>
+    <string name="typ_Classical">Klasická hudba</string>
+    <string name="typ_Classic_Rock">Klasický Rock</string>
+    <string name="typ_College">Univerzitné</string>
+    <string name="typ_Foreign_language">Cudzí jazyk</string>
+    <string name="typ_Nostalgia">Nostalgia</string>
+    <string name="typ_Personality">Osobnosti</string>
+    <string name="typ_Public">Verejné</string>
+    <string name="typ_Religious_music">Náboženská hudba</string>
+    <string name="typ_Religious_talk">Náboženské diskusie</string>
+    <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
+    <string name="typ_Soft">Soft</string>
+    <string name="typ_Soft_Rock">Soft Rock</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Soft Rhythm and Blues</string>
+    <string name="typ_Sports">Športové</string>
+    <string name="typ_Talk">Diskusie</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Všetky stanice</string>
+    <string name="typ_Culture">Kultúra</string>
+    <string name="typ_Current_affairs">Publicistika</string>
+    <string name="typ_Children">Detské programy</string>
+    <string name="typ_Country">Country</string>
+    <string name="typ_Documentary">Dokumentárne</string>
+    <string name="typ_Drama">Dráma</string>
+    <string name="typ_Easy_listening">Jemné melódie</string>
+    <string name="typ_Education">Vzdelávacie</string>
+    <string name="typ_Emergency">Núdzové</string>
+    <string name="typ_Emergency_test">Núdzové test</string>
+    <string name="typ_Finance">Financie</string>
+    <string name="typ_Folk">Ľudová hudba</string>
+    <string name="typ_Information">Informácie</string>
+    <string name="typ_Jazz">Jazzovú hudba</string>
+    <string name="typ_Light_classical">Jemná klasika</string>
+    <string name="typ_Leisure">Voľný čas</string>
+    <string name="typ_News">Správy</string>
+    <string name="typ_National">Národná hudba</string>
+    <string name="typ_Other">Ostatné žánre</string>
+    <string name="typ_Oldies">Oldies</string>
+    <string name="typ_Phone_in">Telefonické</string>
+    <string name="typ_Pop">Populárna hudba</string>
+    <string name="typ_Religion">Náboženstvo</string>
+    <string name="typ_Rock">Rocková hudba</string>
+    <string name="typ_Science">Veda</string>
+    <string name="typ_Serious_classical">Vážna hudba</string>
+    <string name="typ_Social_affairs">Sociálne veci</string>
+    <string name="typ_Sport">Šport</string>
+    <string name="typ_Travel">Cestovanie</string>
+    <string name="typ_Varied">Rôzne</string>
+    <string name="typ_Weather">Počasie</string>
+
 </resources>

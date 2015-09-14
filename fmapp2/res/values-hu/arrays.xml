@@ -45,69 +45,6 @@
     <item>45 perc</item>
     <item>1 óra</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Minden állomás</item>
-    <item>Felnőtt találatok</item>
-    <item>Klasszikus</item>
-    <item>Klasszikus Rock</item>
-    <item>Főiskola</item>
-    <item>Country</item>
-    <item>Vészhelyzeti</item>
-    <item>Vészhelyzeti teszt</item>
-    <item>Idegen nyelvű</item>
-    <item>Információ</item>
-    <item>Jazz</item>
-    <item>Hírek</item>
-    <item>Nosztalgia</item>
-    <item>Örökzöld</item>
-    <item>Személyiség</item>
-    <item>Publikus</item>
-    <item>Vallásos zene</item>
-    <item>Vallási beszéd</item>
-    <item>Rhythm és Blues</item>
-    <item>Rock</item>
-    <item>Lágy</item>
-    <item>Lágy Rock</item>
-    <item>Lágy Rhythm és Blues</item>
-    <item>Sport események</item>
-    <item>Beszélgetés</item>
-    <item>Top 40</item>
-    <item>Időjárás</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Minden állomás</item>
-    <item>Kultúra</item>
-    <item>Aktuális ügyek</item>
-    <item>Gyerekprogramok</item>
-    <item>Country zene</item>
-    <item>Dokumentumfilm</item>
-    <item>Dráma</item>
-    <item>Könnyed zenehallgatás</item>
-    <item>Oktatás</item>
-    <item>Sürgősségi</item>
-    <item>Vészhelyzeti teszt</item>
-    <item>Pénzügy</item>
-    <item>Népzene</item>
-    <item>Információ</item>
-    <item>Jazz zene</item>
-    <item>Könnyű klasszikus</item>
-    <item>Szabadidő</item>
-    <item>Hírek</item>
-    <item>Nemzeti zene</item>
-    <item>Egyéb zene</item>
-    <item>Örökzöld slágerek</item>
-    <item>Telefonban</item>
-    <item>Popzene</item>
-    <item>Vallás</item>
-    <item>Rock zene</item>
-    <item>Tudomány</item>
-    <item>Komoly klasszikus</item>
-    <item>Szociális ügyek</item>
-    <item>Sport</item>
-    <item>Utazás</item>
-    <item>Változatos</item>
-    <item>Időjárás</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Észak-Amerika</item>
     <item>Európa</item>

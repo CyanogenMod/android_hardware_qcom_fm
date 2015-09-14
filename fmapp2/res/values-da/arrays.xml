@@ -45,69 +45,6 @@
     <item>45 minutter</item>
     <item>1 time</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Alle stationer</item>
-    <item>Hits for voksne</item>
-    <item>Klassisk</item>
-    <item>Klassisk rock</item>
-    <item>For unge</item>
-    <item>Country</item>
-    <item>Nødsituation</item>
-    <item>Test af nødsituation</item>
-    <item>Fremmedsprog</item>
-    <item>Information</item>
-    <item>Jazz</item>
-    <item>Nyheder</item>
-    <item>Nostalgi</item>
-    <item>Klassikere</item>
-    <item>Personlighed</item>
-    <item>Offentlig</item>
-    <item>Religiøs musik</item>
-    <item>Religiøs snak</item>
-    <item>R\'n\'B</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft R\'n\'B</item>
-    <item>Sport</item>
-    <item>Snak</item>
-    <item>Top 40</item>
-    <item>Vejr</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Alle stationer</item>
-    <item>Kultur</item>
-    <item>Aktuelle sager</item>
-    <item>Børneprogrammer</item>
-    <item>Countrymusik</item>
-    <item>Dokumentar</item>
-    <item>Drama</item>
-    <item>Easy listening-musik</item>
-    <item>Uddannelse</item>
-    <item>Nødsituation</item>
-    <item>Test af nødsituation</item>
-    <item>Finans</item>
-    <item>Folkemusik</item>
-    <item>Information</item>
-    <item>Jazz-musik</item>
-    <item>Let klassisk</item>
-    <item>Fritid</item>
-    <item>Nyheder</item>
-    <item>Nationalmusik</item>
-    <item>Anden musik</item>
-    <item>Gammel musik</item>
-    <item>Ring ind</item>
-    <item>Popmusik</item>
-    <item>Religion</item>
-    <item>Rockmusik</item>
-    <item>Videnskab</item>
-    <item>Seriøs klassisk</item>
-    <item>Sociale anliggender</item>
-    <item>Sport</item>
-    <item>Rejser</item>
-    <item>Blandet</item>
-    <item>Vejr</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Nordamerika</item>
     <item>Europa</item>
