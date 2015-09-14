@@ -97,4 +97,59 @@
   <string name="set">Aseta</string>
   <string name="user_defind_band_msg">Anna taajuus 76.0 - 108.0 MHz vähintään yhdellä kanavavälillä</string>
   <string name="fm_search_no_results">Yhteensopivia asemia ei löytynyt</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Vanhemmat hitit</string>
+    <string name="typ_Classical">Klassinen</string>
+    <string name="typ_Classic_Rock">Klassinen Rock</string>
+    <string name="typ_College">College</string>
+    <string name="typ_Foreign_language">Vieras kieli</string>
+    <string name="typ_Nostalgia">Nostalgia</string>
+    <string name="typ_Personality">Persoonallinen</string>
+    <string name="typ_Public">Julkinen</string>
+    <string name="typ_Religious_music">Uskonnollinen musiikki</string>
+    <string name="typ_Religious_talk">Uskonnollinen puhe</string>
+    <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
+    <string name="typ_Soft">Pehmeä</string>
+    <string name="typ_Soft_Rock">Pehmeä rock</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Pehmeä Rhythm and Blues</string>
+    <string name="typ_Sports">Urheilu</string>
+    <string name="typ_Talk">Puhe</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Kaikki asemat</string>
+    <string name="typ_Culture">Kulttuuri</string>
+    <string name="typ_Current_affairs">Ajankohtainen</string>
+    <string name="typ_Children">Lastenohjelmat</string>
+    <string name="typ_Country">Kantri</string>
+    <string name="typ_Documentary">Dokumentti</string>
+    <string name="typ_Drama">Draama</string>
+    <string name="typ_Easy_listening">Kevyt musiikki</string>
+    <string name="typ_Education">Opetus</string>
+    <string name="typ_Emergency">Hätätila</string>
+    <string name="typ_Emergency_test">Hätätesti</string>
+    <string name="typ_Finance">Talous</string>
+    <string name="typ_Folk">Folk-musiikki</string>
+    <string name="typ_Information">Informaatio</string>
+    <string name="typ_Jazz">Jazz-musiikki</string>
+    <string name="typ_Light_classical">Kevyt klassinen</string>
+    <string name="typ_Leisure">Vapaa-aika</string>
+    <string name="typ_News">Uutiset</string>
+    <string name="typ_National">Kansallismusiikki</string>
+    <string name="typ_Other">Muu musiikki</string>
+    <string name="typ_Oldies">Ikivihreät</string>
+    <string name="typ_Phone_in">Puhelin</string>
+    <string name="typ_Pop">Pop-musiikki</string>
+    <string name="typ_Religion">Uskonto</string>
+    <string name="typ_Rock">Rock-musiikki</string>
+    <string name="typ_Science">Tiede</string>
+    <string name="typ_Serious_classical">Oikea klassinen</string>
+    <string name="typ_Social_affairs">Sosiaalisuus</string>
+    <string name="typ_Sport">Urheilu</string>
+    <string name="typ_Travel">Matkailu</string>
+    <string name="typ_Varied">Monipuolinen</string>
+    <string name="typ_Weather">Sää</string>
+
 </resources>

@@ -45,69 +45,6 @@
     <item>45 minutos</item>
     <item>1 hora</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Todas as emissoras</item>
-    <item>Hits adultos</item>
-    <item>Clássica</item>
-    <item>Rock clássico</item>
-    <item>Colegial</item>
-    <item>Country</item>
-    <item>Emergência</item>
-    <item>Teste de emergência</item>
-    <item>Língua estrangeira</item>
-    <item>Informações</item>
-    <item>Jazz</item>
-    <item>Notícias</item>
-    <item>Nostalgia</item>
-    <item>Êxitos antigos</item>
-    <item>Personalidades</item>
-    <item>Público</item>
-    <item>Música religiosa</item>
-    <item>Conversa religiosa</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Ligeira</item>
-    <item>Rock Ligeiro</item>
-    <item>Rhythm and Blues suave</item>
-    <item>Desporto</item>
-    <item>Entrevistas</item>
-    <item>Top 40</item>
-    <item>Tempo</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Todas as emissoras</item>
-    <item>Cultura</item>
-    <item>Atualidades</item>
-    <item>Programas infantis</item>
-    <item>Música country</item>
-    <item>Documentário</item>
-    <item>Drama</item>
-    <item>Melodias</item>
-    <item>Educação</item>
-    <item>Emergência</item>
-    <item>Teste de emergência</item>
-    <item>Finanças</item>
-    <item>Música popular</item>
-    <item>Informações</item>
-    <item>Música jazz</item>
-    <item>Clássica</item>
-    <item>Lazer</item>
-    <item>Notícias</item>
-    <item>Música nacional</item>
-    <item>Outros tipo de música</item>
-    <item>Música de antigos êxitos</item>
-    <item>Por telefone</item>
-    <item>Música pop</item>
-    <item>Religiosa</item>
-    <item>Música rock</item>
-    <item>Ciência</item>
-    <item>Clássica relevante</item>
-    <item>Assuntos sociais</item>
-    <item>Desporto</item>
-    <item>Viagens</item>
-    <item>Diversificada</item>
-    <item>Tempo</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>América do Norte</item>
     <item>Europa</item>

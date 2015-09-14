@@ -73,4 +73,59 @@
   <string name="station_name_empty">සේවා ස්ථානයේ නම හිස්ය, කරුණාකර නැවත ආදානය කරන්න.</string>
   <string name="rt_plus_tags">ටැගයන්</string>
   <string name="chanl_spacing">නාලිකා පරතරය</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">වැඩිහිටි යෝග්‍ය</string>
+    <string name="typ_Classical">ශාස්ත්‍රීය</string>
+    <string name="typ_Classic_Rock">ශාස්ත්‍රීය රොක්</string>
+    <string name="typ_College">සමාජීය</string>
+    <string name="typ_Foreign_language">විදේශීය බස</string>
+    <string name="typ_Nostalgia">සාංකාව</string>
+    <string name="typ_Personality">පෞරුෂත්වය</string>
+    <string name="typ_Public">පොදු</string>
+    <string name="typ_Religious_music">ආගමික සංගීත</string>
+    <string name="typ_Religious_talk">ආගමික කතාබහ</string>
+    <string name="typ_Rhythm_and_Blues">රිද්මය සහ බ්ලූ සංගීත</string>
+    <string name="typ_Soft">මෘදු</string>
+    <string name="typ_Soft_Rock">මෘදු රොක්</string>
+    <string name="typ_Soft_Rhythm_and_Blues">මෘදු රිද්මය සහ බ්ලූ සංගීත</string>
+    <string name="typ_Sports">ක්‍රීඩා</string>
+    <string name="typ_Talk">කතාබහ</string>
+    <string name="typ_Top_40">ඉහළම 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">සියලු ස්ථාන</string>
+    <string name="typ_Culture">සංස්කෘතිය</string>
+    <string name="typ_Current_affairs">වත්මන් තොරතුරු</string>
+    <string name="typ_Children">ළමා වැඩ සටහන්</string>
+    <string name="typ_Country">දේශීය සංගීත</string>
+    <string name="typ_Documentary">වාර්තාමය</string>
+    <string name="typ_Drama">නාට්‍යය</string>
+    <string name="typ_Easy_listening">පහසුවෙන් අසන සංගීත</string>
+    <string name="typ_Education">අධ්‍යාපනය</string>
+    <string name="typ_Emergency">හදිසිය</string>
+    <string name="typ_Emergency_test">හදිසි පරීක්ෂාව</string>
+    <string name="typ_Finance">මුදල් පාලනය</string>
+    <string name="typ_Folk">ගැමි සංගීත</string>
+    <string name="typ_Information">තොරතුරු</string>
+    <string name="typ_Jazz">ජෑස් සංගීත</string>
+    <string name="typ_Light_classical">ලිහිල් ශාස්ත්‍රීය</string>
+    <string name="typ_Leisure">විවේකය</string>
+    <string name="typ_News">ප්‍රවෘත්ති</string>
+    <string name="typ_National">ජාතික සංගීත</string>
+    <string name="typ_Other">වෙනත් සංගීත</string>
+    <string name="typ_Oldies">පැරැණි සංගීත</string>
+    <string name="typ_Phone_in">දුරකථනය තුල</string>
+    <string name="typ_Pop">පොප් සංගීත</string>
+    <string name="typ_Religion">ආගමික</string>
+    <string name="typ_Rock">රොක් සංගීත</string>
+    <string name="typ_Science">විද්‍යාව</string>
+    <string name="typ_Serious_classical">ශාන්ත ශාස්ත්‍රීය</string>
+    <string name="typ_Social_affairs">සමාජීය තොරතුරු</string>
+    <string name="typ_Sport">ක්‍රීඩා</string>
+    <string name="typ_Travel">චාරිකාව</string>
+    <string name="typ_Varied">විවිධවූ</string>
+    <string name="typ_Weather">කාලගුණය</string>
+
 </resources>

@@ -45,69 +45,6 @@
     <item>45  minutoj</item>
     <item>1 horo</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Ĉiuj kanaloj</item>
-    <item>Furorkantoj</item>
-    <item>Klasika</item>
-    <item>Klasika roko</item>
-    <item>Universitato</item>
-    <item>Kontreo</item>
-    <item>Krizo</item>
-    <item>Kriza provo</item>
-    <item>Eksterlanda lingvo</item>
-    <item>Informoj</item>
-    <item>Ĵazo</item>
-    <item>Novaĵoj</item>
-    <item>Nostalgio</item>
-    <item>Malnovaĵoj</item>
-    <item>Personeco</item>
-    <item>Publika</item>
-    <item>Religia muziko</item>
-    <item>Religia parolado</item>
-    <item>Ritmenbluso</item>
-    <item>Roko</item>
-    <item>Milda</item>
-    <item>Poproko</item>
-    <item>Milda ritmenbluso</item>
-    <item>Sportoj</item>
-    <item>Parolado</item>
-    <item>40 plej bonaj</item>
-    <item>Vetero</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Ĉiuj kanaloj</item>
-    <item>Kulturo</item>
-    <item>Aktualaĵoj</item>
-    <item>Porinfanaj programoj</item>
-    <item>Kontreo</item>
-    <item>Dokumenta filmo</item>
-    <item>Dramo</item>
-    <item>Fonmuziko</item>
-    <item>Eduko</item>
-    <item>Krizo</item>
-    <item>Kriza provo</item>
-    <item>Financoj</item>
-    <item>Folko</item>
-    <item>Informoj</item>
-    <item>Ĵazo</item>
-    <item>Klasika muziko</item>
-    <item>Ripozo</item>
-    <item>Novaĵoj</item>
-    <item>Nacia muziko</item>
-    <item>Aliaj muzikoj</item>
-    <item>Malnovaj muzikoj</item>
-    <item>En la telefono</item>
-    <item>Pop-muziko</item>
-    <item>Religio</item>
-    <item>Rok-muziko</item>
-    <item>Scienco</item>
-    <item>Klasika muziko</item>
-    <item>Sociaj aferoj</item>
-    <item>Sporto</item>
-    <item>Vojaĝoj</item>
-    <item>Diversaj</item>
-    <item>Vetero</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Nordameriko</item>
     <item>Eŭropo</item>

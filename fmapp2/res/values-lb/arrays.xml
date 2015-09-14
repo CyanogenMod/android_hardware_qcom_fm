@@ -45,69 +45,6 @@
     <item>45 Minutten</item>
     <item>1 Stonn</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>All d\'Statiounen</item>
-    <item>Erwuessenen-Hits</item>
-    <item>Klassesch</item>
-    <item>Klassesche Rock</item>
-    <item>Héichschoul</item>
-    <item>Country</item>
-    <item>Noutfall</item>
-    <item>Noutfall-Test</item>
-    <item>Friemsprooch</item>
-    <item>Informatioun</item>
-    <item>Jazz</item>
-    <item>Neiegkeeten</item>
-    <item>Nostalgie</item>
-    <item>Oldien</item>
-    <item>Personalitéiten</item>
-    <item>Ëffentlechkeet</item>
-    <item>Reliéis Musek</item>
-    <item>Reliéis Talkshowen</item>
-    <item>Rhythm &amp; Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm &amp; Blues</item>
-    <item>Sport</item>
-    <item>Talkshowen</item>
-    <item>Top 40</item>
-    <item>Wieder</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>All d\'Statiounen</item>
-    <item>Kultur</item>
-    <item>Géigewaart</item>
-    <item>Kanner-Programmer</item>
-    <item>Country-Musek</item>
-    <item>Dokumentären</item>
-    <item>Drama</item>
-    <item>Entspaanungsmusek</item>
-    <item>Edukatioun</item>
-    <item>Noutfall</item>
-    <item>Noutfalltest</item>
-    <item>Finanzen</item>
-    <item>Volleksmusek</item>
-    <item>Informatiounen</item>
-    <item>Jazzmusek</item>
-    <item>Liicht Klassik</item>
-    <item>Fräizäit</item>
-    <item>Neiegkeeten</item>
-    <item>National Musek</item>
-    <item>Aner Musek</item>
-    <item>Oldie-Musek</item>
-    <item>Telefonsagang</item>
-    <item>Popmusek</item>
-    <item>Relioun</item>
-    <item>Rockmusek</item>
-    <item>Wëssenschaft</item>
-    <item>Eescht Klassik</item>
-    <item>Sozial Affairen</item>
-    <item>Sport</item>
-    <item>Reesen</item>
-    <item>Villfälteg</item>
-    <item>Wieder</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Nordamerika</item>
     <item>Europa</item>

@@ -45,69 +45,6 @@
     <item>45 minuuttia</item>
     <item>1 tunti</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Kaikki asemat</item>
-    <item>Vanhemmat hitit</item>
-    <item>Klassinen</item>
-    <item>Klassinen Rock</item>
-    <item>College</item>
-    <item>Country</item>
-    <item>Hätätila</item>
-    <item>Hätätesti</item>
-    <item>Vieras kieli</item>
-    <item>Informaatio</item>
-    <item>Jazz</item>
-    <item>Uutiset</item>
-    <item>Nostalgia</item>
-    <item>Vanhat</item>
-    <item>Persoonallinen</item>
-    <item>Julkinen</item>
-    <item>Uskonnollinen musiikki</item>
-    <item>Uskonnollinen puhe</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Pehmeä</item>
-    <item>Pehmeä rock</item>
-    <item>Pehmeä Rhythm and Blues</item>
-    <item>Urheilu</item>
-    <item>Puhe</item>
-    <item>Top 40</item>
-    <item>Sää</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Kaikki asemat</item>
-    <item>Kulttuuri</item>
-    <item>Ajankohtainen</item>
-    <item>Lastenohjelmat</item>
-    <item>Kantri</item>
-    <item>Dokumentti</item>
-    <item>Draama</item>
-    <item>Kevyt musiikki</item>
-    <item>Opetus</item>
-    <item>Hätätila</item>
-    <item>Hätätesti</item>
-    <item>Talous</item>
-    <item>Folk-musiikki</item>
-    <item>Informaatio</item>
-    <item>Jazz-musiikki</item>
-    <item>Kevyt klassinen</item>
-    <item>Vapaa-aika</item>
-    <item>Uutiset</item>
-    <item>Kansallismusiikki</item>
-    <item>Muu musiikki</item>
-    <item>Ikivihreät</item>
-    <item>Puhelin</item>
-    <item>Pop-musiikki</item>
-    <item>Uskonto</item>
-    <item>Rock-musiikki</item>
-    <item>Tiede</item>
-    <item>Oikea klassinen</item>
-    <item>Sosiaalisuus</item>
-    <item>Urheilu</item>
-    <item>Matkailu</item>
-    <item>Monipuolinen</item>
-    <item>Sää</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Pohjois-Amerikka</item>
     <item>Eurooppa</item>

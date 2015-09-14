@@ -45,69 +45,6 @@
     <item>45 دقيقة</item>
     <item>1 ساعة</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>جميع المراكز</item>
-    <item>مشاهدة متنوعة</item>
-    <item>كلاسيكي</item>
-    <item>كلاسيك روك</item>
-    <item>كلية</item>
-    <item>الدولة</item>
-    <item>حالات الطوارئ</item>
-    <item>اختبار حالات الطوارئ</item>
-    <item>لغة أجنبية</item>
-    <item>معلومات</item>
-    <item>الجاز</item>
-    <item>اخبار</item>
-    <item>حنين</item>
-    <item>قديم</item>
-    <item>شخصية</item>
-    <item>العام</item>
-    <item>الموسيقى الدينية</item>
-    <item>حديث الديني</item>
-    <item>إيقاع و بلوز</item>
-    <item>روك</item>
-    <item>ناعم</item>
-    <item>صاخب ناعم</item>
-    <item>ناعم وإيقاع البلوز</item>
-    <item>رياضات</item>
-    <item>الحديث</item>
-    <item>أعلى 40</item>
-    <item>طقس</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>جميع المراكز</item>
-    <item>ثقافة</item>
-    <item>الشؤون الراهنة</item>
-    <item>برامج الأطفال</item>
-    <item>موسيقى الريف</item>
-    <item>فيلم وثائقي</item>
-    <item>دراما</item>
-    <item>الاستماع السهل لي الموسيقى</item>
-    <item>التعليم</item>
-    <item>حالات الطوارئ</item>
-    <item>اختبار حالات الطوارئ</item>
-    <item>الشؤون المالية</item>
-    <item>الموسيقى الشعبية</item>
-    <item>معلومات</item>
-    <item>موسيقى الجاز</item>
-    <item>الخفيفة الكلاسيكية</item>
-    <item>أوقات الفراغ</item>
-    <item>اخبار</item>
-    <item>الموسيقى الوطني</item>
-    <item>موسيقى أخرى</item>
-    <item>موسيقى الأقدم</item>
-    <item>الهاتف في</item>
-    <item>موسيقى البوب</item>
-    <item>دين</item>
-    <item>موسيقى الروك</item>
-    <item>علوم</item>
-    <item>خطيرة كلاسيكية</item>
-    <item>الشؤون الاجتماعية</item>
-    <item>رياضة</item>
-    <item>السفر</item>
-    <item>تفاوتت</item>
-    <item>طقس</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>أمريكا الشّماليّة</item>
     <item>أروبا</item>

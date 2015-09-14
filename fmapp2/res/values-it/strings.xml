@@ -97,4 +97,59 @@
   <string name="set">Imposta</string>
   <string name="user_defind_band_msg">Inserire la frequenza da 76,0 a 108,0 MHz con spaziatura minima di 1 canale</string>
   <string name="fm_search_no_results">Nessuna stazione compatibile trovata</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Hits adulti</string>
+    <string name="typ_Classical">Classica</string>
+    <string name="typ_Classic_Rock">Rock classico</string>
+    <string name="typ_College">College</string>
+    <string name="typ_Foreign_language">Lingua straniera</string>
+    <string name="typ_Nostalgia">Nostalgia</string>
+    <string name="typ_Personality">Personalità</string>
+    <string name="typ_Public">Pubblica</string>
+    <string name="typ_Religious_music">Musica religiosa</string>
+    <string name="typ_Religious_talk">Discussione religiosa</string>
+    <string name="typ_Rhythm_and_Blues">Rhythm e Blues</string>
+    <string name="typ_Soft">Soft</string>
+    <string name="typ_Soft_Rock">Soft rock</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Soft Rhythm e Blues</string>
+    <string name="typ_Sports">Sport</string>
+    <string name="typ_Talk">Conversazione</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Tutte le stazioni</string>
+    <string name="typ_Culture">Cultura</string>
+    <string name="typ_Current_affairs">Attualità</string>
+    <string name="typ_Children">Programmi per bambini</string>
+    <string name="typ_Country">Musica country</string>
+    <string name="typ_Documentary">Documentari</string>
+    <string name="typ_Drama">Drammi</string>
+    <string name="typ_Easy_listening">Musica da intrattenimento</string>
+    <string name="typ_Education">Educazione</string>
+    <string name="typ_Emergency">Emergenza</string>
+    <string name="typ_Emergency_test">Test di emergenza</string>
+    <string name="typ_Finance">Finanza</string>
+    <string name="typ_Folk">Musica folk</string>
+    <string name="typ_Information">Informazione</string>
+    <string name="typ_Jazz">Musica jazz</string>
+    <string name="typ_Light_classical">Musica classica leggera</string>
+    <string name="typ_Leisure">Tempo libero</string>
+    <string name="typ_News">Notizie</string>
+    <string name="typ_National">Musica nazionale</string>
+    <string name="typ_Other">Altra musica</string>
+    <string name="typ_Oldies">Vecchie canzoni</string>
+    <string name="typ_Phone_in">Con telefonate</string>
+    <string name="typ_Pop">Musica pop</string>
+    <string name="typ_Religion">Religione</string>
+    <string name="typ_Rock">Musica rock</string>
+    <string name="typ_Science">Scienza</string>
+    <string name="typ_Serious_classical">Musica classica</string>
+    <string name="typ_Social_affairs">Questioni sociali</string>
+    <string name="typ_Sport">Sport</string>
+    <string name="typ_Travel">Viaggi</string>
+    <string name="typ_Varied">Varie</string>
+    <string name="typ_Weather">Tempo</string>
+
 </resources>

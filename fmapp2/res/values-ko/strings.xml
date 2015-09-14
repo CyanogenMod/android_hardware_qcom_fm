@@ -97,4 +97,59 @@
   <string name="set">설정</string>
   <string name="user_defind_band_msg">최소 1 채널 간격을 두고 76.0Mhz부터 108.0Mhz 사이의 주파수 입력</string>
   <string name="fm_search_no_results">호환되는 방송국 없음</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">성인 인기</string>
+    <string name="typ_Classical">클래식</string>
+    <string name="typ_Classic_Rock">클래식 락</string>
+    <string name="typ_College">대학</string>
+    <string name="typ_Foreign_language">외국어</string>
+    <string name="typ_Nostalgia">향수</string>
+    <string name="typ_Personality">성격</string>
+    <string name="typ_Public">공공</string>
+    <string name="typ_Religious_music">종교 음악</string>
+    <string name="typ_Religious_talk">종교 대화</string>
+    <string name="typ_Rhythm_and_Blues">리듬 앤 블루스</string>
+    <string name="typ_Soft">소프트</string>
+    <string name="typ_Soft_Rock">소프트 락</string>
+    <string name="typ_Soft_Rhythm_and_Blues">소프트 리듬 앤 블루스</string>
+    <string name="typ_Sports">스포츠</string>
+    <string name="typ_Talk">토크</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">모든 방송국</string>
+    <string name="typ_Culture">문화</string>
+    <string name="typ_Current_affairs">시사</string>
+    <string name="typ_Children">어린이</string>
+    <string name="typ_Country">컨트리 음악</string>
+    <string name="typ_Documentary">다큐멘터리</string>
+    <string name="typ_Drama">드라마</string>
+    <string name="typ_Easy_listening">편안한 음악</string>
+    <string name="typ_Education">교육</string>
+    <string name="typ_Emergency">긴급</string>
+    <string name="typ_Emergency_test">긴급 시험</string>
+    <string name="typ_Finance">금융</string>
+    <string name="typ_Folk">민속 음악</string>
+    <string name="typ_Information">정보</string>
+    <string name="typ_Jazz">재즈 음악</string>
+    <string name="typ_Light_classical">가벼운 클래식</string>
+    <string name="typ_Leisure">레저</string>
+    <string name="typ_News">뉴스</string>
+    <string name="typ_National">민족 음악</string>
+    <string name="typ_Other">기타 음악</string>
+    <string name="typ_Oldies">고전 음악</string>
+    <string name="typ_Phone_in">전화</string>
+    <string name="typ_Pop">팝 음악</string>
+    <string name="typ_Religion">종교</string>
+    <string name="typ_Rock">락 음악</string>
+    <string name="typ_Science">과학</string>
+    <string name="typ_Serious_classical">고전 클래식</string>
+    <string name="typ_Social_affairs">사회</string>
+    <string name="typ_Sport">스포츠</string>
+    <string name="typ_Travel">여행</string>
+    <string name="typ_Varied">여러가지</string>
+    <string name="typ_Weather">날씨</string>
+
 </resources>

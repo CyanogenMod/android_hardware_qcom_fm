@@ -45,69 +45,6 @@
     <item>45 minute</item>
     <item>1 uur</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Alle Stasies</item>
-    <item>Volwasse Treffers</item>
-    <item>Klassieke</item>
-    <item>Klassieke Rock</item>
-    <item>Kollege</item>
-    <item>Land</item>
-    <item>Nood</item>
-    <item>Nood Toets</item>
-    <item>Buitelandse Taal</item>
-    <item>Inligting</item>
-    <item>Jazz</item>
-    <item>Nuus</item>
-    <item>Nostalgie</item>
-    <item>Oues</item>
-    <item>Persoonlikheid</item>
-    <item>Publiek</item>
-    <item>Godsdienstige Musiek</item>
-    <item>Godsdienstige Besprekings</item>
-    <item>Rhythm en Blues</item>
-    <item>Rock</item>
-    <item>Sagte</item>
-    <item>Sagte Rock</item>
-    <item>Sagte Rhythm en Blues</item>
-    <item>Sport</item>
-    <item>Besprekings</item>
-    <item>Top 40</item>
-    <item>Weer</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Al die stasies</item>
-    <item>Kultuur</item>
-    <item>Huidige Sake</item>
-    <item>Kinders Programme</item>
-    <item>Country Musiek</item>
-    <item>Dokumentêre</item>
-    <item>Drama</item>
-    <item>Maklike Luister Musiek</item>
-    <item>Onderwys</item>
-    <item>Noodgeval</item>
-    <item>Noodgeval Toets</item>
-    <item>Finansies</item>
-    <item>Volksmusiek</item>
-    <item>Inligting</item>
-    <item>Jazz Musiek</item>
-    <item>Ligte klassieke</item>
-    <item>Ontspanning</item>
-    <item>Nuus</item>
-    <item>Nasionale Musiekkompetisie</item>
-    <item>Ander Musiek</item>
-    <item>Oues Musiek</item>
-    <item>Telefoon in</item>
-    <item>Pop Musiek</item>
-    <item>Geloof</item>
-    <item>Rock Musiek</item>
-    <item>Wetenskap</item>
-    <item>Ernstige Klassieke</item>
-    <item>Sosiale Sake</item>
-    <item>Sport</item>
-    <item>Reis</item>
-    <item>Gevarieerde</item>
-    <item>Weer</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Noord Amerika</item>
     <item>Europa</item>
