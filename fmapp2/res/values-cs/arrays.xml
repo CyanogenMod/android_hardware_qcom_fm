@@ -45,69 +45,6 @@
     <item>45 minut</item>
     <item>1 hodina</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Všechny stanice</item>
-    <item>Hity pro dospělé</item>
-    <item>Klasická hudba</item>
-    <item>Klasický Rock</item>
-    <item>Školní</item>
-    <item>Country</item>
-    <item>Pohotovost</item>
-    <item>Pohotovost - test</item>
-    <item>Cizí jazyk</item>
-    <item>Informace</item>
-    <item>Jazz</item>
-    <item>Zprávy</item>
-    <item>Nostalgie</item>
-    <item>Oldies</item>
-    <item>Osobnosti</item>
-    <item>Veřejné</item>
-    <item>Náboženská hudba</item>
-    <item>Náboženské mluvené slovo</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sport</item>
-    <item>Mluvené slovo</item>
-    <item>Top 40</item>
-    <item>Počasí</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Všechny stanice</item>
-    <item>Kultura</item>
-    <item>Publicistika</item>
-    <item>Program pro děti</item>
-    <item>Country</item>
-    <item>Dokumentární</item>
-    <item>Drama</item>
-    <item>Poslechová hudba</item>
-    <item>Vzdělávání</item>
-    <item>Pohotovost</item>
-    <item>Pohotovost - test</item>
-    <item>Finance</item>
-    <item>Folková hudba</item>
-    <item>Informace</item>
-    <item>Jazzová hudba</item>
-    <item>Lehká klasika</item>
-    <item>Volný čas</item>
-    <item>Zpravodajství</item>
-    <item>Národní hudba</item>
-    <item>Ostatní hudba</item>
-    <item>Oldies hudba</item>
-    <item>Stažené</item>
-    <item>Pop-music</item>
-    <item>Náboženství</item>
-    <item>Rocková hudba</item>
-    <item>Věda</item>
-    <item>Seriózní klasické</item>
-    <item>Sociální věci</item>
-    <item>Sport</item>
-    <item>Cestování</item>
-    <item>Různé</item>
-    <item>Počasí</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Severní Amerika</item>
     <item>Evropa</item>

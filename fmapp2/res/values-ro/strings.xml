@@ -97,4 +97,59 @@
   <string name="set">Setați</string>
   <string name="user_defind_band_msg">Introduceți o frecvență între 76.0 și 108.0 MHz, cu o spațiere de minim 1 canal</string>
   <string name="fm_search_no_results">Nu s-au găsit posturi compatibile</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Hituri Adult</string>
+    <string name="typ_Classical">Clasic</string>
+    <string name="typ_Classic_Rock">Rock Clasic</string>
+    <string name="typ_College">Colegiu</string>
+    <string name="typ_Foreign_language">Limbă străină</string>
+    <string name="typ_Nostalgia">Nostalgie</string>
+    <string name="typ_Personality">Personalitate</string>
+    <string name="typ_Public">Publice</string>
+    <string name="typ_Religious_music">Muzică religioasă</string>
+    <string name="typ_Religious_talk">Conversații religioase</string>
+    <string name="typ_Rhythm_and_Blues">Rhythm și Blues</string>
+    <string name="typ_Soft">Ușoară</string>
+    <string name="typ_Soft_Rock">Rock ușor</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Rhythm și Blues ușor</string>
+    <string name="typ_Sports">Sporturi</string>
+    <string name="typ_Talk">Convorbiri</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Toate stațiile</string>
+    <string name="typ_Culture">Cultură</string>
+    <string name="typ_Current_affairs">Actualități</string>
+    <string name="typ_Children">Programe de copii</string>
+    <string name="typ_Country">Muzică Country</string>
+    <string name="typ_Documentary">Documentar</string>
+    <string name="typ_Drama">Dramă</string>
+    <string name="typ_Easy_listening">Muzică ascultată ușor</string>
+    <string name="typ_Education">Educație</string>
+    <string name="typ_Emergency">Urgență</string>
+    <string name="typ_Emergency_test">Test urgență</string>
+    <string name="typ_Finance">Finanțe</string>
+    <string name="typ_Folk">Muzică folk</string>
+    <string name="typ_Information">Informație</string>
+    <string name="typ_Jazz">Muzică Jazz</string>
+    <string name="typ_Light_classical">Clasică ușoară</string>
+    <string name="typ_Leisure">Destindere</string>
+    <string name="typ_News">Știri</string>
+    <string name="typ_National">Muzică națională</string>
+    <string name="typ_Other">Altă muzică</string>
+    <string name="typ_Oldies">Muzică veche</string>
+    <string name="typ_Phone_in">Intrare telefon</string>
+    <string name="typ_Pop">Muzică Pop</string>
+    <string name="typ_Religion">Religie</string>
+    <string name="typ_Rock">Muzică rock</string>
+    <string name="typ_Science">Știință</string>
+    <string name="typ_Serious_classical">Clasică serioasă</string>
+    <string name="typ_Social_affairs">Afaceri sociale</string>
+    <string name="typ_Sport">Sport</string>
+    <string name="typ_Travel">Călătorie</string>
+    <string name="typ_Varied">Variate</string>
+    <string name="typ_Weather">Vremea</string>
+
 </resources>

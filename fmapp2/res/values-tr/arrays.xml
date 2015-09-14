@@ -45,69 +45,6 @@
     <item>45 dakika</item>
     <item>1 saat</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Tüm kanallar</item>
-    <item>Yetişkin hit</item>
-    <item>Klasik</item>
-    <item>Klasik Rock</item>
-    <item>Kolej</item>
-    <item>Country</item>
-    <item>Acil</item>
-    <item>Acil test</item>
-    <item>Yabancı dil</item>
-    <item>Bilgi</item>
-    <item>Jazz</item>
-    <item>Haberler</item>
-    <item>Nostalji</item>
-    <item>Eskiler</item>
-    <item>Kişilik</item>
-    <item>Halka açık</item>
-    <item>Dini müzik</item>
-    <item>Dini sohbet</item>
-    <item>Rhythm ve Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm ve Blues</item>
-    <item>Spor</item>
-    <item>Sohbet</item>
-    <item>En iyi 40</item>
-    <item>Hava durumu</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Tüm kanallar</item>
-    <item>Kültür</item>
-    <item>Güncel olaylar</item>
-    <item>Çocuk programları</item>
-    <item>Country müzik</item>
-    <item>Belgesel</item>
-    <item>Drama</item>
-    <item>Kolay dinlenen müzik</item>
-    <item>Eğitim</item>
-    <item>Acil</item>
-    <item>Acil test</item>
-    <item>Finans</item>
-    <item>Halk müziği</item>
-    <item>Bilgilendirme</item>
-    <item>Jazz müziği</item>
-    <item>Hafif klasik</item>
-    <item>Boş zaman</item>
-    <item>Haberler</item>
-    <item>Ulusal müzik</item>
-    <item>Diğer müzik</item>
-    <item>Eskilerin müziği</item>
-    <item>Telefondan</item>
-    <item>Pop müzik</item>
-    <item>Dini</item>
-    <item>Rock müzik</item>
-    <item>Bilim</item>
-    <item>Ciddi klasik</item>
-    <item>Sosyal olaylar</item>
-    <item>Spor</item>
-    <item>Seyahat</item>
-    <item>Çeşitli</item>
-    <item>Hava Durumu</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Kuzey Amerika</item>
     <item>Avrupa</item>

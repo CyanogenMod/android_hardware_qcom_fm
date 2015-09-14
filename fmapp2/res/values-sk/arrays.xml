@@ -45,69 +45,6 @@
     <item>45 minút</item>
     <item>1 hodina</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Všetky stanice</item>
-    <item>Hity pre dospelých</item>
-    <item>Klasická hudba</item>
-    <item>Klasický Rock</item>
-    <item>Univerzitné</item>
-    <item>Country</item>
-    <item>Núdzové</item>
-    <item>Núdzové test</item>
-    <item>Cudzí jazyk</item>
-    <item>Informácie</item>
-    <item>Jazz</item>
-    <item>Správy</item>
-    <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Osobnosti</item>
-    <item>Verejné</item>
-    <item>Náboženská hudba</item>
-    <item>Náboženské diskusie</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Športové</item>
-    <item>Diskusie</item>
-    <item>Top 40</item>
-    <item>Počasie</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Všetky stanice</item>
-    <item>Kultúra</item>
-    <item>Publicistika</item>
-    <item>Detské programy</item>
-    <item>Country</item>
-    <item>Dokumentárne</item>
-    <item>Dráma</item>
-    <item>Jemné melódie</item>
-    <item>Vzdelávacie</item>
-    <item>Núdzové</item>
-    <item>Núdzové test</item>
-    <item>Financie</item>
-    <item>Ľudová hudba</item>
-    <item>Informácie</item>
-    <item>Jazzovú hudba</item>
-    <item>Jemná klasika</item>
-    <item>Voľný čas</item>
-    <item>Správy</item>
-    <item>Národná hudba</item>
-    <item>Ostatné žánre</item>
-    <item>Oldies</item>
-    <item>Telefonické</item>
-    <item>Populárna hudba</item>
-    <item>Náboženstvo</item>
-    <item>Rocková hudba</item>
-    <item>Veda</item>
-    <item>Vážna hudba</item>
-    <item>Sociálne veci</item>
-    <item>Šport</item>
-    <item>Cestovanie</item>
-    <item>Rôzne</item>
-    <item>Počasie</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Severná Amerika</item>
     <item>Európa</item>

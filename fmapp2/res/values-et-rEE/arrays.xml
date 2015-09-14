@@ -45,69 +45,6 @@
     <item>45 minutit</item>
     <item>1 tund</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Kõik jaamad</item>
-    <item>Täiskasvanute hitid</item>
-    <item>Klassika</item>
-    <item>Klassikaline Rokk</item>
-    <item>Kolledž</item>
-    <item>Kantri</item>
-    <item>Hädaabi</item>
-    <item>Hädaabi test</item>
-    <item>Võõrkeel</item>
-    <item>Teave</item>
-    <item>Jazz</item>
-    <item>Uudised</item>
-    <item>Nostalgia</item>
-    <item>Vanamoodne</item>
-    <item>Isikupärane</item>
-    <item>Avalik</item>
-    <item>Vaimulik muusika</item>
-    <item>Religioosne arutelu</item>
-    <item>Rütm ja Bluus</item>
-    <item>Rokk</item>
-    <item>Mahemuusika</item>
-    <item>Pehme Rokk</item>
-    <item>Pehme Rütm ja Bluus</item>
-    <item>Sport</item>
-    <item>Jutt</item>
-    <item>Top 40</item>
-    <item>Ilm</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Kõik jaamad</item>
-    <item>Kultuur</item>
-    <item>Päevakajaline</item>
-    <item>Laste programmid</item>
-    <item>Kantrimuusika</item>
-    <item>Dokumentaal</item>
-    <item>Draama</item>
-    <item>Rahulik muusika</item>
-    <item>Haridus</item>
-    <item>Hädaabi</item>
-    <item>Hädaabi test</item>
-    <item>Rahandus</item>
-    <item>Rahvamuusika</item>
-    <item>Teave</item>
-    <item>Jazz muusika</item>
-    <item>Kerge klassika</item>
-    <item>Vaba aeg</item>
-    <item>Uudised</item>
-    <item>Rahvusmuusika</item>
-    <item>Muu muusika</item>
-    <item>Vanamuusika</item>
-    <item>Telefon</item>
-    <item>Popmuusika</item>
-    <item>Religioon</item>
-    <item>Rockmuusika</item>
-    <item>Teadus</item>
-    <item>Tõsine klassikaline</item>
-    <item>Sotsiaalküsimused</item>
-    <item>Sport</item>
-    <item>Reis</item>
-    <item>Mitmekesine</item>
-    <item>Ilm</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Põhja-Ameerika</item>
     <item>Euroopa</item>

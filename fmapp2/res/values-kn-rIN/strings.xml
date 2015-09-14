@@ -97,4 +97,59 @@
   <string name="set">ಹೊಂದಿಸಿ</string>
   <string name="user_defind_band_msg">76.0 ರಿಂದ 108.0 MHz ವರೆಗೆ ಯಾವುದೇ ಆವರ್ತನದ ಜೊತೆ ಕನಿಷ್ಠ ಚಾನೆಲ್ ಸ್ಪೇಸಿಂಗ್ 1 ಇರುವಂತೆ ಹಾಕಿ</string>
   <string name="fm_search_no_results">ಯಾವುದೇ ಹೊಂದಾಣಿಕೆಯಾಗುವ ಕೇಂದ್ರಗಳು ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">ವಯಸ್ಕರ ಹಿಟ್ಸ್</string>
+    <string name="typ_Classical">ಶಾಸ್ತ್ರೀಯ</string>
+    <string name="typ_Classic_Rock">ಕ್ಲಾಸಿಕ್ ರಾಕ್</string>
+    <string name="typ_College">ಕಾಲೇಜ್</string>
+    <string name="typ_Foreign_language">ವಿದೇಶೀ ಭಾಷೆ</string>
+    <string name="typ_Nostalgia">ವಿರಹ</string>
+    <string name="typ_Personality">ವ್ಯಕ್ತಿತ್ವ</string>
+    <string name="typ_Public">ಸಾರ್ವಜನಿಕ</string>
+    <string name="typ_Religious_music">ಧಾರ್ಮಿಕ ಸಂಗೀತ</string>
+    <string name="typ_Religious_talk">ಧಾರ್ಮಿಕ ಚರ್ಚೆ</string>
+    <string name="typ_Rhythm_and_Blues">ರಿದಮ್ ಮತ್ತು ಬ್ಲೂಸ್</string>
+    <string name="typ_Soft">ಮೃದು</string>
+    <string name="typ_Soft_Rock">ಮೃದು ರಾಕ್</string>
+    <string name="typ_Soft_Rhythm_and_Blues">ಮೃದು ರಿದಮ್ ಹಾಗು ಬ್ಲೂಸ್</string>
+    <string name="typ_Sports">ಕ್ರೀಡೆಗಳು</string>
+    <string name="typ_Talk">ಚರ್ಚೆ</string>
+    <string name="typ_Top_40">ಟಾಪ್ 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">ಎಲ್ಲಾ ಕೇಂದ್ರಗಳು</string>
+    <string name="typ_Culture">ಸಂಸ್ಕೃತಿ</string>
+    <string name="typ_Current_affairs">ಪ್ರಸಕ್ತ ವಿದ್ಯಮಾನಗಳು</string>
+    <string name="typ_Children">ಮಕ್ಕಳ ಕಾರ್ಯಕ್ರಮಗಳು</string>
+    <string name="typ_Country">ದೇಶ ಸಂಗೀತ</string>
+    <string name="typ_Documentary">ಸಾಕ್ಷ್ಯಾಚಿತ್ರ</string>
+    <string name="typ_Drama">ನಾಟಕ</string>
+    <string name="typ_Easy_listening">ಸುಲಭವಾಗಿ ಕೇಳುವ ಸಂಗೀತ</string>
+    <string name="typ_Education">ಶಿಕ್ಷಣ</string>
+    <string name="typ_Emergency">ತುರ್ತುಪರೀಸ್ಥಿತಿ</string>
+    <string name="typ_Emergency_test">ತುರ್ತುಪರೀಸ್ಥಿತಿ ಪರೀಕ್ಷೆ</string>
+    <string name="typ_Finance">ಹಣಕಾಸು</string>
+    <string name="typ_Folk">ಜಾನಪದ ಸಂಗೀತ</string>
+    <string name="typ_Information">ಮಾಹಿತಿ</string>
+    <string name="typ_Jazz">ಜಾಝ್ ಸಂಗೀತ</string>
+    <string name="typ_Light_classical">ಲಘು ಶಾಸ್ತ್ರೀಯ</string>
+    <string name="typ_Leisure">ಆರಾಮ</string>
+    <string name="typ_News">ವಾರ್ತೆ</string>
+    <string name="typ_National">ರಾಷ್ಟ್ರೀಯ ಸಂಗೀತ</string>
+    <string name="typ_Other">ಇತರೆ ಸಂಗೀತ</string>
+    <string name="typ_Oldies">ಓಲ್ಡೀಸ್ ಸಂಗೀತ</string>
+    <string name="typ_Phone_in">ಫೋನ್ ಇನ್</string>
+    <string name="typ_Pop">ಪಾಪ್ ಸಂಗೀತ</string>
+    <string name="typ_Religion">ಧಾರ್ಮಿಕ</string>
+    <string name="typ_Rock">ರಾಕ್ ಸಂಗೀತ</string>
+    <string name="typ_Science">ವಿಜ್ಞಾನ</string>
+    <string name="typ_Serious_classical">ಗಂಭೀರ ಶಾಸ್ತ್ರೀಯ</string>
+    <string name="typ_Social_affairs">ಸಮಾಜ ಕಲ್ಯಾಣ</string>
+    <string name="typ_Sport">ಕ್ರೀಡೆ</string>
+    <string name="typ_Travel">ಪ್ರವಾಸ</string>
+    <string name="typ_Varied">ವೈವಿಧ್ಯ</string>
+    <string name="typ_Weather">ಹವಾಮಾನ</string>
+
 </resources>

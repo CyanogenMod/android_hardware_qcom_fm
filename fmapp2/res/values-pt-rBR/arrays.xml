@@ -45,69 +45,6 @@
     <item>45 minutos</item>
     <item>1 Hora</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Todas as estações</item>
-    <item>Hits Adultos</item>
-    <item>Clássica</item>
-    <item>Rock Clássico</item>
-    <item>Colegial</item>
-    <item>Country</item>
-    <item>Emergência</item>
-    <item>Teste de Emergência</item>
-    <item>Língua Estrangeira</item>
-    <item>Informações</item>
-    <item>Jazz</item>
-    <item>Notícias</item>
-    <item>Nostalgia</item>
-    <item>Velhos</item>
-    <item>Personalidade</item>
-    <item>Pública</item>
-    <item>Música Religiosa</item>
-    <item>Discussão Religiosa</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Suave</item>
-    <item>Soft Rock</item>
-    <item>Rhythm and Blues Suave</item>
-    <item>Esportes</item>
-    <item>Discussão</item>
-    <item>Top 40</item>
-    <item>Tempo</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Todas as estações</item>
-    <item>Cultura</item>
-    <item>Atualidades</item>
-    <item>Programas infantis</item>
-    <item>Música country</item>
-    <item>Documentário</item>
-    <item>Drama</item>
-    <item>Música melódica</item>
-    <item>Educação</item>
-    <item>Emergência</item>
-    <item>Teste de Emergência</item>
-    <item>Finanças</item>
-    <item>Música folclórica</item>
-    <item>Informação</item>
-    <item>Música jazz</item>
-    <item>Clássica</item>
-    <item>Lazer</item>
-    <item>Notícias</item>
-    <item>Música nacional</item>
-    <item>Outras músicas</item>
-    <item>Música antiga</item>
-    <item>Telefone em</item>
-    <item>Música pop</item>
-    <item>Religião</item>
-    <item>Música rock</item>
-    <item>Ciência</item>
-    <item>Clássica séria</item>
-    <item>Assuntos sociais</item>
-    <item>Esporte</item>
-    <item>Viagens</item>
-    <item>Variados</item>
-    <item>Tempo</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>América do Norte</item>
     <item>Europa</item>

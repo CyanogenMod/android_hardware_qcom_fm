@@ -97,4 +97,59 @@
   <string name="set">تنظیم</string>
   <string name="user_defind_band_msg">فرکانس را بین ۷۶.۰ تا ۱۰۸.۰ مگاهرتز با حداقل فاصله ۱ کانال وارد کنید</string>
   <string name="fm_search_no_results">ایستگاه سازگاری پیدا نشد</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">مخصوص بزرگسالان</string>
+    <string name="typ_Classical">کلاسیک</string>
+    <string name="typ_Classic_Rock">راک کلاسیک</string>
+    <string name="typ_College">کالج</string>
+    <string name="typ_Foreign_language">زبان خارجی</string>
+    <string name="typ_Nostalgia">نوستالژی</string>
+    <string name="typ_Personality">شخصیت</string>
+    <string name="typ_Public">عمومی</string>
+    <string name="typ_Religious_music">موسیقی مذهبی</string>
+    <string name="typ_Religious_talk">بحث مذهبی</string>
+    <string name="typ_Rhythm_and_Blues">ریتم و بلوز</string>
+    <string name="typ_Soft">سافت</string>
+    <string name="typ_Soft_Rock">سافت راک</string>
+    <string name="typ_Soft_Rhythm_and_Blues">سافت ریتم و بلوز</string>
+    <string name="typ_Sports">ورزشی</string>
+    <string name="typ_Talk">بحث</string>
+    <string name="typ_Top_40">۴۰ تای برتر</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">تمام ایستگاه‌ها</string>
+    <string name="typ_Culture">فرهنگ</string>
+    <string name="typ_Current_affairs">امور جاری</string>
+    <string name="typ_Children">برنامه‌های کودکان</string>
+    <string name="typ_Country">موسیقی کانتری</string>
+    <string name="typ_Documentary">مستند</string>
+    <string name="typ_Drama">درام</string>
+    <string name="typ_Easy_listening">موسیقی آرام</string>
+    <string name="typ_Education">تحصیلات</string>
+    <string name="typ_Emergency">اضطراری</string>
+    <string name="typ_Emergency_test">تست اضطراری</string>
+    <string name="typ_Finance">امور مالی</string>
+    <string name="typ_Folk">موسیقی محلی</string>
+    <string name="typ_Information">اطلاعات</string>
+    <string name="typ_Jazz">موسیقی جاز</string>
+    <string name="typ_Light_classical">کلاسیک آرام</string>
+    <string name="typ_Leisure">اوقات فراغت</string>
+    <string name="typ_News">خبر</string>
+    <string name="typ_National">موسیقی ملی</string>
+    <string name="typ_Other">موسیقی‌های دیگر</string>
+    <string name="typ_Oldies">موسیقی‌های قدیمی</string>
+    <string name="typ_Phone_in">در گوشی</string>
+    <string name="typ_Pop">موسیقی پاپ</string>
+    <string name="typ_Religion">دین</string>
+    <string name="typ_Rock">موسیقی راک</string>
+    <string name="typ_Science">علم</string>
+    <string name="typ_Serious_classical">کلاسیک جدی</string>
+    <string name="typ_Social_affairs">امور اجتماعی</string>
+    <string name="typ_Sport">ورزش</string>
+    <string name="typ_Travel">سفر</string>
+    <string name="typ_Varied">متنوع</string>
+    <string name="typ_Weather">آب و هوا</string>
+
 </resources>
