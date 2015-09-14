@@ -97,4 +97,59 @@
   <string name="set">Stel</string>
   <string name="user_defind_band_msg">Tik frekwensie van 76.0 tot 108.0 MHz met \'n minimum 1 kanaal spasiëring</string>
   <string name="fm_search_no_results">Geen versoenbare stasies was gevind</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Weather">Weer</string>
+    <string name="typ_Adult_hits">Volwasse Treffers</string>
+    <string name="typ_Classical">Klassieke</string>
+    <string name="typ_Classic_Rock">Klassieke Rock</string>
+    <string name="typ_College">Kollege</string>
+    <string name="typ_Foreign_language">Buitelandse Taal</string>
+    <string name="typ_Nostalgia">Nostalgie</string>
+    <string name="typ_Personality">Persoonlikheid</string>
+    <string name="typ_Public">Publiek</string>
+    <string name="typ_Religious_music">Godsdienstige Musiek</string>
+    <string name="typ_Religious_talk">Godsdienstige Besprekings</string>
+    <string name="typ_Rhythm_and_Blues">Rhythm en Blues</string>
+    <string name="typ_Soft">Sagte</string>
+    <string name="typ_Soft_Rock">Sagte Rock</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Sagte Rhythm en Blues</string>
+    <string name="typ_Sports">Sport</string>
+    <string name="typ_Talk">Besprekings</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Al die stasies</string>
+    <string name="typ_Culture">Kultuur</string>
+    <string name="typ_Current_affairs">Huidige Sake</string>
+    <string name="typ_Children">Kinders Programme</string>
+    <string name="typ_Country">Country Musiek</string>
+    <string name="typ_Documentary">Dokumentêre</string>
+    <string name="typ_Drama">Drama</string>
+    <string name="typ_Easy_listening">Maklike Luister Musiek</string>
+    <string name="typ_Education">Onderwys</string>
+    <string name="typ_Emergency">Noodgeval</string>
+    <string name="typ_Emergency_test">Noodgeval Toets</string>
+    <string name="typ_Finance">Finansies</string>
+    <string name="typ_Folk">Volksmusiek</string>
+    <string name="typ_Information">Inligting</string>
+    <string name="typ_Jazz">Jazz Musiek</string>
+    <string name="typ_Light_classical">Ligte klassieke</string>
+    <string name="typ_Leisure">Ontspanning</string>
+    <string name="typ_News">Nuus</string>
+    <string name="typ_National">Nasionale Musiekkompetisie</string>
+    <string name="typ_Other">Ander Musiek</string>
+    <string name="typ_Oldies">Oues Musiek</string>
+    <string name="typ_Phone_in">Telefoon in</string>
+    <string name="typ_Pop">Pop Musiek</string>
+    <string name="typ_Religion">Geloof</string>
+    <string name="typ_Rock">Rock Musiek</string>
+    <string name="typ_Science">Wetenskap</string>
+    <string name="typ_Serious_classical">Ernstige Klassieke</string>
+    <string name="typ_Social_affairs">Sosiale Sake</string>
+    <string name="typ_Sport">Sport</string>
+    <string name="typ_Travel">Reis</string>
+    <string name="typ_Varied">Gevarieerde</string>
+
 </resources>

@@ -89,4 +89,59 @@
   <string name="chanl_spacing">Kanālu attālums</string>
   <string name="set">Iestatīt</string>
   <string name="user_defind_band_msg">Ievadiet frekvenci no 76.0 līdz 108.0 MHz ar vismaz 1 kanāla atstarpi</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Pieaugušo hiti</string>
+    <string name="typ_Classical">Klasika</string>
+    <string name="typ_Classic_Rock">Klasiskais roks</string>
+    <string name="typ_College">Koledža</string>
+    <string name="typ_Foreign_language">Svešvalodu</string>
+    <string name="typ_Nostalgia">Nostaļģija</string>
+    <string name="typ_Personality">Personības</string>
+    <string name="typ_Public">Valsts</string>
+    <string name="typ_Religious_music">Reliģiska mūzika</string>
+    <string name="typ_Religious_talk">Reliģiskas runas</string>
+    <string name="typ_Rhythm_and_Blues">Ritms un blūzs</string>
+    <string name="typ_Soft">Maiga</string>
+    <string name="typ_Soft_Rock">Soft Rock</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Maigs ritms un blūzs</string>
+    <string name="typ_Sports">Sports</string>
+    <string name="typ_Talk">Sarunas</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Visas stacijas</string>
+    <string name="typ_Culture">Kultūra</string>
+    <string name="typ_Current_affairs">Aktualitātes</string>
+    <string name="typ_Children">Bērnu programmas</string>
+    <string name="typ_Country">Kantri mūzikas</string>
+    <string name="typ_Documentary">Dokumentālā</string>
+    <string name="typ_Drama">Drāma</string>
+    <string name="typ_Easy_listening">Vieglā mūzika</string>
+    <string name="typ_Education">Izglītība</string>
+    <string name="typ_Emergency">Avārijas dienestu izsaukšanas</string>
+    <string name="typ_Emergency_test">Ārkārtas pārbaude</string>
+    <string name="typ_Finance">Finanses</string>
+    <string name="typ_Folk">Tautas mūzika</string>
+    <string name="typ_Information">Informācija</string>
+    <string name="typ_Jazz">Džeza mūzika</string>
+    <string name="typ_Light_classical">Gaismas klasiskā</string>
+    <string name="typ_Leisure">Brīvā laika pavadīšana</string>
+    <string name="typ_News">Ziņas</string>
+    <string name="typ_National">Nacionālās mūzikas</string>
+    <string name="typ_Other">Cita mūzika</string>
+    <string name="typ_Oldies">Senioru mūzika</string>
+    <string name="typ_Phone_in">Telefona</string>
+    <string name="typ_Pop">Pop mūzika</string>
+    <string name="typ_Religion">Reliģija</string>
+    <string name="typ_Rock">Rokmūzika</string>
+    <string name="typ_Science">Zinātne</string>
+    <string name="typ_Serious_classical">Nopietni klasiskā</string>
+    <string name="typ_Social_affairs">Sociālo lietu</string>
+    <string name="typ_Sport">Sports</string>
+    <string name="typ_Travel">Ceļojumu</string>
+    <string name="typ_Varied">Dažādi</string>
+    <string name="typ_Weather">Laika apstākļi</string>
+
 </resources>

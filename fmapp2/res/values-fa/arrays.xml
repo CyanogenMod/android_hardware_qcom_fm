@@ -45,69 +45,6 @@
     <item>۴۵ دقیقه</item>
     <item>۱ ساعت</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>تمام ایستگاه‌ها</item>
-    <item>مخصوص بزرگسالان</item>
-    <item>کلاسیک</item>
-    <item>راک کلاسیک</item>
-    <item>کالج</item>
-    <item>کانتری</item>
-    <item>اضطراری</item>
-    <item>تست اضطراری</item>
-    <item>زبان خارجی</item>
-    <item>اطلاعات</item>
-    <item>جاز</item>
-    <item>خبر</item>
-    <item>نوستالژی</item>
-    <item>قدیمی</item>
-    <item>شخصیت</item>
-    <item>عمومی</item>
-    <item>موسیقی مذهبی</item>
-    <item>بحث مذهبی</item>
-    <item>ریتم و بلوز</item>
-    <item>راک</item>
-    <item>سافت</item>
-    <item>سافت راک</item>
-    <item>سافت ریتم و بلوز</item>
-    <item>ورزشی</item>
-    <item>بحث</item>
-    <item>۴۰ تای برتر</item>
-    <item>آب و هوا</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>تمام ایستگاه‌ها</item>
-    <item>فرهنگ</item>
-    <item>امور جاری</item>
-    <item>برنامه‌های کودکان</item>
-    <item>موسیقی کانتری</item>
-    <item>مستند</item>
-    <item>درام</item>
-    <item>موسیقی آرام</item>
-    <item>تحصیلات</item>
-    <item>اضطراری</item>
-    <item>تست اضطراری</item>
-    <item>امور مالی</item>
-    <item>موسیقی محلی</item>
-    <item>اطلاعات</item>
-    <item>موسیقی جاز</item>
-    <item>کلاسیک آرام</item>
-    <item>اوقات فراغت</item>
-    <item>خبر</item>
-    <item>موسیقی ملی</item>
-    <item>موسیقی‌های دیگر</item>
-    <item>موسیقی‌های قدیمی</item>
-    <item>در گوشی</item>
-    <item>موسیقی پاپ</item>
-    <item>دین</item>
-    <item>موسیقی راک</item>
-    <item>علم</item>
-    <item>کلاسیک جدی</item>
-    <item>امور اجتماعی</item>
-    <item>ورزش</item>
-    <item>سفر</item>
-    <item>متنوع</item>
-    <item>آب و هوا</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>آمریکای شمالی</item>
     <item>اروپا</item>

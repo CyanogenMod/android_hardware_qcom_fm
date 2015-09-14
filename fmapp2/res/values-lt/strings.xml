@@ -97,4 +97,59 @@
   <string name="set">Nustatyti</string>
   <string name="user_defind_band_msg">Įveskite dažnį nuo 76,0 iki 108,0 MHz su mažiausiai 1 kanalo atskyrimu</string>
   <string name="fm_search_no_results">Nerasta suderinamų stočių</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Suaugusiųjų hitai</string>
+    <string name="typ_Classical">Klasikinis</string>
+    <string name="typ_Classic_Rock">Klasikinis rokas</string>
+    <string name="typ_College">Kolegijos</string>
+    <string name="typ_Foreign_language">Užsienio kalba</string>
+    <string name="typ_Nostalgia">Nostalgija</string>
+    <string name="typ_Personality">Asmenybė</string>
+    <string name="typ_Public">Viešas</string>
+    <string name="typ_Religious_music">Religinė muzika</string>
+    <string name="typ_Religious_talk">Religinis bendravimas</string>
+    <string name="typ_Rhythm_and_Blues">Ritmas ir bliuzas</string>
+    <string name="typ_Soft">Švelni</string>
+    <string name="typ_Soft_Rock">Lengvasis rokas</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Lengvi ritmai ir bliuzas</string>
+    <string name="typ_Sports">Sportas</string>
+    <string name="typ_Talk">Pokalbiai</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Visos stotys</string>
+    <string name="typ_Culture">Kultūra</string>
+    <string name="typ_Current_affairs">Aktualijos</string>
+    <string name="typ_Children">Vaikų programos</string>
+    <string name="typ_Country">Kantri muzika</string>
+    <string name="typ_Documentary">Dokumentika</string>
+    <string name="typ_Drama">Dramos</string>
+    <string name="typ_Easy_listening">Lengva muzika</string>
+    <string name="typ_Education">Švietimas</string>
+    <string name="typ_Emergency">Avarinis</string>
+    <string name="typ_Emergency_test">Avarinis testas</string>
+    <string name="typ_Finance">Finansai</string>
+    <string name="typ_Folk">Liaudies muzika</string>
+    <string name="typ_Information">Informacija</string>
+    <string name="typ_Jazz">Džiazo muzika</string>
+    <string name="typ_Light_classical">Lengva klasika</string>
+    <string name="typ_Leisure">Laisvalaikis</string>
+    <string name="typ_News">Naujienos</string>
+    <string name="typ_National">Nacionalinė muzika</string>
+    <string name="typ_Other">Kita muzika</string>
+    <string name="typ_Oldies">Senovinė muzika</string>
+    <string name="typ_Phone_in">Tiesioginis</string>
+    <string name="typ_Pop">Pop muzika</string>
+    <string name="typ_Religion">Religija</string>
+    <string name="typ_Rock">Roko muzika</string>
+    <string name="typ_Science">Mokslas</string>
+    <string name="typ_Serious_classical">Rimta klasika</string>
+    <string name="typ_Social_affairs">Socialiniai reikalai</string>
+    <string name="typ_Sport">Sportas</string>
+    <string name="typ_Travel">Kelionės</string>
+    <string name="typ_Varied">Įvairi</string>
+    <string name="typ_Weather">Orai</string>
+
 </resources>

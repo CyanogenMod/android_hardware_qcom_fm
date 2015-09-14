@@ -97,4 +97,59 @@
   <string name="set">सेट करें</string>
   <string name="user_defind_band_msg">76.0 से 108.0 MHz से कोई आवृत्ति को न्यूनतम 1 चैनल रिक्ति के साथ दर्ज करें।</string>
   <string name="fm_search_no_results">कोई संगत स्टेशन नहीं मिले</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">वयस्क हिट</string>
+    <string name="typ_Classical">शास्त्रीय</string>
+    <string name="typ_Classic_Rock">शास्त्रीय रॉक</string>
+    <string name="typ_College">कॉलेज</string>
+    <string name="typ_Foreign_language">विदेशी भाषा</string>
+    <string name="typ_Nostalgia">पुरानी यादें</string>
+    <string name="typ_Personality">व्यक्तित्व</string>
+    <string name="typ_Public">सार्वजनिक</string>
+    <string name="typ_Religious_music">भक्ति संगीत</string>
+    <string name="typ_Religious_talk">धार्मिक प्रवचन</string>
+    <string name="typ_Rhythm_and_Blues">रिथम एंड ब्लूज़</string>
+    <string name="typ_Soft">मृदु</string>
+    <string name="typ_Soft_Rock">मृदु रॉक</string>
+    <string name="typ_Soft_Rhythm_and_Blues">मृदु रिथम एंड ब्लूज़</string>
+    <string name="typ_Sports">खेल-कूद</string>
+    <string name="typ_Talk">व्याख्यान</string>
+    <string name="typ_Top_40">शीर्ष 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">सभी स्टेशन</string>
+    <string name="typ_Culture">संस्कृति</string>
+    <string name="typ_Current_affairs">समकालीन मामले</string>
+    <string name="typ_Children">बच्चों के कार्यक्रम</string>
+    <string name="typ_Country">देशी संगीत</string>
+    <string name="typ_Documentary">वृत्तचित्र</string>
+    <string name="typ_Drama">नाटक</string>
+    <string name="typ_Easy_listening">सुगम संगीत</string>
+    <string name="typ_Education">शिक्षण</string>
+    <string name="typ_Emergency">आपात स्थिति</string>
+    <string name="typ_Emergency_test">आपात स्थिति परीक्षण</string>
+    <string name="typ_Finance">वित्त</string>
+    <string name="typ_Folk">लोक संगीत</string>
+    <string name="typ_Information">सूचना</string>
+    <string name="typ_Jazz">जैस संगीत</string>
+    <string name="typ_Light_classical">हल्का शास्त्रीय</string>
+    <string name="typ_Leisure">अवकाश</string>
+    <string name="typ_News">समाचार</string>
+    <string name="typ_National">राष्ट्रीय संगीत</string>
+    <string name="typ_Other">अन्य संगीत</string>
+    <string name="typ_Oldies">बीते युग का संगीत</string>
+    <string name="typ_Phone_in">फ़ोन इन करें</string>
+    <string name="typ_Pop">पॉप संगीत</string>
+    <string name="typ_Religion">धार्मिक</string>
+    <string name="typ_Rock">रॉक संगीत</string>
+    <string name="typ_Science">विज्ञान</string>
+    <string name="typ_Serious_classical">गंभीर शास्त्रीय</string>
+    <string name="typ_Social_affairs">सामाजिक मामले</string>
+    <string name="typ_Sport">खेल-कूद</string>
+    <string name="typ_Travel">यात्रा</string>
+    <string name="typ_Varied">विविध</string>
+    <string name="typ_Weather">मौसम</string>
+
 </resources>

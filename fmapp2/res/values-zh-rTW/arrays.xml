@@ -45,69 +45,6 @@
     <item>45 分鐘</item>
     <item>1 小時</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>所有電台</item>
-    <item>成人點播</item>
-    <item>古典</item>
-    <item>經典搖滾</item>
-    <item>校園</item>
-    <item>國家</item>
-    <item>應急</item>
-    <item>應急測試</item>
-    <item>外語</item>
-    <item>資訊</item>
-    <item>爵士</item>
-    <item>新聞 </item>
-    <item>懷舊</item>
-    <item>懷舊</item>
-    <item>個性</item>
-    <item>公開</item>
-    <item>宗教音樂</item>
-    <item>宗教談話</item>
-    <item>節奏及藍調</item>
-    <item>搖滾</item>
-    <item>柔和</item>
-    <item>軟搖滾</item>
-    <item>柔和節奏及藍調</item>
-    <item>體育</item>
-    <item>談話</item>
-    <item>前 40</item>
-    <item>天氣</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>所有電台</item>
-    <item>文化</item>
-    <item>當前事務</item>
-    <item>兒童節目</item>
-    <item>鄉村音樂</item>
-    <item>紀錄片</item>
-    <item>戲劇</item>
-    <item>輕音樂</item>
-    <item>教育</item>
-    <item>緊急情況</item>
-    <item>應急測試</item>
-    <item>財經</item>
-    <item>民間音樂</item>
-    <item>資訊</item>
-    <item>爵士音樂</item>
-    <item>輕古典</item>
-    <item>休閒</item>
-    <item>新聞</item>
-    <item>民族音樂</item>
-    <item>其他音樂</item>
-    <item>懷舊音樂</item>
-    <item>Phone In</item>
-    <item>流行音樂</item>
-    <item>宗教</item>
-    <item>搖滾音樂</item>
-    <item>科學</item>
-    <item>嚴肅古典</item>
-    <item>社會事務</item>
-    <item>運動</item>
-    <item>旅遊</item>
-    <item>大千世界</item>
-    <item>天氣</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>北美</item>
     <item>歐洲</item>

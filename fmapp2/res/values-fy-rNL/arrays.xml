@@ -41,35 +41,6 @@
     <item>45 minuten</item>
     <item>1 oere</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>All stations</item>
-    <item>Adult hits</item>
-    <item>Classical</item>
-    <item>Classic Rock</item>
-    <item>College</item>
-    <item>Country</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
-    <item>Foreign language</item>
-    <item>Information</item>
-    <item>Jazz</item>
-    <item>News</item>
-    <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
-    <item>Religious music</item>
-    <item>Religious talk</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
-    <item>Talk</item>
-    <item>Top 40</item>
-    <item>Weather</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Noard-Amearika</item>
     <item>Jeropa</item>

@@ -97,4 +97,59 @@
   <string name="set">Ayarla</string>
   <string name="user_defind_band_msg">En az 1 kanal aralığı ile 76.0 ile 108.0 MHz arasında frekans girin</string>
   <string name="fm_search_no_results">Uyumlu kanal bulunmadı</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Yetişkin hit</string>
+    <string name="typ_Classical">Klasik</string>
+    <string name="typ_Classic_Rock">Klasik Rock</string>
+    <string name="typ_College">Kolej</string>
+    <string name="typ_Foreign_language">Yabancı dil</string>
+    <string name="typ_Nostalgia">Nostalji</string>
+    <string name="typ_Personality">Kişilik</string>
+    <string name="typ_Public">Halka açık</string>
+    <string name="typ_Religious_music">Dini müzik</string>
+    <string name="typ_Religious_talk">Dini sohbet</string>
+    <string name="typ_Rhythm_and_Blues">Rhythm ve Blues</string>
+    <string name="typ_Soft">Soft</string>
+    <string name="typ_Soft_Rock">Soft Rock</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Soft Rhythm ve Blues</string>
+    <string name="typ_Sports">Spor</string>
+    <string name="typ_Talk">Sohbet</string>
+    <string name="typ_Top_40">En iyi 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Tüm kanallar</string>
+    <string name="typ_Culture">Kültür</string>
+    <string name="typ_Current_affairs">Güncel olaylar</string>
+    <string name="typ_Children">Çocuk programları</string>
+    <string name="typ_Country">Country müzik</string>
+    <string name="typ_Documentary">Belgesel</string>
+    <string name="typ_Drama">Drama</string>
+    <string name="typ_Easy_listening">Kolay dinlenen müzik</string>
+    <string name="typ_Education">Eğitim</string>
+    <string name="typ_Emergency">Acil</string>
+    <string name="typ_Emergency_test">Acil test</string>
+    <string name="typ_Finance">Finans</string>
+    <string name="typ_Folk">Halk müziği</string>
+    <string name="typ_Information">Bilgilendirme</string>
+    <string name="typ_Jazz">Jazz müziği</string>
+    <string name="typ_Light_classical">Hafif klasik</string>
+    <string name="typ_Leisure">Boş zaman</string>
+    <string name="typ_News">Haberler</string>
+    <string name="typ_National">Ulusal müzik</string>
+    <string name="typ_Other">Diğer müzik</string>
+    <string name="typ_Oldies">Eskilerin müziği</string>
+    <string name="typ_Phone_in">Telefondan</string>
+    <string name="typ_Pop">Pop müzik</string>
+    <string name="typ_Religion">Dini</string>
+    <string name="typ_Rock">Rock müzik</string>
+    <string name="typ_Science">Bilim</string>
+    <string name="typ_Serious_classical">Ciddi klasik</string>
+    <string name="typ_Social_affairs">Sosyal olaylar</string>
+    <string name="typ_Sport">Spor</string>
+    <string name="typ_Travel">Seyahat</string>
+    <string name="typ_Varied">Çeşitli</string>
+    <string name="typ_Weather">Hava Durumu</string>
+
 </resources>

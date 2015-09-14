@@ -45,69 +45,6 @@
     <item>45 minūtes</item>
     <item>1 stunda</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Visas stacijas</item>
-    <item>Pieaugušo hiti</item>
-    <item>Klasika</item>
-    <item>Klasiskais roks</item>
-    <item>Koledža</item>
-    <item>Valsts</item>
-    <item>Avārijas dienesti</item>
-    <item>Ārkārtas pārbaude</item>
-    <item>Svešvalodu</item>
-    <item>Informācija</item>
-    <item>Džezs</item>
-    <item>Ziņas</item>
-    <item>Nostaļģija</item>
-    <item>Senioru</item>
-    <item>Personības</item>
-    <item>Valsts</item>
-    <item>Reliģiska mūzika</item>
-    <item>Reliģiskas runas</item>
-    <item>Ritms un blūzs</item>
-    <item>Roks</item>
-    <item>Maiga</item>
-    <item>Soft Rock</item>
-    <item>Maigs ritms un blūzs</item>
-    <item>Sports</item>
-    <item>Sarunas</item>
-    <item>Top 40</item>
-    <item>Laika apstākļi</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Visas stacijas</item>
-    <item>Kultūra</item>
-    <item>Aktualitātes</item>
-    <item>Bērnu programmas</item>
-    <item>Kantri mūzikas</item>
-    <item>Dokumentālā</item>
-    <item>Drāma</item>
-    <item>Vieglā mūzika</item>
-    <item>Izglītība</item>
-    <item>Avārijas dienestu izsaukšanas</item>
-    <item>Ārkārtas pārbaude</item>
-    <item>Finanses</item>
-    <item>Tautas mūzika</item>
-    <item>Informācija</item>
-    <item>Džeza mūzika</item>
-    <item>Gaismas klasiskā</item>
-    <item>Brīvā laika pavadīšana</item>
-    <item>Ziņas</item>
-    <item>Nacionālās mūzikas</item>
-    <item>Cita mūzika</item>
-    <item>Senioru mūzika</item>
-    <item>Telefona</item>
-    <item>Pop mūzika</item>
-    <item>Reliģija</item>
-    <item>Rokmūzika</item>
-    <item>Zinātne</item>
-    <item>Nopietni klasiskā</item>
-    <item>Sociālo lietu</item>
-    <item>Sports</item>
-    <item>Ceļojumu</item>
-    <item>Dažādi</item>
-    <item>Laika apstākļi</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Ziemeļamerika</item>
     <item>Eiropa</item>

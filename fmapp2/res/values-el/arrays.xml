@@ -45,69 +45,6 @@
     <item>45 λεπτά</item>
     <item>1 ώρα</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Όλοι οι σταθμοί</item>
-    <item>Hits ενηλίκων</item>
-    <item>Κλασική</item>
-    <item>Κλασικό ροκ</item>
-    <item>Κολλέγιο</item>
-    <item>Country</item>
-    <item>Έκτακτη ανάγκη</item>
-    <item>Δοκιμή έκτακτης ανάγκης</item>
-    <item>Ξενόγλωσσα</item>
-    <item>Πληροφορίες</item>
-    <item>Τζαζ</item>
-    <item>Ειδήσεις</item>
-    <item>Νοσταλγία</item>
-    <item>Oldies</item>
-    <item>Προσωπικότητα</item>
-    <item>Δημόσια</item>
-    <item>Θρησκευτική μουσική</item>
-    <item>Θρησκευτική ομιλία</item>
-    <item>RnB</item>
-    <item>Ροκ</item>
-    <item>Απαλή</item>
-    <item>Απαλό rock</item>
-    <item>Απαλό RnB</item>
-    <item>Αθλητισμός</item>
-    <item>Συζήτηση</item>
-    <item>Top 40</item>
-    <item>Καιρός</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Όλοι οι σταθμοί</item>
-    <item>Πολιτισμός</item>
-    <item>Επικαιρότητα</item>
-    <item>Παιδικά προγράμματα</item>
-    <item>Κάντρι</item>
-    <item>Ντοκιμαντέρ</item>
-    <item>Δράμα</item>
-    <item>Μουσική που ακούγεται εύκολα</item>
-    <item>Εκπαίδευση</item>
-    <item>Έκτακτη ανάγκη</item>
-    <item>Δοκιμή έκτακτης ανάγκης</item>
-    <item>Οικονομικά</item>
-    <item>Παραδοσιακή μουσική</item>
-    <item>Πληροφορίες</item>
-    <item>Τζαζ μουσική</item>
-    <item>Ελαφριά κλασική</item>
-    <item>Αναψυχή</item>
-    <item>Ειδήσεις</item>
-    <item>Εθνική μουσική</item>
-    <item>Άλλη μουσική</item>
-    <item>Oldies μουσική</item>
-    <item>Τηλέφωνο</item>
-    <item>Ποπ μουσική</item>
-    <item>Θρησκεία</item>
-    <item>Ροκ μουσική</item>
-    <item>Επιστήμη</item>
-    <item>Σοβαρή κλασική</item>
-    <item>Κοινωνικές υποθέσεις</item>
-    <item>Αθλητισμός</item>
-    <item>Ταξίδια</item>
-    <item>Ποικίλη</item>
-    <item>Καιρός</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Βόρεια Αμερική</item>
     <item>Ευρώπη</item>

@@ -45,69 +45,6 @@
     <item>45 minuten</item>
     <item>1 uur</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Alle zenders</item>
-    <item>Hits</item>
-    <item>Klassiek</item>
-    <item>Classic Rock</item>
-    <item>College</item>
-    <item>Country</item>
-    <item>Noodgevallen</item>
-    <item>Noodgevallen test</item>
-    <item>Vreemde talen</item>
-    <item>Informatie</item>
-    <item>Jazz</item>
-    <item>Nieuws</item>
-    <item>Nostalgisch</item>
-    <item>Oldies</item>
-    <item>Persoonlijkheid</item>
-    <item>Publiek</item>
-    <item>Religieuze muziek</item>
-    <item>Religieus gesproken</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sport</item>
-    <item>Gesproken</item>
-    <item>Top 40</item>
-    <item>Weer</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Alle zenders</item>
-    <item>Cultuur</item>
-    <item>Actualiteiten</item>
-    <item>Kinderprogramma\'s</item>
-    <item>Country muziek</item>
-    <item>Documentaires</item>
-    <item>Drama</item>
-    <item>Easy Listening</item>
-    <item>Educatie</item>
-    <item>Noodgevallen</item>
-    <item>Noodgevallen test</item>
-    <item>Financiën</item>
-    <item>Volksmuziek</item>
-    <item>Informatie</item>
-    <item>Jazz muziek</item>
-    <item>Licht klassiek</item>
-    <item>Ontspanning</item>
-    <item>Nieuws</item>
-    <item>Nationale muziek</item>
-    <item>Andere muziek</item>
-    <item>Oldies muziek</item>
-    <item>Inbellen</item>
-    <item>Popmuziek</item>
-    <item>Religie</item>
-    <item>Rock muziek</item>
-    <item>Wetenschap</item>
-    <item>Serieus klassiek</item>
-    <item>Sociale zaken</item>
-    <item>Sport</item>
-    <item>Reizen</item>
-    <item>Gevarieërd</item>
-    <item>Weer</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Noord-Amerika</item>
     <item>Europa</item>

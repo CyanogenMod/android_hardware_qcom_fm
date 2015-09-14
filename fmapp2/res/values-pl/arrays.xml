@@ -45,69 +45,6 @@
     <item>45 minut</item>
     <item>1 godzina</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Wszystkie stacje</item>
-    <item>Starsze hity</item>
-    <item>Klasyczna</item>
-    <item>Klasyczny Rock</item>
-    <item>Muzyka studencka</item>
-    <item>Country</item>
-    <item>Awaryjne</item>
-    <item>Test awaryjny</item>
-    <item>Język obcy</item>
-    <item>Informacje</item>
-    <item>Jazz</item>
-    <item>Wiadomości</item>
-    <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Osobowość</item>
-    <item>Publiczne</item>
-    <item>Muzyka religijna</item>
-    <item>Religijna rozmowa</item>
-    <item>R\u0026B</item>
-    <item>Rock</item>
-    <item>Łagodna</item>
-    <item>Soft Rock</item>
-    <item>Łagodny R\u0026B</item>
-    <item>Sport</item>
-    <item>Rozmowa</item>
-    <item>Top 40</item>
-    <item>Pogoda</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Wszystkie stacje</item>
-    <item>Kultura</item>
-    <item>Sprawy bieżące</item>
-    <item>Programy dla dzieci</item>
-    <item>Muzyka country</item>
-    <item>Dokument</item>
-    <item>Dramat</item>
-    <item>Easy listening</item>
-    <item>Edukacja</item>
-    <item>Awaryjne</item>
-    <item>Test awaryjny</item>
-    <item>Finanse</item>
-    <item>Muzyka folkowa</item>
-    <item>Informacje</item>
-    <item>Jazz</item>
-    <item>Lekka klasyka</item>
-    <item>Wypoczynek</item>
-    <item>Wiadomości</item>
-    <item>Muzyka narodowa</item>
-    <item>Inne muzyka</item>
-    <item>Starsza muzyka</item>
-    <item>Telefon w</item>
-    <item>Muzyka pop</item>
-    <item>Religia</item>
-    <item>Muzyka rockowa</item>
-    <item>Nauka</item>
-    <item>Poważna muzyka klasyczna</item>
-    <item>Sprawy społeczne</item>
-    <item>Sport</item>
-    <item>Podróź</item>
-    <item>Różne</item>
-    <item>Pogoda</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Ameryka Północna</item>
     <item>Europa</item>
