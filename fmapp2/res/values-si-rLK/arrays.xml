@@ -45,69 +45,6 @@
     <item>මිනිත්තු 45</item>
     <item>පැය 1</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>සියලු ස්ථාන</item>
-    <item>වැඩිහිටි යෝග්‍ය</item>
-    <item>ශාස්ත්‍රීය</item>
-    <item>ශාස්ත්‍රීය රොක්</item>
-    <item>සමාජීය</item>
-    <item>දේශීය</item>
-    <item>හදිසිය</item>
-    <item>හදිසි පරීක්ෂාව</item>
-    <item>විදේශීය බස</item>
-    <item>තොරතුරු</item>
-    <item>ජෑස්</item>
-    <item>ප්‍රවෘත්ති</item>
-    <item>සාංකාව</item>
-    <item>පැරැණි</item>
-    <item>පෞරුෂත්වය</item>
-    <item>පොදු</item>
-    <item>ආගමික සංගීත</item>
-    <item>ආගමික කතාබහ</item>
-    <item>රිද්මය සහ බ්ලූ සංගීත</item>
-    <item>රොක්</item>
-    <item>මෘදු</item>
-    <item>මෘදු රොක්</item>
-    <item>මෘදු රිද්මය සහ බ්ලූ සංගීත</item>
-    <item>ක්‍රීඩා</item>
-    <item>කතාබහ</item>
-    <item>ඉහළම 40</item>
-    <item>කාලගුණය</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>සියලු ස්ථාන</item>
-    <item>සංස්කෘතිය</item>
-    <item>වත්මන් තොරතුරු</item>
-    <item>ළමා වැඩ සටහන්</item>
-    <item>දේශීය සංගීත</item>
-    <item>වාර්තාමය</item>
-    <item>නාට්‍යය</item>
-    <item>පහසුවෙන් අසන සංගීත</item>
-    <item>අධ්‍යාපනය</item>
-    <item>හදිසිය</item>
-    <item>හදිසි පරීක්ෂාව</item>
-    <item>මුදල් පාලනය</item>
-    <item>ගැමි සංගීත</item>
-    <item>තොරතුරු</item>
-    <item>ජෑස් සංගීත</item>
-    <item>ලිහිල් ශාස්ත්‍රීය</item>
-    <item>විවේකය</item>
-    <item>ප්‍රවෘත්ති</item>
-    <item>ජාතික සංගීත</item>
-    <item>වෙනත් සංගීත</item>
-    <item>පැරැණි සංගීත</item>
-    <item>දුරකථනය තුල</item>
-    <item>පොප් සංගීත</item>
-    <item>ආගමික</item>
-    <item>රොක් සංගීත</item>
-    <item>විද්‍යාව</item>
-    <item>ශාන්ත ශාස්ත්‍රීය</item>
-    <item>සමාජීය තොරතුරු</item>
-    <item>ක්‍රීඩා</item>
-    <item>චාරිකාව</item>
-    <item>විවිධවූ</item>
-    <item>කාලගුණය</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>උතුරු අමෙරිකාව</item>
     <item>යුරෝපය</item>

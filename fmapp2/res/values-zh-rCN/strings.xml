@@ -97,4 +97,59 @@
   <string name="set">设置</string>
   <string name="user_defind_band_msg">输入从 760 至 108.0 兆赫频率，最低包含 1 频道间隔</string>
   <string name="fm_search_no_results">没有找到兼容的电台</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">成人金曲音乐</string>
+    <string name="typ_Classical">古典</string>
+    <string name="typ_Classic_Rock">经典摇滚</string>
+    <string name="typ_College">校园</string>
+    <string name="typ_Foreign_language">外语频道</string>
+    <string name="typ_Nostalgia">怀旧</string>
+    <string name="typ_Personality">个性</string>
+    <string name="typ_Public">公共频道</string>
+    <string name="typ_Religious_music">宗教音乐</string>
+    <string name="typ_Religious_talk">宗教谈话</string>
+    <string name="typ_Rhythm_and_Blues">节奏布鲁斯</string>
+    <string name="typ_Soft">轻音乐</string>
+    <string name="typ_Soft_Rock">轻摇滚</string>
+    <string name="typ_Soft_Rhythm_and_Blues">轻节奏布鲁斯</string>
+    <string name="typ_Sports">体育</string>
+    <string name="typ_Talk">交流</string>
+    <string name="typ_Top_40">前40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">所有电台</string>
+    <string name="typ_Culture">文化</string>
+    <string name="typ_Current_affairs">时事</string>
+    <string name="typ_Children">儿童节目</string>
+    <string name="typ_Country">乡村音乐</string>
+    <string name="typ_Documentary">记录</string>
+    <string name="typ_Drama">戏剧</string>
+    <string name="typ_Easy_listening">休闲音乐</string>
+    <string name="typ_Education">教育</string>
+    <string name="typ_Emergency">紧急</string>
+    <string name="typ_Emergency_test">紧急测试</string>
+    <string name="typ_Finance">经济</string>
+    <string name="typ_Folk">民间音乐</string>
+    <string name="typ_Information">信息</string>
+    <string name="typ_Jazz">爵士音乐</string>
+    <string name="typ_Light_classical">轻古典音乐</string>
+    <string name="typ_Leisure">休闲</string>
+    <string name="typ_News">新闻</string>
+    <string name="typ_National">民族音乐</string>
+    <string name="typ_Other">其他音乐</string>
+    <string name="typ_Oldies">怀旧音乐</string>
+    <string name="typ_Phone_in">Phone In</string>
+    <string name="typ_Pop">流行音乐</string>
+    <string name="typ_Religion">宗教</string>
+    <string name="typ_Rock">摇滚音乐</string>
+    <string name="typ_Science">科学</string>
+    <string name="typ_Serious_classical">古典</string>
+    <string name="typ_Social_affairs">社会事务</string>
+    <string name="typ_Sport">体育</string>
+    <string name="typ_Travel">旅行</string>
+    <string name="typ_Varied">变奏</string>
+    <string name="typ_Weather">天气</string>
+
 </resources>

@@ -45,69 +45,6 @@
     <item>45 خوله‌ك</item>
     <item>1 كاتژمێر</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>هه‌موو ویێستگه‌كان</item>
-    <item>لێدانی پێگه‌شتوو</item>
-    <item>كلاسیكی</item>
-    <item>كلاسیكی ڕۆك</item>
-    <item>كۆلێژ</item>
-    <item>وڵات</item>
-    <item>كتوپڕ</item>
-    <item>تاقیكردنه‌وه‌ی كتوپڕ</item>
-    <item>زمانی بیانی</item>
-    <item>زانیاری</item>
-    <item>جاز</item>
-    <item>هه‌واڵ</item>
-    <item>نیشتیمانی</item>
-    <item>کۆنه‌کان</item>
-    <item>تایبه‌تی</item>
-    <item>گشتی</item>
-    <item>گۆرانی ئایینی</item>
-    <item>وته‌ی ئایینی</item>
-    <item>ڕیتم و کێش</item>
-    <item>ڕۆک</item>
-    <item>نه‌رم</item>
-    <item>ڕۆکێکی نه‌رم</item>
-    <item>کێش و ڕیتمێکی نه‌رم</item>
-    <item>وه‌رزشی</item>
-    <item>قسه‌کردن</item>
-    <item>لوتکه‌ی 40</item>
-    <item>که‌ش و هه‌وا</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>هه‌موو وێستگه‌کان</item>
-    <item>کلتوری</item>
-    <item>کێشه‌ی ئێستا</item>
-    <item>به‌رنامه‌ی منداڵان</item>
-    <item>گۆرانی وڵات</item>
-    <item>به‌ڵگه‌داری</item>
-    <item>شانۆگه‌ری</item>
-    <item>گوێگرتن له‌ گۆرانی به‌ ئاسانی</item>
-    <item>په‌روه‌رده‌</item>
-    <item>باری له‌ناکاو</item>
-    <item>تاقیکردنه‌وه‌ی باری له‌ناکاو</item>
-    <item>دارایی</item>
-    <item>گۆرانی گه‌ل</item>
-    <item>زانیاری</item>
-    <item>گۆرانی جاز</item>
-    <item>کلاسیکێکی سووک</item>
-    <item>ته‌مبه‌ڵی</item>
-    <item>هه‌واڵه‌کان</item>
-    <item>گۆرانی نه‌ته‌وه‌یی</item>
-    <item>گۆرانییه‌کانی تر</item>
-    <item>کۆنترین گۆرانی</item>
-    <item>ئامێر چوون</item>
-    <item>گۆرانی پۆپ</item>
-    <item>ئایینی</item>
-    <item>گۆرانی ڕۆک</item>
-    <item>زانستی</item>
-    <item>کلاسیکی ڕاستی</item>
-    <item>کێشه‌ی کۆمه‌ڵایه‌تی</item>
-    <item>وه‌رزشی</item>
-    <item>گه‌شت</item>
-    <item>هه‌مه‌جۆر</item>
-    <item>که‌ش و هه‌وا</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>باکوری ئه‌مریکا</item>
     <item>ئه‌وروپا</item>

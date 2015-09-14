@@ -97,4 +97,59 @@
   <string name="set">Встановити</string>
   <string name="user_defind_band_msg">Додайте частоту від 76.0 до 108.0 МГц з мінімальним інтервалом у 1 канал</string>
   <string name="fm_search_no_results">Не знайдено сумісних станцій</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Поради для дорослих</string>
+    <string name="typ_Classical">Класична</string>
+    <string name="typ_Classic_Rock">Класичний рок</string>
+    <string name="typ_College">Коледж</string>
+    <string name="typ_Foreign_language">Іноземна мова</string>
+    <string name="typ_Nostalgia">Ностальгія</string>
+    <string name="typ_Personality">Особистість</string>
+    <string name="typ_Public">Громадський</string>
+    <string name="typ_Religious_music">Релігійна музика</string>
+    <string name="typ_Religious_talk">Релігійні теревені</string>
+    <string name="typ_Rhythm_and_Blues">Ритм і Блюз</string>
+    <string name="typ_Soft">М\'який</string>
+    <string name="typ_Soft_Rock">Легкий рок</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Легкий Ритм і Блюз</string>
+    <string name="typ_Sports">Спорт</string>
+    <string name="typ_Talk">Розмови</string>
+    <string name="typ_Top_40">Топ 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Всі станції</string>
+    <string name="typ_Culture">Культура</string>
+    <string name="typ_Current_affairs">Поточні події</string>
+    <string name="typ_Children">Дитячі програми</string>
+    <string name="typ_Country">Кантрі музика</string>
+    <string name="typ_Documentary">Документальний</string>
+    <string name="typ_Drama">Драма</string>
+    <string name="typ_Easy_listening">Легка музика</string>
+    <string name="typ_Education">Освіта</string>
+    <string name="typ_Emergency">Аварійний</string>
+    <string name="typ_Emergency_test">Аварійний тест</string>
+    <string name="typ_Finance">Фінанси</string>
+    <string name="typ_Folk">Народна музика</string>
+    <string name="typ_Information">Інформація</string>
+    <string name="typ_Jazz">Джазова музика</string>
+    <string name="typ_Light_classical">Легка класична</string>
+    <string name="typ_Leisure">Дозвілля</string>
+    <string name="typ_News">Новини</string>
+    <string name="typ_National">Національна музика</string>
+    <string name="typ_Other">Інша музика</string>
+    <string name="typ_Oldies">Стара музика</string>
+    <string name="typ_Phone_in">Телефон в</string>
+    <string name="typ_Pop">Поп музика</string>
+    <string name="typ_Religion">Релігія</string>
+    <string name="typ_Rock">Рок музика</string>
+    <string name="typ_Science">Наука</string>
+    <string name="typ_Serious_classical">Серйозна класика</string>
+    <string name="typ_Social_affairs">Соціальні питання</string>
+    <string name="typ_Sport">Спорт</string>
+    <string name="typ_Travel">Подорож</string>
+    <string name="typ_Varied">Різноманітний</string>
+    <string name="typ_Weather">Погода</string>
+
 </resources>

@@ -45,69 +45,6 @@
     <item>45 ನಿಮೀಷಗಳು</item>
     <item>1 ಗಂಟೆ</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>ಎಲ್ಲಾ ಕೇದ್ರಗಳು</item>
-    <item>ವಯಸ್ಕರ ಹಿಟ್ಸ್</item>
-    <item>ಶಾಸ್ತ್ರೀಯ</item>
-    <item>ಕ್ಲಾಸಿಕ್ ರಾಕ್</item>
-    <item>ಕಾಲೇಜ್</item>
-    <item>ರಾಷ್ಟ್ರ</item>
-    <item>ತುರ್ತುಪರೀಸ್ಥಿತಿ</item>
-    <item>ತುರ್ತುಪರೀಸ್ಥಿತಿ ಪರೀಕ್ಷೆ</item>
-    <item>ವಿದೇಶೀ ಭಾಷೆ</item>
-    <item>ಮಾಹಿತಿ</item>
-    <item>ಜಾಝ್</item>
-    <item>ವಾರ್ತೆ</item>
-    <item>ವಿರಹ</item>
-    <item>ಓಲ್ಡೀಸ್</item>
-    <item>ವ್ಯಕ್ತಿತ್ವ</item>
-    <item>ಸಾರ್ವಜನಿಕ</item>
-    <item>ಧಾರ್ಮಿಕ ಸಂಗೀತ</item>
-    <item>ಧಾರ್ಮಿಕ ಚರ್ಚೆ</item>
-    <item>ರಿದಮ್ ಮತ್ತು ಬ್ಲೂಸ್</item>
-    <item>ರಾಕ್</item>
-    <item>ಮೃದು</item>
-    <item>ಮೃದು ರಾಕ್</item>
-    <item>ಮೃದು ರಿದಮ್ ಹಾಗು ಬ್ಲೂಸ್</item>
-    <item>ಕ್ರೀಡೆಗಳು</item>
-    <item>ಚರ್ಚೆ</item>
-    <item>ಟಾಪ್ 40</item>
-    <item>ಹವಾಮಾನ</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>ಎಲ್ಲಾ ಕೇಂದ್ರಗಳು</item>
-    <item>ಸಂಸ್ಕೃತಿ</item>
-    <item>ಪ್ರಸಕ್ತ ವಿದ್ಯಮಾನಗಳು</item>
-    <item>ಮಕ್ಕಳ ಕಾರ್ಯಕ್ರಮಗಳು</item>
-    <item>ದೇಶ ಸಂಗೀತ</item>
-    <item>ಸಾಕ್ಷ್ಯಾಚಿತ್ರ</item>
-    <item>ನಾಟಕ</item>
-    <item>ಸುಲಭವಾಗಿ ಕೇಳುವ ಸಂಗೀತ</item>
-    <item>ಶಿಕ್ಷಣ</item>
-    <item>ತುರ್ತುಪರೀಸ್ಥಿತಿ</item>
-    <item>ತುರ್ತುಪರೀಸ್ಥಿತಿ ಪರೀಕ್ಷೆ</item>
-    <item>ಹಣಕಾಸು</item>
-    <item>ಜಾನಪದ ಸಂಗೀತ</item>
-    <item>ಮಾಹಿತಿ</item>
-    <item>ಜಾಝ್ ಸಂಗೀತ</item>
-    <item>ಲಘು ಶಾಸ್ತ್ರೀಯ</item>
-    <item>ಆರಾಮ</item>
-    <item>ವಾರ್ತೆ</item>
-    <item>ರಾಷ್ಟ್ರೀಯ ಸಂಗೀತ</item>
-    <item>ಇತರೆ ಸಂಗೀತ</item>
-    <item>ಓಲ್ಡೀಸ್ ಸಂಗೀತ</item>
-    <item>ಫೋನ್ ಇನ್</item>
-    <item>ಪಾಪ್ ಸಂಗೀತ</item>
-    <item>ಧಾರ್ಮಿಕ</item>
-    <item>ರಾಕ್ ಸಂಗೀತ</item>
-    <item>ವಿಜ್ಞಾನ</item>
-    <item>ಗಂಭೀರ ಶಾಸ್ತ್ರೀಯ</item>
-    <item>ಸಮಾಜ ಕಲ್ಯಾಣ</item>
-    <item>ಕ್ರೀಡೆ</item>
-    <item>ಪ್ರವಾಸ</item>
-    <item>ವೈವಿಧ್ಯ</item>
-    <item>ಹವಾಮಾನ</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>ಉತ್ತರ ಅಮೇರಿಕಾ</item>
     <item>ಯುರೋಪ್</item>

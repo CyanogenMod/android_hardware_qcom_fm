@@ -97,4 +97,59 @@
   <string name="set">Ορισμός</string>
   <string name="user_defind_band_msg">Εισαγάγετε συχνότητα από 76.0 έως 108.0 MHz με ελάχιστο 1 κανάλι απόσταση</string>
   <string name="fm_search_no_results">Δε βρέθηκαν συμβατοί σταθμοί</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Hits ενηλίκων</string>
+    <string name="typ_Classical">Κλασική</string>
+    <string name="typ_Classic_Rock">Κλασικό ροκ</string>
+    <string name="typ_College">Κολλέγιο</string>
+    <string name="typ_Foreign_language">Ξενόγλωσσα</string>
+    <string name="typ_Nostalgia">Νοσταλγία</string>
+    <string name="typ_Personality">Προσωπικότητα</string>
+    <string name="typ_Public">Δημόσια</string>
+    <string name="typ_Religious_music">Θρησκευτική μουσική</string>
+    <string name="typ_Religious_talk">Θρησκευτική ομιλία</string>
+    <string name="typ_Rhythm_and_Blues">RnB</string>
+    <string name="typ_Soft">Απαλή</string>
+    <string name="typ_Soft_Rock">Απαλό rock</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Απαλό RnB</string>
+    <string name="typ_Sports">Αθλητισμός</string>
+    <string name="typ_Talk">Συζήτηση</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Όλοι οι σταθμοί</string>
+    <string name="typ_Culture">Πολιτισμός</string>
+    <string name="typ_Current_affairs">Επικαιρότητα</string>
+    <string name="typ_Children">Παιδικά προγράμματα</string>
+    <string name="typ_Country">Κάντρι</string>
+    <string name="typ_Documentary">Ντοκιμαντέρ</string>
+    <string name="typ_Drama">Δράμα</string>
+    <string name="typ_Easy_listening">Μουσική που ακούγεται εύκολα</string>
+    <string name="typ_Education">Εκπαίδευση</string>
+    <string name="typ_Emergency">Έκτακτη ανάγκη</string>
+    <string name="typ_Emergency_test">Δοκιμή έκτακτης ανάγκης</string>
+    <string name="typ_Finance">Οικονομικά</string>
+    <string name="typ_Folk">Παραδοσιακή μουσική</string>
+    <string name="typ_Information">Πληροφορίες</string>
+    <string name="typ_Jazz">Τζαζ μουσική</string>
+    <string name="typ_Light_classical">Ελαφριά κλασική</string>
+    <string name="typ_Leisure">Αναψυχή</string>
+    <string name="typ_News">Ειδήσεις</string>
+    <string name="typ_National">Εθνική μουσική</string>
+    <string name="typ_Other">Άλλη μουσική</string>
+    <string name="typ_Oldies">Oldies μουσική</string>
+    <string name="typ_Phone_in">Τηλέφωνο</string>
+    <string name="typ_Pop">Ποπ μουσική</string>
+    <string name="typ_Religion">Θρησκεία</string>
+    <string name="typ_Rock">Ροκ μουσική</string>
+    <string name="typ_Science">Επιστήμη</string>
+    <string name="typ_Serious_classical">Σοβαρή κλασική</string>
+    <string name="typ_Social_affairs">Κοινωνικές υποθέσεις</string>
+    <string name="typ_Sport">Αθλητισμός</string>
+    <string name="typ_Travel">Ταξίδια</string>
+    <string name="typ_Varied">Ποικίλη</string>
+    <string name="typ_Weather">Καιρός</string>
+
 </resources>

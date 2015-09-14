@@ -97,4 +97,59 @@
   <string name="set">設定</string>
   <string name="user_defind_band_msg">最低1チャネルの間隔で76.0 MHzから108.0 MHzまでの周波数を入力してください</string>
   <string name="fm_search_no_results">互換性のある局が見つかりませんでした</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">アダルトヒット</string>
+    <string name="typ_Classical">クラシック</string>
+    <string name="typ_Classic_Rock">クラシックロック</string>
+    <string name="typ_College">大学</string>
+    <string name="typ_Foreign_language">外国語</string>
+    <string name="typ_Nostalgia">ノスタルジア</string>
+    <string name="typ_Personality">パーソナリティ</string>
+    <string name="typ_Public">パブリック</string>
+    <string name="typ_Religious_music">宗教音楽</string>
+    <string name="typ_Religious_talk">宗教トーク</string>
+    <string name="typ_Rhythm_and_Blues">リズムとブルース</string>
+    <string name="typ_Soft">ソフト</string>
+    <string name="typ_Soft_Rock">ソフトロック</string>
+    <string name="typ_Soft_Rhythm_and_Blues">ソフトリズムとブルース</string>
+    <string name="typ_Sports">スポーツ</string>
+    <string name="typ_Talk">トーク</string>
+    <string name="typ_Top_40">トップ40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">すべての局</string>
+    <string name="typ_Culture">文化</string>
+    <string name="typ_Current_affairs">時事問題</string>
+    <string name="typ_Children">子供向け番組</string>
+    <string name="typ_Country">カントリーミュージック</string>
+    <string name="typ_Documentary">ドキュメンタリー</string>
+    <string name="typ_Drama">ドラマ</string>
+    <string name="typ_Easy_listening">イージーリスニング音楽</string>
+    <string name="typ_Education">教育</string>
+    <string name="typ_Emergency">緊急</string>
+    <string name="typ_Emergency_test">緊急テスト</string>
+    <string name="typ_Finance">ファイナンス</string>
+    <string name="typ_Folk">フォークミュージック</string>
+    <string name="typ_Information">情報</string>
+    <string name="typ_Jazz">ジャズ音楽</string>
+    <string name="typ_Light_classical">ライトクラシック</string>
+    <string name="typ_Leisure">レジャー</string>
+    <string name="typ_News">ニュース</string>
+    <string name="typ_National">ナショナルミュージック</string>
+    <string name="typ_Other">その他の音楽</string>
+    <string name="typ_Oldies">オールディーズ音楽</string>
+    <string name="typ_Phone_in">視聴者参加番組</string>
+    <string name="typ_Pop">ポップミュージック</string>
+    <string name="typ_Religion">宗教</string>
+    <string name="typ_Rock">ロック音楽</string>
+    <string name="typ_Science">科学</string>
+    <string name="typ_Serious_classical">シリアスクラシック</string>
+    <string name="typ_Social_affairs">社会問題</string>
+    <string name="typ_Sport">スポーツ</string>
+    <string name="typ_Travel">旅行</string>
+    <string name="typ_Varied">さまざまなカテゴリ</string>
+    <string name="typ_Weather">天気</string>
+
 </resources>

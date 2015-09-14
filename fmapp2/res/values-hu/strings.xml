@@ -97,4 +97,59 @@
   <string name="set">Beállítás</string>
   <string name="user_defind_band_msg">Adjon meg egy frekvenciát 76,0 és 108.0 MHz között, minimum 1 csatornatávolsággal</string>
   <string name="fm_search_no_results">Nem található kompatibilis állomás</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Felnőtt találatok</string>
+    <string name="typ_Classical">Klasszikus</string>
+    <string name="typ_Classic_Rock">Klasszikus Rock</string>
+    <string name="typ_College">Főiskola</string>
+    <string name="typ_Foreign_language">Idegen nyelvű</string>
+    <string name="typ_Nostalgia">Nosztalgia</string>
+    <string name="typ_Personality">Személyiség</string>
+    <string name="typ_Public">Publikus</string>
+    <string name="typ_Religious_music">Vallásos zene</string>
+    <string name="typ_Religious_talk">Vallási beszéd</string>
+    <string name="typ_Rhythm_and_Blues">Rhythm és Blues</string>
+    <string name="typ_Soft">Lágy</string>
+    <string name="typ_Soft_Rock">Lágy Rock</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Lágy Rhythm és Blues</string>
+    <string name="typ_Sports">Sport események</string>
+    <string name="typ_Talk">Beszélgetés</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Minden állomás</string>
+    <string name="typ_Culture">Kultúra</string>
+    <string name="typ_Current_affairs">Aktuális ügyek</string>
+    <string name="typ_Children">Gyerekprogramok</string>
+    <string name="typ_Country">Country zene</string>
+    <string name="typ_Documentary">Dokumentumfilm</string>
+    <string name="typ_Drama">Dráma</string>
+    <string name="typ_Easy_listening">Könnyed zenehallgatás</string>
+    <string name="typ_Education">Oktatás</string>
+    <string name="typ_Emergency">Sürgősségi</string>
+    <string name="typ_Emergency_test">Vészhelyzeti teszt</string>
+    <string name="typ_Finance">Pénzügy</string>
+    <string name="typ_Folk">Népzene</string>
+    <string name="typ_Information">Információ</string>
+    <string name="typ_Jazz">Jazz zene</string>
+    <string name="typ_Light_classical">Könnyű klasszikus</string>
+    <string name="typ_Leisure">Szabadidő</string>
+    <string name="typ_News">Hírek</string>
+    <string name="typ_National">Nemzeti zene</string>
+    <string name="typ_Other">Egyéb zene</string>
+    <string name="typ_Oldies">Örökzöld slágerek</string>
+    <string name="typ_Phone_in">Telefonban</string>
+    <string name="typ_Pop">Popzene</string>
+    <string name="typ_Religion">Vallás</string>
+    <string name="typ_Rock">Rock zene</string>
+    <string name="typ_Science">Tudomány</string>
+    <string name="typ_Serious_classical">Komoly klasszikus</string>
+    <string name="typ_Social_affairs">Szociális ügyek</string>
+    <string name="typ_Sport">Sport</string>
+    <string name="typ_Travel">Utazás</string>
+    <string name="typ_Varied">Változatos</string>
+    <string name="typ_Weather">Időjárás</string>
+
 </resources>

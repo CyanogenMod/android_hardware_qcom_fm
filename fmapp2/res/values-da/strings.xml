@@ -97,4 +97,59 @@
   <string name="set">Angiv</string>
   <string name="user_defind_band_msg">Angiv frekvens fra 76,0 til 108,0 MHz med minimum 1 kanal afstand</string>
   <string name="fm_search_no_results">Ingen kompatible stationer fundet</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Weather">Vejr</string>
+    <string name="typ_Adult_hits">Hits for voksne</string>
+    <string name="typ_Classical">Klassisk</string>
+    <string name="typ_Classic_Rock">Klassisk rock</string>
+    <string name="typ_College">For unge</string>
+    <string name="typ_Foreign_language">Fremmedsprog</string>
+    <string name="typ_Nostalgia">Nostalgi</string>
+    <string name="typ_Personality">Personlighed</string>
+    <string name="typ_Public">Offentlig</string>
+    <string name="typ_Religious_music">Religiøs musik</string>
+    <string name="typ_Religious_talk">Religiøs snak</string>
+    <string name="typ_Rhythm_and_Blues">R\'n\'B</string>
+    <string name="typ_Soft">Soft</string>
+    <string name="typ_Soft_Rock">Soft Rock</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Soft R\'n\'B</string>
+    <string name="typ_Sports">Sport</string>
+    <string name="typ_Talk">Snak</string>
+    <string name="typ_Top_40">Top 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Alle stationer</string>
+    <string name="typ_Culture">Kultur</string>
+    <string name="typ_Current_affairs">Aktuelle sager</string>
+    <string name="typ_Children">Børneprogrammer</string>
+    <string name="typ_Country">Countrymusik</string>
+    <string name="typ_Documentary">Dokumentar</string>
+    <string name="typ_Drama">Drama</string>
+    <string name="typ_Easy_listening">Easy listening-musik</string>
+    <string name="typ_Education">Uddannelse</string>
+    <string name="typ_Emergency">Nødsituation</string>
+    <string name="typ_Emergency_test">Test af nødsituation</string>
+    <string name="typ_Finance">Finans</string>
+    <string name="typ_Folk">Folkemusik</string>
+    <string name="typ_Information">Information</string>
+    <string name="typ_Jazz">Jazz-musik</string>
+    <string name="typ_Light_classical">Let klassisk</string>
+    <string name="typ_Leisure">Fritid</string>
+    <string name="typ_News">Nyheder</string>
+    <string name="typ_National">Nationalmusik</string>
+    <string name="typ_Other">Anden musik</string>
+    <string name="typ_Oldies">Gammel musik</string>
+    <string name="typ_Phone_in">Ring ind</string>
+    <string name="typ_Pop">Popmusik</string>
+    <string name="typ_Religion">Religion</string>
+    <string name="typ_Rock">Rockmusik</string>
+    <string name="typ_Science">Videnskab</string>
+    <string name="typ_Serious_classical">Seriøs klassisk</string>
+    <string name="typ_Social_affairs">Sociale anliggender</string>
+    <string name="typ_Sport">Sport</string>
+    <string name="typ_Travel">Rejser</string>
+    <string name="typ_Varied">Blandet</string>
+
 </resources>

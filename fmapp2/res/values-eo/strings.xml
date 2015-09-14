@@ -97,4 +97,59 @@
   <string name="set">Difini</string>
   <string name="user_defind_band_msg">Tajpu frekvencon inter 76.0 kaj 108.0 MHz kun minimuma paŝo 1 kanalo</string>
   <string name="fm_search_no_results">Neniuj kongruaj stacioj trovitaj</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Furorkantoj</string>
+    <string name="typ_Classical">Klasika</string>
+    <string name="typ_Classic_Rock">Klasika roko</string>
+    <string name="typ_College">Universitato</string>
+    <string name="typ_Foreign_language">Eksterlanda lingvo</string>
+    <string name="typ_Nostalgia">Nostalgio</string>
+    <string name="typ_Personality">Personeco</string>
+    <string name="typ_Public">Publika</string>
+    <string name="typ_Religious_music">Religia muziko</string>
+    <string name="typ_Religious_talk">Religia parolado</string>
+    <string name="typ_Rhythm_and_Blues">Ritmenbluso</string>
+    <string name="typ_Soft">Milda</string>
+    <string name="typ_Soft_Rock">Poproko</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Milda ritmenbluso</string>
+    <string name="typ_Sports">Sportoj</string>
+    <string name="typ_Talk">Parolado</string>
+    <string name="typ_Top_40">40 plej bonaj</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Ĉiuj kanaloj</string>
+    <string name="typ_Culture">Kulturo</string>
+    <string name="typ_Current_affairs">Aktualaĵoj</string>
+    <string name="typ_Children">Porinfanaj programoj</string>
+    <string name="typ_Country">Kontreo</string>
+    <string name="typ_Documentary">Dokumenta filmo</string>
+    <string name="typ_Drama">Dramo</string>
+    <string name="typ_Easy_listening">Fonmuziko</string>
+    <string name="typ_Education">Eduko</string>
+    <string name="typ_Emergency">Krizo</string>
+    <string name="typ_Emergency_test">Kriza provo</string>
+    <string name="typ_Finance">Financoj</string>
+    <string name="typ_Folk">Folko</string>
+    <string name="typ_Information">Informoj</string>
+    <string name="typ_Jazz">Ĵazo</string>
+    <string name="typ_Light_classical">Klasika muziko</string>
+    <string name="typ_Leisure">Ripozo</string>
+    <string name="typ_News">Novaĵoj</string>
+    <string name="typ_National">Nacia muziko</string>
+    <string name="typ_Other">Aliaj muzikoj</string>
+    <string name="typ_Oldies">Malnovaj muzikoj</string>
+    <string name="typ_Phone_in">En la telefono</string>
+    <string name="typ_Pop">Pop-muziko</string>
+    <string name="typ_Religion">Religio</string>
+    <string name="typ_Rock">Rok-muziko</string>
+    <string name="typ_Science">Scienco</string>
+    <string name="typ_Serious_classical">Klasika muziko</string>
+    <string name="typ_Social_affairs">Sociaj aferoj</string>
+    <string name="typ_Sport">Sporto</string>
+    <string name="typ_Travel">Vojaĝoj</string>
+    <string name="typ_Varied">Diversaj</string>
+    <string name="typ_Weather">Vetero</string>
+
 </resources>

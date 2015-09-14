@@ -97,4 +97,59 @@
   <string name="set">Atur</string>
   <string name="user_defind_band_msg">Masukkan frekuensi dari 76.0 sampai 108.0 MHz dengan minimal 1 jarak saluran</string>
   <string name="fm_search_no_results">Tidak ada stasiun kompatibel yang ditemukan</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Hit dewasa</string>
+    <string name="typ_Classical">Klasik</string>
+    <string name="typ_Classic_Rock">Rock klasik</string>
+    <string name="typ_College">Perguruan tinggi</string>
+    <string name="typ_Foreign_language">Bahasa asing</string>
+    <string name="typ_Nostalgia">Nostalgia</string>
+    <string name="typ_Personality">Kepribadian</string>
+    <string name="typ_Public">Umum</string>
+    <string name="typ_Religious_music">Musik religi</string>
+    <string name="typ_Religious_talk">Bincang religi</string>
+    <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
+    <string name="typ_Soft">Lembut</string>
+    <string name="typ_Soft_Rock">Rock lembut</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Rhythm and Blues lembut</string>
+    <string name="typ_Sports">Olahraga</string>
+    <string name="typ_Talk">Perbincangan</string>
+    <string name="typ_Top_40">40 teratas</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Semua stasiun</string>
+    <string name="typ_Culture">Budaya</string>
+    <string name="typ_Current_affairs">Berita terkini</string>
+    <string name="typ_Children">Program anak</string>
+    <string name="typ_Country">Musik country</string>
+    <string name="typ_Documentary">Dokumenter</string>
+    <string name="typ_Drama">Drama</string>
+    <string name="typ_Easy_listening">Musik ringan</string>
+    <string name="typ_Education">Edukasi</string>
+    <string name="typ_Emergency">Darurat</string>
+    <string name="typ_Emergency_test">Tes darurat</string>
+    <string name="typ_Finance">Keuangan</string>
+    <string name="typ_Folk">Musik rakyat</string>
+    <string name="typ_Information">Informasi</string>
+    <string name="typ_Jazz">Musik jazz</string>
+    <string name="typ_Light_classical">Klasik ringan</string>
+    <string name="typ_Leisure">Rekreasi</string>
+    <string name="typ_News">Berita</string>
+    <string name="typ_National">Musik nasional</string>
+    <string name="typ_Other">Musik lainnya</string>
+    <string name="typ_Oldies">Musik oldies</string>
+    <string name="typ_Phone_in">Di telepon</string>
+    <string name="typ_Pop">Musik pop</string>
+    <string name="typ_Religion">Religi</string>
+    <string name="typ_Rock">Musik rock</string>
+    <string name="typ_Science">Ilmu pengetahuan</string>
+    <string name="typ_Serious_classical">Klasik serius</string>
+    <string name="typ_Social_affairs">Urusan sosial</string>
+    <string name="typ_Sport">Olahraga</string>
+    <string name="typ_Travel">Perjalanan</string>
+    <string name="typ_Varied">Bervariasi</string>
+    <string name="typ_Weather">Cuaca</string>
+
 </resources>
