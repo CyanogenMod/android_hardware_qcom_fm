@@ -45,69 +45,6 @@
     <item>45 นาที</item>
     <item>1 ชั่วโมง</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>ทุกสถานี</item>
-    <item>ผู้ใหญ่ชอบ</item>
-    <item>คลาสสิก</item>
-    <item>คลาสสิกร็อค</item>
-    <item>วิทยาลัย</item>
-    <item>คันทรี</item>
-    <item>ฉุกเฉิน</item>
-    <item>ทดสอบฉุกเฉิน</item>
-    <item>ภาษาต่างประเทศ</item>
-    <item>ความรู้</item>
-    <item>แจ๊ส</item>
-    <item>ข่าว</item>
-    <item>คิดถึงบ้าน</item>
-    <item>เก่า</item>
-    <item>ความเป็นตัวตน</item>
-    <item>สาธารณะ</item>
-    <item>เพลงทางศาสนา</item>
-    <item>สนทนาทางศาสนา</item>
-    <item>จังหวะและบลูส์</item>
-    <item>ร็อค</item>
-    <item>ซอฟ</item>
-    <item>ซอฟร็อค</item>
-    <item>จังหวะซอฟและบลูส์</item>
-    <item>กีฬา</item>
-    <item>สนทนา</item>
-    <item>40 อันดับ</item>
-    <item>สภาพอากาศr</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>สถานีทั้งหมด</item>
-    <item>วัฒนธรรม</item>
-    <item>เหตุการณ์ปัจจุบัน</item>
-    <item>สำหรับเด็ก</item>
-    <item>ดนตรีคันทรี่</item>
-    <item>สารคดี</item>
-    <item>ละคร</item>
-    <item>ดนตรีฟังง่าย</item>
-    <item>การศึกษา</item>
-    <item>ฉุกเฉิน</item>
-    <item>ทดสอบฉุกเฉิน</item>
-    <item>ธุรกิจ</item>
-    <item>เพลงโฟล์ค</item>
-    <item>ให้ข้อมูล</item>
-    <item>แจ๊ส</item>
-    <item>คลาสสิกเบาๆ</item>
-    <item>สบายๆ</item>
-    <item>ข่าว</item>
-    <item>เพลงสากล</item>
-    <item>เพลงอื่นๆ</item>
-    <item>เพลงเก่า</item>
-    <item>โทรเข้า</item>
-    <item>เพลงป๊อป</item>
-    <item>ศาสนา</item>
-    <item>เพลงร็อค</item>
-    <item>วิทยาศาสตร์</item>
-    <item>คลาสสิกนุ่มลึก</item>
-    <item>สังคมปัจจุบัน</item>
-    <item>กีฬา</item>
-    <item>การเดินทาง</item>
-    <item>สภาพอากาศ</item>
-    <item>สภาพอากาศ</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>อเมริกาเหนือ</item>
     <item>ยุโรป</item>

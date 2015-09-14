@@ -45,69 +45,6 @@
     <item>45 минута</item>
     <item>1 сат</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Све станице</item>
-    <item>Хитови за одрасле</item>
-    <item>Класика</item>
-    <item>Класичан рок</item>
-    <item>Колеџ</item>
-    <item>Народна</item>
-    <item>Хитно</item>
-    <item>Хитан тест</item>
-    <item>Страни језик</item>
-    <item>Информација</item>
-    <item>Џез</item>
-    <item>Вести</item>
-    <item>Носталгија</item>
-    <item>Старинске</item>
-    <item>Личности</item>
-    <item>Јавно</item>
-    <item>Религиозна музика</item>
-    <item>Религијске приче</item>
-    <item>Ритам и блуз</item>
-    <item>Рок</item>
-    <item>Мекана</item>
-    <item>Меки рок</item>
-    <item>Меки ритам и Блуз</item>
-    <item>Спортови</item>
-    <item>Разговори</item>
-    <item>Топ 40</item>
-    <item>Време</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Све станице</item>
-    <item>Култура</item>
-    <item>Тренутне афере</item>
-    <item>Дечији програм</item>
-    <item>Народна музика</item>
-    <item>Документарно</item>
-    <item>Драма</item>
-    <item>Лака музика за слушање</item>
-    <item>Едукација</item>
-    <item>Хитно</item>
-    <item>Хитан тест</item>
-    <item>Финансије</item>
-    <item>Фолк музика</item>
-    <item>Информација</item>
-    <item>Џез музика</item>
-    <item>Лака класика</item>
-    <item>Слободно</item>
-    <item>Вести</item>
-    <item>Национална музика</item>
-    <item>Друга музика</item>
-    <item>Евергрин</item>
-    <item>У телефону</item>
-    <item>Поп музика</item>
-    <item>Религијска</item>
-    <item>Рок музика</item>
-    <item>Наука</item>
-    <item>Озбиљна класика</item>
-    <item>Социјалне афере</item>
-    <item>Спорт</item>
-    <item>Putovanje</item>
-    <item>Разно</item>
-    <item>Време</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Северна Америка</item>
     <item>Европа</item>

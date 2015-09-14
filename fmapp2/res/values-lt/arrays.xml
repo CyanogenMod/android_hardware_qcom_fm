@@ -45,69 +45,6 @@
     <item>45 min.</item>
     <item>1 val.</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Visos stotys</item>
-    <item>Suaugusiųjų hitai</item>
-    <item>Klasikinis</item>
-    <item>Klasikinis rokas</item>
-    <item>Kolegijos</item>
-    <item>Kantri</item>
-    <item>Avarinis</item>
-    <item>Avarinis testas</item>
-    <item>Užsienio kalba</item>
-    <item>Informacija</item>
-    <item>Džiazas</item>
-    <item>Naujienos</item>
-    <item>Nostalgija</item>
-    <item>Senos</item>
-    <item>Asmenybė</item>
-    <item>Viešas</item>
-    <item>Religinė muzika</item>
-    <item>Religinis bendravimas</item>
-    <item>Ritmas ir bliuzas</item>
-    <item>Rokas</item>
-    <item>Švelni</item>
-    <item>Lengvasis rokas</item>
-    <item>Lengvi ritmai ir bliuzas</item>
-    <item>Sportas</item>
-    <item>Pokalbiai</item>
-    <item>Top 40</item>
-    <item>Orai</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Visos stotys</item>
-    <item>Kultūra</item>
-    <item>Aktualijos</item>
-    <item>Vaikų programos</item>
-    <item>Kantri muzika</item>
-    <item>Dokumentika</item>
-    <item>Dramos</item>
-    <item>Lengva muzika</item>
-    <item>Švietimas</item>
-    <item>Avarinis</item>
-    <item>Avarinis testas</item>
-    <item>Finansai</item>
-    <item>Liaudies muzika</item>
-    <item>Informacija</item>
-    <item>Džiazo muzika</item>
-    <item>Lengva klasika</item>
-    <item>Laisvalaikis</item>
-    <item>Naujienos</item>
-    <item>Nacionalinė muzika</item>
-    <item>Kita muzika</item>
-    <item>Senovinė muzika</item>
-    <item>Tiesioginis</item>
-    <item>Pop muzika</item>
-    <item>Religija</item>
-    <item>Roko muzika</item>
-    <item>Mokslas</item>
-    <item>Rimta klasika</item>
-    <item>Socialiniai reikalai</item>
-    <item>Sportas</item>
-    <item>Kelionės</item>
-    <item>Įvairi</item>
-    <item>Orai</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Šiaurės Amerika</item>
     <item>Europa</item>

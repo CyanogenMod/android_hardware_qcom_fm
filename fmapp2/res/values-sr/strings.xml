@@ -97,4 +97,59 @@
   <string name="set">Постави</string>
   <string name="user_defind_band_msg">Унесите фреквенцију од 76,0 до 108,0 MHz са минималним размаком од 1 канала</string>
   <string name="fm_search_no_results">Нема одговарајућих станица</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">Хитови за одрасле</string>
+    <string name="typ_Classical">Класика</string>
+    <string name="typ_Classic_Rock">Класичан рок</string>
+    <string name="typ_College">Колеџ</string>
+    <string name="typ_Foreign_language">Страни језик</string>
+    <string name="typ_Nostalgia">Носталгија</string>
+    <string name="typ_Personality">Личности</string>
+    <string name="typ_Public">Јавно</string>
+    <string name="typ_Religious_music">Религиозна музика</string>
+    <string name="typ_Religious_talk">Религијске приче</string>
+    <string name="typ_Rhythm_and_Blues">Ритам и блуз</string>
+    <string name="typ_Soft">Мекана</string>
+    <string name="typ_Soft_Rock">Меки рок</string>
+    <string name="typ_Soft_Rhythm_and_Blues">Меки ритам и Блуз</string>
+    <string name="typ_Sports">Спортови</string>
+    <string name="typ_Talk">Разговори</string>
+    <string name="typ_Top_40">Топ 40</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">Све станице</string>
+    <string name="typ_Culture">Култура</string>
+    <string name="typ_Current_affairs">Тренутне афере</string>
+    <string name="typ_Children">Дечији програм</string>
+    <string name="typ_Country">Народна музика</string>
+    <string name="typ_Documentary">Документарно</string>
+    <string name="typ_Drama">Драма</string>
+    <string name="typ_Easy_listening">Лака музика за слушање</string>
+    <string name="typ_Education">Едукација</string>
+    <string name="typ_Emergency">Хитно</string>
+    <string name="typ_Emergency_test">Хитан тест</string>
+    <string name="typ_Finance">Финансије</string>
+    <string name="typ_Folk">Фолк музика</string>
+    <string name="typ_Information">Информација</string>
+    <string name="typ_Jazz">Џез музика</string>
+    <string name="typ_Light_classical">Лака класика</string>
+    <string name="typ_Leisure">Слободно</string>
+    <string name="typ_News">Вести</string>
+    <string name="typ_National">Национална музика</string>
+    <string name="typ_Other">Друга музика</string>
+    <string name="typ_Oldies">Евергрин</string>
+    <string name="typ_Phone_in">У телефону</string>
+    <string name="typ_Pop">Поп музика</string>
+    <string name="typ_Religion">Религијска</string>
+    <string name="typ_Rock">Рок музика</string>
+    <string name="typ_Science">Наука</string>
+    <string name="typ_Serious_classical">Озбиљна класика</string>
+    <string name="typ_Social_affairs">Социјалне афере</string>
+    <string name="typ_Sport">Спорт</string>
+    <string name="typ_Travel">Putovanje</string>
+    <string name="typ_Varied">Разно</string>
+    <string name="typ_Weather">Време</string>
+
 </resources>

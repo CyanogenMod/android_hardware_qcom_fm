@@ -45,69 +45,6 @@
     <item>45 minutos</item>
     <item>1 hora</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Toles emisores</item>
-    <item>Adult hits</item>
-    <item>Clásica</item>
-    <item>Rock clásico</item>
-    <item>Universitarios</item>
-    <item>Country</item>
-    <item>Emerxencia</item>
-    <item>Test d\'emerxencia</item>
-    <item>Llingua foriata</item>
-    <item>Información</item>
-    <item>Jazz</item>
-    <item>Anuncies</item>
-    <item>Señardá</item>
-    <item>Éxitos</item>
-    <item>Personalidaes</item>
-    <item>Pública</item>
-    <item>Música relixosa</item>
-    <item>Charres relixoses</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Suave</item>
-    <item>Rock suave</item>
-    <item>Rhythm and Blues suave</item>
-    <item>Deportes</item>
-    <item>Alderiques</item>
-    <item>Top 40</item>
-    <item>Meteoroloxía</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Toles emisores</item>
-    <item>Cultura</item>
-    <item>Actualidá</item>
-    <item>Programes pa nenos</item>
-    <item>Música Country</item>
-    <item>Documentales</item>
-    <item>Drama</item>
-    <item>Música Agradable</item>
-    <item>Educativos</item>
-    <item>Emerxencia</item>
-    <item>Test d\'emerxencia</item>
-    <item>Finances</item>
-    <item>Música folk</item>
-    <item>Información</item>
-    <item>Música Jazz</item>
-    <item>Clásica llixera</item>
-    <item>Ociu</item>
-    <item>Anuncies</item>
-    <item>Música Nacional</item>
-    <item>Otres músiques</item>
-    <item>Música Oldies</item>
-    <item>Phone in</item>
-    <item>Música pop</item>
-    <item>Relixón</item>
-    <item>Música rock</item>
-    <item>Ciencia</item>
-    <item>Clásica rigurosa</item>
-    <item>Temes Sociales</item>
-    <item>Deportes</item>
-    <item>Viaxes</item>
-    <item>Dellos</item>
-    <item>Meteoroloxía</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Norteamérica</item>
     <item>Europa</item>

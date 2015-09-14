@@ -29,6 +29,7 @@ import android.util.Log;
 public class FMAdapterApp extends Application {
     private static final String TAG = "FMAdapterApp";
     private static final boolean DBG = true;
+    public static FMAdapterApp context = null;  // Allow global access
     //For Debugging only
     private static int sRefCount=0;
 
@@ -39,6 +40,7 @@ public class FMAdapterApp extends Application {
 
     public FMAdapterApp() {
         super();
+        context = this;
         if (DBG) {
             synchronized (FMAdapterApp.class) {
                 sRefCount++;
