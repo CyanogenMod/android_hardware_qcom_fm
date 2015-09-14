@@ -45,69 +45,6 @@
     <item>45分</item>
     <item>1時間</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>すべての局</item>
-    <item>アダルトヒット</item>
-    <item>クラシック</item>
-    <item>クラシックロック</item>
-    <item>大学</item>
-    <item>国</item>
-    <item>緊急</item>
-    <item>緊急テスト</item>
-    <item>外国語</item>
-    <item>情報</item>
-    <item>ジャズ</item>
-    <item>ニュース</item>
-    <item>ノスタルジア</item>
-    <item>オールディーズ</item>
-    <item>パーソナリティ</item>
-    <item>パブリック</item>
-    <item>宗教音楽</item>
-    <item>宗教トーク</item>
-    <item>リズムとブルース</item>
-    <item>ロック</item>
-    <item>ソフト</item>
-    <item>ソフトロック</item>
-    <item>ソフトリズムとブルース</item>
-    <item>スポーツ</item>
-    <item>トーク</item>
-    <item>トップ40</item>
-    <item>天気</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>すべての局</item>
-    <item>文化</item>
-    <item>時事問題</item>
-    <item>子供向け番組</item>
-    <item>カントリーミュージック</item>
-    <item>ドキュメンタリー</item>
-    <item>ドラマ</item>
-    <item>イージーリスニング音楽</item>
-    <item>教育</item>
-    <item>緊急</item>
-    <item>緊急テスト</item>
-    <item>ファイナンス</item>
-    <item>フォークミュージック</item>
-    <item>情報</item>
-    <item>ジャズ音楽</item>
-    <item>ライトクラシック</item>
-    <item>レジャー</item>
-    <item>ニュース</item>
-    <item>ナショナルミュージック</item>
-    <item>その他の音楽</item>
-    <item>オールディーズ音楽</item>
-    <item>視聴者参加番組</item>
-    <item>ポップミュージック</item>
-    <item>宗教</item>
-    <item>ロック音楽</item>
-    <item>科学</item>
-    <item>シリアスクラシック</item>
-    <item>社会問題</item>
-    <item>スポーツ</item>
-    <item>旅行</item>
-    <item>さまざまなカテゴリ</item>
-    <item>天気</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>北アメリカ</item>
     <item>ヨーロッパ</item>

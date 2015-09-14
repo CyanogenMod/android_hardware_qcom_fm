@@ -97,4 +97,59 @@
   <string name="set">הגדר</string>
   <string name="user_defind_band_msg">הזן תדרים מ-76.0MHz עד 108.0MHz עם רווח של לפחות ערוץ אחד ביניהם</string>
   <string name="fm_search_no_results">לא נמצאו תחנות תואמות</string>
+
+  <!-- program types -->
+  <!-- RBDS (North America) -->
+    <string name="typ_Adult_hits">להיטים למבוגרים</string>
+    <string name="typ_Classical">קלאסי</string>
+    <string name="typ_Classic_Rock">רוק קלאסי</string>
+    <string name="typ_College">מכללות</string>
+    <string name="typ_Foreign_language">שפה זרה</string>
+    <string name="typ_Nostalgia">נוסטלגיה</string>
+    <string name="typ_Personality">אישיות</string>
+    <string name="typ_Public">ציבורי</string>
+    <string name="typ_Religious_music">מוזיקה דתית</string>
+    <string name="typ_Religious_talk">דיבורי דת</string>
+    <string name="typ_Rhythm_and_Blues">רית\'ם אנד בלוז</string>
+    <string name="typ_Soft">רך</string>
+    <string name="typ_Soft_Rock">רוק רך</string>
+    <string name="typ_Soft_Rhythm_and_Blues">רית\'ם אנד בלוז רך</string>
+    <string name="typ_Sports">ספורט</string>
+    <string name="typ_Talk">דיבורים</string>
+    <string name="typ_Top_40">40 המובילים</string>
+
+  <!-- RDS (Europe) -->
+    <string name="typ_All_stations">כל התחנות</string>
+    <string name="typ_Culture">תרבות</string>
+    <string name="typ_Current_affairs">אקטואליה</string>
+    <string name="typ_Children">תוכניות ילדים</string>
+    <string name="typ_Country">מוזיקת קאנטרי</string>
+    <string name="typ_Documentary">תיעודי</string>
+    <string name="typ_Drama">דרמה</string>
+    <string name="typ_Easy_listening">מוזיקה קלה להאזנה</string>
+    <string name="typ_Education">חינוך</string>
+    <string name="typ_Emergency">חירום</string>
+    <string name="typ_Emergency_test">בדיקת חירום</string>
+    <string name="typ_Finance">כלכלה</string>
+    <string name="typ_Folk">מוזיקה עממית</string>
+    <string name="typ_Information">מידע</string>
+    <string name="typ_Jazz">מוזיקת ג\'אז</string>
+    <string name="typ_Light_classical">קלאסית קלה</string>
+    <string name="typ_Leisure">פנאי</string>
+    <string name="typ_News">חדשות</string>
+    <string name="typ_National">מוזיקה לאומית</string>
+    <string name="typ_Other">מוזיקה אחרת</string>
+    <string name="typ_Oldies">אולדיז</string>
+    <string name="typ_Phone_in">טלפון מחובר</string>
+    <string name="typ_Pop">מוזיקת פופ</string>
+    <string name="typ_Religion">דת</string>
+    <string name="typ_Rock">מוזיקת רוק</string>
+    <string name="typ_Science">מדע</string>
+    <string name="typ_Serious_classical">קלאסית רצינית</string>
+    <string name="typ_Social_affairs">רווחה</string>
+    <string name="typ_Sport">ספורט</string>
+    <string name="typ_Travel">תיירות</string>
+    <string name="typ_Varied">מגוון</string>
+    <string name="typ_Weather">מזג אוויר</string>
+
 </resources>

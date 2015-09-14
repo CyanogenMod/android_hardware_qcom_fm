@@ -45,69 +45,6 @@
     <item>45 minutes</item>
     <item>1 heure</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Toutes les stations</item>
-    <item>Hits pour adultes</item>
-    <item>Classique</item>
-    <item>Rock classique</item>
-    <item>Collège</item>
-    <item>Pays</item>
-    <item>Urgence</item>
-    <item>Essai d\'urgence</item>
-    <item>Langue étrangère</item>
-    <item>Information</item>
-    <item>Jazz</item>
-    <item>Actualités</item>
-    <item>Nostalgie</item>
-    <item>Rétro</item>
-    <item>Personnalité</item>
-    <item>Publique</item>
-    <item>Musique religieuse</item>
-    <item>Discours religieux</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Doux</item>
-    <item>Soft Rock</item>
-    <item>Doux Rhythm and Blues</item>
-    <item>Sports</item>
-    <item>Talk</item>
-    <item>Top 40</item>
-    <item>Météo</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Toutes les stations</item>
-    <item>Culture</item>
-    <item>Affaires actuelles</item>
-    <item>Programmes pour enfants</item>
-    <item>Musique country</item>
-    <item>Documentaire</item>
-    <item>Drame</item>
-    <item>Musique de détente</item>
-    <item>Éducation</item>
-    <item>Urgence</item>
-    <item>Essai d\'urgence</item>
-    <item>Finance</item>
-    <item>Musique Folk</item>
-    <item>Information</item>
-    <item>Musique jazz</item>
-    <item>Musique classique</item>
-    <item>Loisirs</item>
-    <item>Actualités</item>
-    <item>Musique nationale</item>
-    <item>Autres musiques</item>
-    <item>Musique rétro</item>
-    <item>Dans le téléphone</item>
-    <item>Musique pop</item>
-    <item>Religion</item>
-    <item>Musique rock</item>
-    <item>Sciences</item>
-    <item>Grande musique</item>
-    <item>Affaires sociales</item>
-    <item>Sport</item>
-    <item>Voyage</item>
-    <item>Varié</item>
-    <item>Météo</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Amérique du Nord</item>
     <item>Europe</item>

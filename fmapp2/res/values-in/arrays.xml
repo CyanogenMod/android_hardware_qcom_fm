@@ -45,69 +45,6 @@
     <item>45 menit</item>
     <item>1 jam</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Semua stasiun</item>
-    <item>Hit dewasa</item>
-    <item>Klasik</item>
-    <item>Rock klasik</item>
-    <item>Perguruan tinggi</item>
-    <item>Country</item>
-    <item>Darurat</item>
-    <item>Tes darurat</item>
-    <item>Bahasa asing</item>
-    <item>Informasi</item>
-    <item>Jazz</item>
-    <item>Berita</item>
-    <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Kepribadian</item>
-    <item>Umum</item>
-    <item>Musik religi</item>
-    <item>Bincang religi</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Lembut</item>
-    <item>Rock lembut</item>
-    <item>Rhythm and Blues lembut</item>
-    <item>Olahraga</item>
-    <item>Perbincangan</item>
-    <item>40 teratas</item>
-    <item>Cuaca</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Semua stasiun</item>
-    <item>Budaya</item>
-    <item>Berita terkini</item>
-    <item>Program anak</item>
-    <item>Musik country</item>
-    <item>Dokumenter</item>
-    <item>Drama</item>
-    <item>Musik ringan</item>
-    <item>Edukasi</item>
-    <item>Darurat</item>
-    <item>Tes darurat</item>
-    <item>Keuangan</item>
-    <item>Musik rakyat</item>
-    <item>Informasi</item>
-    <item>Musik jazz</item>
-    <item>Klasik ringan</item>
-    <item>Rekreasi</item>
-    <item>Berita</item>
-    <item>Musik nasional</item>
-    <item>Musik lainnya</item>
-    <item>Musik oldies</item>
-    <item>Di telepon</item>
-    <item>Musik pop</item>
-    <item>Religi</item>
-    <item>Musik rock</item>
-    <item>Ilmu pengetahuan</item>
-    <item>Klasik serius</item>
-    <item>Urusan sosial</item>
-    <item>Olahraga</item>
-    <item>Perjalanan</item>
-    <item>Bervariasi</item>
-    <item>Cuaca</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Amerika Utara</item>
     <item>Eropa</item>

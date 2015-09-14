@@ -45,69 +45,6 @@
     <item>45 minuta</item>
     <item>1 sat</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Sve stanice</item>
-    <item>Stari hitovi</item>
-    <item>Klasika</item>
-    <item>Klasični rock</item>
-    <item>Koledž</item>
-    <item>Selo</item>
-    <item>Hitno</item>
-    <item>Hitni test</item>
-    <item>Strani jezik</item>
-    <item>Informacije</item>
-    <item>Jazz</item>
-    <item>Novosti</item>
-    <item>Nostalgija</item>
-    <item>Stare</item>
-    <item>Osobnost</item>
-    <item>Javne</item>
-    <item>Religiozna glazba</item>
-    <item>Religiozni govor</item>
-    <item>Ritam i Blues</item>
-    <item>Rock</item>
-    <item>Lagano</item>
-    <item>Lagani Rock</item>
-    <item>Lagani Ritam i Blues</item>
-    <item>Sport</item>
-    <item>Govor</item>
-    <item>Top 40</item>
-    <item>Vrijeme</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Sve stanice</item>
-    <item>Kultura</item>
-    <item>Aktualno</item>
-    <item>Dječji program</item>
-    <item>Seoska glazba</item>
-    <item>Dokumentarno</item>
-    <item>Drama</item>
-    <item>Lako slušljiva glazba</item>
-    <item>Edukacija</item>
-    <item>Hitno</item>
-    <item>Hitni test</item>
-    <item>Financije</item>
-    <item>Narodna glazba</item>
-    <item>Informacije</item>
-    <item>Jazz glazba</item>
-    <item>Blaga klasika</item>
-    <item>Slobodno vrijeme</item>
-    <item>Novosti</item>
-    <item>Nacionalna glazba</item>
-    <item>Ostala glazba</item>
-    <item>Stara glazba</item>
-    <item>Telefonski ulaz</item>
-    <item>Pop glazba</item>
-    <item>Religija</item>
-    <item>Rock glazba</item>
-    <item>Znanost</item>
-    <item>Ozbiljna klasika</item>
-    <item>Socijalne stvari</item>
-    <item>Sport</item>
-    <item>Putovanje</item>
-    <item>Raznoliko</item>
-    <item>Vrijeme</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Sjeverna Amerika</item>
     <item>Europa</item>

@@ -45,69 +45,6 @@
     <item>৪৫ মিনিট</item>
     <item>১ ঘণ্টা</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>সমস্ত কেন্দ্র</item>
-    <item>প্রাপ্তবয়স্কের কাছে জনপ্রিয়</item>
-    <item>ধ্রুপদী</item>
-    <item>ক্লাসিক রক</item>
-    <item>কলেজ</item>
-    <item>দেশ</item>
-    <item>জরুরী</item>
-    <item>জরুরী পরীক্ষা</item>
-    <item>বিদেশী ভাষা</item>
-    <item>তথ্য</item>
-    <item>জ্যাজ</item>
-    <item>সংবাদ</item>
-    <item>নষ্টালজিক</item>
-    <item>ওল্ডিজ</item>
-    <item>ব্যক্তিত্ব</item>
-    <item>পাবলিক</item>
-    <item>ধর্মীয় সংগীত</item>
-    <item>ধর্মীয় আলোচনা</item>
-    <item>রিদম এ্যান্ড ব্লুজ</item>
-    <item>রক</item>
-    <item>নমনীয়</item>
-    <item>হাল্কা রক</item>
-    <item>হাল্কা রিদম এ্যান্ড ব্লুজ</item>
-    <item>ক্রীড়া</item>
-    <item>আলোচনা</item>
-    <item>শীর্ষ ৪০</item>
-    <item>আবহাওয়া</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>সমস্ত কেন্দ্র</item>
-    <item>সংস্কৃতি</item>
-    <item>সাম্প্রতিক ঘটনাবলী</item>
-    <item>শিশুদের অনুষ্ঠান</item>
-    <item>দেশের গান</item>
-    <item>প্রামাণ্যচিত্র</item>
-    <item>নাটক</item>
-    <item>সহজতর শ্রবণ সঙ্গীত</item>
-    <item>শিক্ষা</item>
-    <item>জরুরী</item>
-    <item>জরুরী পরীক্ষা</item>
-    <item>অর্থব্যবস্থা</item>
-    <item>লোক সঙ্গীত</item>
-    <item>তথ্য</item>
-    <item>জ্যাজ সঙ্গীত</item>
-    <item>হালকা ধ্রুপদী</item>
-    <item>অবসর বিনোদনের</item>
-    <item>সংবাদ</item>
-    <item>জাতীয় সঙ্গীত</item>
-    <item>অন্যান্য সঙ্গীত</item>
-    <item>ওল্ডিজ সংগীত</item>
-    <item>ফোন ইন</item>
-    <item>পপ সংগীত</item>
-    <item>ধর্ম</item>
-    <item>রক সংগীত</item>
-    <item>বিজ্ঞান</item>
-    <item>গুরুতর ধ্রুপদী</item>
-    <item>সামাজিক বিষয়াবলি</item>
-    <item>খেলাধুলা</item>
-    <item>ভ্রমণ</item>
-    <item>বিবিধ</item>
-    <item>আবহাওয়া</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>উত্তর আমেরিকা</item>
     <item>ইউরোপ</item>

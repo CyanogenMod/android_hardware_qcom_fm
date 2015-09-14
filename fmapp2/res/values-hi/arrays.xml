@@ -45,69 +45,6 @@
     <item>45 मिनट</item>
     <item>1 घंटा</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>सभी स्टेशन</item>
-    <item>वयस्क हिट</item>
-    <item>शास्त्रीय</item>
-    <item>शास्त्रीय रॉक</item>
-    <item>कॉलेज</item>
-    <item>देश</item>
-    <item>आपात स्थिति</item>
-    <item>आपात स्थिति परीक्षण</item>
-    <item>विदेशी भाषा</item>
-    <item>सूचना</item>
-    <item>जैस</item>
-    <item>समाचार</item>
-    <item>पुरानी यादें</item>
-    <item>पूराने</item>
-    <item>व्यक्तित्व</item>
-    <item>सार्वजनिक</item>
-    <item>भक्ति संगीत</item>
-    <item>धार्मिक प्रवचन</item>
-    <item>रिथम एंड ब्लूज़</item>
-    <item>रॉक</item>
-    <item>मृदु</item>
-    <item>मृदु रॉक</item>
-    <item>मृदु रिथम एंड ब्लूज़</item>
-    <item>खेल-कूद</item>
-    <item>व्याख्यान</item>
-    <item>शीर्ष 40</item>
-    <item>मौसम</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>सभी स्टेशन</item>
-    <item>संस्कृति</item>
-    <item>समकालीन मामले</item>
-    <item>बच्चों के कार्यक्रम</item>
-    <item>देशी संगीत</item>
-    <item>वृत्तचित्र</item>
-    <item>नाटक</item>
-    <item>सुगम संगीत</item>
-    <item>शिक्षण</item>
-    <item>आपात स्थिति</item>
-    <item>आपात स्थिति परीक्षण</item>
-    <item>वित्त</item>
-    <item>लोक संगीत</item>
-    <item>सूचना</item>
-    <item>जैस संगीत</item>
-    <item>हल्का शास्त्रीय</item>
-    <item>अवकाश</item>
-    <item>समाचार</item>
-    <item>राष्ट्रीय संगीत</item>
-    <item>अन्य संगीत</item>
-    <item>बीते युग का संगीत</item>
-    <item>फ़ोन इन करें</item>
-    <item>पॉप संगीत</item>
-    <item>धार्मिक</item>
-    <item>रॉक संगीत</item>
-    <item>विज्ञान</item>
-    <item>गंभीर शास्त्रीय</item>
-    <item>सामाजिक मामले</item>
-    <item>खेल-कूद</item>
-    <item>यात्रा</item>
-    <item>विविध</item>
-    <item>मौसम</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>उत्तर अमरीका</item>
     <item>यूरोप</item>

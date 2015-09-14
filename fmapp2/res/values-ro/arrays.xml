@@ -45,69 +45,6 @@
     <item>45 de minute</item>
     <item>1 oră</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Toate stațiile</item>
-    <item>Hituri Adult</item>
-    <item>Clasic</item>
-    <item>Rock Clasic</item>
-    <item>Colegiu</item>
-    <item>Country</item>
-    <item>Urgență</item>
-    <item>Test urgență</item>
-    <item>Limbă străină</item>
-    <item>Informații</item>
-    <item>Jazz</item>
-    <item>Știri</item>
-    <item>Nostalgie</item>
-    <item>Vechi</item>
-    <item>Personalitate</item>
-    <item>Publice</item>
-    <item>Muzică religioasă</item>
-    <item>Conversații religioase</item>
-    <item>Rhythm și Blues</item>
-    <item>Rock</item>
-    <item>Ușoară</item>
-    <item>Rock ușor</item>
-    <item>Rhythm și Blues ușor</item>
-    <item>Sporturi</item>
-    <item>Convorbiri</item>
-    <item>Top 40</item>
-    <item>Vremea</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Toate stațiile</item>
-    <item>Cultură</item>
-    <item>Actualități</item>
-    <item>Programe de copii</item>
-    <item>Muzică Country</item>
-    <item>Documentar</item>
-    <item>Dramă</item>
-    <item>Muzică ascultată ușor</item>
-    <item>Educație</item>
-    <item>Urgență</item>
-    <item>Test urgență</item>
-    <item>Finanțe</item>
-    <item>Muzică folk</item>
-    <item>Informație</item>
-    <item>Muzică Jazz</item>
-    <item>Clasică ușoară</item>
-    <item>Destindere</item>
-    <item>Știri</item>
-    <item>Muzică națională</item>
-    <item>Altă muzică</item>
-    <item>Muzică veche</item>
-    <item>Intrare telefon</item>
-    <item>Muzică Pop</item>
-    <item>Religie</item>
-    <item>Muzică rock</item>
-    <item>Știință</item>
-    <item>Clasică serioasă</item>
-    <item>Afaceri sociale</item>
-    <item>Sport</item>
-    <item>Călătorie</item>
-    <item>Variate</item>
-    <item>Vremea</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>America de Nord</item>
     <item>Europa</item>

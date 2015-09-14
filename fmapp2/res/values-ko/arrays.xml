@@ -45,69 +45,6 @@
     <item>45 분</item>
     <item>1시간</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>모든 방송국</item>
-    <item>성인 인기</item>
-    <item>클래식</item>
-    <item>클래식 락</item>
-    <item>대학</item>
-    <item>국가</item>
-    <item>긴급</item>
-    <item>긴급 시험</item>
-    <item>외국어</item>
-    <item>정보</item>
-    <item>재즈</item>
-    <item>뉴스</item>
-    <item>향수</item>
-    <item>복고</item>
-    <item>성격</item>
-    <item>공공</item>
-    <item>종교 음악</item>
-    <item>종교 대화</item>
-    <item>리듬 앤 블루스</item>
-    <item>락</item>
-    <item>소프트</item>
-    <item>소프트 락</item>
-    <item>소프트 리듬 앤 블루스</item>
-    <item>스포츠</item>
-    <item>토크</item>
-    <item>Top 40</item>
-    <item>날씨</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>모든 방송국</item>
-    <item>문화</item>
-    <item>시사</item>
-    <item>어린이</item>
-    <item>컨트리 음악</item>
-    <item>다큐멘터리</item>
-    <item>드라마</item>
-    <item>편안한 음악</item>
-    <item>교육</item>
-    <item>긴급</item>
-    <item>긴급 시험</item>
-    <item>금융</item>
-    <item>민속 음악</item>
-    <item>정보</item>
-    <item>재즈 음악</item>
-    <item>가벼운 클래식</item>
-    <item>레저</item>
-    <item>뉴스</item>
-    <item>민족 음악</item>
-    <item>기타 음악</item>
-    <item>고전 음악</item>
-    <item>전화</item>
-    <item>팝 음악</item>
-    <item>종교</item>
-    <item>락 음악</item>
-    <item>과학</item>
-    <item>고전 클래식</item>
-    <item>사회</item>
-    <item>스포츠</item>
-    <item>여행</item>
-    <item>여러가지</item>
-    <item>날씨</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>북미 지역</item>
     <item>유럽</item>

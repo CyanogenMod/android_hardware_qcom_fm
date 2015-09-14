@@ -45,69 +45,6 @@
     <item>45 minuter</item>
     <item>1 timme</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Alla stationer</item>
-    <item>18+</item>
-    <item>Klassiskt</item>
-    <item>Classic Rock</item>
-    <item>Universitet</item>
-    <item>Country</item>
-    <item>Nödmeddelanden</item>
-    <item>Nödtest</item>
-    <item>Utländska språk</item>
-    <item>Information</item>
-    <item>Jazz</item>
-    <item>Nyheter</item>
-    <item>Nostalgi</item>
-    <item>Klassiker</item>
-    <item>Personlighet</item>
-    <item>Offentligt</item>
-    <item>Religiös musik</item>
-    <item>Religiöst prat</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sport</item>
-    <item>Prat</item>
-    <item>Topp 40</item>
-    <item>Väder</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Alla stationer</item>
-    <item>Kultur</item>
-    <item>Aktuella frågor</item>
-    <item>Barnprogram</item>
-    <item>Countrymusik</item>
-    <item>Dokumentär</item>
-    <item>Drama</item>
-    <item>Lättlyssnad musik</item>
-    <item>Utbildning</item>
-    <item>Nödsändningar</item>
-    <item>Nödtest</item>
-    <item>Finans</item>
-    <item>Folkmusik</item>
-    <item>Information</item>
-    <item>Jazz</item>
-    <item>Lätt klassisk musik</item>
-    <item>Fritid</item>
-    <item>Nyheter</item>
-    <item>Nationell musik</item>
-    <item>Annan musik</item>
-    <item>Gamla godingar</item>
-    <item>Ring in</item>
-    <item>Popmusik</item>
-    <item>Religion</item>
-    <item>Rockmusik</item>
-    <item>Vetenskap</item>
-    <item>Allvarlig klassisk musik</item>
-    <item>Sociala frågor</item>
-    <item>Sport</item>
-    <item>Resor</item>
-    <item>Varierat</item>
-    <item>Väder</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Nordamerika</item>
     <item>Europa</item>

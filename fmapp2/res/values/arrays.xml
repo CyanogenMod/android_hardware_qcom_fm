@@ -68,34 +68,34 @@
     <item>1 hour</item>
   </string-array>
 
-  <string-array name="search_category_rbds_entries">
-    <item>All stations</item>
-    <item>Adult hits</item>
-    <item>Classical</item>
-    <item>Classic Rock</item>
-    <item>College</item>
-    <item>Country</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
-    <item>Foreign language</item>
-    <item>Information</item>
-    <item>Jazz</item>
-    <item>News</item>
-    <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
-    <item>Religious music</item>
-    <item>Religious talk</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
-    <item>Talk</item>
-    <item>Top 40</item>
-    <item>Weather</item>
+  <string-array name="search_category_rbds_entries" translatable="false">
+    <item>@string/typ_All_stations</item>
+    <item>@string/typ_Adult_hits</item>
+    <item>@string/typ_Classical</item>
+    <item>@string/typ_Classic_Rock</item>
+    <item>@string/typ_College</item>
+    <item>@string/typ_Country</item>
+    <item>@string/typ_Emergency</item>
+    <item>@string/typ_Emergency_test</item>
+    <item>@string/typ_Foreign_language</item>
+    <item>@string/typ_Information</item>
+    <item>@string/typ_Jazz</item>
+    <item>@string/typ_News</item>
+    <item>@string/typ_Nostalgia</item>
+    <item>@string/typ_Oldies</item>
+    <item>@string/typ_Personality</item>
+    <item>@string/typ_Public</item>
+    <item>@string/typ_Religious_music</item>
+    <item>@string/typ_Religious_talk</item>
+    <item>@string/typ_Rhythm_and_Blues</item>
+    <item>@string/typ_Rock</item>
+    <item>@string/typ_Soft</item>
+    <item>@string/typ_Soft_Rock</item>
+    <item>@string/typ_Soft_Rhythm_and_Blues</item>
+    <item>@string/typ_Sports</item>
+    <item>@string/typ_Talk</item>
+    <item>@string/typ_Top_40</item>
+    <item>@string/typ_Weather</item>
   </string-array>
 
   <string-array name="search_category_rbds_values" translatable="false">
@@ -128,39 +128,39 @@
     <item>29</item>
   </string-array>
 
-  <string-array name="search_category_rds_entries">
-    <item>All stations</item>
-    <item>Culture</item>
-    <item>Current affairs</item>
-    <item>Children programs</item>
-    <item>Country music</item>
-    <item>Documentary</item>
-    <item>Drama</item>
-    <item>Easy listening music</item>
-    <item>Education</item>
-    <item>Emergency</item>
-    <item>Emergency test</item>
-    <item>Finance</item>
-    <item>Folk music</item>
-    <item>Information</item>
-    <item>Jazz music</item>
-    <item>Light classical</item>
-    <item>Leisure</item>
-    <item>News</item>
-    <item>National music</item>
-    <item>Other music</item>
-    <item>Oldies music</item>
-    <item>Phone in</item>
-    <item>Pop music</item>
-    <item>Religion</item>
-    <item>Rock music</item>
-    <item>Science</item>
-    <item>Serious classical</item>
-    <item>Social affairs</item>
-    <item>Sport</item>
-    <item>Travel</item>
-    <item>Varied</item>
-    <item>Weather</item>
+  <string-array name="search_category_rds_entries" translatable="false">
+    <item>@string/typ_All_stations</item>
+    <item>@string/typ_Culture</item>
+    <item>@string/typ_Current_affairs</item>
+    <item>@string/typ_Children</item>
+    <item>@string/typ_Country</item>
+    <item>@string/typ_Documentary</item>
+    <item>@string/typ_Drama</item>
+    <item>@string/typ_Easy_listening</item>
+    <item>@string/typ_Education</item>
+    <item>@string/typ_Emergency</item>
+    <item>@string/typ_Emergency_test</item>
+    <item>@string/typ_Finance</item>
+    <item>@string/typ_Folk</item>
+    <item>@string/typ_Information</item>
+    <item>@string/typ_Jazz</item>
+    <item>@string/typ_Light_classical</item>
+    <item>@string/typ_Leisure</item>
+    <item>@string/typ_News</item>
+    <item>@string/typ_National</item>
+    <item>@string/typ_Other</item>
+    <item>@string/typ_Oldies</item>
+    <item>@string/typ_Phone_in</item>
+    <item>@string/typ_Pop</item>
+    <item>@string/typ_Religion</item>
+    <item>@string/typ_Rock</item>
+    <item>@string/typ_Science</item>
+    <item>@string/typ_Serious_classical</item>
+    <item>@string/typ_Social_affairs</item>
+    <item>@string/typ_Sport</item>
+    <item>@string/typ_Travel</item>
+    <item>@string/typ_Varied</item>
+    <item>@string/typ_Weather</item>
   </string-array>
 
   <string-array name="search_category_rds_values" translatable="false">
