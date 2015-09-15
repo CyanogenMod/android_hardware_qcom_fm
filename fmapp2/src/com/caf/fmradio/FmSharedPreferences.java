@@ -37,6 +37,7 @@ import java.util.Map;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.telephony.TelephonyManager;
 import qcom.fmradio.FmReceiver;
 import qcom.fmradio.FmConfig;
 import android.os.SystemProperties;
@@ -1192,9 +1193,34 @@ public class FmSharedPreferences
     * in the list, takes the default from resources.
     */
    private static int getBand(int deflt) {
+      // Try to determine the current location from the phone
+      // network. If unable, or not found in band list, try
+      // from locale. If that fails too, then use the default.
+      // TODO: Once a band is selected, the app remembers it in the
+      // shared preferences. This means the radio band isn't auto-updated
+      // if the user travels to a different country. A better approach would
+      // be to always call this code when the app starts up unless the user
+      // has explicitly set a band. In fact, "auto" should be one of the options.
+      // That will be the subject of another Jira, I think.
+      String countryCode;
+      int band;
+      try {
+         TelephonyManager tm = (TelephonyManager)
+            FMAdapterApp.context.getSystemService(Context.TELEPHONY_SERVICE);
+         countryCode = tm.getNetworkCountryIso();
+         if ((band = getBand(countryCode, -1)) >= 0) return band;
+      } catch (Exception e) {
+         // Failed, perhaps because of no sim card or inadequate permissions.
+         // Ignore it and carry on.
+      }
       return getBand(Locale.getDefault().getCountry(), deflt);
    }
 
+   /**
+    * Map a country code to an FM band code.
+    * @param country  2-letter country code
+    * @return band code or deflt on not found.
+    */
    private static int getBand(String country, int deflt) {
       // The order of country codes in this list is very strict; it
       // needs to exactly correspond to the REGIONAL_BAND definitions
@@ -1250,7 +1276,7 @@ public class FmSharedPreferences
       };
       for (int band = 0; band < countries.length; ++band) {
          for (String cc : countries[band]) {
-            if (cc.equals(country)) {
+            if (cc.equalsIgnoreCase(country)) {
                return band;
             }
          }
