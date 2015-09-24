@@ -39,6 +39,75 @@
     <item>30 minutes</item>
     <item>Cho đến khi ngừng</item>
   </string-array>
+  <string-array name="sleep_duration_values">
+    <item>15 phút</item>
+    <item>30 phút</item>
+    <item>45 phút</item>
+    <item>1 giờ</item>
+  </string-array>
+  <string-array name="search_category_rbds_entries">
+    <item>Tất cả các đài</item>
+    <item>Adult hits</item>
+    <item>Cổ điển</item>
+    <item>Rock cổ điển</item>
+    <item>College</item>
+    <item>Country</item>
+    <item>Khẩn cấp</item>
+    <item>Thử nghiệm khẩn cấp</item>
+    <item>Ngoại ngữ</item>
+    <item>Thông tin</item>
+    <item>Jazz</item>
+    <item>Tin tức</item>
+    <item>Hoài niệm</item>
+    <item>Ca khúc xưa</item>
+    <item>Tính cách</item>
+    <item>Quần chúng</item>
+    <item>Âm nhạc tôn giáo</item>
+    <item>Nói chuyện tôn giáo</item>
+    <item>Nhịp điệu và nhạc Blues</item>
+    <item>Rock</item>
+    <item>Nhẹ</item>
+    <item>Rock nhẹ</item>
+    <item>Nhịp điệu nhẹ và nhạc blues</item>
+    <item>Thể thao</item>
+    <item>Trò chuyện</item>
+    <item>Top 40</item>
+    <item>Thời tiết</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>Tất cả các trạm</item>
+    <item>Văn hóa</item>
+    <item>Vấn đề hiện tại</item>
+    <item>Chương trình trẻ em</item>
+    <item>Nhạc đồng quê</item>
+    <item>Phim tài liệu</item>
+    <item>Phim truyền hình</item>
+    <item>Dễ dàng nghe nhạc</item>
+    <item>Giáo dục</item>
+    <item>Khẩn cấp</item>
+    <item>Thử nghiệm khẩn cấp</item>
+    <item>Tài chính</item>
+    <item>Nhạc dân gian</item>
+    <item>Thông tin</item>
+    <item>Nhạc jazz</item>
+    <item>Cổ điển nhẹ</item>
+    <item>Giải trí</item>
+    <item>Tin tức</item>
+    <item>Nhạc dân tộc</item>
+    <item>Nhạc khác</item>
+    <item>Nhạc xưa</item>
+    <item>Chương trình truyền hình, phát thanh mà người nghe/người xem có thể gọi điện thoại đến đài</item>
+    <item>Nhạc pop</item>
+    <item>Tôn giáo</item>
+    <item>Nhạc rock</item>
+    <item>Khoa học</item>
+    <item>Cổ điển sâu</item>
+    <item>Vấn đề xã hội</item>
+    <item>Thể thao</item>
+    <item>Du lịch</item>
+    <item>Đa dạng</item>
+    <item>Thời tiết</item>
+  </string-array>
   <string-array name="regional_band_entries">
     <item>North America</item>
     <item>Europe</item>
@@ -118,5 +187,10 @@
     <item>Hoa Kỳ (88.1MHz đến 107.9MHz trong bước sóng 200 KHz)</item>
     <item>Người dùng xác định</item>
     <item>Indonesia (87.5MHz đến 108.0MHz trong bước sóng 100 KHz)</item>
+  </string-array>
+  <string-array name="channel_spacing_entries">
+    <item>50 KHz</item>
+    <item>100 KHz</item>
+    <item>200 KHz</item>
   </string-array>
 </resources>
