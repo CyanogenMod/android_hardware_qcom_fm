@@ -29,5 +29,72 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">FM Radio</string>
+  <string name="tx_app_name">Máy phát FM</string>
+  <string name="menu_scan_start">Dò kênh</string>
+  <string name="menu_scan_stop">Dừng dò kênh</string>
+  <string name="menu_record_start">Thu âm</string>
+  <string name="menu_record_stop">Dừng ghi âm</string>
   <string name="menu_settings">Cài đặt</string>
+  <string name="menu_sleep">Ngủ</string>
+  <string name="menu_sleep_cancel">Hủy chế độ ngủ</string>
+  <string name="menu_all_channels">Tất cả kênh</string>
+  <string name="menu_display_tags">Hiện thẻ</string>
+  <string name="button_text_stop">Dừng</string>
+  <string name="msg_seeking">Đang tìm đài FM\u2026</string>
+  <string name="msg_scanning">Đang dò tất cả các kênh FM\u2026</string>
+  <string name="msg_scanning_pty">Đang dò \'<xliff:g id="pty_name">%1$s</xliff:g>\'\u2026</string>
+  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
+  <string name="msg_searching_title">Tự chọn cài đặt sẵn</string>
+  <string name="msg_searching">Đang tìm các đài mạnh để tạo danh sách cài đặt sẵn\u2026</string>
+  <string name="msg_noantenna">Hãy cắm tai nghe để sử dụng FM radio</string>
+  <string name="dialog_sleep_title">Thời gian tự động ngủ</string>
+  <string name="presetlist_select_name">Chọn \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="presetlist_add_new">Thêm danh sách mới</string>
+  <string name="dialog_presetlist_rename_title">Nhập tên</string>
+  <string name="presetlist_autoselect_title">Xác nhận tự động lựa chọn</string>
+  <string name="preset_replace">Thay thế</string>
+  <string name="preset_tune">Dò đài</string>
+  <string name="preset_rename">Đổi tên</string>
+  <string name="preset_delete">Xóa</string>
+  <string name="preset_search">Tìm kiếm \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
+  <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
+  <string name="regional_band">Ban nhạc khu vực</string>
+  <string name="aud_output_mode">Chế độ âm thanh đầu ra</string>
+  <string name="audio_type_stereo">Âm thanh nổi</string>
+  <string name="audio_type_mono">Âm thanh đơn</string>
+  <string name="record_dur">Thời gian ghi âm</string>
+  <string name="auto_select_af">Tần số thay thế</string>
+  <string name="settings_revert_defaults_title">Trở lại mặc định nhà sản xuất</string>
+  <string name="settings_revert_defaults_summary">Đặt lại tất cả cài đặt</string>
+  <string name="settings_revert_confirm_title">Xác nhận đặt lại</string>
+  <string name="settings_revert_confirm_msg">Điều này sẽ xoá tất cả cài đặt ứng dụng, bao gồm cả cài đặt đã lưu trước. Tiếp tục?</string>
+  <string name="no_storage">Kết nối thẻ nhớ trước khi bắt đầu ghi âm.</string>
+  <string name="preparing_sd">Đang chuẩn bị thẻ nhớ\u2026</string>
+  <string name="access_sd_fail">Không thể truy cập thẻ nhớ.</string>
+  <string name="spaceIsLow_content">Thẻ nhớ của bạn sắp hết dung lượng. Thay đổi cài đặt chất lượng hoặc xóa một số tệp khác để giải phóng dung lượng.</string>
+  <string name="menu_scan_for_preset">Quét cài sẵn</string>
+  <string name="fm_off">FM bị tắt.</string>
+  <string name="fm_call">FM không thể được sử dụng trong khi gọi điện thoại.</string>
+  <string name="alert_dialog_hint">Nhập tên</string>
+  <string name="search_dialog_title">Quét trạm</string>
+  <string name="fm_command_timeout_title">Thời gian chờ</string>
+  <string name="fm_tune_timeout_msg">Không nhận được phản hồi nào để điều chỉnh đài FM. Nếu vẫn tiếp tục xảy ra sự cố, vui lòng tắt FM và quay lại.</string>
+  <string name="fm_command_failed_title">Thao tác FM không thành công</string>
+  <string name="fm_cmd_failed_msg">Thao tác FM không thành công. Nếu vẫn tiếp tục xảy ra vấn đề, vui lòng tắt FM và quay lại.</string>
+  <string name="fm_cmd_failed_msg_hdmi">Thao tác FM không thành công. Truy cập đồng thời FM và HDMI không được hỗ trợ.</string>
+  <string name="fm_cmd_failed_call_on">Thao tác FM không thành công. Âm thanh FM không được cho phép trong suốt cuộc gọi.</string>
+  <string name="station_name">Đài:</string>
+  <string name="station_exists">Tần số này đã tồn tại!</string>
+  <string name="station_list_delete_station">Xóa: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">Bạn có chắc chắn muốn xóa \'<xliff:g id="name">%s</xliff:g>\'?</string>
+  <string name="station_name_empty">Tên đài trống, vui lòng nhập lại.</string>
+  <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' đang được sử dụng, vui lòng nhập tên khác.</string>
+  <string name="rt_plus_tags">Thẻ</string>
+  <string name="usr_def_band_min">Tần số thấp nhất (MHz)</string>
+  <string name="usr_def_band_max">Tần số cao nhất (MHz)</string>
+  <string name="chanl_spacing">Khoảng cách giữa các kênh</string>
+  <string name="set">Thiết đặt</string>
+  <string name="user_defind_band_msg">Nhập tần số từ 76.0 đến 108.0 MHz với khoảng cách giữa các kênh tối thiểu là 1</string>
+  <string name="fm_search_no_results">Không tìm thấy đài tương thích</string>
 </resources>

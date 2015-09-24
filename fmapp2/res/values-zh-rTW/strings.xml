@@ -74,6 +74,8 @@
   <string name="access_sd_fail">無法存取 SD 卡。</string>
   <string name="spaceIsLow_content">您的 SD 卡儲存空間即將用完，更改品質設定或刪除一些檔案即可增加可用空間。</string>
   <string name="menu_scan_for_preset">掃描預設</string>
+  <string name="fm_off">收音機已關閉。</string>
+  <string name="fm_call">收音機不能在通話時使用</string>
   <string name="alert_dialog_hint">輸入名稱 </string>
   <string name="search_dialog_title">掃描電台</string>
   <string name="fm_command_timeout_title">超時</string>
@@ -82,6 +84,7 @@
   <string name="fm_cmd_failed_msg">FM 操作失敗。如果問題仍然持續，請關閉 FM，並將其重新打開。</string>
   <string name="fm_cmd_failed_msg_hdmi">FM 操作失敗。不支援 FM和 HDMI 併頻 。 </string>
   <string name="fm_cmd_failed_call_on">FM 操作失敗。通話期間禁止 FM 音訊。</string>
+  <string name="station_name">電台:</string>
   <string name="station_exists">此頻率已存在！</string>
   <string name="station_list_delete_station">刪除：<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">您確定要刪除「<xliff:g id="name">%s</xliff:g>」？</string>
@@ -93,4 +96,5 @@
   <string name="chanl_spacing">頻道間距</string>
   <string name="set">設定</string>
   <string name="user_defind_band_msg">輸入從 76.0 至 108.0 MHz 中最少有一個頻道為間隔的頻率。</string>
+  <string name="fm_search_no_results">找不到相容的電台頻道</string>
 </resources>
