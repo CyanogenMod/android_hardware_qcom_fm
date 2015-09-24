@@ -34,7 +34,7 @@
   <string name="access_sd_fail">Dostop do kartice SD ni bil mogoč.</string>
   <string name="spaceIsLow_content">Na kartici SD primanjkuje prostora. Spremenite nastavitve kakovosti ali izbrišite nekaj slik ali drugih datotek.</string>
   <string name="FMRecording_reach_size_limit">Dosežena omejitev velikosti.</string>
-  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <string name="audio_db_title_format"><xliff:g id="format">dd.MM.yyyy HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">Moji posnetki FM</string>
   <string name="audio_db_album_name">Posnetki FM</string>
   <string name="audio_db_playlist_name">Posnetki FM</string>
