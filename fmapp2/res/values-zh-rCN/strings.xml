@@ -95,7 +95,7 @@
   <string name="usr_def_band_max">最高频率(兆赫)</string>
   <string name="chanl_spacing">频道间隔</string>
   <string name="set">设置</string>
-  <string name="user_defind_band_msg">输入从 760 至 108.0 兆赫频率，最低包含 1 频道间隔</string>
+  <string name="user_defind_band_msg">输入从 76.0 至 108.0 兆赫频率，最低包含 1 频道间隔</string>
   <string name="fm_search_no_results">没有找到兼容的电台</string>
 
   <!-- program types -->
