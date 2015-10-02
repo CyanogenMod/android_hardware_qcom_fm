@@ -144,6 +144,7 @@ public class Settings extends PreferenceActivity implements
            mUserBandMinPref.getEditText().setInputType(InputType.TYPE_CLASS_NUMBER |
                                                         InputType.TYPE_NUMBER_FLAG_DECIMAL);
            mUserBandMinPref.setDialogTitle(R.string.usr_def_band_min);
+           mUserBandMinPref.getEditText().setSelectAllOnFocus(true);
 
            mUserBandMaxPref = new EditTextPreference(this);
            mUserBandMaxPref.setKey(USER_DEFINED_BAND_MAX_KEY);
@@ -151,6 +152,7 @@ public class Settings extends PreferenceActivity implements
            mUserBandMaxPref.setDialogTitle(R.string.usr_def_band_max);
            mUserBandMaxPref.getEditText().setInputType(InputType.TYPE_CLASS_NUMBER |
                                                         InputType.TYPE_NUMBER_FLAG_DECIMAL);
+           mUserBandMaxPref.getEditText().setSelectAllOnFocus(true);
 
            setBandSummary(index);
 
@@ -331,14 +333,10 @@ public class Settings extends PreferenceActivity implements
                if((freq > 0) && (freq < max_freq) && (freq >= 76000) && (noOfChannels > 0)) {
                   FmSharedPreferences.setLowerLimit((int)freq);
                   sendSettingsChangedIntent(FM_BAND_CHANGED);
-                  setBandSummary(summaryBandItems.length - 1);
+                  setBandSummary(FmSharedPreferences.REGIONAL_BAND_USER_DEFINED);
                   clearStationList();
                }else {
-                  if ((Locale.getDefault().toString().equals("zh_HK")))
-                      Toast.makeText(this,"請輸入有效的頻道範圍76.0-108.0",
-                                                            Toast.LENGTH_SHORT).show();
-                  else
-                      Toast.makeText(this, getString(R.string.user_defind_band_msg),
+                  Toast.makeText(this, getString(R.string.user_defind_band_msg),
                                                             Toast.LENGTH_SHORT).show();
                }
            }else if(key.equals(USER_DEFINED_BAND_MAX_KEY)) {
@@ -357,14 +355,10 @@ public class Settings extends PreferenceActivity implements
                if((freq > 0) && (freq > min_freq) && (freq <= 108000) && (noOfChannels > 0)) {
                   FmSharedPreferences.setUpperLimit((int)freq);
                   sendSettingsChangedIntent(FM_BAND_CHANGED);
-                  setBandSummary(summaryBandItems.length - 1);
+                  setBandSummary(FmSharedPreferences.REGIONAL_BAND_USER_DEFINED);
                   clearStationList();
                }else {
-                  if ((Locale.getDefault().toString().equals("zh_HK")))
-                      Toast.makeText(this,"請輸入有效的頻道範圍76.0-108.0",
-                                                            Toast.LENGTH_SHORT).show();
-                  else
-                      Toast.makeText(this, getString(R.string.user_defind_band_msg),
+                  Toast.makeText(this, getString(R.string.user_defind_band_msg),
                                                             Toast.LENGTH_SHORT).show();
                }
           }else {
