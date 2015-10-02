@@ -74,6 +74,8 @@
   <string name="access_sd_fail">SD karta müraciət edə bilmədi.</string>
   <string name="spaceIsLow_content">SD kart saxlama sahəsində yer azalır. Keyfiyyət tənzimləmələrini dəyişin və ya yer eləmək üçün bəzi faylları silin.</string>
   <string name="menu_scan_for_preset">Öntərtibli siyahıları tədqiq et</string>
+  <string name="fm_off">FM bağlanıldı.</string>
+  <string name="fm_call">FM zəng zamanı istifadə edilə bilməz.</string>
   <string name="alert_dialog_hint">Ad daxil edin</string>
   <string name="search_dialog_title">Stansiyaların tədqiqi</string>
   <string name="fm_command_timeout_title">Qoyulan vaxt</string>
@@ -82,6 +84,7 @@
   <string name="fm_cmd_failed_msg">FM əməliyyatı baş tutmadı. Əgər problem davam edərsə, zəhmət olmasa FM\'i bağlayıb yenidən açın.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM əməliyyatı baş tutmadı. FM və HDMI\'ın eyni vaxtda işləməsi dəstəklənmir.</string>
   <string name="fm_cmd_failed_call_on">FM əməliyyatı baş tutmadı. FM səsinə zəng vaxtı icazə verilmir.</string>
+  <string name="station_name">Stansiya:</string>
   <string name="station_exists">Bu tezlik artıq mövcuddur!</string>
   <string name="station_list_delete_station">Sil: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">\'<xliff:g id="name">%s</xliff:g>\' stansiyasını silmək istədiyinizə əminsiniz?</string>
@@ -93,4 +96,5 @@
   <string name="chanl_spacing">Kanal aralığı</string>
   <string name="set">Tənzimlə</string>
   <string name="user_defind_band_msg">Ən az 1 kanal aralığı ilə 76.0 - 108.0 MHz arası tezlik daxil edin</string>
+  <string name="fm_search_no_results">Uyğun stansiyalar tapılmadı</string>
 </resources>
