@@ -30,4 +30,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="menu_settings">Ynstellingen</string>
+  <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' selektearje</string>
+  <string name="presetlist_add_new">Nije list tafoegje</string>
+  <string name="preset_rename">Omneame</string>
+  <string name="preset_delete">Fuortsmite</string>
+  <string name="regional_band">Regionale band</string>
+  <string name="audio_type_stereo">Stereo</string>
+  <string name="station_list_delete_station">Fuortsmite: <xliff:g id="name">%s</xliff:g></string>
+  <string name="typ_All_stations">All stations</string>
+  <string name="typ_Emergency">Emergency</string>
+  <string name="typ_Emergency_test">Emergency test</string>
+  <string name="typ_Information">Information</string>
+  <string name="typ_News">News</string>
+  <string name="typ_Weather">Weather</string>
+  <string name="typ_Adult_hits">Adult hits</string>
+  <string name="typ_Classical">Classical</string>
+  <string name="typ_Classic_Rock">Classic Rock</string>
+  <string name="typ_College">College</string>
+  <string name="typ_Foreign_language">Foreign language</string>
+  <string name="typ_Nostalgia">Nostalgia</string>
+  <string name="typ_Personality">Personality</string>
+  <string name="typ_Public">Public</string>
+  <string name="typ_Religious_music">Religious music</string>
+  <string name="typ_Religious_talk">Religious talk</string>
+  <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
+  <string name="typ_Soft">Soft</string>
+  <string name="typ_Soft_Rock">Soft Rock</string>
+  <string name="typ_Soft_Rhythm_and_Blues">Soft Rhythm and Blues</string>
+  <string name="typ_Sports">Sports</string>
+  <string name="typ_Talk">Talk</string>
+  <string name="typ_Top_40">Top 40</string>
 </resources>
