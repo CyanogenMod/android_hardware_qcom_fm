@@ -29,59 +29,72 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-  <!-- program types -->
-  <!-- RBDS (North America) -->
-    <string name="typ_Adult_hits">Stari hitovi</string>
-    <string name="typ_Classical">Klasika</string>
-    <string name="typ_Classic_Rock">Klasični rock</string>
-    <string name="typ_College">Koledž</string>
-    <string name="typ_Foreign_language">Strani jezik</string>
-    <string name="typ_Nostalgia">Nostalgija</string>
-    <string name="typ_Personality">Osobnost</string>
-    <string name="typ_Public">Javne</string>
-    <string name="typ_Religious_music">Religiozna glazba</string>
-    <string name="typ_Religious_talk">Religiozni govor</string>
-    <string name="typ_Rhythm_and_Blues">Ritam i Blues</string>
-    <string name="typ_Soft">Lagano</string>
-    <string name="typ_Soft_Rock">Lagani Rock</string>
-    <string name="typ_Soft_Rhythm_and_Blues">Lagani Ritam i Blues</string>
-    <string name="typ_Sports">Sport</string>
-    <string name="typ_Talk">Govor</string>
-    <string name="typ_Top_40">Top 40</string>
-
-  <!-- RDS (Europe) -->
-    <string name="typ_All_stations">Sve stanice</string>
-    <string name="typ_Culture">Kultura</string>
-    <string name="typ_Current_affairs">Aktualno</string>
-    <string name="typ_Children">Dječji program</string>
-    <string name="typ_Country">Seoska glazba</string>
-    <string name="typ_Documentary">Dokumentarno</string>
-    <string name="typ_Drama">Drama</string>
-    <string name="typ_Easy_listening">Lako slušljiva glazba</string>
-    <string name="typ_Education">Edukacija</string>
-    <string name="typ_Emergency">Hitno</string>
-    <string name="typ_Emergency_test">Hitni test</string>
-    <string name="typ_Finance">Financije</string>
-    <string name="typ_Folk">Narodna glazba</string>
-    <string name="typ_Information">Informacije</string>
-    <string name="typ_Jazz">Jazz glazba</string>
-    <string name="typ_Light_classical">Blaga klasika</string>
-    <string name="typ_Leisure">Slobodno vrijeme</string>
-    <string name="typ_News">Novosti</string>
-    <string name="typ_National">Nacionalna glazba</string>
-    <string name="typ_Other">Ostala glazba</string>
-    <string name="typ_Oldies">Stara glazba</string>
-    <string name="typ_Phone_in">Telefonski ulaz</string>
-    <string name="typ_Pop">Pop glazba</string>
-    <string name="typ_Religion">Religija</string>
-    <string name="typ_Rock">Rock glazba</string>
-    <string name="typ_Science">Znanost</string>
-    <string name="typ_Serious_classical">Ozbiljna klasika</string>
-    <string name="typ_Social_affairs">Socijalne stvari</string>
-    <string name="typ_Sport">Sport</string>
-    <string name="typ_Travel">Putovanje</string>
-    <string name="typ_Varied">Raznoliko</string>
-    <string name="typ_Weather">Vrijeme</string>
-
+  <string name="app_name">FM radio</string>
+  <string name="tx_app_name">FM odašiljač</string>
+  <string name="menu_scan_start">Pretraži</string>
+  <string name="menu_all_channels">Sve postaje</string>
+  <string name="msg_searching_title">Automatski odabirem početne</string>
+  <string name="msg_noantenna">Molimo prikopčajte slušalice kako biste koristili FM radio</string>
+  <string name="presetlist_select_name">Odaberite \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
+  <string name="preset_replace">Zamijeni</string>
+  <string name="preset_search">Traži \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
+  <string name="aud_output_mode">Način izlaza zvuka</string>
+  <string name="settings_revert_defaults_title">Vrati na tvorničke postavke</string>
+  <string name="settings_revert_confirm_title">Potvrdite resetiranje</string>
+  <string name="preparing_sd">Priprema SD kartice…</string>
+  <string name="access_sd_fail">Nije moguć pristup SD kartici.</string>
+  <string name="menu_scan_for_preset">Pretraži pretkonfigurirane stavke</string>
+  <string name="search_dialog_title">Pretraži stanice</string>
+  <string name="fm_command_timeout_title">Vremenski istek</string>
+  <string name="station_name">Stanica:</string>
+  <string name="user_defind_band_msg">Unesite frekvenciju od 76.0 108.0 MHz sa minimalno 1 postajom razmaka</string>
+  <string name="typ_All_stations">Sve stanice</string>
+  <string name="typ_Culture">Kultura</string>
+  <string name="typ_Current_affairs">Aktualno</string>
+  <string name="typ_Children">Dječji program</string>
+  <string name="typ_Country">Seoska glazba</string>
+  <string name="typ_Documentary">Dokumentarno</string>
+  <string name="typ_Drama">Drama</string>
+  <string name="typ_Easy_listening">Lako slušljiva glazba</string>
+  <string name="typ_Education">Edukacija</string>
+  <string name="typ_Emergency">Hitno</string>
+  <string name="typ_Emergency_test">Hitni test</string>
+  <string name="typ_Finance">Financije</string>
+  <string name="typ_Folk">Narodna glazba</string>
+  <string name="typ_Information">Informacije</string>
+  <string name="typ_Jazz">Jazz glazba</string>
+  <string name="typ_Light_classical">Blaga klasika</string>
+  <string name="typ_Leisure">Slobodno vrijeme</string>
+  <string name="typ_News">Novosti</string>
+  <string name="typ_National">Nacionalna glazba</string>
+  <string name="typ_Other">Ostala glazba</string>
+  <string name="typ_Oldies">Stara glazba</string>
+  <string name="typ_Phone_in">Telefonski ulaz</string>
+  <string name="typ_Pop">Pop glazba</string>
+  <string name="typ_Religion">Religija</string>
+  <string name="typ_Rock">Rock glazba</string>
+  <string name="typ_Science">Znanost</string>
+  <string name="typ_Serious_classical">Ozbiljna klasika</string>
+  <string name="typ_Social_affairs">Socijalne stvari</string>
+  <string name="typ_Sport">Sport</string>
+  <string name="typ_Travel">Putovanje</string>
+  <string name="typ_Varied">Raznoliko</string>
+  <string name="typ_Weather">Vrijeme</string>
+  <string name="typ_Adult_hits">Stari hitovi</string>
+  <string name="typ_Classical">Klasika</string>
+  <string name="typ_Classic_Rock">Klasični rock</string>
+  <string name="typ_College">Koledž</string>
+  <string name="typ_Foreign_language">Strani jezik</string>
+  <string name="typ_Nostalgia">Nostalgija</string>
+  <string name="typ_Personality">Osobnost</string>
+  <string name="typ_Public">Javne</string>
+  <string name="typ_Religious_music">Religiozna glazba</string>
+  <string name="typ_Religious_talk">Religiozni govor</string>
+  <string name="typ_Rhythm_and_Blues">Ritam i Blues</string>
+  <string name="typ_Soft">Lagano</string>
+  <string name="typ_Soft_Rock">Lagani Rock</string>
+  <string name="typ_Soft_Rhythm_and_Blues">Lagani Ritam i Blues</string>
+  <string name="typ_Sports">Sport</string>
+  <string name="typ_Talk">Govor</string>
+  <string name="typ_Top_40">Top 40</string>
 </resources>
