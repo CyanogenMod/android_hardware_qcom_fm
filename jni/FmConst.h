@@ -44,7 +44,11 @@ const UINT CAL_DATA_SIZE = 23;
 #define STD_BUF_SIZE  256
 
 const char *const FM_PERFORMANCE_PARAMS = "/etc/fm/fm_srch_af_th.conf";
+#ifdef FM_LEGACY_PATCHLOADER
+const char *const CALIB_DATA_NAME = "/data/app/Riva_fm_cal";
+#else
 const char *const CALIB_DATA_NAME = "/data/misc/fm/Riva_fm_cal";
+#endif
 
 #define V4L2_CTRL_CLASS_USER  0x00980000
 #define V4L2_CID_BASE  (V4L2_CTRL_CLASS_USER | 0x900)

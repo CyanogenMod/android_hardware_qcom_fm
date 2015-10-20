@@ -23,5 +23,9 @@ ifeq ($(TARGET_QCOM_NO_FM_FIRMWARE),true)
     LOCAL_CFLAGS += -DQCOM_NO_FM_FIRMWARE
 endif
 
+ifeq ($(TARGET_FM_LEGACY_PATCHLOADER),true)
+    LOCAL_CFLAGS += -DFM_LEGACY_PATCHLOADER
+endif
+
 include $(BUILD_SHARED_LIBRARY)
 endif # is-vendor-board-platform
