@@ -45,69 +45,6 @@
     <item>45 minuti</item>
     <item>1 ora</item>
   </string-array>
-  <string-array name="search_category_rbds_entries">
-    <item>Tutte le Stazioni</item>
-    <item>Hits adulti</item>
-    <item>Classica</item>
-    <item>Rock classico</item>
-    <item>College</item>
-    <item>Country</item>
-    <item>Emergenza</item>
-    <item>Test emergenza</item>
-    <item>Lingua straniera</item>
-    <item>Informazione</item>
-    <item>Jazz</item>
-    <item>Novità</item>
-    <item>Nostalgia</item>
-    <item>Vecchie</item>
-    <item>Personalità</item>
-    <item>Pubblica</item>
-    <item>Musica religiosa</item>
-    <item>Discussione religiosa</item>
-    <item>Rhythm e Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft rock</item>
-    <item>Soft Rhythm e Blues</item>
-    <item>Sport</item>
-    <item>Conversazione</item>
-    <item>Top 40</item>
-    <item>Meteo</item>
-  </string-array>
-  <string-array name="search_category_rds_entries">
-    <item>Tutte le stazioni</item>
-    <item>Cultura</item>
-    <item>Attualità</item>
-    <item>Programmi per bambini</item>
-    <item>Musica country</item>
-    <item>Documentari</item>
-    <item>Drammi</item>
-    <item>Musica da intrattenimento</item>
-    <item>Educazione</item>
-    <item>Emergenza</item>
-    <item>Test di emergenza</item>
-    <item>Finanza</item>
-    <item>Musica folk</item>
-    <item>Informazione</item>
-    <item>Musica jazz</item>
-    <item>Musica classica leggera</item>
-    <item>Tempo libero</item>
-    <item>Notizie</item>
-    <item>Musica nazionale</item>
-    <item>Altra musica</item>
-    <item>Vecchie canzoni</item>
-    <item>Con telefonate</item>
-    <item>Musica pop</item>
-    <item>Religione</item>
-    <item>Musica rock</item>
-    <item>Scienza</item>
-    <item>Musica classica</item>
-    <item>Questioni sociali</item>
-    <item>Sport</item>
-    <item>Viaggi</item>
-    <item>Varie</item>
-    <item>Tempo</item>
-  </string-array>
   <string-array name="regional_band_entries">
     <item>Nord America</item>
     <item>Europa</item>
