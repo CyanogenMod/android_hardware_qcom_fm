@@ -210,6 +210,7 @@ public class FMRadioService extends Service
    private boolean mIsRecordSink = false;
    private static final int AUDIO_FRAMES_COUNT_TO_IGNORE = 3;
    private Object mRecordSinkLock = new Object();
+   private boolean mIsFMDeviceLoopbackActive = false;
 
    private Notification.Builder mRadioNotification;
    private Notification mNotificationInstance;
@@ -375,7 +376,7 @@ public class FMRadioService extends Service
 
    private synchronized void stopRecordSink() {
         Log.d(LOGTAG, "stopRecordSink");
-        mRecordSinkLock = false;
+        mIsRecordSink = false;
         synchronized (mRecordSinkLock) {
             mRecordSinkLock.notify();
         }
@@ -468,6 +469,57 @@ public class FMRadioService extends Service
                     mAudioTrack.stop();
                 }
             }
+        }
+    }
+
+    private boolean configureFMDeviceLoopback(boolean enable) {
+        boolean success = true;
+        int status = AudioSystem.SUCCESS;
+
+        Log.d(LOGTAG, "configureFMDeviceLoopback enable:" + enable +
+              " DeviceLoopbackActive:" + mIsFMDeviceLoopbackActive);
+        if (enable && mIsFMDeviceLoopbackActive == false) {
+            status = AudioSystem.setDeviceConnectionState(AudioSystem.DEVICE_OUT_FM,
+                                          AudioSystem.DEVICE_STATE_AVAILABLE, "", "");
+            if (status != AudioSystem.SUCCESS) {
+                success = false;
+                Log.e(LOGTAG, "configureFMDeviceLoopback failed! status:" + status);
+                AudioSystem.setDeviceConnectionState(AudioSystem.DEVICE_OUT_FM,
+                                     AudioSystem.DEVICE_STATE_UNAVAILABLE, "", "");
+            } else {
+                mIsFMDeviceLoopbackActive = true;
+            }
+        } else if (!enable && mIsFMDeviceLoopbackActive == true) {
+            AudioSystem.setDeviceConnectionState(AudioSystem.DEVICE_OUT_FM,
+                                 AudioSystem.DEVICE_STATE_UNAVAILABLE, "", "");
+            mIsFMDeviceLoopbackActive = false;
+        }
+
+        return success;
+    }
+
+    private synchronized void configureAudioDataPath(boolean enable) {
+        Log.d(LOGTAG, "configureAudioDataPath:" + enable +
+                      " mA2dpConnected:" + mA2dpConnected +
+                      " isRecordSinking" + isRecordSinking() +
+                      " mIsFMDeviceLoopbackActive:" + mIsFMDeviceLoopbackActive);
+        if (enable) {
+            // stop existing playback path before starting new one
+            if (mA2dpConnected && mIsFMDeviceLoopbackActive) {
+                // on BT but earlier device loopback is active
+                configureFMDeviceLoopback(false);
+            } else if (!mA2dpConnected && !mIsFMDeviceLoopbackActive) {
+                // not on BT and device loop is also not active
+                exitRecordSinkThread();
+                configureFMDeviceLoopback(true);
+            }
+
+            // start app thread if none of the path started yet
+            if (!mIsFMDeviceLoopbackActive && !isRecordSinking())
+                startRecordSink();
+        } else {
+            configureFMDeviceLoopback(false);
+            exitRecordSinkThread();
         }
     }
 
@@ -577,6 +629,7 @@ public class FMRadioService extends Service
                             mA2dpDisconnected = false;
                             mA2dpConnected = true;
                         }
+                        configureAudioDataPath(true);
                     } else if (action.equals("HDMI_CONNECTED")) {
                         //FM should be off when HDMI is connected.
                         fmOff();
@@ -599,6 +652,9 @@ public class FMRadioService extends Service
 
                 }
             };
+            AudioManager am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+            mA2dpConnected = am.isBluetoothA2dpOn();
+            mA2dpDisconnected = !mA2dpConnected;
             IntentFilter iFilter = new IntentFilter();
             iFilter.addAction(Intent.ACTION_HEADSET_PLUG);
             iFilter.addAction(mA2dpDeviceState.getActionSinkStateChangedString());
@@ -1058,14 +1114,13 @@ public class FMRadioService extends Service
                AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_NONE);
            }
        }
-       startRecordSink();
        mPlaybackInProgress = true;
+       configureAudioDataPath(true);
    }
 
    private void stopFM(){
        Log.d(LOGTAG, "In stopFM");
-       stopRecordSink();
-       exitRecordSinkThread();
+       configureAudioDataPath(false);
        mPlaybackInProgress = false;
    }
 
