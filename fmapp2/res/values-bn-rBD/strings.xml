@@ -34,19 +34,15 @@
   <string name="menu_scan_start">স্ক্যান</string>
   <string name="menu_scan_stop">অনুসন্ধান বন্ধ</string>
   <string name="menu_record_stop">রেকর্ডিং বন্ধ করুন</string>
-  <string name="menu_settings">রুপান্তর নির্ধারণ</string>
   <string name="menu_sleep">স্লিপ</string>
   <string name="menu_sleep_cancel">স্লিপ বাতিল</string>
   <string name="menu_all_channels">সমস্ত চ্যানেল</string>
   <string name="menu_display_tags">ট্যাগ প্রদর্শন</string>
-  <string name="button_text_stop">বন্ধ</string>
   <string name="msg_noantenna">এফএম বেতার ব্যবহার করতে অনুগ্রহ করে হেডসেট যুক্ত করুন</string>
   <string name="presetlist_select_name">\'<xliff:g id="presetlist_name"> %1$s\' </xliff:g>\' নির্বাচন</string>
   <string name="presetlist_add_new">নতুন তালিকায় যুক্ত</string>
-  <string name="preset_replace">প্রতিস্থাপন করুন</string>
   <string name="preset_tune">টিউন</string>
   <string name="preset_rename">পুনঃনামকরণ</string>
-  <string name="preset_delete">মুছে ফেলুন</string>
   <string name="preset_search">\'<xliff:g id="preset_pi">%1$s</xliff:g>\' এর জন্যে অনুসন্ধান</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' মেগাহার্টজ</string>
   <string name="regional_band">আঞ্চলিক ব্যান্ড</string>
@@ -73,59 +69,4 @@
   <string name="station_name_empty">কেন্দ্রের নাম খালি, দয়া করে আবার নামটি লিখুন।</string>
   <string name="rt_plus_tags">ট্যাগস</string>
   <string name="chanl_spacing">চ্যানেল ব্যবধান</string>
-
-  <!-- program types -->
-  <!-- RBDS (North America) -->
-    <string name="typ_Weather">আবহাওয়া</string>
-    <string name="typ_Adult_hits">প্রাপ্তবয়স্কের কাছে জনপ্রিয়</string>
-    <string name="typ_Classical">ধ্রুপদী</string>
-    <string name="typ_Classic_Rock">ক্লাসিক রক</string>
-    <string name="typ_College">কলেজ</string>
-    <string name="typ_Foreign_language">বিদেশী ভাষা</string>
-    <string name="typ_Nostalgia">নষ্টালজিক</string>
-    <string name="typ_Personality">ব্যক্তিত্ব</string>
-    <string name="typ_Public">পাবলিক</string>
-    <string name="typ_Religious_music">ধর্মীয় সংগীত</string>
-    <string name="typ_Religious_talk">ধর্মীয় আলোচনা</string>
-    <string name="typ_Rhythm_and_Blues">রিদম এ্যান্ড ব্লুজ</string>
-    <string name="typ_Soft">নমনীয়</string>
-    <string name="typ_Soft_Rock">হাল্কা রক</string>
-    <string name="typ_Soft_Rhythm_and_Blues">হাল্কা রিদম এ্যান্ড ব্লুজ</string>
-    <string name="typ_Sports">ক্রীড়া</string>
-    <string name="typ_Talk">আলোচনা</string>
-    <string name="typ_Top_40">শীর্ষ ৪০</string>
-
-  <!-- RDS (Europe) -->
-    <string name="typ_All_stations">সমস্ত কেন্দ্র</string>
-    <string name="typ_Culture">সংস্কৃতি</string>
-    <string name="typ_Current_affairs">সাম্প্রতিক ঘটনাবলী</string>
-    <string name="typ_Children">শিশুদের অনুষ্ঠান</string>
-    <string name="typ_Country">দেশের গান</string>
-    <string name="typ_Documentary">প্রামাণ্যচিত্র</string>
-    <string name="typ_Drama">নাটক</string>
-    <string name="typ_Easy_listening">সহজতর শ্রবণ সঙ্গীত</string>
-    <string name="typ_Education">শিক্ষা</string>
-    <string name="typ_Emergency">জরুরী</string>
-    <string name="typ_Emergency_test">জরুরী পরীক্ষা</string>
-    <string name="typ_Finance">অর্থব্যবস্থা</string>
-    <string name="typ_Folk">লোক সঙ্গীত</string>
-    <string name="typ_Information">তথ্য</string>
-    <string name="typ_Jazz">জ্যাজ সঙ্গীত</string>
-    <string name="typ_Light_classical">হালকা ধ্রুপদী</string>
-    <string name="typ_Leisure">অবসর বিনোদনের</string>
-    <string name="typ_News">সংবাদ</string>
-    <string name="typ_National">জাতীয় সঙ্গীত</string>
-    <string name="typ_Other">অন্যান্য সঙ্গীত</string>
-    <string name="typ_Oldies">ওল্ডিজ সংগীত</string>
-    <string name="typ_Phone_in">ফোন ইন</string>
-    <string name="typ_Pop">পপ সংগীত</string>
-    <string name="typ_Religion">ধর্ম</string>
-    <string name="typ_Rock">রক সংগীত</string>
-    <string name="typ_Science">বিজ্ঞান</string>
-    <string name="typ_Serious_classical">গুরুতর ধ্রুপদী</string>
-    <string name="typ_Social_affairs">সামাজিক বিষয়াবলি</string>
-    <string name="typ_Sport">খেলাধুলা</string>
-    <string name="typ_Travel">ভ্রমণ</string>
-    <string name="typ_Varied">বিবিধ</string>
-
 </resources>
