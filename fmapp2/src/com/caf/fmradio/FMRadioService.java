@@ -885,13 +885,6 @@ public class FMRadioService extends Service
       /* Application/UI is not attached, so go into lower power mode */
       unregisterCallbacks();
       setLowPowerMode(true);
-      if (isFmOn())
-      {
-         // something is currently playing, or will be playing once
-         // an in-progress call ends, so don't stop the service now.
-         return true;
-      }
-      stopSelf(mServiceStartId);
       return true;
    }
 
