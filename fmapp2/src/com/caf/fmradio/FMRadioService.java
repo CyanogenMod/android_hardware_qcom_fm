@@ -1181,11 +1181,12 @@ public class FMRadioService extends Service
         }
 
         mSampleFile = null;
-        File sampleDir = getExternalCacheDir();
-
+        File sampleDir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() +"/FMRecording");
+        if(!(sampleDir.mkdirs() || sampleDir.isDirectory()))
+            return false;
         try {
-            mSampleFile = new File(sampleDir, "FMRecording.aac");
-            mSampleFile.createNewFile();
+            mSampleFile = File
+                    .createTempFile("FMRecording", ".aac", sampleDir);
         } catch (IOException e) {
             Log.e(LOGTAG, "Not able to access SD Card");
             Toast.makeText(this, "Not able to access SD Card", Toast.LENGTH_SHORT).show();
@@ -1279,17 +1280,6 @@ public class FMRadioService extends Service
        Log.d(LOGTAG, "storage state is " + state);
 
        if (Environment.MEDIA_MOUNTED.equals(state)) {
-          File finalFile;
-          try {
-              finalFile = File.createTempFile("FMRecording", ".aac",
-                  Environment.getExternalStorageDirectory());
-              mSampleFile.renameTo(finalFile);
-              mSampleFile = finalFile;
-          } catch (IOException e) {
-              Log.e(LOGTAG, "Not able to access SD Card");
-              Toast.makeText(this, "Not able to access SD Card", Toast.LENGTH_SHORT).show();
-              e.printStackTrace();
-          }
           try {
                this.addToMediaDB(mSampleFile);
                Toast.makeText(this,getString(R.string.save_record_file,
