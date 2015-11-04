@@ -2661,7 +2661,7 @@ public class FMRadio extends Activity
 
    @Override
    public boolean onKeyDown(int keyCode, KeyEvent event) {
-       Log.d(LOGTAG, "KEY event received" + keyCode);
+       Log.d(LOGTAG, "KEY event received " + keyCode);
        switch (keyCode) {
            case KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE:
            case 126: //KeyEvent.KEYCODE_MEDIA_PLAY:
