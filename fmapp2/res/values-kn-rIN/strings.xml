@@ -35,12 +35,12 @@
   <string name="menu_scan_stop">ಹುಡುಕುವುದನ್ನು ನಿಲ್ಲಿಸಿ</string>
   <string name="menu_record_start">ರಿಕಾರ್ಡ್</string>
   <string name="menu_record_stop">ರಿಕಾರ್ಡಿಂಗ್ ನಿಲ್ಲಿಸಿ</string>
-  <string name="menu_settings">ಸೆಟ್ಟಿಂಗ್ಸ್</string>
+  <string name="menu_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
   <string name="menu_sleep">ಸ್ಲೀಪ್</string>
   <string name="menu_sleep_cancel">ಸ್ಲೀಪ್ ರದ್ದುಮಾಡಿ</string>
   <string name="menu_all_channels">ಎಲ್ಲಾ ಚಾನೆಲ್ಸ್</string>
   <string name="menu_display_tags">ಟ್ಯಾಗ್ಸ್ ಪ್ರದರ್ಶಿಸು</string>
-  <string name="button_text_stop">ನಿಲ್ಲಿಸು</string>
+  <string name="button_text_stop">ನಿಲ್ಲಿಸಿ</string>
   <string name="msg_seeking">ಎಫ್ಎಂ ಕೇಂದ್ರಗಳಿಗಾಗಿ ಹುಡುಕಲಾಗುತ್ತಿದೆ\u2026</string>
   <string name="msg_scanning">ಎಲ್ಲಾ ಎಫ್ಎಂ ಕೇದ್ರಗಳಿಗಾಗಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
   <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>\'ಗಾಗಿ ಹುಡುಕಲಾಗುತ್ತಿದೆ\u2026</string>
@@ -49,7 +49,7 @@
   <string name="msg_searching">ಪೂರ್ವನಿಗದಿಗಳ ಪಟ್ಟಿ ರಚಿಸಲು ಪ್ರಬಲ ಕೇಂದ್ರಗಳಿಗಾಗಿ ಹುಡುಕಲಾಗುತ್ತಿದೆ\u2026</string>
   <string name="msg_noantenna">ಎಫ್ಎಂ ರೇಡಿಯೋ ಉಪಯೋಗಿಸಲು ದಯವಿಟ್ಟು ಹೆಡ್‍ಸೆಟ್ ಪ್ಲಗ್ ಇನ್ ಮಾಡಿ</string>
   <string name="dialog_sleep_title">ಸ್ವಯಂ-ಆಫ್ ಸ್ಲೀಪ್ ಅವಧಿ</string>
-  <string name="presetlist_select_name">ಆಯ್ಕೆಮಾಡಿ \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
+  <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' ಆಯ್ಕೆಮಾಡಿ</string>
   <string name="presetlist_add_new">ಹೊಸ ಪಟ್ಟಿಯನ್ನು ಸೇರಿಸಿ</string>
   <string name="dialog_presetlist_rename_title">ಹೆಸರು ಬರೆಯಿರಿ</string>
   <string name="presetlist_autoselect_title">ಸ್ವಯಂ-ಆಯ್ಕೆ ಖಚಿತಪಡಿಸಿ</string>
@@ -61,8 +61,8 @@
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="regional_band">ಪ್ರಾದೇಶಿಕ ಬ್ಯಾಂಡ್</string>
   <string name="aud_output_mode">ಆಡಿಯೋ ಔಟ್‍ಪುಟ್ ಮೋಡ್</string>
-  <string name="audio_type_stereo">ಸ್ಟೀರಿಯೋ</string>
-  <string name="audio_type_mono">ಮೊನೊ</string>
+  <string name="audio_type_stereo">ಸ್ಟಿರಿಯೋ</string>
+  <string name="audio_type_mono">ಮೊನೊ</string>
   <string name="record_dur">ರಿಕಾರ್ಡ್ ಅವಧಿ</string>
   <string name="auto_select_af">ಪರ್ಯಾಯ ಆವರ್ತನ</string>
   <string name="settings_revert_defaults_title">ಫ್ಯಾಕ್ಟರಿ ಡೀಫಾಲ್ಟ್ಸ್ ಗೆ ಹಿಂತಿರುಗಿಸು</string>
@@ -79,7 +79,7 @@
   <string name="alert_dialog_hint">ಒಂದು ಹೆಸರನ್ನು ಬರೆಯಿರಿ</string>
   <string name="search_dialog_title">ಕೇಂದ್ರಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
   <string name="fm_command_timeout_title">ಅವಧಿಮುಗಿದಿದೆ</string>
-  <string name="fm_tune_timeout_msg">ಎಫ್ಎಂ ಸ್ಟೇಷನ್ ಟ್ಯೂನ್ ಮಾಡಲು ಯಾವುದೇ ಪ್ರತಿಕ್ರಿಯೆ ಸ್ವೀಕರಿಸಲಾಗಿಲ್ಲ. ತೊಂದರೆಯು ಹಾಗೇ ಇದ್ದಲ್ಲಿ, ದಯವಿಟ್ಟು ಎಫ್ಎಂ ಆಫ್ ಮಾಡಿ ಮತ್ತು ಪುನಃ ಆನ್ ಮಾಡಿ.</string>
+  <string name="fm_tune_timeout_msg">FM ಕೇಂದ್ರವನ್ನು ಟ್ಯೂನ್ ಮಾಡಲು ಯಾವುದೇ ಪ್ರತಿಕ್ರಿಯೆ ಸ್ವೀಕರಿಸಲಿಲ್ಲ. ತೊಂದರೆಯು ಹಾಗೇ ಇದ್ದಲ್ಲಿ, ದಯವಿಟ್ಟು FM ಆಫ್ ಮಾಡಿ ಮತ್ತು ಪುನಃ ಆನ್ ಮಾಡಿ.</string>
   <string name="fm_command_failed_title">ಎಫ್ಎಂ ಕಾರ್ಯಾಚರಣೆ ವಿಫಲಗೊಂಡಿದೆ</string>
   <string name="fm_cmd_failed_msg">ಎಫ್ಎಂ ಕಾರ್ಯಾಚರಣೆ ವಿಫಲಗೊಂಡಿದೆ. ತೊಂದರೆಯು ಹಾಗೇ ಇದ್ದಲ್ಲಿ, ದಯವಿಟ್ಟು ಎಫ್ಎಂ ಆಫ್ ಮಾಡಿ ಮತ್ತು ಪುನಃ ಆನ್ ಮಾಡಿ.</string>
   <string name="fm_cmd_failed_msg_hdmi">ಎಫ್ಎಂ ಕಾರ್ಯಾಚರಣೆ ವಿಫಲಗೊಂಡಿದೆ. ಎಫ್ಎಂ ಮತ್ತು HDMI ಒಪ್ಪಂದ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ.</string>
@@ -97,59 +97,56 @@
   <string name="set">ಹೊಂದಿಸಿ</string>
   <string name="user_defind_band_msg">76.0 ರಿಂದ 108.0 MHz ವರೆಗೆ ಯಾವುದೇ ಆವರ್ತನದ ಜೊತೆ ಕನಿಷ್ಠ ಚಾನೆಲ್ ಸ್ಪೇಸಿಂಗ್ 1 ಇರುವಂತೆ ಹಾಕಿ</string>
   <string name="fm_search_no_results">ಯಾವುದೇ ಹೊಂದಾಣಿಕೆಯಾಗುವ ಕೇಂದ್ರಗಳು ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
-
-  <!-- program types -->
-  <!-- RBDS (North America) -->
-    <string name="typ_Adult_hits">ವಯಸ್ಕರ ಹಿಟ್ಸ್</string>
-    <string name="typ_Classical">ಶಾಸ್ತ್ರೀಯ</string>
-    <string name="typ_Classic_Rock">ಕ್ಲಾಸಿಕ್ ರಾಕ್</string>
-    <string name="typ_College">ಕಾಲೇಜ್</string>
-    <string name="typ_Foreign_language">ವಿದೇಶೀ ಭಾಷೆ</string>
-    <string name="typ_Nostalgia">ವಿರಹ</string>
-    <string name="typ_Personality">ವ್ಯಕ್ತಿತ್ವ</string>
-    <string name="typ_Public">ಸಾರ್ವಜನಿಕ</string>
-    <string name="typ_Religious_music">ಧಾರ್ಮಿಕ ಸಂಗೀತ</string>
-    <string name="typ_Religious_talk">ಧಾರ್ಮಿಕ ಚರ್ಚೆ</string>
-    <string name="typ_Rhythm_and_Blues">ರಿದಮ್ ಮತ್ತು ಬ್ಲೂಸ್</string>
-    <string name="typ_Soft">ಮೃದು</string>
-    <string name="typ_Soft_Rock">ಮೃದು ರಾಕ್</string>
-    <string name="typ_Soft_Rhythm_and_Blues">ಮೃದು ರಿದಮ್ ಹಾಗು ಬ್ಲೂಸ್</string>
-    <string name="typ_Sports">ಕ್ರೀಡೆಗಳು</string>
-    <string name="typ_Talk">ಚರ್ಚೆ</string>
-    <string name="typ_Top_40">ಟಾಪ್ 40</string>
-
-  <!-- RDS (Europe) -->
-    <string name="typ_All_stations">ಎಲ್ಲಾ ಕೇಂದ್ರಗಳು</string>
-    <string name="typ_Culture">ಸಂಸ್ಕೃತಿ</string>
-    <string name="typ_Current_affairs">ಪ್ರಸಕ್ತ ವಿದ್ಯಮಾನಗಳು</string>
-    <string name="typ_Children">ಮಕ್ಕಳ ಕಾರ್ಯಕ್ರಮಗಳು</string>
-    <string name="typ_Country">ದೇಶ ಸಂಗೀತ</string>
-    <string name="typ_Documentary">ಸಾಕ್ಷ್ಯಾಚಿತ್ರ</string>
-    <string name="typ_Drama">ನಾಟಕ</string>
-    <string name="typ_Easy_listening">ಸುಲಭವಾಗಿ ಕೇಳುವ ಸಂಗೀತ</string>
-    <string name="typ_Education">ಶಿಕ್ಷಣ</string>
-    <string name="typ_Emergency">ತುರ್ತುಪರೀಸ್ಥಿತಿ</string>
-    <string name="typ_Emergency_test">ತುರ್ತುಪರೀಸ್ಥಿತಿ ಪರೀಕ್ಷೆ</string>
-    <string name="typ_Finance">ಹಣಕಾಸು</string>
-    <string name="typ_Folk">ಜಾನಪದ ಸಂಗೀತ</string>
-    <string name="typ_Information">ಮಾಹಿತಿ</string>
-    <string name="typ_Jazz">ಜಾಝ್ ಸಂಗೀತ</string>
-    <string name="typ_Light_classical">ಲಘು ಶಾಸ್ತ್ರೀಯ</string>
-    <string name="typ_Leisure">ಆರಾಮ</string>
-    <string name="typ_News">ವಾರ್ತೆ</string>
-    <string name="typ_National">ರಾಷ್ಟ್ರೀಯ ಸಂಗೀತ</string>
-    <string name="typ_Other">ಇತರೆ ಸಂಗೀತ</string>
-    <string name="typ_Oldies">ಓಲ್ಡೀಸ್ ಸಂಗೀತ</string>
-    <string name="typ_Phone_in">ಫೋನ್ ಇನ್</string>
-    <string name="typ_Pop">ಪಾಪ್ ಸಂಗೀತ</string>
-    <string name="typ_Religion">ಧಾರ್ಮಿಕ</string>
-    <string name="typ_Rock">ರಾಕ್ ಸಂಗೀತ</string>
-    <string name="typ_Science">ವಿಜ್ಞಾನ</string>
-    <string name="typ_Serious_classical">ಗಂಭೀರ ಶಾಸ್ತ್ರೀಯ</string>
-    <string name="typ_Social_affairs">ಸಮಾಜ ಕಲ್ಯಾಣ</string>
-    <string name="typ_Sport">ಕ್ರೀಡೆ</string>
-    <string name="typ_Travel">ಪ್ರವಾಸ</string>
-    <string name="typ_Varied">ವೈವಿಧ್ಯ</string>
-    <string name="typ_Weather">ಹವಾಮಾನ</string>
-
+  <string name="typ_All_stations">ಎಲ್ಲಾ ಕೇಂದ್ರಗಳು</string>
+  <string name="typ_Culture">ಸಂಸ್ಕೃತಿ</string>
+  <string name="typ_Current_affairs">ಪ್ರಸಕ್ತ ವಿದ್ಯಮಾನಗಳು</string>
+  <string name="typ_Children">ಮಕ್ಕಳ ಕಾರ್ಯಕ್ರಮಗಳು</string>
+  <string name="typ_Country">ದೇಶ ಸಂಗೀತ</string>
+  <string name="typ_Documentary">ಡಾಕ್ಯುಮೆಂಟರಿ</string>
+  <string name="typ_Drama">ನಾಟಕ</string>
+  <string name="typ_Easy_listening">ಸುಲಭವಾಗಿ ಕೇಳುವ ಸಂಗೀತ</string>
+  <string name="typ_Education">ಶಿಕ್ಷಣ</string>
+  <string name="typ_Emergency">ತುರ್ತು ಪರೀಸ್ಥಿತಿ</string>
+  <string name="typ_Emergency_test">ತುರ್ತುಪರೀಸ್ಥಿತಿ ಪರೀಕ್ಷೆ</string>
+  <string name="typ_Finance">ಹಣಕಾಸು</string>
+  <string name="typ_Folk">ಜಾನಪದ ಸಂಗೀತ</string>
+  <string name="typ_Information">ಮಾಹಿತಿ</string>
+  <string name="typ_Jazz">ಜಾಝ್ ಸಂಗೀತ</string>
+  <string name="typ_Light_classical">ಲಘು ಶಾಸ್ತ್ರೀಯ</string>
+  <string name="typ_Leisure">ಆರಾಮ</string>
+  <string name="typ_News">ವಾರ್ತೆ</string>
+  <string name="typ_National">ರಾಷ್ಟ್ರೀಯ ಸಂಗೀತ</string>
+  <string name="typ_Other">ಇತರೆ ಸಂಗೀತ</string>
+  <string name="typ_Oldies">ಓಲ್ಡೀಸ್ ಸಂಗೀತ</string>
+  <string name="typ_Phone_in">ಫೋನ್ ಇನ್</string>
+  <string name="typ_Pop">ಪಾಪ್ ಸಂಗೀತ</string>
+  <string name="typ_Religion">ಧಾರ್ಮಿಕ</string>
+  <string name="typ_Rock">ರಾಕ್ ಸಂಗೀತ</string>
+  <string name="typ_Science">ವಿಜ್ಞಾನ</string>
+  <string name="typ_Serious_classical">ಗಂಭೀರ ಶಾಸ್ತ್ರೀಯ</string>
+  <string name="typ_Social_affairs">ಸಮಾಜ ಕಲ್ಯಾಣ</string>
+  <string name="typ_Sport">ಕ್ರೀಡೆ</string>
+  <string name="typ_Travel">ಪ್ರವಾಸ</string>
+  <string name="typ_Varied">ವೈವಿಧ್ಯ</string>
+  <string name="typ_Weather">ಹವಾಮಾನ</string>
+  <string name="typ_Adult_hits">ವಯಸ್ಕರ ಹಿಟ್ಸ್</string>
+  <string name="typ_Classical">ಶಾಸ್ತ್ರೀಯ</string>
+  <string name="typ_Classic_Rock">ಕ್ಲಾಸಿಕ್ ರಾಕ್</string>
+  <string name="typ_College">ಕಾಲೇಜು</string>
+  <string name="typ_Foreign_language">ವಿದೇಶೀ ಭಾಷೆ</string>
+  <string name="typ_Hiphop">ಹಿಪ್ ಹಾಪ್</string>
+  <string name="typ_Nostalgia">ವಿರಹ</string>
+  <string name="typ_Personality">ವ್ಯಕ್ತಿತ್ವ</string>
+  <string name="typ_Public">ಸಾರ್ವಜನಿಕ</string>
+  <string name="typ_Religious_music">ಧಾರ್ಮಿಕ ಸಂಗೀತ</string>
+  <string name="typ_Religious_talk">ಧಾರ್ಮಿಕ ಚರ್ಚೆ</string>
+  <string name="typ_Rhythm_and_Blues">ರಿದಮ್ ಮತ್ತು ಬ್ಲೂಸ್</string>
+  <string name="typ_Spanish_music">ಸ್ಪ್ಯಾನಿಷ್ ಸಂಗೀತ</string>
+  <string name="typ_Spanish_talk">ಸ್ಪ್ಯಾನಿಷ್ ಚರ್ಚೆ</string>
+  <string name="typ_Soft">ಮೃದು</string>
+  <string name="typ_Soft_Rock">ಮೃದು ರಾಕ್</string>
+  <string name="typ_Soft_Rhythm_and_Blues">ಮೃದು ರಿದಮ್ ಹಾಗು ಬ್ಲೂಸ್</string>
+  <string name="typ_Sports">ಕ್ರೀಡೆ</string>
+  <string name="typ_Talk">ಚರ್ಚೆ</string>
+  <string name="typ_Top_40">ಟಾಪ್ 40</string>
 </resources>
