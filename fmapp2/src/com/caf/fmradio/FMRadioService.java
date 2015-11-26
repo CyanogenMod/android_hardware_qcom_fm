@@ -630,6 +630,7 @@ public class FMRadioService extends Service
                             Log.d(LOGTAG, "A2DP device is dis-connected!");
                             mA2dpDisconnected = true;
                             mA2dpConnected = false;
+                            AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_NO_BT_A2DP);
                         } else {
                             Log.d(LOGTAG, "A2DP device is connected!");
                             mA2dpDisconnected = false;
