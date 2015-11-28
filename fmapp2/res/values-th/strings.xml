@@ -53,7 +53,6 @@
   <string name="presetlist_add_new">เพิ่มรายการใหม่</string>
   <string name="dialog_presetlist_rename_title">ใส่ชื่อ</string>
   <string name="presetlist_autoselect_title">ยืนยันการเลือกอัตโนมัติ</string>
-  <string name="preset_replace">เขียนทับ</string>
   <string name="preset_tune">ปรับ</string>
   <string name="preset_rename">เปลี่ยนชื่อ</string>
   <string name="preset_delete">ลบ</string>
@@ -70,8 +69,6 @@
   <string name="settings_revert_confirm_title">ยืนยันการล้าง</string>
   <string name="settings_revert_confirm_msg">นี่จะล้างการตั้งค่าแอปทั้งหมด รวมถึงรายชื่อสถานีด้วย ดำเนินการต่อ?</string>
   <string name="no_storage">เชื่อมต่อ SD card ก่อนเริ่มการบันทึก</string>
-  <string name="preparing_sd">กำลังเตรียม SD card\u2026</string>
-  <string name="access_sd_fail">ไม่สามารถเข้าถึง SD card</string>
   <string name="spaceIsLow_content">SD card ของคุณเต็ม เปลี่ยนระดับคุณภาพเสียงหรือลบภาพบางภาพหรือไฟล์อื่นๆออกไป</string>
   <string name="menu_scan_for_preset">ค้นหาสำหรับตั้งล่วงหน้า</string>
   <string name="fm_off">FM ถูกปิดอยู่</string>
@@ -97,59 +94,4 @@
   <string name="set">ตั้งค่า</string>
   <string name="user_defind_band_msg">ใส่ความถี่จาก 76.0 ถึง 108.0 MHz โดยห่างอย่างน้อยสุด 1 ช่อง</string>
   <string name="fm_search_no_results">ไม่มีสถานีที่เข้ากันได้</string>
-
-  <!-- program types -->
-  <!-- RBDS (North America) -->
-    <string name="typ_Adult_hits">ผู้ใหญ่ชอบ</string>
-    <string name="typ_Classical">คลาสสิก</string>
-    <string name="typ_Classic_Rock">คลาสสิกร็อค</string>
-    <string name="typ_College">วิทยาลัย</string>
-    <string name="typ_Foreign_language">ภาษาต่างประเทศ</string>
-    <string name="typ_Nostalgia">คิดถึงบ้าน</string>
-    <string name="typ_Personality">ความเป็นตัวตน</string>
-    <string name="typ_Public">สาธารณะ</string>
-    <string name="typ_Religious_music">เพลงทางศาสนา</string>
-    <string name="typ_Religious_talk">สนทนาทางศาสนา</string>
-    <string name="typ_Rhythm_and_Blues">จังหวะและบลูส์</string>
-    <string name="typ_Soft">ซอฟ</string>
-    <string name="typ_Soft_Rock">ซอฟร็อค</string>
-    <string name="typ_Soft_Rhythm_and_Blues">จังหวะซอฟและบลูส์</string>
-    <string name="typ_Sports">กีฬา</string>
-    <string name="typ_Talk">สนทนา</string>
-    <string name="typ_Top_40">40 อันดับ</string>
-
-  <!-- RDS (Europe) -->
-    <string name="typ_All_stations">สถานีทั้งหมด</string>
-    <string name="typ_Culture">วัฒนธรรม</string>
-    <string name="typ_Current_affairs">เหตุการณ์ปัจจุบัน</string>
-    <string name="typ_Children">สำหรับเด็ก</string>
-    <string name="typ_Country">ดนตรีคันทรี่</string>
-    <string name="typ_Documentary">สารคดี</string>
-    <string name="typ_Drama">ละคร</string>
-    <string name="typ_Easy_listening">ดนตรีฟังง่าย</string>
-    <string name="typ_Education">การศึกษา</string>
-    <string name="typ_Emergency">ฉุกเฉิน</string>
-    <string name="typ_Emergency_test">ทดสอบฉุกเฉิน</string>
-    <string name="typ_Finance">ธุรกิจ</string>
-    <string name="typ_Folk">เพลงโฟล์ค</string>
-    <string name="typ_Information">ให้ข้อมูล</string>
-    <string name="typ_Jazz">แจ๊ส</string>
-    <string name="typ_Light_classical">คลาสสิกเบาๆ</string>
-    <string name="typ_Leisure">สบายๆ</string>
-    <string name="typ_News">ข่าว</string>
-    <string name="typ_National">เพลงสากล</string>
-    <string name="typ_Other">เพลงอื่นๆ</string>
-    <string name="typ_Oldies">เพลงเก่า</string>
-    <string name="typ_Phone_in">โทรเข้า</string>
-    <string name="typ_Pop">เพลงป๊อป</string>
-    <string name="typ_Religion">ศาสนา</string>
-    <string name="typ_Rock">เพลงร็อค</string>
-    <string name="typ_Science">วิทยาศาสตร์</string>
-    <string name="typ_Serious_classical">คลาสสิกนุ่มลึก</string>
-    <string name="typ_Social_affairs">สังคมปัจจุบัน</string>
-    <string name="typ_Sport">กีฬา</string>
-    <string name="typ_Travel">การเดินทาง</string>
-    <string name="typ_Varied">สภาพอากาศ</string>
-    <string name="typ_Weather">สภาพอากาศ</string>
-
 </resources>
