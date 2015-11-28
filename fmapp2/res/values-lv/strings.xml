@@ -66,8 +66,6 @@
   <string name="settings_revert_confirm_title">Atiestatījumu apstiprināšana</string>
   <string name="settings_revert_confirm_msg">Tiks notīrīti lietotnes iestatījumi, ieskaitot saglabātos priekšiestatījumus. Vai turpināt?</string>
   <string name="no_storage">Pirms sākt ierakstīšanu, uzmontējiet SD karti.</string>
-  <string name="preparing_sd">Sagatavo SD karti\u2026</string>
-  <string name="access_sd_fail">Neizdevās piekļūt SD kartei.</string>
   <string name="spaceIsLow_content">SD kartes krātuvē trūkst vietas. Nomainiet kvalitātes iestatījumus vai izdzēsiet failus, lai atbrīvotu vietu.</string>
   <string name="menu_scan_for_preset">Skenēt pirmstatījumus</string>
   <string name="alert_dialog_hint">Ievadiet nosaukumu</string>
@@ -87,6 +85,5 @@
   <string name="usr_def_band_min">Zemākā frekvence (MHz)</string>
   <string name="usr_def_band_max">Augstākā frekvence (MHz)</string>
   <string name="chanl_spacing">Kanālu attālums</string>
-  <string name="set">Iestatīt</string>
   <string name="user_defind_band_msg">Ievadiet frekvenci no 76.0 līdz 108.0 MHz ar vismaz 1 kanāla atstarpi</string>
 </resources>

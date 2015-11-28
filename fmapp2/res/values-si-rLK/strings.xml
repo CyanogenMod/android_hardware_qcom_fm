@@ -34,7 +34,6 @@
   <string name="menu_scan_start">සුපිරික්සන්න</string>
   <string name="menu_scan_stop">සෙවීම නවත්වන්න</string>
   <string name="menu_record_stop">රෙකෝඩනය නවත්වන්න</string>
-  <string name="menu_settings">සැකසීම්</string>
   <string name="menu_sleep">නිදියන්න</string>
   <string name="menu_sleep_cancel">නින්ද අවලංගු කරන්න</string>
   <string name="menu_all_channels">සියලුම නාලිකා</string>
@@ -52,12 +51,10 @@
   <string name="regional_band">ප්‍රාදේශීය කලාපය</string>
   <string name="aud_output_mode">ශ්‍රව්‍ය ප්‍රතිදාන ප්‍රකාරය</string>
   <string name="audio_type_stereo">ත්‍රිමාන</string>
-  <string name="audio_type_mono">ඒකීය</string>
   <string name="record_dur">රෙකෝඩන කාලමාත්‍රාව</string>
   <string name="settings_revert_defaults_title">කර්මාන්තශාලා පෙරනිමි යලි පිහිටුවන්න</string>
   <string name="settings_revert_defaults_summary">සියලු සැකසීම් ප්‍රත්‍යාරම්භ කරන්න</string>
   <string name="no_storage">රෙකෝඩනය ඇරඹීමට පෙර SD කාඩ්පත ආරූඩ කරන්න.</string>
-  <string name="access_sd_fail">SD කාඩ්පතට ප්‍රවේශ විය නොහැක.</string>
   <string name="spaceIsLow_content">ඔබගේ SD කාඩ්පතෙහි ආචයනයේ ඉඩ අඩුවෙමින් පවතී. ඉඩ වැඩි කර ගැනීමට ගුණාත්මක සැකසීම වෙනස් කරන්න නැතිනම් අනෙක් ගොනු කිහිපයක් මකන්න.</string>
   <string name="menu_scan_for_preset">පෙරසැකසීම් සඳහා සුපිරික්සන්න</string>
   <string name="alert_dialog_hint">නමක් ඇතුල් කරන්න</string>

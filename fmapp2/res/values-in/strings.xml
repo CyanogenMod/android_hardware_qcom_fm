@@ -35,7 +35,6 @@
   <string name="menu_scan_stop">Hentikan pencarian</string>
   <string name="menu_record_start">Rekam</string>
   <string name="menu_record_stop">Hentikan perekaman</string>
-  <string name="menu_settings">Pengaturan</string>
   <string name="menu_sleep">Tidur</string>
   <string name="menu_sleep_cancel">Batalkan tidur</string>
   <string name="menu_all_channels">Semua saluran</string>
@@ -55,7 +54,6 @@
   <string name="presetlist_autoselect_title">Konfirmasi seleksi-otomatis</string>
   <string name="preset_replace">Ganti</string>
   <string name="preset_tune">Tala</string>
-  <string name="preset_rename">Ubah nama</string>
   <string name="preset_delete">Hapus</string>
   <string name="preset_search">Mencari \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
@@ -70,8 +68,6 @@
   <string name="settings_revert_confirm_title">Konfirmasi atur ulang</string>
   <string name="settings_revert_confirm_msg">Ini akan menghapus semua pengaturan aplikasi, termasuk preset yang disimpan. Lanjutkan?</string>
   <string name="no_storage">Pasang kartu SD sebelum memulai rekaman.</string>
-  <string name="preparing_sd">Mempersiapkan kartu SD\u2026</string>
-  <string name="access_sd_fail">Tidak bisa mengakses kartu SD.</string>
   <string name="spaceIsLow_content">Kartu SD anda kehabisan ruang penyimpanan. Ubah pengaturan kualitas atau hapus beberapa file lain untuk membebaskan ruang penyimpanan.</string>
   <string name="menu_scan_for_preset">Pindai preset</string>
   <string name="fm_off">FM dimatikan.</string>

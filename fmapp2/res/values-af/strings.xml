@@ -38,7 +38,6 @@
   <string name="menu_settings">Instellings</string>
   <string name="menu_sleep">Slaap</string>
   <string name="menu_sleep_cancel">Kanselleer Slaap</string>
-  <string name="menu_all_channels">Alle Kanale</string>
   <string name="menu_display_tags">Wys etikette</string>
   <string name="button_text_stop">Stop</string>
   <string name="msg_seeking">Soek na FM Stasie</string>
@@ -70,8 +69,6 @@
   <string name="settings_revert_confirm_title">Bevestig herstel</string>
   <string name="settings_revert_confirm_msg">Dit sal al die program instellings, insluitend jou vooraf ingestelde lys verwyder, gaan voort?</string>
   <string name="no_storage">Laai SD kaart voor opname begin.</string>
-  <string name="preparing_sd">SD kaart word voorberei</string>
-  <string name="access_sd_fail">Kon nie toegang verkry tot SD kaart.</string>
   <string name="spaceIsLow_content">Jou SD kaart is besig om uit spasie te hardloop. Verander die kwaliteits instelling of verwyder \'n paar foto of ander lêers.</string>
   <string name="menu_scan_for_preset">Skandeer vir voorafingestelde stasies</string>
   <string name="fm_off">FM is afgeskakel.</string>
@@ -97,4 +94,7 @@
   <string name="set">Stel</string>
   <string name="user_defind_band_msg">Tik frekwensie van 76.0 tot 108.0 MHz met \'n minimum 1 kanaal spasiëring</string>
   <string name="fm_search_no_results">Geen versoenbare stasies was gevind</string>
+  <string name="typ_Hiphop">Hip Hop</string>
+  <string name="typ_Spanish_music">Spaanse musiek</string>
+  <string name="typ_Spanish_talk">Praat spaans</string>
 </resources>

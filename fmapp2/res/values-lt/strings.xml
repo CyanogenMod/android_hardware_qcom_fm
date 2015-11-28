@@ -55,14 +55,12 @@
   <string name="presetlist_autoselect_title">Patvirtinkite automatinį pasirinkimą</string>
   <string name="preset_replace">Pakeisti</string>
   <string name="preset_tune">Koreguoti</string>
-  <string name="preset_rename">Pervardyti</string>
   <string name="preset_delete">Ištrinti</string>
   <string name="preset_search">Ieškoti „<xliff:g id="preset_pi">%1$s</xliff:g>“</string>
   <string name="stat_notif_frequency">„<xliff:g id="frequency">%1$s</xliff:g>“ MHz</string>
   <string name="regional_band">Regionai</string>
   <string name="aud_output_mode">Garso išvesties režimas</string>
   <string name="audio_type_stereo">Stereo</string>
-  <string name="audio_type_mono">Mono</string>
   <string name="record_dur">Įrašo trukmė</string>
   <string name="auto_select_af">Alternatyvus dažnis</string>
   <string name="settings_revert_defaults_title">Atkurti gamyklinius nustatymus</string>

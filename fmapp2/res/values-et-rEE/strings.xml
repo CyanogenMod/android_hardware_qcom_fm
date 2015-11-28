@@ -35,12 +35,10 @@
   <string name="menu_scan_stop">Lõpeta otsimine</string>
   <string name="menu_record_start">Lindista</string>
   <string name="menu_record_stop">Lõpeta salvestus</string>
-  <string name="menu_settings">Sätted</string>
   <string name="menu_sleep">Maga</string>
   <string name="menu_sleep_cancel">Loobu magamisest</string>
   <string name="menu_all_channels">Kõik kanalid</string>
   <string name="menu_display_tags">Kuva sildid</string>
-  <string name="button_text_stop">Stopp</string>
   <string name="msg_seeking">Otsin FM jaama\u2026</string>
   <string name="msg_scanning">Otsin kõiki FM jaamu\u2026</string>
   <string name="msg_scanning_pty">Otsin \'<xliff:g id="pty_name">%1$s</xliff:g>\'\u2026</string>
@@ -53,7 +51,6 @@
   <string name="presetlist_add_new">Lisa uus loend</string>
   <string name="dialog_presetlist_rename_title">Sisesta nimi</string>
   <string name="presetlist_autoselect_title">Kinnitage automaatvalik</string>
-  <string name="preset_replace">Asenda</string>
   <string name="preset_tune">Häälesta</string>
   <string name="preset_rename">Nimeta ümber</string>
   <string name="preset_delete">Kustuta</string>
@@ -70,8 +67,6 @@
   <string name="settings_revert_confirm_title">Kinnita nullimine</string>
   <string name="settings_revert_confirm_msg">See toiming kustutab kõik rakenduse seaded, sealhulgas salvestatud valmissätted. Kas soovite jätkata?</string>
   <string name="no_storage">Paigalda SD kaart enne salvestamise alustamist.</string>
-  <string name="preparing_sd">Valmistan SD kaarti ette\u2026</string>
-  <string name="access_sd_fail">Ei pääsenud SD-kaardile ligi.</string>
   <string name="spaceIsLow_content">Teie SD-kaardi vaba ruum on otsakorral. Muutke kvaliteediseadeid või kustutage mõni fail ruumi vabastamiseks.</string>
   <string name="menu_scan_for_preset">Näita eelmääratuid</string>
   <string name="fm_off">FM on välja lülitatud.</string>

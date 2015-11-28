@@ -34,19 +34,15 @@
   <string name="menu_scan_start">স্ক্যান</string>
   <string name="menu_scan_stop">অনুসন্ধান বন্ধ</string>
   <string name="menu_record_stop">রেকর্ডিং বন্ধ করুন</string>
-  <string name="menu_settings">রুপান্তর নির্ধারণ</string>
   <string name="menu_sleep">স্লিপ</string>
   <string name="menu_sleep_cancel">স্লিপ বাতিল</string>
   <string name="menu_all_channels">সমস্ত চ্যানেল</string>
   <string name="menu_display_tags">ট্যাগ প্রদর্শন</string>
-  <string name="button_text_stop">বন্ধ</string>
   <string name="msg_noantenna">এফএম বেতার ব্যবহার করতে অনুগ্রহ করে হেডসেট যুক্ত করুন</string>
   <string name="presetlist_select_name">\'<xliff:g id="presetlist_name"> %1$s\' </xliff:g>\' নির্বাচন</string>
   <string name="presetlist_add_new">নতুন তালিকায় যুক্ত</string>
-  <string name="preset_replace">প্রতিস্থাপন করুন</string>
   <string name="preset_tune">টিউন</string>
   <string name="preset_rename">পুনঃনামকরণ</string>
-  <string name="preset_delete">মুছে ফেলুন</string>
   <string name="preset_search">\'<xliff:g id="preset_pi">%1$s</xliff:g>\' এর জন্যে অনুসন্ধান</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' মেগাহার্টজ</string>
   <string name="regional_band">আঞ্চলিক ব্যান্ড</string>

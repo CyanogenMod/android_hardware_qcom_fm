@@ -34,7 +34,6 @@
   <string name="menu_scan_start">Сканувати</string>
   <string name="menu_scan_stop">Зупинити пошук</string>
   <string name="menu_record_start">Запис</string>
-  <string name="menu_record_stop">Зупинити запис</string>
   <string name="menu_settings">Налаштування</string>
   <string name="menu_sleep">Спати</string>
   <string name="menu_sleep_cancel">Скасувати сон</string>
@@ -56,7 +55,6 @@
   <string name="preset_replace">Замінити</string>
   <string name="preset_tune">Налаштувати</string>
   <string name="preset_rename">Перейменувати</string>
-  <string name="preset_delete">Вилучити</string>
   <string name="preset_search">Шукати за \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' МГц</string>
   <string name="regional_band">Регіональний діапазон</string>
@@ -70,8 +68,6 @@
   <string name="settings_revert_confirm_title">Підтвердіть скидання</string>
   <string name="settings_revert_confirm_msg">Це видалить всі налаштування додатку, включно із збереженими радіостанціями. Продовжити?</string>
   <string name="no_storage">Змонтувати SD-карту перед початком запису.</string>
-  <string name="preparing_sd">Підготовка  SD-карти\u2026</string>
-  <string name="access_sd_fail">Невдалось отримати доступ до SD-карти.</string>
   <string name="spaceIsLow_content">Закінчується місце на вашій SD-карті. Змініть якість в налаштуваннях або ж видаліть зображення чи інші файли.</string>
   <string name="menu_scan_for_preset">Сканувати за попередніми налаштуваннями</string>
   <string name="fm_off">FM-радіо вимкнуто.</string>

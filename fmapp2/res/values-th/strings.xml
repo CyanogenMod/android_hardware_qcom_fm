@@ -53,7 +53,6 @@
   <string name="presetlist_add_new">เพิ่มรายการใหม่</string>
   <string name="dialog_presetlist_rename_title">ใส่ชื่อ</string>
   <string name="presetlist_autoselect_title">ยืนยันการเลือกอัตโนมัติ</string>
-  <string name="preset_replace">เขียนทับ</string>
   <string name="preset_tune">ปรับ</string>
   <string name="preset_rename">เปลี่ยนชื่อ</string>
   <string name="preset_delete">ลบ</string>
@@ -70,8 +69,6 @@
   <string name="settings_revert_confirm_title">ยืนยันการล้าง</string>
   <string name="settings_revert_confirm_msg">นี่จะล้างการตั้งค่าแอปทั้งหมด รวมถึงรายชื่อสถานีด้วย ดำเนินการต่อ?</string>
   <string name="no_storage">เชื่อมต่อ SD card ก่อนเริ่มการบันทึก</string>
-  <string name="preparing_sd">กำลังเตรียม SD card\u2026</string>
-  <string name="access_sd_fail">ไม่สามารถเข้าถึง SD card</string>
   <string name="spaceIsLow_content">SD card ของคุณเต็ม เปลี่ยนระดับคุณภาพเสียงหรือลบภาพบางภาพหรือไฟล์อื่นๆออกไป</string>
   <string name="menu_scan_for_preset">ค้นหาสำหรับตั้งล่วงหน้า</string>
   <string name="fm_off">FM ถูกปิดอยู่</string>
