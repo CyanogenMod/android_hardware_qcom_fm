@@ -95,6 +95,10 @@ import android.os.Process;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningAppProcessInfo;
 import android.media.session.MediaSession;
+import android.bluetooth.BluetoothA2dp;
+import android.bluetooth.BluetoothProfile;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
 
 /**
  * Provides "background" FM Radio (that uses the hardware) capabilities,
@@ -265,6 +269,8 @@ public class FMRadioService extends Service
       String valueStr = audioManager.getParameters("isA2dpDeviceSupported");
       mA2dpDeviceSupportInHal = valueStr.contains("=true");
       Log.d(LOGTAG, " is A2DP device Supported In HAL"+mA2dpDeviceSupportInHal);
+
+      getA2dpStatusAtStart();
    }
 
    @Override
@@ -594,7 +600,7 @@ public class FMRadioService extends Service
                 @Override
                 public void onReceive(Context context, Intent intent) {
                     String action = intent.getAction();
-                    Log.d(LOGTAG, "on receive HeadsetListener" +action);
+                    Log.d(LOGTAG, "on receive HeadsetListener " + action);
                     if (action.equals(Intent.ACTION_HEADSET_PLUG)) {
                        Log.d(LOGTAG, "ACTION_HEADSET_PLUG Intent received");
                        // Listen for ACTION_HEADSET_PLUG broadcasts.
@@ -613,7 +619,7 @@ public class FMRadioService extends Service
                               mA2dpDeviceState.isDisconnected(intent))) {
                         boolean  bA2dpConnected =
                         mA2dpDeviceState.isConnected(intent);
-                        Log.d(LOGTAG, "bA2dpConnected:" +bA2dpConnected);
+                        Log.d(LOGTAG, "bA2dpConnected: " + bA2dpConnected);
                         try {
                              if ((mServiceInUse) && (mCallbacks != null))
                                  mCallbacks.onA2DPConnectionstateChanged(bA2dpConnected);
@@ -2369,20 +2375,28 @@ public class FMRadioService extends Service
      }
      return mStorageAvail;
    }
-   public void enableSpeaker(boolean speakerOn) {
-       if(isCallActive())
-           return ;
-       mSpeakerPhoneOn = speakerOn;
-       Log.d(LOGTAG, "speakerOn:" + speakerOn);
-       if ((false == speakerOn) && (!mA2dpConnected)) {
-            Log.d(LOGTAG, "enabling headset");
-            AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_NONE);
-       }
 
-       if (speakerOn) {
+   public void enableSpeaker(boolean speakerOn) {
+       Log.d(LOGTAG, "speakerOn: " + speakerOn);
+
+       if (isCallActive())
+           return;
+
+       mSpeakerPhoneOn = speakerOn;
+
+       if (speakerOn == false) {
+            if (mA2dpConnected == true) {
+                Log.d(LOGTAG, "A2DP connected, de-select BT");
+                AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_NO_BT_A2DP);
+            } else {
+                Log.d(LOGTAG, "A2DP is not connected, force none");
+                AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_NONE);
+            }
+       } else if (speakerOn == true) {
            Log.d(LOGTAG, "enabling speaker");
            AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_SPEAKER);
        }
+
        Log.d(LOGTAG, "speakerOn completed:" + speakerOn);
    }
   /*
@@ -3595,4 +3609,35 @@ public class FMRadioService extends Service
            mDelayedStopHandler.obtainMessage(FOCUSCHANGE, focusChange, 0).sendToTarget();
        }
    };
+
+   class A2dpServiceListener implements BluetoothProfile.ServiceListener {
+       private List<BluetoothDevice> mA2dpDeviceList = null;
+       private BluetoothA2dp mA2dpProfile = null;
+
+       public void onServiceConnected(int profile, BluetoothProfile proxy) {
+           mA2dpProfile = (BluetoothA2dp) proxy;
+           mA2dpDeviceList = mA2dpProfile.getConnectedDevices();
+
+           if (mA2dpDeviceList == null)
+               mA2dpConnected = false;
+           else
+               mA2dpConnected = true;
+           mA2dpDisconnected = !mA2dpConnected;
+           Log.d(LOGTAG, "A2DP Status: " + mA2dpConnected);
+       }
+
+       public void onServiceDisconnected(int profile) {
+           mA2dpProfile = null;
+           mA2dpDeviceList = null;
+       }
+   }
+
+   private void getA2dpStatusAtStart () {
+       BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
+
+       if (!adapter.getProfileProxy(this, new A2dpServiceListener(),
+                                       BluetoothProfile.A2DP)) {
+           Log.d(LOGTAG, "Failed to get A2DP profile proxy");
+       }
+   }
 }
