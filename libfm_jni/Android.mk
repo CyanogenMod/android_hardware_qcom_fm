@@ -1,4 +1,4 @@
-ifeq ($(BOARD_HAVE_QCOM_HARDWARE),true)
+ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
 ifneq (,$(filter $(QCOM_BOARD_PLATFORMS),$(TARGET_BOARD_PLATFORM)))
 LOCAL_PATH := $(call my-dir)
 
