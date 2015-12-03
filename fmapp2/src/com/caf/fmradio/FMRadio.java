@@ -1820,15 +1820,6 @@ public class FMRadio extends Activity
    }
 
    private void stopRecording() {
-       mRecording = false;
-       DebugToasts("Stopped Recording", Toast.LENGTH_SHORT);
-       if(null != mRecordUpdateHandlerThread) {
-          mRecordUpdateHandlerThread.interrupt();
-       }
-       if(null != mRecordingMsgTV) {
-          mRecordingMsgTV.setText("");
-          setRecordingStartImage();
-       }
        if (mService != null) {
            try {
               mService.stopRecording();
@@ -1836,7 +1827,6 @@ public class FMRadio extends Activity
               e.printStackTrace();
            }
         }
-        invalidateOptionsMenu();
    }
 
    private boolean isRecording() {
@@ -3220,7 +3210,15 @@ public class FMRadio extends Activity
       }
       public void onRecordingStopped() {
          Log.d(LOGTAG, "mServiceCallbacks.onRecordingStopped:");
-         stopRecording();
+         mRecording = false;
+         if(null != mRecordUpdateHandlerThread) {
+            mRecordUpdateHandlerThread.interrupt();
+         }
+         if(null != mRecordingMsgTV) {
+            mRecordingMsgTV.setText("");
+            setRecordingStartImage();
+         }
+         invalidateOptionsMenu();
       }
       public void onRecordingStarted()
       {
