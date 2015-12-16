@@ -29,10 +29,6 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Kết nối thẻ nhớ trước khi bắt đầu ghi âm.</string>
-  <string name="preparing_sd">Đang chuẩn bị thẻ nhớ</string>
-  <string name="access_sd_fail">Không thể truy cập thẻ nhớ.</string>
-  <string name="spaceIsLow_content">Bộ nhớ thẻ sắp hết. Thay đổi cài đặt chất lượng hoặc xoá một vài hình ảnh hay tập tin khác.</string>
   <string name="FMRecording_reach_size_limit">Đã đạt tới giới hạn kích thước.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <string name="audio_db_artist_name">Bản ghi âm FM của tôi</string>
