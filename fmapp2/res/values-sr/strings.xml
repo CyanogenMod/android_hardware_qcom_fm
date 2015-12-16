@@ -29,8 +29,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">FM Радио</string>
-  <string name="tx_app_name">FM Преносник</string>
+  <string name="app_name">FM радио</string>
+  <string name="tx_app_name">FM предајник</string>
   <string name="menu_scan_start">Скенирај</string>
   <string name="menu_scan_stop">Заустави претрагу</string>
   <string name="menu_record_start">Сними</string>
