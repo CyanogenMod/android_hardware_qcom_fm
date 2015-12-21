@@ -2163,11 +2163,6 @@ public class FMRadioService extends Service
    * Turn OFF FM Operations: This disables all the current FM operations             .
    */
    private void fmOperationsOff() {
-      if ( mSpeakerPhoneOn)
-      {
-          mSpeakerPhoneOn = false;
-          AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_NONE);
-      }
       if (isFmRecordingOn())
       {
           stopRecording();
@@ -2215,6 +2210,11 @@ public class FMRadioService extends Service
       if (isAnalogModeEnabled()) {
               SystemProperties.set("hw.fm.isAnalog","false");
               misAnalogPathEnabled = false;
+      }
+
+      if ( mSpeakerPhoneOn) {
+          mSpeakerPhoneOn = false;
+          AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_NONE);
       }
    }
 
