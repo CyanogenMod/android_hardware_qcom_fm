@@ -63,7 +63,7 @@
   <string name="aud_output_mode">オーディオ出力モード</string>
   <string name="audio_type_stereo">ステレオ</string>
   <string name="audio_type_mono">モノラル</string>
-  <string name="record_dur">録音の長さ</string>
+  <string name="record_dur">録音時間</string>
   <string name="auto_select_af">代用周波数</string>
   <string name="settings_revert_defaults_title">出荷時のデフォルトに戻す</string>
   <string name="settings_revert_defaults_summary">すべての設定をリセットする</string>
