@@ -2993,14 +2993,21 @@ public class FMRadio extends Activity
 
    public  void unbindFromService(Context context) {
       ServiceBinder sb = (ServiceBinder) sConnectionMap.remove(context);
+      boolean isFmOn = isFmOn();
       Log.e(LOGTAG, "unbindFromService: Context");
       if (sb == null) {
          Log.e(LOGTAG, "Trying to unbind for unknown Context");
          return;
       }
       context.unbindService(sb);
-      Log.e(LOGTAG, "stop FM radio service");
-      context.stopService(new Intent(context, FMRadioService.class));
+
+      if (isFmOn) {
+         Log.d(LOGTAG, "FM is still on");
+      } else {
+         Log.e(LOGTAG, "stop FM radio service");
+         context.stopService(new Intent(context, FMRadioService.class));
+      }
+
       if (sConnectionMap.isEmpty()) {
          // presumably there is nobody interested in the service at this point,
          // so don't hang on to the ServiceConnection
