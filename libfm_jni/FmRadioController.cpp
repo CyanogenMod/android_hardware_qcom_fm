@@ -173,7 +173,7 @@ int FmRadioController ::Pwr_Up(int freq)
     }
 
     if (cur_fm_state == FM_OFF) {
-        ALOGE("cur_fm_state = %d\n",cur_fm_state);
+        ALOGD("cur_fm_state = %d\n",cur_fm_state);
         if (strcmp(value, "rome") != 0) {
             ret = FmIoctlsInterface::start_fm_patch_dl(fd_driver);
             if (ret != FM_SUCCESS) {
@@ -385,7 +385,7 @@ int FmRadioController ::MuteOn()
 {
     int ret;
 
-    ALOGE("cur_fm_state = %d\n", cur_fm_state);
+    ALOGD("cur_fm_state = %d\n", cur_fm_state);
     if((cur_fm_state != FM_OFF) &&
        (cur_fm_state != FM_ON_IN_PROGRESS)) {
        ret = FmIoctlsInterface::set_control(fd_driver,
@@ -402,7 +402,7 @@ int FmRadioController ::MuteOff()
 {
     int ret;
 
-    ALOGE("cur_fm_state = %d\n", cur_fm_state);
+    ALOGD("cur_fm_state = %d\n", cur_fm_state);
     if((cur_fm_state != FM_OFF) &&
        (cur_fm_state != FM_ON_IN_PROGRESS)) {
         ret = FmIoctlsInterface::set_control(fd_driver,
@@ -609,7 +609,7 @@ int FmRadioController :: SetDeConstant
 {
     int ret;
 
-     ALOGE("cur_fm_state: %d, emphasis: %d\n", cur_fm_state, emphasis);
+    ALOGD("cur_fm_state: %d, emphasis: %d\n", cur_fm_state, emphasis);
     if(cur_fm_state == FM_ON) {
         switch(emphasis) {
             case DE_EMP75:
@@ -791,7 +791,7 @@ int FmRadioController :: EnableRDS
 {
     int ret = FM_FAILURE;
 
-    ALOGE("%s:cur_fm_state = %d\n", __func__, cur_fm_state);
+    ALOGD("%s:cur_fm_state = %d\n", __func__, cur_fm_state);
     if (cur_fm_state == FM_ON) {
         ret = FmIoctlsInterface::set_control(fd_driver,
                       V4L2_CID_PRV_RDSON, 1);
@@ -826,7 +826,7 @@ int FmRadioController :: DisableRDS
 {
     int ret = FM_FAILURE;
 
-    ALOGE("%s:cur_fm_state = %d\n", __func__, cur_fm_state);
+    ALOGD("%s:cur_fm_state = %d\n", __func__, cur_fm_state);
     if (cur_fm_state == FM_ON) {
         ret = FmIoctlsInterface::set_control(fd_driver,
                       V4L2_CID_PRV_RDSON, 2);
