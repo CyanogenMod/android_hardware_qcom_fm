@@ -77,4 +77,20 @@
   <string name="usr_def_band_min">Lägsta frekvens (MHz)</string>
   <string name="usr_def_band_max">Högsta frekvens (MHz)</string>
   <string name="chanl_spacing">Kanalavstånd</string>
+  <string name="typ_All_stations">Alla stationer</string>
+  <string name="typ_Finance">Finans</string>
+  <string name="typ_Folk">Folkmusik</string>
+  <string name="typ_Information">Information</string>
+  <string name="typ_Jazz">Jazz</string>
+  <string name="typ_Leisure">Fritid</string>
+  <string name="typ_News">Nyheter</string>
+  <string name="typ_National">Nationell musik</string>
+  <string name="typ_Other">Annan musik</string>
+  <string name="typ_Oldies">Gamla godingar</string>
+  <string name="typ_Religion">Religion</string>
+  <string name="typ_Classical">Klassiskt</string>
+  <string name="typ_Hiphop">Hip Hop</string>
+  <string name="typ_Sports">Sport</string>
+  <string name="typ_Talk">Prat</string>
+  <string name="typ_Top_40">Topp 40</string>
 </resources>
