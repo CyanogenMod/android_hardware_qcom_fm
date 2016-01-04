@@ -29,22 +29,55 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">راديو FM</string>
+  <string name="tx_app_name">مرسل FM</string>
+  <string name="menu_scan_start">فحص</string>
+  <string name="menu_scan_stop">إيقاف البحث</string>
   <string name="menu_record_start">تسجيل</string>
+  <string name="menu_record_stop">إيقاف التسجيل</string>
+  <string name="menu_settings">الإعدادات</string>
+  <string name="menu_sleep">النوم</string>
+  <string name="menu_sleep_cancel">إلغاء النوم</string>
+  <string name="menu_all_channels">كل القنوات</string>
+  <string name="menu_display_tags">إظهار العلامات</string>
+  <string name="button_text_stop">إيقاف</string>
   <string name="msg_seeking">جاري البحث عن محطة FM\u2026</string>
   <string name="msg_scanning">جاري البحث عن كل محطات FM\u2026</string>
   <string name="msg_scanning_pty">جاري البحث عن \'<xliff:g id="pty_name">%1$s</xliff:g>\'\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> ميجا هرتز</string>
   <string name="msg_searching_title">الإعدادات المسبقة للتحديد التلقائي</string>
   <string name="msg_searching">جاري البحث عن محطات قوية لإنشاء قائمة محددة مسبقاً\u2026</string>
+  <string name="msg_noantenna">الرجاء توصيل سماعات الرأس لأستخدام راديو FM</string>
   <string name="dialog_sleep_title">مهلة الإيقاف التلقائي</string>
+  <string name="presetlist_select_name">حدد \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
+  <string name="presetlist_add_new">إضافة قائمة جديدة</string>
   <string name="dialog_presetlist_rename_title">أدخل الاسم:</string>
   <string name="presetlist_autoselect_title">تأكيد التحديد التلقائي</string>
+  <string name="preset_replace">استبدال</string>
+  <string name="preset_tune">لحن</string>
+  <string name="preset_rename">إعادة تسمية</string>
+  <string name="preset_delete">حذف</string>
+  <string name="preset_search">بحث عن \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
+  <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' ميجا هرتز</string>
+  <string name="regional_band">الفرقة الإقليمية</string>
+  <string name="aud_output_mode">وضع خرج الصوت</string>
+  <string name="audio_type_stereo">استيريو</string>
+  <string name="audio_type_mono">أُحادي</string>
+  <string name="record_dur">مدة التسجيل</string>
   <string name="auto_select_af">التردد البديل</string>
   <string name="settings_revert_confirm_title">تأكيد إعادة التعيين</string>
   <string name="settings_revert_confirm_msg">سيترتب على ذلك مسح كل إعدادات التطبيق، بما في ذلك الإعدادات المسبقة المحفوظة. هل تريد الاستمرار؟ </string>
+  <string name="no_storage">تحميل بطاقة SD قبل بدء التسجيل.</string>
   <string name="preparing_sd">جاري إعداد بطاقة SD\u2026</string>
+  <string name="access_sd_fail">‏تعذر الوصول إلى بطاقة SD.</string>
+  <string name="spaceIsLow_content">نفاد مساحة مخزن بطاقة SD. تغيير إعداد الجودة أو حذف بعض الملفات الأخرى لتحرير مساحة.</string>
+  <string name="menu_scan_for_preset">تفحص عن الإعدادات المسبقة</string>
   <string name="fm_off">FM مغلق.</string>
   <string name="fm_call">لا يمكن استخدام FM أثناء الاتصال.</string>
+  <string name="search_dialog_title">تفحص المحطات</string>
+  <string name="fm_command_timeout_title">مهلة</string>
+  <string name="fm_tune_timeout_msg">لم يتم استلام رد لضبط محطة FM. إذا استمرت المشكلة، الرجاء إيقاف تشغيل FM وتشغيلها مرة أخرى.</string>
+  <string name="fm_command_failed_title">فشلت عملية FM</string>
   <string name="station_name">المحطة:</string>
   <string name="station_list_delete_station_prompt">هل أنت متأكد من أنك تريد حذف \'<xliff:g id="name">%s</xliff:g>\' ؟</string>
   <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\'قيد الاستخدام بالفعل، يُرجى إدخال اسم مختلف.</string>

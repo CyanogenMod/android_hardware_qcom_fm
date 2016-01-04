@@ -39,5 +39,6 @@
   <string name="audio_db_album_name">Grabaciones de FM</string>
   <string name="audio_db_playlist_name">Grabaciones FM</string>
   <string name="save_record_file">Archivo de grabación de FM guardado en \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">Grabación de FM en curso</string>
   <string name="unable_to_store">No se puede guardar el sonido grabado</string>
 </resources>
