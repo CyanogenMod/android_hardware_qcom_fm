@@ -40,4 +40,5 @@
   <string name="audio_db_playlist_name">এফএম এর রেকর্ডিং সমূহ</string>
   <string name="save_record_file">এফএম এ রেকর্ড করা ফাইল \'<xliff:g id="record_file"> %1$s\' </xliff:g>\' তে সংরক্ষিত</string>
   <string name="fm_record_progress">এফএম রেকর্ডিং চলছে</string>
+  <string name="unable_to_store">রেকর্ড করা অডিও সংরক্ষণ করতে অক্ষম</string>
 </resources>

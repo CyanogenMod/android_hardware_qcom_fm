@@ -142,7 +142,9 @@
   <string name="typ_Spanish_music">Muzyka hiszpańska</string>
   <string name="typ_Spanish_talk">Mowa hiszpańska</string>
   <string name="typ_Soft">Łagodna</string>
+  <string name="typ_Soft_Rock">Soft Rock</string>
   <string name="typ_Soft_Rhythm_and_Blues">Łagodny R\u0026B</string>
+  <string name="typ_Sports">Sportowa</string>
   <string name="typ_Talk">Rozmowa</string>
   <string name="typ_Top_40">Top 40</string>
 </resources>

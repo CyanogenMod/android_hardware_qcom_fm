@@ -30,5 +30,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="no_storage">تحميل بطاقة SD قبل بدء التسجيل.</string>
+  <string name="preparing_sd">إعداد بطاقة SD</string>
+  <string name="access_sd_fail">تعذر الوصول إلى بطاقة SD.</string>
+  <string name="spaceIsLow_content">مساحة تخزين بطاقة الذاكرة SD نفدت مساحتها. تغيير إعداد الجودة أو حذف بعض الصور أو الملفات الأخرى.</string>
+  <string name="FMRecording_reach_size_limit">تم الوصول للحد الأقصى للحجم.</string>
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <string name="audio_db_artist_name">تسجيلات FM الخاصة بي</string>
+  <string name="audio_db_album_name">تسجيلات FM</string>
+  <string name="audio_db_playlist_name">تسجيلات FM</string>
+  <string name="save_record_file">ملف مسجل FM محفوظ إلى \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">FM تسجيل قيد التقدم</string>
   <string name="unable_to_store">تعذر حفظ الصوت المسجل</string>
 </resources>
