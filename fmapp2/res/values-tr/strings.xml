@@ -43,13 +43,13 @@
   <string name="button_text_stop">Durdur</string>
   <string name="msg_seeking">FM kanalı aranıyor\u2026</string>
   <string name="msg_scanning">Tüm FM kanalları taranıyor\u2026</string>
-  <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>\' için taranıyor\u2026</string>
+  <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>\' taranıyor\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
   <string name="msg_searching_title">Listeleri otomatik seç</string>
   <string name="msg_searching">Tanımlı liste oluşturmak için güçlü kanallar aranıyor\u2026</string>
   <string name="msg_noantenna">FM radyoyu kullanmak için lütfen kulaklığı bağlayın</string>
   <string name="dialog_sleep_title">Otomatik kapanma uyku süresi</string>
-  <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\' i seçin</string>
+  <string name="presetlist_select_name">\'<xliff:g id="presetlist_name">%1$s</xliff:g>\'i seçin</string>
   <string name="presetlist_add_new">Yeni liste ekle</string>
   <string name="dialog_presetlist_rename_title">İsim girin</string>
   <string name="presetlist_autoselect_title">Otomatik seçimi onayla</string>
@@ -57,9 +57,9 @@
   <string name="preset_tune">Ayarla</string>
   <string name="preset_rename">Yeniden adlandır</string>
   <string name="preset_delete">Sil</string>
-  <string name="preset_search">\'<xliff:g id="preset_pi">%1$s</xliff:g>\' ı arayın</string>
+  <string name="preset_search">\'<xliff:g id="preset_pi">%1$s</xliff:g>\'ı arayın</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
-  <string name="regional_band">Bölgesel Bant</string>
+  <string name="regional_band">Bölgesel bant</string>
   <string name="aud_output_mode">Ses çıkış modu</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
@@ -70,7 +70,7 @@
   <string name="settings_revert_confirm_title">Sıfırlamayı onaylayın</string>
   <string name="settings_revert_confirm_msg">Tüm uygulama ayarları, kaydedilen listeler silinecek. Devam edilsin mi?</string>
   <string name="no_storage">Kayda başlamadan önce SD kartı yerleştirin.</string>
-  <string name="preparing_sd">SD kart hazırlanıyor...</string>
+  <string name="preparing_sd">SD kart hazırlanıyor\u2026</string>
   <string name="access_sd_fail">SD karta erişilemedi.</string>
   <string name="spaceIsLow_content">SD kart depolama alanınız doluyor. Kalite ayarını değiştirin ya da yer açmak için birkaç dosya silin.</string>
   <string name="menu_scan_for_preset">Tanımlı listeleri tara</string>
@@ -79,14 +79,12 @@
   <string name="alert_dialog_hint">Bir isim girin</string>
   <string name="search_dialog_title">Kanalları tara</string>
   <string name="fm_command_timeout_title">Zaman aşımı</string>
-  <string name="fm_tune_timeout_msg">FM kanalı ayarlamak için cevap alınamadı. Eğer sorun devam ederse, lütfen FM\'i kapatın ve yeniden açın.</string>
-  <string name="fm_command_failed_title">FM işlemi başarısız oldu</string>
   <string name="fm_cmd_failed_msg">FM işlemi başarısız oldu. Sorun devam ederse, lütfen FM\'i kapatın ve tekrar açın.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM işlemi başarısız oldu. FM ve HDMI eşzamanlılığı desteklenmiyor.</string>
   <string name="fm_cmd_failed_call_on">FM işlemi başarısız oldu. FM sesine telefon konuşması sırasında izin verilmiyor.</string>
   <string name="station_name">Kanal:</string>
   <string name="station_exists">Bu frekans zaten mevcut!</string>
-  <string name="station_list_delete_station">Sil:<xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station">Sil: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">\'<xliff:g id="name">%s</xliff:g>\' kanalını silmek istediğinize emin misiniz?</string>
   <string name="station_name_empty">Kanal ismi boş, lütfen tekrar girin.</string>
   <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' ismi zaten kullanılıyor, lütfen farklı bir isim giriniz.</string>
@@ -95,8 +93,6 @@
   <string name="usr_def_band_max">En yüksek frekans (MHz)</string>
   <string name="chanl_spacing">Kanal aralığı</string>
   <string name="set">Ayarla</string>
-  <string name="user_defind_band_msg">En az 1 kanal aralığı ile 76.0 ile 108.0 MHz arasında frekans girin</string>
-  <string name="fm_search_no_results">Uyumlu kanal bulunmadı</string>
   <string name="typ_All_stations">Tüm kanallar</string>
   <string name="typ_Culture">Kültür</string>
   <string name="typ_Current_affairs">Güncel olaylar</string>
@@ -111,11 +107,9 @@
   <string name="typ_Finance">Finans</string>
   <string name="typ_Folk">Halk müziği</string>
   <string name="typ_Information">Bilgilendirme</string>
-  <string name="typ_Jazz">Jazz müziği</string>
+  <string name="typ_Jazz">Caz müziği</string>
   <string name="typ_Light_classical">Hafif klasik</string>
   <string name="typ_Leisure">Boş zaman</string>
-  <string name="typ_News">Haberler</string>
-  <string name="typ_National">Ulusal müzik</string>
   <string name="typ_Other">Diğer müzik</string>
   <string name="typ_Oldies">Eskilerin müziği</string>
   <string name="typ_Phone_in">Telefondan</string>
@@ -124,29 +118,14 @@
   <string name="typ_Rock">Rock müzik</string>
   <string name="typ_Science">Bilim</string>
   <string name="typ_Serious_classical">Ciddi klasik</string>
-  <string name="typ_Social_affairs">Sosyal olaylar</string>
-  <string name="typ_Sport">Spor</string>
-  <string name="typ_Travel">Seyahat</string>
   <string name="typ_Varied">Çeşitli</string>
   <string name="typ_Weather">Hava durumu</string>
-  <string name="typ_Adult_hits">Yetişkin hit</string>
-  <string name="typ_Classical">Klasik</string>
-  <string name="typ_Classic_Rock">Klasik Rock</string>
   <string name="typ_College">Kolej</string>
   <string name="typ_Foreign_language">Yabancı dil</string>
-  <string name="typ_Hiphop">Hip Hop</string>
-  <string name="typ_Nostalgia">Nostalji</string>
-  <string name="typ_Personality">Kişilik</string>
   <string name="typ_Public">Halka açık</string>
   <string name="typ_Religious_music">Dini müzik</string>
   <string name="typ_Religious_talk">Dini sohbet</string>
-  <string name="typ_Rhythm_and_Blues">Rhythm ve Blues</string>
-  <string name="typ_Spanish_music">İspanyol müziği</string>
   <string name="typ_Spanish_talk">İspanyol konuşması</string>
   <string name="typ_Soft">Soft</string>
   <string name="typ_Soft_Rock">Soft Rock</string>
-  <string name="typ_Soft_Rhythm_and_Blues">Soft Rhythm ve Blues</string>
-  <string name="typ_Sports">Spor</string>
-  <string name="typ_Talk">Sohbet</string>
-  <string name="typ_Top_40">En iyi 40</string>
 </resources>
