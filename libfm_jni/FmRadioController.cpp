@@ -225,6 +225,17 @@ int FmRadioController ::Pwr_Up(int freq)
                             ret = FM_FAILURE;
                             goto exit;
                         }
+
+                        value[0] = '\0';
+                        property_get(FM_INTERNAL_ANTENNA_PROP, value, NULL);
+                        ALOGD("Internal antenna property : '%s'\n", value);
+
+                        if (strcmp(value, "true") == 0) {
+                            ret = FmIoctlsInterface::set_control(fd_driver,
+                                    V4L2_CID_PRV_ANTENNA, 1);
+                            ALOGD("Internal antenna set, status : %d\n", ret);
+                        }
+
                         return FM_SUCCESS;
                     } else { //if time out
                         ret = FM_FAILURE;
