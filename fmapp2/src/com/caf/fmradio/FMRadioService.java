@@ -629,6 +629,10 @@ public class FMRadioService extends Service
                         } catch (RemoteException e) {
                              e.printStackTrace();
                         }
+
+                        mSpeakerPhoneOn = bA2dpConnected;
+                        Log.d(LOGTAG, "A2DP, mSpeakerPhoneOn: " + bA2dpConnected);
+
                         if (!bA2dpConnected) {
                             Log.d(LOGTAG, "A2DP device is dis-connected!");
                             mA2dpDisconnected = true;
@@ -804,6 +808,7 @@ public class FMRadioService extends Service
             /* Update the UI based on the state change of the headset/antenna*/
             if(!isAntennaAvailable())
             {
+                mSpeakerPhoneOn = false;
                 if (!isFmOn())
                     return;
                 /* Disable FM and let the UI know */
