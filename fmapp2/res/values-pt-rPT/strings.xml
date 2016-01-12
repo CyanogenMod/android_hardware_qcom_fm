@@ -95,7 +95,7 @@
   <string name="usr_def_band_max">Frequência máxima (MHz)</string>
   <string name="chanl_spacing">Espaçamento entre canais</string>
   <string name="set">Definir</string>
-  <string name="user_defind_band_msg">Introduza a frequência de 76,0 a 108,0 MHz com 1 canal de espaçamento no mínimo</string>
+  <string name="user_defind_band_msg">Introduza uma frequência entre 76.0 e 108.0 MHz com, no mínimo, 1 canal de espaçamento</string>
   <string name="fm_search_no_results">Não foram encontradas estações compatíveis</string>
   <string name="typ_All_stations">Todas as estações</string>
   <string name="typ_Culture">Cultura</string>

@@ -104,6 +104,7 @@
   <string name="typ_Country">Muzyka country</string>
   <string name="typ_Documentary">Dokument</string>
   <string name="typ_Drama">Dramat</string>
+  <string name="typ_Easy_listening">Łagodna muzyka</string>
   <string name="typ_Education">Edukacja</string>
   <string name="typ_Emergency">Awaryjny</string>
   <string name="typ_Emergency_test">Test awaryjny</string>
@@ -117,6 +118,7 @@
   <string name="typ_National">Muzyka narodowa</string>
   <string name="typ_Other">Inna muzyka</string>
   <string name="typ_Oldies">Starsza muzyka</string>
+  <string name="typ_Phone_in">Telefon podłączony</string>
   <string name="typ_Pop">Muzyka pop</string>
   <string name="typ_Religion">Religia</string>
   <string name="typ_Rock">Muzyka rockowa</string>
