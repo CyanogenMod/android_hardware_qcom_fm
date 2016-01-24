@@ -122,6 +122,7 @@ public class FMRadioService extends Service
    private static int mFreq = 0;
    private static boolean mResumeAfterCall = false;
    private static String mAudioDevice="headset";
+   private static boolean mIsSeeking = false;
    MediaRecorder mRecorder = null;
    MediaRecorder mA2dp = null;
    private boolean mFMOn = false;
@@ -793,16 +794,66 @@ public class FMRadioService extends Service
        }
    }
 
+   private boolean isSeekActive() {
+      Log.d(LOGTAG, "Seeking is "+mIsSeeking);
+      return(mIsSeeking);
+   }
+
+   private void setIsSeeking(boolean val) {
+      mIsSeeking = val;
+   }
+
+   private boolean SeekNextStation(boolean dir) {
+      Log.d(LOGTAG, "new SeekNextStationi direction "+(dir?"next":"previous"));
+      if(!isSeekActive()) {
+         mIsSeeking = seek(dir);
+         if (mIsSeeking == false) {
+	      Log.e(LOGTAG, "seek failed");
+	      return false;
+         }
+       }
+       else
+	   return false;
+
+      return true;
+   }
+
+   /** SEEK Station with the matching PI */
+   public boolean initiatePISearch(int pi) {
+      Log.d(LOGTAG, "new initiatePISearch");
+      if(!isSeekActive()) {
+         mIsSeeking = seekPI(pi);
+         if (mIsSeeking == false) {
+            Log.e(LOGTAG, "mService.seekPI failed");
+            return false;
+         }
+      }
+      else
+         return false;
+
+      return true;
+   }
+
    private final MediaSession.Callback mSessionCallback = new MediaSession.Callback() {
         @Override
         public boolean onMediaButtonEvent(Intent intent) {
             KeyEvent event = (KeyEvent) intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT);
             Log.d(LOGTAG, "SessionCallback.onMediaButton()...  event = " +event);
             int key_action = event.getAction();
-            if ((event != null) && ((event.getKeyCode() == KeyEvent.KEYCODE_HEADSETHOOK)
-                                    || (event.getKeyCode() == KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE))
+	    if(event != null && (event.getKeyCode() == KeyEvent.KEYCODE_HEADSETHOOK) && (key_action == KeyEvent.ACTION_DOWN))
+            {
+		if((event.getFlags() & KeyEvent.FLAG_LONG_PRESS)!=0) {
+			Log.d(LOGTAG, "SessionCallback.onMediaButton() its a long press");
+			toggleFM();
+		}
+		else if(isFmOn()) {
+				SeekNextStation(true);
+		}
+		return true;
+	    }
+            else if ((event != null) && (event.getKeyCode() == KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE)
                                 && (key_action == KeyEvent.ACTION_DOWN)) {
-                Log.d(LOGTAG, "SessionCallback: HEADSETHOOK/MEDIA_PLAY_PAUSE");
+                Log.d(LOGTAG, "SessionCallback: MEDIA_PLAY_PAUSE");
                 toggleFM();
                 return true;
             } else if((event != null) && (event.getKeyCode() == KeyEvent.KEYCODE_MEDIA_PAUSE)
@@ -1749,6 +1800,22 @@ public class FMRadioService extends Service
       public List<Integer> getScannedFrequencies() {
           return(mService.get().getScannedFrequencies());
       }
+
+     public boolean isSeekActive() {
+          return(mService.get().isSeekActive());
+      }
+
+     public void setIsSeeking(boolean val) {
+          mService.get().setIsSeeking(val);
+     }
+
+     public boolean SeekNextStation(boolean dir) {
+          return(mService.get().SeekNextStation(dir));
+     }
+
+     public boolean initiatePISearch(int pi) {
+          return(mService.get().initiatePISearch(pi));
+     }
    }
    private final IBinder mBinder = new ServiceStub(this);
 
@@ -2891,6 +2958,7 @@ public class FMRadioService extends Service
             }
             /* Update the frequency in the StatusBar's Notification */
             startNotification();
+	    setIsSeeking(false);
          }
          catch (RemoteException e)
          {
