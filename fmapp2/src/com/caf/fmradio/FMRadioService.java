@@ -122,6 +122,7 @@ public class FMRadioService extends Service
    private static int mFreq = 0;
    private static boolean mResumeAfterCall = false;
    private static String mAudioDevice="headset";
+   private static boolean mIsSeeking = false;
    MediaRecorder mRecorder = null;
    MediaRecorder mA2dp = null;
    private boolean mFMOn = false;
@@ -793,16 +794,49 @@ public class FMRadioService extends Service
        }
    }
 
+   private boolean isSeekActive() {
+      Log.d(LOGTAG, "Seeking is "+mIsSeeking);
+      return(mIsSeeking);
+   }
+
+   private void setIsSeeking(boolean val) {
+      mIsSeeking = val;
+   }
+
+   private boolean seekNextStation(boolean dir) {
+      Log.d(LOGTAG, "seekNextStation direction "+(dir?"next":"previous"));
+      boolean result = !isSeekActive() && seek(dir);
+      setIsSeeking(result);
+      return result;
+   }
+
+   /** SEEK Station with the matching PI */
+   public boolean initiatePISearch(int pi) {
+      Log.d(LOGTAG, "initiatePISearch");
+      boolean result = !isSeekActive() && seekPI(pi);
+      setIsSeeking(result);
+      return result;
+   }
+
    private final MediaSession.Callback mSessionCallback = new MediaSession.Callback() {
         @Override
         public boolean onMediaButtonEvent(Intent intent) {
             KeyEvent event = (KeyEvent) intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT);
             Log.d(LOGTAG, "SessionCallback.onMediaButton()...  event = " +event);
             int key_action = event.getAction();
-            if ((event != null) && ((event.getKeyCode() == KeyEvent.KEYCODE_HEADSETHOOK)
-                                    || (event.getKeyCode() == KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE))
+            if(event != null
+                 && (event.getKeyCode() == KeyEvent.KEYCODE_HEADSETHOOK)
+                 && (key_action == KeyEvent.ACTION_DOWN)) {
+               if ((event.getFlags() & KeyEvent.FLAG_LONG_PRESS) != 0) {
+                    Log.d(LOGTAG, "SessionCallback.onMediaButton() its a long press");
+                    toggleFM();
+               } else if (isFmOn()) {
+                         seekNextStation(true);
+               }
+               return true;
+            } else if ((event != null) && (event.getKeyCode() == KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE)
                                 && (key_action == KeyEvent.ACTION_DOWN)) {
-                Log.d(LOGTAG, "SessionCallback: HEADSETHOOK/MEDIA_PLAY_PAUSE");
+                Log.d(LOGTAG, "SessionCallback: MEDIA_PLAY_PAUSE");
                 toggleFM();
                 return true;
             } else if((event != null) && (event.getKeyCode() == KeyEvent.KEYCODE_MEDIA_PAUSE)
@@ -1749,6 +1783,22 @@ public class FMRadioService extends Service
       public List<Integer> getScannedFrequencies() {
           return(mService.get().getScannedFrequencies());
       }
+
+     public boolean isSeekActive() {
+          return(mService.get().isSeekActive());
+     }
+
+     public void setIsSeeking(boolean val) {
+          mService.get().setIsSeeking(val);
+     }
+
+     public boolean seekNextStation(boolean dir) {
+          return(mService.get().seekNextStation(dir));
+     }
+
+     public boolean initiatePISearch(int pi) {
+          return(mService.get().initiatePISearch(pi));
+     }
    }
    private final IBinder mBinder = new ServiceStub(this);
 
@@ -1957,6 +2007,7 @@ public class FMRadioService extends Service
          bStatus = mReceiver.disable();
          mReceiver = null;
       }
+      setIsSeeking(false);
       stop();
       return(bStatus);
    }
@@ -1979,6 +2030,7 @@ public class FMRadioService extends Service
          bStatus = mReceiver.reset();
          mReceiver = null;
       }
+      setIsSeeking(false);
       stop();
       return(bStatus);
    }
@@ -2403,6 +2455,8 @@ public class FMRadioService extends Service
          Log.d(LOGTAG, "cancelSearch");
          bCommandSent = mReceiver.cancelSearch();
       }
+
+      setIsSeeking(false);
       return bCommandSent;
    }
 
@@ -2876,6 +2930,7 @@ public class FMRadioService extends Service
       public void FmRxEvSearchComplete(int frequency)
        {
          Log.d(LOGTAG, "FmRxEvSearchComplete: Tuned Frequency: " +frequency);
+         setIsSeeking(false);
          try
          {
             FmSharedPreferences.setTunedFrequency(frequency);
