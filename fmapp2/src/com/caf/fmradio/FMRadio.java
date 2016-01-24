@@ -239,7 +239,6 @@ public class FMRadio extends Activity
    /* Current Status Indicators */
    private static boolean mRecording = false;
    private static boolean mIsScaning = false;
-   private static boolean mIsSeeking = false;
    private static boolean mIsSearching = false;
    private static int mScanPty = 0;
    private static int mScanPtyIndex = 0;
@@ -626,7 +625,12 @@ public class FMRadio extends Activity
       boolean radioOn = isFmOn();
       boolean recording = isRecording();
       boolean sleepActive = isSleepTimerActive();
-      boolean searchActive = isScanActive() || isSeekActive();
+      boolean searchActive = false;
+      try{
+          searchActive = isScanActive() || mService.isSeekActive();
+      } catch(RemoteException e) {
+          e.printStackTrace();
+      }
 
       item = menu.add(0, MENU_SCAN_START, 0, R.string.menu_scan_start).
                             setIcon(R.drawable.ic_btn_search);
@@ -681,7 +685,13 @@ public class FMRadio extends Activity
       MenuItem item;
       boolean radioOn = isFmOn();
       boolean recording = isRecording();
-      boolean searchActive = isScanActive() || isSeekActive();
+      boolean searchActive = false;
+
+      try{
+          searchActive = isScanActive() || mService.isSeekActive();
+      } catch(RemoteException e) {
+          e.printStackTrace();
+      }
 
       item = menu.findItem(MENU_SCAN_START);
       if (item != null) {
@@ -1201,8 +1211,15 @@ public class FMRadio extends Activity
       String []items;
       double frequency = mTunedStation.getFrequency() / 1000.0;
       boolean bSearchActive = false;
+      boolean isSeekActive = false;
 
-      if (isSeekActive()) {
+      try{
+         isSeekActive = mService.isSeekActive();
+      } catch(RemoteException e) {
+         e.printStackTrace();
+      }
+
+      if (isSeekActive) {
           msgStr = getString(R.string.msg_seeking);
           bSearchActive = true;
       }else if (isScanActive()) {
@@ -1626,11 +1643,11 @@ public class FMRadio extends Activity
 
    private void enableRadio() {
       mIsScaning = false;
-      mIsSeeking = false;
       mIsSearching = false;
       boolean bStatus = false;
       if (mService != null) {
           try {
+	    mService.setIsSeeking(false);
             if(mService.isSSRInProgress()) {
                Log.e(LOGTAG, "SSR In Progress, looping");
                while(mService.isSSRInProgress()) {
@@ -2044,7 +2061,13 @@ public class FMRadio extends Activity
    }
 
    private void updateSearchProgress() {
-      boolean searchActive = isScanActive() || isSeekActive() || isSearchActive();
+      boolean searchActive = false;
+      try{
+	searchActive = isScanActive() || mService.isSeekActive() || isSearchActive();
+      } catch(RemoteException e) {
+         e.printStackTrace();
+      }
+
       if (searchActive) {
          synchronized (this) {
             if(mProgressDialog == null) {
@@ -2187,9 +2210,6 @@ public class FMRadio extends Activity
       return(mIsScaning);
    }
 
-   private boolean isSeekActive() {
-      return(mIsSeeking);
-   }
    private boolean isSearchActive() {
       return(mIsSearching);
    }
@@ -2201,18 +2221,15 @@ public class FMRadio extends Activity
    private void SeekPreviousStation() {
       Log.d(LOGTAG, "SeekPreviousStation");
       if (mService != null) {
-         try {
-            if(!isSeekActive()) {
-               mIsSeeking = mService.seek(false);
-               if (mIsSeeking == false) {
-                  mCommandFailed = CMD_SEEK;
-                  Log.e(LOGTAG, "mService.seek failed");
-                  showDialog(DIALOG_CMD_FAILED);
+               try{
+                  if(mService.SeekNextStation(false) == false) {
+                     mCommandFailed = CMD_SEEK;
+                     Log.e(LOGTAG, "mService.SeekNextStation failed");
+                     showDialog(DIALOG_CMD_FAILED);
+                  }
+               } catch(RemoteException e) {
+                      e.printStackTrace();
                }
-            }
-         }catch (RemoteException e) {
-            e.printStackTrace();
-         }
       }
       updateSearchProgress();
    }
@@ -2220,18 +2237,15 @@ public class FMRadio extends Activity
    private void SeekNextStation() {
       Log.d(LOGTAG, "SeekNextStation");
       if(mService != null) {
-         try {
-            if(!isSeekActive()) {
-               mIsSeeking = mService.seek(true);
-               if (mIsSeeking == false) {
-                  mCommandFailed = CMD_SEEK;
-                  Log.e(LOGTAG, "mService.seek failed");
-                  showDialog(DIALOG_CMD_FAILED);
+               try{
+                  if(mService.SeekNextStation(true) == false) {
+                     mCommandFailed = CMD_SEEK;
+                     Log.e(LOGTAG, "mService.SeekNextStation failed");
+                     showDialog(DIALOG_CMD_FAILED);
+                  }
+               } catch(RemoteException e) {
+                       e.printStackTrace();
                }
-            }
-         }catch (RemoteException e) {
-            e.printStackTrace();
-         }
       }
       updateSearchProgress();
    }
@@ -2262,25 +2276,26 @@ public class FMRadio extends Activity
    private void initiatePISearch(int pi) {
       Log.d(LOGTAG, "initiatePISearch");
       if(mService != null) {
-         try {
-            if(!isSeekActive()) {
-               mIsSeeking = mService.seekPI(pi);
-               if (mIsSeeking == false) {
-                  mCommandFailed = CMD_SEEKPI;
-                  Log.e(LOGTAG, "mService.seekPI failed");
-                  showDialog(DIALOG_CMD_FAILED);
+               try{
+                  if(mService.initiatePISearch(pi) == false) {
+                     mCommandFailed = CMD_SEEKPI;
+                     Log.e(LOGTAG, "mService.initiatePISearch failed");
+                     showDialog(DIALOG_CMD_FAILED);
+                  }
+               } catch(RemoteException e) {
+                      e.printStackTrace();
                }
-            }
-         }catch (RemoteException e) {
-            e.printStackTrace();
-         }
       }
       updateSearchProgress();
    }
 
    private void resetSearch() {
       mIsScaning = false;
-      mIsSeeking = false;
+      try{
+         mService.setIsSeeking(false);
+      } catch(RemoteException e) {
+         e.printStackTrace();
+      }
       mIsSearching = false;
       resetSearchProgress();
    }
@@ -2290,11 +2305,11 @@ public class FMRadio extends Activity
          if (mService != null) {
             try {
                if ((mIsScaning == true)
-                   || (mIsSeeking == true)
+                   || (mService.isSeekActive() == true)
                    || (mIsSearching == true)) {
                    mService.cancelSearch();
                    mIsScaning = false;
-                   mIsSeeking = false;
+                   mService.setIsSeeking(false);
                    mIsSearching=false;
                }
             }catch (RemoteException e) {
@@ -2625,6 +2640,7 @@ public class FMRadio extends Activity
        }
        return super.onKeyDown(keyCode, event);
    }
+
    private void resetFMStationInfoUI() {
       mTunedStation.setFrequency(FmSharedPreferences.getTunedFrequency());
       mTunedStation.setName("");
@@ -2689,7 +2705,11 @@ public class FMRadio extends Activity
          mScanPty=0;
          mScanPtyIndex = 0;
          mIsScaning = false;
-         mIsSeeking = false;
+         try{
+             mService.setIsSeeking(false);
+         } catch(RemoteException e) {
+             e.printStackTrace();
+         }
          mIsSearching = false;
          updateSearchProgress();
          resetFMStationInfoUI();
@@ -3131,7 +3151,12 @@ public class FMRadio extends Activity
          mScanPty = 0;
          mScanPtyIndex = 0;
          mIsScaning = false;
-         mIsSeeking = false;
+         try{
+             mService.setIsSeeking(false);
+         } catch(RemoteException e) {
+             e.printStackTrace();
+         }
+
          mIsSearching = false;
          mHandler.post(mSearchComplete);
       }
