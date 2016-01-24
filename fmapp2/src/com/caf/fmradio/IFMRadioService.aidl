@@ -75,5 +75,9 @@ interface IFMRadioService
     boolean isSSRInProgress();
     boolean isSearchInProgress();
     List getScannedFrequencies();
+    boolean isSeekActive();
+    boolean seekNextStation(boolean dir);
+    boolean initiatePISearch(int pi);
+    void setIsSeeking(boolean val);
 }
 
