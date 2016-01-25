@@ -528,43 +528,56 @@ public class FMRadio extends Activity
 
    @Override
    public void onResume() {
+      Log.d(LOGTAG, "FMRadio: onResume");
+
       super.onResume();
-      syncScanState();
-      try {
-         if(mService != null) {
-            mService.registerCallbacks(mServiceCallbacks);
-         }
-      }catch (RemoteException e) {
-         e.printStackTrace();
+      if (null == mService) {
+          Log.e(LOGTAG, "FM Service is not running, returning");
+          return;
       }
-      if(isSleepTimerActive()) {
+
+      syncScanState();
+
+      // TODO: We should return on exception or continue?
+      try {
+          mService.registerCallbacks(mServiceCallbacks);
+      } catch (RemoteException e) {
+          e.printStackTrace();
+      }
+
+      if (isSleepTimerActive()) {
           Log.d(LOGTAG, "isSleepTimerActive is true");
           try {
-               if(null != mService) {
-                  mService.cancelDelayedStop(FMRadioService.STOP_SERVICE);
-               }
+               mService.cancelDelayedStop(FMRadioService.STOP_SERVICE);
                if(null != mSleepUpdateHandlerThread) {
                   mSleepUpdateHandlerThread.interrupt();
                }
-          }catch (Exception e) {
+          } catch (Exception e) {
                e.printStackTrace();
           }
           initiateSleepThread();
       }
-      if(isRecording()) {
+
+      if (isRecording()) {
           Log.d(LOGTAG,"isRecordTimerActive is true");
           try {
-            if (null != mService) {
-                mService.cancelDelayedStop(FMRadioService.STOP_RECORD);
-            }
-          }catch (Exception e) {
-            e.printStackTrace();
+              mService.cancelDelayedStop(FMRadioService.STOP_RECORD);
+          } catch (Exception e) {
+              e.printStackTrace();
           }
           if(isRecording()) {
               initiateRecordThread();
           }
       }
-      Log.d(LOGTAG, "FMRadio: onResume");
+
+      // we might lose audio focus between pause and restart,
+      // hence request it again
+      try {
+           mService.requestFocus();
+      } catch (Exception e) {
+           e.printStackTrace();
+      }
+
       mStereo = FmSharedPreferences.getLastAudioMode();
       mHandler.post(mUpdateProgramService);
       mHandler.post(mUpdateRadioText);
