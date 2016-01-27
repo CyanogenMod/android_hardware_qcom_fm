@@ -513,7 +513,13 @@ public class FMRadioService extends Service
                       " mA2dpConnected:" + mA2dpConnected +
                       " isRecordSinking" + isRecordSinking() +
                       " mIsFMDeviceLoopbackActive:" + mIsFMDeviceLoopbackActive);
+
         if (enable) {
+            if (mStoppedOnFocusLoss == true) {
+                Log.d(LOGTAG, "FM does not have audio focus, not enabling " +
+                      "audio path");
+                return;
+            }
             // stop existing playback path before starting new one
             if (mA2dpConnected && mIsFMDeviceLoopbackActive) {
                 // on BT but earlier device loopback is active
