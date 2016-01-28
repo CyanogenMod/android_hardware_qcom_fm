@@ -1003,9 +1003,10 @@ public class FMRadio extends Activity
                 String action = data.getAction();
                 if (action != null) {
                   if (action.equals(Settings.RESTORE_FACTORY_DEFAULT_ACTION)) {
+                      disableRadio();
                       RestoreDefaults();
-                      enableRadioOnOffUI();
-                      tuneRadio(FmSharedPreferences.DEFAULT_NO_FREQUENCY);
+                      FmSharedPreferences.setTunedFrequency(FmSharedPreferences.DEFAULT_NO_FREQUENCY);
+                      enableRadio();
                       FmSharedPreferences.addStation("", FmSharedPreferences.DEFAULT_NO_FREQUENCY, 0);
                   }
                }
