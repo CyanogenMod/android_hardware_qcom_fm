@@ -29,16 +29,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">録音を開始する前にSDカードをマウントしてください。</string>
-  <string name="preparing_sd">SDカードを準備中</string>
-  <string name="access_sd_fail">SDカードにアクセスできません。</string>
-  <string name="spaceIsLow_content">SDカードの容量が少なくなっています。音質の設定を変更するか、画像などのファイルを一部削除してください。</string>
-  <string name="FMRecording_reach_size_limit">サイズの上限に達しました。</string>
-  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">マイFM録音</string>
-  <string name="audio_db_album_name">FM録音</string>
-  <string name="audio_db_playlist_name">FM録音</string>
-  <string name="save_record_file">FM録音は｢<xliff:g id="record_file">%1$s</xliff:g>｣に保存されました。</string>
-  <string name="fm_record_progress">FM録音中</string>
-  <string name="unable_to_store">録音した音声を保存できませんでした</string>
+  <string name="no_storage">Для пачатку запісу далучыце SD-картку.</string>
+  <string name="preparing_sd">Падрыхтоўка SD-карткі</string>
+  <string name="access_sd_fail">Няма доступу да SD-карткі.</string>
+  <string name="spaceIsLow_content">На SD-карце недастаткова месца. Зменіце налады якасці ці выдаліце некалькі выяў ці іншых файлаў.</string>
+  <string name="FMRecording_reach_size_limit">Дасягнута абмежаванне памеру.</string>
+  <string name="audio_db_title_format"><xliff:g id="format">гггг-мм-дздз гг:хвхв:сс </xliff:g></string>
+  <string name="audio_db_artist_name">Мае радыёзапісы</string>
+  <string name="audio_db_album_name">Радыёзапісы</string>
+  <string name="audio_db_playlist_name">Радыёзапісы</string>
+  <string name="save_record_file">Файл радыёзапісу захаваны ў \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">Выконваецца запіс з FM-эфіру</string>
+  <string name="unable_to_store">Не атрымалася захаваць аўдыязапіс</string>
 </resources>

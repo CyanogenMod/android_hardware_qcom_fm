@@ -72,7 +72,7 @@
   <string name="no_storage">録音を開始する前にSDカードをマウントしてください。</string>
   <string name="preparing_sd">SDカードを準備中\u2026</string>
   <string name="access_sd_fail">SDカードにアクセスできませんでした。</string>
-  <string name="spaceIsLow_content">SDカードのストレージの容量が不足しています。音質の設定を変更するか、スペースを空けるために他のファイルを削除してください。</string>
+  <string name="spaceIsLow_content">SDカードのストレージの容量が少なくなっています。音質の設定を変更するか、容量を空けるために他のファイルを一部削除してください。</string>
   <string name="menu_scan_for_preset">プリセットをスキャン</string>
   <string name="fm_off">FMはOFFになっています。</string>
   <string name="fm_call">通話中にFMは使用できません。</string>
