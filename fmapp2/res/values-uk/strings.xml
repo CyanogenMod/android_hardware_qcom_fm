@@ -34,6 +34,7 @@
   <string name="menu_scan_start">Сканувати</string>
   <string name="menu_scan_stop">Зупинити пошук</string>
   <string name="menu_record_start">Запис</string>
+  <string name="menu_record_stop">Зупинити запис</string>
   <string name="menu_settings">Налаштування</string>
   <string name="menu_sleep">Спати</string>
   <string name="menu_sleep_cancel">Скасувати сон</string>
@@ -55,6 +56,7 @@
   <string name="preset_replace">Замінити</string>
   <string name="preset_tune">Налаштувати</string>
   <string name="preset_rename">Перейменувати</string>
+  <string name="preset_delete">Видалити</string>
   <string name="preset_search">Шукати за \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' МГц</string>
   <string name="regional_band">Регіональний діапазон</string>
@@ -68,6 +70,7 @@
   <string name="settings_revert_confirm_title">Підтвердіть скидання</string>
   <string name="settings_revert_confirm_msg">Це видалить всі налаштування додатку, включно із збереженими радіостанціями. Продовжити?</string>
   <string name="no_storage">Змонтувати SD-карту перед початком запису.</string>
+  <string name="access_sd_fail">Не вдалося відкрити SD-картку.</string>
   <string name="spaceIsLow_content">Закінчується місце на вашій SD-карті. Змініть якість в налаштуваннях або ж видаліть зображення чи інші файли.</string>
   <string name="menu_scan_for_preset">Сканувати за попередніми налаштуваннями</string>
   <string name="fm_off">FM-радіо вимкнуто.</string>
@@ -93,4 +96,48 @@
   <string name="set">Встановити</string>
   <string name="user_defind_band_msg">Додайте частоту від 76.0 до 108.0 МГц з мінімальним інтервалом у 1 канал</string>
   <string name="fm_search_no_results">Не знайдено сумісних станцій</string>
+  <string name="typ_All_stations">Всі станції</string>
+  <string name="typ_Culture">Культура</string>
+  <string name="typ_Current_affairs">Поточні події</string>
+  <string name="typ_Children">Дитячі програми</string>
+  <string name="typ_Country">Музика кантрі</string>
+  <string name="typ_Documentary">Документалістика</string>
+  <string name="typ_Drama">Драма</string>
+  <string name="typ_Easy_listening">Легка музика</string>
+  <string name="typ_Education">Освіта</string>
+  <string name="typ_Emergency">Аварійний</string>
+  <string name="typ_Emergency_test">Аварійний тест</string>
+  <string name="typ_Finance">Фінанси</string>
+  <string name="typ_Folk">Народна музика</string>
+  <string name="typ_Information">Інформація</string>
+  <string name="typ_Jazz">Джазова музика</string>
+  <string name="typ_Light_classical">Легка класична</string>
+  <string name="typ_Leisure">Дозвілля</string>
+  <string name="typ_News">Новини</string>
+  <string name="typ_National">Етнічна музика</string>
+  <string name="typ_Other">Інша музика</string>
+  <string name="typ_Oldies">Стара музика</string>
+  <string name="typ_Phone_in">Телефон в</string>
+  <string name="typ_Pop">Поп-музика</string>
+  <string name="typ_Religion">Релігія</string>
+  <string name="typ_Rock">Рок-музика</string>
+  <string name="typ_Science">Наука</string>
+  <string name="typ_Serious_classical">Серйозна класика</string>
+  <string name="typ_Social_affairs">Соціальні питання</string>
+  <string name="typ_Sport">Спорт</string>
+  <string name="typ_Travel">Подорожі</string>
+  <string name="typ_Varied">Різне</string>
+  <string name="typ_Weather">Погода</string>
+  <string name="typ_Adult_hits">Хіти для дорослих</string>
+  <string name="typ_Classical">Класика</string>
+  <string name="typ_Classic_Rock">Класичний рок</string>
+  <string name="typ_College">Коледж</string>
+  <string name="typ_Foreign_language">Іншомовне</string>
+  <string name="typ_Hiphop">Хіп-хоп</string>
+  <string name="typ_Nostalgia">Ностальгія</string>
+  <string name="typ_Public">Громадський</string>
+  <string name="typ_Religious_music">Релігійна музика</string>
+  <string name="typ_Religious_talk">Релігійні розмови</string>
+  <string name="typ_Rhythm_and_Blues">Ритм-енд-блюз</string>
+  <string name="typ_Spanish_music">Іспанська музика</string>
 </resources>
