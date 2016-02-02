@@ -29,16 +29,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">録音を開始する前にSDカードをマウントしてください。</string>
-  <string name="preparing_sd">SDカードを準備中</string>
-  <string name="access_sd_fail">SDカードにアクセスできません。</string>
-  <string name="spaceIsLow_content">SDカードの容量が少なくなっています。音質の設定を変更するか、画像などのファイルを一部削除してください。</string>
-  <string name="FMRecording_reach_size_limit">サイズの上限に達しました。</string>
+  <string name="no_storage">Монтирайте SD картата преди да започнете записа.</string>
+  <string name="preparing_sd">Подготовка на SD карта</string>
+  <string name="access_sd_fail">Няма достъп до SD картата.</string>
+  <string name="spaceIsLow_content">Мястото на SD картата ви привършва. Променете настройката за качество или изтрийте някои изображения или други файлове.</string>
+  <string name="FMRecording_reach_size_limit">Достигнато е ограничението за размер.</string>
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">マイFM録音</string>
-  <string name="audio_db_album_name">FM録音</string>
-  <string name="audio_db_playlist_name">FM録音</string>
-  <string name="save_record_file">FM録音は｢<xliff:g id="record_file">%1$s</xliff:g>｣に保存されました。</string>
-  <string name="fm_record_progress">FM録音中</string>
-  <string name="unable_to_store">録音した音声を保存できませんでした</string>
+  <string name="audio_db_artist_name">Моите FM записи</string>
+  <string name="audio_db_album_name">FM записи</string>
+  <string name="audio_db_playlist_name">FM записи</string>
+  <string name="save_record_file">FM файл съхрани в \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="fm_record_progress">FM в процес на запис</string>
+  <string name="unable_to_store">Не може да съхрани записаното аудио</string>
 </resources>
