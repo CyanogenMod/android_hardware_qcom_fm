@@ -1691,19 +1691,28 @@ public class FMRadio extends Activity
    private void disableRadio() {
       boolean bStatus = false;
       boolean bSpeakerPhoneOn = isSpeakerEnabled();
+
       cancelSearch();
       endSleepTimer();
+
+      // Stop if there is an ongoing Record
       if(mRecording) {
-         //Stop if there is an ongoing Record
          stopRecording();
       }
+
       if(mService != null) {
          try {
             bStatus = mService.fmOff();
-            enableRadioOnOffUI();
             if (bStatus == false) {
                 mCommandFailed = CMD_FMOFF;
                 Log.e(LOGTAG, " mService.fmOff failed");
+            }
+
+            enableRadioOnOffUI();
+            // restore default wired headset on FM power off
+            if (bSpeakerPhoneOn) {
+               mService.enableSpeaker(false);
+               mSpeakerButton.setImageResource(R.drawable.btn_earphone);
             }
          }catch (RemoteException e) {
             e.printStackTrace();
