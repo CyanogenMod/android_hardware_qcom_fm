@@ -531,16 +531,13 @@ public class FMRadio extends Activity
       Log.d(LOGTAG, "FMRadio: onResume");
 
       super.onResume();
-      if (null == mService) {
-          Log.e(LOGTAG, "FM Service is not running, returning");
-          return;
-      }
 
       syncScanState();
 
       // TODO: We should return on exception or continue?
       try {
-          mService.registerCallbacks(mServiceCallbacks);
+          if (mService != null)
+              mService.registerCallbacks(mServiceCallbacks);
       } catch (RemoteException e) {
           e.printStackTrace();
       }
@@ -548,7 +545,8 @@ public class FMRadio extends Activity
       if (isSleepTimerActive()) {
           Log.d(LOGTAG, "isSleepTimerActive is true");
           try {
-               mService.cancelDelayedStop(FMRadioService.STOP_SERVICE);
+               if (mService != null)
+                  mService.cancelDelayedStop(FMRadioService.STOP_SERVICE);
                if(null != mSleepUpdateHandlerThread) {
                   mSleepUpdateHandlerThread.interrupt();
                }
@@ -561,7 +559,8 @@ public class FMRadio extends Activity
       if (isRecording()) {
           Log.d(LOGTAG,"isRecordTimerActive is true");
           try {
-              mService.cancelDelayedStop(FMRadioService.STOP_RECORD);
+              if (mService != null)
+                  mService.cancelDelayedStop(FMRadioService.STOP_RECORD);
           } catch (Exception e) {
               e.printStackTrace();
           }
@@ -573,7 +572,8 @@ public class FMRadio extends Activity
       // we might lose audio focus between pause and restart,
       // hence request it again
       try {
-           mService.requestFocus();
+           if (mService != null)
+               mService.requestFocus();
       } catch (Exception e) {
            e.printStackTrace();
       }
