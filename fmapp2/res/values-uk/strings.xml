@@ -70,6 +70,7 @@
   <string name="settings_revert_confirm_title">Підтвердіть скидання</string>
   <string name="settings_revert_confirm_msg">Це видалить всі налаштування додатку, включно із збереженими радіостанціями. Продовжити?</string>
   <string name="no_storage">Змонтувати SD-карту перед початком запису.</string>
+  <string name="preparing_sd">Підготовка SD-карти\u2026</string>
   <string name="access_sd_fail">Не вдалося відкрити SD-картку.</string>
   <string name="spaceIsLow_content">Закінчується місце на вашій SD-карті. Змініть якість в налаштуваннях або ж видаліть зображення чи інші файли.</string>
   <string name="menu_scan_for_preset">Сканувати за попередніми налаштуваннями</string>
@@ -135,9 +136,17 @@
   <string name="typ_Foreign_language">Іншомовне</string>
   <string name="typ_Hiphop">Хіп-хоп</string>
   <string name="typ_Nostalgia">Ностальгія</string>
+  <string name="typ_Personality">Особистість</string>
   <string name="typ_Public">Громадський</string>
   <string name="typ_Religious_music">Релігійна музика</string>
   <string name="typ_Religious_talk">Релігійні розмови</string>
   <string name="typ_Rhythm_and_Blues">Ритм-енд-блюз</string>
   <string name="typ_Spanish_music">Іспанська музика</string>
+  <string name="typ_Spanish_talk">Іспанські передачі</string>
+  <string name="typ_Soft">Легкий</string>
+  <string name="typ_Soft_Rock">Легкий рок</string>
+  <string name="typ_Soft_Rhythm_and_Blues">Легкий ритм-енд-блюз</string>
+  <string name="typ_Sports">Спорт</string>
+  <string name="typ_Talk">Розмови</string>
+  <string name="typ_Top_40">40 кращих</string>
 </resources>
