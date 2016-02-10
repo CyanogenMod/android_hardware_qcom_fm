@@ -48,7 +48,7 @@
   <string name="msg_searching_title">Senderliste automatisch erstellen</string>
   <string name="msg_searching">Suche nach Radiosendern mit starkem Signal, um eine Senderliste zu erstellen\u2026</string>
   <string name="msg_noantenna">Bitte stecken Sie ein Headset ein, um das FM-Radio nutzen zu können</string>
-  <string name="dialog_sleep_title">Auto-Ausschaltzeit</string>
+  <string name="dialog_sleep_title">Zeit bis zum automatischen Ausschalten</string>
   <string name="presetlist_select_name">\"<xliff:g id="presetlist_name">%1$s</xliff:g>\" auswählen</string>
   <string name="presetlist_add_new">Neue Liste hinzufügen</string>
   <string name="dialog_presetlist_rename_title">Name eingeben</string>
@@ -57,10 +57,10 @@
   <string name="preset_tune">Sendersuchlauf</string>
   <string name="preset_rename">Umbenennen</string>
   <string name="preset_delete">Löschen</string>
-  <string name="preset_search">Suche nach \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
-  <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
+  <string name="preset_search">Suche nach \"<xliff:g id="preset_pi">%1$s</xliff:g>\"</string>
+  <string name="stat_notif_frequency">\"<xliff:g id="frequency">%1$s</xliff:g>\" MHz</string>
   <string name="regional_band">Frequenzband</string>
-  <string name="aud_output_mode">Audio-Ausgabe-Modus</string>
+  <string name="aud_output_mode">Audio-Ausgabemodus</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="record_dur">Aufnahmedauer</string>
@@ -71,7 +71,7 @@
   <string name="settings_revert_confirm_msg">Dies wird alle App-Einstellungen sowie die Senderlisten löschen. Fortfahren?</string>
   <string name="no_storage">Mounten Sie die SD-Karte vor Aufnahmebeginn.</string>
   <string name="preparing_sd">SD-Karte wird vorbereitet\u2026</string>
-  <string name="access_sd_fail">Kein Zugriff auf SD-Karte möglich</string>
+  <string name="access_sd_fail">Kein Zugriff auf die SD-Karte möglich</string>
   <string name="spaceIsLow_content">Der SD-Kartenspeicher hat zu wenig Speicherplatz. Bitte reduzieren Sie die Aufnahmequalität oder löschen Sie einige Daten, um Speicher frei zu machen.</string>
   <string name="menu_scan_for_preset">Nach Senderlisten suchen</string>
   <string name="fm_off">FM ist ausgeschaltet.</string>
@@ -88,14 +88,14 @@
   <string name="station_exists">Diese Frequenz ist bereits vorhanden!</string>
   <string name="station_list_delete_station">Löschen: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Sind Sie sicher, dass Sie \"<xliff:g id="name">%s</xliff:g>\"  löschen wollen?</string>
-  <string name="station_name_empty">Sendername ist leer, bitte geben Sie einen Namen ein.</string>
+  <string name="station_name_empty">Der Sendername ist leer. Bitte geben Sie einen Namen ein.</string>
   <string name="station_name_exist">\"<xliff:g id="name">%s</xliff:g>\" wird bereits verwendet. Bitte geben Sie einen anderen Namen ein.</string>
   <string name="rt_plus_tags">Schlagworte</string>
   <string name="usr_def_band_min">Niedrigste Frequenz (MHz)</string>
   <string name="usr_def_band_max">Höchste Frequenz (MHz)</string>
   <string name="chanl_spacing">Kanalabstand</string>
   <string name="set">Übernehmen</string>
-  <string name="user_defind_band_msg">Frequenz von 76,0 bis 108,0 MHz mit mindestens einem Kanal Abstand eingeben</string>
+  <string name="user_defind_band_msg">Geben Sie eine Frequenz von 76,0 bis 108,0 MHz mit mindestens einem Kanal Abstand ein.</string>
   <string name="fm_search_no_results">Keine kompatiblen Sender gefunden</string>
   <string name="typ_All_stations">Alle Sender</string>
   <string name="typ_Culture">Kultur</string>
@@ -117,7 +117,7 @@
   <string name="typ_News">Nachrichten</string>
   <string name="typ_National">Nationale Musik</string>
   <string name="typ_Other">Andere Musik</string>
-  <string name="typ_Oldies">Oldie-Musik</string>
+  <string name="typ_Oldies">Oldies</string>
   <string name="typ_Phone_in">Gespräche</string>
   <string name="typ_Pop">Popmusik</string>
   <string name="typ_Religion">Religion</string>
@@ -136,10 +136,10 @@
   <string name="typ_Foreign_language">Fremdsprache</string>
   <string name="typ_Hiphop">Hip Hop</string>
   <string name="typ_Nostalgia">Nostalgie</string>
-  <string name="typ_Personality">Persönlich</string>
+  <string name="typ_Personality">Persönlichkeit</string>
   <string name="typ_Public">Öffentlich</string>
   <string name="typ_Religious_music">Geistliche Musik</string>
-  <string name="typ_Religious_talk">Religions-Gespräche</string>
+  <string name="typ_Religious_talk">Religiöse Gespräche</string>
   <string name="typ_Rhythm_and_Blues">Rhythm und Blues</string>
   <string name="typ_Spanish_music">Spanische Musik</string>
   <string name="typ_Spanish_talk">Spanische Gespräche</string>
