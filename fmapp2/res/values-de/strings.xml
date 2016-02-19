@@ -33,7 +33,7 @@
   <string name="tx_app_name">FM-Sender</string>
   <string name="menu_scan_start">Scannen</string>
   <string name="menu_scan_stop">Suche anhalten</string>
-  <string name="menu_record_start">Aufnehmen</string>
+  <string name="menu_record_start">Aufzeichnen</string>
   <string name="menu_record_stop">Aufnahme beenden</string>
   <string name="menu_settings">Einstellungen</string>
   <string name="menu_sleep">Ruhezustand</string>
@@ -41,13 +41,13 @@
   <string name="menu_all_channels">Alle Kanäle</string>
   <string name="menu_display_tags">Schlagworte anzeigen</string>
   <string name="button_text_stop">Anhalten</string>
-  <string name="msg_seeking">Suche FM-Radiosender\u2026</string>
-  <string name="msg_scanning">Scanne alle FM-Radiosender\u2026</string>
-  <string name="msg_scanning_pty">Scanne nach \"<xliff:g id="pty_name">%1$s</xliff:g>\"\u2026</string>
+  <string name="msg_seeking">FM-Radiosender suchen\u2026</string>
+  <string name="msg_scanning">Scannen nach allen FM-Radiosender\u2026</string>
+  <string name="msg_scanning_pty">Scannen nach \"<xliff:g id="pty_name">%1$s</xliff:g>\"\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
   <string name="msg_searching_title">Senderliste automatisch erstellen</string>
   <string name="msg_searching">Suche nach Radiosendern mit starkem Signal, um eine Senderliste zu erstellen\u2026</string>
-  <string name="msg_noantenna">Bitte stecken Sie ein Headset ein, um das FM-Radio nutzen zu können</string>
+  <string name="msg_noantenna">Bitte schließen Sie ein Headset an, um das FM-Radio nutzen zu können.</string>
   <string name="dialog_sleep_title">Zeit bis zum automatischen Ausschalten</string>
   <string name="presetlist_select_name">\"<xliff:g id="presetlist_name">%1$s</xliff:g>\" auswählen</string>
   <string name="presetlist_add_new">Neue Liste hinzufügen</string>
@@ -63,20 +63,20 @@
   <string name="aud_output_mode">Audio-Ausgabemodus</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
-  <string name="record_dur">Aufnahmedauer</string>
+  <string name="record_dur">Aufzeichnungsdauer</string>
   <string name="auto_select_af">Alternative Frequenz</string>
   <string name="settings_revert_defaults_title">Auf Werkseinstellungen zurücksetzen</string>
   <string name="settings_revert_defaults_summary">Alle Einstellungen zurücksetzen</string>
   <string name="settings_revert_confirm_title">Zurücksetzen bestätigen</string>
-  <string name="settings_revert_confirm_msg">Dies wird alle App-Einstellungen sowie die Senderlisten löschen. Fortfahren?</string>
+  <string name="settings_revert_confirm_msg">Diese Aktion löscht die App-Einstellungen und die Senderlisten. Fortfahren?</string>
   <string name="no_storage">Mounten Sie die SD-Karte vor Aufnahmebeginn.</string>
   <string name="preparing_sd">SD-Karte wird vorbereitet\u2026</string>
-  <string name="access_sd_fail">Kein Zugriff auf die SD-Karte möglich</string>
-  <string name="spaceIsLow_content">Der SD-Kartenspeicher hat zu wenig Speicherplatz. Bitte reduzieren Sie die Aufnahmequalität oder löschen Sie einige Daten, um Speicher frei zu machen.</string>
+  <string name="access_sd_fail">Auf die SD-Karte konnte nicht zugegriffen werden.</string>
+  <string name="spaceIsLow_content">Auf Ihrer SD-Karte ist nicht mehr genügend Speicherplatz vorhanden. Bitte reduzieren Sie die Aufnahmequalität oder löschen Sie einige Daten, um Speicher frei zu machen.</string>
   <string name="menu_scan_for_preset">Nach Senderlisten suchen</string>
   <string name="fm_off">FM ist ausgeschaltet.</string>
   <string name="fm_call">FM kann nicht während eines Anrufs verwendet werden.</string>
-  <string name="alert_dialog_hint">Geben Sie einen Namen ein</string>
+  <string name="alert_dialog_hint">Geben Sie einen Namen ein.</string>
   <string name="search_dialog_title">Sendersuche</string>
   <string name="fm_command_timeout_title">Zeitüberschreitung</string>
   <string name="fm_tune_timeout_msg">Kein Empfang des gewünschten FM-Senders. Wenn das Problem weiterhin besteht, bitte Radio aus- und einschalten.</string>
