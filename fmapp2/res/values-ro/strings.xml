@@ -56,6 +56,7 @@
   <string name="preset_replace">Înlocuire</string>
   <string name="preset_tune">Reglaj</string>
   <string name="preset_rename">Redenumire</string>
+  <string name="preset_delete">Ștergere</string>
   <string name="preset_search">Caută pentru \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="regional_band">Banda regională</string>
@@ -68,6 +69,7 @@
   <string name="settings_revert_defaults_summary">Reinițializați toate setările</string>
   <string name="settings_revert_confirm_title">Confirmați reinițializarea</string>
   <string name="settings_revert_confirm_msg">Aceasta va șterge toate setările aplicației, inclusiv presetările salvate. Continuați?</string>
+  <string name="no_storage">Montați cardul SD înainte de a începe înregistrarea.</string>
   <string name="preparing_sd">Se pregătește cardul SD\u2026</string>
   <string name="access_sd_fail">Nu s-a putut accesa cardul SD.</string>
   <string name="spaceIsLow_content">Cardul dvs SD rămâne fără spațiu liber. Schimbați setarea de calitate sau ștergeți câteva dintre fișierele vechi pentru a elibera spațiul.</string>
@@ -116,5 +118,7 @@
   <string name="typ_Hiphop">Hip Hop</string>
   <string name="typ_Nostalgia">Nostalgie</string>
   <string name="typ_Personality">Personalitate</string>
+  <string name="typ_Spanish_music">Muzică spaniolă</string>
+  <string name="typ_Spanish_talk">Conversații în spaniolă</string>
   <string name="typ_Top_40">Top 40</string>
 </resources>

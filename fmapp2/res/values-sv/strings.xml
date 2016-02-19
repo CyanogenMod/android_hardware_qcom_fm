@@ -78,7 +78,7 @@
   <string name="fm_call">FM kan inte användas när du ringer.</string>
   <string name="alert_dialog_hint">Ange ett namn</string>
   <string name="search_dialog_title">Sök efter stationer</string>
-  <string name="fm_command_timeout_title">Tidsgräns</string>
+  <string name="fm_command_timeout_title">Timeout</string>
   <string name="fm_tune_timeout_msg">Inget svar mottogs för att ställa in FM-station. Om problemet kvarstår, var god stäng av och sätt på FM.</string>
   <string name="fm_command_failed_title">FM-åtgärd misslyckades</string>
   <string name="fm_cmd_failed_msg">FM-åtgärd misslyckades. Om problemet kvarstår, stäng av och sätt på FM.</string>
