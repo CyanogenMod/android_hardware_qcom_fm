@@ -30,4 +30,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Look at FmSharedPreferences.java for index -->
     <integer name="default_country_index">0</integer>
+    <integer name="default_record_duration_index">0</integer>
 </resources>
