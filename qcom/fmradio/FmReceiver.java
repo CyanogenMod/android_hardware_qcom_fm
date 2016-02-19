@@ -1475,7 +1475,7 @@ public class FmReceiver extends FmTransceiver
       int bytes_read;
       String rt = "";
       int rt_len;
-      int i, j = 2;
+      int i, count, avail_tag_num = 0;
       byte tag_code, tag_len, tag_start_pos;
 
       bytes_read = FmReceiverJNI.getBufferNative(sFd, rt_plus, BUF_RTPLUS);
@@ -1487,14 +1487,20 @@ public class FmReceiver extends FmTransceiver
           if ((rt != "") && (rt != null)) {
               rt_len = rt.length();
               mRdsData.setTagNums(0);
-              for (i = 1; (i <= 2) && (j < rt_plus[LEN_IND]); i++) {
-                  tag_code = rt_plus[j++];
-                  tag_start_pos = rt_plus[j++];
-                  tag_len = rt_plus[j++];
+              avail_tag_num = (rt_plus[LEN_IND] - 2)/3;
+              if (avail_tag_num > 2) {
+                avail_tag_num = 2;
+              }
+              count = 1;
+              for (i = 0; i < avail_tag_num; i++) {
+                  tag_code = rt_plus[2+3*i];
+                  tag_start_pos = rt_plus[3+3*i];
+                  tag_len = rt_plus[4+3*i];
                   if (((tag_len + tag_start_pos) <= rt_len) && (tag_code > 0)) {
                       mRdsData.setTagValue(rt.substring(tag_start_pos,
-                                            (tag_len + tag_start_pos)), i);
-                      mRdsData.setTagCode(tag_code, i);
+                                            (tag_len + tag_start_pos)), count);
+                      mRdsData.setTagCode(tag_code, count);
+                      count++;
                   }
               }
           } else {

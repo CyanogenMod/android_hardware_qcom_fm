@@ -52,14 +52,14 @@
         <Button android:id="@+id/delete"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:text="@string/button_delete"
+            android:text="@android:string/ok"
             android:layout_gravity="center_horizontal"
             android:layout_alignParentLeft="true" />
 
         <Button android:id="@+id/cancel"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:text="@string/button_cancel"
+            android:text="@android:string/cancel"
             android:layout_alignParentRight="true" />
 
     </RelativeLayout>
