@@ -34,6 +34,7 @@ import java.io.IOException;
 import java.lang.ref.WeakReference;
 
 import android.app.AlarmManager;
+import android.app.Notification.Builder;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -129,6 +130,7 @@ public class FMRadioService extends Service
    private int mServiceStartId = -1;
    private boolean mServiceInUse = false;
    private static boolean mMuted = false;
+   private static int mFreq = 0;
    private static boolean mResumeAfterCall = false;
    private static String mAudioDevice="headset";
    MediaRecorder mRecorder = null;
@@ -145,6 +147,7 @@ public class FMRadioService extends Service
    private boolean mA2dpDisconnected = false;
    private boolean mA2dpConnected = false;
    //PhoneStateListener instances corresponding to each
+   private ArrayList<Integer> mScannedFrequencies = new ArrayList<Integer>();
 
    private FmRxRdsData mFMRxRDSData=null;
    // interval after which we stop the service when idle
@@ -207,6 +210,10 @@ public class FMRadioService extends Service
    private boolean mIsRecordSink = false;
    private static final int AUDIO_FRAMES_COUNT_TO_IGNORE = 3;
    private Object mRecordSinkLock = new Object();
+
+   private Notification.Builder mRadioNotification;
+   private Notification mNotificationInstance;
+   private NotificationManager mNotificationManager;
 
    public FMRadioService() {
    }
@@ -1119,12 +1126,11 @@ public class FMRadioService extends Service
         }
 
         mSampleFile = null;
-        File sampleDir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() +"/FMRecording");
-        if(!(sampleDir.mkdirs() || sampleDir.isDirectory()))
-            return false;
+        File sampleDir = getExternalCacheDir();
+
         try {
-            mSampleFile = File
-                    .createTempFile("FMRecording", ".3gpp", sampleDir);
+            mSampleFile = new File(sampleDir, "FMRecording.aac");
+            mSampleFile.createNewFile();
         } catch (IOException e) {
             Log.e(LOGTAG, "Not able to access SD Card");
             Toast.makeText(this, "Not able to access SD Card", Toast.LENGTH_SHORT).show();
@@ -1218,6 +1224,17 @@ public class FMRadioService extends Service
        Log.d(LOGTAG, "storage state is " + state);
 
        if (Environment.MEDIA_MOUNTED.equals(state)) {
+          File finalFile;
+          try {
+              finalFile = File.createTempFile("FMRecording", ".aac",
+                  Environment.getExternalStorageDirectory());
+              mSampleFile.renameTo(finalFile);
+              mSampleFile = finalFile;
+          } catch (IOException e) {
+              Log.e(LOGTAG, "Not able to access SD Card");
+              Toast.makeText(this, "Not able to access SD Card", Toast.LENGTH_SHORT).show();
+              e.printStackTrace();
+          }
           try {
                this.addToMediaDB(mSampleFile);
                Toast.makeText(this,getString(R.string.save_record_file,
@@ -1400,6 +1417,8 @@ public class FMRadioService extends Service
                       } catch (RemoteException e) {
                            e.printStackTrace();
                       }
+                   } else if (mFreq > 0) {
+                      tune(mFreq);
                    }
               }
           } else {
@@ -1582,27 +1601,28 @@ public class FMRadioService extends Service
 
    /* Show the FM Notification */
    public void startNotification() {
-      RemoteViews views = new RemoteViews(getPackageName(), R.layout.statusbar);
-      views.setImageViewResource(R.id.icon, R.drawable.stat_notify_fm);
-      if (isFmOn())
-      {
-         views.setTextViewText(R.id.frequency, getTunedFrequencyString());
-      } else
-      {
-         views.setTextViewText(R.id.frequency, "");
-      }
+      mRadioNotification = new Notification.Builder(this)
+              .setSmallIcon(R.drawable.stat_notify_fm)
+              .setOngoing(true)
+              .setWhen(0);
 
-      Notification status = new Notification();
-      status.contentView = views;
-      status.flags |= Notification.FLAG_ONGOING_EVENT;
-      status.icon = R.drawable.stat_notify_fm;
-      status.contentIntent = PendingIntent.getActivity(this, 0,
-                                                       new Intent("com.caf.fmradio.FMRADIO_ACTIVITY"), 0);
-      startForeground(FMRADIOSERVICE_STATUS, status);
-      //NotificationManager nm = (NotificationManager)
-      //                         getSystemService(Context.NOTIFICATION_SERVICE);
-      //nm.notify(FMRADIOSERVICE_STATUS, status);
-      //setForeground(true);
+      PendingIntent resultIntent = PendingIntent.getActivity(this, 0,
+              new Intent("com.caf.fmradio.FMRADIO_ACTIVITY"), 0);
+      mRadioNotification.setContentIntent(resultIntent);
+
+      mNotificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+      if (isFmOn()) {
+          mRadioNotification.setContentTitle(getString(R.string.app_name))
+                  .setContentText(getTunedFrequencyString());
+      } else {
+          mRadioNotification.setContentTitle("")
+                  .setContentText("");
+      }
+      mNotificationInstance = mRadioNotification.getNotification();
+      mNotificationManager.notify(FMRADIOSERVICE_STATUS, mNotificationInstance);
+
+      startForeground(FMRADIOSERVICE_STATUS, mNotificationInstance);
+
       mFMOn = true;
    }
 
@@ -1968,6 +1988,13 @@ public class FMRadioService extends Service
       {
          return(mService.get().isA2DPConnected());
       }
+      public boolean isSearchInProgress()
+      {
+         return(mService.get().isSearchInProgress());
+      }
+      public List<Integer> getScannedFrequencies() {
+          return(mService.get().getScannedFrequencies());
+      }
    }
    private final IBinder mBinder = new ServiceStub(this);
 
@@ -2077,12 +2104,10 @@ public class FMRadioService extends Service
             bStatus = enableAutoAF(FmSharedPreferences.getAutoAFSwitch());
             Log.d(LOGTAG, "enableAutoAF done, Status :" +  bStatus);
 
-            /* There is no internal Antenna*/
-            bStatus = mReceiver.setInternalAntenna(false);
-            Log.d(LOGTAG, "setInternalAntenna done, Status :" +  bStatus);
-
-            /* Read back to verify the internal Antenna mode*/
             readInternalAntennaAvailable();
+
+            bStatus = mReceiver.setInternalAntenna(mInternalAntennaAvailable);
+            Log.d(LOGTAG, "setInternalAntenna done, Status :" +  bStatus);
 
             startNotification();
             bStatus = true;
@@ -2200,6 +2225,15 @@ public class FMRadioService extends Service
       }
       stop();
       return(bStatus);
+   }
+
+   public List<Integer> getScannedFrequencies() {
+       return mScannedFrequencies;
+   }
+
+   public boolean isSearchInProgress() {
+      int state = mReceiver.getFMState();
+      return state == qcom.fmradio.FmTransceiver.FMState_Srch_InProg;
    }
 
    public boolean isSSRInProgress() {
@@ -2414,6 +2448,7 @@ public class FMRadioService extends Service
       {
          mReceiver.setStation(frequency);
          bCommandSent = true;
+         mFreq = frequency;
       }
       return bCommandSent;
    }
@@ -2469,6 +2504,8 @@ public class FMRadioService extends Service
     */
    public boolean scan(int pty)
    {
+      // Clear previously scanned frequencies
+      mScannedFrequencies.clear();
       boolean bCommandSent=false;
       if (mReceiver != null)
       {
@@ -2966,7 +3003,6 @@ public class FMRadioService extends Service
       {
          Log.d(LOGTAG, "FmRxEvSetSignalThreshold");
       }
-
       public void FmRxEvRadioTuneStatus(int frequency)
       {
          Log.d(LOGTAG, "FmRxEvRadioTuneStatus: Tuned Frequency: " +frequency);
@@ -2978,6 +3014,9 @@ public class FMRadioService extends Service
             /* Since the Tuned Status changed, clear out the RDSData cached */
             if(mReceiver != null) {
                clearStationInfo();
+            }
+            if (isSearchInProgress()) {
+                mScannedFrequencies.add(frequency);
             }
             if(mCallbacks != null)
             {

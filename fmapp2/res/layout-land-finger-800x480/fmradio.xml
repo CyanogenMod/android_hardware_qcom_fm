@@ -60,7 +60,7 @@
             android:clickable="true"
             android:focusable="true"
             android:visibility="invisible"
-            android:text="@string/default_record"/>
+            android:text="@string/default_blank"/>
 
         <TextView android:id="@+id/prog_service_tv"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -73,7 +73,7 @@
             android:textColor="@android:color/white"
             android:singleLine="true"
             android:textStyle="bold"
-            android:text="@string/prog_service_string"/>
+            android:text="@string/default_blank"/>
 
         <ImageView android:id="@+id/btn_silent"
             android:src="@drawable/ic_silent_mode_off"

@@ -37,6 +37,7 @@ import java.util.Map;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.telephony.TelephonyManager;
 import qcom.fmradio.FmReceiver;
 import qcom.fmradio.FmConfig;
 import android.os.SystemProperties;
@@ -81,6 +82,8 @@ public class FmSharedPreferences
    public static final int REGIONAL_BAND_UNITEDKINGDOM   = 34;
    public static final int REGIONAL_BAND_UNITED_STATES   = 35;
    public static final int REGIONAL_BAND_USER_DEFINED    = 36;
+   public static final int REGIONAL_BAND_INDONESIA       = 37;
+   // If you add to this list, add to getBand() below as well.
 
    public static final int RECORD_DUR_INDEX_0_VAL        = 5;
    public static final int RECORD_DUR_INDEX_1_VAL       = 15;
@@ -168,7 +171,8 @@ public class FmSharedPreferences
    private static boolean mAFAutoSwitch = true;
    private static int mRecordDuration = 0;
    private static int mLastAudioMode = -1;
-   private static boolean mSpecialCarrierFlag = false;
+
+   public static int mDefaultCountryIndex = REGIONAL_BAND_NORTH_AMERICA;
 
    FmSharedPreferences(Context context){
       mContext = context.getApplicationContext();
@@ -448,8 +452,6 @@ public class FmSharedPreferences
       {
          return;
       }
-      mSpecialCarrierFlag = mContext.getResources().getBoolean(
-              R.bool.def_fm_special_carrier_enabled);
       SharedPreferences sp = mContext.getSharedPreferences(SHARED_PREFS, Context.MODE_PRIVATE);
       mTunedFrequency = sp.getInt(PREF_LAST_TUNED_FREQUENCY, DEFAULT_NO_FREQUENCY);
       mRecordDuration = sp.getInt(LAST_RECORD_DURATION, RECORD_DUR_INDEX_0_VAL);
@@ -506,7 +508,8 @@ public class FmSharedPreferences
                 .getBoolean(R.bool.def_fm_country_location_enabled)) {
             setCountry(sp.getInt(FMCONFIG_COUNTRY, REGIONAL_BAND_INDIA));
       } else {
-          setCountry(sp.getInt(FMCONFIG_COUNTRY, REGIONAL_BAND_NORTH_AMERICA));
+          mDefaultCountryIndex = getBand(mContext.getResources().getInteger(R.integer.default_country_index));
+          setCountry(sp.getInt(FMCONFIG_COUNTRY, mDefaultCountryIndex));
       }
       /* Last list the user was navigating */
       mListIndex = sp.getInt(LAST_LIST_INDEX, 0);
@@ -580,7 +583,7 @@ public class FmSharedPreferences
           setCountry(REGIONAL_BAND_CHINA);
           //Others set north America.
       } else {
-          setCountry(REGIONAL_BAND_NORTH_AMERICA);
+          setCountry(mDefaultCountryIndex);
       }
    }
 
@@ -936,15 +939,9 @@ public class FmSharedPreferences
         }
         case REGIONAL_BAND_INDIA:
         {
-          if (mSpecialCarrierFlag) {
-              /*87500 TO 108000 IN 100 KHZ STEPS*/
-              mFMConfiguration.setLowerLimit(87500);
-              mFMConfiguration.setUpperLimit(108000);
-          } else {
-              /*91000 TO 106400 IN 100 KHZ STEPS*/
-              mFMConfiguration.setLowerLimit(91000);
-              mFMConfiguration.setUpperLimit(106400);
-          }
+          /*87500 TO 108000 IN 100 KHZ STEPS*/
+          mFMConfiguration.setLowerLimit(87500);
+          mFMConfiguration.setUpperLimit(108000);
           mFrequencyBand_Stepsize = 100;
           break;
         }
@@ -1089,6 +1086,14 @@ public class FmSharedPreferences
           mFrequencyBand_Stepsize = 200;
           break;
         }
+        case REGIONAL_BAND_INDONESIA:
+        {
+            /*INDONESIA : 87500 TO 108000 IN 100 KHZ STEPS*/
+            mFMConfiguration.setLowerLimit(87500);
+            mFMConfiguration.setUpperLimit(108000);
+            mFrequencyBand_Stepsize = 100;
+            break;
+        }
         case REGIONAL_BAND_USER_DEFINED:
         {
           mFMConfiguration.setRadioBand(FmReceiver.FM_USER_DEFINED_BAND);
@@ -1172,5 +1177,101 @@ public class FmSharedPreferences
 
    public static boolean getAutoAFSwitch() {
       return mAFAutoSwitch;
+   }
+
+   /**
+    * Map country code to radio band. If country code is not found
+    * in the list, takes the default from resources.
+    */
+   private static int getBand(int deflt) {
+      // Try to determine the current location from the phone
+      // network. If unable, or not found in band list, try
+      // from locale. If that fails too, then use the default.
+      // TODO: Once a band is selected, the app remembers it in the
+      // shared preferences. This means the radio band isn't auto-updated
+      // if the user travels to a different country. A better approach would
+      // be to always call this code when the app starts up unless the user
+      // has explicitly set a band. In fact, "auto" should be one of the options.
+      // That will be the subject of another Jira, I think.
+      String countryCode;
+      int band;
+      try {
+         TelephonyManager tm = (TelephonyManager)
+            FMAdapterApp.context.getSystemService(Context.TELEPHONY_SERVICE);
+         countryCode = tm.getNetworkCountryIso();
+         if ((band = getBand(countryCode, -1)) >= 0) return band;
+      } catch (Exception e) {
+         // Failed, perhaps because of no sim card or inadequate permissions.
+         // Ignore it and carry on.
+      }
+      return getBand(Locale.getDefault().getCountry(), deflt);
+   }
+
+   /**
+    * Map a country code to an FM band code.
+    * @param country  2-letter country code
+    * @return band code or deflt on not found.
+    */
+   private static int getBand(String country, int deflt) {
+      // The order of country codes in this list is very strict; it
+      // needs to exactly correspond to the REGIONAL_BAND definitions
+      // at the top of this file. That is why there are two "JP"
+      // entries, one of which is unreachable, and why there is a
+      // placeholder for REGIONAL_BAND_USER_DEFINED.
+      // Some of these entries are intelligent guesses, e.g. my
+      // research indicates that Geurnsey, Jersey, and the Isle of Man
+      // use the same standards as GB.
+      // Many, many countries are not listed. Those will receive the
+      // default setting specified in the resources file.
+      final String[][] countries = {
+         {"CA"},    // REGIONAL_BAND_NORTH_AMERICA
+         {"AL", "AD", "AM", "AZ", "BY", "BA", "BG", "HR", "CY", "EE",
+          "GE", "HU", "IS", "KZ", "LV", "LI", "LT", "LU", "MK", "MT",
+          "MD", "MC", "ME", "RO", "SM", "RS", "SK", "SI", "UA", "VA"}, // REGIONAL_BAND_EUROPE
+         {"JP"},    // REGIONAL_BAND_JAPAN
+         {"JP"},    // REGIONAL_BAND_JAPAN_WIDE (not reached)
+         {"AU"},    // REGIONAL_BAND_AUSTRALIA
+         {"AT"},    // REGIONAL_BAND_AUSTRIA
+         {"BE"},    // REGIONAL_BAND_BELGIUM
+         {"BR"},    // REGIONAL_BAND_BRAZIL
+         {"CN"},    // REGIONAL_BAND_CHINA
+         {"CZ"},    // REGIONAL_BAND_CZECH
+         {"DK"},    // REGIONAL_BAND_DENMARK
+         {"FI"},    // REGIONAL_BAND_FINLAND
+         {"FR"},    // REGIONAL_BAND_FRANCE
+         {"DE"},    // REGIONAL_BAND_GERMANY
+         {"GR"},    // REGIONAL_BAND_GREECE
+         {"HK"},    // REGIONAL_BAND_HONGKONG
+         {"IN"},    // REGIONAL_BAND_INDIA
+         {"IE"},    // REGIONAL_BAND_IRELAND
+         {"IT"},    // REGIONAL_BAND_ITALY
+         {"KR"},    // REGIONAL_BAND_KOREA
+         {"MX"},    // REGIONAL_BAND_MEXICO
+         {"NL"},    // REGIONAL_BAND_NETHERLANDS
+         {"NZ"},    // REGIONAL_BAND_NEWZEALAND
+         {"NO","IS"},    // REGIONAL_BAND_NORWAY
+         {"PL"},    // REGIONAL_BAND_POLAND
+         {"PT"},    // REGIONAL_BAND_PORTUGAL
+         {"RU"},    // REGIONAL_BAND_RUSSIA
+         {"SG"},    // REGIONAL_BAND_SINGAPORE
+         {"SK"},    // REGIONAL_BAND_SLOVAKIA
+         {"ES"},    // REGIONAL_BAND_SPAIN
+         {"CH"},    // REGIONAL_BAND_SWITZERLAND
+         {"SE"},    // REGIONAL_BAND_SWEDEN
+         {"TW"},    // REGIONAL_BAND_TAIWAN
+         {"TR"},    // REGIONAL_BAND_TURKEY
+         {"GB","GG","IM","JE"},    // REGIONAL_BAND_UNITEDKINGDOM
+         {"US"},    // REGIONAL_BAND_UNITED_STATES
+         {"--"},    // REGIONAL_BAND_USER_DEFINED (handled elsewhere)
+         {"ID"},    // REGIONAL_BAND_INDONESIA
+      };
+      for (int band = 0; band < countries.length; ++band) {
+         for (String cc : countries[band]) {
+            if (cc.equalsIgnoreCase(country)) {
+               return band;
+            }
+         }
+      }
+      return deflt;
    }
 }
