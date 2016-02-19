@@ -493,7 +493,7 @@ public class Settings extends PreferenceActivity implements
              if (mRxMode) {
                 mAudioPreference.setValueIndex(0);
                 if (FMRadio.RECORDING_ENABLE) {
-                    mRecordDurPreference.setValueIndex(0);
+                    mRecordDurPreference.setValueIndex(FmSharedPreferences.mDefaultDurationIndex);
                 }
                 mAfPref.setChecked(true);
                 FmSharedPreferences.SetDefaults();

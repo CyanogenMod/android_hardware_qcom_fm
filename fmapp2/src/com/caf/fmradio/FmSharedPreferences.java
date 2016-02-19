@@ -173,6 +173,7 @@ public class FmSharedPreferences
    private static int mLastAudioMode = -1;
 
    public static int mDefaultCountryIndex = REGIONAL_BAND_NORTH_AMERICA;
+   public static int mDefaultDurationIndex = 0;
 
    FmSharedPreferences(Context context){
       mContext = context.getApplicationContext();
@@ -454,7 +455,15 @@ public class FmSharedPreferences
       }
       SharedPreferences sp = mContext.getSharedPreferences(SHARED_PREFS, Context.MODE_PRIVATE);
       mTunedFrequency = sp.getInt(PREF_LAST_TUNED_FREQUENCY, DEFAULT_NO_FREQUENCY);
-      mRecordDuration = sp.getInt(LAST_RECORD_DURATION, RECORD_DUR_INDEX_0_VAL);
+
+      mDefaultDurationIndex = mContext.getResources().getInteger(R.integer.default_record_duration_index);
+      setRecordDuration(mDefaultDurationIndex);
+      /*
+       * Default duration on load would be either last saved duration or duration
+       * set by reading default index from integer.xml, if former is not set
+       */
+      mRecordDuration = sp.getInt(LAST_RECORD_DURATION, mRecordDuration);
+
       mAFAutoSwitch = sp.getBoolean(LAST_AF_JUMP_VALUE, true);
       mAudioOutputMode = sp.getBoolean(AUDIO_OUTPUT_MODE, true);
 
