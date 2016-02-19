@@ -33,5 +33,7 @@
     <item android:state_pressed="true"
         android:drawable="@drawable/ic_btn_spaker_select" />
     <item android:state_enabled="true"
-        android:drawable="@drawable/ic_btn_spaker" />
+        android:drawable="@drawable/ic_btn_spaker_default" />
+    <item android:state_enabled="false"
+        android:drawable="@drawable/ic_btn_spaker_diable" />
 </selector>
