@@ -2719,6 +2719,12 @@ public class FMStats extends Activity  {
           public void onA2DPConnectionstateChanged(boolean state){
              Log.d(LOGTAG, "mServiceCallbacks.onA2DPConnectionstateChanged :");
           }
+          public void onFmAudioPathStarted() {
+             Log.d(LOGTAG, "mServiceCallbacks.onFmAudioPathStarted:");
+          }
+          public void onFmAudioPathStopped() {
+             Log.d(LOGTAG, "mServiceCallbacks.onFmAudioPathStopped:");
+          }
       };
       /* Radio Vars */
      private Handler mHandler = new Handler();

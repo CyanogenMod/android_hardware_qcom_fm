@@ -3256,6 +3256,16 @@ public class FMRadio extends Activity
           Log.d(LOGTAG, "mServiceCallbacks.onA2DPConnectionstateChanged :");
           A2DPConnectionState(state);
       }
+      public void onFmAudioPathStarted() {
+          Log.d(LOGTAG, "mServiceCallbacks.onFmAudioPathStarted:");
+          mSpeakerButton.setClickable(true);
+          mMuteButton.setClickable(true);
+      }
+      public void onFmAudioPathStopped() {
+          Log.d(LOGTAG, "mServiceCallbacks.onFmAudioPathStopped:");
+          mSpeakerButton.setClickable(false);
+          mMuteButton.setClickable(false);
+      }
    };
 
     private void registerFMSettingListner() {

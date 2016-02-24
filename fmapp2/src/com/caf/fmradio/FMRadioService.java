@@ -1019,7 +1019,7 @@ public class FMRadioService extends Service
         }
    };
 
-   private void startFM(){
+   private void startFM() {
        Log.d(LOGTAG, "In startFM");
        if(true == mAppShutdown) { // not to send intent to AudioManager in Shutdown
            return;
@@ -1072,12 +1072,22 @@ public class FMRadioService extends Service
        }
        mPlaybackInProgress = true;
        configureAudioDataPath(true);
+       try {
+           mCallbacks.onFmAudioPathStarted();
+       } catch(RemoteException e) {
+           e.printStackTrace();
+       }
    }
 
-   private void stopFM(){
+   private void stopFM() {
        Log.d(LOGTAG, "In stopFM");
        configureAudioDataPath(false);
        mPlaybackInProgress = false;
+       try {
+           mCallbacks.onFmAudioPathStopped();
+       } catch(RemoteException e) {
+           e.printStackTrace();
+       }
    }
 
    private void resetFM(){
