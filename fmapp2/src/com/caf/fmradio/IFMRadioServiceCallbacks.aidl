@@ -48,4 +48,6 @@ interface IFMRadioServiceCallbacks
   void onRecordingStarted();
   void onSeekNextStation();
   void onA2DPConnectionstateChanged(boolean state);
+  void onFmAudioPathStarted();
+  void onFmAudioPathStopped();
 }
