@@ -2192,6 +2192,7 @@ public class FMRadioService extends Service
    * Turn OFF FM Operations: This disables all the current FM operations             .
    */
    private void fmOperationsOff() {
+      // stop recording
       if (isFmRecordingOn())
       {
           stopRecording();
@@ -2202,14 +2203,19 @@ public class FMRadioService extends Service
                return;
           }
       }
+      // disable audio path
       AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
       if(audioManager != null)
       {
          Log.d(LOGTAG, "audioManager.setFmRadioOn = false \n" );
          stopFM();
-         //audioManager.setParameters("FMRadioOn=false");
          Log.d(LOGTAG, "audioManager.setFmRadioOn false done \n" );
       }
+      // reset FM audio settings
+      if (isSpeakerEnabled() == true)
+          enableSpeaker(false);
+      if (isMuted() == true)
+          unMute();
 
       if (isAnalogModeEnabled()) {
               SystemProperties.set("hw.fm.isAnalog","false");
