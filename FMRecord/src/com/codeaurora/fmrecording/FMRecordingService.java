@@ -355,12 +355,14 @@ public class FMRecordingService extends Service {
             return;
         String state = Environment.getExternalStorageState();
         Log.d(TAG, "storage state is " + state);
+        File storageDir = new File(Environment.getExternalStorageDirectory(), "FM Recording");
+        if (!storageDir.exists())
+                storageDir.mkdirs();
 
         if (Environment.MEDIA_MOUNTED.equals(state)) {
             File finalFile;
             try {
-                finalFile = File.createTempFile("FMRecording", ".aac",
-                    Environment.getExternalStorageDirectory());
+                finalFile = File.createTempFile("FMRecording", ".aac", storageDir);
                 mSampleFile.renameTo(finalFile);
                 mSampleFile = finalFile;
             } catch (IOException e) {
