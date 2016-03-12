@@ -139,8 +139,8 @@
     <string name="chanl_spacing">Channel spacing</string>
 
     <string name="set">Set</string>
-    <string name="user_defind_band_msg">Enter frequency from 76.0 - 108.0, with minimum 1 channel spacing and 100KHz space between max and min freq</string>
-    <string name="save_record_file">Recorded FM file saved to "<xliff:g id="record_file">%1$s</xliff:g>"</string>
+    <string name="user_defind_band_msg">Enter frequency from 76.0 to 108.0 MHz with minimum 1 channel spacing and 100KHz space between min and max frequency</string>
+    <string name="save_record_file">FM recorded file saved to \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
     <string name="fm_search_no_results">No compatible stations found</string>
 
     <!-- program types -->
