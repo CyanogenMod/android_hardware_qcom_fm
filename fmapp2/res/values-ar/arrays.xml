@@ -33,6 +33,9 @@
     <item>ستريو</item>
     <item>أُحادي</item>
   </string-array>
+  <string-array name="ster_entries">
+    <item>ستريو</item>
+  </string-array>
   <string-array name="record_durations_entries">
     <item>5 دقائق</item>
     <item>15 دقيقة</item>

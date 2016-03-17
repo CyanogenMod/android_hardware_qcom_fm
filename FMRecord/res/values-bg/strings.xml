@@ -29,16 +29,25 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="no_storage">Монтирайте SD картата преди да започнете записа.</string>
-  <string name="preparing_sd">Подготовка на SD карта</string>
-  <string name="access_sd_fail">Няма достъп до SD картата.</string>
-  <string name="spaceIsLow_content">Мястото на SD картата ви привършва. Променете настройката за качество или изтрийте някои изображения или други файлове.</string>
-  <string name="FMRecording_reach_size_limit">Достигнато е ограничението за размер.</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+  <string name="no_storage">Монтирайте карта памет преди да започнете записа.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <string name="preparing_sd">Подготовка на карта памет</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <string name="access_sd_fail">Няма достъп до картата памет.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+  <string name="spaceIsLow_content">Мястото на картата памет Ви привършва. Променете настройката за качество или изтрийте някои изображения или други файлове.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Достигнат е максималният размер.</string>
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">Моите FM записи</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
   <string name="audio_db_album_name">FM записи</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">FM записи</string>
-  <string name="save_record_file">FM файл съхрани в \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="save_record_file">Радио записът е съхранен в \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_record_progress">FM в процес на запис</string>
   <string name="unable_to_store">Не може да съхрани записаното аудио</string>
 </resources>

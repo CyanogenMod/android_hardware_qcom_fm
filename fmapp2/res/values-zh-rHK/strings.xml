@@ -64,11 +64,18 @@
   <string name="settings_revert_defaults_title">恢復到出廠預設</string>
   <string name="settings_revert_defaults_summary">清除所有設定</string>
   <string name="settings_revert_confirm_msg">將會清除所有應用程式設定，包括已儲存的預設值。是否繼續？</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">無法存取 SD 卡。</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">您的 SD 卡儲存空間用完，更改質量設定或刪除一些其他的檔案以釋放空間。</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">掃描預設</string>
+  <!-- Off messages -->
   <string name="fm_off">FM 已關閉。</string>
   <string name="fm_call">FM 不能在通話時使用。</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="search_dialog_title">掃描電台</string>
   <string name="fm_command_timeout_title">逾時</string>
   <string name="fm_tune_timeout_msg">沒有收到要 FM 電台的回應。如果問題仍然存在，請關閉 FM，並將其重新開啟。</string>
@@ -76,6 +83,11 @@
   <string name="fm_cmd_failed_msg">FM 操作失敗。如果問題仍然存在，請關閉 FM 及重新開啟。</string>
   <string name="fm_cmd_failed_msg_hdmi">FM 操作失敗。不支援 FM 和 HDMI 的並行。</string>
   <string name="fm_cmd_failed_call_on">FM 操作失敗。通話期間不允許 FM 音頻。</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">電台：</string>
   <string name="station_exists">此頻率已存在!</string>
   <string name="station_list_delete_station">刪除：<xliff:g id="name">%s</xliff:g></string>
@@ -87,6 +99,7 @@
   <string name="usr_def_band_max">最高頻率 (MHz)</string>
   <string name="chanl_spacing">頻道距間</string>
   <string name="set">設定</string>
-  <string name="user_defind_band_msg">輸入從 76.0 至 108.0 MHz 中最少有一個頻道為間隔的頻率</string>
   <string name="fm_search_no_results">找不到相容的電台</string>
+  <!-- program types -->
+  <!-- RBDS (North America) -->
 </resources>

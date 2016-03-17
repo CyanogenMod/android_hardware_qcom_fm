@@ -33,6 +33,9 @@
     <item>Stereo</item>
     <item>Mono</item>
   </string-array>
+  <string-array name="ster_entries">
+    <item>Stereo</item>
+  </string-array>
   <string-array name="record_durations_entries">
     <item>5 minuuttia</item>
     <item>15 minuuttia</item>

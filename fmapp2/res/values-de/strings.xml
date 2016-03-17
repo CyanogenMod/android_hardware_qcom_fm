@@ -31,23 +31,23 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">FM-Radio</string>
   <string name="tx_app_name">FM-Sender</string>
-  <string name="menu_scan_start">Scannen</string>
+  <string name="menu_scan_start">Suchen</string>
   <string name="menu_scan_stop">Suche anhalten</string>
-  <string name="menu_record_start">Aufnehmen</string>
-  <string name="menu_record_stop">Aufnahme beenden</string>
+  <string name="menu_record_start">Aufzeichnen</string>
+  <string name="menu_record_stop">Aufzeichnung beenden</string>
   <string name="menu_settings">Einstellungen</string>
   <string name="menu_sleep">Ruhezustand</string>
   <string name="menu_sleep_cancel">Aufwecken</string>
   <string name="menu_all_channels">Alle Kanäle</string>
   <string name="menu_display_tags">Schlagworte anzeigen</string>
   <string name="button_text_stop">Anhalten</string>
-  <string name="msg_seeking">Suche FM-Radiosender\u2026</string>
-  <string name="msg_scanning">Scanne alle FM-Radiosender\u2026</string>
-  <string name="msg_scanning_pty">Scanne nach \"<xliff:g id="pty_name">%1$s</xliff:g>\"\u2026</string>
+  <string name="msg_seeking">FM-Radiosender suchen\u2026</string>
+  <string name="msg_scanning">Suche nach allen FM-Radiosendern\u2026</string>
+  <string name="msg_scanning_pty">Suche nach \"<xliff:g id="pty_name">%1$s</xliff:g>\"\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
   <string name="msg_searching_title">Senderliste automatisch erstellen</string>
   <string name="msg_searching">Suche nach Radiosendern mit starkem Signal, um eine Senderliste zu erstellen\u2026</string>
-  <string name="msg_noantenna">Bitte stecken Sie ein Headset ein, um das FM-Radio nutzen zu können</string>
+  <string name="msg_noantenna">Bitte schließen Sie ein Headset an, um das FM-Radio nutzen zu können.</string>
   <string name="dialog_sleep_title">Zeit bis zum automatischen Ausschalten</string>
   <string name="presetlist_select_name">\"<xliff:g id="presetlist_name">%1$s</xliff:g>\" auswählen</string>
   <string name="presetlist_add_new">Neue Liste hinzufügen</string>
@@ -63,20 +63,28 @@
   <string name="aud_output_mode">Audio-Ausgabemodus</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
-  <string name="record_dur">Aufnahmedauer</string>
+  <string name="record_dur">Aufzeichnungsdauer</string>
   <string name="auto_select_af">Alternative Frequenz</string>
   <string name="settings_revert_defaults_title">Auf Werkseinstellungen zurücksetzen</string>
   <string name="settings_revert_defaults_summary">Alle Einstellungen zurücksetzen</string>
   <string name="settings_revert_confirm_title">Zurücksetzen bestätigen</string>
-  <string name="settings_revert_confirm_msg">Dies wird alle App-Einstellungen sowie die Senderlisten löschen. Fortfahren?</string>
+  <string name="settings_revert_confirm_msg">Diese Aktion löscht die App-Einstellungen und die Senderlisten. Fortfahren?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Mounten Sie die SD-Karte vor Aufnahmebeginn.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SD-Karte wird vorbereitet\u2026</string>
-  <string name="access_sd_fail">Kein Zugriff auf die SD-Karte möglich</string>
-  <string name="spaceIsLow_content">Der SD-Kartenspeicher hat zu wenig Speicherplatz. Bitte reduzieren Sie die Aufnahmequalität oder löschen Sie einige Daten, um Speicher frei zu machen.</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <string name="access_sd_fail">Auf die SD-Karte konnte nicht zugegriffen werden.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+  <string name="spaceIsLow_content">Auf Ihrer SD-Karte ist nicht mehr genügend Speicherplatz vorhanden. Bitte reduzieren Sie die Aufnahmequalität oder löschen Sie einige Daten, um Speicher frei zu machen.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Maximale Größe erreicht.</string>
   <string name="menu_scan_for_preset">Nach Senderlisten suchen</string>
+  <!-- Off messages -->
   <string name="fm_off">FM ist ausgeschaltet.</string>
   <string name="fm_call">FM kann nicht während eines Anrufs verwendet werden.</string>
-  <string name="alert_dialog_hint">Geben Sie einen Namen ein</string>
+  <!-- The messsage shown when long pressed on a station. -->
+  <string name="alert_dialog_hint">Geben Sie einen Namen ein.</string>
   <string name="search_dialog_title">Sendersuche</string>
   <string name="fm_command_timeout_title">Zeitüberschreitung</string>
   <string name="fm_tune_timeout_msg">Kein Empfang des gewünschten FM-Senders. Wenn das Problem weiterhin besteht, bitte Radio aus- und einschalten.</string>
@@ -84,6 +92,15 @@
   <string name="fm_cmd_failed_msg">Vorgang fehlgeschlagen. Wenn das Problem weiterhin besteht, bitte FM aus- und einschalten.</string>
   <string name="fm_cmd_failed_msg_hdmi">Vorgang fehlgeschlagen. FM und HDMI parallel wird nicht unterstützt.</string>
   <string name="fm_cmd_failed_call_on">Vorgang fehlgeschlagen. FM ist während eines Anrufes nicht möglich.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">tt-MM-jjjj HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Meine Radioaufnahmen</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Radioaufnahmen</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Radioaufnahmen</string>
   <string name="station_name">Sender:</string>
   <string name="station_exists">Diese Frequenz ist bereits vorhanden!</string>
   <string name="station_list_delete_station">Löschen: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">Höchste Frequenz (MHz)</string>
   <string name="chanl_spacing">Kanalabstand</string>
   <string name="set">Übernehmen</string>
-  <string name="user_defind_band_msg">Geben Sie eine Frequenz von 76,0 bis 108,0 MHz mit mindestens einem Kanal Abstand ein.</string>
+  <string name="user_defind_band_msg">Geben Sie eine Frequenz zwischen 76,0 und 108,0 MHz mit einem Mindestabstand von einem Kanal und einem Abstand von 100 KHz zwischen minimaler und maximaler Frequenz ein.</string>
+  <string name="save_record_file">Radioaufnahme wurde unter \"<xliff:g id="record_file">%1$s</xliff:g>\" gespeichert</string>
   <string name="fm_search_no_results">Keine kompatiblen Sender gefunden</string>
+  <!-- program types -->
   <string name="typ_All_stations">Alle Sender</string>
   <string name="typ_Culture">Kultur</string>
   <string name="typ_Current_affairs">Aktuelle Ereignisse</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">Reisen</string>
   <string name="typ_Varied">Verschiedenes</string>
   <string name="typ_Weather">Wetter</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Für Erwachsene</string>
   <string name="typ_Classical">Klassik</string>
   <string name="typ_Classic_Rock">Classic Rock</string>

@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">All d\'Astellungen zrécksetzen</string>
   <string name="settings_revert_confirm_title">Zrécksetze bestätegen</string>
   <string name="settings_revert_confirm_msg">All d\'Astellunge vun der App, inklusiv d\'gespäichert Kanäl, ginn eidel gemaach. Weidermaachen?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Bann d\'SD-Kaart an ier s de d\'Opnam starts.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SD-Kaart gëtt preparéiert\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Keen Zougrëff op d\'SD-Kaart méiglech.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Deng SD-Kaart huet geschwë kee fräie Späicher méi. Änner d\'Qualitéitsastellung oder läsch e puer Fichiere fir Plaz fräizemaachen.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">No Sendere sichen</string>
+  <!-- Off messages -->
   <string name="fm_off">FM ass ausgeschalt.</string>
   <string name="fm_call">FM ka während Uriff net benotzt ginn.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Gëff en Numm an</string>
   <string name="search_dialog_title">Statioune sichen</string>
   <string name="fm_command_timeout_title">Timeout</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">Radio-Operatioun feelgeschloen. Falls de Problem bestoe bleift, schalt de Radio aus an nees un.</string>
   <string name="fm_cmd_failed_msg_hdmi">Radio-Operatioun feelgeschloen. Radio an HDMI funktionnéieren net gläichzäiteg.</string>
   <string name="fm_cmd_failed_call_on">Radio-Operatioun feelgeschloen. Während engem Uruff ka kee Radio gelauschtert ginn.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">Statioun:</string>
   <string name="station_exists">Dës Frequenz existéiert schon!</string>
   <string name="station_list_delete_station">Läschen: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">Héchst Frequenz (Mhz)</string>
   <string name="chanl_spacing">Kanalofstand</string>
   <string name="set">Setzen</string>
-  <string name="user_defind_band_msg">Frequenz tëscht 76.0 an 108.0 MHz mat minimalem Kanalofstand vun 1 aginn</string>
   <string name="fm_search_no_results">Keng kompatibel Statioune fonnt</string>
+  <!-- program types -->
   <string name="typ_All_stations">All d\'Senderen</string>
   <string name="typ_Culture">Kultur</string>
   <string name="typ_Current_affairs">Aktuell Ereegnesser</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">Reesen</string>
   <string name="typ_Varied">Villfälteg</string>
   <string name="typ_Weather">Wieder</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Erwuessenen Hitten</string>
   <string name="typ_Classical">Klassik</string>
   <string name="typ_Classic_Rock">Klassesche Rock</string>

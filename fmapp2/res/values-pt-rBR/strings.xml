@@ -69,13 +69,21 @@
   <string name="settings_revert_defaults_summary">Repor todas as Definições</string>
   <string name="settings_revert_confirm_title">Confirmar Restauração</string>
   <string name="settings_revert_confirm_msg">Isto vai limpar todas as definições, incluindo as estações pré configuradas. Continuar?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Monte o cartão SD antes de iniciar a gravação.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Preparando cartão SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Não foi possível acessar o cartão SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Seu cartão de armazenamento SD está sem espaço. Troque a qualidade ou remova alguns arquivos.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Limite de tamanho atingido.</string>
   <string name="menu_scan_for_preset">Procurar na Memória</string>
+  <!-- Off messages -->
   <string name="fm_off">FM está desligado.</string>
   <string name="fm_call">FM não pode ser usado durante uma ligação.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Inserir um nome</string>
   <string name="search_dialog_title">Procurar Estações</string>
   <string name="fm_command_timeout_title">Tempo limite esgotado</string>
@@ -84,6 +92,15 @@
   <string name="fm_cmd_failed_msg">A operação FM falhou. Se o problema persistir, por favor desligue e volte a ligar o rádio.</string>
   <string name="fm_cmd_failed_msg_hdmi">A operação FM falhou. FM e HDMI não podem ser usados simultaneamente.</string>
   <string name="fm_cmd_failed_call_on">A operação FM falhou. O áudio FM não é permitido durante uma chamada. </string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Minhas Gravações FM</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Gravações FM</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Gravações FM</string>
   <string name="station_name">Estação:</string>
   <string name="station_exists">Esta frequência já existe!</string>
   <string name="station_list_delete_station">Apagar: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">Maior frequência (MHz)</string>
   <string name="chanl_spacing">Espaçamento entre Canais</string>
   <string name="set">Definir</string>
-  <string name="user_defind_band_msg">Insira a frequência de 76.0 a 108,0 MHz com 1 canal de espaçamento no mínimo</string>
+  <string name="user_defind_band_msg">Introduza uma frequência de 76.0 à 108.0 MHz com no mínimo 1 canal de espaço e 100KHz de diferença entre a frequência mínima e máxima</string>
+  <string name="save_record_file">Arquivo de gravação FM salvado em \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Nenhuma estação compatível encontrada</string>
+  <!-- program types -->
   <string name="typ_All_stations">Todas as estações</string>
   <string name="typ_Culture">Cultura</string>
   <string name="typ_Current_affairs">Atualidades</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">Viagens</string>
   <string name="typ_Varied">Variados</string>
   <string name="typ_Weather">Tempo</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Hits Adultos</string>
   <string name="typ_Classical">Clássica</string>
   <string name="typ_Classic_Rock">Rock Clássico</string>

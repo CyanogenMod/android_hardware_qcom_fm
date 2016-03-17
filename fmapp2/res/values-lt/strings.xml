@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">Nustatyti iš naujo visus nustatymus</string>
   <string name="settings_revert_confirm_title">Patvirtinkite atstatymą</string>
   <string name="settings_revert_confirm_msg">Tai išvalis visus programos nustatymus, įskaitant išsaugotus išankstinius nustatymus. Tęsti?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Prijunkite SD kortelę prieš pradedant įrašymą.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Ruošiama SD kortelė\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Nepavyko pasiekti SD kortelės.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Jūsų SD kortelėje liko mažai laisvos vietos. Pakeiskite kokybės nustatymus arba ištrinkite kai kuriuos atvaizdus ar kitus failus.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">Nuskaityti išankstinius sąrašus</string>
+  <!-- Off messages -->
   <string name="fm_off">FM yra išjungtas.</string>
   <string name="fm_call">FM negali būti naudojamas skambinant.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Įveskite pavadinimą</string>
   <string name="search_dialog_title">Nuskaityti stotis</string>
   <string name="fm_command_timeout_title">Skirtasis laikas</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">FM operacija nepavyko. Jei problema kartojasi, prašome išjungti ir vėl įjungti FM.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operacija nepavyko. FM ir HDMI  vienu metu nepalaikomas.</string>
   <string name="fm_cmd_failed_call_on">FM operacija nepavyko. FM neleidžiama skambučio metu.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">Stotis:</string>
   <string name="station_exists">Šis dažnis jau yra!</string>
   <string name="station_list_delete_station">Ištrinti: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">Aukščiausias dažnis (MHz)</string>
   <string name="chanl_spacing">Kanalų atskyrimai</string>
   <string name="set">Nustatyti</string>
-  <string name="user_defind_band_msg">Įveskite dažnį nuo 76,0 iki 108,0 MHz su mažiausiai 1 kanalo atskyrimu</string>
   <string name="fm_search_no_results">Nerasta suderinamų stočių</string>
+  <!-- program types -->
   <string name="typ_All_stations">Visos stotys</string>
   <string name="typ_Culture">Kultūra</string>
   <string name="typ_Current_affairs">Aktualijos</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">Kelionės</string>
   <string name="typ_Varied">Įvairi</string>
   <string name="typ_Weather">Orai</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Suaugusiųjų hitai</string>
   <string name="typ_Classical">Klasikinis</string>
   <string name="typ_Classic_Rock">Klasikinis rokas</string>

@@ -69,13 +69,21 @@
   <string name="settings_revert_defaults_summary">Επαναφορά όλων των ρυθμίσεων</string>
   <string name="settings_revert_confirm_title">Επιβεβαίωση επαναφοράς</string>
   <string name="settings_revert_confirm_msg">Αυτό θα διαγράψει όλες τις ρυθμίσεις εφαρμογής, συμπεριλαμβανομένων των αποθηκευμένων προκαθορισμένων. Συνέχεια;</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Τοποθετήστε την κάρτα SD πριν την έναρξη της εγγραφής.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Προετοιμασία κάρτας SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Δεν ήταν δυνατή η πρόσβαση στην κάρτα SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Ο αποθηκευτικός χώρος της κάρτας SD σας εξαντλείται. Αλλάξτε τη ρύθμιση ποιότητας ή διαγράψτε κάποια άλλα αρχεία για να ελευθερώσετε χώρο.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Συμπληρώθηκε το όριο μεγέθους.</string>
   <string name="menu_scan_for_preset">Σάρωση για προκαθορισμένα</string>
+  <!-- Off messages -->
   <string name="fm_off">Το FM είναι απενεργοποιημένο.</string>
   <string name="fm_call">Το FM δεν μπορεί να χρησιμοποιηθεί κατά τη διάρκεια μιας κλήσης.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Πληκτρολογήστε ένα όνομα</string>
   <string name="search_dialog_title">Σάρωση σταθμών</string>
   <string name="fm_command_timeout_title">Χρονικό όριο</string>
@@ -84,6 +92,15 @@
   <string name="fm_cmd_failed_msg">Η λειτουργία FM απέτυχε. Εάν το πρόβλημα παραμένει, παρακαλούμε απενεργοποιήστε το FM και ενεργοποιήστε το ξανά.</string>
   <string name="fm_cmd_failed_msg_hdmi">Η λειτουργία FM απέτυχε. Δεν υποστηρίζονται ταυτόχρονα FM και HDMI.</string>
   <string name="fm_cmd_failed_call_on">Η λειτουργία FM απέτυχε. Ο ήχος από FM δεν επιτρέπεται κατά τη διάρκεια κλήσης.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Οι ηχογραφήσεις FM μου</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Ηχογραφήσεις FM</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Ηχογραφήσεις FM</string>
   <string name="station_name">Σταθμός:</string>
   <string name="station_exists">Αυτή η συχνότητα υπάρχει ήδη!</string>
   <string name="station_list_delete_station">Διαγραφή: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">Υψηλότερη συχνότητα (MHz)</string>
   <string name="chanl_spacing">Διάστημα καναλιών</string>
   <string name="set">Ορισμός</string>
-  <string name="user_defind_band_msg">Εισαγάγετε συχνότητα από 76.0 έως 108.0 MHz με ελάχιστο 1 κανάλι απόσταση</string>
+  <string name="user_defind_band_msg">Εισάγετε συχνότητα από 76,0 έως 108.0 MHz με ελάχιστη απόσταση 1 κανάλι και 100KHz απόσταση μεταξύ ελάχιστης και μέγιστης συχνότητας</string>
+  <string name="save_record_file">Το αρχείο FM που ηχογραφήθηκε αποθηκεύτηκε στο \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Δε βρέθηκαν συμβατοί σταθμοί</string>
+  <!-- program types -->
   <string name="typ_All_stations">Όλοι οι σταθμοί</string>
   <string name="typ_Culture">Πολιτισμός</string>
   <string name="typ_Current_affairs">Επικαιρότητα</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">Ταξίδια</string>
   <string name="typ_Varied">Ποικίλη</string>
   <string name="typ_Weather">Καιρός</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Hits ενηλίκων</string>
   <string name="typ_Classical">Κλασική</string>
   <string name="typ_Classic_Rock">Κλασικό ροκ</string>

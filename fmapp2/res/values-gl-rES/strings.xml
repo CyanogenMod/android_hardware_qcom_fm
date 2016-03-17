@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">Restabelecer todos os axustes</string>
   <string name="settings_revert_confirm_title">Confirmar o restabelecemento</string>
   <string name="settings_revert_confirm_msg">Esta acción borrará todos os axustes da aplicación, incluso os predefinidos que teña gardados. Quere continuar?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Montar tarxeta SD antes de iniciar gravación.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Preparando a tarxeta SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Imposíbel acceder á tarxeta SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">A súa tarxeta de almacenaxe SD xa non ten espazo. Cambie o axuste de calidade ou elimine algúns ficheiros para liberar espazo.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">Buscar predefinidas</string>
+  <!-- Off messages -->
   <string name="fm_off">O transmisor de FM está apagado.</string>
   <string name="fm_call">Non se pode utilizar o FM en medio dunha chamada.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Escriba un nome</string>
   <string name="search_dialog_title">Buscar emisoras</string>
   <string name="fm_command_timeout_title">Tempo esgotado</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">Fallou a operación de FM. Se o problema persiste, apague a FM e volva acendela.</string>
   <string name="fm_cmd_failed_msg_hdmi">Fallou a operación de FM. Non é compatíbel a concorrencia de FM con HDMI.</string>
   <string name="fm_cmd_failed_call_on">Fallou a operación de FM. Non se permite que soe o transmisor de FM durante unha chamada.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">Emisora:</string>
   <string name="station_exists">Esta frecuencia xa existe!</string>
   <string name="station_list_delete_station">Eliminar: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">Frecuencia máis alta (MHz)</string>
   <string name="chanl_spacing">Espazamento da canle</string>
   <string name="set">Estabelecer</string>
-  <string name="user_defind_band_msg">Introduza unha frecuencia entre 76.0 e 108.0 MHz con, polo menos, unha canle polo medio</string>
   <string name="fm_search_no_results">Non se atopou ningunha emisora compatíbel.</string>
+  <!-- program types -->
   <string name="typ_All_stations">Todas as emisoras</string>
   <string name="typ_Culture">Cultura</string>
   <string name="typ_Current_affairs">Actualidade</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">Viaxes</string>
   <string name="typ_Varied">Variado</string>
   <string name="typ_Weather">Tempo</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Éxitos de sempre</string>
   <string name="typ_Classical">Clásica</string>
   <string name="typ_Classic_Rock">Rock clásico</string>

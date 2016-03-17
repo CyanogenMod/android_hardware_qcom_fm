@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">إعادة تعيين كل الإعدادات</string>
   <string name="settings_revert_confirm_title">تأكيد إعادة التعيين</string>
   <string name="settings_revert_confirm_msg">سيترتب على ذلك مسح كل إعدادات التطبيق، بما في ذلك الإعدادات المسبقة المحفوظة. هل تريد الاستمرار؟ </string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">تحميل بطاقة SD قبل بدء التسجيل.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">جاري إعداد بطاقة SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">‏تعذر الوصول إلى بطاقة SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">نفاد مساحة مخزن بطاقة SD. تغيير إعداد الجودة أو حذف بعض الملفات الأخرى لتحرير مساحة.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">تفحص عن الإعدادات المسبقة</string>
+  <!-- Off messages -->
   <string name="fm_off">FM مغلق.</string>
   <string name="fm_call">لا يمكن استخدام FM أثناء الاتصال.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">قم بإدخال اسم</string>
   <string name="search_dialog_title">تفحص المحطات</string>
   <string name="fm_command_timeout_title">مهلة</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">فشلت عملية FM. إذا استمرت المشكلة، الرجاء إيقاف تشغيل FM وتشغيله مرة أخرى.</string>
   <string name="fm_cmd_failed_msg_hdmi">فشلت عملية FM. التزامن FM و HDMI غير مدعوم.</string>
   <string name="fm_cmd_failed_call_on">فشلت عملية FM. غير مسموح بالصوت FM أثناء المكالمة.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">المحطة:</string>
   <string name="station_exists">هذا التردد موجود بالفعل!</string>
   <string name="station_list_delete_station">حذف: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">أعلى تردد (ميجا هرتز)</string>
   <string name="chanl_spacing">مباعدة بين القنوات</string>
   <string name="set">تعيين</string>
-  <string name="user_defind_band_msg">أدخل تردداً من ٧٦,٠ إلى ١٠٨,٠ ميجا هرتز بفارق قناة واحدة على الأقل</string>
   <string name="fm_search_no_results">لم يتم العثور على محطات متوافقة</string>
+  <!-- program types -->
   <string name="typ_All_stations">جميع المحطات</string>
   <string name="typ_Culture">ثقافة</string>
   <string name="typ_Current_affairs">الشؤون الجارية</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">السفر</string>
   <string name="typ_Varied">متفاوت</string>
   <string name="typ_Weather">طقس</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">مشاهدة متنوعة</string>
   <string name="typ_Classical">كلاسيكي</string>
   <string name="typ_Classic_Rock">كلاسيك روك</string>

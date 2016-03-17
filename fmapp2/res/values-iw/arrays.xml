@@ -33,6 +33,9 @@
     <item>סטריאו</item>
     <item>מונו</item>
   </string-array>
+  <string-array name="ster_entries">
+    <item>סטריאו</item>
+  </string-array>
   <string-array name="record_durations_entries">
     <item>5 דקות</item>
     <item>15 דקות</item>
@@ -69,7 +72,7 @@
     <item>מקסיקו</item>
     <item>הולנד</item>
     <item>ניו זילנד</item>
-    <item>נורבגיה</item>
+    <item>נורווגיה</item>
     <item>פולין</item>
     <item>פורטוגל</item>
     <item>רוסיה</item>
@@ -77,8 +80,8 @@
     <item>סלובקיה</item>
     <item>ספרד</item>
     <item>שוויץ</item>
-    <item>שבדיה</item>
-    <item>טאיוואן</item>
+    <item>שוודיה</item>
+    <item>טייוואן</item>
     <item>טורקיה</item>
     <item>בריטניה</item>
     <item>ארצות הברית</item>
@@ -109,7 +112,7 @@
     <item>מקסיקו (88.1MHz עד 107.9MHz בקפיצות של 200KHz)</item>
     <item>הולנד (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>ניו זילנד (88.0MHz עד 107.0MHz בקפיצות של 100KHz)</item>
-    <item>נורבגיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
+    <item>נורווגיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>פולין (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>פורטוגל (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</item>
     <item>רוסיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
@@ -117,8 +120,8 @@
     <item>סלובקיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>ספרד (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>שוויץ (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
-    <item>שבדיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
-    <item>טאיוואן (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
+    <item>שוודיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
+    <item>טייוואן (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>טורקיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>בריטניה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>ארצות הברית (88.1MHz עד 107.9MHz בקפיצות של 200KHz)</item>

@@ -69,13 +69,21 @@
   <string name="settings_revert_defaults_summary">清除所有设置</string>
   <string name="settings_revert_confirm_title">确认重置</string>
   <string name="settings_revert_confirm_msg">这将会清除所有应用设置，包括已保存的预设。是否继续？</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">在开始录制之前挂载 SD 卡。</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">正在准备 SD 卡\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">无法读取 SD 卡。</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">您的 SD 存储卡空间不足。更改质量设置或删除一些其他文件以释放空间。</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">已达文件大小上限。</string>
   <string name="menu_scan_for_preset">扫描预设</string>
+  <!-- Off messages -->
   <string name="fm_off">FM 已关闭。</string>
   <string name="fm_call">FM 不能在通话时使用。</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">输入一个名称</string>
   <string name="search_dialog_title">搜索电台</string>
   <string name="fm_command_timeout_title">超时</string>
@@ -84,6 +92,15 @@
   <string name="fm_cmd_failed_msg">FM 操作失败。如果问题仍然存在，请关闭 FM，并将其重新打开。</string>
   <string name="fm_cmd_failed_msg_hdmi">FM 操作失败。不支持 FM 和 HDMI 并发。</string>
   <string name="fm_cmd_failed_call_on">FM 操作失败。通话期间禁止 FM 音频。</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">我的 FM 录音</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM 录音</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM 录音</string>
   <string name="station_name">电台：</string>
   <string name="station_exists">此频率已存在!</string>
   <string name="station_list_delete_station">删除：<xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">最高频率(兆赫)</string>
   <string name="chanl_spacing">频道间隔</string>
   <string name="set">设置</string>
-  <string name="user_defind_band_msg">输入从 76.0 至 108.0 兆赫频率，最低包含 1 频道间隔</string>
+  <string name="user_defind_band_msg">输入从 76.0 至 108.0 Mhz 间的频率，并需以至少一个频道间隔，以及与最高和最低频率分别间隔至少 100KHz</string>
+  <string name="save_record_file">FM 录音文件已保存至 \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">没有找到兼容的频道</string>
+  <!-- program types -->
   <string name="typ_All_stations">所有电台</string>
   <string name="typ_Culture">文化</string>
   <string name="typ_Current_affairs">时事</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">旅行</string>
   <string name="typ_Varied">变奏</string>
   <string name="typ_Weather">天气</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">成人金曲音乐</string>
   <string name="typ_Classical">古典</string>
   <string name="typ_Classic_Rock">经典摇滚</string>

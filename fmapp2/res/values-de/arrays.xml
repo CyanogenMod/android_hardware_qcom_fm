@@ -33,6 +33,9 @@
     <item>Stereo</item>
     <item>Mono</item>
   </string-array>
+  <string-array name="ster_entries">
+    <item>Stereo</item>
+  </string-array>
   <string-array name="record_durations_entries">
     <item>5 Minuten</item>
     <item>15 Minuten</item>
@@ -74,13 +77,13 @@
     <item>Portugal</item>
     <item>Russland</item>
     <item>Singapur</item>
-    <item>Slovakei</item>
+    <item>Slowakei</item>
     <item>Spanien</item>
     <item>Schweiz</item>
     <item>Schweden</item>
     <item>Taiwan</item>
     <item>Türkei</item>
-    <item>Großbritannien</item>
+    <item>Vereinigtes Königreich</item>
     <item>USA</item>
     <item>Benutzerdefiniertes Frequenzband</item>
     <item>Indonesien</item>

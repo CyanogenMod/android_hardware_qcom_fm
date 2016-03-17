@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">Bütün tənzimləmələri sıfırla</string>
   <string name="settings_revert_confirm_title">Sıfırlamanı təsdiqlə</string>
   <string name="settings_revert_confirm_msg">Bütün tətbiqetmə tənzimləmələri, saxlanılan siyahılar silinəcək. Davam edilsin?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Səsyazmaya başlamamışdan əvvəl SD kartı taxın.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SD kart hazırlanır\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">SD karta müraciət edə bilmədi.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD kart saxlama sahəsində yer azalır. Keyfiyyət tənzimləmələrini dəyişin və ya yer eləmək üçün bəzi faylları silin.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">Öntərtibli siyahıları tədqiq et</string>
+  <!-- Off messages -->
   <string name="fm_off">FM söndürüldü.</string>
   <string name="fm_call">FM zəng zamanı istifadə edilə bilməz.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Ad daxil edin</string>
   <string name="search_dialog_title">Stansiyaları tədqiq et</string>
   <string name="fm_command_timeout_title">Qoyulan vaxt</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">FM əməliyyatı baş tutmadı. Əgər problem davam edərsə, zəhmət olmasa FM\'i bağlayıb yenidən açın.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM əməliyyatı baş tutmadı. FM və HDMI\'ın eyni vaxtda işləməsi dəstəklənmir.</string>
   <string name="fm_cmd_failed_call_on">FM əməliyyatı baş tutmadı. FM səsinə zəng vaxtı icazə verilmir.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">Stansiya:</string>
   <string name="station_exists">Bu tezlik artıq mövcuddur!</string>
   <string name="station_list_delete_station">Sil: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">Ən yuxarı tezlik (MHz)</string>
   <string name="chanl_spacing">Kanal aralığı</string>
   <string name="set">Tənzimlə</string>
-  <string name="user_defind_band_msg">Ən az 1 kanal aralığı ilə 76.0 - 108.0 MHz arası tezlik daxil edin</string>
   <string name="fm_search_no_results">Uyğun stansiyalar tapılmadı</string>
+  <!-- program types -->
   <string name="typ_All_stations">Bütün kanallar</string>
   <string name="typ_Culture">Mədəniyyət</string>
   <string name="typ_Current_affairs">Hazırki hadisələr</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">Səyahət</string>
   <string name="typ_Varied">Müxtəlif</string>
   <string name="typ_Weather">Hava</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Yetkin hit</string>
   <string name="typ_Classical">Klassik</string>
   <string name="typ_Classic_Rock">Klassik Rok</string>

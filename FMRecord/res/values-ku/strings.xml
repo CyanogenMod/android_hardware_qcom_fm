@@ -29,15 +29,24 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">دڵنیابە لە بیرگەی دەرەکی پێش تۆمار کردن</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">ئامادەکاری بیرگەی دەرەکی</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">نەتوانرا پەیوەندی نێوان ئامێر و بیرگەی دەرەکی دروست بکرێت </string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">بیرگەیەکەت پڕ بوە تکایە لەپێشدا کەمێك زانیاری بسڕەوە و پاشان هەوڵ بدەرەوە
 </string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="FMRecording_reach_size_limit">قەبارەی دیاری کراو تێپەڕیوە</string>
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">تۆمارکراوەکانم</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
   <string name="audio_db_album_name">تۆمارکراوەکان</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">تۆمارکراوەکان</string>
   <string name="save_record_file">تۆمارکراوی پاشەکەوت کراو \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_record_progress">خەریکی تۆمار کردن</string>

@@ -69,13 +69,21 @@
   <string name="settings_revert_defaults_summary">Restaurar todas as definições</string>
   <string name="settings_revert_confirm_title">Confirme o restauro</string>
   <string name="settings_revert_confirm_msg">Isto vai eliminar todas as definições, incluido as estações pré configuradas. Continuar?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Montar o cartão SD antes de iniciar a gravação.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">A preparar o cartão SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Não foi possível aceder ao cartão SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">O seu cartão SD está a ficar sem espaço. Altere a definição de qualidade ou elimine alguns ficheiros para libertar espaço.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Tamanho máximo atingido.</string>
   <string name="menu_scan_for_preset">Procurar emissoras memorizadas</string>
+  <!-- Off messages -->
   <string name="fm_off">O rádio FM está desligado.</string>
   <string name="fm_call">O rádio FM não pode ser utilizado durante uma chamada.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Introduza um nome</string>
   <string name="search_dialog_title">Procurar estações</string>
   <string name="fm_command_timeout_title">Tempo para suspensão</string>
@@ -84,6 +92,15 @@
   <string name="fm_cmd_failed_msg">Falha no funcionamento do rádio. Se o problema persistir, desligue e volte a ligá-lo.</string>
   <string name="fm_cmd_failed_msg_hdmi">Falha no funcionamento do rádio. O rádio e o HDMI não podem ser usados em simultâneo.</string>
   <string name="fm_cmd_failed_call_on">Falha no funcionamento do rádio. O rádio não pode ser usado durante uma chamada.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">As minhas gravações de rádio</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Gravações de rádio</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Gravações de rádio</string>
   <string name="station_name">Estação:</string>
   <string name="station_exists">Esta frequência já existe!</string>
   <string name="station_list_delete_station">Eliminar: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">Frequência máxima (MHz)</string>
   <string name="chanl_spacing">Espaçamento entre canais</string>
   <string name="set">Definir</string>
-  <string name="user_defind_band_msg">Introduza uma frequência entre 76.0 e 108.0 MHz com, no mínimo, 1 canal de espaçamento</string>
+  <string name="user_defind_band_msg">Introduza uma frequência de 76.0 a 108.0MHz com, no mínimo, 1 canal de espaço e 100KHz de espaçamento entre as frequências mínimas e máximas</string>
+  <string name="save_record_file">O ficheiro de gravação de rádio foi guardado como \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Não foram encontradas estações compatíveis</string>
+  <!-- program types -->
   <string name="typ_All_stations">Todas as estações</string>
   <string name="typ_Culture">Cultura</string>
   <string name="typ_Current_affairs">Atualidades</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">Viagens</string>
   <string name="typ_Varied">Diversificada</string>
   <string name="typ_Weather">Tempo</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Hits para adultos</string>
   <string name="typ_Classical">Clássica</string>
   <string name="typ_Classic_Rock">Rock clássico</string>
