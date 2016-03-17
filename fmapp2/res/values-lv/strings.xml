@@ -65,9 +65,16 @@
   <string name="settings_revert_defaults_summary">Atstata visus iestatījumus</string>
   <string name="settings_revert_confirm_title">Atiestatījumu apstiprināšana</string>
   <string name="settings_revert_confirm_msg">Tiks notīrīti lietotnes iestatījumi, ieskaitot saglabātos priekšiestatījumus. Vai turpināt?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Pirms sākt ierakstīšanu, uzmontējiet SD karti.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD kartes krātuvē trūkst vietas. Nomainiet kvalitātes iestatījumus vai izdzēsiet failus, lai atbrīvotu vietu.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">Skenēt pirmstatījumus</string>
+  <!-- Off messages -->
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Ievadiet nosaukumu</string>
   <string name="search_dialog_title">Skenēt stacijas</string>
   <string name="fm_command_timeout_title">Noildze</string>
@@ -76,6 +83,11 @@
   <string name="fm_cmd_failed_msg">FM darbība neizdevās. Ja kļūda nepazūd, lūdzu, izslēdziet un atkal ieslēdziet FM.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM darbība neizdevās. FM un HDMI nav vienlaicīgi atbalstīti.</string>
   <string name="fm_cmd_failed_call_on">FM darbība neizdevās. Zvana laikā FM audio nav atļauts.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_exists">Šī frekvence jau pastāv!</string>
   <string name="station_list_delete_station">Dzēst: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Vai tiešām vēlaties dzēst \'<xliff:g id="name">%s</xliff:g>\'?</string>
@@ -85,5 +97,6 @@
   <string name="usr_def_band_min">Zemākā frekvence (MHz)</string>
   <string name="usr_def_band_max">Augstākā frekvence (MHz)</string>
   <string name="chanl_spacing">Kanālu attālums</string>
-  <string name="user_defind_band_msg">Ievadiet frekvenci no 76.0 līdz 108.0 MHz ar vismaz 1 kanāla atstarpi</string>
+  <!-- program types -->
+  <!-- RBDS (North America) -->
 </resources>

@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">Obnoviť všetky nastavenia</string>
   <string name="settings_revert_confirm_title">Potvrdiť obnovenie</string>
   <string name="settings_revert_confirm_msg">Toto vymaže všetky nastavenia aplikácie, vrátane uložených predvolieb. Pokračovať?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Pripojte kartu SD pred spustením nahrávania.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Príprava karty SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Nepodarilo sa získať prístup ku karte SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Na Vašej karte SD nie je dostatok voľného miesta. Zmeňte nastavenie kvality alebo zmažte niektoré obrázky alebo iné súbory.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">Skenovať predvoľby</string>
+  <!-- Off messages -->
   <string name="fm_off">FM rádio je vypnuté.</string>
   <string name="fm_call">FM rádio nie je možné používať počas volania.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Zadajte názov</string>
   <string name="search_dialog_title">Skenovať stanice</string>
   <string name="fm_command_timeout_title">Časový limit</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">FM operácia zlyhala. Ak problém pretrváva, vypnite FM rádio a opätovne ho zapnite.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operácia zlyhala. Používanie FM rádia a HDMI nie je podporované.</string>
   <string name="fm_cmd_failed_call_on">FM operácia zlyhala. Zvuk z FM rádia počas prebiehajúceho hovoru nie je povolený.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">Stanica:</string>
   <string name="station_exists">Táto frekvencia už existuje!</string>
   <string name="station_list_delete_station">Odstrániť: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">Najvyššia frekvencia (MHz)</string>
   <string name="chanl_spacing">Oddeľovač kanálov</string>
   <string name="set">Nastaviť</string>
-  <string name="user_defind_band_msg">Zadajte frekvenciu od 76.0 do 108.0 MHz s minimálnym odstupom 1 kanálu</string>
   <string name="fm_search_no_results">Nenašli sa žiadne kompatibilné stanice</string>
+  <!-- program types -->
   <string name="typ_All_stations">Všetky stanice</string>
   <string name="typ_Culture">Kultúra</string>
   <string name="typ_Current_affairs">Publicistika</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">Cestovanie</string>
   <string name="typ_Varied">Rôzne</string>
   <string name="typ_Weather">Počasie</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Hity pre dospelých</string>
   <string name="typ_Classical">Klasická hudba</string>
   <string name="typ_Classic_Rock">Klasický Rock</string>

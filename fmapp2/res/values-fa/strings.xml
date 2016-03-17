@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">تنظیم مجدد تمام تنظیمات</string>
   <string name="settings_revert_confirm_title">تایید تنظیم مجدد</string>
   <string name="settings_revert_confirm_msg">تمام تنظیمات برنامه از جمله پیش تنظیم‌های ذخیره شده حذف خواهند شد. ادامه می دهید؟</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">قبل از شروع ضبط کارت حافظه را اضافه کنید.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">آماده کردن کارت حافظه\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">نمی‌توان به کارت حافظه دسترسی پیدا کرد.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">فضای کارت حافظه شما در حال اتمام است. تنظیمات کیفیت را تغییر دهید یا تعدادی از تصاویر و اطلاعات را برای فضای بیشتر حذف کنید.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">اسکن برای ایستگاه تنظیم شده</string>
+  <!-- Off messages -->
   <string name="fm_off">FM خاموش است.</string>
   <string name="fm_call">در طول تماس نمی‌توان از FM استفاده کرد.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">نام را وارد کنید</string>
   <string name="search_dialog_title">اسکن ایستگاه‌ها</string>
   <string name="fm_command_timeout_title">زمان پایان</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">عملیات FM ناموفق بود. در صورت ادامه مشکل لطفا FM را خاموش و روشن کنید.</string>
   <string name="fm_cmd_failed_msg_hdmi">عملیات FM ناموفق بود. FM و HDMI همزمان پشتیبانی نمی‌شود.</string>
   <string name="fm_cmd_failed_call_on">عملیات FM ناموفق بود. استفاده از FM در طول تماس مجاز نمی‌باشد.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">ایستگاه:</string>
   <string name="station_exists">این فرکانس از قبل وجود دارد!</string>
   <string name="station_list_delete_station">حذف: <xliff:g id="name">%s </xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">بالاترین فرکانس (مگاهرتز)</string>
   <string name="chanl_spacing">فاصله کانال</string>
   <string name="set">تنظیم</string>
-  <string name="user_defind_band_msg">فرکانس را بین ۷۶.۰ تا ۱۰۸.۰ مگاهرتز با حداقل فاصله ۱ کانال وارد کنید</string>
   <string name="fm_search_no_results">ایستگاه سازگاری پیدا نشد</string>
+  <!-- program types -->
   <string name="typ_All_stations">تمام ایستگاه‌ها</string>
   <string name="typ_Culture">فرهنگ</string>
   <string name="typ_Current_affairs">امور جاری</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">سفر</string>
   <string name="typ_Varied">متنوع</string>
   <string name="typ_Weather">آب و هوا</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">بیشترین بازدید</string>
   <string name="typ_Classical">کلاسیک</string>
   <string name="typ_Classic_Rock">راک کلاسیک</string>

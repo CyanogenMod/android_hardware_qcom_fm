@@ -33,6 +33,9 @@
     <item>Стерео</item>
     <item>Моно</item>
   </string-array>
+  <string-array name="ster_entries">
+    <item>Стерео</item>
+  </string-array>
   <string-array name="record_durations_entries">
     <item>5 хвилин</item>
     <item>15 хвилин</item>

@@ -67,11 +67,18 @@
   <string name="settings_revert_defaults_summary">Kembalikan semua pengaturan</string>
   <string name="settings_revert_confirm_title">Konfirmasi atur ulang</string>
   <string name="settings_revert_confirm_msg">Ini akan menghapus semua pengaturan aplikasi, termasuk preset yang disimpan. Lanjutkan?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Pasang kartu SD sebelum memulai rekaman.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Kartu SD anda kehabisan ruang penyimpanan. Ubah pengaturan kualitas atau hapus beberapa file lain untuk membebaskan ruang penyimpanan.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">Pindai preset</string>
+  <!-- Off messages -->
   <string name="fm_off">FM dimatikan.</string>
   <string name="fm_call">FM tidak dapat digunakan sewaktu melakukan panggilan.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Masukkan nama</string>
   <string name="search_dialog_title">Pindai stasiun</string>
   <string name="fm_command_timeout_title">Batas waktu</string>
@@ -80,6 +87,11 @@
   <string name="fm_cmd_failed_msg">Pengoperasian FM gagal. Jika masalah berlanjut, harap matikan FM dan menghidupkannya kembali.</string>
   <string name="fm_cmd_failed_msg_hdmi">Pengoperasian FM gagal. Pengoperasian FM dan HDMI secara bersamaan tidak didukung.</string>
   <string name="fm_cmd_failed_call_on">Pengoperasian FM gagal. Audio FM tidak diizinkan selama panggilan.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">Stasiun:</string>
   <string name="station_exists">Frekuensi ini sudah ada!</string>
   <string name="station_list_delete_station">Hapus: <xliff:g id="name">%s</xliff:g></string>
@@ -91,5 +103,6 @@
   <string name="usr_def_band_max">Frekuensi tertinggi (MHz)</string>
   <string name="chanl_spacing">Lebar saluran</string>
   <string name="set">Atur</string>
-  <string name="user_defind_band_msg">Masukkan frekuensi dari 76.0 sampai 108.0 MHz dengan minimal 1 jarak saluran</string>
+  <!-- program types -->
+  <!-- RBDS (North America) -->
 </resources>

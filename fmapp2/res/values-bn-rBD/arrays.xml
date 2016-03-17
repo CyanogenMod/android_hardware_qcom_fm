@@ -33,6 +33,9 @@
     <item>স্টেরিও</item>
     <item>মোনো</item>
   </string-array>
+  <string-array name="ster_entries">
+    <item>স্টেরিও</item>
+  </string-array>
   <string-array name="record_durations_entries">
     <item>৫ মিনিট</item>
     <item>১৫ মিনিট</item>

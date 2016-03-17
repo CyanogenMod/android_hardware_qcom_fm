@@ -52,10 +52,17 @@
   <string name="record_dur">রেকর্ড সময়কাল</string>
   <string name="settings_revert_defaults_title">কারখানা পূর্ব-নির্ধারিত অবস্থায় প্রত্যাবর্তন</string>
   <string name="settings_revert_defaults_summary">সকল রুপান্তর নির্ধারণ পুন:স্থাপন</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">রেকর্ডিং শুরু করার আগে এসডি কার্ড মাউন্ট করুন।</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">এসডি কার্ডে প্রবেশ করা যাচ্ছে না।</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">আপনার এসডি কার্ডে স্থান স্বল্পতা আছে। যায়গার রুপান্তর নির্ধারণ করুন অথবা জায়গা খালি করতে কিছু অন্যান্য ফাইল মুছে ফেলুন।</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">প্রিসেটের জন্য স্ক্যান</string>
+  <!-- Off messages -->
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">একটি নাম লিখুন</string>
   <string name="search_dialog_title">স্টেশন স্ক্যান</string>
   <string name="fm_command_timeout_title">সময়োত্তীর্ণ</string>
@@ -64,9 +71,16 @@
   <string name="fm_cmd_failed_msg">এফএম অপারেশন ব্যর্থ হয়েছে। যদি সমস্যাটি থেকে যায়, অনুগ্রহ করে এফএম বন্ধ করুন এবং এটি পুনরায় চালু করুন।</string>
   <string name="fm_cmd_failed_msg_hdmi">এফএম অপারেশন ব্যর্থ হয়েছে। এফএম এবং এইচডিএমআই সহঅবস্থান সমর্থিত নয়।</string>
   <string name="fm_cmd_failed_call_on">এফএম কার্যক্রমটি ব্যর্থ হয়েছে। কল চলাকালীন সময়ে এফএম অডিও অনুমোদিত নয়।</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_exists">এই ফ্রিকোয়েন্সি ইতিমধ্যেই বিদ্যমান!</string>
   <string name="station_list_delete_station">মুছে ফেলুন: <xliff:g id="name"> %s </xliff:g></string>
   <string name="station_name_empty">কেন্দ্রের নাম খালি, দয়া করে আবার নামটি লিখুন।</string>
   <string name="rt_plus_tags">ট্যাগস</string>
   <string name="chanl_spacing">চ্যানেল ব্যবধান</string>
+  <!-- program types -->
+  <!-- RBDS (North America) -->
 </resources>

@@ -69,13 +69,21 @@
   <string name="settings_revert_defaults_summary">Restableix totes les configuracions</string>
   <string name="settings_revert_confirm_title">Confirma el restabliment</string>
   <string name="settings_revert_confirm_msg">Això esborrarà tots els ajustaments de l\'aplicació, incloent-hi les presintonies desades. Vols continuar?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Munta la targeta SD abans de començar a enregistrar.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">S\'està preparant la targeta SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">No s\'ha pogut accedir a la targeta SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">S\'està acabant l\'espai a la teva targeta SD. Canvia l\'ajustament de qualitat o esborra algunes imatges o altres fitxers.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">S\'ha arribat al límit de mida.</string>
   <string name="menu_scan_for_preset">Cerca les Presintonies</string>
+  <!-- Off messages -->
   <string name="fm_off">La FM està apagada.</string>
   <string name="fm_call">La FM no es pot utilitzar durant una trucada.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Introdueix un nom</string>
   <string name="search_dialog_title">Cerca Emissores</string>
   <string name="fm_command_timeout_title">Compte enrera</string>
@@ -84,6 +92,15 @@
   <string name="fm_cmd_failed_msg">L\'operació FM ha fallat. Si el problema continua, si us plau apaga la ràdio FM i torna-la a engegar.</string>
   <string name="fm_cmd_failed_msg_hdmi">L\'operació FM ha fallat. No ha esta suportada la simultaneïtat FM i HDMI.</string>
   <string name="fm_cmd_failed_call_on">L\'operació FM ha fallat. El so FM no està permès durant una trucada.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Les meves gravacions FM</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Gravacions FM</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Gravacions FM</string>
   <string name="station_name">Emissora:</string>
   <string name="station_exists">Aquesta freqüència ja existeix!</string>
   <string name="station_list_delete_station">Esborra:<xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">Freqüència més alta (MHz)</string>
   <string name="chanl_spacing">Separació entre canals</string>
   <string name="set">Estableix</string>
-  <string name="user_defind_band_msg">Introdueix una freqüència de 76.0 a 108.0 MHz amb almenys un espaiat d\'un canal</string>
+  <string name="user_defind_band_msg">Introdueix la freqüència desde 76.0 fins a 108.0 MHz amb un espai de canal mínim d\'1 i 100KHz d\'espai entre la freqüència mínima i màxima</string>
+  <string name="save_record_file">El fitxer enregistrat FM s\'ha desat a \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">No s\'han trobat emissores compatibles</string>
+  <!-- program types -->
   <string name="typ_All_stations">Totes les emissores</string>
   <string name="typ_Culture">Cultura</string>
   <string name="typ_Current_affairs">Actualitat</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">Viatges</string>
   <string name="typ_Varied">Variada</string>
   <string name="typ_Weather">El temps</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Èxits de sempre</string>
   <string name="typ_Classical">Clàssica</string>
   <string name="typ_Classic_Rock">Rock clàssic</string>

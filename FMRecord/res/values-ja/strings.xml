@@ -29,16 +29,25 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">録音を開始する前にSDカードをマウントしてください。</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SDカードを準備中</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">SDカードにアクセスできません。</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SDカードの容量が少なくなっています。音質の設定を変更するか、画像などのファイルを一部削除してください。</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="FMRecording_reach_size_limit">サイズの上限に達しました。</string>
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
-  <string name="audio_db_artist_name">マイFM録音</string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">FM録音</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
   <string name="audio_db_album_name">FM録音</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">FM録音</string>
-  <string name="save_record_file">FM録音は｢<xliff:g id="record_file">%1$s</xliff:g>｣に保存されました。</string>
+  <string name="save_record_file">FM録音は[<xliff:g id="record_file">%1$s</xliff:g>]に保存されました。</string>
   <string name="fm_record_progress">FM録音中</string>
   <string name="unable_to_store">録音した音声を保存できませんでした</string>
 </resources>

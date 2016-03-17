@@ -45,46 +45,63 @@
   <string name="msg_scanning">Pretražujem sve FM postaje\u2026</string>
   <string name="msg_scanning_pty">Tražim \"<xliff:g id="pty_name">%1$s</xliff:g>\"\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
-  <string name="msg_searching_title">Automatski odaberi početne</string>
+  <string name="msg_searching_title">Automatski odabirem početne</string>
   <string name="msg_searching">Tražim jake postaje za popis početnih</string>
   <string name="msg_noantenna">Molim priključite slušalice da biste mogli koristiti FM radio</string>
   <string name="dialog_sleep_title">Vrijeme do automatskog isključivanja</string>
-  <string name="presetlist_select_name">Odaberi \"<xliff:g id="presetlist_name">%1$s</xliff:g>\"</string>
+  <string name="presetlist_select_name">Odaberi \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_add_new">Dodaj novi popis</string>
   <string name="dialog_presetlist_rename_title">Upišite naziv</string>
   <string name="presetlist_autoselect_title">Potvrdi automatski odabir</string>
-  <string name="preset_replace">Premjesti</string>
+  <string name="preset_replace">Zamijeni</string>
   <string name="preset_tune">Podesi</string>
   <string name="preset_rename">Preimenuj</string>
   <string name="preset_delete">Obriši</string>
-  <string name="preset_search">Traži \"<xliff:g id="preset_pi">%1$s</xliff:g>\"</string>
+  <string name="preset_search">Traži \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="regional_band">Regionalni pojas</string>
-  <string name="aud_output_mode">Izlaz zvuka</string>
+  <string name="aud_output_mode">Način izlaza zvuka</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
   <string name="record_dur">Trajanje snimke</string>
   <string name="auto_select_af">Alternativna frekvencija</string>
-  <string name="settings_revert_defaults_title">Vratiti na tvorničke postavke</string>
+  <string name="settings_revert_defaults_title">Vrati na tvorničke postavke</string>
   <string name="settings_revert_defaults_summary">Vraćanje svih postavki</string>
-  <string name="settings_revert_confirm_title">Potvrdite reset</string>
+  <string name="settings_revert_confirm_title">Potvrdite resetiranje</string>
   <string name="settings_revert_confirm_msg">Ovo će obrisati sve postavke aplikacije uključujući i spremjene početne vrijednosti. Želite li nastaviti?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Montiraj SD karticu prije početka snimanja.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Priprema SD kartice\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Pristup SD kartici nije moguć.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Ponestaje prostora na SD kartici. Promijenite postavke kvalitete ili obrišite neke druge datoteke kako biste oslobodili prostor.</string>
-  <string name="menu_scan_for_preset">Pretraži početne</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Postignuto je ograničenje veličine.</string>
+  <string name="menu_scan_for_preset">Pretraži pretkonfigurirane stavke</string>
+  <!-- Off messages -->
   <string name="fm_off">FM je isključen.</string>
   <string name="fm_call">Nije moguće koristiti FM za vijeme poziva.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Unesite naziv</string>
-  <string name="search_dialog_title">Pretraži postaje</string>
-  <string name="fm_command_timeout_title">Istek</string>
+  <string name="search_dialog_title">Pretraži stanice</string>
+  <string name="fm_command_timeout_title">Vremenski istek</string>
   <string name="fm_tune_timeout_msg">Nema odgovora na podešavanje FM postaje. Ukoliko se ovaj problem ponovi molim vas da isključite FM i ponovno ga uključite.</string>
   <string name="fm_command_failed_title">FM operacija neuspješna</string>
   <string name="fm_cmd_failed_msg">FM operacija nije uspjela. Ako se problem nastavi pojavljivati, isključite FM i ponovno ga uključite.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operacija nije uspjela. FM i HDMI nisu podržani istovremeno.</string>
   <string name="fm_cmd_failed_call_on">FM operacija nije uspjela. FM zvuk nije dopušten tijekom poziva.</string>
-  <string name="station_name">Postaja:</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Moje FM snimke</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM snimke</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM snimke</string>
+  <string name="station_name">Stanica:</string>
   <string name="station_exists">Ova frekvencija već postoji!</string>
   <string name="station_list_delete_station">Izbriši: <xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">Jeste li sigurni da želite izbrisati \"<xliff:g id="name">%s</xliff:g>\"?</string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">Najviša frekvencija (MHz)</string>
   <string name="chanl_spacing">Razmak između kanala</string>
   <string name="set">Postavi</string>
-  <string name="user_defind_band_msg">Unesite frekvenciju od 76.0 do 108.0 MHz sa minimalno 1 postajom razmaka</string>
+  <string name="user_defind_band_msg">Unesite frekvenciju od 76.0 do 108.0 MHz sa minimalno 1 kanalom razmaka i 100KHz razmaka između min. i max. frekvencije</string>
+  <string name="save_record_file">FM snimljena datoteka spremljena u \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Nije pronađena nijedna kompatibilna postaja</string>
+  <!-- program types -->
   <string name="typ_All_stations">Sve stanice</string>
   <string name="typ_Culture">Kultura</string>
   <string name="typ_Current_affairs">Aktualno</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">Putovanje</string>
   <string name="typ_Varied">Raznoliko</string>
   <string name="typ_Weather">Vrijeme</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Stari hitovi</string>
   <string name="typ_Classical">Klasika</string>
   <string name="typ_Classic_Rock">Klasični rock</string>

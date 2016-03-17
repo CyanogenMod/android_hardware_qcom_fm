@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">Tüm ayarları sıfırla</string>
   <string name="settings_revert_confirm_title">Sıfırlamayı onaylayın</string>
   <string name="settings_revert_confirm_msg">Tüm uygulama ayarları, kaydedilen listeler silinecek. Devam edilsin mi?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Kayda başlamadan önce SD kartı yerleştirin.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SD kart hazırlanıyor\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">SD karta erişilemedi.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD kart depolama alanınız doluyor. Kalite ayarını değiştirin ya da yer açmak için birkaç dosya silin.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">Tanımlı listeleri tara</string>
+  <!-- Off messages -->
   <string name="fm_off">FM kapatıldı.</string>
   <string name="fm_call">FM arama sırasında kullanılamaz.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Bir isim girin</string>
   <string name="search_dialog_title">Kanalları tara</string>
   <string name="fm_command_timeout_title">Zaman aşımı</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">FM işlemi başarısız oldu. Sorun devam ederse, lütfen FM\'i kapatın ve tekrar açın.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM işlemi başarısız oldu. FM ve HDMI eşzamanlılığı desteklenmiyor.</string>
   <string name="fm_cmd_failed_call_on">FM işlemi başarısız oldu. FM sesine telefon konuşması sırasında izin verilmiyor.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">Kanal:</string>
   <string name="station_exists">Bu frekans zaten mevcut!</string>
   <string name="station_list_delete_station">Sil: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">En yüksek frekans (MHz)</string>
   <string name="chanl_spacing">Kanal aralığı</string>
   <string name="set">Ayarla</string>
-  <string name="user_defind_band_msg">En az 1 kanal aralığı ile 76.0 ile 108.0 MHz arasında frekans girin</string>
   <string name="fm_search_no_results">Uyumlu kanal bulunmadı</string>
+  <!-- program types -->
   <string name="typ_All_stations">Tüm kanallar</string>
   <string name="typ_Culture">Kültür</string>
   <string name="typ_Current_affairs">Güncel olaylar</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">Seyahat</string>
   <string name="typ_Varied">Çeşitli</string>
   <string name="typ_Weather">Hava durumu</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Yetişkin hit</string>
   <string name="typ_Classical">Klasik</string>
   <string name="typ_Classic_Rock">Klasik Rock</string>

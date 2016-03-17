@@ -69,21 +69,33 @@
   <string name="settings_revert_defaults_summary">Återställ alla inställningar</string>
   <string name="settings_revert_confirm_title">Bekräfta återställning</string>
   <string name="settings_revert_confirm_msg">Detta kommer att rensa alla inställningar, inklusive sparade förhandsinställningar. Vill du fortsätta?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Montera SD-kortet innan du börjar inspelningen.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Förbereder SD-kort\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Kunde inte komma åt SD-kort.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Ditt SD-kort börjar få slut på utrymme. Ändra kvalitetsinställningen eller ta bort några andra filer för att frigöra utrymme.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">Sök efter förval</string>
+  <!-- Off messages -->
   <string name="fm_off">FM är avstängd.</string>
   <string name="fm_call">FM kan inte användas när du ringer.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Ange ett namn</string>
   <string name="search_dialog_title">Sök efter stationer</string>
-  <string name="fm_command_timeout_title">Tidsgräns</string>
+  <string name="fm_command_timeout_title">Timeout</string>
   <string name="fm_tune_timeout_msg">Inget svar mottogs för att ställa in FM-station. Om problemet kvarstår, var god stäng av och sätt på FM.</string>
   <string name="fm_command_failed_title">FM-åtgärd misslyckades</string>
   <string name="fm_cmd_failed_msg">FM-åtgärd misslyckades. Om problemet kvarstår, stäng av och sätt på FM.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-åtgärd misslyckades. FM- och HDMI-parallellitet saknar stöd.</string>
   <string name="fm_cmd_failed_call_on">FM-åtgärd misslyckades. FM-ljud är inte tillåtet under samtal.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">Station:</string>
   <string name="station_exists">Denna frekvens finns redan!</string>
   <string name="station_list_delete_station">Ta bort: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">Högsta frekvens (MHz)</string>
   <string name="chanl_spacing">Kanalavstånd</string>
   <string name="set">Ställ in</string>
-  <string name="user_defind_band_msg">Ange frekvens från 76,0 till 108.0 MHz med minst 1 kanals avstånd</string>
   <string name="fm_search_no_results">Inga kompatibla stationer hittades</string>
+  <!-- program types -->
   <string name="typ_All_stations">Alla stationer</string>
   <string name="typ_Culture">Kultur</string>
   <string name="typ_Current_affairs">Aktuella frågor</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">Resor</string>
   <string name="typ_Varied">Varierat</string>
   <string name="typ_Weather">Väder</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Vuxet</string>
   <string name="typ_Classical">Klassiskt</string>
   <string name="typ_Classic_Rock">Klassisk rock</string>

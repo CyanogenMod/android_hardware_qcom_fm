@@ -67,11 +67,18 @@
   <string name="settings_revert_defaults_summary">सभी सेटिंग को रीसेट करें</string>
   <string name="settings_revert_confirm_title">रीसेट की पुष्टि करें</string>
   <string name="settings_revert_confirm_msg">इससे सभी अनुप्रयोग सेटिंग साफ़ हो जाएँगे, जिनमें सहेजे गए पूर्व-सेट भी शामिल हैं। आगे बढ़ें?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">रिकॉर्ड करना शुरू करने से पहले एसडी कार्ड को माउंट करें।</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">आपका एसडी कार्ड भरता जा रहा है। उसमें जगह बनाने के लिए गुणवत्ता सेटिंग को बदलें या कुछ फ़ाइलों को हटाएँ।</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">पूर्व-सेटों के लिए स्कैन करें</string>
+  <!-- Off messages -->
   <string name="fm_off">एफएम को बंद किया गया है।</string>
   <string name="fm_call">कॉल करते समय एफएम का उपयोग नहीं किया जा सकता है।</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">नाम दर्ज करें</string>
   <string name="search_dialog_title">स्टेशनों के लिए स्कैन करें</string>
   <string name="fm_command_timeout_title">समय समाप्त</string>
@@ -80,6 +87,11 @@
   <string name="fm_cmd_failed_msg">एफएम प्रचालन विफल हुआ। यदि समस्या बनी रहती है, तो एफएम को बंद करके दुबारा चालू करें।</string>
   <string name="fm_cmd_failed_msg_hdmi">एफएम प्रचालन विफल हुआ। एफएम और एचडीएमआई का एक साथ होना समर्थित नहीं है।</string>
   <string name="fm_cmd_failed_call_on">एफएम प्रचालन विफल हुआ। कॉल के दौरान एफएम ऑडियो की अनुमति नहीं है।</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">स्टेशन:</string>
   <string name="station_exists">यह आवृत्ति पहले से ही मौजूद है।</string>
   <string name="station_list_delete_station">हटाएँ: <xliff:g id="name">%s</xliff:g></string>
@@ -91,6 +103,7 @@
   <string name="usr_def_band_max">उच्चतम आवृत्ति (MHz)</string>
   <string name="chanl_spacing">चैनल रिक्ति</string>
   <string name="set">सेट करें</string>
-  <string name="user_defind_band_msg">76.0 से 108.0 MHz से कोई आवृत्ति को न्यूनतम 1 चैनल रिक्ति के साथ दर्ज करें।</string>
   <string name="fm_search_no_results">कोई संगत स्टेशन नहीं मिले</string>
+  <!-- program types -->
+  <!-- RBDS (North America) -->
 </resources>

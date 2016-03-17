@@ -69,13 +69,21 @@
   <string name="settings_revert_defaults_summary">Palauta kaikki asetukset</string>
   <string name="settings_revert_confirm_title">Vahvista palautus</string>
   <string name="settings_revert_confirm_msg">Tämä tyhjentää kaikki sovelluksen asetukset, mukaan lukien tallennetut esiasetukset. Haluatko jatkaa?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Liitä SD-kortti ennen tallennuksen aloittamista.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Valmistellaan SD-korttia\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">SD-korttia ei voi käyttää.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Tallennustila on loppumassa SD-kortilta. Vaihda laatu-asetus tai poista tiedostoja vapauttaaksesi tilaa.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Kokorajoitus saavutettu.</string>
   <string name="menu_scan_for_preset">Skannaa kanavia</string>
+  <!-- Off messages -->
   <string name="fm_off">FM on poistettu käytöstä.</string>
   <string name="fm_call">FM:ää ei voi käyttää puhelun aikana.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Anna nimi</string>
   <string name="search_dialog_title">Skannaa asemat</string>
   <string name="fm_command_timeout_title">Aikakatkaisu</string>
@@ -84,6 +92,15 @@
   <string name="fm_cmd_failed_msg">FM-toiminto epäonnistui. Jos ongelma jatkuu, poista FM käytöstä ja laita takaisin päälle.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-toiminto epäonnistui. FM ja HDMI ei voi olla samanaikaisesti päällä.</string>
   <string name="fm_cmd_failed_call_on">FM-toiminto epäonnistui. FM-ääni ei sallittu puhelun aikana.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Omat FM-tallennukset</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM-tallennukset</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM-tallennukset</string>
   <string name="station_name">Asema:</string>
   <string name="station_exists">Taajuus on jo käytössä!</string>
   <string name="station_list_delete_station">Poista :<xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">Korkein taajuus (MHz)</string>
   <string name="chanl_spacing">Taajuusväli</string>
   <string name="set">Aseta</string>
-  <string name="user_defind_band_msg">Anna taajuus 76.0 - 108.0 MHz vähintään yhdellä kanavavälillä</string>
+  <string name="user_defind_band_msg">Syötä taajuus väliltä 76.0-108.0 MHz vähintään yhden kanavan välein ja 100KHz minimi- ja maksimitaajuuden välillä</string>
+  <string name="save_record_file">FM-tallennukset tallennettu \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Yhteensopivia asemia ei löytynyt</string>
+  <!-- program types -->
   <string name="typ_All_stations">Kaikki asemat</string>
   <string name="typ_Culture">Kulttuuri</string>
   <string name="typ_Current_affairs">Ajankohtainen</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">Matkailu</string>
   <string name="typ_Varied">Monipuolinen</string>
   <string name="typ_Weather">Sää</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Vanhemmat hitit</string>
   <string name="typ_Classical">Klassinen</string>
   <string name="typ_Classic_Rock">Klassinen Rock</string>

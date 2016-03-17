@@ -32,9 +32,9 @@
   <string name="app_name">רדיו FM</string>
   <string name="tx_app_name">משדר FM</string>
   <string name="menu_scan_start">סריקה</string>
-  <string name="menu_scan_stop">הפסק חיפוש</string>
+  <string name="menu_scan_stop">הפסקת חיפוש</string>
   <string name="menu_record_start">הקלטה</string>
-  <string name="menu_record_stop">הפסק הקלטה</string>
+  <string name="menu_record_stop">הפסקת הקלטה</string>
   <string name="menu_settings">הגדרות</string>
   <string name="menu_sleep">שינה</string>
   <string name="menu_sleep_cancel">בטל שינה</string>
@@ -45,58 +45,77 @@
   <string name="msg_scanning">סורק את כל תחנות ה-FM\u2026</string>
   <string name="msg_scanning_pty">מחפש את \"<xliff:g id="pty_name">%1$s</xliff:g>\"\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
-  <string name="msg_searching_title">בוחר תחנות אוטומטית</string>
-  <string name="msg_searching">מחפש תחנות בעלות קליטה טובה על מנת לבנות רשימת תחנות\u2026</string>
-  <string name="msg_noantenna">אנא חבר אוזנייה בשביל להשתמש ברדיו FM</string>
-  <string name="dialog_sleep_title">זמן לשינה אוטומטית</string>
-  <string name="presetlist_select_name">בחר \"<xliff:g id="presetlist_name">%1$s</xliff:g>\"</string>
-  <string name="presetlist_add_new">הוסף רשימה חדשה</string>
-  <string name="dialog_presetlist_rename_title">הזן שם</string>
-  <string name="presetlist_autoselect_title">אשר בחירה אוטומטית</string>
-  <string name="preset_replace">החלף</string>
+  <string name="msg_searching_title">בוחר אוטומטית תחנות קבועות מראש</string>
+  <string name="msg_searching">מחפש תחנות בעלות קליטה טובה על מנת לבנות רשימת תחנות קבועות מראש\u2026</string>
+  <string name="msg_noantenna">נא לחבר אוזניות כדי להשתמש ברדיו FM</string>
+  <string name="dialog_sleep_title">זמן שינה לפני כיבוי אוטומטי</string>
+  <string name="presetlist_select_name">בחירת \"<xliff:g id="presetlist_name">%1$s</xliff:g>\"</string>
+  <string name="presetlist_add_new">הוספת רשימה חדשה</string>
+  <string name="dialog_presetlist_rename_title">הזנת שם</string>
+  <string name="presetlist_autoselect_title">אישור בחירה אוטומטית</string>
+  <string name="preset_replace">החלפה</string>
   <string name="preset_tune">כיוון ידני</string>
   <string name="preset_rename">שינוי שם</string>
-  <string name="preset_delete">מחק</string>
-  <string name="preset_search">חפש עבור \"<xliff:g id="preset_name">%1$s</xliff:g>\"</string>
+  <string name="preset_delete">מחיקה</string>
+  <string name="preset_search">חיפוש עבור \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\"<xliff:g id="frequency">%1$s</xliff:g>\" MHz</string>
   <string name="regional_band">טווח אזורי</string>
-  <string name="aud_output_mode">מצב פלט קולי</string>
-  <string name="audio_type_stereo">דו-ערוצי (סטריאו)</string>
-  <string name="audio_type_mono">חד-ערוצי (מונו)</string>
+  <string name="aud_output_mode">מצב פלט שמע</string>
+  <string name="audio_type_stereo">סטריאו</string>
+  <string name="audio_type_mono">מונו</string>
   <string name="record_dur">משך הקלטה</string>
   <string name="auto_select_af">תדר חלופי</string>
-  <string name="settings_revert_defaults_title">שחזר להגדרות ברירת מחדל</string>
+  <string name="settings_revert_defaults_title">שחזור להגדרות ברירת מחדל</string>
   <string name="settings_revert_defaults_summary">איפוס כל ההגדרות</string>
-  <string name="settings_revert_confirm_title">אשר איפוס</string>
-  <string name="settings_revert_confirm_msg">פעולה זו תמחק את כל הגדרות היישום, כולל קביעות שנשמרו. האם להמשיך?</string>
-  <string name="no_storage">טען כרטיס זיכרון לפי תחילת ההקלטה.</string>
-  <string name="preparing_sd">מכין כרטיס זיכרון\u2026</string>
+  <string name="settings_revert_confirm_title">אישור לאיפוס</string>
+  <string name="settings_revert_confirm_msg">פעולה זו תמחק את כל הגדרות היישום, כולל תחנות קבועות מראש שנשמרו. האם להמשיך?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+  <string name="no_storage">עיגון כרטיס זיכרון לפי תחילת ההקלטה.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <string name="preparing_sd">הכנת כרטיס זיכרון\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">אין אפשרות לגשת לכרטיס הזיכרון.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">שטח האחסון בכרטיס הזיכרון שלך אוזל. שנה את הגדרות האיכות או מחק קבצים אחרים כדי לפנות מקום.</string>
-  <string name="menu_scan_for_preset">סרוק למציאת תחנות</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">הגעת למגבלת הגודל.</string>
+  <string name="menu_scan_for_preset">סרוק למציאת תחנות קבועות מראש</string>
+  <!-- Off messages -->
   <string name="fm_off">FM כבוי.</string>
   <string name="fm_call">לא ניתן להשתמש ב-FM במהלך ביצוע שיחה.</string>
-  <string name="alert_dialog_hint">הכנס שם</string>
+  <!-- The messsage shown when long pressed on a station. -->
+  <string name="alert_dialog_hint">הזנת שם</string>
   <string name="search_dialog_title">סריקת תחנות</string>
   <string name="fm_command_timeout_title">זמן קצוב לתפוגה</string>
-  <string name="fm_tune_timeout_msg">אין קליטה מהתחנה הנבחרת. במידה והבעיה חוזרת על עצמה, כבה בבקשה את מקלט ה-FM והפעל אותו שנית.</string>
+  <string name="fm_tune_timeout_msg">אין קליטה מהתחנה הנבחרת. אם הבעיה חוזרת על עצמה, כבה את מקלט ה-FM והפעל אותו שנית.</string>
   <string name="fm_command_failed_title">פעולת FM נכשלה</string>
-  <string name="fm_cmd_failed_msg">פעולת FM נכשלה. במידה והבעיה חוזרת על עצמה, כבה בבקשה את מקלט ה-FM והפעל אותו שנית.</string>
-  <string name="fm_cmd_failed_msg_hdmi">פעולת FM נכשלה. הקבלת FM ו-HDMI אינה נתמכת.</string>
+  <string name="fm_cmd_failed_msg">פעולת FM נכשלה. אם הבעיה חוזרת על עצמה, כבה את מקלט ה-FM והפעל אותו שנית.</string>
+  <string name="fm_cmd_failed_msg_hdmi">פעולת FM נכשלה. התרחשות בו זמנית של FM ו-HDMI אינה נתמכת.</string>
   <string name="fm_cmd_failed_call_on">כשל בהפעלת רדיו FM. רדיו FM אין מאושר לשימוש במהלך שיחה.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">הקלטות ה-FM שלי</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">הקלטות FM</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">הקלטות FM</string>
   <string name="station_name">תחנה:</string>
   <string name="station_exists">תדר זה כבר קיים!</string>
-  <string name="station_list_delete_station">מחק: <xliff:g id="name">%s</xliff:g></string>
-  <string name="station_list_delete_station_prompt">האם אתה בטוח שברצונך למחוק את \"<xliff:g id="name">%s</xliff:g>\"?</string>
-  <string name="station_name_empty">שם התחנה ריק, הקלד שוב.</string>
-  <string name="station_name_exist">\"<xliff:g id="name">%s</xliff:g>\" כבר נמצא בשימוש, אנא הכנס שם אחר.</string>
+  <string name="station_list_delete_station">מחיקת: <xliff:g id="name">%s</xliff:g></string>
+  <string name="station_list_delete_station_prompt">בטוח שברצונך למחוק את \"<xliff:g id="name">%s</xliff:g>\"?</string>
+  <string name="station_name_empty">שם התחנה ריק, נא להזין שוב.</string>
+  <string name="station_name_exist">\"<xliff:g id="name">%s</xliff:g>\" כבר נמצא בשימוש, נא להזין שם אחר.</string>
   <string name="rt_plus_tags">תגיות</string>
   <string name="usr_def_band_min">התדר הנמוך ביותר (MHz)</string>
   <string name="usr_def_band_max">התדר הגבוה ביותר (MHz)</string>
   <string name="chanl_spacing">מרווח ערוץ</string>
-  <string name="set">הגדר</string>
-  <string name="user_defind_band_msg">הזן תדרים מ-76.0MHz עד 108.0MHz עם רווח של לפחות ערוץ אחד ביניהם</string>
+  <string name="set">הגדרה</string>
+  <string name="user_defind_band_msg">הזינו תדירות מ- 76.0 עד 108.0 מגה-הרץ עם מרווח ערוץ מינימלי של ערוץ 1 ומרווח 100 קילו-הרץ בין תדירות מינימום ומקסימום</string>
+  <string name="save_record_file">קובץ ההקלטה נשמר לתוך \"<xliff:g id="record_file">%1$s</xliff:g>\"</string>
   <string name="fm_search_no_results">לא נמצאו תחנות תואמות</string>
+  <!-- program types -->
   <string name="typ_All_stations">כל התחנות</string>
   <string name="typ_Culture">תרבות</string>
   <string name="typ_Current_affairs">אקטואליה</string>
@@ -109,10 +128,10 @@
   <string name="typ_Emergency">חירום</string>
   <string name="typ_Emergency_test">בדיקת חירום</string>
   <string name="typ_Finance">כלכלה</string>
-  <string name="typ_Folk">מוזיקה עממית</string>
+  <string name="typ_Folk">מוזיקת פולק</string>
   <string name="typ_Information">מידע</string>
   <string name="typ_Jazz">מוזיקת ג\'אז</string>
-  <string name="typ_Light_classical">קלאסית קלה</string>
+  <string name="typ_Light_classical">קלאסי קל</string>
   <string name="typ_Leisure">פנאי</string>
   <string name="typ_News">חדשות</string>
   <string name="typ_National">מוזיקה לאומית</string>
@@ -123,12 +142,13 @@
   <string name="typ_Religion">דת</string>
   <string name="typ_Rock">מוזיקת רוק</string>
   <string name="typ_Science">מדע</string>
-  <string name="typ_Serious_classical">קלאסית רצינית</string>
+  <string name="typ_Serious_classical">קלאסי רציני</string>
   <string name="typ_Social_affairs">רווחה</string>
   <string name="typ_Sport">ספורט</string>
   <string name="typ_Travel">תיירות</string>
   <string name="typ_Varied">מגוון</string>
   <string name="typ_Weather">מזג אוויר</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">להיטים למבוגרים</string>
   <string name="typ_Classical">קלאסי</string>
   <string name="typ_Classic_Rock">רוק קלאסי</string>
@@ -139,14 +159,14 @@
   <string name="typ_Personality">אישיות</string>
   <string name="typ_Public">ציבורי</string>
   <string name="typ_Religious_music">מוזיקה דתית</string>
-  <string name="typ_Religious_talk">דיבורי דת</string>
+  <string name="typ_Religious_talk">שיחות על דת</string>
   <string name="typ_Rhythm_and_Blues">רית\'ם אנד בלוז</string>
   <string name="typ_Spanish_music">מוזיקה ספרדית</string>
-  <string name="typ_Spanish_talk">דיבורים בספרדית</string>
+  <string name="typ_Spanish_talk">שיחות בספרדית</string>
   <string name="typ_Soft">רך</string>
   <string name="typ_Soft_Rock">רוק רך</string>
   <string name="typ_Soft_Rhythm_and_Blues">רית\'ם אנד בלוז רך</string>
   <string name="typ_Sports">ספורט</string>
-  <string name="typ_Talk">דיבורים</string>
-  <string name="typ_Top_40">40 המובילים</string>
+  <string name="typ_Talk">שיחות</string>
+  <string name="typ_Top_40">ה- 40 המובילים</string>
 </resources>

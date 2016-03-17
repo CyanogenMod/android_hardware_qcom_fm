@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">모든 설정 초기화</string>
   <string name="settings_revert_confirm_title">초기화 확인</string>
   <string name="settings_revert_confirm_msg">저장된 프리셋을 포함한 모든 앱 설정이 삭제됩니다. 계속하시겠습니까?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">녹음하기 전에 SD 카드를 마운트해주십시오.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SD 카드 준비 중\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">SD 카드에 액세스할 수 없습니다.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD 카드에 여유 공간이 부족합니다. 음질 설정을 변경하거나 파일을 지워 여유 공간을 만들어주십시오.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">프리셋 검색</string>
+  <!-- Off messages -->
   <string name="fm_off">FM이 꺼져 있습니다.</string>
   <string name="fm_call">FM은 전화하는 동안 사용할 수 없습니다.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">이름을 입력합니다</string>
   <string name="search_dialog_title">방송국 탐색</string>
   <string name="fm_command_timeout_title">시간 제한</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">FM 실행이 실패했습니다. 문제가 지속되면 FM을 껐다 다시 켜 보십시오.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM 실행이 실패했습니다. FM과 HDMI는 동시에 사용할 수 없습니다.</string>
   <string name="fm_cmd_failed_call_on">FM 실행이 실패했습니다. 전화 통화 중에는 FM 오디오를 사용할 수 없습니다.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">방송국:</string>
   <string name="station_exists">이 주파수는 이미 존재합니다!</string>
   <string name="station_list_delete_station">삭제: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">가장 높은 주파수 (MHz)</string>
   <string name="chanl_spacing">채널 간격</string>
   <string name="set">설정</string>
-  <string name="user_defind_band_msg">최소 1 채널 간격을 두고 76.0Mhz부터 108.0Mhz 사이의 주파수 입력</string>
   <string name="fm_search_no_results">호환되는 방송국 없음</string>
+  <!-- program types -->
   <string name="typ_All_stations">모든 방송국</string>
   <string name="typ_Culture">문화</string>
   <string name="typ_Current_affairs">시사</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">여행</string>
   <string name="typ_Varied">여러가지</string>
   <string name="typ_Weather">날씨</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">성인 인기</string>
   <string name="typ_Classical">클래식</string>
   <string name="typ_Classic_Rock">클래식 락</string>

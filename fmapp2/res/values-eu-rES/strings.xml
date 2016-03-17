@@ -69,13 +69,21 @@
   <string name="settings_revert_defaults_summary">Leheneratu ezarpen guztiak</string>
   <string name="settings_revert_confirm_title">Berretsi leheneratzea</string>
   <string name="settings_revert_confirm_msg">Honek aplikazioaren ezarpen guztiak garbituko ditu, gordetako irratiak barne. Jarraitu?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Muntatu SD txartela grabazioa hasi baino lehen.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SD txartela prestatzen\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Ezin izan da SD txartela atzitu.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD biltegiratze txartela lekurik gabe gelditzen ari da. Aldatu kalitate ezarpenak edo ezabatu fitxategiren bat lekua egiteko.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Tamaina mugara heldu da.</string>
   <string name="menu_scan_for_preset">Bilatu irratiak</string>
+  <!-- Off messages -->
   <string name="fm_off">FM itzalita dago.</string>
   <string name="fm_call">Ezin da FM erabili dei baten bitartean.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Sartu izen bat</string>
   <string name="search_dialog_title">Bilatu irratiak</string>
   <string name="fm_command_timeout_title">Denbora-muga</string>
@@ -84,6 +92,15 @@
   <string name="fm_cmd_failed_msg">FM eragiketak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM eragiketak huts egin du. Ezin dira FM eta HDMI batera erabili.</string>
   <string name="fm_cmd_failed_call_on">FM eragiketak huts egin du. FM audioa ez da onartzen dei batean zehar.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Nire FM grabazioak</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM grabazioak</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM grabazioak</string>
   <string name="station_name">Irratia:</string>
   <string name="station_exists">Frekuentzia hau badago aurretik!</string>
   <string name="station_list_delete_station">Ezabatu: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">Gehieneko frekuentzia (MHz)</string>
   <string name="chanl_spacing">Kanalen zabalera</string>
   <string name="set">Ezarri</string>
-  <string name="user_defind_band_msg">Sartu 76.0 108.0 MHz bitarteko frekuentzia bat, gutxienez kanal bateko espazioarekin</string>
+  <string name="user_defind_band_msg">Sartu 76.0 108.0 MHz bitarteko frekuentzia bat, gutxienez kanal bateko espazioarekin eta 100KHz gutxieneko eta gehieneko frekuentzien artean</string>
+  <string name="save_record_file">FM grabazioaren fitxategia \'<xliff:g id="record_file">%1$s</xliff:g>\' helbidean gorde da</string>
   <string name="fm_search_no_results">Ez da bateragarria den irratirik aurkitu</string>
+  <!-- program types -->
   <string name="typ_All_stations">Irrati guztiak</string>
   <string name="typ_Culture">Kultura</string>
   <string name="typ_Current_affairs">Gaur egungo gertaerak</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">Bidaiak</string>
   <string name="typ_Varied">Askotarikoak</string>
   <string name="typ_Weather">Eguraldia</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Betiko arrakastak</string>
   <string name="typ_Classical">Klasikoa</string>
   <string name="typ_Classic_Rock">Rock klasikoa</string>

@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">ಎಲ್ಲಾ ಸೆಟ್ಟಿಂಗ್ಸ್ ಮರುಹೊಂದಿಸಿ</string>
   <string name="settings_revert_confirm_title">ಮರುಹೊಂದಿಕೆ ಖಚಿತಪಡಿಸಿ</string>
   <string name="settings_revert_confirm_msg">ಇದು ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್ಸನ್ನು ತೆರವುಗೊಳಿಸುತ್ತದೆ, ಉಳಿಸಿದ ಪೂರ್ವನಿಗದಿಗಳನ್ನೂ ಓಳಗೊಂಡು. ಮುಂದುವರೆ?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">ರಿಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭಿಸುವ ಮುನ್ನ SD ಕಾರ್ಡ್ ಮೌಂಟ್ ಮಾಡಿ.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SD ಕಾರ್ಡನ್ನು ಸಿದ್ಧಗೊಳಿಸುತ್ತಿದೆ\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">SD ಕಾರ್ಡನ್ನು ಪ್ರವೇಶಿಸಲಾಗಲಿಲ್ಲ.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">ನಿಮ್ಮ SD ಕಾರ್ಡ್ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಹೆಚ್ಚು ಖಾಲಿಜಾಗ ಇಲ್ಲ. ಜಾಗ ಮಾಡಲು ಗುಣಮಟ್ಟ ಸೆಟ್ಟಿಂಗ್ ಬದಲಾಯಿಸಿ ಅಥವ ಇತರೆ ಕಡತಗಳನ್ನು ಅಳಿಸಿ.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">ಪೂರ್ವನಿಗದಿಗಳಿಗಾಗಿ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+  <!-- Off messages -->
   <string name="fm_off">ಎಫ್ಎಂ ಆಫ್ ಆಗಿದೆ.</string>
   <string name="fm_call">ಕರೆ ಮಾಡುವಾಗ ಎಫ್ಎಂ ಬಳಸುವಂತಿಲ್ಲ.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">ಒಂದು ಹೆಸರನ್ನು ಬರೆಯಿರಿ</string>
   <string name="search_dialog_title">ಕೇಂದ್ರಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
   <string name="fm_command_timeout_title">ಅವಧಿಮುಗಿದಿದೆ</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">ಎಫ್ಎಂ ಕಾರ್ಯಾಚರಣೆ ವಿಫಲಗೊಂಡಿದೆ. ತೊಂದರೆಯು ಹಾಗೇ ಇದ್ದಲ್ಲಿ, ದಯವಿಟ್ಟು ಎಫ್ಎಂ ಆಫ್ ಮಾಡಿ ಮತ್ತು ಪುನಃ ಆನ್ ಮಾಡಿ.</string>
   <string name="fm_cmd_failed_msg_hdmi">ಎಫ್ಎಂ ಕಾರ್ಯಾಚರಣೆ ವಿಫಲಗೊಂಡಿದೆ. ಎಫ್ಎಂ ಮತ್ತು HDMI ಒಪ್ಪಂದ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ.</string>
   <string name="fm_cmd_failed_call_on">ಎಫ್ಎಂ ಕಾರ್ಯಾಚರಣೆ ವಿಫಲಗೊಂಡಿದೆ. ಕರೆ ಮಾಡುವಾಗ ಎಫ್ಎಂ ಆಡಿಯೋಗೆ ಅನುಮತಿ ಇಲ್ಲ.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">ಕೇಂದ್ರ:</string>
   <string name="station_exists">ಈ ಆವರ್ತನ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ!</string>
   <string name="station_list_delete_station">ಅಳಿಸು: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">ಗರಿಷ್ಠ ಆವರ್ತನ (MHz)</string>
   <string name="chanl_spacing">ಚಾನೆಲ್ ಸ್ಪೇಸಿಂಗ್</string>
   <string name="set">ಹೊಂದಿಸಿ</string>
-  <string name="user_defind_band_msg">76.0 ರಿಂದ 108.0 MHz ವರೆಗೆ ಯಾವುದೇ ಆವರ್ತನದ ಜೊತೆ ಕನಿಷ್ಠ ಚಾನೆಲ್ ಸ್ಪೇಸಿಂಗ್ 1 ಇರುವಂತೆ ಹಾಕಿ</string>
   <string name="fm_search_no_results">ಯಾವುದೇ ಹೊಂದಾಣಿಕೆಯಾಗುವ ಕೇಂದ್ರಗಳು ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
+  <!-- program types -->
   <string name="typ_All_stations">ಎಲ್ಲಾ ಕೇಂದ್ರಗಳು</string>
   <string name="typ_Culture">ಸಂಸ್ಕೃತಿ</string>
   <string name="typ_Current_affairs">ಪ್ರಸಕ್ತ ವಿದ್ಯಮಾನಗಳು</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">ಪ್ರವಾಸ</string>
   <string name="typ_Varied">ವೈವಿಧ್ಯ</string>
   <string name="typ_Weather">ಹವಾಮಾನ</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">ವಯಸ್ಕರ ಹಿಟ್ಸ್</string>
   <string name="typ_Classical">ಶಾಸ್ತ್ರೀಯ</string>
   <string name="typ_Classic_Rock">ಕ್ಲಾಸಿಕ್ ರಾಕ್</string>

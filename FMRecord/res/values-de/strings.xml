@@ -29,16 +29,25 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Mounten Sie die SD-Karte vor Aufnahmebeginn.</string>
-  <string name="preparing_sd">Die SD-Karte wird vorbereitet.</string>
-  <string name="access_sd_fail">Kein Zugriff auf SD-Karte möglich.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <string name="preparing_sd">SD-Karte wird vorbereitet</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <string name="access_sd_fail">Auf die SD-Karte konnte nicht zugegriffen werden.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Auf Ihrer SD-Karte ist nicht mehr genügend Speicherplatz vorhanden. Ändern Sie die Qualitätseinstellung oder löschen Sie Bilder oder andere Dateien.</string>
-  <string name="FMRecording_reach_size_limit">Größenbeschränkung erreicht.</string>
-  <string name="audio_db_title_format"><xliff:g id="format">jjjj-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Maximale Größe erreicht.</string>
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">jjjj-MM-tt HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">Meine Radio-Aufnahmen</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
   <string name="audio_db_album_name">Radio-Aufnahmen</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">Radio-Aufnahmen</string>
   <string name="save_record_file">Radio-Aufnahme wurde unter \"<xliff:g id="record_file">%1$s</xliff:g>\" gespeichert</string>
   <string name="fm_record_progress">Radio wird aufgenommen</string>
-  <string name="unable_to_store">Die Audioaufnahme kann nicht gespeichert werden.</string>
+  <string name="unable_to_store">Audioaufnahme kann nicht gespeichert werden</string>
 </resources>

@@ -63,10 +63,17 @@
   <string name="settings_revert_defaults_summary">گه‌ڕانه‌وه‌ی سه‌ره‌تایی بۆ هه‌موو ڕێکخستنه‌کان</string>
   <string name="settings_revert_confirm_title">ڕازیبوون به‌ ڕێکخستنه‌وه‌</string>
   <string name="settings_revert_confirm_msg">ئەمە هەموو ڕێکخستنەکانی بەرنامەکان پاکەکاتەوە، وە ئەوانەی پێشوش دەگرێتەوە. بەردەوام?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">بیرگەی ده‌ره‌کیت پڕبووه‌،جۆرایه‌تی ڕێکخستن بگۆڕه‌ یاخود چه‌ند په‌ڕگه‌یه‌ک بسڕه‌وه‌ بۆ زیادکردنی قه‌باره‌که‌ی.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">گه‌ڕان به‌دوای ئاماده‌کراو</string>
+  <!-- Off messages -->
   <string name="fm_off">ئێف ئێم کوژایەوە.</string>
   <string name="fm_call">ئێف ئێم ناتوانرێت بەکاربهێنرێت لەکاتی تەلەفۆنکردن.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">ناوێک بنووسه‌</string>
   <string name="search_dialog_title">گه‌ڕان به‌دوای وێستگه‌</string>
   <string name="fm_tune_timeout_msg">هیچ وه‌ڵامێک نه‌بوو بۆ وه‌رگرتنی ڕادیۆ و ویستگه‌ی FM ، ئه‌گه‌ر کێشه‌یه‌ک هه‌یه‌ ، دوباره‌ بیکوژێنه‌وه‌ و دایگیسێنه‌وه‌.</string>
@@ -74,6 +81,11 @@
   <string name="fm_cmd_failed_msg">هه‌ڵه‌ له‌ فرمانی FM ، ئه‌گه‌ر به‌رده‌وامبوو ئه‌وه‌ بیکوژێنه‌وه‌ و دایگیرسێنه‌وه‌.</string>
   <string name="fm_cmd_failed_msg_hdmi">هه‌ڵه‌ له‌ فرمانی FM ، ڕادیۆی FM و HDMI کارناکه‌ن .</string>
   <string name="fm_cmd_failed_call_on">هه‌ڵه‌ له‌ فرمانی FM ، ڕادیۆی FM ڕێگه‌پیدراو نییه‌ له‌ کاتی په‌یوه‌ندی.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">وێستگه‌:</string>
   <string name="station_exists">ئه‌م فریکوێنسه‌ پێشتر هه‌یه‌!</string>
   <string name="station_list_delete_station">سڕینه‌وه‌ی  <xliff:g id="name">%s</xliff:g></string>
@@ -82,4 +94,6 @@
   <string name="rt_plus_tags">پێشنیاره‌کان</string>
   <string name="chanl_spacing">بۆشایی که‌ناڵ</string>
   <string name="fm_search_no_results">هیچ وێستگەیەکی گونجاو نەدۆزرایەوە</string>
+  <!-- program types -->
+  <!-- RBDS (North America) -->
 </resources>

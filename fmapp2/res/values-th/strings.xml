@@ -69,13 +69,20 @@
   <string name="settings_revert_defaults_summary">รีเซ็ตการตั้งค่าทั้งหมด</string>
   <string name="settings_revert_confirm_title">ยืนยันการรีเซ็ต</string>
   <string name="settings_revert_confirm_msg">การกระทำนี้จะล้างการตั้งค่าแอปทั้งหมด รวมถึงสถานีที่บันทึกไว้ด้วย ดำเนินการต่อหรือไม่</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">เชื่อมต่อ SD การ์ดก่อนเริ่มการบันทึก</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">กำลังเตรียม SD การ์ด…</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">ไม่สามารถเข้าถึง SD การ์ด</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD การ์ดของคุณกำลังจะเต็ม เปลี่ยนการตั้งค่าคุณภาพหรือลบไฟล์อื่น ๆ เพื่อให้มีพื้นที่ว่างเพิ่ม</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="menu_scan_for_preset">ค้นหาเพื่อตั้งรายการล่วงหน้า</string>
+  <!-- Off messages -->
   <string name="fm_off">FM ถูกปิดอยู่</string>
   <string name="fm_call">ไม่สามารถใช้ FM ได้ขณะกำลังใช้สาย</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">ใส่ชื่อ</string>
   <string name="search_dialog_title">ค้นหาสถานี</string>
   <string name="fm_command_timeout_title">หมดเวลา</string>
@@ -84,6 +91,11 @@
   <string name="fm_cmd_failed_msg">การดำเนินการ FM ล้มเหลว หากปัญหายังเกิดขึ้น ให้ลองปิดวิทยุ FM แล้วเปิดใหม่</string>
   <string name="fm_cmd_failed_msg_hdmi">การดำเนินการ FM ล้มเหลว ไม่รองรับการใช้ FM และ HDMI ในเวลาเดียวกัน</string>
   <string name="fm_cmd_failed_call_on">การดำเนินการ FM ล้มเหลว ไม่สามารถใช้ FM ขณะโทรออกได้</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="station_name">สถานี:</string>
   <string name="station_exists">มีความถี่นี่อยู่แล้ว!</string>
   <string name="station_list_delete_station">ลบ: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +107,8 @@
   <string name="usr_def_band_max">ความถี่สูงสุด (MHz)</string>
   <string name="chanl_spacing">ระยะช่องสถานี</string>
   <string name="set">ตั้งค่า</string>
-  <string name="user_defind_band_msg">ใส่ความถี่จาก 76.0 ถึง 108.0 MHz โดยห่างอย่างน้อยที่สุด 1 ช่อง</string>
   <string name="fm_search_no_results">ไม่มีสถานีที่เข้ากันได้</string>
+  <!-- program types -->
   <string name="typ_All_stations">สถานีทั้งหมด</string>
   <string name="typ_Culture">วัฒนธรรม</string>
   <string name="typ_Current_affairs">เหตุการณ์ปัจจุบัน</string>
@@ -129,6 +141,7 @@
   <string name="typ_Travel">การเดินทาง</string>
   <string name="typ_Varied">แบบต่าง ๆ</string>
   <string name="typ_Weather">สภาพอากาศ</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">เพลงฮิตผู้ใหญ่</string>
   <string name="typ_Classical">คลาสสิก</string>
   <string name="typ_Classic_Rock">คลาสสิกร็อค</string>

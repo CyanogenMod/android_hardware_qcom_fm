@@ -69,13 +69,21 @@
   <string name="settings_revert_defaults_summary">Đặt lại tất cả cài đặt</string>
   <string name="settings_revert_confirm_title">Xác nhận đặt lại</string>
   <string name="settings_revert_confirm_msg">Điều này sẽ xoá tất cả cài đặt ứng dụng, bao gồm cả cài đặt đã lưu trước. Tiếp tục?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Kết nối thẻ nhớ trước khi bắt đầu ghi âm.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Đang chuẩn bị thẻ nhớ\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Không thể truy cập thẻ nhớ.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Thẻ nhớ của bạn sắp hết dung lượng. Thay đổi cài đặt chất lượng hoặc xóa một số tệp khác để giải phóng dung lượng.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Đã đạt tới giới hạn kích thước.</string>
   <string name="menu_scan_for_preset">Quét cài đặt trước</string>
+  <!-- Off messages -->
   <string name="fm_off">FM bị tắt.</string>
   <string name="fm_call">FM không thể được sử dụng trong khi gọi điện thoại.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Nhập tên</string>
   <string name="search_dialog_title">Quét đài</string>
   <string name="fm_command_timeout_title">Thời gian chờ</string>
@@ -84,6 +92,15 @@
   <string name="fm_cmd_failed_msg">Thao tác FM không thành công. Nếu vẫn tiếp tục xảy ra vấn đề, vui lòng tắt FM và quay lại.</string>
   <string name="fm_cmd_failed_msg_hdmi">Thao tác FM không thành công. Truy cập đồng thời FM và HDMI không được hỗ trợ.</string>
   <string name="fm_cmd_failed_call_on">Thao tác FM không thành công. Âm thanh FM không được cho phép trong suốt cuộc gọi.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Bản ghi âm FM của tôi</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Bản ghi âm FM</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Bản ghi âm FM</string>
   <string name="station_name">Trạm:</string>
   <string name="station_exists">Tần số này đã tồn tại!</string>
   <string name="station_list_delete_station">Xóa: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">Tần số cao nhất (MHz)</string>
   <string name="chanl_spacing">Khoảng cách giữa các kênh</string>
   <string name="set">Thiết đặt</string>
-  <string name="user_defind_band_msg">Nhập tần số từ 76.0 đến 108.0 MHz với khoảng cách giữa các kênh tối thiểu là 1</string>
+  <string name="user_defind_band_msg">Nhập tần số từ 76.0 đến 108.0 MHz với khoảng cách giữa các kênh tối thiểu là 1 và khoảng cách 100KHz giữa tần số tối thiểu và tối đa</string>
+  <string name="save_record_file">Tệp ghi âm FM được lưu vào \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Không tìm thấy đài tương thích</string>
+  <!-- program types -->
   <string name="typ_All_stations">Tất cả các đài</string>
   <string name="typ_Culture">Văn hóa</string>
   <string name="typ_Current_affairs">Vấn đề hiện tại</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">Du lịch</string>
   <string name="typ_Varied">Đa dạng</string>
   <string name="typ_Weather">Thời tiết</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Adult hits</string>
   <string name="typ_Classical">Cổ điển</string>
   <string name="typ_Classic_Rock">Rock cổ điển</string>

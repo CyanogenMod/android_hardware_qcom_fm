@@ -69,13 +69,21 @@
   <string name="settings_revert_defaults_summary">Ponastavi vse nastavitve</string>
   <string name="settings_revert_confirm_title">Potrdi ponastavitev</string>
   <string name="settings_revert_confirm_msg">To bo izbrisalo vse nastavitve aplikacije, vključno s shranjenimi prednastavitvami. Nadaljuj?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Pred začetkom snemanja priklopite kartico SD.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Pripravljanje kartice SD \u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Dostop do kartice SD ni mogoč.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Na kartici SD primanjkuje prostora. Spremenite nastavitev kakovosti ali izbrišite nekaj drugih datotek, da sprostite nekaj prostora.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Dosežena je omejitev velikosti.</string>
   <string name="menu_scan_for_preset">Preišči prednastavitve</string>
+  <!-- Off messages -->
   <string name="fm_off">FM je izklopljen.</string>
   <string name="fm_call">FM-a ne morete uporabljati med klicanjem.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Vnesite ime</string>
   <string name="search_dialog_title">Preišči postaje</string>
   <string name="fm_command_timeout_title">Časovna omejitev</string>
@@ -84,6 +92,15 @@
   <string name="fm_cmd_failed_msg">Opravilo FM je spodletelo. Če se težava še naprej pojavlja, izklopite FM in ga ponovno vklopite.</string>
   <string name="fm_cmd_failed_msg_hdmi">Opravilo FM je spodletelo. Sočasnost FM in HDMI ni podprta.</string>
   <string name="fm_cmd_failed_call_on">Opravilo FM je spodletelo. Zvok FM med klicem ni dovoljen.</string>
+  <!-- Do not translate. Duration format. -->
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd. MM. yyyy HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Moji posnetki FM</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Posnetki FM</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Posnetki FM</string>
   <string name="station_name">Postaja:</string>
   <string name="station_exists">Ta frekvenca že obstaja!</string>
   <string name="station_list_delete_station">Izbriši: <xliff:g id="name">%s</xliff:g></string>
@@ -95,8 +112,10 @@
   <string name="usr_def_band_max">Najvišja frekvenca (MHz)</string>
   <string name="chanl_spacing">Razmik med kanali</string>
   <string name="set">Nastavi</string>
-  <string name="user_defind_band_msg">Vnesite frekvenco od 76,0 do 108,0 MHz z najmanj 1-im kanalom presledka</string>
+  <string name="user_defind_band_msg">Vnesite frekvenco med 76,0 in 108,0 MHz z najmanj enim kanalom razmaka in 100 kHz razmaka med najmanjšo on največjo frekvenco</string>
+  <string name="save_record_file">Posneta datoteka FM shranjena v \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Ni bilo najdenih združljivih postaj</string>
+  <!-- program types -->
   <string name="typ_All_stations">Vse postaje</string>
   <string name="typ_Culture">Kultura</string>
   <string name="typ_Current_affairs">Tekoče zadeve</string>
@@ -129,6 +148,7 @@
   <string name="typ_Travel">Potovanja</string>
   <string name="typ_Varied">Raznolika</string>
   <string name="typ_Weather">Vreme</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Uspešnice za odrasle</string>
   <string name="typ_Classical">Klasična</string>
   <string name="typ_Classic_Rock">Klasični rock</string>
