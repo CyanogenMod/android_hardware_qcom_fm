@@ -2670,22 +2670,6 @@ public class FMRadio extends Activity
       }//handleMessage
    };
 
-   @Override
-   public boolean onKeyDown(int keyCode, KeyEvent event) {
-       Log.d(LOGTAG, "KEY event received " + keyCode);
-       switch (keyCode) {
-           case KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE:
-           case 126: //KeyEvent.KEYCODE_MEDIA_PLAY:
-           case 127: //KeyEvent.KEYCODE_MEDIA_PAUSE:
-           case KeyEvent.KEYCODE_MEDIA_FAST_FORWARD:
-           case KeyEvent.KEYCODE_MEDIA_NEXT:
-           case KeyEvent.KEYCODE_MEDIA_PREVIOUS:
-           case KeyEvent.KEYCODE_MEDIA_REWIND:
-           case KeyEvent.KEYCODE_MEDIA_STOP:
-               return true;
-       }
-       return super.onKeyDown(keyCode, event);
-   }
    private void resetFMStationInfoUI() {
       mTunedStation.setFrequency(FmSharedPreferences.getTunedFrequency());
       mTunedStation.setName("");

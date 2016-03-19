@@ -816,7 +816,7 @@ public class FMRadioService extends Service
                 if (!isFmOn())
                     return;
                 /* Disable FM and let the UI know */
-                fmOff();
+                fmOff(FM_OFF_FROM_ANTENNA);
                 try
                 {
                     /* Notify the UI/Activity, only if the service is "bound"

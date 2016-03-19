@@ -53,25 +53,6 @@ public void onReceive(Context context, Intent intent) {
            Log.d(TAG, "ACTION_AUDIO_BECOMING_NOISY intent received for ACTION_HEADSET_PLUG");
            Intent i = new Intent(AUDIO_BECOMING_NOISY);
            context.sendBroadcast(i);
-       } else if ((action != null) && action.equals("android.intent.action.MEDIA_BUTTON")) {
-           KeyEvent event = (KeyEvent)
-                    intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT);
-
-           if (event == null) {
-               return;
-           }
-           int keycode = event.getKeyCode();
-           int key_action = event.getAction();
-           if (((KeyEvent.KEYCODE_HEADSETHOOK == keycode) &&
-               (key_action == KeyEvent.ACTION_DOWN)) ||
-               (KeyEvent.KEYCODE_MEDIA_PAUSE == keycode) ||
-               (KeyEvent.KEYCODE_MEDIA_PLAY == keycode)) {
-
-               Log.d(TAG, "ACTION_MEDIA_BUTTON intent received for ACTION_DOWN");
-               Intent i = new Intent(FM_MEDIA_BUTTON);
-               i.putExtra(Intent.EXTRA_KEY_EVENT, event);
-               context.sendBroadcast(i);
-           }
        }
    }
 }
