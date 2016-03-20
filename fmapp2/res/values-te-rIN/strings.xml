@@ -43,7 +43,7 @@
   <string name="button_text_stop">ఆపివేయండి</string>
   <string name="msg_seeking">FM స్టేషన్ శోధన\u2026</string>
   <string name="msg_scanning">అన్ని FM స్టేషన్ల కొరకు స్కాన్ జరుగుతూ ఉంది\u2026</string>
-  <string name="msg_scanning_pty">\<xliff:g id="pty_name">\'%1$s</xliff:g>\' కొరకు స్కాన్ జరుగుతూ ఉంది\u2026</string>
+  <string name="msg_scanning_pty">\'<xliff:g id="pty_name">%1$s</xliff:g>\' కొరకు స్కాన్ జరుగుతూ ఉంది\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
   <string name="msg_searching_title">స్వయంచాలక-ఎంపిక పూర్వ అమరికలు</string>
   <string name="msg_searching">పూర్వ అమరికల జాబితాను సృష్టించేందుకు బలమైన స్టేషన్ల కొరకు శోధన జరుగుతూ ఉంది\u2026</string>
