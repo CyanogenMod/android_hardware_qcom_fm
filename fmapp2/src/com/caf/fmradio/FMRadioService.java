@@ -974,7 +974,8 @@ public class FMRadioService extends Service
                     if (isFmOn() && getResources()
                             .getBoolean(R.bool.def_headset_next_enabled)) {
                         try {
-                            mCallbacks.onSeekNextStation();
+                            if ((mServiceInUse) && (mCallbacks != null))
+                                mCallbacks.onSeekNextStation();
                         }catch (RemoteException e) {
                         }
                     }
@@ -1073,7 +1074,8 @@ public class FMRadioService extends Service
        mPlaybackInProgress = true;
        configureAudioDataPath(true);
        try {
-           mCallbacks.onFmAudioPathStarted();
+           if ((mServiceInUse) && (mCallbacks != null))
+               mCallbacks.onFmAudioPathStarted();
        } catch(RemoteException e) {
            e.printStackTrace();
        }
@@ -1084,7 +1086,8 @@ public class FMRadioService extends Service
        configureAudioDataPath(false);
        mPlaybackInProgress = false;
        try {
-           mCallbacks.onFmAudioPathStopped();
+           if ((mServiceInUse) && (mCallbacks != null))
+               mCallbacks.onFmAudioPathStopped();
        } catch(RemoteException e) {
            e.printStackTrace();
        }
