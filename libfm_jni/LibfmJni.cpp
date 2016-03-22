@@ -116,31 +116,17 @@ jboolean SetFreq(JNIEnv *env, jobject thiz, jfloat freq)
 
 jfloat Seek(JNIEnv *env, jobject thiz, jfloat freq, jboolean isUp)
 {
-    int ret = 0;
-    int tmp_freq;
-    int ret_freq = 0;
-    float val;
+    int ret = JNI_FALSE;
+    float val = freq;
 
-    tmp_freq = (int)(freq * FREQ_MULT); //Eg, 87.55 * 100 --> 87550
-    if (pFMRadio)
+    if (pFMRadio) {
         ret = pFMRadio->Set_mute(true);
-    else
-        ret = JNI_FALSE;
-    if (ret) {
-        ALOGE("%s, error, [ret=%d]\n", __func__, ret);
-    }
-    ALOGD("%s, [mute] [ret=%d]\n", __func__, ret);
-    if (pFMRadio)
+        ALOGD("%s, [mute] [ret=%d]\n", __func__, ret);
         ret = pFMRadio->Seek((int)isUp);
-    else
-        ret = JNI_FALSE;
-    if (ret < 0) {
-        ret_freq = tmp_freq; //seek error, so use original freq
+        ALOGD("%s, [freq=%f] [ret=%d]\n", __func__, freq, ret);
+        if (ret > 0)
+            val = (float)ret/FREQ_MULT;   //Eg, 8755 / 100 --> 87.55
     }
-
-    ALOGD("%s, [freq=%d] [ret=%d]\n", __func__, ret_freq, ret);
-
-    val = (float)ret/FREQ_MULT;   //Eg, 8755 / 100 --> 87.55
 
     return val;
 }
