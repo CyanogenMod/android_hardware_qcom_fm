@@ -622,7 +622,7 @@ public class FMTransmitterActivity extends Activity {
          if(mProgressDialog != null) {
             mProgressDialog.setTitle(titleStr);
             mProgressDialog.setMessage(msgStr);
-            mProgressDialog.setIcon(R.drawable.ic_launcher_fm_tx);
+            mProgressDialog.setIcon(R.mipmap.ic_launcher_fm_tx);
             mProgressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
             mProgressDialog.setCanceledOnTouchOutside(false);
             mProgressDialog.setButton(DialogInterface.BUTTON_POSITIVE,
