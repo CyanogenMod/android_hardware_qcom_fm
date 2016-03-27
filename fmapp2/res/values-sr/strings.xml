@@ -78,6 +78,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Вашој SD картици понестаје простора. Промените поставку квалитета или избришите неке друге датотеке да бисте ослободили простор.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Достигнуто је ограничење величине.</string>
   <string name="menu_scan_for_preset">Скенирајте за подешавања</string>
   <!-- Off messages -->
   <string name="fm_off">FM је угашен.</string>
@@ -93,9 +94,13 @@
   <string name="fm_cmd_failed_call_on">FM операција неуспешна. FM аудио није дозвољен у току позива.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Моја FM снимања</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM снимања</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM снимања</string>
   <string name="station_name">Станица:</string>
   <string name="station_exists">Ова фреквенција већ постоји!</string>
   <string name="station_list_delete_station">Избриши:  <xliff:g id="name">%s</xliff:g></string>
@@ -107,6 +112,8 @@
   <string name="usr_def_band_max">Највиша фреквенција (MHz)</string>
   <string name="chanl_spacing">Размак канала</string>
   <string name="set">Постави</string>
+  <string name="user_defind_band_msg">Унеси фреквенцију од 76.0 дo 108.0 MHz са размаком од минимум 1 канала размаком од 100KHz између минималне и максималне фреквенције</string>
+  <string name="save_record_file">FM фајл снимљен на \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Нема одговарајућих станица</string>
   <!-- program types -->
   <string name="typ_All_stations">Све станице</string>

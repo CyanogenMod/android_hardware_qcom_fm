@@ -78,6 +78,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD การ์ดของคุณกำลังจะเต็ม เปลี่ยนการตั้งค่าคุณภาพหรือลบไฟล์อื่น ๆ เพื่อให้มีพื้นที่ว่างเพิ่ม</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">ถึงขีดจำกัดขนาดสูงสุด</string>
   <string name="menu_scan_for_preset">ค้นหาเพื่อตั้งรายการล่วงหน้า</string>
   <!-- Off messages -->
   <string name="fm_off">FM ถูกปิดอยู่</string>
@@ -93,9 +94,13 @@
   <string name="fm_cmd_failed_call_on">การดำเนินการ FM ล้มเหลว ไม่สามารถใช้ FM ขณะโทรออกได้</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">การบันทึก FM ของฉัน</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">การบันทึก FM</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">การบันทึก FM</string>
   <string name="station_name">สถานี:</string>
   <string name="station_exists">มีความถี่นี่อยู่แล้ว!</string>
   <string name="station_list_delete_station">ลบ: <xliff:g id="name">%s</xliff:g></string>
@@ -107,6 +112,8 @@
   <string name="usr_def_band_max">ความถี่สูงสุด (MHz)</string>
   <string name="chanl_spacing">ระยะช่องสถานี</string>
   <string name="set">ตั้งค่า</string>
+  <string name="user_defind_band_msg">ป้อนความถี่จาก 76.0 ถึง 108.0 MHz โดยเว้นระยะขั้นต่ำ 1 ช่อง และช่องว่าง 100KHz ระหว่างความถี่ขั้นต่ำและความถี่สูงสุด</string>
+  <string name="save_record_file">บันทึกไฟล์ FM ไปยัง \"<xliff:g id="record_file">%1$s</xliff:g>\" แล้ว</string>
   <string name="fm_search_no_results">ไม่มีสถานีที่เข้ากันได้</string>
   <!-- program types -->
   <string name="typ_All_stations">สถานีทั้งหมด</string>

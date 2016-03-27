@@ -93,6 +93,7 @@
   <string name="fm_cmd_failed_call_on">FM-operasjonen mislyktes. FM lyd er ikke tillatt under samtale.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <!-- all recordings will show up in the media database with this 'album' name -->
   <!-- all recordings will show up in the media database in a playlist with this name -->

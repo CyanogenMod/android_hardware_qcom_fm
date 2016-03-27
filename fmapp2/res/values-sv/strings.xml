@@ -78,6 +78,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Ditt SD-kort börjar få slut på utrymme. Ändra kvalitetsinställningen eller ta bort några andra filer för att frigöra utrymme.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Storleksgränsen är nådd.</string>
   <string name="menu_scan_for_preset">Sök efter förval</string>
   <!-- Off messages -->
   <string name="fm_off">FM är avstängd.</string>
@@ -93,9 +94,13 @@
   <string name="fm_cmd_failed_call_on">FM-åtgärd misslyckades. FM-ljud är inte tillåtet under samtal.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Mina FM-inspelningar</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM-inspelningar</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM-inspelningar</string>
   <string name="station_name">Station:</string>
   <string name="station_exists">Denna frekvens finns redan!</string>
   <string name="station_list_delete_station">Ta bort: <xliff:g id="name">%s</xliff:g></string>
@@ -107,6 +112,8 @@
   <string name="usr_def_band_max">Högsta frekvens (MHz)</string>
   <string name="chanl_spacing">Kanalavstånd</string>
   <string name="set">Ställ in</string>
+  <string name="user_defind_band_msg">Ange en frekvens från 76,0 till 108.0 MHz med minst 1 kanals separation och 100 kHz mellanrum mellan min och max frekvens</string>
+  <string name="save_record_file">FM-inspelningen sparades till \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Inga kompatibla stationer hittades</string>
   <!-- program types -->
   <string name="typ_All_stations">Alla stationer</string>

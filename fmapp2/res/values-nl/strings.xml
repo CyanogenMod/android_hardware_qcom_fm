@@ -107,6 +107,7 @@
   <string name="usr_def_band_max">Hoogste frequentie (MHz)</string>
   <string name="chanl_spacing">Kanaalafstand</string>
   <string name="set">Instellen</string>
+  <string name="user_defind_band_msg">Voer een frequentie in tussen 76.0 en 108.0 MHz met een tussenruimte van een kanaal en 100 KHz ruimte tussen minimale en maximale frequentie</string>
   <string name="fm_search_no_results">Geen zenders gevonden</string>
   <!-- program types -->
   <string name="typ_All_stations">Alle zenders</string>

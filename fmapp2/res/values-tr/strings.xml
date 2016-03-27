@@ -78,6 +78,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD kart depolama alanınız doluyor. Kalite ayarını değiştirin ya da yer açmak için birkaç dosya silin.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Boyut limitine ulaşıldı.</string>
   <string name="menu_scan_for_preset">Tanımlı listeleri tara</string>
   <!-- Off messages -->
   <string name="fm_off">FM kapatıldı.</string>
@@ -93,9 +94,13 @@
   <string name="fm_cmd_failed_call_on">FM işlemi başarısız oldu. FM sesine telefon konuşması sırasında izin verilmiyor.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-AA-gg SS:dd:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">FM kayıtlarım</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM kayıtları</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM kayıtları</string>
   <string name="station_name">Kanal:</string>
   <string name="station_exists">Bu frekans zaten mevcut!</string>
   <string name="station_list_delete_station">Sil: <xliff:g id="name">%s</xliff:g></string>
@@ -107,6 +112,8 @@
   <string name="usr_def_band_max">En yüksek frekans (MHz)</string>
   <string name="chanl_spacing">Kanal aralığı</string>
   <string name="set">Ayarla</string>
+  <string name="user_defind_band_msg">Minimum 1 kanal aralığı ve min ve maks frekansı arasında 100KHz aralığa sahip 76.0\'dan 108.0 MHz\'e kadarki frekansı girin</string>
+  <string name="save_record_file">FM kayıt dosyası \'<xliff:g id="record_file">%1$s</xliff:g>\' yoluna kaydedildi</string>
   <string name="fm_search_no_results">Uyumlu kanal bulunmadı</string>
   <!-- program types -->
   <string name="typ_All_stations">Tüm kanallar</string>
