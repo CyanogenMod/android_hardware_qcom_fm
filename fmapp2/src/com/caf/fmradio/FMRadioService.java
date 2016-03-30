@@ -1070,7 +1070,12 @@ public class FMRadioService extends Service
                Log.d(LOGTAG, "Audio source set it as headset");
                AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_NONE);
            }
+       } else {
+               Log.d(LOGTAG, "A2DP is connected, set audio source to A2DP HS");
+               AudioSystem.setForceUse(AudioSystem.FOR_MEDIA, AudioSystem.FORCE_SPEAKER);
+               mSpeakerPhoneOn = true;
        }
+
        mPlaybackInProgress = true;
        configureAudioDataPath(true);
        try {

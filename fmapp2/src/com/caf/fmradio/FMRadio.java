@@ -2288,7 +2288,7 @@ public class FMRadio extends Activity
    }
 
    private void A2DPConnectionState(boolean state) {
-      Log.d(LOGTAG, "A2DPConnectionState with:" +state);
+      Log.d(LOGTAG, "A2DPConnectionState with: " + state);
       if (state) {
           Log.d(LOGTAG, "A2DP connected, set button to speaker");
           mSpeakerButton.setImageResource(R.drawable.btn_speaker);
