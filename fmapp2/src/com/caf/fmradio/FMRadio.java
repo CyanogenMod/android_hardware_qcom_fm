@@ -42,6 +42,7 @@ import android.content.DialogInterface.OnKeyListener;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.BroadcastReceiver;
+import android.content.res.Configuration;
 import android.media.AudioSystem;
 import android.media.AudioManager;
 import android.media.MediaRecorder;
@@ -440,6 +441,12 @@ public class FMRadio extends Activity
        mFrequency = mPrefs.getLowerLimit() + value *
                              mPrefs.getFrequencyStepSize();
        return mFrequency;
+   }
+
+   @Override
+   public void onConfigurationChanged(Configuration newConfig) {
+       Log.d(LOGTAG, "onConfigurationChanged");
+       super.onConfigurationChanged(newConfig);
    }
 
    @Override
