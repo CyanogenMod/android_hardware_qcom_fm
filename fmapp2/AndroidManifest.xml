@@ -65,6 +65,7 @@
             android:screenOrientation="portrait"
             android:allowTaskReparenting="true"
             android:launchMode="singleTask"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/FMTheme"
             android:excludeFromRecents="false" >
 
