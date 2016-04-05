@@ -91,7 +91,7 @@
   <string name="fm_command_failed_title">פעולת FM נכשלה</string>
   <string name="fm_cmd_failed_msg">פעולת FM נכשלה. אם הבעיה חוזרת על עצמה, כבה את מקלט ה-FM והפעל אותו שנית.</string>
   <string name="fm_cmd_failed_msg_hdmi">פעולת FM נכשלה. התרחשות בו זמנית של FM ו-HDMI אינה נתמכת.</string>
-  <string name="fm_cmd_failed_call_on">כשל בהפעלת רדיו FM. רדיו FM אין מאושר לשימוש במהלך שיחה.</string>
+  <string name="fm_cmd_failed_call_on">כשל בהפעלת רדיו FM. רדיו FM אינו מאושר לשימוש במהלך שיחה.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
