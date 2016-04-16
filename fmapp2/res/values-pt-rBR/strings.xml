@@ -112,7 +112,7 @@
   <string name="usr_def_band_max">Maior frequência (MHz)</string>
   <string name="chanl_spacing">Espaçamento entre canais</string>
   <string name="set">Definir</string>
-  <string name="user_defind_band_msg">Introduza uma frequência de 76.0 à 108.0 MHz com no mínimo 1 canal de espaço e 100KHz de diferença entre a frequência mínima e máxima</string>
+  <string name="user_defind_band_msg">Digite uma frequência de 76.0 à 108.0 MHz com no mínimo 1 canal de espaço e 100KHz de diferença entre a frequência mínima e máxima</string>
   <string name="save_record_file">Arquivo de gravação FM salvado em \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Nenhuma estação compatível encontrada</string>
   <!-- program types -->
