@@ -147,7 +147,7 @@
   <string name="typ_Sport">Спорт</string>
   <string name="typ_Travel">Пътуване</string>
   <string name="typ_Varied">Разнообразни</string>
-  <string name="typ_Weather">Времето</string>
+  <string name="typ_Weather">Прогноза за времето</string>
   <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Стари хитове</string>
   <string name="typ_Classical">Класическа</string>
