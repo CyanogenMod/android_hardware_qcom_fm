@@ -69,13 +69,19 @@
   <string name="settings_revert_defaults_summary">Zresetuj wszystkie ustawienia</string>
   <string name="settings_revert_confirm_title">Potwierdź reset</string>
   <string name="settings_revert_confirm_msg">Spowoduje to usunięcie wszystkich ustawień aplikacji, w tym zapisane ustawienia predefiniowane. Kontynuować?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Włóż kartę SD przed rozpoczęciem nagrywania.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Przygotowuję kartę SD…</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Brak dostępu do karty SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Brak miejsca na karcie SD. Zmniejsz jakość nagrywania, albo zwolnij miejsce przez usunięcie starych plików.</string>
   <string name="menu_scan_for_preset">Skanuj w poszukiwaniu ustawień</string>
+  <!-- Off messages -->
   <string name="fm_off">FM jest wyłączone.</string>
   <string name="fm_call">FM nie można używać podczas połączenia.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Wpisz nazwę</string>
   <string name="search_dialog_title">Skanuj stacje</string>
   <string name="fm_command_timeout_title">Limit czasu</string>
@@ -84,6 +90,7 @@
   <string name="fm_cmd_failed_msg">Uruchomienie radia FM nie powiodło się. Jeżeli problem będzie się powtarzał, wyłącz odbiornik i uruchom go ponownie.</string>
   <string name="fm_cmd_failed_msg_hdmi">Uruchomienie radia nie powiodło się. Współdziałanie odbiornika FM i HDMI nie jest wspierane.</string>
   <string name="fm_cmd_failed_call_on">Uruchomienie radia nie powiodło się. Uruchamianie radia jest zablokowane podczas rozmowy.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Stacja:</string>
   <string name="station_exists">Ta częstotliwość już istnieje!</string>
   <string name="station_list_delete_station">Usuń: <xliff:g id="name">%s</xliff:g></string>
@@ -97,6 +104,7 @@
   <string name="set">Ustaw</string>
   <string name="user_defind_band_msg">Wprowadź częstotliwość od 76.0 do 108.0 MHz z minimalnym odstępem jednego kanału</string>
   <string name="fm_search_no_results">Nie znaleziono kompatybilnych stacji</string>
+  <!-- program types -->
   <string name="typ_All_stations">Wszystkie stacje</string>
   <string name="typ_Culture">Kultura</string>
   <string name="typ_Current_affairs">Sprawy bieżące</string>
@@ -129,6 +137,7 @@
   <string name="typ_Travel">Podróź</string>
   <string name="typ_Varied">Różne</string>
   <string name="typ_Weather">Pogoda</string>
+  <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">Starsze hity</string>
   <string name="typ_Classical">Muzyka klasyczna</string>
   <string name="typ_Classic_Rock">Klasyczny Rock</string>

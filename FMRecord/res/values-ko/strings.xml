@@ -29,14 +29,23 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">녹음하기 전에 SD 카드를 마운트해주십시오.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SD 카드 준비 중</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">SD 카드에 접근할 수 없습니다.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD 카드에 빈 공간이 부족합니다. 음질 설정을 변경하거나 SD 카드의 파일들을 삭제하십시오.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="FMRecording_reach_size_limit">크기 제한에 도달했습니다.</string>
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">내 FM 녹음</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
   <string name="audio_db_album_name">FM 녹음</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">FM 녹음</string>
   <string name="save_record_file">\'<xliff:g id="record_file">%1$s</xliff:g>\'에 FM 녹음 파일 저장됨</string>
   <string name="fm_record_progress">FM 녹음 중</string>

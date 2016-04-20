@@ -31,7 +31,7 @@
 <resources>
   <string-array name="ster_mon_entries">
     <item>Stereo</item>
-    <item>Mono</item>
+    <item>Tunggal</item>
   </string-array>
   <string-array name="record_durations_entries">
     <item>5 menit</item>
@@ -54,7 +54,7 @@
     <item>Austria</item>
     <item>Belgia</item>
     <item>Brasil</item>
-    <item>Cina</item>
+    <item>Tiongkok</item>
     <item>Republik Ceko</item>
     <item>Denmark</item>
     <item>Finlandia</item>
@@ -75,7 +75,7 @@
     <item>Rusia</item>
     <item>Singapura</item>
     <item>Slowakia</item>
-    <item>Spanyol</item>
+    <item>Sepanyol</item>
     <item>Swiss</item>
     <item>Swedia</item>
     <item>Taiwan</item>
@@ -94,11 +94,11 @@
     <item>Austria (87.5MHz sampai 108.0MHz dalam langkah 50 KHz)</item>
     <item>Belgia (87,5 sampai 108,0 MHz dalam langkah 100 KHz)</item>
     <item>Brasil (87.5MHz sampai 108.0MHz dalam langkah 200 KHz)</item>
-    <item>Cina (87.0MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
+    <item>Tiongkok (87,0 MHz sampai 108,0 MHz dalam langkah 100 KHz)</item>
     <item>Republik Ceko (87,5 MHz s.d. 108,0 MHz dalam langkah 100 KHz)</item>
     <item>Denmark (87.5MHz sampai 108.0MHz dalam langkah 50 KHz)</item>
     <item>Finlandia (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
-    <item>Prancis (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
+    <item>Perancis (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>Jerman (87.5MHz sampai 108.0MHz dalam langkah 50 KHz)</item>
     <item>Yunani (87.5MHz sampai 108.0MHz dalam langkah 50 KHz)</item>
     <item>Hong Kong (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
@@ -115,7 +115,7 @@
     <item>Rusia (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>Singapura (88.0MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>Slowakia (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
-    <item>Spanyol (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
+    <item>Sepanyol (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>Swiss (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>Swedia (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>Taiwan (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>

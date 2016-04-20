@@ -29,14 +29,23 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">قبل از شروع ضبط کارت حافظه را اضافه کنید.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">آماده‌سازی کارت حافظه</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">نمی‌توان به کارت حافظه دسترسی پیدا کرد.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">فضای کارت حافظه شما در حال تمام شدن است. تنظیمات کیفیت را تغییر دهید یا تعدادی از عکس‌ها و یا فایل‌های خود را حذف کنید.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="FMRecording_reach_size_limit">به حد نهایی اندازه فایل رسید.</string>
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">سال-ماه-روز ساعت:دقیقه:ثانیه</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">FMهای ضبط شده من</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
   <string name="audio_db_album_name">FMهای ضبط شده</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">FMهای ضبط شده</string>
   <string name="save_record_file">فایل FM ضبط شده در \'<xliff:g id="record_file">%1$s</xliff:g>\' ذخیره شد</string>
   <string name="fm_record_progress">در حال ضبط FM</string>

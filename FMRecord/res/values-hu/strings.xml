@@ -29,14 +29,23 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Felvétel indítása előtt csatlakoztasson SD kártyát.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SD kártya előkészítése</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Nem lehet hozzáférni az SD kártyához.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Az SD kártyája majdnem megtelt. Változtasson a minőségen, vagy töröljön képeket vagy más fájlokat.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="FMRecording_reach_size_limit">Elérte a maximális méretet.</string>
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">Saját FM felvételek</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
   <string name="audio_db_album_name">FM felvételek</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">FM felvételek</string>
   <string name="save_record_file">\"<xliff:g id="record_file">%1$s</xliff:g>\" FM felvétel elmentve</string>
   <string name="fm_record_progress">FM felvétel folyamatban</string>
