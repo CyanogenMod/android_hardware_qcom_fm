@@ -1288,6 +1288,12 @@ public class FMRadioService extends Service
        if (mRecorder == null)
            return;
        try {
+             Thread.sleep(300);
+       } catch (Exception ex) {
+             Log.d( LOGTAG, "RunningThread InterruptedException");
+             return;
+      }
+       try {
              mRecorder.stop();
              mRecorder.reset();
              mRecorder.release();
