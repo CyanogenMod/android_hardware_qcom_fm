@@ -81,6 +81,7 @@ public class FmSharedPreferences
    public static final int REGIONAL_BAND_UNITED_STATES   = 35;
    public static final int REGIONAL_BAND_USER_DEFINED    = 36;
    public static final int REGIONAL_BAND_INDONESIA       = 37;
+   public static final int REGIONAL_BAND_VIETNAM         = 38;
    // If you add to this list, add to getBand() below as well.
 
    public static final int RECORD_DUR_INDEX_0_VAL        = 5;
@@ -1098,6 +1099,13 @@ public class FmSharedPreferences
             mFrequencyBand_Stepsize = 100;
             break;
         }
+        case REGIONAL_BAND_VIETNAM:
+        {
+            /*VIETNAM : 87500 TO 108000 IN 100 KHZ STEPS*/
+            mFrequencyBand_Stepsize = 100;
+            break;
+        }
+
         case REGIONAL_BAND_USER_DEFINED:
         {
           mFMConfiguration.setRadioBand(FmReceiver.FM_USER_DEFINED_BAND);
@@ -1243,6 +1251,7 @@ public class FmSharedPreferences
          {"US"},    // REGIONAL_BAND_UNITED_STATES
          {"--"},    // REGIONAL_BAND_USER_DEFINED (handled elsewhere)
          {"ID"},    // REGIONAL_BAND_INDONESIA
+         {"VN"},    // REGIONAL_BAND_VIETNAM
       };
       for (int band = 0; band < countries.length; ++band) {
          for (String cc : countries[band]) {

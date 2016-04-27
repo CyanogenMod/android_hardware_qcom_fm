@@ -229,6 +229,7 @@
     <item>United States</item>
     <item>User defined band</item>
     <item>Indonesia</item>
+    <item>Vietnam</item>
   </string-array>
 
   <string-array name="regional_band_values" translatable="false">
@@ -270,6 +271,7 @@
     <item>35</item>
     <item>36</item>
     <item>37</item>
+    <item>38</item>
   </string-array>
 
   <string-array name="regional_band_summary">
@@ -311,6 +313,7 @@
     <item>United States (88.1MHz to 107.9MHz in 200 KHz steps)</item>
     <item>User defined band</item>
     <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Vietnam (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
 
   <string-array name="channel_spacing_val" translatable="false">
