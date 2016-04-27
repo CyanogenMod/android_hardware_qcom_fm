@@ -103,6 +103,7 @@
     <string name="regional_band_entry_turkey">Turkey</string>
     <string name="regional_band_entry_united_kingdom">United Kingdom</string>
     <string name="regional_band_entry_united_states">United States</string>
+    <string name="regional_band_entry_vietnam">Vietnam</string>
     <string name="regional_band_entry_user_defined">User defined band</string>
 
     <string name="regional_band_summary_north_america">North America (87.5MHz to 108.0MHz in 200 KHz steps)</string>
@@ -142,6 +143,7 @@
     <string name="regional_band_summary_turkey">Turkey (87.5MHz to 108.0MHz in 100 KHz steps)</string>
     <string name="regional_band_summary_united_kingdom">United Kingdom (87.5MHz to 108.0MHz in 100 KHz steps)</string>
     <string name="regional_band_summary_united_states">United States (88.1MHz to 107.9MHz in 200 KHz steps)</string>
+    <string name="regional_band_summary_vietnam">Vietnam (87.5MHz to 108.0MHz in 100 KHz steps)</string>
     <string name="regional_band_summary_user_defined">User defined band</string>
 
     <string name="aud_output_mode">Audio output mode</string>
