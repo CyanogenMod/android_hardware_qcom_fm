@@ -63,6 +63,7 @@
     <item>গ্রিস</item>
     <item>হংকং</item>
     <item>ভারত</item>
+    <item>Indonesia</item>
     <item>আয়ারল্যান্ড</item>
     <item>ইতালি</item>
     <item>কোরিয়া</item>
@@ -82,8 +83,8 @@
     <item>তুরস্ক</item>
     <item>United Kingdom</item>
     <item>মার্কিন যুক্তরাষ্ট্র</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>ব্যবহারকারী নির্ধারিত ব্যান্ড</item>
-    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>উত্তর আমেরিকা (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ২০০ কিলোহার্টজ)</item>
@@ -103,6 +104,7 @@
     <item>গ্রিস (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ৫০ কিলোহার্টজ)</item>
     <item>হংকং (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ১০০ কিলোহার্টজ)</item>
     <item>ভারত (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ১০০ কিলোহার্টজ পদক্ষেপ)</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>আয়ারল্যান্ড (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ৫০ কিলোহার্টজ)</item>
     <item>ইতালি (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ৫০ কিলোহার্টজ)</item>
     <item>কোরীয় (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ২০০ কিলোহার্টজ)</item>
@@ -122,8 +124,8 @@
     <item>তুরস্ক (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ১০০ কিলোহার্টজ)</item>
     <item>যুক্তরাজ্য (৮৭.৫মেগাহার্টজ হতে ১০৮.০মেগাহার্টজ এর মধ্যে ১০০ কিলোহার্টজ)</item>
     <item>মার্কিন যুক্তরাষ্ট্র (৮৮.১মেগাহার্টজ হতে ১০৭.৯মেগাহার্টজ এর মধ্যে ২০০ কিলোহার্টজ)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>ব্যবহারকারী নির্ধারিত ব্যান্ড</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>৫০ কিলোহার্টজ</item>

@@ -80,6 +80,9 @@
     <string name="settings_revert_confirm_title">Confirm reset</string>
     <string name="settings_revert_confirm_msg">This will clear all application settings, including saved presets. Continue?</string>
 
+    <string name="regional_band_entry_vietnam">Vietnam</string>
+    <string name="regional_band_summary_vietnam">Vietnam (87.5MHz to 108.0MHz in 100 KHz steps)</string>
+
     <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
     <string name="no_storage">Mount SD card before starting recording.</string>
     <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->

@@ -63,6 +63,7 @@
     <item>ଗ୍ରୀସ୍‍</item>
     <item>ହଂ କଂ</item>
     <item>ଭାରତ</item>
+    <item>ଇଣ୍ଡୋନେସିଆ</item>
     <item>ଆୟରଲ୍ୟାଣ୍ଡ</item>
     <item>ଇଟାଲୀ</item>
     <item>କୋରିଆ</item>
@@ -82,8 +83,8 @@
     <item>ତୁର୍କୀ</item>
     <item>ଯୁକ୍ତ ରାଜ୍ୟ</item>
     <item>ଯୁକ୍ତରାଷ୍ଟ୍ର ଆମେରିକା</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>ଉପଭ୍କ୍ତା ବର୍ଣ୍ଣିତ ବ୍ୟାଣ୍ଡ</item>
-    <item>ଇଣ୍ଡୋନେସିଆ</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>ଉତ୍ତର ଆମେରିକା (200 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ 108.0MHz)</item>
@@ -103,6 +104,7 @@
     <item>ଗ୍ରୀସ୍‍ (50 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ 108.0MHz)</item>
     <item>ହଙ୍ଗ୍‍ କଙ୍ଗ (100 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ ୍108.0MHz)</item>
     <item>ଭାରତ (100 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ ୍108.0MHz)</item>
+    <item>ଇଣ୍ଡୋନେସିଆ (100 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ 108.0MHz)</item>
     <item>ଆୟ୍ର୍ଲାଣ୍ଡ (50 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ ୍108.0MHz)</item>
     <item>ଇଟାଲି (50 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ ୍108.0MHz)</item>
     <item>କୋରିଆ (200 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ ୍108.0MHz)</item>
@@ -122,8 +124,8 @@
     <item>ତୁର୍କୀ (100 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ 108.0MHz)</item>
     <item>ଯୁକ୍ତରାଜ୍ୟ (100 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ 108.0MHz)</item>
     <item>ଯୁକ୍ତରାଷ୍ଟ୍ର ଆମେରିକା ( 200 KHz ପର୍ଯ୍ୟାୟରେ 88.1MHz ରୁ 107.9MHz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>ଉପଭ୍କ୍ତା ବର୍ଣ୍ଣିତ ବ୍ୟାଣ୍ଡ</item>
-    <item>ଇଣ୍ଡୋନେସିଆ (100 KHz ପର୍ଯ୍ୟାୟରେ 87.5MHz ରୁ 108.0MHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

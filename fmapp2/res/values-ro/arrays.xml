@@ -63,6 +63,7 @@
     <item>Grecia</item>
     <item>Hong Kong</item>
     <item>India</item>
+    <item>Indonezia</item>
     <item>Irlanda</item>
     <item>Italia</item>
     <item>Coreea</item>
@@ -82,8 +83,8 @@
     <item>Turcia</item>
     <item>Marea Britanie</item>
     <item>Statele Unite</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Bandă definită de utilizator</item>
-    <item>Indonezia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>America de Nord (87.5MHz la 108.0MHz în pași de 200 KHz)</item>
@@ -103,6 +104,7 @@
     <item>Grecia (87.5MHz la 108.0MHz în pași de 50 KHz)</item>
     <item>Hong Kong (87.5MHz la 108.0MHz în pași de 100 KHz)</item>
     <item>India (87.5MHz la 108.0MHz în pași de 100 KHz)</item>
+    <item>Indonezia (87,5 MHz 108.0 MHz în pași de 100 KHz)</item>
     <item>Irlanda (87.5MHz la 108.0MHz în pași de 50 KHz)</item>
     <item>Italia (87.5MHz la 108.0MHz în pași de 50 KHz)</item>
     <item>Coreea (87.5MHz la 108.0MHz în pași de 200 KHz)</item>
@@ -122,8 +124,8 @@
     <item>Turcia (87.5MHz la 108.0MHz în pași de 100 KHz)</item>
     <item>Marea Britanie (87.5MHz la 108.0MHz în pași de 100 KHz)</item>
     <item>Statele Unite (88.1MHz la 107.9MHz în pași de 200 KHz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Bandă definită de utilizator</item>
-    <item>Indonezia (87,5 MHz 108.0 MHz în pași de 100 KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

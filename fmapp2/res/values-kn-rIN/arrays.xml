@@ -63,6 +63,7 @@
     <item>ಗ್ರೀಸ್</item>
     <item>ಹಾಂಗ್ ಕಾಂಗ್</item>
     <item>ಭಾರತ</item>
+    <item>ಇಂಡೋನೇಷ್ಯಾ</item>
     <item>ಐರ್ಲೆಂಡ್</item>
     <item>ಇಟಲಿ</item>
     <item>ಕೋರಿಯಾ</item>
@@ -82,8 +83,8 @@
     <item>ಟರ್ಕಿ</item>
     <item>ಯುನೈಟೆಡ್ ಕಿಂಗ್ಡಮ್</item>
     <item>ಯುನೈಟೆಡ್ ಸ್ಟೇಟ್ಸ್</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>ಬಳಕೆದಾರ ವ್ಯಾಕ್ಯಾನಿಸಿದ ಬ್ಯಾಂಡ್</item>
-    <item>ಇಂಡೋನೇಷ್ಯಾ</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>ಉತ್ತರ ಅಮೇರಿಕಾ (87.5MHz ನಿಂದ 108.0MHz 200 KHz ಹಂತಗಳಲ್ಲಿ)</item>
@@ -103,6 +104,7 @@
     <item>ಗ್ರೀಸ್ (87.5MHz ನಿಂದ 108.0MHz 50 KHz ಹಂತಗಳಲ್ಲಿ)</item>
     <item>ಹಾಂಗ್ ಕಾಂಗ್ (87.5MHz ನಿಂದ 108.0MHz 100 KHz ಹಂತಗಳಲ್ಲಿ)</item>
     <item>ಭಾರತ (87.5MHz ನಿಂದ 108.0MHz 100 KHz ಹಂತಗಳಲ್ಲಿ)</item>
+    <item>ಇಂಡೋನೇಷ್ಯಾ (87.5MHz ನಿಂದ 108.0MHz 100 KHz ಹಂತಗಳಲ್ಲಿ)</item>
     <item>ಐರ್ಲೆಂಡ್ (87.5MHz ನಿಂದ 108.0MHz 50 KHz ಹಂತಗಳಲ್ಲಿ)</item>
     <item>ಇಟಲಿ (87.5MHz ನಿಂದ 108.0MHz 50 KHz ಹಂತಗಳಲ್ಲಿ)</item>
     <item>ಕೋರಿಯಾ (87.5MHz ನಿಂದ 108.0MHz 200 KHz ಹಂತಗಳಲ್ಲಿ)</item>
@@ -122,8 +124,8 @@
     <item>ಟರ್ಕಿ (87.5MHz ನಿಂದ 108.0MHz 100 KHz ಹಂತಗಳಲ್ಲಿ)</item>
     <item>ಯುನೈಟೆಡ್ ಕಿಂಗ್ಡಮ್ (87.5MHz ನಿಂದ 108.0MHz 100 KHz ಹಂತಗಳಲ್ಲಿ)</item>
     <item>ಯುನೈಟೆಡ್ ಸ್ಟೇಟ್ಸ್ (88.1MHz ನಿಂದ 107.9MHz 200 KHz ಹಂತಗಳಲ್ಲಿ)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>ಬಳಕೆದಾರ ವ್ಯಾಖ್ಯಾನಿಸಿದ ಬ್ಯಾಂಡ್</item>
-    <item>ಇಂಡೋನೇಷ್ಯಾ (87.5MHz ನಿಂದ 108.0MHz 100 KHz ಹಂತಗಳಲ್ಲಿ)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

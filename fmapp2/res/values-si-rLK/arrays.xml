@@ -63,6 +63,7 @@
     <item>ග්‍රීසිය</item>
     <item>හොංකොං</item>
     <item>ඉන්දියාව</item>
+    <item>Indonesia</item>
     <item>අයර්ලන්තය</item>
     <item>ඉතාලිය</item>
     <item>කොරියාව</item>
@@ -82,8 +83,8 @@
     <item>තුර්කිය</item>
     <item>United Kingdom</item>
     <item>එක්සත් ජනපදය</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>පරිශීලක නිශ්චිත කලාපය</item>
-    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>උතුරු අමෙරිකාව (87.5MHz සිට 108.0MHz දක්වා 200 KHz පරාස තුල)</item>
@@ -103,6 +104,7 @@
     <item>ග්‍රීසිය (87.5MHz සිට 108.0MHz දක්වා 50 KHz පරාස තුල)</item>
     <item>හොංකොං (87.5MHz සිට 108.0MHz දක්වා 100 KHz පරාස තුල)</item>
     <item>ඉන්දියාව (87.5MHz සිට 108.0MHz දක්වා 100 KHz පරාස තුල)</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>අයර්ලන්තය (87.5MHz සිට 108.0MHz දක්වා 50 KHz පරාස තුල)</item>
     <item>ඉතාලිය (87.5MHz සිට 108.0MHz දක්වා 50 KHz පරාස තුල)</item>
     <item>කොරියාව (87.5MHz සිට 108.0MHz දක්වා 200 KHz පරාස තුල)</item>
@@ -122,8 +124,8 @@
     <item>තුර්කිය (87.5MHz සිට 108.0MHz දක්වා 100 KHz පරාස තුල)</item>
     <item>එක්සත් රාජධානිය (87.5MHz සිට 108.0MHz දක්වා 100 KHz පරාස තුල)</item>
     <item>එක්සත් ජනපදය (88.1MHz සිට 107.9MHz දක්වා 200 KHz පරාස තුල)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>පරිශීලක නිශ්චිත කලාපය</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

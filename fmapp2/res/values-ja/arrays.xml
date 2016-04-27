@@ -63,6 +63,7 @@
     <item>ギリシャ</item>
     <item>香港</item>
     <item>インド</item>
+    <item>インドネシア</item>
     <item>アイルランド</item>
     <item>イタリア</item>
     <item>韓国</item>
@@ -82,8 +83,8 @@
     <item>トルコ</item>
     <item>イギリス</item>
     <item>アメリカ合衆国</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>ユーザー定義バンド</item>
-    <item>インドネシア</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>北アメリカ（87.5MHz～108.0MHz 200 KHzステップ）</item>
@@ -103,6 +104,7 @@
     <item>ギリシャ（87.5MHz～108.0MHz 50 KHzステップ）</item>
     <item>香港（87.5MHz～108.0MHz 100 KHzステップ）</item>
     <item>インド（87.5MHz～108.0MHz 100 KHzステップ）</item>
+    <item>インドネシア（87.5MHz～108.0MHz 100 KHzステップ)</item>
     <item>アイルランド（87.5MHz～108.0MHz 50 KHzステップ）</item>
     <item>イタリア（87.5MHz～108.0MHz 50 KHzステップ）</item>
     <item>韓国（87.5MHz～108.0MHz 200 KHzステップ）</item>
@@ -122,8 +124,8 @@
     <item>トルコ（87.5MHz～108.0MHz 100 KHzステップ）</item>
     <item>イギリス（87.5MHz～108.0MHz 100 KHzステップ）</item>
     <item>アメリカ合衆国（88.1MHz～107.9MHz 200 KHzステップ）</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>ユーザー定義バンド</item>
-    <item>インドネシア（87.5MHz～108.0MHz 100 KHzステップ)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 kHz</item>

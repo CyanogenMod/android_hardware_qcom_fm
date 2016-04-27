@@ -63,6 +63,7 @@
     <item>Grekio</item>
     <item>Honkongo</item>
     <item>Barato</item>
+    <item>Indonezio</item>
     <item>Irlando</item>
     <item>Italio</item>
     <item>Koreujo</item>
@@ -82,8 +83,8 @@
     <item>Turkio</item>
     <item>Unuiĝinta Reĝlando</item>
     <item>Usono</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Bendo difinita de la uzanto</item>
-    <item>Indonezio</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Nordameriko (87.5MHz ĝis 108.0MHz kun paŝo po 200 KHz)</item>
@@ -103,6 +104,7 @@
     <item>Grekio (87.5MHz ĝis 108.0MHz kun paŝo po 50 KHz)</item>
     <item>Honkongo (87.5MHz ĝis 108.0MHz kun paŝo po 100 KHz)</item>
     <item>Barato (87.5MHz ĝis 108.0MHz kun paŝo po 100 KHz)</item>
+    <item>Indonezio (87.5MHz ĝis 108.0MHz kun paŝo po 100 KHz)</item>
     <item>Irlando (87.5MHz ĝis 108.0MHz kun paŝo po 50 KHz)</item>
     <item>Italio (87.5MHz ĝis 108.0MHz kun paŝo po 50 KHz)</item>
     <item>Kereujo (87.5MHz ĝis 108.0MHz kun paŝo po 200 KHz)</item>
@@ -122,8 +124,8 @@
     <item>Turkio (87.5MHz ĝis 108.0MHz kun paŝo po 100 KHz)</item>
     <item>Unuiĝinta Reĝlando (87.5MHz ĝis 108.0MHz kun paŝo po 100 KHz)</item>
     <item>Usono (88.1MHz ĝis 107.9MHz kun paŝo po 200 KHz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Bendo difinita de la uzanto</item>
-    <item>Indonezio (87.5MHz ĝis 108.0MHz kun paŝo po 100 KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

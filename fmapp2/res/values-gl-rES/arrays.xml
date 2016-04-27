@@ -63,6 +63,7 @@
     <item>Grecia</item>
     <item>Hong Kong</item>
     <item>India</item>
+    <item>Indonesia</item>
     <item>Irlanda</item>
     <item>Italia</item>
     <item>Corea</item>
@@ -82,8 +83,8 @@
     <item>Turquía</item>
     <item>Reino Unido </item>
     <item>Estados Unidos de Norteamérica</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Faixa definida polo usuario</item>
-    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>América do Norte (87.5 MHz e 108.0 MHz en intervalos de 200 KHz)</item>
@@ -103,6 +104,7 @@
     <item>Grecia (87.5 MHz e 108.0 MHz en intervalos de 50 KHz)</item>
     <item>Hong Kong (87.5 MHz e 108.0 MHz en intervalos de 100 KHz)</item>
     <item>India (de 87.5 MHz a 108.0M Hz en intervalos de 100 KHz)</item>
+    <item>Indonesia (87.5 MHz para 108.0 MHz en intervalos de 200 KHz)</item>
     <item>Irlanda (87.5 MHz e 108.0 MHz en intervalos de 50 KHz)</item>
     <item>Italia (87.5 MHz e 108.0 MHz en intervalos de 50 KHz)</item>
     <item>Corea (87.5 MHz e 108.0 MHz en intervalos de 200 KHz)</item>
@@ -122,8 +124,8 @@
     <item>Turquía (87.5 MHz e 108.0 MHz en intervalos de 100 KHz)</item>
     <item>Reino Unido (87.5 MHz e 108.0 MHz en intervalos de 100 KHz)</item>
     <item>Estados Unidos de Norteamérica (88.1 MHz para 107.9 MHz en intervalos de 200 KHz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Faixa definida polo usuario</item>
-    <item>Indonesia (87.5 MHz para 108.0 MHz en intervalos de 200 KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

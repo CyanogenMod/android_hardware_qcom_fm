@@ -63,6 +63,7 @@
     <item>Griecheland</item>
     <item>Hongkong</item>
     <item>Indien</item>
+    <item>Indonesien</item>
     <item>Irland</item>
     <item>Italien</item>
     <item>Korea</item>
@@ -82,8 +83,8 @@
     <item>Türkei</item>
     <item>Groussbritannien</item>
     <item>USA</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Benotzerdefinéiert Frequenzband</item>
-    <item>Indonesien</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Nordamerika (87.5MHz bis 108.0MHz an 200-KHz-Schrëtter)</item>
@@ -103,6 +104,7 @@
     <item>Griecheland (87,5 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</item>
     <item>Hongkong (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</item>
     <item>Indien (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</item>
+    <item>Indonesien (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</item>
     <item>Irland (87,5 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</item>
     <item>Italien (87,5 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</item>
     <item>Korea (87,5 MHz bis 108,0 MHz an 200-kHz-Schrëtter)</item>
@@ -122,8 +124,8 @@
     <item>Türkei (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</item>
     <item>Groussbritannien (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</item>
     <item>USA (88,1 MHz bis 107,9 MHz an 200-kHz-Schrëtter)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Benotzerdefinéiert Frequenzband</item>
-    <item>Indonesien (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

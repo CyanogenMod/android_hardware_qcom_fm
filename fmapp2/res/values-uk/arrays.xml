@@ -63,6 +63,7 @@
     <item>Греція</item>
     <item>Гонконг</item>
     <item>Індія</item>
+    <item>Індонезія</item>
     <item>Ірландія</item>
     <item>Італія</item>
     <item>Корея</item>
@@ -82,8 +83,8 @@
     <item>Туреччина</item>
     <item>Великобританія</item>
     <item>Великобританія</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Користувацька смуга частот</item>
-    <item>Індонезія</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Північна Америка (87.5 МГц до 108.0 МГц з кроком у 200 кГц)</item>
@@ -103,6 +104,7 @@
     <item>Греція (87.5 МГц до 108.0 МГц з кроком у 50 кГц)</item>
     <item>Гонконг (87.5 МГц до 108.0 МГц з кроком у 100 кГц)</item>
     <item>Індія (87.5 МГц до 108.0 МГц з кроком у 100 кГц)</item>
+    <item>Індонезія (87.5 МГц до 108.0 МГц з кроком у 100 кГц)</item>
     <item>Ірландія (87.5 МГц до 108.0 МГц з кроком у 50 кГц)</item>
     <item>Італія (87.5 МГц до 108.0 МГц з кроком у 50 кГц)</item>
     <item>Корея (87.5 МГц до 108.0 МГц з кроком у 200 кГц)</item>
@@ -122,8 +124,8 @@
     <item>Туреччина (87.5 МГц до 108.0 МГц з кроком у 100 кГц)</item>
     <item>Велика Британія (87.5 МГц до 108.0 МГц з кроком у 100 кГц)</item>
     <item>США (88,1 МГц 107,9 МГц з кроком у 200 кГц)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Користувацька смуга частот</item>
-    <item>Індонезія (87.5 МГц до 108.0 МГц з кроком у 100 кГц)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 кГц</item>

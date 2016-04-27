@@ -63,6 +63,7 @@
     <item>ഗ്രീസ്</item>
     <item>ഹോംഗ് കോങ്ങ്</item>
     <item>ഇന്ത്യ</item>
+    <item>ഇന്തോനേഷ്യ</item>
     <item>അയർലൻഡ്</item>
     <item>ഇറ്റലി</item>
     <item>കൊറിയ</item>
@@ -82,8 +83,8 @@
     <item>തുര്ക്കി</item>
     <item>യുണൈറ്റഡ് കിംഗ്ഡം</item>
     <item>അമേരിക്ക</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>ഉപയോക്താവ് ബാന്റ്</item>
-    <item>ഇന്തോനേഷ്യ</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>ഉത്തര അമേരിക്ക (87.5MHz to 108.0MHz)</item>
@@ -103,6 +104,7 @@
     <item>ഗ്രീസ് (87.5MHz to 108.0MHz)</item>
     <item>ഹോംഗ് കോങ്ങ് (87.5MHz to 108.0MHz)</item>
     <item>ഇന്ത്യ (87.5MHz to 108.0MHz)</item>
+    <item>ഇന്തോനേഷ്യ (87.5MHz to 108.0MHz)</item>
     <item>അയർലൻഡ് (87.5MHz to 108.0MHz)</item>
     <item>ഇറ്റലി (87.5MHz to 108.0MHz)</item>
     <item>കൊറിയ (87.5MHz to 108.0MHz)</item>
@@ -122,8 +124,8 @@
     <item>തുര്ക്കി (87.5MHz to 108.0MHz)</item>
     <item>യുണൈറ്റഡ് കിംഗ്ഡം (87.5MHz to 108.0MHz)</item>
     <item>അമേരിക്ക (88.1MHz to 107.9MHz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>ഉപയോക്താവ് ബാന്റ്</item>
-    <item>ഇന്തോനേഷ്യ (87.5MHz to 108.0MHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

@@ -59,6 +59,7 @@
     <item>Grikelân</item>
     <item>Hongkong</item>
     <item>Yndia</item>
+    <item>Yndoneezje</item>
     <item>Ierlân</item>
     <item>Itaalje</item>
     <item>Koreä</item>
@@ -78,7 +79,7 @@
     <item>Turkije</item>
     <item>Feriene Keninkryk</item>
     <item>Feriene Steaten</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>User defined band</item>
-    <item>Yndoneezje</item>
   </string-array>
 </resources>

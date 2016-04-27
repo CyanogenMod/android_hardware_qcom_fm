@@ -63,6 +63,7 @@
     <item>希腊</item>
     <item>香港</item>
     <item>印度</item>
+    <item>印尼</item>
     <item>爱尔兰</item>
     <item>意大利</item>
     <item>韩国</item>
@@ -82,8 +83,8 @@
     <item>土耳其</item>
     <item>英国</item>
     <item>美国</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>用户定义的频段</item>
-    <item>印尼</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>北美 (87.5MHz - 108.0MHz ，步长 200 KHz)</item>
@@ -103,6 +104,7 @@
     <item>希腊 (87.5MHz - 108.0MHz ，步长 50 KHz)</item>
     <item>香港 (87.5MHz - 108.0MHz ，步长 100 KHz)</item>
     <item>印度 ( 由 87.5MHz 至 108.0MHz 在每 100 KHz )</item>
+    <item>印尼 ( 由 87.5MHz 至 108.0MHz 在每 100 KHz )</item>
     <item>爱尔兰 (87.5MHz - 108.0MHz ，步长  50 KHz)</item>
     <item>意大利 (87.5MHz - 108.0MHz ， 步长 50 KHz)</item>
     <item>韩国 (87.5MHz - 108.0MHz ，步长 200 KHz)</item>
@@ -122,8 +124,8 @@
     <item>土耳其 (87.5MHz - 108.0MHz ，步长 100 KHz)</item>
     <item>英国 (87.5MHz - 108.0MHz ，步长 100 KHz)</item>
     <item>美国 (88.1MHz - 107.9MHz ，步长 200 KHz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>用户定义的频段</item>
-    <item>印尼 ( 由 87.5MHz 至 108.0MHz 在每 100 KHz )</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

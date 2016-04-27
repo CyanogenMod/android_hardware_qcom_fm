@@ -63,6 +63,7 @@
     <item>กรีซ</item>
     <item>ฮ่องกง</item>
     <item>อินเดีย</item>
+    <item>อินโดนีเซีย</item>
     <item>ไอร์แลนด์</item>
     <item>อิตาลี</item>
     <item>เกาหลี</item>
@@ -82,8 +83,8 @@
     <item>ตุรกี</item>
     <item>สหราชอาณาจักร</item>
     <item>สหรัฐอเมริกา</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>ผู้ใช้กำหนดเอง</item>
-    <item>อินโดนีเซีย</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>อเมริกาเหนือ (87.5MHz ถึง 108.0MHz ใน 200 Khz)</item>
@@ -103,6 +104,7 @@
     <item>กรีซ (87.5MHz ถึง 108.0MHz ใน 50 Khz)</item>
     <item>ฮ่องกง (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
     <item>อินเดีย (87.5MHz ถึง 108.0MHz ใน 100 KHz)</item>
+    <item>อินโดนีเซีย (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>ไอร์แลนด์ (87.5MHz ถึง 108.0MHz ใน 50 Khz)</item>
     <item>อิตาลี (87.5MHz ถึง 108.0MHz ใน 50 Khz)</item>
     <item>เกาหลี (87.5MHz ถึง 108.0MHz ใน 200 Khz)</item>
@@ -122,8 +124,8 @@
     <item>ตุรกี (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
     <item>สหราชอาณาจักร (87.5MHz To 108.0MHz ใน 100 Khz)</item>
     <item>สหรัฐอเมริกา (88.1MHz To 107.9MHz ใน 200 Khz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>ผู้ใช้กำหนดเอง</item>
-    <item>อินโดนีเซีย (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 Khz</item>

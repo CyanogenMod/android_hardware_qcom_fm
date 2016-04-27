@@ -63,6 +63,7 @@
     <item>Görögország</item>
     <item>Hong Kong</item>
     <item>India</item>
+    <item>Indonézia</item>
     <item>Írország</item>
     <item>Olaszország</item>
     <item>Korea</item>
@@ -82,8 +83,8 @@
     <item>Törökország</item>
     <item>Egyesült Királyság</item>
     <item>Egyesült Államok</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Felhasználó által meghatározott sáv</item>
-    <item>Indonézia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Észak-Amerika (87,5 MHz-től 108,0 MHz-ig 200 KHz-es lépésekben)</item>
@@ -103,6 +104,7 @@
     <item>Görögország (87,5 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
     <item>Hong Kong (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
     <item>India (87,5 MHz és 108,0 MHz 100 KHz lépésekben)</item>
+    <item>Indonézia (87,5 MHz és 108,0 MHz 100 KHz lépésekben)</item>
     <item>Írország (87,5 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
     <item>Olaszország (87,5 MHz-től 108,0 MHz-ig 50 KHz-es lépésekben)</item>
     <item>Korea (87,5 MHz-től 108,0 MHz-ig 200 KHz-es lépésekben)</item>
@@ -122,8 +124,8 @@
     <item>Törökország (87,5 MHz-tól 108,0 MHz-ig 100 KHz-es lépésekben)</item>
     <item>Egyesült Királyság (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</item>
     <item>Egyesült Államok (88,1 MHz-től 107,9 MHz-ig 200 KHz-es lépésekben)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Felhasználó által meghatározott sáv</item>
-    <item>Indonézia (87,5 MHz és 108,0 MHz 100 KHz lépésekben)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

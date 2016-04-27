@@ -63,6 +63,7 @@
     <item>Grécko</item>
     <item>Hong Kong</item>
     <item>India</item>
+    <item>Indonézia</item>
     <item>Írsko</item>
     <item>Taliansko</item>
     <item>Kórea</item>
@@ -82,8 +83,8 @@
     <item>Turecko</item>
     <item>Spojené kráľovstvo</item>
     <item>Spojené štáty</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Používateľom určené pásmo</item>
-    <item>Indonézia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Severná Amerika (87.5MHz až 108.0MHz v 200 KHz krokoch)</item>
@@ -103,6 +104,7 @@
     <item>Grécko (87,5 MHz až 108.0 MHz v 50 KHz krokoch)</item>
     <item>Hong Kong (87,5 MHz až 108.0 MHz v 100 KHz krokoch)</item>
     <item>India (87,5 MHz až 108.0 MHz v 100 KHz krokoch)</item>
+    <item>Indonézia (87,5 MHz až 108.0 MHz v 100 KHz krokoch)</item>
     <item>Írsko (87,5 MHz až 108.0 MHz v 50 KHz krokoch)</item>
     <item>Taliansko (87,5 MHz až 108.0 MHz v 50 KHz krokoch)</item>
     <item>Kórea (87,5 MHz až 108.0 MHz v 200 KHz krokoch)</item>
@@ -122,8 +124,8 @@
     <item>Turecko (87,5 MHz až 108.0 MHz v 100 KHz krokoch)</item>
     <item>Spojené kráľovstvo (87,5 MHz až 108.0 MHz v 100 KHz krokoch)</item>
     <item>Spojené štáty (88.1 MHz až 107,9 MHz v 200 KHz krokoch)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Užívateľom definované pásmo</item>
-    <item>Indonézia (87,5 MHz až 108.0 MHz v 100 KHz krokoch)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 Khz</item>

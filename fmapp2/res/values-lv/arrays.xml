@@ -63,6 +63,7 @@
     <item>Grieķija</item>
     <item>Hong Kong</item>
     <item>Indija</item>
+    <item>Indonesia</item>
     <item>Īrija</item>
     <item>Itālija</item>
     <item>Koreja</item>
@@ -82,8 +83,8 @@
     <item>Turcija</item>
     <item>United Kingdom</item>
     <item>Amerikas Savienotās Valstis</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Lietotāja definētā grupa</item>
-    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Ziemeļamerika (87.5 MHz līdz 108.0 MHz soļiem 200 KHz)</item>
@@ -103,6 +104,7 @@
     <item>Grieķija (87.5 MHz līdz 108.0 MHz soļiem 50 KHz)</item>
     <item>Hong Kong (87.5 MHz līdz 108.0 MHz soļiem 100 KHz)</item>
     <item>Indija (87.5 MHz līdz 108.0 MHz ar 100 KHz soli)</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>Īrija (87.5 MHz līdz 108.0 MHz soļiem 50 KHz)</item>
     <item>Itālija (87.5 MHz līdz 108.0 MHz soļiem 50 KHz)</item>
     <item>Koreja (87.5 MHz līdz 108.0 MHz soļiem 200 KHz)</item>
@@ -122,8 +124,8 @@
     <item>Turcija (87.5 MHz līdz 108.0 MHz ar 100 KHz soli)</item>
     <item>Apvienotā Karaliste (87.5 MHz līdz 108.0 MHz ar 100 KHz soli)</item>
     <item>Amerikas Savienotās valstis (88,1 MHz līdz 107,9 MHz ar 200 KHz soli)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Lietotāja definētā josla</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 kHz</item>

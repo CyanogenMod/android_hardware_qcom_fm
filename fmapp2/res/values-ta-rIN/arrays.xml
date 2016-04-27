@@ -63,6 +63,7 @@
     <item>கிரீஸ்</item>
     <item>ஹாங் காங்</item>
     <item>இந்தியா</item>
+    <item>இந்தோனேசியா</item>
     <item>அயர்லாந்து</item>
     <item>இத்தாலி</item>
     <item>கொரியா</item>
@@ -82,8 +83,8 @@
     <item>துருக்கி</item>
     <item>ஐக்கிய ராஜ்யம்</item>
     <item>யுனைட்டெட் ஸ்டேட்ஸ்</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>பயனர் விவரித்த பேண்ட்</item>
-    <item>இந்தோனேசியா</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>வட அமெரிக்கா (87.5MHz முதல்108.0MHz 200 KHz படிகளில்)</item>
@@ -103,6 +104,7 @@
     <item>கிரீஸ் (87.5MHz முதல்108.0MHz 50 KHz படிகளில்)</item>
     <item>ஹாங் காங்(87.5MHz முதல்108.0MHz 100 KHz படிகளில்)</item>
     <item>இந்தியா (87.5MHz முதல்108.0MHz 100 KHz படிகளில்)</item>
+    <item>இந்தோனேசியா (87.5MHz முதல்108.0MHz 100 KHz படிகளில்)</item>
     <item>அயர்லாந்து (87.5MHz முதல்108.0MHz 50 KHz படிகளில்)</item>
     <item>இத்தாலி (87.5MHz முதல்108.0MHz 50 KHz படிகளில்)</item>
     <item>கொரியா (87.5MHz முதல்108.0MHz 200 KHz படிகளில்)</item>
@@ -122,8 +124,8 @@
     <item>துருக்கி (87.5MHz முதல்108.0MHz 100 KHz படிகளில்)</item>
     <item>ஐக்கிய ராஜ்யம் (87.5MHz முதல்108.0MHz 100 KHz படிகளில்)</item>
     <item>ஐக்கிய அமெரிக்க நாடுகள் (88.1MHz முதல்107.9MHz 200 KHz படிகளில்)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>பயனர் விவரித்த பேண்ட்</item>
-    <item>இந்தோனேசியா (87.5MHz முதல்108.0MHz 100 KHz படிகளில்)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

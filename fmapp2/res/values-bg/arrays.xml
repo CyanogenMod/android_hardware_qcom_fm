@@ -63,6 +63,7 @@
     <item>Гърция</item>
     <item>Хонг Конг</item>
     <item>Индия</item>
+    <item>Индонезия</item>
     <item>Ирландия</item>
     <item>Италия</item>
     <item>Корея</item>
@@ -82,8 +83,8 @@
     <item>Турция</item>
     <item>Обединено кралство</item>
     <item>САЩ</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Дефинирани от потребителя радио вълни</item>
-    <item>Индонезия</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Северна Америка (87.5 MHz до 108.0 MHz в 200 KHz стъпки)</item>
@@ -103,6 +104,7 @@
     <item>Гърция (87.5 MHz до 108.0 MHz в 50 KHz стъпки)</item>
     <item>Хонг Конг (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</item>
     <item>Индия (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</item>
+    <item>Индонезия (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</item>
     <item>Ирландия (87.5 MHz до 108.0 MHz в 50 KHz стъпки)</item>
     <item>Италия (87.5 MHz до 108.0 MHz в 50 KHz стъпки)</item>
     <item>Корея (87.5 MHz до 108.0 MHz в 200 KHz стъпки)</item>
@@ -122,8 +124,8 @@
     <item>Турция (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</item>
     <item>Обединено кралство (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</item>
     <item>САЩ (88.1 MHz до 107,9 MHz в 200 KHz стъпки)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Дефинирани от потребителя честоти</item>
-    <item>Индонезия (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 kHz</item>

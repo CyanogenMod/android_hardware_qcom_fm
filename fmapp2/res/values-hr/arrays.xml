@@ -63,6 +63,7 @@
     <item>Grčka</item>
     <item>Hong Kong</item>
     <item>Indija</item>
+    <item>Indonesia</item>
     <item>Irska</item>
     <item>Italija</item>
     <item>Koreja</item>
@@ -82,8 +83,8 @@
     <item>Turska</item>
     <item>United Kingdom</item>
     <item>Sjedinjene Američke Države</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Korisnička frekvencija</item>
-    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Sejverna Amerika (87.5MHz to 108.0MHz in 200 KHz steps)</item>
@@ -103,6 +104,7 @@
     <item>Grčka (87.5MHz to 108.0MHz in 50 KHz steps)</item>
     <item>Hong Kong (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>India (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>Irska (87.5MHz to 108.0MHz in 50 KHz steps)</item>
     <item>Italija (87.5MHz to 108.0MHz in 50 KHz steps)</item>
     <item>Koreja (87.5MHz to 108.0MHz in 200 KHz steps)</item>
@@ -122,8 +124,8 @@
     <item>Turska (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>Ujedinjeno Kraljevstvo (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>SAD (88.1MHz to 107.9MHz in 200 KHz steps)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Korisnička frekvencija</item>
-    <item>Indonesia (87.5MHz to 108.0MHz in 100 KHz steps)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

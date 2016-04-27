@@ -63,6 +63,7 @@
     <item>יוון</item>
     <item>הונג קונג</item>
     <item>הודו</item>
+    <item>אינדונזיה</item>
     <item>אירלנד</item>
     <item>איטליה</item>
     <item>קוריאה</item>
@@ -82,8 +83,8 @@
     <item>טורקיה</item>
     <item>בריטניה</item>
     <item>ארצות הברית</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>טווח מותאם אישית</item>
-    <item>אינדונזיה</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>צפון אמריקה (87.5MHz עד 108.0MHz בקפיצות של 200KHz)</item>
@@ -103,6 +104,7 @@
     <item>יוון (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</item>
     <item>הונג-קונג (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>הודו (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
+    <item>אינדונזיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>אירלנד (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</item>
     <item>איטליה (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</item>
     <item>קוריאה (87.5MHz עד 108.0MHz בקפיצות של 200KHz)</item>
@@ -122,8 +124,8 @@
     <item>טורקיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>בריטניה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
     <item>ארצות הברית (88.1MHz עד 107.9MHz בקפיצות של 200KHz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>טווח מותאם אישית</item>
-    <item>אינדונזיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50KHz</item>

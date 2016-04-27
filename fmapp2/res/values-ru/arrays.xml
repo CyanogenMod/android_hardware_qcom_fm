@@ -63,6 +63,7 @@
     <item>Греция</item>
     <item>Гонконг</item>
     <item>Индия</item>
+    <item>Индонезия</item>
     <item>Ирландия</item>
     <item>Италия</item>
     <item>Республика Корея</item>
@@ -82,8 +83,8 @@
     <item>Турция</item>
     <item>Великобритания</item>
     <item>США</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Пользовательская полоса частот</item>
-    <item>Индонезия</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Северная Америка (87,5–108,0 МГц с шагом в 200 кГц)</item>
@@ -103,6 +104,7 @@
     <item>Греция (87,5–108,0 МГц с шагом в 50 кГц)</item>
     <item>Гонконг (87,5–108,0 МГц с шагом в 100 кГц)</item>
     <item>Индия (87,5–108,0 МГц с шагом в 100 кГц)</item>
+    <item>Индонезия (87,5–108,0 МГц с шагом в 100 кГц)</item>
     <item>Ирландия (87,5–108,0 МГц с шагом в 50 кГц)</item>
     <item>Италия (87,5–108,0 МГц с шагом в 50 кГц)</item>
     <item>Республика Корея (87,5–108,0 МГц с шагом в 200 кГц)</item>
@@ -122,8 +124,8 @@
     <item>Турция (87,5–108,0 МГц с шагом в 100 кГц)</item>
     <item>Великобритания (87,5–108,0 МГц с шагом в 100 кГц)</item>
     <item>США (88,1–107,9 МГц с шагом в 200 кГц)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Пользовательская полоса частот</item>
-    <item>Индонезия (87,5–108,0 МГц с шагом в 100 кГц)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 кГц</item>

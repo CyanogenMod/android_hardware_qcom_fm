@@ -63,6 +63,7 @@
     <item>Yunanıstan</item>
     <item>Honq Konq</item>
     <item>Hindistan</item>
+    <item>İndoneziya</item>
     <item>İrlandiya</item>
     <item>İtaliya</item>
     <item>Koreya</item>
@@ -82,8 +83,8 @@
     <item>Türkiyə</item>
     <item>United Kingdom</item>
     <item>ABŞ</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>İstifadəçi təyin edən zolaq</item>
-    <item>İndoneziya</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Şimali Amerika (87.5MHz - 108.0MHz arası 200 KHz dalğasında)</item>
@@ -103,6 +104,7 @@
     <item>Yunanıstan (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
     <item>Honq Konq (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
     <item>Hindistan (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
+    <item>İndoneziya (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
     <item>İrlandiya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
     <item>İtaliya (87.5MHz - 108.0MHz arası 50 KHz dalğasında)</item>
     <item>Koreya (87.5MHz = 108.0MHz arası 200 KHz dalğasında)</item>
@@ -122,8 +124,8 @@
     <item>Türkiyə (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
     <item>Birləşmiş Krallıq (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
     <item>ABŞ (88.1MHz - 107.9MHz arası 200 KHz dalğasında)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>İstifadəçi təyin edən zolaq</item>
-    <item>İndoneziya (87.5MHz - 108.0MHz arası 100 KHz dalğasında)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

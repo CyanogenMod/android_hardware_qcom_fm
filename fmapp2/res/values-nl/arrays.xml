@@ -63,6 +63,7 @@
     <item>Griekenland</item>
     <item>Hong Kong</item>
     <item>India</item>
+    <item>Indonesië</item>
     <item>Ierland</item>
     <item>Italië</item>
     <item>Korea</item>
@@ -82,8 +83,8 @@
     <item>Turkije</item>
     <item>Verenigd Koninkrijk</item>
     <item>Verenigde Staten</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Aangepast</item>
-    <item>Indonesië</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Noord-Amerika (87,5 MHz tot 108,0 MHz in stappen van 200 kHz)</item>
@@ -103,6 +104,7 @@
     <item>Griekenland (87,5 MHz tot 108,0 MHz in stappen van 50 kHz)</item>
     <item>Hong Kong (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</item>
     <item>India (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</item>
+    <item>Indonesië (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</item>
     <item>Ierland (87,5 MHz tot 108,0 MHz in stappen van 50 kHz)</item>
     <item>Italië (87,5 MHz tot 108,0 MHz in stappen van 50 kHz)</item>
     <item>Korea (87,5 MHz tot 108,0 MHz in stappen van 200 kHz)</item>
@@ -122,8 +124,8 @@
     <item>Turkije (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</item>
     <item>Verenigd Koninkrijk (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</item>
     <item>Verenigde Staten (88,1 MHz tot 107,9 MHz in stappen van 200 kHz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Aangepast</item>
-    <item>Indonesië (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 kHz</item>

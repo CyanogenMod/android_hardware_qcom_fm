@@ -63,6 +63,7 @@
     <item>ગ્રીસ</item>
     <item>હોંગ કોંગ</item>
     <item>ભારત</item>
+    <item>ઇન્ડોનેશિયા</item>
     <item>આયર્લેન્ડ</item>
     <item>ઇટાલી</item>
     <item>કોરિયા</item>
@@ -82,8 +83,8 @@
     <item>તુર્કી</item>
     <item>યુનાઇટેડ કિંગડમ</item>
     <item>યુનાઇટેડ સ્ટેટ્સ</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>ઉપયોગકર્તા વ્યાખ્યાયીત બેન્ડ</item>
-    <item>ઇન્ડોનેશિયા</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>ઉત્તર અમેરિકા (87.5MHz થી 108.0MHz પગલાંઓ 200 MHz માં)</item>
@@ -103,6 +104,7 @@
     <item>ગ્રીસ (87.5MHz થી 108.0MHz પગલાંઓ 50 KHz માં)</item>
     <item>હોંગકોંગ (87.5MHz થી 108.0MHz પગલાંઓ 100 KHz માં)</item>
     <item>ભારત (87.5MHz થી 108.0MHz પગલાંઓ 100 KHz માં)</item>
+    <item>ઇન્ડોનેસિયા (87.5MHz થી 108.0MHz પગલાંઓ 100 KHz માં)</item>
     <item>આયરલેન્ડ (87.5MHz થી 108.0MHz પગલાંઓ 50 KHz માં)</item>
     <item>ઇટલી (87.5MHz થી 108.0MHz  પગલાંઓ 50 KHz માં)</item>
     <item>કોરિયા (87.5MHz થી 108.0MHz પગલાંઓ 200 KHz માં)</item>
@@ -122,8 +124,8 @@
     <item>તુર્કી (87.5MHz થી 108.0MHz પગલાંઓ 100 KHz માં)</item>
     <item>યુનાઇટેડ કિંગડમ (87.5MHz થી 108.0MHz પગલાંઓ 100 KHz  માં)</item>
     <item>યુનાઇટેડ સ્ટેટ્સ (88.1MHz થી 107.9MHz પગલાંઓ 200 KHz માં)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>ઉપયોગકર્તા વ્યાખ્યાયીત બેન્ડ</item>
-    <item>ઇન્ડોનેસિયા (87.5MHz થી 108.0MHz પગલાંઓ 100 KHz માં)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

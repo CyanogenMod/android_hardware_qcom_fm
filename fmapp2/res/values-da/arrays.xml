@@ -63,6 +63,7 @@
     <item>Grækenland</item>
     <item>Hong Kong</item>
     <item>Indien</item>
+    <item>Indonesien</item>
     <item>Irland</item>
     <item>Italien</item>
     <item>Korea</item>
@@ -82,8 +83,8 @@
     <item>Tyrkiet</item>
     <item>Storbritannien</item>
     <item>USA</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Brugerdefineret bånd</item>
-    <item>Indonesien</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Nordamerika (87.5MHz til 108.0MHz i 200 KHz-trin)</item>
@@ -103,6 +104,7 @@
     <item>Grækenland (87,5 til 108,0 MHz i 50 KHz-trin)</item>
     <item>Hong Kong (87,5 til 108,0 MHz i 100 KHz-trin)</item>
     <item>Indien (87,5 MHz til 108,0 MHz i 100 KHz-trin)</item>
+    <item>Indonesien (87,5 til 108,0 MHz i 100 KHz trin)</item>
     <item>Irland (87,5 til 108,0 MHz i 50 KHz-trin)</item>
     <item>Italien (87,5 til 108,0 MHz i 50 KHz-trin)</item>
     <item>Korea (87,5 til 108,0 MHz i 200 KHz-trin)</item>
@@ -122,8 +124,8 @@
     <item>Tyrkiet (87,5 til 108,0 MHz i 100 KHz-trin)</item>
     <item>Storbritannien (87,5 til 108,0 MHz i 100 KHz-trin)</item>
     <item>USA (88.1 til 107,9 MHz i 200 KHz-trin)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Brugerdefineret bånd</item>
-    <item>Indonesien (87,5 til 108,0 MHz i 100 KHz trin)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

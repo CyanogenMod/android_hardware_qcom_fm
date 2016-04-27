@@ -63,6 +63,7 @@
     <item>Yunanistan</item>
     <item>Hong Kong</item>
     <item>Hindistan</item>
+    <item>Endonezya</item>
     <item>İrlanda</item>
     <item>İtalya</item>
     <item>Kore</item>
@@ -82,8 +83,8 @@
     <item>Türkiye</item>
     <item>Birleşik Krallık</item>
     <item>Birleşik Devletler</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Kullanıcı tanımlı bant</item>
-    <item>Endonezya</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Kuzey Amerika (87.5MHz - 108.0MHz arası 200 KHz aralıklarla)</item>
@@ -103,6 +104,7 @@
     <item>Yunanistan (87.5MHz - 108.0MHz arası 50 KHz aralıklarla)</item>
     <item>Hong Kong (87.5MHz - 108.0MHz arası 100 Khz aralıklarla)</item>
     <item>Hindistan (87.5MHz - 108.0MHz arası 100 Khz aralıklarla)</item>
+    <item>Endonezya (87.5MHz - 108.0MHz arası 100 KHz aralıklarla)</item>
     <item>İrlanda (87.5MHz - 108.0MHz arası 50 Khz aralıklarla)</item>
     <item>İtalya (87.5MHz - 108.0MHz arası 50 Khz aralıklarla)</item>
     <item>Kore (87.5MHz - 108.0MHz arası 200 KHz aralıklarla)</item>
@@ -122,8 +124,8 @@
     <item>Türkiye (87.5MHz - 108.0MHz arası 100 KHz aralıklarla)</item>
     <item>Birleşik Krallık (87.5MHz - 108.0MHz arası 100 KHz aralıklarla)</item>
     <item>Birleşik Devletler (88.1MHz - 107.9MHz arası 200 KHz aralıklarla)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Kullanıcı tanımlı bant</item>
-    <item>Endonezya (87.5MHz - 108.0MHz arası 100 KHz aralıklarla)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

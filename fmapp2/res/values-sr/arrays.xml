@@ -63,6 +63,7 @@
     <item>Грчка</item>
     <item>Хонг Конг</item>
     <item>Индија</item>
+    <item>Индонезија</item>
     <item>Ирска</item>
     <item>Италија</item>
     <item>Кореа</item>
@@ -82,8 +83,8 @@
     <item>Турска</item>
     <item>Велика Британија</item>
     <item>Сједињене Државе</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Корисник дефинише бенд</item>
-    <item>Индонезија</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Северна Америка (87.5MHz to 108.0MHz in 200 KHz steps)</item>
@@ -103,6 +104,7 @@
     <item>Грчка (87.5MHz to 108.0MHz in 50 KHz steps)</item>
     <item>Хонг Конг (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>Индија (87.5MHz до 108.0MHz у 100 KHz корацима)</item>
+    <item>Индонезија (87.5MHz до 108.0MHz у 100 KHz корацима)</item>
     <item>Ирска (87.5MHz to 108.0MHz in 50 KHz steps)</item>
     <item>Италија (87.5MHz to 108.0MHz in 50 KHz steps)</item>
     <item>Кореја (87.5MHz to 108.0MHz in 200 KHz steps)</item>
@@ -122,8 +124,8 @@
     <item>Турска (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>Велика Британија (87.5MHz to 108.0MHz in 100 KHz steps)</item>
     <item>Сједињене државе (88.1MHz to 107.9MHz in 200 KHz steps)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Корисник дефинише бенд</item>
-    <item>Индонезија (87.5MHz до 108.0MHz у 100 KHz корацима)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

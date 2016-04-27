@@ -63,6 +63,7 @@
     <item>Hy Lạp</item>
     <item>Hồng Kông</item>
     <item>Ấn Độ</item>
+    <item>Indonesia</item>
     <item>Ai Len</item>
     <item>Ý</item>
     <item>Hàn Quốc</item>
@@ -82,8 +83,8 @@
     <item>Thổ Nhĩ Kỳ</item>
     <item>Anh </item>
     <item>Hoa Kỳ</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Băng tần do người dùng xác định</item>
-    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Bắc Mỹ (87.5MHz đến 108.0MHz trong bước sóng 200 KHz)</item>
@@ -103,6 +104,7 @@
     <item>Hy Lạp (87.5MHz đến 108.0MHz trong bước sóng 50 KHz)</item>
     <item>Hồng Kông (87.5MHz đến 108.0MHz trong bước sóng 100 KHz)</item>
     <item>Ấn Độ (87.5MHz đến 108.0MHz trong bước sóng 100 KHz)</item>
+    <item>Indonesia (87.5MHz đến 108.0MHz trong bước sóng 100 KHz)</item>
     <item>Ai Len (87.5MHz đến 108.0MHz trong bước sóng 50 KHz)</item>
     <item>Ý (87.5MHz đến 108.0MHz trong bước sóng 50 KHz)</item>
     <item>Hàn Quốc (87.5MHz đến 108.0MHz trong bước sóng 200 KHz)</item>
@@ -122,8 +124,8 @@
     <item>Thổ Nhĩ Kỳ (87.5MHz đến 108.0MHz trong bước sóng 100 KHz)</item>
     <item>Anh (87.5MHz đến 108.0MHz trong bước sóng 100 KHz)</item>
     <item>Hoa Kỳ (88.1MHz đến 107.9MHz trong bước sóng 200 KHz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Băng tần do người dùng xác định</item>
-    <item>Indonesia (87.5MHz đến 108.0MHz trong bước sóng 100 KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

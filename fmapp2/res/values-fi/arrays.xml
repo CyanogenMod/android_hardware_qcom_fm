@@ -63,6 +63,7 @@
     <item>Kreikka</item>
     <item>Hong Kong</item>
     <item>Intia</item>
+    <item>Indonesia</item>
     <item>Irlanti</item>
     <item>Italia</item>
     <item>Korea</item>
@@ -82,8 +83,8 @@
     <item>Turkki</item>
     <item>Iso-Britannia</item>
     <item>Yhdysvallat</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Käyttäjän määrittämä taajuusalue</item>
-    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Pohjois-Amerikka (87.5MHz - 108.0MHz, 200KHz välein)</item>
@@ -103,6 +104,7 @@
     <item>Kreikka (87.5MHz - 108.0MHz, 50KHz välein)</item>
     <item>Hong Kong (87.5MHz - 108.0MHz, 100KHz välein)</item>
     <item>Intia (87.5MHz - 108.0MHz, 100KHz välein)</item>
+    <item>Indonesia (87.5MHz - 108.0MHz, 100KHz välein)</item>
     <item>Irlanti (87.5MHz - 108.0MHz, 50KHz välein)</item>
     <item>Italia (87.5MHz - 108.0MHz, 50KHz välein)</item>
     <item>Korea (87.5MHz - 108.0MHz, 200KHz välein)</item>
@@ -122,8 +124,8 @@
     <item>Turkki (87.5MHz - 108.0MHz, 100KHz välein)</item>
     <item>Iso-Britannia (87.5MHz - 108.0MHz, 100KHz välein)</item>
     <item>Yhdysvallat (88.1MHz - 107.9MHz, 200KHz välein)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Käyttäjän määrittämä taajuusalue</item>
-    <item>Indonesia (87.5MHz - 108.0MHz, 100KHz välein)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

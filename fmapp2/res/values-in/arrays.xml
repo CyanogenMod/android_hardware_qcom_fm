@@ -63,6 +63,7 @@
     <item>Yunani</item>
     <item>Hong Kong</item>
     <item>India</item>
+    <item>Indonesia</item>
     <item>Irlandia</item>
     <item>Italia</item>
     <item>Korea</item>
@@ -82,8 +83,8 @@
     <item>Turki</item>
     <item>Inggris</item>
     <item>Amerika Serikat</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>Pita disesuikan pengguna</item>
-    <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Amerika Utara (87.5MHz sampai 108.0MHz dalam langkah 200 KHz)</item>
@@ -103,6 +104,7 @@
     <item>Yunani (87.5MHz sampai 108.0MHz dalam langkah 50 KHz)</item>
     <item>Hong Kong (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>India (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
+    <item>Indonesia (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>Irlandia (87.5MHz sampai 108.0MHz dalam langkah 50 KHz)</item>
     <item>Italia (87.5MHz sampai 108.0MHz dalam langkah 50 KHz)</item>
     <item>Korea (87.5MHz sampai 108.0MHz dalam langkah 200 KHz)</item>
@@ -122,8 +124,8 @@
     <item>Turki (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>Inggris (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
     <item>Amerika Serikat (88,1MHz sampai 107,9MHz dalam langkah 200 KHz)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>Pita disesuikan pengguna</item>
-    <item>Indonesia (87.5MHz sampai 108.0MHz dalam langkah 100 KHz)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

@@ -63,6 +63,7 @@
     <item>గ్రీస్</item>
     <item>హాంగ్ కాంగ్</item>
     <item>భారతదేశం</item>
+    <item>ఇండోనేషియా</item>
     <item>ఐరిలాండ్</item>
     <item>ఇటలీ</item>
     <item>కొరియా</item>
@@ -82,8 +83,8 @@
     <item>టర్కీ</item>
     <item>యునైటెడ్ కింగ్డమ్</item>
     <item>సంయుక్త రాష్ట్రాలు</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>వినియోగాదారునిచే నిర్వచించబడ్డ బ్యాండ్</item>
-    <item>ఇండోనేషియా</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>ఉత్తర అమెరికా (200 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
@@ -103,6 +104,7 @@
     <item>గ్రీస్ (50 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
     <item>హాంగ్ కాంగ్ (100 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
     <item>ఇండియా (100 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
+    <item>ఇండోనేషియా (100 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
     <item>ఐరిలాండ్ (50 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
     <item>ఇటలీ (50 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
     <item>కొరియా (200 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
@@ -122,8 +124,8 @@
     <item>టర్కీ (100 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
     <item>యునైటెడ్ కింగ్డమ్ (100 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
     <item>సంయుక్త రాష్ట్రాలు (200 KHz దశలలో 88.1MHz నుండి 107.9MHz వరకు)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>వినియోగాదారునిచే నిర్వచించబడ్డ బ్యాండ్</item>
-    <item>ఇండోనేషియా (100 KHz దశలలో 87.5MHz నుండి 108.0MHz వరకు)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

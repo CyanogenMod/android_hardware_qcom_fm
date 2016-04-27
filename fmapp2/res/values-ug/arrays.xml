@@ -63,6 +63,7 @@
     <item>گىرېتسىيە</item>
     <item>شياڭگاڭ</item>
     <item>ھىندىستان</item>
+    <item>ھىندونېزىيە</item>
     <item>ئىرلاندىيە</item>
     <item>ئىتالىيە</item>
     <item>كورېيە</item>
@@ -82,8 +83,8 @@
     <item>تۈركىيە</item>
     <item>ئەنگلىيە</item>
     <item>ئامېرىكا قوشما شتاتلىرى</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>ئىشلەتكۈچى بەلگىلىگەن چاستوتا</item>
-    <item>ھىندونېزىيە</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>شىمالىي ئامېرىكا (87.5MHz-108.0MHz ئارىسى 200KHz ئارىلىقىدا)</item>
@@ -103,6 +104,7 @@
     <item>گىرېتسىيە (87.5MHz-108.0MHz، ئارىسى 50KHz ئارىلىقتا)</item>
     <item>شياڭگاڭ (87.5MHz-108.0MHz ئارىسى 100KHz ئارىلىقتا)</item>
     <item>ھىندىستان (87.5MHz-108.0MHz ئارىسى 100KHz ئارىلىقىدا)</item>
+    <item>ھىندونېزىيە (87.5MHz-108.0MHz ئارىسى 100KHz ئارىلىقىدا)</item>
     <item>ئىرېلاندىيە (87.5MHz-108.0MHz ئارىسى 50KHz ئارىلىقتا)</item>
     <item>ئىتالىيە (87.5MHz-108.0MHz ئارىسى 50KHz ئارىلىقتا)</item>
     <item>كورىيە (87.5MHz-108.0MHz ئارىسى 200KHz ئارىلىقتا)</item>
@@ -122,8 +124,8 @@
     <item>تۈركىيە (87.5MHz-108.0MHz ئارىسى 100KHz ئارىلىقتا)</item>
     <item>ئەنگلىيە (87.5MHz-108.0MHz ئارىسى 100KHz ئارىلىقتا)</item>
     <item>ئامېرىكا (88.1MHz-107.9MHz ئارىسى 200KHz ئارىلىقتا)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>ئىشلەتكۈچى بەلگىلىگەن چاستوتا</item>
-    <item>ھىندونېزىيە (87.5MHz-108.0MHz ئارىسى 100KHz ئارىلىقىدا)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

@@ -63,6 +63,7 @@
     <item>그리스</item>
     <item>홍콩</item>
     <item>인도</item>
+    <item>인도네시아</item>
     <item>아일랜드</item>
     <item>이탈리아</item>
     <item>대한민국</item>
@@ -82,8 +83,8 @@
     <item>터키</item>
     <item>영국</item>
     <item>미국</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>사용자 정의 밴드</item>
-    <item>인도네시아</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>북미 지역 (87.5MHz ~ 108.0MHz, 200KHz 단위)</item>
@@ -102,6 +103,7 @@
     <item>독일 (87.5MHz ~ 108.0MHz, 50KHz 단위)</item>
     <item>그리스 (87.5MHz ~ 108.0MHz, 50KHz 단위)</item>
     <item>홍콩 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
+    <item>인도 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
     <item>인도 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
     <item>아일랜드 (87.5MHz ~ 108.0MHz, 50KHz 단위)</item>
     <item>이탈리아 (87.5MHz ~ 108.0MHz, 50KHz 단위)</item>
@@ -122,8 +124,8 @@
     <item>터키 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
     <item>영국 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
     <item>미국 (88.1MHz ~ 107.9MHz, 200KHz 단위)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>사용자 정의 밴드</item>
-    <item>인도 (87.5MHz ~ 108.0MHz, 100KHz 단위)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>

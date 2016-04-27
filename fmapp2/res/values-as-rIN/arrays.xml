@@ -63,6 +63,7 @@
     <item>গ্ৰীচ</item>
     <item>হংকং</item>
     <item>ভাৰত</item>
+    <item>ইণ্ডোনেচিয়া</item>
     <item>আয়াৰলেণ্ড</item>
     <item>ইটালী</item>
     <item>কোৰিয়া</item>
@@ -82,8 +83,8 @@
     <item>তুৰ্কী</item>
     <item>ইউনাইটেড কিংডম</item>
     <item>যুক্তৰাষ্ট্ৰ</item>
+    <item>@string/regional_band_entry_vietnam</item>
     <item>ব্যৱহাৰকৰ্তাৰ দ্বাৰা নিৰ্ধাৰিত বেণ্ড</item>
-    <item>ইণ্ডোনেচিয়া</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>উত্তৰ আমেৰিকা (87.5MHz ৰ পৰা 108.0MHz 200 KHz ষ্টেপত)</item>
@@ -103,6 +104,7 @@
     <item>গ্ৰীচ (87.5MHz ৰ পৰা 108.0MHz 50 KHz ষ্টেপত)</item>
     <item>হং কং (87.5MHz ৰ পৰা 108.0MHz 100 KHz ষ্টেপত)</item>
     <item>ভাৰত (87.5MHz ৰ পৰা 108.0MHz 100 KHz ষ্টেপত)</item>
+    <item>ইন্দোনেচিয়া (87.5MHz ৰ পৰা 108.0MHz 100 KHz ষ্টেপত)</item>
     <item>আয়াৰলেণ্ড (87.5MHz ৰ পৰা 108.0MHz 50 KHz ষ্টেপত)</item>
     <item>ইতালী (87.5MHz ৰ পৰা 108.0MHz 50 KHz ষ্টেপত)</item>
     <item>কোৰিয়া (87.5MHz ৰ পৰা 108.0MHz 200 KHz ষ্টেপত)</item>
@@ -122,8 +124,8 @@
     <item>তুৰ্কী (87.5MHz ৰ পৰা 108.0MHz 100 KHz ষ্টেপত)</item>
     <item>ইউনাইটেড কিংডম (87.5MHz ৰ পৰা 108.0MHz 100 KHz ষ্টেপত)</item>
     <item>ইউনাইটেড ষ্টেটচ (88.1MHz ৰ পৰা 107.9MHz 200 KHz ষ্টেপত)</item>
+    <item>@string/regional_band_summary_vietnam</item>
     <item>ব্যৱহাৰকৰ্তাৰ দ্বাৰা নিৰ্ধাৰিত বেণ্ড</item>
-    <item>ইন্দোনেচিয়া (87.5MHz ৰ পৰা 108.0MHz 100 KHz ষ্টেপত)</item>
   </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>
