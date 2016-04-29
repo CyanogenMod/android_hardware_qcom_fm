@@ -627,7 +627,8 @@ public class FMRadio extends Activity
       boolean sleepActive = isSleepTimerActive();
       boolean searchActive = false;
       try{
-          searchActive = isScanActive() || mService.isSeekActive();
+          searchActive = isScanActive() ||
+              (mService != null && mService.isSeekActive());
       } catch(RemoteException e) {
           e.printStackTrace();
       }
@@ -688,7 +689,8 @@ public class FMRadio extends Activity
       boolean searchActive = false;
 
       try {
-          searchActive = isScanActive() || mService.isSeekActive();
+          searchActive = isScanActive() ||
+              (mService != null && mService.isSeekActive());
       } catch(RemoteException e) {
           e.printStackTrace();
       }
@@ -1214,7 +1216,7 @@ public class FMRadio extends Activity
       boolean isSeekActive = false;
 
       try {
-          isSeekActive = mService.isSeekActive();
+          isSeekActive = (mService != null ? mService.isSeekActive() : false);
       } catch(RemoteException e) {
          e.printStackTrace();
       }
@@ -2062,7 +2064,9 @@ public class FMRadio extends Activity
    private void updateSearchProgress() {
       boolean searchActive = false;
       try {
-          searchActive = isScanActive() || mService.isSeekActive() || isSearchActive();
+          searchActive = isScanActive() ||
+              (mService != null && mService.isSeekActive()) ||
+              isSearchActive();
       } catch(RemoteException e) {
          e.printStackTrace();
       }
@@ -2087,7 +2091,7 @@ public class FMRadio extends Activity
    private void saveStations() {
        List<Integer> scannedFrequencies = null;
        try {
-           scannedFrequencies = mService.getScannedFrequencies();
+           scannedFrequencies = (mService != null ? mService.getScannedFrequencies() : null);
        } catch (RemoteException e) {
            e.printStackTrace();
        }
@@ -3119,7 +3123,7 @@ public class FMRadio extends Activity
          if (mIsScaning) {
              List<Integer> scannedFrequencies = null;
              try {
-                 scannedFrequencies = mService.getScannedFrequencies();
+                 scannedFrequencies = (mService != null ? mService.getScannedFrequencies() : null);
              } catch (RemoteException e) {
                  e.printStackTrace();
              }
