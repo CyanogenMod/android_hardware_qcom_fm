@@ -208,7 +208,6 @@
     <item>@string/regional_band_entry_greece</item>
     <item>@string/regional_band_entry_hong_kong</item>
     <item>@string/regional_band_entry_india</item>
-    <item>@string/regional_band_entry_indonesia</item>
     <item>@string/regional_band_entry_ireland</item>
     <item>@string/regional_band_entry_italy</item>
     <item>@string/regional_band_entry_korea</item>
@@ -228,8 +227,8 @@
     <item>@string/regional_band_entry_turkey</item>
     <item>@string/regional_band_entry_united_kingdom</item>
     <item>@string/regional_band_entry_united_states</item>
-    <item>@string/regional_band_entry_vietnam</item>
     <item>@string/regional_band_entry_user_defined</item>
+    <item>@string/regional_band_entry_indonesia</item>
   </string-array>
 
   <string-array name="regional_band_values" translatable="false">
@@ -271,7 +270,6 @@
     <item>35</item>
     <item>36</item>
     <item>37</item>
-    <item>38</item>
   </string-array>
 
   <string-array name="regional_band_summary" translatable="false">
@@ -292,7 +290,6 @@
     <item>@string/regional_band_summary_greece</item>
     <item>@string/regional_band_summary_hong_kong</item>
     <item>@string/regional_band_summary_india</item>
-    <item>@string/regional_band_summary_indonesia</item>
     <item>@string/regional_band_summary_ireland</item>
     <item>@string/regional_band_summary_italy</item>
     <item>@string/regional_band_summary_korea</item>
@@ -312,8 +309,8 @@
     <item>@string/regional_band_summary_turkey</item>
     <item>@string/regional_band_summary_united_kingdom</item>
     <item>@string/regional_band_summary_united_states</item>
-    <item>@string/regional_band_summary_vietnam</item>
     <item>@string/regional_band_summary_user_defined</item>
+    <item>@string/regional_band_summary_indonesia</item>
   </string-array>
 
   <string-array name="channel_spacing_val" translatable="false">
