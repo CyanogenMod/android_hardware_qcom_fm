@@ -94,7 +94,7 @@
   <string name="fm_cmd_failed_call_on">A operação FM falhou. O áudio FM não é permitido durante uma chamada. </string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
-  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">Minhas Gravações FM</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
@@ -112,8 +112,8 @@
   <string name="usr_def_band_max">Maior frequência (MHz)</string>
   <string name="chanl_spacing">Espaçamento entre canais</string>
   <string name="set">Definir</string>
-  <string name="user_defind_band_msg">Introduza uma frequência de 76.0 à 108.0 MHz com no mínimo 1 canal de espaço e 100KHz de diferença entre a frequência mínima e máxima</string>
-  <string name="save_record_file">Arquivo de gravação FM salvado em \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
+  <string name="user_defind_band_msg">Digite uma frequência de 76.0 à 108.0 MHz com no mínimo 1 canal de espaço e 100KHz de diferença entre a frequência mínima e máxima</string>
+  <string name="save_record_file">Arquivo de gravação FM salvo em \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Nenhuma estação compatível encontrada</string>
   <!-- program types -->
   <string name="typ_All_stations">Todas as estações</string>

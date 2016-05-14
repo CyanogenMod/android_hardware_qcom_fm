@@ -78,6 +78,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SDkortet er i ferd med å bli fullt. Endre kvaliteten eller slett noen filer som opptar plass.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Størrelsegrense nådd.</string>
   <string name="menu_scan_for_preset">Skanning for forhåndsinnstillinger</string>
   <!-- Off messages -->
   <string name="fm_off">FM er deaktivert.</string>
@@ -95,8 +96,11 @@
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Mine FM opptak</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM opptak</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM opptak</string>
   <string name="station_name">Stasjon:</string>
   <string name="station_exists">Denne frekvensen finnes allerede!</string>
   <string name="station_list_delete_station">Slett: <xliff:g id="name">%s</xliff:g></string>
@@ -108,6 +112,8 @@
   <string name="usr_def_band_max">Høyeste frekvens (MHz)</string>
   <string name="chanl_spacing">Kanal avstand</string>
   <string name="set">Sett</string>
+  <string name="user_defind_band_msg">Angi frekvens fra 76.0 til 108.0 MHz med minimum 1 kanals avstand og 100KHz avstand mellom min. og maks. frekvens</string>
+  <string name="save_record_file">FM opptaksfil lagret til \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Finner ingen kompatible stasjoner</string>
   <!-- program types -->
   <string name="typ_All_stations">Alle stasjoner</string>
