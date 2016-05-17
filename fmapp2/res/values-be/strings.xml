@@ -78,6 +78,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">На SD-карце не хапае месца. Зменіце налады якасці ці выдаліце некалькі выяў ці іншых файлаў.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Дасягнута абмежаванне памеру.</string>
   <string name="menu_scan_for_preset">Сканаваць па нарыхтоўках</string>
   <!-- Off messages -->
   <string name="fm_off">FM адключана.</string>
@@ -93,9 +94,13 @@
   <string name="fm_cmd_failed_call_on">Выкарыстоўванне FM-радыё падчас тэлефоннага званка немагчыма.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">гггг-мм-дздз гг:хвхв:сс </xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Мае радыёзапісы</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Радыёзапісы</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Радыёзапісы</string>
   <string name="station_name">Станцыя:</string>
   <string name="station_exists">Гэта частата ужо існуе!</string>
   <string name="station_list_delete_station">Выдаленне: <xliff:g id="name">%s</xliff:g></string>
@@ -107,6 +112,8 @@
   <string name="usr_def_band_max">Максімальная частата (Мгц)</string>
   <string name="chanl_spacing">Крок каналаў</string>
   <string name="set">Задаць</string>
+  <string name="user_defind_band_msg">Напішы частату ад 76,0 да 108,0 Мгц і прасторам у 100кГц між найменьшай і найбольшай частатою</string>
+  <string name="save_record_file">Файл радыёзапісу захаваны ў \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Сумесных станцый не знойдзена</string>
   <!-- program types -->
   <string name="typ_All_stations">Усе станцыі</string>
