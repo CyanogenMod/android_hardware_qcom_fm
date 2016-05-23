@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Турция</string>
   <string name="regional_band_entry_united_kingdom">Обединено кралство</string>
   <string name="regional_band_entry_united_states">САЩ</string>
+  <string name="regional_band_entry_vietnam">Виетнам</string>
   <string name="regional_band_entry_user_defined">Дефинирани от потребителя радио вълни</string>
   <string name="regional_band_summary_north_america">Северна Америка (87.5 MHz до 108.0 MHz в 200 KHz стъпки)</string>
   <string name="regional_band_summary_europe">Европа (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Турция (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</string>
   <string name="regional_band_summary_united_kingdom">Обединено кралство (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</string>
   <string name="regional_band_summary_united_states">САЩ (88.1 MHz до 107,9 MHz в 200 KHz стъпки)</string>
+  <string name="regional_band_summary_vietnam">Виетнам (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</string>
   <string name="regional_band_summary_user_defined">Дефинирани от потребителя честоти</string>
   <string name="aud_output_mode">Режим аудио изход</string>
   <string name="audio_type_stereo">Стерео</string>

@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turkiet</string>
   <string name="regional_band_entry_united_kingdom">United Kingdom</string>
   <string name="regional_band_entry_united_states">USA</string>
+  <string name="regional_band_entry_vietnam">Vietnam</string>
   <string name="regional_band_entry_user_defined">Användardefinierat band</string>
   <string name="regional_band_summary_north_america">Nordamerika (87.5MHz till 108.0MHz i 200 KHz-steg)</string>
   <string name="regional_band_summary_europe">Europa (87.5MHz till 108.0MHz i 100 KHz-steg)</string>

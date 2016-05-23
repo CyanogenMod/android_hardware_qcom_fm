@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turkia</string>
   <string name="regional_band_entry_united_kingdom">Erresuma Batua</string>
   <string name="regional_band_entry_united_states">Estatu Batuak</string>
+  <string name="regional_band_entry_vietnam">Vietnam</string>
   <string name="regional_band_entry_user_defined">Pertsonalizatua</string>
   <string name="regional_band_summary_north_america">Ipar Amerika (87,5MHz-tik 108,0MHz-ra 200KHz-tako urratsetan)</string>
   <string name="regional_band_summary_europe">Europa (87,5MHz-tik 108,0MHz-ra 100KHz-tako urratsetan)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Turkia (87,5MHz-tik 108,0MHz-ra 100KHz-tako urratsetan)</string>
   <string name="regional_band_summary_united_kingdom">Erresuma Batua (87,5MHz-tik 108,0MHz-ra 100KHz-tako urratsetan)</string>
   <string name="regional_band_summary_united_states">Estatu Batuak (88,1MHz-tik 107,9MHz-ra 200KHz-tako urratsetan)</string>
+  <string name="regional_band_summary_vietnam">Vietnam (87.5MHz-tik 108.0MHz-ra 100 KHz-tako urratsetan)</string>
   <string name="regional_band_summary_user_defined">Banda pertsonalizatua</string>
   <string name="aud_output_mode">Audio irteera modua</string>
   <string name="audio_type_stereo">Estereoa</string>

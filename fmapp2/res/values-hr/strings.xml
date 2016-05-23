@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turska</string>
   <string name="regional_band_entry_united_kingdom">United Kingdom</string>
   <string name="regional_band_entry_united_states">Sjedinjene Američke Države</string>
+  <string name="regional_band_entry_vietnam">Vijetnam</string>
   <string name="regional_band_entry_user_defined">Korisnička frekvencija</string>
   <string name="regional_band_summary_north_america">Sejverna Amerika (87.5MHz to 108.0MHz in 200 KHz steps)</string>
   <string name="regional_band_summary_europe">Europa (87.5MHz to 108.0MHz in 100 KHz steps)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Turska (87.5MHz to 108.0MHz in 100 KHz steps)</string>
   <string name="regional_band_summary_united_kingdom">Ujedinjeno Kraljevstvo (87.5MHz to 108.0MHz in 100 KHz steps)</string>
   <string name="regional_band_summary_united_states">SAD (88.1MHz to 107.9MHz in 200 KHz steps)</string>
+  <string name="regional_band_summary_vietnam">Vietnam (Od 87.5MHz do 108.0MHz u 100 KHz koraka)</string>
   <string name="regional_band_summary_user_defined">Korisnička frekvencija</string>
   <string name="aud_output_mode">Način izlaza zvuka</string>
   <string name="audio_type_stereo">Stereo</string>

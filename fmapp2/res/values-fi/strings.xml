@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turkki</string>
   <string name="regional_band_entry_united_kingdom">Iso-Britannia</string>
   <string name="regional_band_entry_united_states">Yhdysvallat</string>
+  <string name="regional_band_entry_vietnam">Vietnam</string>
   <string name="regional_band_entry_user_defined">Käyttäjän määrittämä taajuusalue</string>
   <string name="regional_band_summary_north_america">Pohjois-Amerikka (87.5MHz - 108.0MHz, 200KHz välein)</string>
   <string name="regional_band_summary_europe">Eurooppa (87.5MHz - 108.0MHz, 100KHz välein)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Turkki (87.5MHz - 108.0MHz, 100KHz välein)</string>
   <string name="regional_band_summary_united_kingdom">Iso-Britannia (87.5MHz - 108.0MHz, 100KHz välein)</string>
   <string name="regional_band_summary_united_states">Yhdysvallat (88.1MHz - 107.9MHz, 200KHz välein)</string>
+  <string name="regional_band_summary_vietnam">Vietnam (87.5MHz - 108.0MHz, 100KHz välein)</string>
   <string name="regional_band_summary_user_defined">Käyttäjän määrittämä taajuusalue</string>
   <string name="aud_output_mode">Äänen ulostulo</string>
   <string name="audio_type_stereo">Stereo</string>

@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">トルコ</string>
   <string name="regional_band_entry_united_kingdom">イギリス</string>
   <string name="regional_band_entry_united_states">アメリカ合衆国</string>
+  <string name="regional_band_entry_vietnam">ベトナム</string>
   <string name="regional_band_entry_user_defined">ユーザー定義バンド</string>
   <string name="regional_band_summary_north_america">北アメリカ（87.5MHz～108.0MHz 200 KHzステップ）</string>
   <string name="regional_band_summary_europe">ヨーロッパ（87.5MHz～108.0MHz 100 KHzステップ）</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">トルコ（87.5MHz～108.0MHz 100 KHzステップ）</string>
   <string name="regional_band_summary_united_kingdom">イギリス（87.5MHz～108.0MHz 100 KHzステップ）</string>
   <string name="regional_band_summary_united_states">アメリカ合衆国（88.1MHz～107.9MHz 200 KHzステップ）</string>
+  <string name="regional_band_summary_vietnam">ベトナム（87.5MHz～108.0MHz 100 KHzステップ）</string>
   <string name="regional_band_summary_user_defined">ユーザー定義バンド</string>
   <string name="aud_output_mode">オーディオ出力モード</string>
   <string name="audio_type_stereo">ステレオ</string>

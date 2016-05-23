@@ -98,6 +98,7 @@
   <string name="regional_band_entry_turkey">Турция</string>
   <string name="regional_band_entry_united_kingdom">Великобритания</string>
   <string name="regional_band_entry_united_states">США</string>
+  <string name="regional_band_entry_vietnam">Вьетнам</string>
   <string name="regional_band_entry_user_defined">Пользовательская полоса частот</string>
   <string name="regional_band_summary_north_america">Северная Америка (87,5–108,0 МГц с шагом в 200 кГц)</string>
   <string name="regional_band_summary_europe">Европа (87,5–108,0 МГц с шагом в 100 кГц)</string>
@@ -136,6 +137,7 @@
   <string name="regional_band_summary_turkey">Турция (87,5–108,0 МГц с шагом в 100 кГц)</string>
   <string name="regional_band_summary_united_kingdom">Великобритания (87,5–108,0 МГц с шагом в 100 кГц)</string>
   <string name="regional_band_summary_united_states">США (88,1–107,9 МГц с шагом в 200 кГц)</string>
+  <string name="regional_band_summary_vietnam">Вьетнам (87,5–108,0 МГц с шагом в 100 кГц)</string>
   <string name="regional_band_summary_user_defined">Пользовательская полоса частот</string>
   <string name="aud_output_mode">Режим вывода звука</string>
   <string name="audio_type_stereo">Стерео</string>
