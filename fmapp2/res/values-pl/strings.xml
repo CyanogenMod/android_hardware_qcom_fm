@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turcja</string>
   <string name="regional_band_entry_united_kingdom">Wielka Brytania</string>
   <string name="regional_band_entry_united_states">Stany Zjednoczone</string>
+  <string name="regional_band_entry_vietnam">Wietnam</string>
   <string name="regional_band_entry_user_defined">Zespół zdefiniowany przez użytkownika</string>
   <string name="regional_band_summary_north_america">Ameryka Północna (87,5 MHz - 108.0 MHz co 200 KHz)</string>
   <string name="regional_band_summary_europe">Europa (87.5MHz - 108.0MHz co 100 KHz)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Turcja (87,5 MHz - 108.0 MHz co 100 KHz)</string>
   <string name="regional_band_summary_united_kingdom">Wielka Brytania (87,5 MHz - 108.0 MHz co 100 KHz)</string>
   <string name="regional_band_summary_united_states">Stany Zjednoczone (88.1 MHz - 107,9 MHz co 200 KHz)</string>
+  <string name="regional_band_summary_vietnam">Wietnam (87,5 MHz - 108,0 MHz co 100 KHz)</string>
   <string name="regional_band_summary_user_defined">Częstotliwość zdefiniowana przez użytkownika</string>
   <string name="aud_output_mode">Tryb wyjścia audio</string>
   <string name="audio_type_stereo">Stereo</string>
@@ -145,13 +147,19 @@
   <string name="settings_revert_defaults_summary">Zresetuj wszystkie ustawienia</string>
   <string name="settings_revert_confirm_title">Potwierdź reset</string>
   <string name="settings_revert_confirm_msg">Spowoduje to usunięcie wszystkich ustawień aplikacji, w tym zapisane ustawienia predefiniowane. Kontynuować?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Włóż kartę SD przed rozpoczęciem nagrywania.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Przygotowuję kartę SD…</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Brak dostępu do karty SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Brak miejsca na karcie SD. Zmniejsz jakość nagrywania, albo zwolnij miejsce przez usunięcie starych plików.</string>
   <string name="menu_scan_for_preset">Skanuj w poszukiwaniu ustawień</string>
+  <!-- Off messages -->
   <string name="fm_off">FM jest wyłączone.</string>
   <string name="fm_call">FM nie można używać podczas połączenia.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Wpisz nazwę</string>
   <string name="search_dialog_title">Skanuj stacje</string>
   <string name="fm_command_timeout_title">Limit czasu</string>
@@ -160,6 +168,7 @@
   <string name="fm_cmd_failed_msg">Uruchomienie radia FM nie powiodło się. Jeżeli problem będzie się powtarzał, wyłącz odbiornik i uruchom go ponownie.</string>
   <string name="fm_cmd_failed_msg_hdmi">Uruchomienie radia nie powiodło się. Współdziałanie odbiornika FM i HDMI nie jest wspierane.</string>
   <string name="fm_cmd_failed_call_on">Uruchomienie radia nie powiodło się. Uruchamianie radia jest zablokowane podczas rozmowy.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Stacja:</string>
   <string name="station_exists">Ta częstotliwość już istnieje!</string>
   <string name="station_list_delete_station">Usuń: <xliff:g id="name">%s</xliff:g></string>
@@ -173,56 +182,4 @@
   <string name="set">Ustaw</string>
   <string name="user_defind_band_msg">Wprowadź częstotliwość od 76.0 do 108.0 MHz z minimalnym odstępem jednego kanału</string>
   <string name="fm_search_no_results">Nie znaleziono kompatybilnych stacji</string>
-  <string name="typ_All_stations">Wszystkie stacje</string>
-  <string name="typ_Culture">Kultura</string>
-  <string name="typ_Current_affairs">Sprawy bieżące</string>
-  <string name="typ_Children">Programy dla dzieci</string>
-  <string name="typ_Country">Muzyka country</string>
-  <string name="typ_Documentary">Dokument</string>
-  <string name="typ_Drama">Dramat</string>
-  <string name="typ_Easy_listening">Łagodna muzyka</string>
-  <string name="typ_Education">Edukacja</string>
-  <string name="typ_Emergency">Awaryjny</string>
-  <string name="typ_Emergency_test">Test awaryjny</string>
-  <string name="typ_Finance">Finanse</string>
-  <string name="typ_Folk">Muzyka folk</string>
-  <string name="typ_Information">Informacje</string>
-  <string name="typ_Jazz">Jazz</string>
-  <string name="typ_Light_classical">Lekka klasyka</string>
-  <string name="typ_Leisure">Wypoczynek</string>
-  <string name="typ_News">Wiadomości</string>
-  <string name="typ_National">Muzyka narodowa</string>
-  <string name="typ_Other">Inna muzyka</string>
-  <string name="typ_Oldies">Starsza muzyka</string>
-  <string name="typ_Phone_in">Telefon podłączony</string>
-  <string name="typ_Pop">Muzyka pop</string>
-  <string name="typ_Religion">Religia</string>
-  <string name="typ_Rock">Muzyka rockowa</string>
-  <string name="typ_Science">Nauka</string>
-  <string name="typ_Serious_classical">Poważna muzyka klasyczna</string>
-  <string name="typ_Social_affairs">Sprawy społeczne</string>
-  <string name="typ_Sport">Sport</string>
-  <string name="typ_Travel">Podróź</string>
-  <string name="typ_Varied">Różne</string>
-  <string name="typ_Weather">Pogoda</string>
-  <string name="typ_Adult_hits">Starsze hity</string>
-  <string name="typ_Classical">Muzyka klasyczna</string>
-  <string name="typ_Classic_Rock">Klasyczny Rock</string>
-  <string name="typ_College">Muzyka studencka</string>
-  <string name="typ_Foreign_language">Język obcy</string>
-  <string name="typ_Hiphop">Hip Hop</string>
-  <string name="typ_Nostalgia">Nostalgia</string>
-  <string name="typ_Personality">Osobowość</string>
-  <string name="typ_Public">Publiczne</string>
-  <string name="typ_Religious_music">Muzyka religijna</string>
-  <string name="typ_Religious_talk">Religijna rozmowa</string>
-  <string name="typ_Rhythm_and_Blues">R\u0026B</string>
-  <string name="typ_Spanish_music">Muzyka hiszpańska</string>
-  <string name="typ_Spanish_talk">Mowa hiszpańska</string>
-  <string name="typ_Soft">Łagodna</string>
-  <string name="typ_Soft_Rock">Soft Rock</string>
-  <string name="typ_Soft_Rhythm_and_Blues">Łagodny R\u0026B</string>
-  <string name="typ_Sports">Sportowa</string>
-  <string name="typ_Talk">Rozmowa</string>
-  <string name="typ_Top_40">Top 40</string>
 </resources>

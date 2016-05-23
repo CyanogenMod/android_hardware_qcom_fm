@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turkki</string>
   <string name="regional_band_entry_united_kingdom">Iso-Britannia</string>
   <string name="regional_band_entry_united_states">Yhdysvallat</string>
+  <string name="regional_band_entry_vietnam">Vietnam</string>
   <string name="regional_band_entry_user_defined">Käyttäjän määrittämä taajuusalue</string>
   <string name="regional_band_summary_north_america">Pohjois-Amerikka (87.5MHz - 108.0MHz, 200KHz välein)</string>
   <string name="regional_band_summary_europe">Eurooppa (87.5MHz - 108.0MHz, 100KHz välein)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Turkki (87.5MHz - 108.0MHz, 100KHz välein)</string>
   <string name="regional_band_summary_united_kingdom">Iso-Britannia (87.5MHz - 108.0MHz, 100KHz välein)</string>
   <string name="regional_band_summary_united_states">Yhdysvallat (88.1MHz - 107.9MHz, 200KHz välein)</string>
+  <string name="regional_band_summary_vietnam">Vietnam (87.5MHz - 108.0MHz, 100KHz välein)</string>
   <string name="regional_band_summary_user_defined">Käyttäjän määrittämä taajuusalue</string>
   <string name="aud_output_mode">Äänen ulostulo</string>
   <string name="audio_type_stereo">Stereo</string>
@@ -145,13 +147,19 @@
   <string name="settings_revert_defaults_summary">Palauta kaikki asetukset</string>
   <string name="settings_revert_confirm_title">Vahvista palautus</string>
   <string name="settings_revert_confirm_msg">Tämä tyhjentää kaikki sovelluksen asetukset, mukaan lukien tallennetut esiasetukset. Haluatko jatkaa?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Liitä SD-kortti ennen tallennuksen aloittamista.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Valmistellaan SD-korttia\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">SD-korttia ei voi käyttää.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Tallennustila on loppumassa SD-kortilta. Vaihda laatu-asetus tai poista tiedostoja vapauttaaksesi tilaa.</string>
   <string name="menu_scan_for_preset">Skannaa kanavia</string>
+  <!-- Off messages -->
   <string name="fm_off">FM on poistettu käytöstä.</string>
   <string name="fm_call">FM:ää ei voi käyttää puhelun aikana.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Anna nimi</string>
   <string name="search_dialog_title">Skannaa asemat</string>
   <string name="fm_command_timeout_title">Aikakatkaisu</string>
@@ -160,6 +168,7 @@
   <string name="fm_cmd_failed_msg">FM-toiminto epäonnistui. Jos ongelma jatkuu, poista FM käytöstä ja laita takaisin päälle.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-toiminto epäonnistui. FM ja HDMI ei voi olla samanaikaisesti päällä.</string>
   <string name="fm_cmd_failed_call_on">FM-toiminto epäonnistui. FM-ääni ei sallittu puhelun aikana.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Asema:</string>
   <string name="station_exists">Taajuus on jo käytössä!</string>
   <string name="station_list_delete_station">Poista :<xliff:g id="name">%s</xliff:g></string>
@@ -173,56 +182,4 @@
   <string name="set">Aseta</string>
   <string name="user_defind_band_msg">Anna taajuus 76.0 - 108.0 MHz vähintään yhdellä kanavavälillä</string>
   <string name="fm_search_no_results">Yhteensopivia asemia ei löytynyt</string>
-  <string name="typ_All_stations">Kaikki asemat</string>
-  <string name="typ_Culture">Kulttuuri</string>
-  <string name="typ_Current_affairs">Ajankohtainen</string>
-  <string name="typ_Children">Lastenohjelmat</string>
-  <string name="typ_Country">Kantri</string>
-  <string name="typ_Documentary">Dokumentti</string>
-  <string name="typ_Drama">Draama</string>
-  <string name="typ_Easy_listening">Kevyt musiikki</string>
-  <string name="typ_Education">Opetus</string>
-  <string name="typ_Emergency">Hätätila</string>
-  <string name="typ_Emergency_test">Hätätesti</string>
-  <string name="typ_Finance">Talous</string>
-  <string name="typ_Folk">Folk-musiikki</string>
-  <string name="typ_Information">Informaatio</string>
-  <string name="typ_Jazz">Jazz-musiikki</string>
-  <string name="typ_Light_classical">Kevyt klassinen</string>
-  <string name="typ_Leisure">Vapaa-aika</string>
-  <string name="typ_News">Uutiset</string>
-  <string name="typ_National">Kansallismusiikki</string>
-  <string name="typ_Other">Muu musiikki</string>
-  <string name="typ_Oldies">Ikivihreät</string>
-  <string name="typ_Phone_in">Puhelin</string>
-  <string name="typ_Pop">Pop-musiikki</string>
-  <string name="typ_Religion">Uskonto</string>
-  <string name="typ_Rock">Rock-musiikki</string>
-  <string name="typ_Science">Tiede</string>
-  <string name="typ_Serious_classical">Oikea klassinen</string>
-  <string name="typ_Social_affairs">Sosiaalisuus</string>
-  <string name="typ_Sport">Urheilu</string>
-  <string name="typ_Travel">Matkailu</string>
-  <string name="typ_Varied">Monipuolinen</string>
-  <string name="typ_Weather">Sää</string>
-  <string name="typ_Adult_hits">Vanhemmat hitit</string>
-  <string name="typ_Classical">Klassinen</string>
-  <string name="typ_Classic_Rock">Klassinen Rock</string>
-  <string name="typ_College">College</string>
-  <string name="typ_Foreign_language">Vieras kieli</string>
-  <string name="typ_Hiphop">Hip Hop</string>
-  <string name="typ_Nostalgia">Nostalgia</string>
-  <string name="typ_Personality">Persoonallinen</string>
-  <string name="typ_Public">Julkinen</string>
-  <string name="typ_Religious_music">Uskonnollinen musiikki</string>
-  <string name="typ_Religious_talk">Uskonnollinen puhe</string>
-  <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
-  <string name="typ_Spanish_music">Espanjalainen musiikki</string>
-  <string name="typ_Spanish_talk">Espanjalainen puhe</string>
-  <string name="typ_Soft">Pehmeä</string>
-  <string name="typ_Soft_Rock">Pehmeä rock</string>
-  <string name="typ_Soft_Rhythm_and_Blues">Pehmeä Rhythm and Blues</string>
-  <string name="typ_Sports">Urheilu</string>
-  <string name="typ_Talk">Puhe</string>
-  <string name="typ_Top_40">Top 40</string>
 </resources>

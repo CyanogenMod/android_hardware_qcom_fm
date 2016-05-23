@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Tyrkia</string>
   <string name="regional_band_entry_united_kingdom">Storbritannia</string>
   <string name="regional_band_entry_united_states">USA</string>
+  <string name="regional_band_entry_vietnam">Vietnam</string>
   <string name="regional_band_entry_user_defined">Brukerdefinerte bånd</string>
   <string name="regional_band_summary_north_america">Nord-Amerika (87,5 MHz til 108.0 MHz i 200 KHz trinn)</string>
   <string name="regional_band_summary_europe">Europa (87,5 MHz til 108.0 MHz i 100 KHz trinn)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Tyrkia (87,5 MHz til 108.0 MHz i 100 KHz trinn)</string>
   <string name="regional_band_summary_united_kingdom">Storbritannia (87,5 MHz til 108.0 MHz i 100 KHz trinn)</string>
   <string name="regional_band_summary_united_states">USA (88.1 MHz til 107,9 MHz i 200 KHz trinn)</string>
+  <string name="regional_band_summary_vietnam">Vietnam (87.5MHz til 108.0MHz i 100 KHz trinn)</string>
   <string name="regional_band_summary_user_defined">Brukerdefinerte bånd</string>
   <string name="aud_output_mode">Lydutgangsmodus</string>
   <string name="audio_type_stereo">Stereo</string>
@@ -145,13 +147,19 @@
   <string name="settings_revert_defaults_summary">Tilbakestill alle innstillinger</string>
   <string name="settings_revert_confirm_title">Bekreft tilbakestilling</string>
   <string name="settings_revert_confirm_msg">Dette fjerner alle programinnstillinger, inkludert lagrede forhåndsinnstillinger. Vil du fortsette?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Monter SDkortet før du starter opptak.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Forbereder SD-kort …</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Får ikke tilgang til SD-kort.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SDkortet er i ferd med å bli fullt. Endre kvaliteten eller slett noen filer som opptar plass.</string>
   <string name="menu_scan_for_preset">Skanning for forhåndsinnstillinger</string>
+  <!-- Off messages -->
   <string name="fm_off">FM er deaktivert.</string>
   <string name="fm_call">FM kan ikke brukes under samtaler.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Angi et navn</string>
   <string name="search_dialog_title">Skanne stasjoner</string>
   <string name="fm_command_timeout_title">Tidsavbrudd</string>
@@ -160,6 +168,7 @@
   <string name="fm_cmd_failed_msg">FM-operasjonen mislyktes. Hvis problemet vedvarer, kan du slå av FM og slå den på igjen.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM-operasjonen mislyktes. FM og HDMI samtidighet støttes ikke.</string>
   <string name="fm_cmd_failed_call_on">FM-operasjonen mislyktes. FM lyd er ikke tillatt under samtale.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Stasjon:</string>
   <string name="station_exists">Denne frekvensen finnes allerede!</string>
   <string name="station_list_delete_station">Slett: <xliff:g id="name">%s</xliff:g></string>
@@ -173,56 +182,4 @@
   <string name="set">Sett</string>
   <string name="user_defind_band_msg">Angi frekvens fra 76.0 til 108.0 MHz med minst 1 kanal avstand</string>
   <string name="fm_search_no_results">Finner ingen kompatible stasjoner</string>
-  <string name="typ_All_stations">Alle stasjoner</string>
-  <string name="typ_Culture">Kultur</string>
-  <string name="typ_Current_affairs">Aktuelle saker</string>
-  <string name="typ_Children">Barneprogrammer</string>
-  <string name="typ_Country">Countrymusikk</string>
-  <string name="typ_Documentary">Dokumentar</string>
-  <string name="typ_Drama">Drama</string>
-  <string name="typ_Easy_listening">Lett musikk</string>
-  <string name="typ_Education">Utdanning</string>
-  <string name="typ_Emergency">Nødsituasjon</string>
-  <string name="typ_Emergency_test">Nødtest</string>
-  <string name="typ_Finance">Økonomi</string>
-  <string name="typ_Folk">Folkemusikk</string>
-  <string name="typ_Information">Informasjon</string>
-  <string name="typ_Jazz">Jazzmusikk</string>
-  <string name="typ_Light_classical">Lett klassisk</string>
-  <string name="typ_Leisure">Fritid</string>
-  <string name="typ_News">Nyheter</string>
-  <string name="typ_National">Nasjonal musikk</string>
-  <string name="typ_Other">Annen musikk</string>
-  <string name="typ_Oldies">Slagermusikk</string>
-  <string name="typ_Phone_in">Telefon inn</string>
-  <string name="typ_Pop">Popmusikk</string>
-  <string name="typ_Religion">Religion</string>
-  <string name="typ_Rock">Rockemusikk</string>
-  <string name="typ_Science">Vitenskap</string>
-  <string name="typ_Serious_classical">Alvorlig klassisk</string>
-  <string name="typ_Social_affairs">Sosiale spørsmål</string>
-  <string name="typ_Sport">Sport</string>
-  <string name="typ_Travel">Reise</string>
-  <string name="typ_Varied">Variert</string>
-  <string name="typ_Weather">Vær</string>
-  <string name="typ_Adult_hits">Voksen treff</string>
-  <string name="typ_Classical">Klassisk</string>
-  <string name="typ_Classic_Rock">Classic Rock</string>
-  <string name="typ_College">College</string>
-  <string name="typ_Foreign_language">Fremmedspråk</string>
-  <string name="typ_Hiphop">Hip Hop</string>
-  <string name="typ_Nostalgia">Nostalgi</string>
-  <string name="typ_Personality">Personlighet</string>
-  <string name="typ_Public">Offentlig</string>
-  <string name="typ_Religious_music">Religiøs musikk</string>
-  <string name="typ_Religious_talk">Religiøs snakk</string>
-  <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
-  <string name="typ_Spanish_music">Spansk musikk</string>
-  <string name="typ_Spanish_talk">Spansk tale</string>
-  <string name="typ_Soft">Soft</string>
-  <string name="typ_Soft_Rock">Soft Rock</string>
-  <string name="typ_Soft_Rhythm_and_Blues">Soft Rhythm and Blues</string>
-  <string name="typ_Sports">Sport</string>
-  <string name="typ_Talk">Snakk</string>
-  <string name="typ_Top_40">Topp 40</string>
 </resources>

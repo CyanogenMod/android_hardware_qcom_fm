@@ -32,9 +32,10 @@
   <string name="app_name">Radio FM</string>
   <string name="tx_app_name">Pemancar FM</string>
   <string name="menu_scan_start">Pindai</string>
-  <string name="menu_scan_stop">Hentikan pencarian</string>
+  <string name="menu_scan_stop">Hentikan penelusuran</string>
   <string name="menu_record_start">Rekam</string>
   <string name="menu_record_stop">Hentikan perekaman</string>
+  <string name="menu_settings">Pengaturan</string>
   <string name="menu_sleep">Tidur</string>
   <string name="menu_sleep_cancel">Batalkan tidur</string>
   <string name="menu_all_channels">Semua saluran</string>
@@ -42,11 +43,11 @@
   <string name="button_text_stop">Hentikan</string>
   <string name="msg_seeking">Mencari stasiun FM\u2026</string>
   <string name="msg_scanning">Memindai semua stasiun FM\u2026</string>
-  <string name="msg_scanning_pty">Memindai untuk \'<xliff:g id="pty_name">%1$s\'\u2026</xliff:g></string>
+  <string name="msg_scanning_pty">Memindai \'<xliff:g id="pty_name">%1$s</xliff:g>\'\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
   <string name="msg_searching_title">Otomatis-memilih preset</string>
   <string name="msg_searching">Mencari stasiun yang kuat untuk membuat daftar preset\u2026</string>
-  <string name="msg_noantenna">Silahkan colokkan headset untuk menggunakan radio FM</string>
+  <string name="msg_noantenna">Silakan colokkan set kepala untuk menggunakan radio FM</string>
   <string name="dialog_sleep_title">Waktu tidur mati-otomatis</string>
   <string name="presetlist_select_name">Pilih \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_add_new">Tambah daftar baru</string>
@@ -54,8 +55,9 @@
   <string name="presetlist_autoselect_title">Konfirmasi seleksi-otomatis</string>
   <string name="preset_replace">Ganti</string>
   <string name="preset_tune">Tala</string>
+  <string name="preset_rename">Ubah Nama</string>
   <string name="preset_delete">Hapus</string>
-  <string name="preset_search">Mencari \'<xliff:g id="preset_name">%1$s</xliff:g>\'</string>
+  <string name="preset_search">Mencari \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="regional_band">Pita regional</string>
   <string name="regional_band_entry_north_america">Amerika Utara</string>
@@ -136,18 +138,26 @@
   <string name="regional_band_summary_user_defined">Pita disesuikan pengguna</string>
   <string name="aud_output_mode">Modus output audio</string>
   <string name="audio_type_stereo">Stereo</string>
-  <string name="audio_type_mono">Mono</string>
+  <string name="audio_type_mono">Tunggal</string>
   <string name="record_dur">Durasi rekaman</string>
   <string name="auto_select_af">Frekuensi alternatif</string>
   <string name="settings_revert_defaults_title">Kembalikan ke pengaturan pabrik</string>
   <string name="settings_revert_defaults_summary">Kembalikan semua pengaturan</string>
-  <string name="settings_revert_confirm_title">Konfirmasi atur ulang</string>
-  <string name="settings_revert_confirm_msg">Ini akan menghapus semua pengaturan aplikasi, termasuk preset yang disimpan. Lanjutkan?</string>
+  <string name="settings_revert_confirm_title">Konfirmasi pratayang</string>
+  <string name="settings_revert_confirm_msg">Ini akan menghapus semua pengaturan aplikasi, termasuk pratayang yang disimpan. Lanjutkan?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Pasang kartu SD sebelum memulai rekaman.</string>
-  <string name="spaceIsLow_content">Kartu SD anda kehabisan ruang penyimpanan. Ubah pengaturan kualitas atau hapus beberapa file lain untuk membebaskan ruang penyimpanan.</string>
-  <string name="menu_scan_for_preset">Pindai preset</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <string name="preparing_sd">Mempersiapkan kartu SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <string name="access_sd_fail">Tidak dapat mengakses kartu SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+  <string name="spaceIsLow_content">Kartu SD Anda kehabisan ruang penyimpanan. Ubah pengaturan kualitas atau hapus beberapa berkas lain untuk membebaskan ruang penyimpanan.</string>
+  <string name="menu_scan_for_preset">Pindai pratayang</string>
+  <!-- Off messages -->
   <string name="fm_off">FM dimatikan.</string>
   <string name="fm_call">FM tidak dapat digunakan sewaktu melakukan panggilan.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Masukkan nama</string>
   <string name="search_dialog_title">Pindai stasiun</string>
   <string name="fm_command_timeout_title">Batas waktu</string>
@@ -156,17 +166,18 @@
   <string name="fm_cmd_failed_msg">Pengoperasian FM gagal. Jika masalah berlanjut, harap matikan FM dan menghidupkannya kembali.</string>
   <string name="fm_cmd_failed_msg_hdmi">Pengoperasian FM gagal. Pengoperasian FM dan HDMI secara bersamaan tidak didukung.</string>
   <string name="fm_cmd_failed_call_on">Pengoperasian FM gagal. Audio FM tidak diizinkan selama panggilan.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Stasiun:</string>
-  <string name="station_exists">Frekuensi ini sudah ada!</string>
+  <string name="station_exists">Frekuensi ini telah ada!</string>
   <string name="station_list_delete_station">Hapus: <xliff:g id="name">%s</xliff:g></string>
-  <string name="station_list_delete_station_prompt">Apakah anda yakin akan menghapus \'<xliff:g id="name">%s</xliff:g>\'?</string>
+  <string name="station_list_delete_station_prompt">Apakah Anda yakin akan menghapus \'<xliff:g id="name">%s</xliff:g>\'?</string>
   <string name="station_name_empty">Nama stasiun kosong, silakan masukkan kembali.</string>
   <string name="station_name_exist">\' <xliff:g id="name">%s\'</xliff:g> sudah digunakan, masukkan nama yang berbeda.</string>
-  <string name="rt_plus_tags">Tag</string>
+  <string name="rt_plus_tags">Tanda</string>
   <string name="usr_def_band_min">Frekuensi terendah (MHz)</string>
   <string name="usr_def_band_max">Frekuensi tertinggi (MHz)</string>
   <string name="chanl_spacing">Lebar saluran</string>
   <string name="set">Atur</string>
   <string name="user_defind_band_msg">Masukkan frekuensi dari 76.0 sampai 108.0 MHz dengan minimal 1 jarak saluran</string>
-  <string name="fm_search_no_results">Tidak ada stasiun kompatibel yang ditemukan</string>
+  <string name="fm_search_no_results">Tiada stasiun kompatibel yang ditemukan</string>
 </resources>

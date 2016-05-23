@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turčija</string>
   <string name="regional_band_entry_united_kingdom">Združeno kraljestvo</string>
   <string name="regional_band_entry_united_states">Združene države</string>
+  <string name="regional_band_entry_vietnam">Vietnam</string>
   <string name="regional_band_entry_user_defined">Uporabniško določen pas</string>
   <string name="regional_band_summary_north_america">Severna Amerika (od 87,5 MHz do 108,0 MHz v 200 kHz korakih)</string>
   <string name="regional_band_summary_europe">Evropa (od 87,5 MHz do 108,0 MHz v 100 kHz korakih)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Turčija (od 87,5 MHz do 108,0 MHz v 100 kHz korakih)</string>
   <string name="regional_band_summary_united_kingdom">Združeno kraljestvo (od 87,5 MHz do 108,0 MHz v 100 kHz korakih)</string>
   <string name="regional_band_summary_united_states">Združene države (od 88,1 MHz do 107,9 MHz v 200 kHz korakih)</string>
+  <string name="regional_band_summary_vietnam">Vietnam (od 87,5 MHz do 108,0 MHz v 100 kHz korakih)</string>
   <string name="regional_band_summary_user_defined">Uporabniško določen pas</string>
   <string name="aud_output_mode">Način zvočnega izhoda</string>
   <string name="audio_type_stereo">Stereo</string>
@@ -145,13 +147,19 @@
   <string name="settings_revert_defaults_summary">Ponastavi vse nastavitve</string>
   <string name="settings_revert_confirm_title">Potrdi ponastavitev</string>
   <string name="settings_revert_confirm_msg">To bo izbrisalo vse nastavitve aplikacije, vključno s shranjenimi prednastavitvami. Nadaljuj?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Pred začetkom snemanja priklopite kartico SD.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Pripravljanje kartice SD \u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Dostop do kartice SD ni mogoč.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Na kartici SD primanjkuje prostora. Spremenite nastavitev kakovosti ali izbrišite nekaj drugih datotek, da sprostite nekaj prostora.</string>
   <string name="menu_scan_for_preset">Preišči prednastavitve</string>
+  <!-- Off messages -->
   <string name="fm_off">FM je izklopljen.</string>
   <string name="fm_call">FM-a ne morete uporabljati med klicanjem.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Vnesite ime</string>
   <string name="search_dialog_title">Preišči postaje</string>
   <string name="fm_command_timeout_title">Časovna omejitev</string>
@@ -160,6 +168,7 @@
   <string name="fm_cmd_failed_msg">Opravilo FM je spodletelo. Če se težava še naprej pojavlja, izklopite FM in ga ponovno vklopite.</string>
   <string name="fm_cmd_failed_msg_hdmi">Opravilo FM je spodletelo. Sočasnost FM in HDMI ni podprta.</string>
   <string name="fm_cmd_failed_call_on">Opravilo FM je spodletelo. Zvok FM med klicem ni dovoljen.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Postaja:</string>
   <string name="station_exists">Ta frekvenca že obstaja!</string>
   <string name="station_list_delete_station">Izbriši: <xliff:g id="name">%s</xliff:g></string>
@@ -173,56 +182,4 @@
   <string name="set">Nastavi</string>
   <string name="user_defind_band_msg">Vnesite frekvenco od 76,0 do 108,0 MHz z najmanj 1-im kanalom presledka</string>
   <string name="fm_search_no_results">Ni bilo najdenih združljivih postaj</string>
-  <string name="typ_All_stations">Vse postaje</string>
-  <string name="typ_Culture">Kultura</string>
-  <string name="typ_Current_affairs">Tekoče zadeve</string>
-  <string name="typ_Children">Programi za otroke</string>
-  <string name="typ_Country">Narodno zabavna glasba</string>
-  <string name="typ_Documentary">Dokumentarec</string>
-  <string name="typ_Drama">Drama</string>
-  <string name="typ_Easy_listening">Lahka glasba</string>
-  <string name="typ_Education">Izobraževanje</string>
-  <string name="typ_Emergency">V sili</string>
-  <string name="typ_Emergency_test">Preskus v sili</string>
-  <string name="typ_Finance">Finance</string>
-  <string name="typ_Folk">Ljudska glasba</string>
-  <string name="typ_Information">Podatki</string>
-  <string name="typ_Jazz">Jazz glasba</string>
-  <string name="typ_Light_classical">Lahka klasična</string>
-  <string name="typ_Leisure">Prosti čas</string>
-  <string name="typ_News">Novice</string>
-  <string name="typ_National">Narodna glasba</string>
-  <string name="typ_Other">Druga glasba</string>
-  <string name="typ_Oldies">Starodobna glasba</string>
-  <string name="typ_Phone_in">Klici</string>
-  <string name="typ_Pop">Pop glasba</string>
-  <string name="typ_Religion">Vera</string>
-  <string name="typ_Rock">Rock glasba</string>
-  <string name="typ_Science">Znanost</string>
-  <string name="typ_Serious_classical">Resna klasična</string>
-  <string name="typ_Social_affairs">Družbene zadeve</string>
-  <string name="typ_Sport">Šport</string>
-  <string name="typ_Travel">Potovanja</string>
-  <string name="typ_Varied">Raznolika</string>
-  <string name="typ_Weather">Vreme</string>
-  <string name="typ_Adult_hits">Uspešnice za odrasle</string>
-  <string name="typ_Classical">Klasična</string>
-  <string name="typ_Classic_Rock">Klasični rock</string>
-  <string name="typ_College">Študentska</string>
-  <string name="typ_Foreign_language">Tuj jezik</string>
-  <string name="typ_Hiphop">Hip Hop</string>
-  <string name="typ_Nostalgia">Nostalgija</string>
-  <string name="typ_Personality">Osebnost</string>
-  <string name="typ_Public">Javna</string>
-  <string name="typ_Religious_music">Verska glasba</string>
-  <string name="typ_Religious_talk">Verski pogovor</string>
-  <string name="typ_Rhythm_and_Blues">Ritem in Blues</string>
-  <string name="typ_Spanish_music">Španska glasba</string>
-  <string name="typ_Spanish_talk">Španski pogovori</string>
-  <string name="typ_Soft">Mehka glasba</string>
-  <string name="typ_Soft_Rock">Mehki Rock</string>
-  <string name="typ_Soft_Rhythm_and_Blues">Mehki ritem in blues</string>
-  <string name="typ_Sports">Šport</string>
-  <string name="typ_Talk">Pogovor</string>
-  <string name="typ_Top_40">Najboljših 40</string>
 </resources>

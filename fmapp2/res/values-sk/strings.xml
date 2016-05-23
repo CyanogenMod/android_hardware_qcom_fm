@@ -145,13 +145,19 @@
   <string name="settings_revert_defaults_summary">Obnoviť všetky nastavenia</string>
   <string name="settings_revert_confirm_title">Potvrdiť obnovenie</string>
   <string name="settings_revert_confirm_msg">Toto vymaže všetky nastavenia aplikácie, vrátane uložených predvolieb. Pokračovať?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Pripojte kartu SD pred spustením nahrávania.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Príprava karty SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Nepodarilo sa získať prístup ku karte SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Na Vašej karte SD nie je dostatok voľného miesta. Zmeňte nastavenie kvality alebo zmažte niektoré obrázky alebo iné súbory.</string>
   <string name="menu_scan_for_preset">Skenovať predvoľby</string>
+  <!-- Off messages -->
   <string name="fm_off">FM rádio je vypnuté.</string>
   <string name="fm_call">FM rádio nie je možné používať počas volania.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Zadajte názov</string>
   <string name="search_dialog_title">Skenovať stanice</string>
   <string name="fm_command_timeout_title">Časový limit</string>
@@ -160,6 +166,7 @@
   <string name="fm_cmd_failed_msg">FM operácia zlyhala. Ak problém pretrváva, vypnite FM rádio a opätovne ho zapnite.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operácia zlyhala. Používanie FM rádia a HDMI nie je podporované.</string>
   <string name="fm_cmd_failed_call_on">FM operácia zlyhala. Zvuk z FM rádia počas prebiehajúceho hovoru nie je povolený.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Stanica:</string>
   <string name="station_exists">Táto frekvencia už existuje!</string>
   <string name="station_list_delete_station">Odstrániť: <xliff:g id="name">%s</xliff:g></string>
@@ -173,56 +180,4 @@
   <string name="set">Nastaviť</string>
   <string name="user_defind_band_msg">Zadajte frekvenciu od 76.0 do 108.0 MHz s minimálnym odstupom 1 kanálu</string>
   <string name="fm_search_no_results">Nenašli sa žiadne kompatibilné stanice</string>
-  <string name="typ_All_stations">Všetky stanice</string>
-  <string name="typ_Culture">Kultúra</string>
-  <string name="typ_Current_affairs">Publicistika</string>
-  <string name="typ_Children">Detské programy</string>
-  <string name="typ_Country">Country</string>
-  <string name="typ_Documentary">Dokumentárne</string>
-  <string name="typ_Drama">Dráma</string>
-  <string name="typ_Easy_listening">Jemné melódie</string>
-  <string name="typ_Education">Vzdelávacie</string>
-  <string name="typ_Emergency">Núdzové</string>
-  <string name="typ_Emergency_test">Núdzový test</string>
-  <string name="typ_Finance">Financie</string>
-  <string name="typ_Folk">Ľudová hudba</string>
-  <string name="typ_Information">Informácie</string>
-  <string name="typ_Jazz">Jazzová hudba</string>
-  <string name="typ_Light_classical">Jemná klasika</string>
-  <string name="typ_Leisure">Voľný čas</string>
-  <string name="typ_News">Správy</string>
-  <string name="typ_National">Národná hudba</string>
-  <string name="typ_Other">Ostatné žánre</string>
-  <string name="typ_Oldies">Staré</string>
-  <string name="typ_Phone_in">Telefonické</string>
-  <string name="typ_Pop">Populárna hudba</string>
-  <string name="typ_Religion">Náboženské</string>
-  <string name="typ_Rock">Rocková hudba</string>
-  <string name="typ_Science">Veda</string>
-  <string name="typ_Serious_classical">Vážna hudba</string>
-  <string name="typ_Social_affairs">Sociálne veci</string>
-  <string name="typ_Sport">Šport</string>
-  <string name="typ_Travel">Cestovanie</string>
-  <string name="typ_Varied">Rôzne</string>
-  <string name="typ_Weather">Počasie</string>
-  <string name="typ_Adult_hits">Hity pre dospelých</string>
-  <string name="typ_Classical">Klasická hudba</string>
-  <string name="typ_Classic_Rock">Klasický Rock</string>
-  <string name="typ_College">Univerzitné</string>
-  <string name="typ_Foreign_language">Cudzí jazyk</string>
-  <string name="typ_Hiphop">Hip Hop</string>
-  <string name="typ_Nostalgia">Nostalgia</string>
-  <string name="typ_Personality">Osobnosti</string>
-  <string name="typ_Public">Verejné</string>
-  <string name="typ_Religious_music">Náboženská hudba</string>
-  <string name="typ_Religious_talk">Náboženské diskusie</string>
-  <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
-  <string name="typ_Spanish_music">Španielska hudba</string>
-  <string name="typ_Spanish_talk">Španielske rozhovory</string>
-  <string name="typ_Soft">Soft</string>
-  <string name="typ_Soft_Rock">Soft Rock</string>
-  <string name="typ_Soft_Rhythm_and_Blues">Soft Rhythm a Blues</string>
-  <string name="typ_Sports">Športy</string>
-  <string name="typ_Talk">Diskusie</string>
-  <string name="typ_Top_40">Top 40</string>
 </resources>

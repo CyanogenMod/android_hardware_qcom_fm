@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turkia</string>
   <string name="regional_band_entry_united_kingdom">Erresuma Batua</string>
   <string name="regional_band_entry_united_states">Estatu Batuak</string>
+  <string name="regional_band_entry_vietnam">Vietnam</string>
   <string name="regional_band_entry_user_defined">Pertsonalizatua</string>
   <string name="regional_band_summary_north_america">Ipar Amerika (87,5MHz-tik 108,0MHz-ra 200KHz-tako urratsetan)</string>
   <string name="regional_band_summary_europe">Europa (87,5MHz-tik 108,0MHz-ra 100KHz-tako urratsetan)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Turkia (87,5MHz-tik 108,0MHz-ra 100KHz-tako urratsetan)</string>
   <string name="regional_band_summary_united_kingdom">Erresuma Batua (87,5MHz-tik 108,0MHz-ra 100KHz-tako urratsetan)</string>
   <string name="regional_band_summary_united_states">Estatu Batuak (88,1MHz-tik 107,9MHz-ra 200KHz-tako urratsetan)</string>
+  <string name="regional_band_summary_vietnam">Vietnam (87.5MHz-tik 108.0MHz-ra 100 KHz-tako urratsetan)</string>
   <string name="regional_band_summary_user_defined">Banda pertsonalizatua</string>
   <string name="aud_output_mode">Audio irteera modua</string>
   <string name="audio_type_stereo">Estereoa</string>
@@ -145,13 +147,19 @@
   <string name="settings_revert_defaults_summary">Leheneratu ezarpen guztiak</string>
   <string name="settings_revert_confirm_title">Berretsi leheneratzea</string>
   <string name="settings_revert_confirm_msg">Honek aplikazioaren ezarpen guztiak garbituko ditu, gordetako irratiak barne. Jarraitu?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Muntatu SD txartela grabazioa hasi baino lehen.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SD txartela prestatzen\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Ezin izan da SD txartela atzitu.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD biltegiratze txartela lekurik gabe gelditzen ari da. Aldatu kalitate ezarpenak edo ezabatu fitxategiren bat lekua egiteko.</string>
   <string name="menu_scan_for_preset">Bilatu irratiak</string>
+  <!-- Off messages -->
   <string name="fm_off">FM itzalita dago.</string>
   <string name="fm_call">Ezin da FM erabili dei baten bitartean.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Sartu izen bat</string>
   <string name="search_dialog_title">Bilatu irratiak</string>
   <string name="fm_command_timeout_title">Denbora-muga</string>
@@ -160,6 +168,7 @@
   <string name="fm_cmd_failed_msg">FM eragiketak huts egin du. Arazoak jarraitzen badu, irratia itzali eta berriro piztu.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM eragiketak huts egin du. Ezin dira FM eta HDMI batera erabili.</string>
   <string name="fm_cmd_failed_call_on">FM eragiketak huts egin du. FM audioa ez da onartzen dei batean zehar.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Irratia:</string>
   <string name="station_exists">Frekuentzia hau badago aurretik!</string>
   <string name="station_list_delete_station">Ezabatu: <xliff:g id="name">%s</xliff:g></string>
@@ -173,56 +182,4 @@
   <string name="set">Ezarri</string>
   <string name="user_defind_band_msg">Sartu 76.0 108.0 MHz bitarteko frekuentzia bat, gutxienez kanal bateko espazioarekin</string>
   <string name="fm_search_no_results">Ez da bateragarria den irratirik aurkitu</string>
-  <string name="typ_All_stations">Irrati guztiak</string>
-  <string name="typ_Culture">Kultura</string>
-  <string name="typ_Current_affairs">Gaur egungo gertaerak</string>
-  <string name="typ_Children">Umeentzako programak</string>
-  <string name="typ_Country">Country musika</string>
-  <string name="typ_Documentary">Dokumentala</string>
-  <string name="typ_Drama">Drama</string>
-  <string name="typ_Easy_listening">Erraz entzuteko musika</string>
-  <string name="typ_Education">Hezkuntza</string>
-  <string name="typ_Emergency">Larrialdia</string>
-  <string name="typ_Emergency_test">Larrialdi froga</string>
-  <string name="typ_Finance">Finantzak</string>
-  <string name="typ_Folk">Folk musika</string>
-  <string name="typ_Information">Informazioa</string>
-  <string name="typ_Jazz">Jazz musika</string>
-  <string name="typ_Light_classical">Klasiko arina</string>
-  <string name="typ_Leisure">Aisia</string>
-  <string name="typ_News">Berriak</string>
-  <string name="typ_National">Musika nazionala</string>
-  <string name="typ_Other">Beste musikak</string>
-  <string name="typ_Oldies">Musika zaharra</string>
-  <string name="typ_Phone_in">Telefonotik</string>
-  <string name="typ_Pop">Pop musika</string>
-  <string name="typ_Religion">Erlijioa</string>
-  <string name="typ_Rock">Rock musika</string>
-  <string name="typ_Science">Zientzia</string>
-  <string name="typ_Serious_classical">Klasiko zorrotza</string>
-  <string name="typ_Social_affairs">Gai sozialak</string>
-  <string name="typ_Sport">Kirolak</string>
-  <string name="typ_Travel">Bidaiak</string>
-  <string name="typ_Varied">Askotarikoak</string>
-  <string name="typ_Weather">Eguraldia</string>
-  <string name="typ_Adult_hits">Betiko arrakastak</string>
-  <string name="typ_Classical">Klasikoa</string>
-  <string name="typ_Classic_Rock">Rock klasikoa</string>
-  <string name="typ_College">Unibertsitarioa</string>
-  <string name="typ_Foreign_language">Atzerriko hizkuntza</string>
-  <string name="typ_Hiphop">Hip Hop</string>
-  <string name="typ_Nostalgia">Nostalgia</string>
-  <string name="typ_Personality">Pertsona famatuak</string>
-  <string name="typ_Public">Publikoa</string>
-  <string name="typ_Religious_music">Erlijio musika</string>
-  <string name="typ_Religious_talk">Erlijio hitzaldiak</string>
-  <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
-  <string name="typ_Spanish_music">Espainiar musika</string>
-  <string name="typ_Spanish_talk">Espainiar hitzaldia</string>
-  <string name="typ_Soft">Leuna</string>
-  <string name="typ_Soft_Rock">Rock leuna</string>
-  <string name="typ_Soft_Rhythm_and_Blues">Rhythm and Blues leuna</string>
-  <string name="typ_Sports">Kirolak</string>
-  <string name="typ_Talk">Solasaldiak</string>
-  <string name="typ_Top_40">Top 40</string>
 </resources>

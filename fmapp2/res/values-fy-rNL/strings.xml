@@ -68,4 +68,11 @@
   <string name="regional_band_entry_united_kingdom">Feriene Keninkryk</string>
   <string name="regional_band_entry_united_states">Feriene Steaten</string>
   <string name="regional_band_entry_user_defined">User defined band</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+  <!-- Off messages -->
+  <!-- The messsage shown when long pressed on a station. -->
+  <!-- Do not translate. Duration format. -->
 </resources>

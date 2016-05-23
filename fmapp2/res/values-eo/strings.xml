@@ -138,11 +138,17 @@
   <string name="settings_revert_defaults_summary">Restarigi ĉiujn agordojn</string>
   <string name="settings_revert_confirm_title">Konfirmi restarigon</string>
   <string name="settings_revert_confirm_msg">Tio forigos ĉiujn agordojn, inkluzive la konservitajn antaŭagordojn. Ĉu vi deziras daŭrigi?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Preparado de la SD-karto</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Via SD-karto preskaŭ ne plu havas disponeblan spacon. Ŝanĝu la agordojn pri kvaliteco aŭ forigu kelkajn aliajn dosierojn por liberigi spacon.</string>
   <string name="menu_scan_for_preset">Esplorante por antaŭagordoj</string>
+  <!-- Off messages -->
   <string name="fm_off">FM radio estas malŝaltita.</string>
   <string name="fm_call">FM ne povas esti uzata dum konversacio.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Tajpu nomon</string>
   <string name="search_dialog_title">Esplori kanalojn</string>
   <string name="fm_command_timeout_title">Tempolimo</string>
@@ -151,6 +157,7 @@
   <string name="fm_cmd_failed_msg">FM operacio fisakis. Se la problemo daŭras, bonvolu malŝalti FM kaj denove ŝalti ĝin.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM operacio fisakis. FM kaj HDMI ne povas estis uzataj samtempe.</string>
   <string name="fm_cmd_failed_call_on">FM operacio fisakis. Vi ne rajtas uzi FM dum konversacio.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Kanalo:</string>
   <string name="station_exists">Tiu frekvenco jam ekzistas!</string>
   <string name="station_list_delete_station">Forigi: <xliff:g id="name">%s</xliff:g></string>

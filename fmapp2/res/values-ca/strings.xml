@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turquia</string>
   <string name="regional_band_entry_united_kingdom">Regne Unit</string>
   <string name="regional_band_entry_united_states">Estats Units</string>
+  <string name="regional_band_entry_vietnam">Vietnam</string>
   <string name="regional_band_entry_user_defined">Banda Definida per l\'Usuari</string>
   <string name="regional_band_summary_north_america">Nord Amèrica (87.5MHz a 108.0MHz en passos de 200 Khz)</string>
   <string name="regional_band_summary_europe">Europa (87.5MHz a 108.0MHz en passos de 100 Khz)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Turquia (87.5MHz a 108.0MHz en passos de 100 Khz)</string>
   <string name="regional_band_summary_united_kingdom">Regne Unit (87.5MHz a 108.0MHz en passos de 100 Khz)</string>
   <string name="regional_band_summary_united_states">Estats Units (88.1MHz a 107.9MHz en passos de 200 Khz)</string>
+  <string name="regional_band_summary_vietnam">Vietnam (87.5MHz a 108.0MHz en passos de 100 Khz)</string>
   <string name="regional_band_summary_user_defined">Banda Definida per l\'Usuari</string>
   <string name="aud_output_mode">Mode de sortida de so</string>
   <string name="audio_type_stereo">Estèreo</string>
@@ -145,13 +147,19 @@
   <string name="settings_revert_defaults_summary">Restableix totes les configuracions</string>
   <string name="settings_revert_confirm_title">Confirma el restabliment</string>
   <string name="settings_revert_confirm_msg">Això esborrarà tots els ajustaments de l\'aplicació, incloent-hi les presintonies desades. Vols continuar?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Munta la targeta SD abans de començar a enregistrar.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">S\'està preparant la targeta SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">No s\'ha pogut accedir a la targeta SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">S\'està acabant l\'espai a la teva targeta SD. Canvia l\'ajustament de qualitat o esborra algunes imatges o altres fitxers.</string>
   <string name="menu_scan_for_preset">Cerca les Presintonies</string>
+  <!-- Off messages -->
   <string name="fm_off">La FM està apagada.</string>
   <string name="fm_call">La FM no es pot utilitzar durant una trucada.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Introdueix un nom</string>
   <string name="search_dialog_title">Cerca Emissores</string>
   <string name="fm_command_timeout_title">Compte enrera</string>
@@ -160,6 +168,7 @@
   <string name="fm_cmd_failed_msg">L\'operació FM ha fallat. Si el problema continua, si us plau apaga la ràdio FM i torna-la a engegar.</string>
   <string name="fm_cmd_failed_msg_hdmi">L\'operació FM ha fallat. No ha esta suportada la simultaneïtat FM i HDMI.</string>
   <string name="fm_cmd_failed_call_on">L\'operació FM ha fallat. El so FM no està permès durant una trucada.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Emissora:</string>
   <string name="station_exists">Aquesta freqüència ja existeix!</string>
   <string name="station_list_delete_station">Esborra:<xliff:g id="name">%s</xliff:g></string>
@@ -173,56 +182,4 @@
   <string name="set">Estableix</string>
   <string name="user_defind_band_msg">Introdueix una freqüència de 76.0 a 108.0 MHz amb almenys un espaiat d\'un canal</string>
   <string name="fm_search_no_results">No s\'han trobat emissores compatibles</string>
-  <string name="typ_All_stations">Totes les emissores</string>
-  <string name="typ_Culture">Cultura</string>
-  <string name="typ_Current_affairs">Actualitat</string>
-  <string name="typ_Children">Programes Infantils</string>
-  <string name="typ_Country">Música Country</string>
-  <string name="typ_Documentary">Documentals</string>
-  <string name="typ_Drama">Drames</string>
-  <string name="typ_Easy_listening">Música agradable</string>
-  <string name="typ_Education">Educació</string>
-  <string name="typ_Emergency">Emergència</string>
-  <string name="typ_Emergency_test">Prova d\'Emergència</string>
-  <string name="typ_Finance">Finances</string>
-  <string name="typ_Folk">Música Folk</string>
-  <string name="typ_Information">Informació</string>
-  <string name="typ_Jazz">Música Jazz</string>
-  <string name="typ_Light_classical">Clàssica Lleugera</string>
-  <string name="typ_Leisure">Lleure</string>
-  <string name="typ_News">Notícies</string>
-  <string name="typ_National">Música nacional</string>
-  <string name="typ_Other">Altres músiques</string>
-  <string name="typ_Oldies">Música oldies</string>
-  <string name="typ_Phone_in">Entrada Telèfon</string>
-  <string name="typ_Pop">Música Pop</string>
-  <string name="typ_Religion">Religiosa</string>
-  <string name="typ_Rock">Música Rock</string>
-  <string name="typ_Science">Ciència</string>
-  <string name="typ_Serious_classical">Clàssica seriosa</string>
-  <string name="typ_Social_affairs">Temes socials</string>
-  <string name="typ_Sport">Esports</string>
-  <string name="typ_Travel">Viatges</string>
-  <string name="typ_Varied">Variada</string>
-  <string name="typ_Weather">El temps</string>
-  <string name="typ_Adult_hits">Èxits de sempre</string>
-  <string name="typ_Classical">Clàssica</string>
-  <string name="typ_Classic_Rock">Rock clàssic</string>
-  <string name="typ_College">Escola</string>
-  <string name="typ_Foreign_language">Llengües extrangeres</string>
-  <string name="typ_Hiphop">Hip Hop</string>
-  <string name="typ_Nostalgia">Nostàlgia</string>
-  <string name="typ_Personality">Personalitats</string>
-  <string name="typ_Public">Públiques</string>
-  <string name="typ_Religious_music">Música Religiosa</string>
-  <string name="typ_Religious_talk">Converses Religioses</string>
-  <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
-  <string name="typ_Spanish_music">Música espanyola</string>
-  <string name="typ_Spanish_talk">Converses en castellà</string>
-  <string name="typ_Soft">Suau</string>
-  <string name="typ_Soft_Rock">Rock suau</string>
-  <string name="typ_Soft_Rhythm_and_Blues">Rhythm and Blues suau</string>
-  <string name="typ_Sports">Esports</string>
-  <string name="typ_Talk">Converses</string>
-  <string name="typ_Top_40">Top 40</string>
 </resources>

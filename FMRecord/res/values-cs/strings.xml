@@ -29,14 +29,23 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Připojit kartu SD před spuštěním nahrávání.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Příprava SD karty</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Nelze přistupovat k SD kartě.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Na kartě SD je málo místa. Změňte nastavení kvality nebo smažte některé obrázky či jiné soubory.</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="FMRecording_reach_size_limit">Dosažen limit velikosti.</string>
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">Mé nahrávky FM</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
   <string name="audio_db_album_name">Nahrávky FM</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">Nahrávky FM</string>
   <string name="save_record_file">Záznam FM uložen do souboru \u201a<xliff:g id="record_file">%1$s</xliff:g>\u2018</string>
   <string name="fm_record_progress">Nahrávání FM rádia\u2026</string>

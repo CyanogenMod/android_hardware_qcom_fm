@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Турция</string>
   <string name="regional_band_entry_united_kingdom">Обединено кралство</string>
   <string name="regional_band_entry_united_states">САЩ</string>
+  <string name="regional_band_entry_vietnam">Виетнам</string>
   <string name="regional_band_entry_user_defined">Дефинирани от потребителя радио вълни</string>
   <string name="regional_band_summary_north_america">Северна Америка (87.5 MHz до 108.0 MHz в 200 KHz стъпки)</string>
   <string name="regional_band_summary_europe">Европа (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Турция (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</string>
   <string name="regional_band_summary_united_kingdom">Обединено кралство (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</string>
   <string name="regional_band_summary_united_states">САЩ (88.1 MHz до 107,9 MHz в 200 KHz стъпки)</string>
+  <string name="regional_band_summary_vietnam">Виетнам (87.5 MHz до 108.0 MHz в 100 KHz стъпки)</string>
   <string name="regional_band_summary_user_defined">Дефинирани от потребителя честоти</string>
   <string name="aud_output_mode">Режим аудио изход</string>
   <string name="audio_type_stereo">Стерео</string>
@@ -145,13 +147,19 @@
   <string name="settings_revert_defaults_summary">Нулиране на всички настройки</string>
   <string name="settings_revert_confirm_title">Потвърдете нулиране</string>
   <string name="settings_revert_confirm_msg">Това ще изчисти всички настройките на приложението, включително запазени предварителни настройки. Ще продължите ли?</string>
-  <string name="no_storage">Монтирайте SD картата преди да започнете записа.</string>
-  <string name="preparing_sd">SD картата се подготвя…</string>
-  <string name="access_sd_fail">Няма достъп до SD картата.</string>
-  <string name="spaceIsLow_content">Паметта на вашата SD карта е на изчерпване. Променете настройката за качество или изтрийте някои други файлове за да освободите място.</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+  <string name="no_storage">Монтирайте карта памет преди да започнете записа.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <string name="preparing_sd">Картата памет се подготвя</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <string name="access_sd_fail">Няма достъп до картата памет.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+  <string name="spaceIsLow_content">Паметта на вашата карта памет е на изчерпване. Променете настройката за качество или изтрийте някои други файлове за да освободите място.</string>
   <string name="menu_scan_for_preset">Сканирай запаметените станции</string>
+  <!-- Off messages -->
   <string name="fm_off">FM е изключен.</string>
   <string name="fm_call">FM не може да се използва при повикване.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Въведете име</string>
   <string name="search_dialog_title">Сканиране на станции</string>
   <string name="fm_command_timeout_title">Изчакване</string>
@@ -160,6 +168,7 @@
   <string name="fm_cmd_failed_msg">FM радио грешка. Ако проблемът продължава, моля изключете FM радиото и го включите отново.</string>
   <string name="fm_cmd_failed_msg_hdmi">FM радио грешка. Системата не разрешава едновременното позване на FM и HDMI.</string>
   <string name="fm_cmd_failed_call_on">FM радио грешка. FM аудио не е разрешено по време на разговор.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Станция:</string>
   <string name="station_exists">Тази честота вече съществува!</string>
   <string name="station_list_delete_station">Изтриване: <xliff:g id="name">%s </xliff:g></string>
@@ -173,56 +182,4 @@
   <string name="set">Задай</string>
   <string name="user_defind_band_msg">Въведете честотата от 76.0 до 108.0 MHz с минимум 1 канално отстояние</string>
   <string name="fm_search_no_results">Не са намерени съвместими станции</string>
-  <string name="typ_All_stations">Всички станции</string>
-  <string name="typ_Culture">Култура</string>
-  <string name="typ_Current_affairs">Актуални събития</string>
-  <string name="typ_Children">Детски програми</string>
-  <string name="typ_Country">Кънтри музика</string>
-  <string name="typ_Documentary">Документални</string>
-  <string name="typ_Drama">Драма</string>
-  <string name="typ_Easy_listening">Мелодична музика</string>
-  <string name="typ_Education">Образование</string>
-  <string name="typ_Emergency">Извънредна ситуация</string>
-  <string name="typ_Emergency_test">Авариен тест</string>
-  <string name="typ_Finance">Финанси</string>
-  <string name="typ_Folk">Народна музика</string>
-  <string name="typ_Information">Информация</string>
-  <string name="typ_Jazz">Джаз музика</string>
-  <string name="typ_Light_classical">Лека Класическа</string>
-  <string name="typ_Leisure">Развлекателна Музика</string>
-  <string name="typ_News">Новини</string>
-  <string name="typ_National">Национална музика</string>
-  <string name="typ_Other">Друга музика</string>
-  <string name="typ_Oldies">Ретро музика</string>
-  <string name="typ_Phone_in">Обаждане</string>
-  <string name="typ_Pop">Поп музика</string>
-  <string name="typ_Religion">Религия</string>
-  <string name="typ_Rock">Рок музика</string>
-  <string name="typ_Science">Наука</string>
-  <string name="typ_Serious_classical">Сериозна класичесическа музика</string>
-  <string name="typ_Social_affairs">Социални въпроси</string>
-  <string name="typ_Sport">Спорт</string>
-  <string name="typ_Travel">Пътуване</string>
-  <string name="typ_Varied">Разнообразни</string>
-  <string name="typ_Weather">Времето</string>
-  <string name="typ_Adult_hits">Стари хитове</string>
-  <string name="typ_Classical">Класическа</string>
-  <string name="typ_Classic_Rock">Класически рок</string>
-  <string name="typ_College">Колежански</string>
-  <string name="typ_Foreign_language">Чужд език</string>
-  <string name="typ_Hiphop">Хип-хоп</string>
-  <string name="typ_Nostalgia">Носталгични</string>
-  <string name="typ_Personality">Персонални</string>
-  <string name="typ_Public">Публични</string>
-  <string name="typ_Religious_music">Религиозна музика</string>
-  <string name="typ_Religious_talk">Религиозни разговори</string>
-  <string name="typ_Rhythm_and_Blues">Ритъм и блус</string>
-  <string name="typ_Spanish_music">Испанска музика</string>
-  <string name="typ_Spanish_talk">Испанска беседа</string>
-  <string name="typ_Soft">Нежна</string>
-  <string name="typ_Soft_Rock">Нежен рок</string>
-  <string name="typ_Soft_Rhythm_and_Blues">Нежен ритъм и блус</string>
-  <string name="typ_Sports">Спорт</string>
-  <string name="typ_Talk">Беседа</string>
-  <string name="typ_Top_40">Топ 40</string>
 </resources>

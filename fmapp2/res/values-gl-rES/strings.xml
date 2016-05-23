@@ -145,13 +145,19 @@
   <string name="settings_revert_defaults_summary">Restabelecer todos os axustes</string>
   <string name="settings_revert_confirm_title">Confirmar o restabelecemento</string>
   <string name="settings_revert_confirm_msg">Esta acción borrará todos os axustes da aplicación, incluso os predefinidos que teña gardados. Quere continuar?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Montar tarxeta SD antes de iniciar gravación.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Preparando a tarxeta SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Imposíbel acceder á tarxeta SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">A súa tarxeta de almacenaxe SD xa non ten espazo. Cambie o axuste de calidade ou elimine algúns ficheiros para liberar espazo.</string>
   <string name="menu_scan_for_preset">Buscar predefinidas</string>
+  <!-- Off messages -->
   <string name="fm_off">O transmisor de FM está apagado.</string>
   <string name="fm_call">Non se pode utilizar o FM en medio dunha chamada.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Escriba un nome</string>
   <string name="search_dialog_title">Buscar emisoras</string>
   <string name="fm_command_timeout_title">Tempo esgotado</string>
@@ -160,6 +166,7 @@
   <string name="fm_cmd_failed_msg">Fallou a operación de FM. Se o problema persiste, apague a FM e volva acendela.</string>
   <string name="fm_cmd_failed_msg_hdmi">Fallou a operación de FM. Non é compatíbel a concorrencia de FM con HDMI.</string>
   <string name="fm_cmd_failed_call_on">Fallou a operación de FM. Non se permite que soe o transmisor de FM durante unha chamada.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Emisora:</string>
   <string name="station_exists">Esta frecuencia xa existe!</string>
   <string name="station_list_delete_station">Eliminar: <xliff:g id="name">%s</xliff:g></string>
@@ -173,56 +180,4 @@
   <string name="set">Estabelecer</string>
   <string name="user_defind_band_msg">Introduza unha frecuencia entre 76.0 e 108.0 MHz con, polo menos, unha canle polo medio</string>
   <string name="fm_search_no_results">Non se atopou ningunha emisora compatíbel.</string>
-  <string name="typ_All_stations">Todas as emisoras</string>
-  <string name="typ_Culture">Cultura</string>
-  <string name="typ_Current_affairs">Actualidade</string>
-  <string name="typ_Children">Programas infantís</string>
-  <string name="typ_Country">Música country</string>
-  <string name="typ_Documentary">Documental</string>
-  <string name="typ_Drama">Teatro</string>
-  <string name="typ_Easy_listening">Música lixeira</string>
-  <string name="typ_Education">Educación</string>
-  <string name="typ_Emergency">Emerxencia</string>
-  <string name="typ_Emergency_test">Proba de emerxencia</string>
-  <string name="typ_Finance">Economía</string>
-  <string name="typ_Folk">Música folk</string>
-  <string name="typ_Information">Información</string>
-  <string name="typ_Jazz">Música jazz</string>
-  <string name="typ_Light_classical">Clásica lixeira</string>
-  <string name="typ_Leisure">Lecer</string>
-  <string name="typ_News">Novas</string>
-  <string name="typ_National">Música nacional</string>
-  <string name="typ_Other">Outra música</string>
-  <string name="typ_Oldies">Música antiga</string>
-  <string name="typ_Phone_in">Por teléfono</string>
-  <string name="typ_Pop">Música pop</string>
-  <string name="typ_Religion">Relixión</string>
-  <string name="typ_Rock">Música rock</string>
-  <string name="typ_Science">Ciencia</string>
-  <string name="typ_Serious_classical">Clásica seria</string>
-  <string name="typ_Social_affairs">Temas sociais</string>
-  <string name="typ_Sport">Deportes</string>
-  <string name="typ_Travel">Viaxes</string>
-  <string name="typ_Varied">Variado</string>
-  <string name="typ_Weather">Tempo</string>
-  <string name="typ_Adult_hits">Éxitos de sempre</string>
-  <string name="typ_Classical">Clásica</string>
-  <string name="typ_Classic_Rock">Rock clásico</string>
-  <string name="typ_College">Universidade</string>
-  <string name="typ_Foreign_language">Lingua estranxeira</string>
-  <string name="typ_Hiphop">Hip Hop</string>
-  <string name="typ_Nostalgia">Nostalxia</string>
-  <string name="typ_Personality">Personalidade</string>
-  <string name="typ_Public">Público</string>
-  <string name="typ_Religious_music">Música relixiosa</string>
-  <string name="typ_Religious_talk">Conversa relixiosa</string>
-  <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
-  <string name="typ_Spanish_music">Música española</string>
-  <string name="typ_Spanish_talk">Conversa en español</string>
-  <string name="typ_Soft">Suave</string>
-  <string name="typ_Soft_Rock">Rock suave</string>
-  <string name="typ_Soft_Rhythm_and_Blues">Rythm and Blues suave</string>
-  <string name="typ_Sports">Deportes</string>
-  <string name="typ_Talk">Tertulias</string>
-  <string name="typ_Top_40">Corenta principais</string>
 </resources>
