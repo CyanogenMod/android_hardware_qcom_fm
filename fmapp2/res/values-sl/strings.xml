@@ -120,7 +120,7 @@
   <string name="typ_Culture">Kultura</string>
   <string name="typ_Current_affairs">Tekoče zadeve</string>
   <string name="typ_Children">Programi za otroke</string>
-  <string name="typ_Country">Narodno zabavna glasba</string>
+  <string name="typ_Country">Narodnozabavna glasba</string>
   <string name="typ_Documentary">Dokumentarec</string>
   <string name="typ_Drama">Drama</string>
   <string name="typ_Easy_listening">Lahka glasba</string>
@@ -160,7 +160,7 @@
   <string name="typ_Public">Javna</string>
   <string name="typ_Religious_music">Verska glasba</string>
   <string name="typ_Religious_talk">Verski pogovor</string>
-  <string name="typ_Rhythm_and_Blues">Ritem in Blues</string>
+  <string name="typ_Rhythm_and_Blues">Ritem in blues</string>
   <string name="typ_Spanish_music">Španska glasba</string>
   <string name="typ_Spanish_talk">Španski pogovori</string>
   <string name="typ_Soft">Mehka glasba</string>
