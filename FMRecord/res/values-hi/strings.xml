@@ -29,14 +29,23 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">रिकोर्डिंग शुरू करने से पहले एसडी कार्ड को माउंट करें।</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">एसडी कार्ड को तैयार कर रहे हैं</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">एसडी कार्ड तक पहुँच नहीं सके।</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">आपका एसडी कार्ड भंडारण भरता जा रहा है। गुणवत्ता सेटिंग को दलें या कुछ छवियों या अन्य फ़ाइलों को हटाएँ।</string>
+  <!-- The messsage shown when FM record reaches size limit. -->
   <string name="FMRecording_reach_size_limit">आमाप सीमा तक पहुँच गए।</string>
+  <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+  <!-- all recordings will show up in the media database with this 'artist' name -->
   <string name="audio_db_artist_name">मेरी एफएम रेकॉर्डिंग</string>
+  <!-- all recordings will show up in the media database with this 'album' name -->
   <string name="audio_db_album_name">एफएम रिकॉर्डिंग</string>
+  <!-- all recordings will show up in the media database in a playlist with this name -->
   <string name="audio_db_playlist_name">एफएम रेकॉर्डिंग</string>
   <string name="save_record_file">एफएम रिकॉर्ड की गई फ़ाइल \'<xliff:g id="record_file">%1$s</xliff:g>\' में सहेजी गई</string>
   <string name="fm_record_progress">एफएम रिकॉर्डिंग चल रही है</string>

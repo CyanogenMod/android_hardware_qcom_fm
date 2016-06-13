@@ -69,13 +69,19 @@
   <string name="settings_revert_defaults_summary">Ripristina tutte le impostazioni</string>
   <string name="settings_revert_confirm_title">Conferma ripristino</string>
   <string name="settings_revert_confirm_msg">Questo cancellerà tutte le impostazioni dell\'app, incluse le preimpostazioni salvate. Continuare?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">Inserisci la scheda SD prima di iniziare a registrare.</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Preparazione scheda SD\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">Impossibile accedere alla scheda SD.</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Lo spazio sulla scheda SD si sta esaurendo. Cambia il settaggio della qualità o elimina alcune immagini o altri file.</string>
   <string name="menu_scan_for_preset">Scansione per predefiniti</string>
+  <!-- Off messages -->
   <string name="fm_off">FM spenta.</string>
   <string name="fm_call">FM non può essere utilizzata durante una chiamata.</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">Immettere un nome</string>
   <string name="search_dialog_title">Ricerca stazioni</string>
   <string name="fm_command_timeout_title">Timeout</string>
@@ -84,6 +90,7 @@
   <string name="fm_cmd_failed_msg">Operazione FM non riuscita. Se il problema persiste, si prega di spegnere e riaccendere FM.</string>
   <string name="fm_cmd_failed_msg_hdmi">Operazione FM non riuscita. La concorrenza di FM e HDMI non è supportata.</string>
   <string name="fm_cmd_failed_call_on">Operazione FM non riuscita. L\'audio FM non è consentito durante una chiamata.</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">Stazione:</string>
   <string name="station_exists">Questa frequenza esiste già!</string>
   <string name="station_list_delete_station">Elimina: <xliff:g id="name">%s</xliff:g></string>
@@ -97,59 +104,56 @@
   <string name="set">Imposta</string>
   <string name="user_defind_band_msg">Inserire la frequenza da 76,0 a 108,0 MHz con spaziatura minima di 1 canale</string>
   <string name="fm_search_no_results">Nessuna stazione compatibile trovata</string>
-
   <!-- program types -->
+  <string name="typ_All_stations">Tutte le stazioni</string>
+  <string name="typ_Culture">Cultura</string>
+  <string name="typ_Current_affairs">Attualità</string>
+  <string name="typ_Children">Programmi per bambini</string>
+  <string name="typ_Country">Musica country</string>
+  <string name="typ_Documentary">Documentario</string>
+  <string name="typ_Drama">Recitazione</string>
+  <string name="typ_Easy_listening">Musica da intrattenimento</string>
+  <string name="typ_Education">Educazione</string>
+  <string name="typ_Emergency">Emergenza</string>
+  <string name="typ_Emergency_test">Test di emergenza</string>
+  <string name="typ_Finance">Finanza</string>
+  <string name="typ_Folk">Musica folk</string>
+  <string name="typ_Information">Informazione</string>
+  <string name="typ_Jazz">Musica jazz</string>
+  <string name="typ_Light_classical">Musica classica leggera</string>
+  <string name="typ_Leisure">Tempo libero</string>
+  <string name="typ_News">Notizie</string>
+  <string name="typ_National">Musica nazionale</string>
+  <string name="typ_Other">Altra musica</string>
+  <string name="typ_Oldies">Vecchie canzoni</string>
+  <string name="typ_Phone_in">Con telefonate</string>
+  <string name="typ_Pop">Musica pop</string>
+  <string name="typ_Religion">Religione</string>
+  <string name="typ_Rock">Musica rock</string>
+  <string name="typ_Science">Scienza</string>
+  <string name="typ_Serious_classical">Musica classica</string>
+  <string name="typ_Social_affairs">Questioni sociali</string>
+  <string name="typ_Sport">Sport</string>
+  <string name="typ_Travel">Viaggi</string>
+  <string name="typ_Varied">Varie</string>
+  <string name="typ_Weather">Tempo</string>
   <!-- RBDS (North America) -->
-    <string name="typ_Adult_hits">Hits adulti</string>
-    <string name="typ_Classical">Classica</string>
-    <string name="typ_Classic_Rock">Rock classico</string>
-    <string name="typ_College">College</string>
-    <string name="typ_Foreign_language">Lingua straniera</string>
-    <string name="typ_Nostalgia">Nostalgia</string>
-    <string name="typ_Personality">Personalità</string>
-    <string name="typ_Public">Pubblica</string>
-    <string name="typ_Religious_music">Musica religiosa</string>
-    <string name="typ_Religious_talk">Discussione religiosa</string>
-    <string name="typ_Rhythm_and_Blues">Rhythm e Blues</string>
-    <string name="typ_Soft">Soft</string>
-    <string name="typ_Soft_Rock">Soft rock</string>
-    <string name="typ_Soft_Rhythm_and_Blues">Soft Rhythm e Blues</string>
-    <string name="typ_Sports">Sport</string>
-    <string name="typ_Talk">Conversazione</string>
-    <string name="typ_Top_40">Top 40</string>
-
-  <!-- RDS (Europe) -->
-    <string name="typ_All_stations">Tutte le stazioni</string>
-    <string name="typ_Culture">Cultura</string>
-    <string name="typ_Current_affairs">Attualità</string>
-    <string name="typ_Children">Programmi per bambini</string>
-    <string name="typ_Country">Musica country</string>
-    <string name="typ_Documentary">Documentari</string>
-    <string name="typ_Drama">Drammi</string>
-    <string name="typ_Easy_listening">Musica da intrattenimento</string>
-    <string name="typ_Education">Educazione</string>
-    <string name="typ_Emergency">Emergenza</string>
-    <string name="typ_Emergency_test">Test di emergenza</string>
-    <string name="typ_Finance">Finanza</string>
-    <string name="typ_Folk">Musica folk</string>
-    <string name="typ_Information">Informazione</string>
-    <string name="typ_Jazz">Musica jazz</string>
-    <string name="typ_Light_classical">Musica classica leggera</string>
-    <string name="typ_Leisure">Tempo libero</string>
-    <string name="typ_News">Notizie</string>
-    <string name="typ_National">Musica nazionale</string>
-    <string name="typ_Other">Altra musica</string>
-    <string name="typ_Oldies">Vecchie canzoni</string>
-    <string name="typ_Phone_in">Con telefonate</string>
-    <string name="typ_Pop">Musica pop</string>
-    <string name="typ_Religion">Religione</string>
-    <string name="typ_Rock">Musica rock</string>
-    <string name="typ_Science">Scienza</string>
-    <string name="typ_Serious_classical">Musica classica</string>
-    <string name="typ_Social_affairs">Questioni sociali</string>
-    <string name="typ_Sport">Sport</string>
-    <string name="typ_Travel">Viaggi</string>
-    <string name="typ_Varied">Varie</string>
-    <string name="typ_Weather">Tempo</string>
-
+  <string name="typ_Adult_hits">Hits adulti</string>
+  <string name="typ_Classical">Classica</string>
+  <string name="typ_Classic_Rock">Rock classico</string>
+  <string name="typ_College">College</string>
+  <string name="typ_Foreign_language">Lingua straniera</string>
+  <string name="typ_Hiphop">Hip Hop</string>
+  <string name="typ_Nostalgia">Nostalgia</string>
+  <string name="typ_Personality">Personalità</string>
+  <string name="typ_Public">Pubblica</string>
+  <string name="typ_Religious_music">Musica religiosa</string>
+  <string name="typ_Religious_talk">Discussione religiosa</string>
+  <string name="typ_Rhythm_and_Blues">Rhythm e Blues</string>
+  <string name="typ_Soft">Soft</string>
+  <string name="typ_Soft_Rock">Soft rock</string>
+  <string name="typ_Soft_Rhythm_and_Blues">Soft Rhythm e Blues</string>
+  <string name="typ_Sports">Sport</string>
+  <string name="typ_Talk">Conversazione</string>
+  <string name="typ_Top_40">Top 40</string>
 </resources>

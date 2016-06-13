@@ -43,7 +43,7 @@
   <string name="button_text_stop">停止</string>
   <string name="msg_seeking">FM局を検索中\u2026</string>
   <string name="msg_scanning">すべてのFM局をスキャン中\u2026</string>
-  <string name="msg_scanning_pty">「<xliff:g id="pty_name">%1$s</xliff:g>」をスキャン中\u2026</string>
+  <string name="msg_scanning_pty">[<xliff:g id="pty_name">%1$s</xliff:g>]をスキャン中\u2026</string>
   <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
   <string name="msg_searching_title">自動選択プリセット</string>
   <string name="msg_searching">プリセットリストを作成するために電波の強い局を検索中\u2026</string>
@@ -63,19 +63,25 @@
   <string name="aud_output_mode">オーディオ出力モード</string>
   <string name="audio_type_stereo">ステレオ</string>
   <string name="audio_type_mono">モノラル</string>
-  <string name="record_dur">録音の長さ</string>
+  <string name="record_dur">録音時間</string>
   <string name="auto_select_af">代用周波数</string>
   <string name="settings_revert_defaults_title">出荷時のデフォルトに戻す</string>
   <string name="settings_revert_defaults_summary">すべての設定をリセットする</string>
   <string name="settings_revert_confirm_title">リセットを確認</string>
   <string name="settings_revert_confirm_msg">保存したプリセットを含むすべてのアプリケーションの設定を消去します。続けますか？</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">録音を開始する前にSDカードをマウントしてください。</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">SDカードを準備中\u2026</string>
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">SDカードにアクセスできませんでした。</string>
-  <string name="spaceIsLow_content">SDカードのストレージの容量が不足しています。音質の設定を変更するか、スペースを空けるために他のファイルを削除してください。</string>
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+  <string name="spaceIsLow_content">SDカードのストレージの容量が少なくなっています。音質の設定を変更するか、容量を空けるために他のファイルを一部削除してください。</string>
   <string name="menu_scan_for_preset">プリセットをスキャン</string>
+  <!-- Off messages -->
   <string name="fm_off">FMはOFFになっています。</string>
   <string name="fm_call">通話中にFMは使用できません。</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">名前を入力</string>
   <string name="search_dialog_title">局をスキャン</string>
   <string name="fm_command_timeout_title">タイムアウト</string>
@@ -84,72 +90,70 @@
   <string name="fm_cmd_failed_msg">FMを操作できませんでした。問題が解決しなければFMをOFFにして、ONに戻してみてください。</string>
   <string name="fm_cmd_failed_msg_hdmi">FMを操作できませんでした。FMとHDMIの同時実行はサポートされていません。</string>
   <string name="fm_cmd_failed_call_on">FMを操作できませんでした。通話中のFMオーディオは許可されていません。</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">局:</string>
   <string name="station_exists">この周波数は既に存在しています。</string>
   <string name="station_list_delete_station">削除: <xliff:g id="name">%s</xliff:g></string>
-  <string name="station_list_delete_station_prompt">「<xliff:g id="name">%s</xliff:g>」を削除してもよろしいですか？</string>
+  <string name="station_list_delete_station_prompt">[<xliff:g id="name">%s</xliff:g>]を削除してもよろしいですか？</string>
   <string name="station_name_empty">局の名前が空です。もう一度入力してください。</string>
-  <string name="station_name_exist">「<xliff:g id="name">%s</xliff:g>」は既に使用されています。別の名前を入力してください。</string>
+  <string name="station_name_exist">[<xliff:g id="name">%s</xliff:g>]は既に使用されています。別の名前を入力してください。</string>
   <string name="rt_plus_tags">タグ</string>
-  <string name="usr_def_band_min">最低周波数（MHz）</string>
-  <string name="usr_def_band_max">最高周波数（MHz）</string>
+  <string name="usr_def_band_min">最小周波数（MHz）</string>
+  <string name="usr_def_band_max">最大周波数（MHz）</string>
   <string name="chanl_spacing">チャネル間隔</string>
   <string name="set">設定</string>
   <string name="user_defind_band_msg">最低1チャネルの間隔で76.0 MHzから108.0 MHzまでの周波数を入力してください</string>
   <string name="fm_search_no_results">互換性のある局が見つかりませんでした</string>
-
   <!-- program types -->
+  <string name="typ_All_stations">すべての局</string>
+  <string name="typ_Culture">文化</string>
+  <string name="typ_Current_affairs">時事問題</string>
+  <string name="typ_Children">子供向け番組</string>
+  <string name="typ_Country">カントリーミュージック</string>
+  <string name="typ_Documentary">ドキュメンタリー</string>
+  <string name="typ_Drama">ドラマ</string>
+  <string name="typ_Easy_listening">イージーリスニング音楽</string>
+  <string name="typ_Education">教育</string>
+  <string name="typ_Emergency">緊急</string>
+  <string name="typ_Emergency_test">緊急試験</string>
+  <string name="typ_Finance">ファイナンス</string>
+  <string name="typ_Folk">フォークミュージック</string>
+  <string name="typ_Information">情報</string>
+  <string name="typ_Jazz">ジャズ音楽</string>
+  <string name="typ_Light_classical">ライトクラシック</string>
+  <string name="typ_Leisure">レジャー</string>
+  <string name="typ_News">ニュース</string>
+  <string name="typ_National">ナショナル音楽</string>
+  <string name="typ_Other">その他の音楽</string>
+  <string name="typ_Oldies">オールディーズ音楽</string>
+  <string name="typ_Phone_in">視聴者参加型番組</string>
+  <string name="typ_Pop">ポップ音楽</string>
+  <string name="typ_Religion">宗教</string>
+  <string name="typ_Rock">ロック音楽</string>
+  <string name="typ_Science">科学</string>
+  <string name="typ_Serious_classical">シリアスクラシック</string>
+  <string name="typ_Social_affairs">社会問題</string>
+  <string name="typ_Sport">スポーツ</string>
+  <string name="typ_Travel">旅行</string>
+  <string name="typ_Varied">さまざまなカテゴリ</string>
+  <string name="typ_Weather">天気</string>
   <!-- RBDS (North America) -->
-    <string name="typ_Adult_hits">アダルトヒット</string>
-    <string name="typ_Classical">クラシック</string>
-    <string name="typ_Classic_Rock">クラシックロック</string>
-    <string name="typ_College">大学</string>
-    <string name="typ_Foreign_language">外国語</string>
-    <string name="typ_Nostalgia">ノスタルジア</string>
-    <string name="typ_Personality">パーソナリティ</string>
-    <string name="typ_Public">パブリック</string>
-    <string name="typ_Religious_music">宗教音楽</string>
-    <string name="typ_Religious_talk">宗教トーク</string>
-    <string name="typ_Rhythm_and_Blues">リズムとブルース</string>
-    <string name="typ_Soft">ソフト</string>
-    <string name="typ_Soft_Rock">ソフトロック</string>
-    <string name="typ_Soft_Rhythm_and_Blues">ソフトリズムとブルース</string>
-    <string name="typ_Sports">スポーツ</string>
-    <string name="typ_Talk">トーク</string>
-    <string name="typ_Top_40">トップ40</string>
-
-  <!-- RDS (Europe) -->
-    <string name="typ_All_stations">すべての局</string>
-    <string name="typ_Culture">文化</string>
-    <string name="typ_Current_affairs">時事問題</string>
-    <string name="typ_Children">子供向け番組</string>
-    <string name="typ_Country">カントリーミュージック</string>
-    <string name="typ_Documentary">ドキュメンタリー</string>
-    <string name="typ_Drama">ドラマ</string>
-    <string name="typ_Easy_listening">イージーリスニング音楽</string>
-    <string name="typ_Education">教育</string>
-    <string name="typ_Emergency">緊急</string>
-    <string name="typ_Emergency_test">緊急テスト</string>
-    <string name="typ_Finance">ファイナンス</string>
-    <string name="typ_Folk">フォークミュージック</string>
-    <string name="typ_Information">情報</string>
-    <string name="typ_Jazz">ジャズ音楽</string>
-    <string name="typ_Light_classical">ライトクラシック</string>
-    <string name="typ_Leisure">レジャー</string>
-    <string name="typ_News">ニュース</string>
-    <string name="typ_National">ナショナルミュージック</string>
-    <string name="typ_Other">その他の音楽</string>
-    <string name="typ_Oldies">オールディーズ音楽</string>
-    <string name="typ_Phone_in">視聴者参加番組</string>
-    <string name="typ_Pop">ポップミュージック</string>
-    <string name="typ_Religion">宗教</string>
-    <string name="typ_Rock">ロック音楽</string>
-    <string name="typ_Science">科学</string>
-    <string name="typ_Serious_classical">シリアスクラシック</string>
-    <string name="typ_Social_affairs">社会問題</string>
-    <string name="typ_Sport">スポーツ</string>
-    <string name="typ_Travel">旅行</string>
-    <string name="typ_Varied">さまざまなカテゴリ</string>
-    <string name="typ_Weather">天気</string>
-
+  <string name="typ_Adult_hits">アダルトヒット</string>
+  <string name="typ_Classical">クラシック</string>
+  <string name="typ_Classic_Rock">クラシックロック</string>
+  <string name="typ_College">大学</string>
+  <string name="typ_Foreign_language">外国語</string>
+  <string name="typ_Hiphop">ヒップホップ</string>
+  <string name="typ_Nostalgia">ノスタルジア</string>
+  <string name="typ_Personality">パーソナリティ</string>
+  <string name="typ_Public">パブリック</string>
+  <string name="typ_Religious_music">宗教音楽</string>
+  <string name="typ_Religious_talk">宗教トーク</string>
+  <string name="typ_Rhythm_and_Blues">リズムとブルース</string>
+  <string name="typ_Soft">ソフト</string>
+  <string name="typ_Soft_Rock">ソフトロック</string>
+  <string name="typ_Soft_Rhythm_and_Blues">ソフトリズムとブルース</string>
+  <string name="typ_Sports">スポーツ</string>
+  <string name="typ_Talk">トーク</string>
+  <string name="typ_Top_40">トップ40</string>
 </resources>

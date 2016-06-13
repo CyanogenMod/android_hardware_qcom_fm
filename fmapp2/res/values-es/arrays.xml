@@ -37,7 +37,7 @@
     <item>5 minutos</item>
     <item>15 minutos</item>
     <item>30 minutos</item>
-    <item>Indefinidamente</item>
+    <item>Hasta ser detenido</item>
   </string-array>
   <string-array name="sleep_duration_values">
     <item>15 minutos</item>
@@ -46,10 +46,10 @@
     <item>1 hora</item>
   </string-array>
   <string-array name="regional_band_entries">
-    <item>Norte América</item>
+    <item>Norteamérica</item>
     <item>Europa</item>
     <item>Japón</item>
-    <item>Japón (Amplia)</item>
+    <item>Japón (amplia)</item>
     <item>Australia</item>
     <item>Austria</item>
     <item>Bélgica</item>
@@ -82,36 +82,36 @@
     <item>Turquía</item>
     <item>Reino Unido</item>
     <item>Estados Unidos</item>
-    <item>Personalizada</item>
+    <item>Banda personalizada</item>
     <item>Indonesia</item>
   </string-array>
   <string-array name="regional_band_summary">
     <item>Norte América (87,5MHz a 108,0MHz en pasos de 200KHz)</item>
     <item>Europa (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Japón (76,0MHz a  90,0MHz en pasos de 100KHz)</item>
-    <item>Japón (Amplia) (90,0MHz a 108,0MHz en pasos de 100KHz)</item>
+    <item>Japón (amplia) (90,0MHz a 108,0MHz en pasos de 50KHz)</item>
     <item>Australia (87,7MHz a 108,0MHz en pasos de 100KHz)</item>
-    <item>Austria (87,5MHz a 108,0MHz en pasos  de 50KHz)</item>
+    <item>Austria (87,5MHz a 108,0MHz en pasos de 50KHz)</item>
     <item>Bélgica (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
-    <item>Brasil (87,8MHz a 108,0MHz en pasos de 200KHz)</item>
+    <item>Brasil (87,5MHz a 108,0MHz en pasos de 200KHz)</item>
     <item>China (87,0MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>República Checa (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Dinamarca (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Finlandia (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Francia (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
-    <item>Alemania (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
-    <item>Grecia (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
+    <item>Alemania (87,5MHz a 108,0MHz en pasos de 50KHz)</item>
+    <item>Grecia (87,5MHz a 108,0MHz en pasos de 50KHz)</item>
     <item>Hong Kong (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>India (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
-    <item>Irlanda (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
-    <item>Italia (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
+    <item>Irlanda (87,5MHz a 108,0MHz en pasos de 50KHz)</item>
+    <item>Italia (87,5MHz a 108,0MHz en pasos de 50KHz)</item>
     <item>Corea (87,5MHz a 108,0MHz en pasos de 200KHz)</item>
     <item>México (88,1MHz a 107,9MHz en pasos de 200KHz)</item>
     <item>Países Bajos (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Nueva Zelanda (88,0MHz a 107,0MHz en pasos de 100KHz)</item>
     <item>Noruega (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
-    <item>Polonia (88,0MHz a 108,0MHz en pasos de 100KHz)</item>
-    <item>Portugal (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
+    <item>Polonia (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
+    <item>Portugal (87,5MHz a 108,0MHz en pasos de 50KHz)</item>
     <item>Rusia (87,5MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Singapur (88,0MHz a 108,0MHz en pasos de 100KHz)</item>
     <item>Eslovaquia (87,5MHz a 108,0MHz en pasos de 100KHz)</item>

@@ -34,7 +34,6 @@
   <string name="menu_scan_start">स्कैन करें</string>
   <string name="menu_scan_stop">खोजना बंद करें</string>
   <string name="menu_record_start">रिकॉर्ड करें</string>
-  <string name="menu_record_stop">रिकॉर्ड करना बंद करें</string>
   <string name="menu_settings">सेटिंग</string>
   <string name="menu_sleep">नींद</string>
   <string name="menu_sleep_cancel">नींद रद्द करें</string>
@@ -55,7 +54,6 @@
   <string name="presetlist_autoselect_title">स्वतः चयन की पुष्टि करें</string>
   <string name="preset_replace">बदलें</string>
   <string name="preset_tune">ट्यून करें</string>
-  <string name="preset_rename">नाम बदलें</string>
   <string name="preset_delete">हटाएँ</string>
   <string name="preset_search">\'<xliff:g id="preset_pi">%1$s</xliff:g>\' के लिए खोजें</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
@@ -69,13 +67,17 @@
   <string name="settings_revert_defaults_summary">सभी सेटिंग को रीसेट करें</string>
   <string name="settings_revert_confirm_title">रीसेट की पुष्टि करें</string>
   <string name="settings_revert_confirm_msg">इससे सभी अनुप्रयोग सेटिंग साफ़ हो जाएँगे, जिनमें सहेजे गए पूर्व-सेट भी शामिल हैं। आगे बढ़ें?</string>
+  <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">रिकॉर्ड करना शुरू करने से पहले एसडी कार्ड को माउंट करें।</string>
-  <string name="preparing_sd">एसडी कार्ड को तैयार कर रहे हैं\u2026</string>
-  <string name="access_sd_fail">एसडी कार्ड में पहुँच नहीं सके।</string>
+  <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+  <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">आपका एसडी कार्ड भरता जा रहा है। उसमें जगह बनाने के लिए गुणवत्ता सेटिंग को बदलें या कुछ फ़ाइलों को हटाएँ।</string>
   <string name="menu_scan_for_preset">पूर्व-सेटों के लिए स्कैन करें</string>
+  <!-- Off messages -->
   <string name="fm_off">एफएम को बंद किया गया है।</string>
   <string name="fm_call">कॉल करते समय एफएम का उपयोग नहीं किया जा सकता है।</string>
+  <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">नाम दर्ज करें</string>
   <string name="search_dialog_title">स्टेशनों के लिए स्कैन करें</string>
   <string name="fm_command_timeout_title">समय समाप्त</string>
@@ -84,6 +86,7 @@
   <string name="fm_cmd_failed_msg">एफएम प्रचालन विफल हुआ। यदि समस्या बनी रहती है, तो एफएम को बंद करके दुबारा चालू करें।</string>
   <string name="fm_cmd_failed_msg_hdmi">एफएम प्रचालन विफल हुआ। एफएम और एचडीएमआई का एक साथ होना समर्थित नहीं है।</string>
   <string name="fm_cmd_failed_call_on">एफएम प्रचालन विफल हुआ। कॉल के दौरान एफएम ऑडियो की अनुमति नहीं है।</string>
+  <!-- Do not translate. Duration format. -->
   <string name="station_name">स्टेशन:</string>
   <string name="station_exists">यह आवृत्ति पहले से ही मौजूद है।</string>
   <string name="station_list_delete_station">हटाएँ: <xliff:g id="name">%s</xliff:g></string>
@@ -97,59 +100,6 @@
   <string name="set">सेट करें</string>
   <string name="user_defind_band_msg">76.0 से 108.0 MHz से कोई आवृत्ति को न्यूनतम 1 चैनल रिक्ति के साथ दर्ज करें।</string>
   <string name="fm_search_no_results">कोई संगत स्टेशन नहीं मिले</string>
-
   <!-- program types -->
   <!-- RBDS (North America) -->
-    <string name="typ_Adult_hits">वयस्क हिट</string>
-    <string name="typ_Classical">शास्त्रीय</string>
-    <string name="typ_Classic_Rock">शास्त्रीय रॉक</string>
-    <string name="typ_College">कॉलेज</string>
-    <string name="typ_Foreign_language">विदेशी भाषा</string>
-    <string name="typ_Nostalgia">पुरानी यादें</string>
-    <string name="typ_Personality">व्यक्तित्व</string>
-    <string name="typ_Public">सार्वजनिक</string>
-    <string name="typ_Religious_music">भक्ति संगीत</string>
-    <string name="typ_Religious_talk">धार्मिक प्रवचन</string>
-    <string name="typ_Rhythm_and_Blues">रिथम एंड ब्लूज़</string>
-    <string name="typ_Soft">मृदु</string>
-    <string name="typ_Soft_Rock">मृदु रॉक</string>
-    <string name="typ_Soft_Rhythm_and_Blues">मृदु रिथम एंड ब्लूज़</string>
-    <string name="typ_Sports">खेल-कूद</string>
-    <string name="typ_Talk">व्याख्यान</string>
-    <string name="typ_Top_40">शीर्ष 40</string>
-
-  <!-- RDS (Europe) -->
-    <string name="typ_All_stations">सभी स्टेशन</string>
-    <string name="typ_Culture">संस्कृति</string>
-    <string name="typ_Current_affairs">समकालीन मामले</string>
-    <string name="typ_Children">बच्चों के कार्यक्रम</string>
-    <string name="typ_Country">देशी संगीत</string>
-    <string name="typ_Documentary">वृत्तचित्र</string>
-    <string name="typ_Drama">नाटक</string>
-    <string name="typ_Easy_listening">सुगम संगीत</string>
-    <string name="typ_Education">शिक्षण</string>
-    <string name="typ_Emergency">आपात स्थिति</string>
-    <string name="typ_Emergency_test">आपात स्थिति परीक्षण</string>
-    <string name="typ_Finance">वित्त</string>
-    <string name="typ_Folk">लोक संगीत</string>
-    <string name="typ_Information">सूचना</string>
-    <string name="typ_Jazz">जैस संगीत</string>
-    <string name="typ_Light_classical">हल्का शास्त्रीय</string>
-    <string name="typ_Leisure">अवकाश</string>
-    <string name="typ_News">समाचार</string>
-    <string name="typ_National">राष्ट्रीय संगीत</string>
-    <string name="typ_Other">अन्य संगीत</string>
-    <string name="typ_Oldies">बीते युग का संगीत</string>
-    <string name="typ_Phone_in">फ़ोन इन करें</string>
-    <string name="typ_Pop">पॉप संगीत</string>
-    <string name="typ_Religion">धार्मिक</string>
-    <string name="typ_Rock">रॉक संगीत</string>
-    <string name="typ_Science">विज्ञान</string>
-    <string name="typ_Serious_classical">गंभीर शास्त्रीय</string>
-    <string name="typ_Social_affairs">सामाजिक मामले</string>
-    <string name="typ_Sport">खेल-कूद</string>
-    <string name="typ_Travel">यात्रा</string>
-    <string name="typ_Varied">विविध</string>
-    <string name="typ_Weather">मौसम</string>
-
 </resources>
