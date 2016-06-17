@@ -153,6 +153,8 @@
   <string name="typ_Soft">Нежна</string>
   <string name="typ_Soft_Rock">Нежен рок</string>
   <string name="typ_Soft_Rhythm_and_Blues">Нежен ритъм и блус</string>
+  <string name="typ_Spanish_music">Испанска музика</string>
+  <string name="typ_Spanish_talk">Испанска беседа</string>
   <string name="typ_Sports">Спорт</string>
   <string name="typ_Talk">Беседа</string>
   <string name="typ_Top_40">Топ 40</string>
