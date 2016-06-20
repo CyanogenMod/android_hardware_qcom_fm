@@ -45,6 +45,69 @@
     <item>45 minutos</item>
     <item>1 hora</item>
   </string-array>
+  <string-array name="search_category_rbds_entries">
+    <item>Todas las estaciones</item>
+    <item>Éxitos de siempre</item>
+    <item>Clásica</item>
+    <item>Rock Clásico</item>
+    <item>Estudiantil</item>
+    <item>Country</item>
+    <item>Emergencia</item>
+    <item>Prueba de emergencia</item>
+    <item>Idioma extranjero</item>
+    <item>Información</item>
+    <item>Jazz</item>
+    <item>Noticias</item>
+    <item>Nostalgia</item>
+    <item>Éxitos</item>
+    <item>Personalidades</item>
+    <item>Público</item>
+    <item>Música religiosa</item>
+    <item>Conversaciones religiosas</item>
+    <item>Rhythm and Blues</item>
+    <item>Rock</item>
+    <item>Ligera</item>
+    <item>Rock ligero</item>
+    <item>Rhythm and Blues ligero</item>
+    <item>Deportes</item>
+    <item>Conversaciones</item>
+    <item>Top 40</item>
+    <item>El tiempo</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>Todas las estaciones</item>
+    <item>Cultura</item>
+    <item>Temas de actualidad</item>
+    <item>Programas infantiles</item>
+    <item>Música country</item>
+    <item>Documental</item>
+    <item>Drama</item>
+    <item>Música ligera</item>
+    <item>Educación</item>
+    <item>Emergencia</item>
+    <item>Prueba de emergencia</item>
+    <item>Finanzas</item>
+    <item>Música folklórica</item>
+    <item>Información</item>
+    <item>Música jazz</item>
+    <item>Clásica ligera</item>
+    <item>Ocio</item>
+    <item>Noticias</item>
+    <item>Música nacional</item>
+    <item>Otra música</item>
+    <item>Éxitos musicales</item>
+    <item>Por teléfono</item>
+    <item>Música pop</item>
+    <item>Religión</item>
+    <item>Música rock</item>
+    <item>Ciencia</item>
+    <item>Clásica tradicional</item>
+    <item>Temas sociales</item>
+    <item>Deporte</item>
+    <item>Viajes</item>
+    <item>Variado</item>
+    <item>El tiempo</item>
+  </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>
     <item>100 KHz</item>

@@ -45,6 +45,69 @@
     <item>45 minutos</item>
     <item>1 hora</item>
   </string-array>
+  <string-array name="search_category_rbds_entries">
+    <item>Toles emisores</item>
+    <item>Ésitos de siempre</item>
+    <item>Clásica</item>
+    <item>Rock clásico</item>
+    <item>College</item>
+    <item>Country</item>
+    <item>Emerxencia</item>
+    <item>Prueba d\'emerxencia</item>
+    <item>Llingua foriata</item>
+    <item>Información</item>
+    <item>Jazz</item>
+    <item>Anuncies</item>
+    <item>Señardá</item>
+    <item>Oldies</item>
+    <item>Personalidaes</item>
+    <item>Públiques</item>
+    <item>Música relixosa</item>
+    <item>Charres relixoses</item>
+    <item>Rhythm and Blues</item>
+    <item>Rock</item>
+    <item>Soft</item>
+    <item>Soft Rock</item>
+    <item>Soft Rhythm and Blues</item>
+    <item>Deportes</item>
+    <item>Charres</item>
+    <item>Top 40</item>
+    <item>Clima</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>Toles emisores</item>
+    <item>Cultura</item>
+    <item>Actualidá</item>
+    <item>Programes pa guaḥes</item>
+    <item>Música Country</item>
+    <item>Documental</item>
+    <item>Drama</item>
+    <item>Música agradable</item>
+    <item>Educación</item>
+    <item>Emerxencia</item>
+    <item>Prueba d\'emerxencia</item>
+    <item>Finances</item>
+    <item>Música folk</item>
+    <item>Información</item>
+    <item>Música Jazz</item>
+    <item>Clásica llixera</item>
+    <item>Ociu</item>
+    <item>Noticies</item>
+    <item>Música Nacional</item>
+    <item>Otra música</item>
+    <item>Oldies music</item>
+    <item>Per teléfonu</item>
+    <item>Música pop</item>
+    <item>Relixón</item>
+    <item>Música Rock</item>
+    <item>Ciencia</item>
+    <item>Serious classical</item>
+    <item>Temes sociales</item>
+    <item>Deportes</item>
+    <item>Viaxes</item>
+    <item>Dello</item>
+    <item>Clima</item>
+  </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>
     <item>100 KHz</item>

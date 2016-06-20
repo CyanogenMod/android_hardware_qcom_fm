@@ -45,6 +45,69 @@
     <item>45 минути</item>
     <item>1 час</item>
   </string-array>
+  <string-array name="search_category_rbds_entries">
+    <item>Всички станции</item>
+    <item>Стари хитове</item>
+    <item>Класическа</item>
+    <item>Класически рок</item>
+    <item>Колежански</item>
+    <item>Държава</item>
+    <item>Извънредна ситуация</item>
+    <item>Авариен тест</item>
+    <item>Чужд език</item>
+    <item>Информация</item>
+    <item>Джаз</item>
+    <item>Новини</item>
+    <item>Носталгични</item>
+    <item>Ретро</item>
+    <item>Персонални</item>
+    <item>Публични</item>
+    <item>Религиозна музика</item>
+    <item>Религиозни разговори</item>
+    <item>Ритъм и блус</item>
+    <item>Рок</item>
+    <item>Нежна</item>
+    <item>Нежен рок</item>
+    <item>Нежен ритъм и блус</item>
+    <item>Спорт</item>
+    <item>Беседа</item>
+    <item>Топ 40</item>
+    <item>Прогноза за времето</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>Всички станции</item>
+    <item>Култура</item>
+    <item>Актуални събития</item>
+    <item>Детски програми</item>
+    <item>Кънтри музика</item>
+    <item>Документални</item>
+    <item>Драма</item>
+    <item>Мелодична музика</item>
+    <item>Образование</item>
+    <item>Извънредна ситуация</item>
+    <item>Авариен тест</item>
+    <item>Финанси</item>
+    <item>Народна музика</item>
+    <item>Информация</item>
+    <item>Джаз музика</item>
+    <item>Лека Класическа</item>
+    <item>Развлекателна Музика</item>
+    <item>Новини</item>
+    <item>Национална музика</item>
+    <item>Друга музика</item>
+    <item>Ретро музика</item>
+    <item>Обаждане</item>
+    <item>Поп музика</item>
+    <item>Религия</item>
+    <item>Рок музика</item>
+    <item>Наука</item>
+    <item>Сериозна класичесическа музика</item>
+    <item>Социални въпроси</item>
+    <item>Спорт</item>
+    <item>Пътуване</item>
+    <item>Разнообразни</item>
+    <item>Прогноза за времето</item>
+  </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 kHz</item>
     <item>100 kHz</item>

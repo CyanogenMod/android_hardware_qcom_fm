@@ -45,6 +45,69 @@
     <item>45 דקות</item>
     <item>שעה אחת</item>
   </string-array>
+  <string-array name="search_category_rbds_entries">
+    <item>כל התחנות</item>
+    <item>להיטים למבוגרים</item>
+    <item>קלאסי</item>
+    <item>רוק קלאסי</item>
+    <item>מכללות</item>
+    <item>קאנטרי</item>
+    <item>חירום</item>
+    <item>בדיקת חירום</item>
+    <item>שפה זרה</item>
+    <item>מידע</item>
+    <item>ג\'אז</item>
+    <item>חדשות</item>
+    <item>נוסטלגיה</item>
+    <item>אולדיז</item>
+    <item>אישיות</item>
+    <item>ציבורי</item>
+    <item>מוזיקה דתית</item>
+    <item>שיחות על דת</item>
+    <item>רית\'ם אנד בלוז</item>
+    <item>רוק</item>
+    <item>רך</item>
+    <item>רוק רך</item>
+    <item>רית\'ם אנד בלוז רך</item>
+    <item>ספורט</item>
+    <item>שיחות</item>
+    <item>ה-40 המובילים</item>
+    <item>מזג אוויר</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>כל התחנות</item>
+    <item>תרבות</item>
+    <item>אקטואליה</item>
+    <item>תוכניות ילדים</item>
+    <item>מוזיקת קאנטרי</item>
+    <item>תיעודי</item>
+    <item>דרמה</item>
+    <item>מוזיקה קלה להאזנה</item>
+    <item>חינוך</item>
+    <item>חירום</item>
+    <item>בדיקת חירום</item>
+    <item>כלכלה</item>
+    <item>מוזיקת פולק</item>
+    <item>מידע</item>
+    <item>מוזיקת ג\'אז</item>
+    <item>קלאסי קל</item>
+    <item>פנאי</item>
+    <item>חדשות</item>
+    <item>מוזיקה לאומית</item>
+    <item>מוזיקה אחרת</item>
+    <item>מוזיקת אולדיז</item>
+    <item>השתתפות מאזינים</item>
+    <item>מוזיקת פופ</item>
+    <item>דת</item>
+    <item>מוזיקת רוק</item>
+    <item>מדע</item>
+    <item>קלאסי רציני</item>
+    <item>נושאים חברתיים</item>
+    <item>ספורט</item>
+    <item>תיירות</item>
+    <item>מגוון</item>
+    <item>מזג אוויר</item>
+  </string-array>
   <string-array name="channel_spacing_entries">
     <item>50KHz</item>
     <item>100KHz</item>

@@ -45,6 +45,69 @@
     <item>45 minutos</item>
     <item>1 hora</item>
   </string-array>
+  <string-array name="search_category_rbds_entries">
+    <item>Todas las emisoras</item>
+    <item>Éxitos de siempre</item>
+    <item>Clásica</item>
+    <item>Rock clásico</item>
+    <item>Escuela</item>
+    <item>País</item>
+    <item>Emergencia</item>
+    <item>Prueba de emergencia</item>
+    <item>Lengua extranjera</item>
+    <item>Información</item>
+    <item>Jazz</item>
+    <item>Noticias</item>
+    <item>Nostalgia</item>
+    <item>Éxitos</item>
+    <item>Personalidad</item>
+    <item>Pública</item>
+    <item>Música religiosa</item>
+    <item>Temas religiosos</item>
+    <item>Rhythm and Blues</item>
+    <item>Rock</item>
+    <item>Suave</item>
+    <item>Rock suave</item>
+    <item>Rhythm and Blues suave</item>
+    <item>Deportes</item>
+    <item>Tertulias</item>
+    <item>Top 40</item>
+    <item>Clima</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>Todas las emisoras</item>
+    <item>Cultura</item>
+    <item>Actualidad</item>
+    <item>Programas infantiles</item>
+    <item>Música country</item>
+    <item>Documental</item>
+    <item>Drama</item>
+    <item>Música agradable</item>
+    <item>Educación</item>
+    <item>Emergencia</item>
+    <item>Prueba de emergencia</item>
+    <item>Finanzas</item>
+    <item>Música folk</item>
+    <item>Información</item>
+    <item>Música jazz</item>
+    <item>Clásica ligera</item>
+    <item>Ocio</item>
+    <item>Noticias</item>
+    <item>Música nacional</item>
+    <item>Otra música</item>
+    <item>Éxitos musicales</item>
+    <item>Por teléfono</item>
+    <item>Música pop</item>
+    <item>Religión</item>
+    <item>Música rock</item>
+    <item>Ciencia</item>
+    <item>Clásica rigurosa</item>
+    <item>Asuntos sociales</item>
+    <item>Deportes</item>
+    <item>Viajes</item>
+    <item>Variado</item>
+    <item>Clima</item>
+  </string-array>
   <string-array name="channel_spacing_entries">
     <item>50KHz</item>
     <item>100KHz</item>

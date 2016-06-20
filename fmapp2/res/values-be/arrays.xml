@@ -45,6 +45,69 @@
     <item>45 хвілін</item>
     <item>1 гадзіна</item>
   </string-array>
+  <string-array name="search_category_rbds_entries">
+    <item>All stations</item>
+    <item>Adult hits</item>
+    <item>Classical</item>
+    <item>Класічны рок</item>
+    <item>Каледж</item>
+    <item>Краіна</item>
+    <item>Emergency</item>
+    <item>Emergency test</item>
+    <item>Замежная мова</item>
+    <item>Інфармацыя</item>
+    <item>Джаз</item>
+    <item>News</item>
+    <item>Nostalgia</item>
+    <item>Oldies</item>
+    <item>Personality</item>
+    <item>Агульны</item>
+    <item>Рэлігійная музыка</item>
+    <item>Рэлігійныя размовы</item>
+    <item>Rhythm and Blues</item>
+    <item>Рок</item>
+    <item>Soft</item>
+    <item>Лёгкі рок</item>
+    <item>Лёгкі рытм і блюз</item>
+    <item>Sports</item>
+    <item>Talk</item>
+    <item>Top 40</item>
+    <item>Weather</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>All stations</item>
+    <item>Culture</item>
+    <item>Current affairs</item>
+    <item>Children programs</item>
+    <item>Country music</item>
+    <item>Documentary</item>
+    <item>Drama</item>
+    <item>Лёгкая музыка</item>
+    <item>Адукацыя</item>
+    <item>Emergency</item>
+    <item>Emergency test</item>
+    <item>Finance</item>
+    <item>Folk music</item>
+    <item>Інфармацыя</item>
+    <item>Jazz music</item>
+    <item>Light classical</item>
+    <item>Leisure</item>
+    <item>Навіны</item>
+    <item>Нацыянальная музыка</item>
+    <item>Іншая музыка</item>
+    <item>Oldies music</item>
+    <item>Phone in</item>
+    <item>Pop music</item>
+    <item>Рэлігія</item>
+    <item>Рок музыка</item>
+    <item>Science</item>
+    <item>Serious classical</item>
+    <item>Social affairs</item>
+    <item>Sport</item>
+    <item>Travel</item>
+    <item>Varied</item>
+    <item>Надвор\'е</item>
+  </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 кГц</item>
     <item>100 кГц</item>

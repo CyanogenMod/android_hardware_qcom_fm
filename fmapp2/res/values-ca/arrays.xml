@@ -45,6 +45,69 @@
     <item>45 minuts</item>
     <item>1 hora</item>
   </string-array>
+  <string-array name="search_category_rbds_entries">
+    <item>Totes les emissores</item>
+    <item>Èxits de sempre</item>
+    <item>Clàssica</item>
+    <item>Rock clàssic</item>
+    <item>Escola</item>
+    <item>Country</item>
+    <item>Emergència</item>
+    <item>Prova d\'Emergència</item>
+    <item>Llengües extrangeres</item>
+    <item>Informació</item>
+    <item>Jazz</item>
+    <item>Notícies</item>
+    <item>Nostàlgia</item>
+    <item>Oldies</item>
+    <item>Personalitats</item>
+    <item>Públiques</item>
+    <item>Música religiosa</item>
+    <item>Converses religioses</item>
+    <item>Rhythm and Blues</item>
+    <item>Rock</item>
+    <item>Suau</item>
+    <item>Rock suau</item>
+    <item>Rhythm and Blues suau</item>
+    <item>Esports</item>
+    <item>Converses</item>
+    <item>Top 40</item>
+    <item>El temps</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>Totes les emissores</item>
+    <item>Cultura</item>
+    <item>Actualitat</item>
+    <item>Programes infantils</item>
+    <item>Música Country</item>
+    <item>Documentals</item>
+    <item>Drames</item>
+    <item>Música agradable</item>
+    <item>Educació</item>
+    <item>Emergència</item>
+    <item>Prova d\'Emergència</item>
+    <item>Finances</item>
+    <item>Música Folk</item>
+    <item>Informació</item>
+    <item>Música Jazz</item>
+    <item>Clàssica lleugera</item>
+    <item>Lleure</item>
+    <item>Notícies</item>
+    <item>Música nacional</item>
+    <item>Altres músiques</item>
+    <item>Música oldies</item>
+    <item>Entrada Telèfon</item>
+    <item>Música Pop</item>
+    <item>Religiosa</item>
+    <item>Música Rock</item>
+    <item>Ciència</item>
+    <item>Clàssica seriosa</item>
+    <item>Temes socials</item>
+    <item>Esports</item>
+    <item>Viatges</item>
+    <item>Variada</item>
+    <item>El temps</item>
+  </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 Khz</item>
     <item>100 Khz</item>

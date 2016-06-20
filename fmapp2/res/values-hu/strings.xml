@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Törökország</string>
   <string name="regional_band_entry_united_kingdom">Egyesült Királyság</string>
   <string name="regional_band_entry_united_states">Egyesült Államok</string>
+  <string name="regional_band_entry_vietnam">Vietnám</string>
   <string name="regional_band_entry_user_defined">Felhasználó által meghatározott sáv</string>
   <string name="regional_band_summary_north_america">Észak-Amerika (87,5 MHz-től 108,0 MHz-ig 200 KHz-es lépésekben)</string>
   <string name="regional_band_summary_europe">Európa (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Törökország (87,5 MHz-tól 108,0 MHz-ig 100 KHz-es lépésekben)</string>
   <string name="regional_band_summary_united_kingdom">Egyesült Királyság (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</string>
   <string name="regional_band_summary_united_states">Egyesült Államok (88,1 MHz-től 107,9 MHz-ig 200 KHz-es lépésekben)</string>
+  <string name="regional_band_summary_vietnam">Vietnám (87,5 MHz-től 108,0 MHz-ig 100 KHz-es lépésekben)</string>
   <string name="regional_band_summary_user_defined">Felhasználó által meghatározott sáv</string>
   <string name="aud_output_mode">Audio kimeneti mód</string>
   <string name="audio_type_stereo">Sztereó</string>

@@ -45,6 +45,69 @@
     <item>45 minuter</item>
     <item>1 timme</item>
   </string-array>
+  <string-array name="search_category_rbds_entries">
+    <item>Alla stationer</item>
+    <item>Adult hits</item>
+    <item>Klassiskt</item>
+    <item>Klassisk rock</item>
+    <item>College</item>
+    <item>Country</item>
+    <item>Emergency</item>
+    <item>Emergency test</item>
+    <item>Foreign language</item>
+    <item>Information</item>
+    <item>Jazz</item>
+    <item>Nyheter</item>
+    <item>Nostalgi</item>
+    <item>Oldies</item>
+    <item>Personality</item>
+    <item>Public</item>
+    <item>Religious music</item>
+    <item>Religious talk</item>
+    <item>Rhythm and Blues</item>
+    <item>Rock</item>
+    <item>Soft</item>
+    <item>Soft Rock</item>
+    <item>Soft Rhythm and Blues</item>
+    <item>Sports</item>
+    <item>Talk</item>
+    <item>Topp 40</item>
+    <item>Väder</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>Alla stationer</item>
+    <item>Kultur</item>
+    <item>Current affairs</item>
+    <item>Barnprogram</item>
+    <item>Country music</item>
+    <item>Dokumentär</item>
+    <item>Drama</item>
+    <item>Easy listening music</item>
+    <item>Utbildning</item>
+    <item>Nödläge</item>
+    <item>Emergency test</item>
+    <item>Finans</item>
+    <item>Folkmusik</item>
+    <item>Information</item>
+    <item>Jazzmusik</item>
+    <item>Light classical</item>
+    <item>Leisure</item>
+    <item>News</item>
+    <item>National music</item>
+    <item>Other music</item>
+    <item>Oldies music</item>
+    <item>Phone in</item>
+    <item>Pop music</item>
+    <item>Religion</item>
+    <item>Rock music</item>
+    <item>Vetenskap</item>
+    <item>Serious classical</item>
+    <item>Social affairs</item>
+    <item>Sport</item>
+    <item>Resor</item>
+    <item>Varierat</item>
+    <item>Väder</item>
+  </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 KHz</item>
     <item>100 KHz</item>

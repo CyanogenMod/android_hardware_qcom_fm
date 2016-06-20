@@ -45,6 +45,69 @@
     <item>45 минут</item>
     <item>1 час</item>
   </string-array>
+  <string-array name="search_category_rbds_entries">
+    <item>Все станции</item>
+    <item>Хиты для взрослых</item>
+    <item>Классика</item>
+    <item>Классический рок</item>
+    <item>Студенческое радио</item>
+    <item>Country</item>
+    <item>Экстренные сообщ.</item>
+    <item>Тест экстренных сообщ.</item>
+    <item>Иностранные языки</item>
+    <item>Информация</item>
+    <item>Джаз</item>
+    <item>Новости</item>
+    <item>Ностальгия</item>
+    <item>Oldies</item>
+    <item>Персоналии</item>
+    <item>Общественные передачи</item>
+    <item>Религиозная музыка</item>
+    <item>Религиозные передачи</item>
+    <item>Ритм-энд-блюз</item>
+    <item>Рок</item>
+    <item>Спокойная музыка</item>
+    <item>Софт-рок</item>
+    <item>Лёгкий ритм-н-блюз</item>
+    <item>Спорт</item>
+    <item>Ток-шоу</item>
+    <item>Топ-40</item>
+    <item>Погода</item>
+  </string-array>
+  <string-array name="search_category_rds_entries">
+    <item>Все станции</item>
+    <item>Культура</item>
+    <item>Текущие события</item>
+    <item>Детские программы</item>
+    <item>Кантри</item>
+    <item>Документальные передачи</item>
+    <item>Драма</item>
+    <item>Лёгкая музыка</item>
+    <item>Образование</item>
+    <item>Экстренные сообщ.</item>
+    <item>Тест экстренных сообщ.</item>
+    <item>Финансы</item>
+    <item>Фолк</item>
+    <item>Информация</item>
+    <item>Джаз</item>
+    <item>Лёгкая классика</item>
+    <item>Досуг</item>
+    <item>Новости</item>
+    <item>Национальная музыка</item>
+    <item>Другая музыка</item>
+    <item>Старая музыка</item>
+    <item>Звонок в студию</item>
+    <item>Поп-музыка</item>
+    <item>Религия</item>
+    <item>Рок</item>
+    <item>Наука</item>
+    <item>Классическая музыка</item>
+    <item>Социальные передачи</item>
+    <item>Спорт</item>
+    <item>Путешествия</item>
+    <item>Разное</item>
+    <item>Погода</item>
+  </string-array>
   <string-array name="channel_spacing_entries">
     <item>50 кГц</item>
     <item>100 кГц</item>
