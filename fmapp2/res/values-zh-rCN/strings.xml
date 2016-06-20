@@ -153,6 +153,8 @@
   <string name="typ_Soft">轻音乐</string>
   <string name="typ_Soft_Rock">轻摇滚</string>
   <string name="typ_Soft_Rhythm_and_Blues">轻节奏布鲁斯</string>
+  <string name="typ_Spanish_music">西班牙音乐</string>
+  <string name="typ_Spanish_talk">西班牙语谈话</string>
   <string name="typ_Sports">体育</string>
   <string name="typ_Talk">交流</string>
   <string name="typ_Top_40">前 40</string>

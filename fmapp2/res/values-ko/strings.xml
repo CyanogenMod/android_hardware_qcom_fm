@@ -153,6 +153,8 @@
   <string name="typ_Soft">소프트</string>
   <string name="typ_Soft_Rock">소프트 락</string>
   <string name="typ_Soft_Rhythm_and_Blues">소프트 리듬 앤 블루스</string>
+  <string name="typ_Spanish_music">스페인 음악</string>
+  <string name="typ_Spanish_talk">스페인어 대화</string>
   <string name="typ_Sports">스포츠</string>
   <string name="typ_Talk">토크</string>
   <string name="typ_Top_40">상위 40</string>

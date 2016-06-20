@@ -153,6 +153,8 @@
   <string name="typ_Soft">Mahemuusika</string>
   <string name="typ_Soft_Rock">Pehme Rokk</string>
   <string name="typ_Soft_Rhythm_and_Blues">Pehme Rütm ja Bluus</string>
+  <string name="typ_Spanish_music">Hispaania muusika</string>
+  <string name="typ_Spanish_talk">Hispaania jutt</string>
   <string name="typ_Sports">Sport</string>
   <string name="typ_Talk">Jutt</string>
   <string name="typ_Top_40">Top 40</string>

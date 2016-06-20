@@ -153,6 +153,8 @@
   <string name="typ_Soft">Suave</string>
   <string name="typ_Soft_Rock">Rock suave</string>
   <string name="typ_Soft_Rhythm_and_Blues">Rhythm and Blues suave</string>
+  <string name="typ_Spanish_music">Música española</string>
+  <string name="typ_Spanish_talk">Conversación en español</string>
   <string name="typ_Sports">Deportes</string>
   <string name="typ_Talk">Tertulias</string>
   <string name="typ_Top_40">Top 40</string>

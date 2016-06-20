@@ -153,6 +153,8 @@
   <string name="typ_Soft">ซอฟต์</string>
   <string name="typ_Soft_Rock">ซอฟต์ร็อค</string>
   <string name="typ_Soft_Rhythm_and_Blues">แนวซอฟต์ริทึมแอนด์บลูส์</string>
+  <string name="typ_Spanish_music">แนวเพลงสเปน</string>
+  <string name="typ_Spanish_talk">การสนทนาภาษาสเปน</string>
   <string name="typ_Sports">กีฬา</string>
   <string name="typ_Talk">สนทนา</string>
   <string name="typ_Top_40">40 อันดับสูงสุด</string>

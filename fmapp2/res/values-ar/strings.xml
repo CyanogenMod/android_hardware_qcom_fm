@@ -153,6 +153,8 @@
   <string name="typ_Soft">ناعم</string>
   <string name="typ_Soft_Rock">صاخب ناعم</string>
   <string name="typ_Soft_Rhythm_and_Blues">ريذم أند بلوز مريح</string>
+  <string name="typ_Spanish_music">الموسيقى الإسبانية</string>
+  <string name="typ_Spanish_talk">البرامج الإسبانية</string>
   <string name="typ_Sports">رياضات</string>
   <string name="typ_Talk">الحديث</string>
   <string name="typ_Top_40">أعلى 40</string>
