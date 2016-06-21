@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">טורקיה</string>
   <string name="regional_band_entry_united_kingdom">בריטניה</string>
   <string name="regional_band_entry_united_states">ארצות הברית</string>
+  <string name="regional_band_entry_vietnam">וייטנאם</string>
   <string name="regional_band_entry_user_defined">טווח מותאם אישית</string>
   <string name="regional_band_summary_north_america">צפון אמריקה (87.5MHz עד 108.0MHz בקפיצות של 200KHz)</string>
   <string name="regional_band_summary_europe">אירופה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">טורקיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
   <string name="regional_band_summary_united_kingdom">בריטניה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
   <string name="regional_band_summary_united_states">ארצות הברית (88.1MHz עד 107.9MHz בקפיצות של 200KHz)</string>
+  <string name="regional_band_summary_vietnam">וייטנאם (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
   <string name="regional_band_summary_user_defined">טווח מותאם אישית</string>
   <string name="aud_output_mode">מצב פלט שמע</string>
   <string name="audio_type_stereo">סטריאו</string>

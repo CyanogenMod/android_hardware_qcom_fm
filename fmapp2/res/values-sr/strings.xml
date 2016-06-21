@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Турска</string>
   <string name="regional_band_entry_united_kingdom">Велика Британија</string>
   <string name="regional_band_entry_united_states">Сједињене Државе</string>
+  <string name="regional_band_entry_vietnam">Вијетнам</string>
   <string name="regional_band_entry_user_defined">Корисник дефинише бенд</string>
   <string name="regional_band_summary_north_america">Северна Америка (87.5MHz to 108.0MHz in 200 KHz steps)</string>
   <string name="regional_band_summary_europe">Европа (87.5MHz to 108.0MHz in 100 KHz steps)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Турска (87.5MHz to 108.0MHz in 100 KHz steps)</string>
   <string name="regional_band_summary_united_kingdom">Велика Британија (87.5MHz to 108.0MHz in 100 KHz steps)</string>
   <string name="regional_band_summary_united_states">Сједињене државе (88.1MHz to 107.9MHz in 200 KHz steps)</string>
+  <string name="regional_band_summary_vietnam">Вијетнам (87.5MHz дo 108.0MHz у 100 KHz корацима)</string>
   <string name="regional_band_summary_user_defined">Корисник дефинише бенд</string>
   <string name="aud_output_mode">Режим аудио излаза</string>
   <string name="audio_type_stereo">Стерео</string>
