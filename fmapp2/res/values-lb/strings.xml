@@ -78,6 +78,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Deng SD-Kaart huet geschwë kee fräie Späicher méi. Änner d\'Qualitéitsastellung oder läsch e puer Fichiere fir Plaz fräizemaachen.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Gréisstelimitt ass erreecht.</string>
   <string name="menu_scan_for_preset">No Sendere sichen</string>
   <!-- Off messages -->
   <string name="fm_off">FM ass ausgeschalt.</string>
@@ -93,9 +94,13 @@
   <string name="fm_cmd_failed_call_on">Radio-Operatioun feelgeschloen. Während engem Uruff ka kee Radio gelauschtert ginn.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd/MM/yyyy HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Meng Radioopnamen</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Radioopnamen</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Radioopnamen</string>
   <string name="station_name">Statioun:</string>
   <string name="station_exists">Dës Frequenz existéiert schon!</string>
   <string name="station_list_delete_station">Läschen: <xliff:g id="name">%s</xliff:g></string>
@@ -107,6 +112,7 @@
   <string name="usr_def_band_max">Héchst Frequenz (Mhz)</string>
   <string name="chanl_spacing">Kanalofstand</string>
   <string name="set">Setzen</string>
+  <string name="save_record_file">Fichier vun der Radioopnam ënner \'<xliff:g id="record_file">%1$s</xliff:g>\' gespäichert</string>
   <string name="fm_search_no_results">Keng kompatibel Statioune fonnt</string>
   <!-- program types -->
   <string name="typ_All_stations">All d\'Senderen</string>
