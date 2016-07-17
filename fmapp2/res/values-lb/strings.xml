@@ -112,6 +112,7 @@
   <string name="usr_def_band_max">Héchst Frequenz (Mhz)</string>
   <string name="chanl_spacing">Kanalofstand</string>
   <string name="set">Setzen</string>
+  <string name="user_defind_band_msg">Gëff eng Frequenz tëschent 76,0 an 108,0 MHz mat engem Mindestofstand vun engem Kanal an engem Ofstand vun 100 KHz tëschent minimaler a maximaler Frequenz an</string>
   <string name="save_record_file">Fichier vun der Radioopnam ënner \'<xliff:g id="record_file">%1$s</xliff:g>\' gespäichert</string>
   <string name="fm_search_no_results">Keng kompatibel Statioune fonnt</string>
   <!-- program types -->
