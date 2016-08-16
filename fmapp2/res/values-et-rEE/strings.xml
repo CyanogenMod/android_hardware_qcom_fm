@@ -78,6 +78,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Teie SD-kaardi vaba ruum on otsakorral. Muutke kvaliteediseadeid või kustutage mõni fail ruumi vabastamiseks.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Suurus saavutatud.</string>
   <string name="menu_scan_for_preset">Näita eelmääratuid</string>
   <!-- Off messages -->
   <string name="fm_off">FM on välja lülitatud.</string>
@@ -93,9 +94,13 @@
   <string name="fm_cmd_failed_call_on">FM toiming nurjus. FM audio pole saadaval kõne ajal.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Minu FM-salvestised</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM-salvestised</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM-salvestised</string>
   <string name="station_name">Jaam:</string>
   <string name="station_exists">See sagedus on juba olemas!</string>
   <string name="station_list_delete_station">Kustuta: <xliff:g id="name"> %s </xliff:g></string>
@@ -107,6 +112,8 @@
   <string name="usr_def_band_max">Kõrgeim sagedus (MHz)</string>
   <string name="chanl_spacing">Kanalisamm</string>
   <string name="set">Määra</string>
+  <string name="user_defind_band_msg">Sisestage vähemalt üks kanal vahemikus 76,0-108,0 MHz, mis on vähemalt 100 KHz laiune</string>
+  <string name="save_record_file">FM salvestus talletatud \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Ei leitud ühtegi ühilduvat jaama</string>
   <!-- program types -->
   <string name="typ_All_stations">Kõik jaamad</string>
