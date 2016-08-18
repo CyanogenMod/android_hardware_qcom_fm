@@ -31,7 +31,7 @@
 <resources>
   <string-array name="ster_mon_entries">
     <item>Stereo</item>
-    <item>Tunggal</item>
+    <item>Mono</item>
   </string-array>
   <string-array name="ster_entries">
     <item>Stereo</item>
