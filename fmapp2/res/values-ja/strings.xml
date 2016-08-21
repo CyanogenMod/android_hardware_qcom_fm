@@ -78,6 +78,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SDカードのストレージの容量が少なくなっています。音質の設定を変更するか、容量を空けるために他のファイルを一部削除してください。</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">サイズの上限に達しました。</string>
   <string name="menu_scan_for_preset">プリセットをスキャン</string>
   <!-- Off messages -->
   <string name="fm_off">FMはOFFになっています。</string>
