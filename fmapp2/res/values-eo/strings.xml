@@ -34,6 +34,7 @@
   <string name="menu_scan_stop">Halti serĉadon</string>
   <string name="menu_record_start">Registri</string>
   <string name="menu_record_stop">Ĉesi registron</string>
+  <string name="menu_settings">Agordoj</string>
   <string name="menu_sleep_cancel">Nuligi dormadon</string>
   <string name="menu_all_channels">Ĉiuj kanaloj</string>
   <string name="menu_display_tags">Montri etikedojn</string>
