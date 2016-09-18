@@ -78,6 +78,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">A súa tarxeta de almacenaxe SD xa non ten espazo. Cambie o axuste de calidade ou elimine algúns ficheiros para liberar espazo.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Acadouse o límite de tamaño.</string>
   <string name="menu_scan_for_preset">Buscar predefinidas</string>
   <!-- Off messages -->
   <string name="fm_off">O transmisor de FM está apagado.</string>
@@ -93,9 +94,13 @@
   <string name="fm_cmd_failed_call_on">Fallou a operación de FM. Non se permite que soe o transmisor de FM durante unha chamada.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">As miñas gravacións de radio</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Gravacións de radio</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Gravacións de radio</string>
   <string name="station_name">Emisora:</string>
   <string name="station_exists">Esta frecuencia xa existe!</string>
   <string name="station_list_delete_station">Eliminar: <xliff:g id="name">%s</xliff:g></string>
@@ -107,6 +112,8 @@
   <string name="usr_def_band_max">Frecuencia máis alta (MHz)</string>
   <string name="chanl_spacing">Espazamento da canle</string>
   <string name="set">Estabelecer</string>
+  <string name="user_defind_band_msg">Inserir unha frecuencia entre 76.0 e 108.0 MHz polo menos cunha canle de espazo e 100KHz entre a frecuencia mínima e a máxima</string>
+  <string name="save_record_file">Gravación de radio gardada en \"<xliff:g id="record_file">%1$s</xliff:g>\"</string>
   <string name="fm_search_no_results">Non se atopou ningunha emisora compatíbel.</string>
   <!-- program types -->
   <string name="typ_All_stations">Todas as emisoras</string>
