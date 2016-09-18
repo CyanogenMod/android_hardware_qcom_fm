@@ -30,11 +30,8 @@
 -->
 <resources>
   <string-array name="ster_mon_entries">
-    <item>Dukanale</item>
+    <item>Stereo</item>
     <item>Unuflanka</item>
-  </string-array>
-  <string-array name="ster_entries">
-    <item>Dukanale</item>
   </string-array>
   <string-array name="record_durations_entries">
     <item>5 minutoj</item>

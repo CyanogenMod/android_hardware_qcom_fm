@@ -29,7 +29,6 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">FM Radio</string>
   <string name="tx_app_name">FM Sendostacio</string>
   <string name="menu_scan_stop">Halti serĉadon</string>
   <string name="menu_record_start">Registri</string>
@@ -49,7 +48,6 @@
   <string name="presetlist_select_name">Elekti \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
   <string name="presetlist_add_new">Aldoni novan liston</string>
   <string name="dialog_presetlist_rename_title">Tajpu nomon</string>
-  <string name="presetlist_autoselect_title">Konfirmi aŭtomatan elekton</string>
   <string name="preset_replace">Anstataŭigi</string>
   <string name="preset_tune">Agordeti</string>
   <string name="preset_search">Serĉante \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
