@@ -30,7 +30,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
-  <string name="no_storage">Muntu la SD-karton antaŭ ol komenci la registradon.</string>
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <string name="preparing_sd">Pretigado de la SD-karto</string>
   <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
