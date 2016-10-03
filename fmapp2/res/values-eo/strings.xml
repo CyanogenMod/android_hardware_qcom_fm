@@ -29,73 +29,20 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="tx_app_name">FM Sendostacio</string>
-  <string name="menu_scan_stop">Halti serĉadon</string>
-  <string name="menu_record_start">Registri</string>
-  <string name="menu_record_stop">Ĉesi registron</string>
   <string name="menu_settings">Agordoj</string>
-  <string name="menu_sleep_cancel">Nuligi dormadon</string>
-  <string name="menu_all_channels">Ĉiuj kanaloj</string>
-  <string name="menu_display_tags">Montri etikedojn</string>
-  <string name="msg_seeking">Serĉado de FM kanalo\u2026</string>
-  <string name="msg_scanning">Esplorado de ĉiuj FM kanaloj\u2026</string>
-  <string name="msg_scanning_pty">Esplorado por \'<xliff:g id="pty_name">%1$s</xliff:g>\'\u2026</string>
-  <string name="msg_search_title"><xliff:g id="frequency_string">%1$s</xliff:g> MHz</string>
-  <string name="msg_searching_title">Antaŭagordoj de aŭtomataj elektoj</string>
-  <string name="msg_searching">Serĉado de bonkvalitaj radiostacioj por krei liston de antaŭagordoj\u2026</string>
-  <string name="msg_noantenna">Bonvolu konekti kapaŭskultilon por uzi FM radion</string>
-  <string name="dialog_sleep_title">Daŭro de aŭtomata cêsado</string>
-  <string name="presetlist_select_name">Elekti \'<xliff:g id="presetlist_name">%1$s</xliff:g>\'</string>
-  <string name="presetlist_add_new">Aldoni novan liston</string>
-  <string name="dialog_presetlist_rename_title">Tajpu nomon</string>
-  <string name="preset_replace">Anstataŭigi</string>
-  <string name="preset_tune">Agordeti</string>
-  <string name="preset_search">Serĉante \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
-  <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
-  <string name="regional_band">Regiona bendo</string>
-  <string name="aud_output_mode">Reĝimo de sonaj eligoj</string>
-  <string name="audio_type_mono">Unuflanka</string>
-  <string name="record_dur">Daŭro de registrado</string>
-  <string name="auto_select_af">Anstataŭa frekvenco</string>
-  <string name="settings_revert_defaults_title">Reiri al la originalaj defaŭltoj</string>
-  <string name="settings_revert_defaults_summary">Restarigi ĉiujn agordojn</string>
-  <string name="settings_revert_confirm_title">Konfirmi restarigon</string>
-  <string name="settings_revert_confirm_msg">Tio forigos ĉiujn agordojn, inkluzive la konservitajn antaŭagordojn. Ĉu vi deziras daŭrigi?</string>
+  <string name="preset_delete">Forigi</string>
   <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
-  <string name="preparing_sd">Preparado de la SD-karto</string>
   <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
-  <string name="spaceIsLow_content">Via SD-karto preskaŭ ne plu havas disponeblan spacon. Ŝanĝu la agordojn pri kvaliteco aŭ forigu kelkajn aliajn dosierojn por liberigi spacon.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
-  <string name="menu_scan_for_preset">Esplorante por antaŭagordoj</string>
   <!-- Off messages -->
-  <string name="fm_off">FM radio estas malŝaltita.</string>
-  <string name="fm_call">FM ne povas esti uzata dum konversacio.</string>
   <!-- The messsage shown when long pressed on a station. -->
-  <string name="alert_dialog_hint">Tajpu nomon</string>
-  <string name="search_dialog_title">Esplori kanalojn</string>
-  <string name="fm_command_timeout_title">Tempolimo</string>
-  <string name="fm_tune_timeout_msg">Neniu respondo alvenis por agordi la radiostacion. Se la problemo daŭras, bonvolu malŝalti FM kaj donove ŝalti ĝin.</string>
-  <string name="fm_command_failed_title">FM operacio fisakis</string>
-  <string name="fm_cmd_failed_msg">FM operacio fisakis. Se la problemo daŭras, bonvolu malŝalti FM kaj denove ŝalti ĝin.</string>
-  <string name="fm_cmd_failed_msg_hdmi">FM operacio fisakis. FM kaj HDMI ne povas estis uzataj samtempe.</string>
-  <string name="fm_cmd_failed_call_on">FM operacio fisakis. Vi ne rajtas uzi FM dum konversacio.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <!-- all recordings will show up in the media database with this 'artist' name -->
   <!-- all recordings will show up in the media database with this 'album' name -->
   <!-- all recordings will show up in the media database in a playlist with this name -->
-  <string name="station_name">Kanalo:</string>
-  <string name="station_exists">Tiu frekvenco jam ekzistas!</string>
-  <string name="station_list_delete_station">Forigi: <xliff:g id="name">%s</xliff:g></string>
-  <string name="station_list_delete_station_prompt">Ĉu vi certas forigi  \'<xliff:g id="name">%s</xliff:g>\'?</string>
-  <string name="station_name_empty">La nomo de la stacio estas malplena, bonvolu tajpi denove.</string>
-  <string name="station_name_exist">\'<xliff:g id="name">%s</xliff:g>\' jam estas uzata. Bonvolu tajpi alian nomon.</string>
-  <string name="usr_def_band_min">Plej malalta frekvenco (MHz)</string>
-  <string name="usr_def_band_max">Plej alta frekvenco (MHz)</string>
-  <string name="chanl_spacing">Distanco inter kanaloj</string>
-  <string name="fm_search_no_results">Neniuj kongruaj stacioj trovitaj</string>
   <!-- program types -->
   <!-- RBDS (North America) -->
 </resources>
