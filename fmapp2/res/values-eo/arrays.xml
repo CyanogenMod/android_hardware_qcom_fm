@@ -44,41 +44,81 @@
   <string-array name="regional_band_entries">
     <item>North America</item>
     <item>Eŭropo</item>
-    <item>Japan</item>
+    <item>Japanujo</item>
     <item>Japan (wide)</item>
-    <item>Australia</item>
-    <item>Austria</item>
-    <item>Belgium</item>
-    <item>Brazil</item>
-    <item>China</item>
-    <item>Czech Republic</item>
-    <item>Denmark</item>
-    <item>Finland</item>
-    <item>France</item>
-    <item>Germany</item>
-    <item>Greece</item>
-    <item>Hong Kong</item>
-    <item>India</item>
-    <item>Ireland</item>
-    <item>Italy</item>
-    <item>Korea</item>
-    <item>Mexico</item>
+    <item>Aŭstralio</item>
+    <item>Aŭstrujo</item>
+    <item>Belgujo</item>
+    <item>Brazilo</item>
+    <item>Ĉinujo</item>
+    <item>Ĉeĥujo</item>
+    <item>Danujo</item>
+    <item>Finnlando</item>
+    <item>Francujo</item>
+    <item>Germanujo</item>
+    <item>Grekujo</item>
+    <item>Honkongo</item>
+    <item>Barato</item>
+    <item>Irlando</item>
+    <item>Italujo</item>
+    <item>Koreujo</item>
+    <item>Meksiko</item>
     <item>Nederlando</item>
-    <item>New Zealand</item>
-    <item>Norway</item>
-    <item>Poland</item>
-    <item>Portugal</item>
-    <item>Russia</item>
-    <item>Singapore</item>
-    <item>Slovakia</item>
-    <item>Spain</item>
-    <item>Switzerland</item>
-    <item>Sweden</item>
-    <item>Taiwan</item>
-    <item>Turkey</item>
+    <item>Nov-Zelando</item>
+    <item>Norvegujo</item>
+    <item>Pollando</item>
+    <item>Portugalujo</item>
+    <item>Rusujo</item>
+    <item>Singapuro</item>
+    <item>Slovakujo</item>
+    <item>Hispanujo</item>
+    <item>Svislando</item>
+    <item>Svedujo</item>
+    <item>Tajvano</item>
+    <item>Turkujo</item>
     <item>United Kingdom</item>
     <item>United States</item>
     <item>User defined band</item>
-    <item>Indonesia</item>
+    <item>Indonezio</item>
+  </string-array>
+  <string-array name="regional_band_summary">
+    <item>North America (87.5MHz to 108.0MHz in 200 KHz steps)</item>
+    <item>Eŭropo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Japanujo (76,0 MHz ĝis 90,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Japan (wide) (90.0MHz to 108.0MHz in 50 KHz steps)</item>
+    <item>Aŭstralio (87,7 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Aŭstrujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 50 kHz)</item>
+    <item>Belgujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Brazilo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 200 kHz)</item>
+    <item>Ĉinujo (87,0 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Ĉeĥujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Danujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 50 kHz)</item>
+    <item>Finnlando (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Francujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Germanujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 50 kHz)</item>
+    <item>Grekujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 50 kHz)</item>
+    <item>Honkongo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Barato (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Irlando (87,5 MHz ĝis 108,0 MHz kun paŝoj po 50 kHz)</item>
+    <item>Italujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 50 kHz)</item>
+    <item>Koreujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 200 kHz)</item>
+    <item>Meksiko (88,1 MHz ĝis 107,9 MHz kun paŝoj po 200 kHz)</item>
+    <item>Nederlando (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Nov-Zelando (88,0 MHz ĝis 107,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Norvegujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Pollando (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Portugalujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 50 kHz)</item>
+    <item>Rusujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Singapuro (88,0 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Slovakujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Hispanujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Svislando (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Svedujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Tajvano (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>Turkujo (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
+    <item>United Kingdom (87.5MHz to 108.0MHz in 100 KHz steps)</item>
+    <item>United States (88.1MHz to 107.9MHz in 200 KHz steps)</item>
+    <item>User defined band</item>
+    <item>Indonezio (87,5 MHz ĝis 108,0 MHz kun paŝoj po 100 kHz)</item>
   </string-array>
 </resources>
