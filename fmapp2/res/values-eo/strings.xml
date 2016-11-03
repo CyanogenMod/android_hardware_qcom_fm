@@ -31,6 +31,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="menu_settings">Agordoj</string>
   <string name="preset_delete">Forigi</string>
+  <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
   <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
