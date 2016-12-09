@@ -60,6 +60,82 @@
   <string name="preset_search">No \'<xliff:g id="preset_pi">%1$s</xliff:g>\' sichen</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="regional_band">Regional Frequenz</string>
+  <string name="regional_band_entry_north_america">Nordamerika</string>
+  <string name="regional_band_entry_europe">Europa</string>
+  <string name="regional_band_entry_japan">Japan</string>
+  <string name="regional_band_entry_japan_wide">Japan (breet)</string>
+  <string name="regional_band_entry_australia">Australien</string>
+  <string name="regional_band_entry_austria">Éisterräich</string>
+  <string name="regional_band_entry_belgium">Belsch</string>
+  <string name="regional_band_entry_brazil">Brasilien</string>
+  <string name="regional_band_entry_china">China</string>
+  <string name="regional_band_entry_czech_republic">Tschechesch Republik</string>
+  <string name="regional_band_entry_denmark">Dänemark</string>
+  <string name="regional_band_entry_finland">Finnland</string>
+  <string name="regional_band_entry_france">Frankräich</string>
+  <string name="regional_band_entry_germany">Däitschland</string>
+  <string name="regional_band_entry_greece">Griecheland</string>
+  <string name="regional_band_entry_hong_kong">Hongkong</string>
+  <string name="regional_band_entry_india">Indien</string>
+  <string name="regional_band_entry_indonesia">Indonesien</string>
+  <string name="regional_band_entry_ireland">Irland</string>
+  <string name="regional_band_entry_italy">Italien</string>
+  <string name="regional_band_entry_korea">Korea</string>
+  <string name="regional_band_entry_mexico">Mexiko</string>
+  <string name="regional_band_entry_netherlands">Nidderlanden</string>
+  <string name="regional_band_entry_new_zealand">Neiséiland</string>
+  <string name="regional_band_entry_norway">Norwegen</string>
+  <string name="regional_band_entry_poland">Polen</string>
+  <string name="regional_band_entry_portugal">Portugal</string>
+  <string name="regional_band_entry_russia">Russland</string>
+  <string name="regional_band_entry_singapore">Singapur</string>
+  <string name="regional_band_entry_slovakia">Slovakei</string>
+  <string name="regional_band_entry_spain">Spuenien</string>
+  <string name="regional_band_entry_switzerland">Schwäiz</string>
+  <string name="regional_band_entry_sweden">Schweden</string>
+  <string name="regional_band_entry_taiwan">Taiwan</string>
+  <string name="regional_band_entry_turkey">Türkei</string>
+  <string name="regional_band_entry_united_kingdom">Groussbritannien</string>
+  <string name="regional_band_entry_united_states">USA</string>
+  <string name="regional_band_entry_user_defined">Benotzerdefinéiert Frequenzband</string>
+  <string name="regional_band_summary_north_america">Nordamerika (87.5MHz bis 108.0MHz an 200-KHz-Schrëtter)</string>
+  <string name="regional_band_summary_europe">Europa (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_japan">Japan (76,0 MHz bis 90,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_japan_wide">Japan (breet) (90,0 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_australia">Australien (87,7 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_austria">Éisterräich (87,5 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_belgium">Belsch (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_brazil">Brasilien (87,5 MHz bis 108,0 MHz an 200-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_china">China (87,0 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_czech_republic">Czech Republic (87.5MHz to 108.0MHz in 100 KHz steps)</string>
+  <string name="regional_band_summary_denmark">Dänemark (87,5 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_finland">Finnland (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_france">Frankräich (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_germany">Däitschland (87,5 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_greece">Griecheland (87,5 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_hong_kong">Hongkong (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_india">Indien (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_indonesia">Indonesien (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_ireland">Irland (87,5 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_italy">Italien (87,5 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_korea">Korea (87,5 MHz bis 108,0 MHz an 200-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_mexico">Mexiko (88,1 MHz bis 107,9 MHz an 200-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_netherlands">Nidderlanden (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_new_zealand">Neiséiland (88,0 MHz bis 107,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_norway">Norwegen (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_poland">Polen (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_portugal">Portugal (87,5 MHz bis 108,0 MHz a 50-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_russia">Russland (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_singapore">Singapur (88,0 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_slovakia">Slowakei (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_spain">Spuenien (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_switzerland">Schwäiz (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_sweden">Schweden (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_taiwan">Taiwan (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_turkey">Türkei (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_united_kingdom">Groussbritannien (87,5 MHz bis 108,0 MHz an 100-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_united_states">USA (88,1 MHz bis 107,9 MHz an 200-kHz-Schrëtter)</string>
+  <string name="regional_band_summary_user_defined">Benotzerdefinéiert Frequenzband</string>
   <string name="aud_output_mode">Toun-Ausganks-Modus</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
@@ -78,6 +154,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Deng SD-Kaart huet geschwë kee fräie Späicher méi. Änner d\'Qualitéitsastellung oder läsch e puer Fichiere fir Plaz fräizemaachen.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Gréisstelimitt ass erreecht.</string>
   <string name="menu_scan_for_preset">No Sendere sichen</string>
   <!-- Off messages -->
   <string name="fm_off">FM ass ausgeschalt.</string>
@@ -93,9 +170,13 @@
   <string name="fm_cmd_failed_call_on">Radio-Operatioun feelgeschloen. Während engem Uruff ka kee Radio gelauschtert ginn.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd/MM/yyyy HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Meng Radioopnamen</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Radioopnamen</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Radioopnamen</string>
   <string name="station_name">Statioun:</string>
   <string name="station_exists">Dës Frequenz existéiert schon!</string>
   <string name="station_list_delete_station">Läschen: <xliff:g id="name">%s</xliff:g></string>
@@ -107,6 +188,8 @@
   <string name="usr_def_band_max">Héchst Frequenz (Mhz)</string>
   <string name="chanl_spacing">Kanalofstand</string>
   <string name="set">Setzen</string>
+  <string name="user_defind_band_msg">Gëff eng Frequenz tëschent 76,0 an 108,0 MHz mat engem Mindestofstand vun engem Kanal an engem Ofstand vun 100 KHz tëschent minimaler a maximaler Frequenz an</string>
+  <string name="save_record_file">Fichier vun der Radioopnam ënner \'<xliff:g id="record_file">%1$s</xliff:g>\' gespäichert</string>
   <string name="fm_search_no_results">Keng kompatibel Statioune fonnt</string>
   <!-- program types -->
   <string name="typ_All_stations">All d\'Senderen</string>

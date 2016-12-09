@@ -60,6 +60,82 @@
   <string name="preset_search">חיפוש עבור \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\"<xliff:g id="frequency">%1$s</xliff:g>\" MHz</string>
   <string name="regional_band">טווח אזורי</string>
+  <string name="regional_band_entry_north_america">צפון אמריקה</string>
+  <string name="regional_band_entry_europe">אירופה</string>
+  <string name="regional_band_entry_japan">יפן</string>
+  <string name="regional_band_entry_japan_wide">יפן (רחב)</string>
+  <string name="regional_band_entry_australia">אוסטרליה</string>
+  <string name="regional_band_entry_austria">אוסטריה</string>
+  <string name="regional_band_entry_belgium">בלגיה</string>
+  <string name="regional_band_entry_brazil">ברזיל</string>
+  <string name="regional_band_entry_china">סין</string>
+  <string name="regional_band_entry_czech_republic">צ\'כיה</string>
+  <string name="regional_band_entry_denmark">דנמרק</string>
+  <string name="regional_band_entry_finland">פינלנד</string>
+  <string name="regional_band_entry_france">צרפת</string>
+  <string name="regional_band_entry_germany">גרמניה</string>
+  <string name="regional_band_entry_greece">יוון</string>
+  <string name="regional_band_entry_hong_kong">הונג קונג</string>
+  <string name="regional_band_entry_india">הודו</string>
+  <string name="regional_band_entry_indonesia">אינדונזיה</string>
+  <string name="regional_band_entry_ireland">אירלנד</string>
+  <string name="regional_band_entry_italy">איטליה</string>
+  <string name="regional_band_entry_korea">קוריאה</string>
+  <string name="regional_band_entry_mexico">מקסיקו</string>
+  <string name="regional_band_entry_netherlands">הולנד</string>
+  <string name="regional_band_entry_new_zealand">ניו זילנד</string>
+  <string name="regional_band_entry_norway">נורווגיה</string>
+  <string name="regional_band_entry_poland">פולין</string>
+  <string name="regional_band_entry_portugal">פורטוגל</string>
+  <string name="regional_band_entry_russia">רוסיה</string>
+  <string name="regional_band_entry_singapore">סינגפור</string>
+  <string name="regional_band_entry_slovakia">סלובקיה</string>
+  <string name="regional_band_entry_spain">ספרד</string>
+  <string name="regional_band_entry_switzerland">שוויץ</string>
+  <string name="regional_band_entry_sweden">שוודיה</string>
+  <string name="regional_band_entry_taiwan">טייוואן</string>
+  <string name="regional_band_entry_turkey">טורקיה</string>
+  <string name="regional_band_entry_united_kingdom">בריטניה</string>
+  <string name="regional_band_entry_united_states">ארצות הברית</string>
+  <string name="regional_band_entry_user_defined">טווח מותאם אישית</string>
+  <string name="regional_band_summary_north_america">צפון אמריקה (87.5MHz עד 108.0MHz בקפיצות של 200KHz)</string>
+  <string name="regional_band_summary_europe">אירופה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_japan">יפן (76.0MHz עד 90.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_japan_wide">יפן (רחב) (90.0MHz עד 108.0MHz בקפיצות של 50KHz)</string>
+  <string name="regional_band_summary_australia">אוסטרליה (87.7MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_austria">אוסטריה (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</string>
+  <string name="regional_band_summary_belgium">בלגיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_brazil">ברזיל (87.5MHz עד 108.0MHz בקפיצות של 200KHz)</string>
+  <string name="regional_band_summary_china">סין (87.0MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_czech_republic">צ\'כיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_denmark">דנמרק (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</string>
+  <string name="regional_band_summary_finland">פינלנד (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_france">צרפת (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_germany">גרמניה (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</string>
+  <string name="regional_band_summary_greece">יוון (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</string>
+  <string name="regional_band_summary_hong_kong">הונג-קונג (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_india">הודו (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_indonesia">אינדונזיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_ireland">אירלנד (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</string>
+  <string name="regional_band_summary_italy">איטליה (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</string>
+  <string name="regional_band_summary_korea">קוריאה (87.5MHz עד 108.0MHz בקפיצות של 200KHz)</string>
+  <string name="regional_band_summary_mexico">מקסיקו (88.1MHz עד 107.9MHz בקפיצות של 200KHz)</string>
+  <string name="regional_band_summary_netherlands">הולנד (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_new_zealand">ניו זילנד (88.0MHz עד 107.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_norway">נורווגיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_poland">פולין (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_portugal">פורטוגל (87.5MHz עד 108.0MHz בקפיצות של 50KHz)</string>
+  <string name="regional_band_summary_russia">רוסיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_singapore">סינגפור (88.0MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_slovakia">סלובקיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_spain">ספרד (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_switzerland">שוויץ (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_sweden">שוודיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_taiwan">טייוואן (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_turkey">טורקיה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_united_kingdom">בריטניה (87.5MHz עד 108.0MHz בקפיצות של 100KHz)</string>
+  <string name="regional_band_summary_united_states">ארצות הברית (88.1MHz עד 107.9MHz בקפיצות של 200KHz)</string>
+  <string name="regional_band_summary_user_defined">טווח מותאם אישית</string>
   <string name="aud_output_mode">מצב פלט שמע</string>
   <string name="audio_type_stereo">סטריאו</string>
   <string name="audio_type_mono">מונו</string>
@@ -96,7 +172,7 @@
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
   <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
-  <string name="audio_db_artist_name">הקלטות ה-FM שלי</string>
+  <string name="audio_db_artist_name">הקלטות ה- FM שלי</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
   <string name="audio_db_album_name">הקלטות FM</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->

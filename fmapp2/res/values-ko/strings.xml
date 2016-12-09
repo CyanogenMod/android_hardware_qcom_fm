@@ -60,6 +60,82 @@
   <string name="preset_search">\'<xliff:g id="preset_pi">%1$s</xliff:g>\' 검색</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="regional_band">지역 밴드</string>
+  <string name="regional_band_entry_north_america">북미 지역</string>
+  <string name="regional_band_entry_europe">유럽</string>
+  <string name="regional_band_entry_japan">일본</string>
+  <string name="regional_band_entry_japan_wide">일본 (와이드)</string>
+  <string name="regional_band_entry_australia">호주</string>
+  <string name="regional_band_entry_austria">오스트리아</string>
+  <string name="regional_band_entry_belgium">벨기에</string>
+  <string name="regional_band_entry_brazil">브라질</string>
+  <string name="regional_band_entry_china">중국</string>
+  <string name="regional_band_entry_czech_republic">체코 공화국</string>
+  <string name="regional_band_entry_denmark">덴마크</string>
+  <string name="regional_band_entry_finland">핀란드</string>
+  <string name="regional_band_entry_france">프랑스</string>
+  <string name="regional_band_entry_germany">독일</string>
+  <string name="regional_band_entry_greece">그리스</string>
+  <string name="regional_band_entry_hong_kong">홍콩</string>
+  <string name="regional_band_entry_india">인도</string>
+  <string name="regional_band_entry_indonesia">인도네시아</string>
+  <string name="regional_band_entry_ireland">아일랜드</string>
+  <string name="regional_band_entry_italy">이탈리아</string>
+  <string name="regional_band_entry_korea">대한민국</string>
+  <string name="regional_band_entry_mexico">멕시코</string>
+  <string name="regional_band_entry_netherlands">네덜란드</string>
+  <string name="regional_band_entry_new_zealand">뉴질랜드</string>
+  <string name="regional_band_entry_norway">노르웨이</string>
+  <string name="regional_band_entry_poland">폴란드</string>
+  <string name="regional_band_entry_portugal">포르투갈</string>
+  <string name="regional_band_entry_russia">러시아</string>
+  <string name="regional_band_entry_singapore">싱가포르</string>
+  <string name="regional_band_entry_slovakia">슬로바키아</string>
+  <string name="regional_band_entry_spain">스페인</string>
+  <string name="regional_band_entry_switzerland">스위스</string>
+  <string name="regional_band_entry_sweden">스웨덴</string>
+  <string name="regional_band_entry_taiwan">대만</string>
+  <string name="regional_band_entry_turkey">터키</string>
+  <string name="regional_band_entry_united_kingdom">영국</string>
+  <string name="regional_band_entry_united_states">미국</string>
+  <string name="regional_band_entry_user_defined">사용자 정의 밴드</string>
+  <string name="regional_band_summary_north_america">북미 지역 (87.5MHz ~ 108.0MHz, 200KHz 단위)</string>
+  <string name="regional_band_summary_europe">유럽 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_japan">일본 (76.0MHz ~  90.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_japan_wide">일본 (와이드) (90.0MHz ~ 108.0MHz, 50KHz 단위)</string>
+  <string name="regional_band_summary_australia">호주 (87.7MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_austria">오스트리아 (87.5MHz ~ 108.0MHz, 50KHz 단위)</string>
+  <string name="regional_band_summary_belgium">벨기에 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_brazil">브라질 (87.5MHz ~ 108.0MHz, 200KHz 단위)</string>
+  <string name="regional_band_summary_china">중국 (87.0MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_czech_republic">체코 공화국 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_denmark">덴마크 (87.5MHz ~ 108.0MHz, 50KHz 단위)</string>
+  <string name="regional_band_summary_finland">핀란드 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_france">프랑스 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_germany">독일 (87.5MHz ~ 108.0MHz, 50KHz 단위)</string>
+  <string name="regional_band_summary_greece">그리스 (87.5MHz ~ 108.0MHz, 50KHz 단위)</string>
+  <string name="regional_band_summary_hong_kong">홍콩 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_india">인도 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_indonesia">인도 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_ireland">아일랜드 (87.5MHz ~ 108.0MHz, 50KHz 단위)</string>
+  <string name="regional_band_summary_italy">이탈리아 (87.5MHz ~ 108.0MHz, 50KHz 단위)</string>
+  <string name="regional_band_summary_korea">대한민국 (87.5MHz ~ 108.0MHz, 200KHz 단위)</string>
+  <string name="regional_band_summary_mexico">멕시코 (88.1MHz ~ 107.9MHz, 200KHz 단위)</string>
+  <string name="regional_band_summary_netherlands">네덜란드 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_new_zealand">뉴질랜드 (88.0MHz ~ 107.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_norway">노르웨이 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_poland">폴란드 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_portugal">포르투갈 (87.5MHz ~ 108.0MHz, 50KHz 단위)</string>
+  <string name="regional_band_summary_russia">러시아 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_singapore">싱가포르 (88.0MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_slovakia">슬로바키아 (87.5MHz ~ 108.0MHz, 100 KHz 단위)</string>
+  <string name="regional_band_summary_spain">스페인 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_switzerland">스위스 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_sweden">스웨덴 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_taiwan">대만 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_turkey">터키 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_united_kingdom">영국 (87.5MHz ~ 108.0MHz, 100KHz 단위)</string>
+  <string name="regional_band_summary_united_states">미국 (88.1MHz ~ 107.9MHz, 200KHz 단위)</string>
+  <string name="regional_band_summary_user_defined">사용자 정의 밴드</string>
   <string name="aud_output_mode">소리 출력 모드</string>
   <string name="audio_type_stereo">스테레오</string>
   <string name="audio_type_mono">모노</string>
@@ -78,6 +154,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SD 카드에 여유 공간이 부족합니다. 음질 설정을 변경하거나 파일을 지워 여유 공간을 만들어주십시오.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">파일 크기 제한에 도달하였습니다.</string>
   <string name="menu_scan_for_preset">프리셋 검색</string>
   <!-- Off messages -->
   <string name="fm_off">FM이 꺼져 있습니다.</string>
@@ -93,9 +170,13 @@
   <string name="fm_cmd_failed_call_on">FM 실행이 실패했습니다. 전화 통화 중에는 FM 오디오를 사용할 수 없습니다.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">내 FM 녹음</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM 녹음</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM 녹음</string>
   <string name="station_name">방송국:</string>
   <string name="station_exists">이 주파수는 이미 존재합니다!</string>
   <string name="station_list_delete_station">삭제: <xliff:g id="name">%s</xliff:g></string>
@@ -107,6 +188,8 @@
   <string name="usr_def_band_max">가장 높은 주파수 (MHz)</string>
   <string name="chanl_spacing">채널 간격</string>
   <string name="set">설정</string>
+  <string name="user_defind_band_msg">76.0에서 108.0 MHz사이의 최소 1개의 채널 간격과 최대와 최소 주파수 사이에 100KHz 간격을 둔 주파수를 입력하세요</string>
+  <string name="save_record_file">FM 녹음이 \'<xliff:g id="record_file">%1$s</xliff:g>\'에 저장되었습니다</string>
   <string name="fm_search_no_results">호환되는 방송국 없음</string>
   <!-- program types -->
   <string name="typ_All_stations">모든 방송국</string>
