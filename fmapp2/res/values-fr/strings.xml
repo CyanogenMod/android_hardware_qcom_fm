@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turquie</string>
   <string name="regional_band_entry_united_kingdom">Royaume-Uni</string>
   <string name="regional_band_entry_united_states">États-Unis</string>
+  <string name="regional_band_entry_vietnam">Viêt Nam</string>
   <string name="regional_band_entry_user_defined">Bande définie par l\'utilisateur</string>
   <string name="regional_band_summary_north_america">Amérique du Nord (87,5 MHz à 108,0 MHz par paliers de 200 kHz)</string>
   <string name="regional_band_summary_europe">Europe (87,5 MHz à 108,0 MHz par paliers de 100 kHz)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Turquie (87,5 MHz à 108,0 MHz par paliers de 100 kHz)</string>
   <string name="regional_band_summary_united_kingdom">Royaume-Uni (87,5 MHz à 108,0 MHz par paliers de 100 kHz)</string>
   <string name="regional_band_summary_united_states">États-Unis (88,1 MHz à 107,9 MHz par paliers de 200 kHz)</string>
+  <string name="regional_band_summary_vietnam">Viêt Nam (87.5MHz à 108.0MHz par paliers de 100 KHz)</string>
   <string name="regional_band_summary_user_defined">Bande définie par l\'utilisateur</string>
   <string name="aud_output_mode">Mode de sortie audio</string>
   <string name="audio_type_stereo">Stéréo</string>

@@ -97,6 +97,7 @@
   <string name="regional_band_entry_turkey">Turkije</string>
   <string name="regional_band_entry_united_kingdom">Verenigd Koninkrijk</string>
   <string name="regional_band_entry_united_states">Verenigde Staten</string>
+  <string name="regional_band_entry_vietnam">Vietnam</string>
   <string name="regional_band_entry_user_defined">Aangepast</string>
   <string name="regional_band_summary_north_america">Noord-Amerika (87,5 MHz tot 108,0 MHz in stappen van 200 kHz)</string>
   <string name="regional_band_summary_europe">Europa (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</string>
@@ -135,6 +136,7 @@
   <string name="regional_band_summary_turkey">Turkije (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</string>
   <string name="regional_band_summary_united_kingdom">Verenigd Koninkrijk (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</string>
   <string name="regional_band_summary_united_states">Verenigde Staten (88,1 MHz tot 107,9 MHz in stappen van 200 kHz)</string>
+  <string name="regional_band_summary_vietnam">Vietnam (87,5 MHz tot 108,0 MHz in stappen van 100 kHz)</string>
   <string name="regional_band_summary_user_defined">Aangepast</string>
   <string name="aud_output_mode">Audio-uitvoer modus</string>
   <string name="audio_type_stereo">Stereo</string>
@@ -188,8 +190,8 @@
   <string name="typ_Country">Country</string>
   <string name="typ_Documentary">Documentaire</string>
   <string name="typ_Drama">Drama</string>
-  <string name="typ_Easy_listening">Easy Listening</string>
-  <string name="typ_Education">Educatie</string>
+  <string name="typ_Easy_listening">Easy listening</string>
+  <string name="typ_Education">Educatief</string>
   <string name="typ_Emergency">Noodgeval</string>
   <string name="typ_Emergency_test">Noodgevallentest</string>
   <string name="typ_Finance">Financiën</string>
@@ -204,9 +206,9 @@
   <string name="typ_Oldies">Oldies</string>
   <string name="typ_Phone_in">Inbellen</string>
   <string name="typ_Pop">Pop</string>
-  <string name="typ_Religion">Religie</string>
+  <string name="typ_Religion">Religieus</string>
   <string name="typ_Rock">Rock</string>
-  <string name="typ_Science">Wetenschap</string>
+  <string name="typ_Science">Wetenschappelijk</string>
   <string name="typ_Serious_classical">Serieus klassiek</string>
   <string name="typ_Social_affairs">Sociale zaken</string>
   <string name="typ_Sport">Sport</string>
@@ -223,7 +225,7 @@
   <string name="typ_Nostalgia">Nostalgisch</string>
   <string name="typ_Personality">Persoonlijkheid</string>
   <string name="typ_Public">Publiek</string>
-  <string name="typ_Religious_music">Religieuze muziek</string>
+  <string name="typ_Religious_music">Religieus</string>
   <string name="typ_Religious_talk">Religieus gesproken</string>
   <string name="typ_Rhythm_and_Blues">Rhythm and Blues</string>
   <string name="typ_Spanish_music">Spaanse muziek</string>

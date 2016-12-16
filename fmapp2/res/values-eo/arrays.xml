@@ -29,25 +29,16 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources>
-  <string-array name="ster_mon_entries">
-    <item>Dukanale</item>
-    <item>Unuflanka</item>
-  </string-array>
   <string-array name="record_durations_entries">
     <item>5 minutoj</item>
     <item>15 minutoj</item>
     <item>30 minutoj</item>
-    <item>Ĝis haltita</item>
+    <item>Until stopped</item>
   </string-array>
   <string-array name="sleep_duration_values">
     <item>15 minutoj</item>
-    <item>30  minutoj</item>
+    <item>30 minutoj</item>
     <item>45  minutoj</item>
     <item>1 horo</item>
-  </string-array>
-  <string-array name="channel_spacing_entries">
-    <item>50 KHz</item>
-    <item>100 KHz</item>
-    <item>200 KHz</item>
   </string-array>
 </resources>
