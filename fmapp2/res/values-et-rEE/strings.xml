@@ -60,6 +60,82 @@
   <string name="preset_search">Otsi \'<xliff:g id="preset_pi">%1$s</xliff:g>\'</string>
   <string name="stat_notif_frequency">\'<xliff:g id="frequency">%1$s</xliff:g>\' MHz</string>
   <string name="regional_band">Kohalik sagedusala</string>
+  <string name="regional_band_entry_north_america">Põhja-Ameerika</string>
+  <string name="regional_band_entry_europe">Euroopa</string>
+  <string name="regional_band_entry_japan">Jaapan</string>
+  <string name="regional_band_entry_japan_wide">Jaapan (kogu)</string>
+  <string name="regional_band_entry_australia">Austraalia</string>
+  <string name="regional_band_entry_austria">Austria</string>
+  <string name="regional_band_entry_belgium">Belgia</string>
+  <string name="regional_band_entry_brazil">Brasiilia</string>
+  <string name="regional_band_entry_china">Hiina</string>
+  <string name="regional_band_entry_czech_republic">Tšehhi Vabariik</string>
+  <string name="regional_band_entry_denmark">Taani</string>
+  <string name="regional_band_entry_finland">Soome</string>
+  <string name="regional_band_entry_france">Prantsusmaa</string>
+  <string name="regional_band_entry_germany">Saksamaa</string>
+  <string name="regional_band_entry_greece">Kreeka</string>
+  <string name="regional_band_entry_hong_kong">Hong Kong</string>
+  <string name="regional_band_entry_india">India</string>
+  <string name="regional_band_entry_indonesia">Indoneesia</string>
+  <string name="regional_band_entry_ireland">Iirimaa</string>
+  <string name="regional_band_entry_italy">Itaalia</string>
+  <string name="regional_band_entry_korea">Korea</string>
+  <string name="regional_band_entry_mexico">Mehhiko</string>
+  <string name="regional_band_entry_netherlands">Holland</string>
+  <string name="regional_band_entry_new_zealand">Uus-Meremaa</string>
+  <string name="regional_band_entry_norway">Norra</string>
+  <string name="regional_band_entry_poland">Poola</string>
+  <string name="regional_band_entry_portugal">Portugal</string>
+  <string name="regional_band_entry_russia">Venemaa</string>
+  <string name="regional_band_entry_singapore">Singapur</string>
+  <string name="regional_band_entry_slovakia">Slovakkia</string>
+  <string name="regional_band_entry_spain">Hispaania</string>
+  <string name="regional_band_entry_switzerland">Šveits</string>
+  <string name="regional_band_entry_sweden">Rootsi</string>
+  <string name="regional_band_entry_taiwan">Taiwan</string>
+  <string name="regional_band_entry_turkey">Türgi</string>
+  <string name="regional_band_entry_united_kingdom">Suurbritannia</string>
+  <string name="regional_band_entry_united_states">Ameerika Ühendriigid</string>
+  <string name="regional_band_entry_user_defined">Kasutaja määratud sagedusala</string>
+  <string name="regional_band_summary_north_america">Põhja-Ameerikas (200 KHz samm 87,5 MHz-108.0 MHz)</string>
+  <string name="regional_band_summary_europe">Euroopa (100 KHz samm 87,5 MHz-108.0 MHz)</string>
+  <string name="regional_band_summary_japan">Jaapan (100 KHz samm, 76,0 MHz -90.0 MHz)</string>
+  <string name="regional_band_summary_japan_wide">Jaapan (Lai) (50 KHz samm, 90,0 MHz-108.0 MHz)</string>
+  <string name="regional_band_summary_australia">Austraalia (100 KHz samm, 87,7 MHz-108.0 MHz)</string>
+  <string name="regional_band_summary_austria">Austria (50 KHz samm, 87,5 MHz-108.0 MHz)</string>
+  <string name="regional_band_summary_belgium">Belgia (100 KHz samm, 87,5 MHz-108.0 MHz)</string>
+  <string name="regional_band_summary_brazil">Brasiilia (87.5MHz-108.0MHz 200 KHz astmetega)</string>
+  <string name="regional_band_summary_china">Hiina (87.0MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_czech_republic">Tšehhi vabariik (100 KHz samm, 87.5MHz-108.0MHz)</string>
+  <string name="regional_band_summary_denmark">Taani (87.5MHz-108.0MHz 50 KHz astmetega)</string>
+  <string name="regional_band_summary_finland">Soome (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_france">Prantsusmaa (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_germany">Saksamaa (87.5MHz-108.0MHz 50 KHz astmetega)</string>
+  <string name="regional_band_summary_greece">Kreeka (87.5MHz-108.0MHz 50 KHz astmetega)</string>
+  <string name="regional_band_summary_hong_kong">Hong Kong (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_india">India (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_indonesia">Indoneesia (100 KHz samm, 87.5MHz-108.0MHz)</string>
+  <string name="regional_band_summary_ireland">Iirimaa (87.5MHz-108.0MHz 50 KHz astmetega)</string>
+  <string name="regional_band_summary_italy">Itaalia (87.5MHz-108.0MHz 50 KHz astmetega)</string>
+  <string name="regional_band_summary_korea">Korea (87.5MHz-108.0MHz 200 KHz astmetega)</string>
+  <string name="regional_band_summary_mexico">Mehhiko (88.1MHz-107.9MHz 200 KHz astmetega)</string>
+  <string name="regional_band_summary_netherlands">Madalmaad (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_new_zealand">Uus-Meremaa (88.0MHz-107.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_norway">Norra (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_poland">Poola (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_portugal">Portugal (87.5MHz-108.0MHz 50 KHz astmetega)</string>
+  <string name="regional_band_summary_russia">Venemaa (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_singapore">Singapur (88.0MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_slovakia">Slovakkia (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_spain">Hispaania (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_switzerland">šveits (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_sweden">Rootsi (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_taiwan">Taiwan (87,5 MHz-108.0 MHz 100 kh astmetega)</string>
+  <string name="regional_band_summary_turkey">Türgi (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_united_kingdom">Ameerika Ühendriigid (87.5MHz-108.0MHz 100 KHz astmetega)</string>
+  <string name="regional_band_summary_united_states">Ameerika Ühendriikides ( 88.1 MHz-107.9 MHz 200 Hz sammudega)</string>
+  <string name="regional_band_summary_user_defined">Kasutaja määratud sagedusala</string>
   <string name="aud_output_mode">Heliväljundi režiim</string>
   <string name="audio_type_stereo">Stereo</string>
   <string name="audio_type_mono">Mono</string>
@@ -78,6 +154,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Teie SD-kaardi vaba ruum on otsakorral. Muutke kvaliteediseadeid või kustutage mõni fail ruumi vabastamiseks.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Suurus saavutatud.</string>
   <string name="menu_scan_for_preset">Näita eelmääratuid</string>
   <!-- Off messages -->
   <string name="fm_off">FM on välja lülitatud.</string>
@@ -93,9 +170,13 @@
   <string name="fm_cmd_failed_call_on">FM toiming nurjus. FM audio pole saadaval kõne ajal.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Minu FM-salvestised</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM-salvestised</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM-salvestised</string>
   <string name="station_name">Jaam:</string>
   <string name="station_exists">See sagedus on juba olemas!</string>
   <string name="station_list_delete_station">Kustuta: <xliff:g id="name"> %s </xliff:g></string>
@@ -107,6 +188,8 @@
   <string name="usr_def_band_max">Kõrgeim sagedus (MHz)</string>
   <string name="chanl_spacing">Kanalisamm</string>
   <string name="set">Määra</string>
+  <string name="user_defind_band_msg">Sisestage vähemalt üks kanal vahemikus 76,0-108,0 MHz, mis on vähemalt 100 KHz laiune</string>
+  <string name="save_record_file">FM salvestus talletatud \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Ei leitud ühtegi ühilduvat jaama</string>
   <!-- program types -->
   <string name="typ_All_stations">Kõik jaamad</string>

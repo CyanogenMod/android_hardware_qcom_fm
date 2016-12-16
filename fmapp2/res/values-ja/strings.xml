@@ -60,6 +60,82 @@
   <string name="preset_search">｢<xliff:g id="preset_pi">%1$s</xliff:g>｣を検索</string>
   <string name="stat_notif_frequency">｢<xliff:g id="frequency">%1$s</xliff:g>｣MHz</string>
   <string name="regional_band">地域帯域</string>
+  <string name="regional_band_entry_north_america">北アメリカ</string>
+  <string name="regional_band_entry_europe">ヨーロッパ</string>
+  <string name="regional_band_entry_japan">日本</string>
+  <string name="regional_band_entry_japan_wide">日本（ワイド）</string>
+  <string name="regional_band_entry_australia">オーストラリア</string>
+  <string name="regional_band_entry_austria">オーストリア</string>
+  <string name="regional_band_entry_belgium">ベルギー</string>
+  <string name="regional_band_entry_brazil">ブラジル</string>
+  <string name="regional_band_entry_china">中国</string>
+  <string name="regional_band_entry_czech_republic">チェコ共和国</string>
+  <string name="regional_band_entry_denmark">デンマーク</string>
+  <string name="regional_band_entry_finland">フィンランド</string>
+  <string name="regional_band_entry_france">フランス</string>
+  <string name="regional_band_entry_germany">ドイツ</string>
+  <string name="regional_band_entry_greece">ギリシャ</string>
+  <string name="regional_band_entry_hong_kong">香港</string>
+  <string name="regional_band_entry_india">インド</string>
+  <string name="regional_band_entry_indonesia">インドネシア</string>
+  <string name="regional_band_entry_ireland">アイルランド</string>
+  <string name="regional_band_entry_italy">イタリア</string>
+  <string name="regional_band_entry_korea">韓国</string>
+  <string name="regional_band_entry_mexico">メキシコ</string>
+  <string name="regional_band_entry_netherlands">オランダ</string>
+  <string name="regional_band_entry_new_zealand">ニュージーランド</string>
+  <string name="regional_band_entry_norway">ノルウェー</string>
+  <string name="regional_band_entry_poland">ポーランド</string>
+  <string name="regional_band_entry_portugal">ポルトガル</string>
+  <string name="regional_band_entry_russia">ロシア</string>
+  <string name="regional_band_entry_singapore">シンガポール</string>
+  <string name="regional_band_entry_slovakia">スロバキア</string>
+  <string name="regional_band_entry_spain">スペイン</string>
+  <string name="regional_band_entry_switzerland">スイス</string>
+  <string name="regional_band_entry_sweden">スウェーデン</string>
+  <string name="regional_band_entry_taiwan">台湾</string>
+  <string name="regional_band_entry_turkey">トルコ</string>
+  <string name="regional_band_entry_united_kingdom">イギリス</string>
+  <string name="regional_band_entry_united_states">アメリカ合衆国</string>
+  <string name="regional_band_entry_user_defined">ユーザー定義バンド</string>
+  <string name="regional_band_summary_north_america">北アメリカ（87.5MHz～108.0MHz 200 KHzステップ）</string>
+  <string name="regional_band_summary_europe">ヨーロッパ（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_japan">日本（76.0MHz～90.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_japan_wide">日本（ワイド）（90.0MHz～108.0MHz 50 KHzステップ）</string>
+  <string name="regional_band_summary_australia">オーストラリア（87.7MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_austria">オーストリア（87.5MHz～108.0MHz 50 KHzステップ）</string>
+  <string name="regional_band_summary_belgium">ベルギー（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_brazil">ブラジル（87.5MHz～108.0MHz 200 KHzステップ）</string>
+  <string name="regional_band_summary_china">中国（87.0MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_czech_republic">チェコ共和国（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_denmark">デンマーク（87.5MHz～108.0MHz 50 KHzステップ）</string>
+  <string name="regional_band_summary_finland">フィンランド（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_france">フランス（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_germany">ドイツ（87.5MHz～108.0MHz 50 KHzステップ）</string>
+  <string name="regional_band_summary_greece">ギリシャ（87.5MHz～108.0MHz 50 KHzステップ）</string>
+  <string name="regional_band_summary_hong_kong">香港（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_india">インド（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_indonesia">インドネシア（87.5MHz～108.0MHz 100 KHzステップ)</string>
+  <string name="regional_band_summary_ireland">アイルランド（87.5MHz～108.0MHz 50 KHzステップ）</string>
+  <string name="regional_band_summary_italy">イタリア（87.5MHz～108.0MHz 50 KHzステップ）</string>
+  <string name="regional_band_summary_korea">韓国（87.5MHz～108.0MHz 200 KHzステップ）</string>
+  <string name="regional_band_summary_mexico">メキシコ（88.1MHz～107.9MHz 200 KHzステップ）</string>
+  <string name="regional_band_summary_netherlands">オランダ（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_new_zealand">ニュージーランド（88.0MHz～107.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_norway">ノルウェー（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_poland">ポーランド（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_portugal">ポルトガル（87.5MHz～108.0MHz 50 KHzステップ）</string>
+  <string name="regional_band_summary_russia">ロシア（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_singapore">シンガポール（88.0MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_slovakia">スロバキア（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_spain">スペイン（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_switzerland">スイス（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_sweden">スウェーデン（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_taiwan">台湾（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_turkey">トルコ（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_united_kingdom">イギリス（87.5MHz～108.0MHz 100 KHzステップ）</string>
+  <string name="regional_band_summary_united_states">アメリカ合衆国（88.1MHz～107.9MHz 200 KHzステップ）</string>
+  <string name="regional_band_summary_user_defined">ユーザー定義バンド</string>
   <string name="aud_output_mode">オーディオ出力モード</string>
   <string name="audio_type_stereo">ステレオ</string>
   <string name="audio_type_mono">モノラル</string>
@@ -78,6 +154,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">SDカードのストレージの容量が少なくなっています。音質の設定を変更するか、容量を空けるために他のファイルを一部削除してください。</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">サイズの上限に達しました。</string>
   <string name="menu_scan_for_preset">プリセットをスキャン</string>
   <!-- Off messages -->
   <string name="fm_off">FMはOFFになっています。</string>
@@ -93,9 +170,13 @@
   <string name="fm_cmd_failed_call_on">FMを操作できませんでした。通話中のFMオーディオは許可されていません。</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">FM録音</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM録音</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM録音</string>
   <string name="station_name">局:</string>
   <string name="station_exists">この周波数は既に存在しています。</string>
   <string name="station_list_delete_station">削除: <xliff:g id="name">%s</xliff:g></string>
@@ -107,6 +188,7 @@
   <string name="usr_def_band_max">最大周波数（MHz）</string>
   <string name="chanl_spacing">チャネル間隔</string>
   <string name="set">設定</string>
+  <string name="user_defind_band_msg">76.0 MHzから108.0 MHzまでの間で最低周波数と最高周波数の間が100 KHzになるように最小1チャネル間隔で周波数を入力してください。</string>
   <string name="save_record_file">FM録音は[<xliff:g id="record_file">%1$s</xliff:g>]に保存されました。</string>
   <string name="fm_search_no_results">互換性のある局が見つかりませんでした</string>
   <!-- program types -->
@@ -120,7 +202,7 @@
   <string name="typ_Easy_listening">イージーリスニング音楽</string>
   <string name="typ_Education">教育</string>
   <string name="typ_Emergency">緊急</string>
-  <string name="typ_Emergency_test">緊急テスト</string>
+  <string name="typ_Emergency_test">緊急試験</string>
   <string name="typ_Finance">ファイナンス</string>
   <string name="typ_Folk">フォークミュージック</string>
   <string name="typ_Information">情報</string>
@@ -128,11 +210,11 @@
   <string name="typ_Light_classical">ライトクラシック</string>
   <string name="typ_Leisure">レジャー</string>
   <string name="typ_News">ニュース</string>
-  <string name="typ_National">ナショナルミュージック</string>
+  <string name="typ_National">ナショナル音楽</string>
   <string name="typ_Other">その他の音楽</string>
   <string name="typ_Oldies">オールディーズ音楽</string>
   <string name="typ_Phone_in">視聴者参加型番組</string>
-  <string name="typ_Pop">ポップミュージック</string>
+  <string name="typ_Pop">ポップ音楽</string>
   <string name="typ_Religion">宗教</string>
   <string name="typ_Rock">ロック音楽</string>
   <string name="typ_Science">科学</string>
@@ -144,7 +226,7 @@
   <string name="typ_Weather">天気</string>
   <!-- RBDS (North America) -->
   <string name="typ_Adult_hits">アダルトヒット</string>
-  <string name="typ_Classical">古典</string>
+  <string name="typ_Classical">クラシック</string>
   <string name="typ_Classic_Rock">クラシックロック</string>
   <string name="typ_College">大学</string>
   <string name="typ_Foreign_language">外国語</string>
