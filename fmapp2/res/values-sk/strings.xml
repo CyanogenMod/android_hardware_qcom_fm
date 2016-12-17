@@ -154,6 +154,7 @@
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">Na Vašej karte SD nie je dostatok voľného miesta. Zmeňte nastavenie kvality alebo zmažte niektoré obrázky alebo iné súbory.</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">Dosiahol sa limit veľkosti.</string>
   <string name="menu_scan_for_preset">Skenovať predvoľby</string>
   <!-- Off messages -->
   <string name="fm_off">FM rádio je vypnuté.</string>
@@ -169,9 +170,13 @@
   <string name="fm_cmd_failed_call_on">FM operácia zlyhala. Zvuk z FM rádia počas prebiehajúceho hovoru nie je povolený.</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">Moje nahrávky FM</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">Nahrávky FM</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">Nahrávky FM</string>
   <string name="station_name">Stanica:</string>
   <string name="station_exists">Táto frekvencia už existuje!</string>
   <string name="station_list_delete_station">Odstrániť: <xliff:g id="name">%s</xliff:g></string>
@@ -183,6 +188,8 @@
   <string name="usr_def_band_max">Najvyššia frekvencia (MHz)</string>
   <string name="chanl_spacing">Oddeľovač kanálov</string>
   <string name="set">Nastaviť</string>
+  <string name="user_defind_band_msg">Zadajte frekvenciu od 76,0 do 108,0 MHz s minimálne 1 kanálovým odstupom a 100 KHz priestorom medzi min a max frekvenciou</string>
+  <string name="save_record_file">Nahraný súbor bol uložený do \'<xliff:g id="record_file">%1$s</xliff:g>\'</string>
   <string name="fm_search_no_results">Nenašli sa žiadne kompatibilné stanice</string>
   <!-- program types -->
   <string name="typ_All_stations">Všetky stanice</string>
