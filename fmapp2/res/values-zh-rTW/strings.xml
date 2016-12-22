@@ -56,6 +56,7 @@
   <string name="preset_replace">取代</string>
   <string name="preset_tune">調整</string>
   <string name="preset_rename">重新命名</string>
+  <string name="preset_delete">移除</string>
   <string name="preset_search">正在搜尋「<xliff:g id="preset_pi">%1$s</xliff:g>」</string>
   <string name="stat_notif_frequency"><xliff:g id="frequency">%1$s</xliff:g> MHz</string>
   <string name="regional_band">地區頻段</string>
@@ -137,6 +138,7 @@
   <string name="regional_band_summary_user_defined">使用者定義的頻段</string>
   <string name="aud_output_mode">音訊輸出模式</string>
   <string name="audio_type_stereo">立體聲</string>
+  <string name="audio_type_mono">單色</string>
   <string name="record_dur">錄製長度</string>
   <string name="auto_select_af">備用頻率</string>
   <string name="settings_revert_defaults_title">恢復原廠設定</string>
@@ -146,26 +148,36 @@
   <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">開始錄製前請先掛載 SD 卡。</string>
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+  <string name="preparing_sd">正在準備 SD 卡…</string>
   <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">無法存取 SD 卡。</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content">您的 SD 卡儲存空間即將用完，更改品質設定或刪除一些檔案即可增加可用空間。</string>
   <!-- The messsage shown when FM record reaches size limit. -->
+  <string name="FMRecording_reach_size_limit">已達大小上限。</string>
   <string name="menu_scan_for_preset">掃描預設</string>
   <!-- Off messages -->
+  <string name="fm_off">FM 已關閉。</string>
+  <string name="fm_call">FM 不能在通話時使用</string>
   <!-- The messsage shown when long pressed on a station. -->
   <string name="alert_dialog_hint">輸入名稱 </string>
   <string name="search_dialog_title">掃描電台</string>
-  <string name="fm_tune_timeout_msg">未收到回應來調整 FM 電台。如果問題仍然持續，請關閉 FM，並將其重新打開。</string>
+  <string name="fm_command_timeout_title">逾時</string>
+  <string name="fm_tune_timeout_msg">未收到回應來調整 FM 電台。如果問題仍然持續，請關閉 FM，並將其重新開啟。</string>
   <string name="fm_command_failed_title">FM 操作失敗</string>
-  <string name="fm_cmd_failed_msg">FM 操作失敗。如果問題仍然持續，請關閉 FM，並將其重新打開。</string>
+  <string name="fm_cmd_failed_msg">FM 操作失敗。如果問題仍然持續，請關閉 FM，並將其重新開啟。</string>
   <string name="fm_cmd_failed_msg_hdmi">FM 操作失敗。不支援 FM和 HDMI 併頻 。 </string>
   <string name="fm_cmd_failed_call_on">FM 操作失敗。通話期間禁止 FM 音訊。</string>
   <!-- Do not translate. Duration format. -->
   <!-- the name under which recordings will be visible in the media database is formatted like this -->
+  <string name="audio_db_title_format"><xliff:g id="format"> yyyy-MM-dd HH:mm:ss </xliff:g></string>
   <!-- all recordings will show up in the media database with this 'artist' name -->
+  <string name="audio_db_artist_name">我的 FM 錄音</string>
   <!-- all recordings will show up in the media database with this 'album' name -->
+  <string name="audio_db_album_name">FM 錄音</string>
   <!-- all recordings will show up in the media database in a playlist with this name -->
+  <string name="audio_db_playlist_name">FM 錄音</string>
+  <string name="station_name">電台：</string>
   <string name="station_exists">此頻率已存在！</string>
   <string name="station_list_delete_station">刪除：<xliff:g id="name">%s</xliff:g></string>
   <string name="station_list_delete_station_prompt">您確定要刪除「<xliff:g id="name">%s</xliff:g>」？</string>
@@ -176,6 +188,61 @@
   <string name="usr_def_band_max">最高頻率 (MHz)</string>
   <string name="chanl_spacing">頻道間距</string>
   <string name="set">設定</string>
+  <string name="user_defind_band_msg">輸入由 76.0Mhz 至 108.0Mhz 間的頻率，並需以至少一個頻道間隔，以及與最高和最低頻率分別間隔至少100KHz</string>
+  <string name="save_record_file">FM 錄音檔已儲存至「<xliff:g id="record_file">%1$s</xliff:g>」</string>
+  <string name="fm_search_no_results">沒有找到相容的頻道</string>
   <!-- program types -->
+  <string name="typ_All_stations">所有電台</string>
+  <string name="typ_Culture">文化</string>
+  <string name="typ_Current_affairs">目前事務</string>
+  <string name="typ_Children">兒童節目</string>
+  <string name="typ_Country">鄉村音樂</string>
+  <string name="typ_Documentary">寫實</string>
+  <string name="typ_Drama">戲劇</string>
+  <string name="typ_Easy_listening">輕音樂</string>
+  <string name="typ_Education">教育</string>
+  <string name="typ_Emergency">緊急</string>
+  <string name="typ_Emergency_test">應急測試</string>
+  <string name="typ_Finance">財經</string>
+  <string name="typ_Folk">民間音樂</string>
+  <string name="typ_Information">資訊</string>
+  <string name="typ_Jazz">爵士音樂</string>
+  <string name="typ_Light_classical">輕古典</string>
+  <string name="typ_Leisure">休閒</string>
+  <string name="typ_News">新聞</string>
+  <string name="typ_National">民族音樂</string>
+  <string name="typ_Other">其他音樂</string>
+  <string name="typ_Oldies">懷舊音樂</string>
+  <string name="typ_Phone_in">Phone In</string>
+  <string name="typ_Pop">流行音樂</string>
+  <string name="typ_Religion">宗教</string>
+  <string name="typ_Rock">搖滾音樂</string>
+  <string name="typ_Science">科學</string>
+  <string name="typ_Serious_classical">嚴肅古典</string>
+  <string name="typ_Social_affairs">社會事務</string>
+  <string name="typ_Sport">運動</string>
+  <string name="typ_Travel">旅遊</string>
+  <string name="typ_Varied">大千世界</string>
+  <string name="typ_Weather">天氣</string>
   <!-- RBDS (North America) -->
+  <string name="typ_Adult_hits">成人點播</string>
+  <string name="typ_Classical">古典</string>
+  <string name="typ_Classic_Rock">經典搖滾</string>
+  <string name="typ_College">校園</string>
+  <string name="typ_Foreign_language">外語</string>
+  <string name="typ_Hiphop">嘻哈</string>
+  <string name="typ_Nostalgia">懷舊</string>
+  <string name="typ_Personality">個性</string>
+  <string name="typ_Public">公開</string>
+  <string name="typ_Religious_music">宗教音樂</string>
+  <string name="typ_Religious_talk">宗教談話</string>
+  <string name="typ_Rhythm_and_Blues">節奏及藍調</string>
+  <string name="typ_Spanish_music">西班牙音樂</string>
+  <string name="typ_Spanish_talk">西班牙對話</string>
+  <string name="typ_Soft">柔和</string>
+  <string name="typ_Soft_Rock">軟搖滾</string>
+  <string name="typ_Soft_Rhythm_and_Blues">柔和節奏及藍調</string>
+  <string name="typ_Sports">體育</string>
+  <string name="typ_Talk">談話</string>
+  <string name="typ_Top_40">前 40</string>
 </resources>
