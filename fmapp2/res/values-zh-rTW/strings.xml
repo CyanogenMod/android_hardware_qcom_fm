@@ -144,11 +144,11 @@
   <string name="settings_revert_defaults_title">恢復原廠設定</string>
   <string name="settings_revert_defaults_summary">清除所有設定</string>
   <string name="settings_revert_confirm_title">確定重設</string>
-  <string name="settings_revert_confirm_msg">將會清除所有應用程式設定，包括已儲存的預設值。繼續？</string>
+  <string name="settings_revert_confirm_msg">將會清除所有應用程式設定，包括已儲存的預設值。是否繼續？</string>
   <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
   <string name="no_storage">開始錄製前請先掛載 SD 卡。</string>
   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
-  <string name="preparing_sd">正在準備 SD 卡…</string>
+  <string name="preparing_sd">正在準備 SD 卡\u2026</string>
   <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
   <string name="access_sd_fail">無法存取 SD 卡。</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
@@ -180,7 +180,7 @@
   <string name="station_name">電台：</string>
   <string name="station_exists">此頻率已存在！</string>
   <string name="station_list_delete_station">刪除：<xliff:g id="name">%s</xliff:g></string>
-  <string name="station_list_delete_station_prompt">您確定要刪除「<xliff:g id="name">%s</xliff:g>」？</string>
+  <string name="station_list_delete_station_prompt">您確定要刪除「<xliff:g id="name">%s</xliff:g>」嗎？</string>
   <string name="station_name_empty">電台名字不能為空，請重新輸入。</string>
   <string name="station_name_exist">「<xliff:g id="name">%s</xliff:g>」已被使用，請輸入其他名稱。</string>
   <string name="rt_plus_tags">標籤</string>
